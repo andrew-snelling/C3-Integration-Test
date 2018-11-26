@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="8de1ece4-ff21-4d37-acd7-546f5527f185" revisionNumber="18"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>A waterfall chart shows a running total as values are added or subtracted. It's useful for understanding how an initial value (for example, net income) is affected by a series of positive and negative values.</para>
+		<para>The columns are color coded so you can quickly tell positive from negative numbers. The initial and the final value columns often <link xlink:href="8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float">start on the horizontal axis</link>, while the intermediate values are floating columns. Because of this "look", waterfall charts are also called bridge charts.</para>
+		<para><mediaLinkInline><image xlink:href="fe924f0b-bdff-4cb8-bb45-7680e33715d2" /></mediaLinkInline></para>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<tabControl controlId="OfficeVersion">
+				<tabControlItem targetedOS="Windows">
+					<tabControlItemTitle>Windows</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+						</content>
+						<sections>
+							<section>
+								<title>Create a waterfall chart</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Select your data.</para>
+											<mediaLink><caption>Data used to create the example waterfall chart above</caption>
+												<image xlink:href="06964e96-4b4f-4b21-9188-4f953a929371" />
+											</mediaLink>
+																					</listItem>
+										<listItem>
+											<para>Click <ui>Insert</ui> &gt; <ui> Insert Waterfall or Stock chart</ui> &gt; <ui>Waterfall</ui>.</para>
+											<para><mediaLinkInline><image xlink:href="d91f619c-ec0e-4b1c-a5ea-b999a6d35d28" /></mediaLinkInline></para>
+											<para>You can also use the <ui>All Charts</ui> tab in <ui>Recommended Charts</ui> to create a waterfall chart.</para>
+										</listItem>
+									</list>
+									<alert class="tip">
+										<para>Use the <ui>Design</ui> and <ui>Format</ui> tabs to customize the look of your chart. If you don't see these tabs, click anywhere in the waterfall chart to add the <ui>Chart Tools</ui> to the ribbon.</para>
+									</alert>
+									<mediaLink>
+										<image xlink:href="fd7db992-63b2-4e28-a877-a2ae13d6b7ef" />
+									</mediaLink>
+								</content>
+							</section>
+							<section address="BKMK_Float">
+								<title>Start subtotals or totals from the horizontal axis</title>
+								<content>
+									<para>If your data includes values that are considered Subtotals or Totals, such as Net Income, you can set those values so they start on the horizontal axis at zero and don't "float".</para>
+									<list class="bullet">
+										<listItem>
+											<para>Double-click a data point to open the <ui>Format Data Point</ui> task pane, and check the <ui>Set as total</ui> box.</para>
+											<para><mediaLinkInline><image xlink:href="19ba949c-4d56-4803-9bb1-dbc2f97bee9b" /></mediaLinkInline></para>
+											<alert class="note">
+												<para>If you single-click the column, you'll select the data series and not the data point.</para>
+											</alert>
+											<para>To make the column "float" again, uncheck the <ui>Set as total</ui> box.</para>
+											<alert class="tip">
+												<para>You can also set totals by right-clicking on a data point and picking <ui>Set as Total</ui> from the shortcut menu.</para>
+											</alert>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section>
+								<title>Show or hide connector lines</title>
+								<content>
+									<para>Connector lines connect the end of each column to the beginning of the next column, helping show the flow of the data in the chart.</para>
+									<list class="bullet">
+										<listItem>
+											<para>To hide the connector lines, right-click a data series to open the <ui>Format Data Series</ui> task pane, and uncheck the <ui>Show connector lines</ui> box.</para>
+											<para><mediaLinkInline><image xlink:href="bca0035d-769d-4b02-8cab-03a4bef3e239" /></mediaLinkInline></para>
+											<para>To show the lines again, check the <ui>Show connector lines</ui> box.</para>
+										</listItem>
+									</list>
+									<alert class="tip">
+										<para>The chart legend groups the different types of data points in the chart: <ui>Increase</ui>, <ui>Decrease</ui>, and <ui>Total</ui>. Clicking a legend entry highlights all the columns that make up that group on the chart.</para>
+									</alert>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOS="Mac">
+					<tabControlItemTitle>macOS</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para>Here's how you create a waterfall chart in Excel for Mac:</para>
+							<list class="ordered">
+								<listItem>
+									<para>Select your data.</para>
+									<mediaLink><caption>Data used to create the example waterfall chart above</caption>
+										<image xlink:href="06964e96-4b4f-4b21-9188-4f953a929371" />
+									</mediaLink>
+																	</listItem>
+								<listItem>
+									<para>On the <ui>Insert</ui> tab on the ribbon, click <mediaLinkInline><image xlink:href="6bf78a0e-223c-4ab1-a4d5-5f68a62e018b" /></mediaLinkInline> (Waterfall icon) and select <ui>Waterfall</ui>.</para>
+									<mediaLink>
+										<image xlink:href="370c8f7d-8f0e-4558-8522-f783a802b24b" />
+									</mediaLink>
+									<alert class="note">
+										<para>Use the <ui>Chart Design</ui> and <ui>Format</ui> tabs to customize the look of your chart. If you don't see these tabs, click anywhere in the Waterfall chart to display them on the ribbon.</para>
+									</alert>
+								</listItem>
+							</list>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+			</tabControl>
+			<para>To read more about the waterfall chart and its uses, see this <externalLink><linkText>blog post on the waterfall chart</linkText><linkUri>https://blogs.office.com/2015/08/04/introducing-the-waterfall-chart-a-deep-dive-to-a-more-streamlined-chart/</linkUri></externalLink> by the Excel team. You may also be interested learning more about <externalLink><linkText>the other new chart types described in this blog post</linkText><linkUri>https://blogs.office.com/2015/07/02/introducing-new-and-modern-chart-types-now-available-in-office-2016-preview/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

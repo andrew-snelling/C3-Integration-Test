@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="0a5b2924-81bc-46ed-85a9-5a2109d2d69c" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>Always wondered how many emails you receive? How many emails you send? Who sends you most of your emails? With <token>Excel_2016</token> you can use the <ui>Email Insights</ui> template to gain extensive, and insightful information on how you use your email account.</para>
+  </introduction>
+  <section>
+    <title>Using the Email Insights template</title>
+    <content>
+      <para>To use the <legacyBold>Email Insights</legacyBold> template, you need <token>Excel_2016</token> or a subscription to <token>Office365</token>. To access your data using the template you need an active <token>TE102656022</token>.</para>
+    </content>
+    <sections>
+      <section>
+        <title>Open the Email Insights template</title>
+        <content>
+          <para>To open the <ui>Email Insights</ui> template, select <ui>New</ui> &gt; <ui>Email Insights</ui>.</para>
+          <alert class="note">
+            <para>If you can't see the template, use the search box and type <legacyBold>Email Insights</legacyBold>, and then select the magnifying glass button to begin the search (or press <ui>Enter</ui>).</para>
+          </alert>
+          <para>Once the template is open, you see the first workbook tab, titled <ui>Welcome</ui>. Click <ui>Let’s Get Started</ui>.</para>
+          <mediaLink>
+            <image xlink:href="10d36c49-ce47-4871-8923-907840669c08" />
+          </mediaLink>
+          <para>The <ui>Import Your Email</ui> tab is selected, providing steps about how to connect to your Exchange account and import your data.</para>
+          <mediaLink>
+            <image xlink:href="a1d362aa-e814-4dcf-942f-0671a9e9d527" />
+          </mediaLink>
+          <para>When you click the <ui>Sign In</ui> button, Excel displays a dialog that asks you to login to your <ui>Exchange</ui> account.</para>
+          <mediaLink>
+            <image xlink:href="c5939b49-755f-42da-9cce-5e49f2c72beb" />
+          </mediaLink>
+          <para>Enter your credentials (note that entering the UPN is not mandatory), and click <ui>Connect</ui>. You will be promoted to select <ui>Privacy Levels</ui>. In the <ui>Privacy levels</ui> dialog box, select <ui>Public</ui> for both <ui>Exchange</ui> and <ui>Current Workbook</ui>, and then click <ui>Save</ui>. For more information on privacy levels in Excel, see <link xlink:href="cc3ede4d-359e-4b28-bc72-9bee7900b540">Privacy levels (Power Query)</link>.</para>
+          <mediaLink>
+            <image xlink:href="38cf4d71-9b82-4445-9d01-7316e82bcdeb" />
+          </mediaLink>
+          <para>Excel connects to your Exchange account and imports your data for the last month as a default. However you can easily modify the date range.</para>
+          <alert class="note">
+            <para>The connection process can take a few minutes depending on how many emails you send and receive.</para>
+          </alert>
+          <para>Once Excel gets the data, the <ui>Dashboard</ui> worksheet appears and displays a populated dashboard that contains a collection of detailed analytics based on your data.</para>
+          <mediaLink>
+            <image xlink:href="b44164af-ecc2-45eb-9b5d-85a52eb62b59" />
+          </mediaLink>
+          <para>The Dashboard contains all sorts of interesting insights about your email data such as how many emails you send, receive, who sends you most of your emails and much more. The following image shows the worksheet, and below the image is a description of each numbered section.</para>
+          <mediaLink>
+            <image xlink:href="03c85a77-4310-413e-8091-0a8d8df5423d" />
+          </mediaLink>
+          <list class="ordered">
+            <listItem>
+              <para>
+                <legacyBold>Dates Filter</legacyBold> filters the data brought from your Exchange account. The default is set to the last month but you can select any range and click <ui>Refresh All</ui>  in the <ui>Data</ui> ribbon.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Reading email AVG time (seconds)</legacyBold> is used to calculate how much time you spent reading emails, and how much time you need to spend to read all your unread emails from the selected date range.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Writing email AVG time (seconds)</legacyBold> is used to calculate how much time you spent writing emails in the selected date range.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Amount of Received</legacyBold> emails in the selected date range.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Time spent reading emails </legacyBold>is calculated by the amount of emails you read multiplied by Reading email AVG time.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Amount of Read</legacyBold> emails in the selected date range.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Amount of Unread</legacyBold> emails in the selected date range.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Time to spend reading all unread emails</legacyBold> received in the selected date range. This measure is calculated by the amount of unread emails multiplied by Reading email AVG time.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Amount of Sent</legacyBold> emails in the selected date range.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Time spent writing emails</legacyBold> in the selected date range. This measure is calculated by the amount of sent emails multiplied by writing email AVG time.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Bar Chart (PivotChart)</legacyBold> that displays the amount of emails you send and receive every day during the week in the selected date range.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Bar Chart (PivotChart)</legacyBold> that displays the amount of emails you send and receive by hour in the selected date range.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Treemap Chart</legacyBold> that displays top 50 contacts who sent you most of your emails.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Treemap Chart</legacyBold> that displays top 50 contacts you sent most of your emails.</para>
+            </listItem>
+          </list>
+        </content>
+      </section>
+      <section>
+        <title>Can I share this workbook?</title>
+        <content>
+          <para>Once Excel loads your emails data into <ui>Email Insights</ui> workbook, your data is in the workbook’s <ui>Data Model</ui>.</para>
+          <alert class="warning">
+            <para>Your credentials are not stored in the workbook, so if you share the workbook with a coworker and they select the Refresh All button to update the workbook, they will be prompted to enter their credentials, and your data will be removed as part of the refreshing process of the workbook (your data is replaced by your coworker’s data).</para>
+          </alert>
+        </content>
+      </section>
+      <section>
+        <title>How can I create a similar workbook on my own?</title>
+        <content>
+          <para>You can create workbooks like this using the built-in Data Analysis features in <token>Excel_2016</token>.</para>
+          <para>To connect to <ui>Exchange</ui>, extract your data and shape the data for analysis, this template uses Power Query technology which was integrated into Excel 2016, and is available through the <ui>Data</ui> ribbon in the <ui>Get &amp; Transform</ui> group. For more information, see <link xlink:href="881c63c6-37c5-4ca2-b616-59e18d75b4de">Get &amp; Transform in Excel 2016</link>.</para>
+          <para>To start importing your Exchange data from a new workbook, from the ribbon select <ui>Data</ui> &gt; <ui>New Query</ui> &gt; <ui>From Other Sources</ui> &gt; <ui>From Microsoft Exchange</ui>.</para>
+        </content>
+      </section>
+      <section>
+        <title>Learn more</title>
+        <content>
+          <para>
+            <link xlink:href="881c63c6-37c5-4ca2-b616-59e18d75b4de">Get &amp; Transform in Excel 2016</link>
+          </para>
+          <para>
+            <link xlink:href="FDFCF944-7876-424A-8437-1A6C1043A80B">Get started with Power Pivot in Microsoft Excel</link>
+          </para>
+          <para>
+            <externalLink>
+              <linkText>Take a free course on data analysis and visualization in Excel</linkText>
+              <linkUri>https://go.microsoft.com/fwlink/?linkid=845816</linkUri>
+            </externalLink>
+          </para>
+          <para>
+            <externalLink>
+              <linkText>Visit the Excel Team Blog to get answers and much more</linkText>
+              <linkUri>https://go.microsoft.com/fwlink/?linkid=617860</linkUri>
+            </externalLink>
+          </para>
+        </content>
+      </section>
+    </sections>
+  </section>
+  <section>
+    <title>Need more help?</title>
+    <content>
+      <para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+    </content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

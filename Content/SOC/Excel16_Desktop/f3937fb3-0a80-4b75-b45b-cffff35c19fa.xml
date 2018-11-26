@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f3937fb3-0a80-4b75-b45b-cffff35c19fa" revisionNumber="6"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    
+  </introduction>
+  
+  <section>
+    <title></title>
+    <content>
+      
+      
+      
+      
+      <tabControl><tabControlItem tabItemID="Basics"><tabControlItemTitle>Basics</tabControlItemTitle><tabControlItemSection><content><para><link xlink:href="5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73">What's new in Excel 2016?</link></para><para><link xlink:href="dc775dd1-fa52-430f-9c3c-d998d1735fca">Basic tasks in Excel 2016</link></para><para><link xlink:href="053ace65-e74b-47cd-a4e3-7f3f44e66ad8">Create your first workbook</link></para><para><link xlink:href="6a16c862-4a36-48f9-a300-c2ca0065286e">Save a workbook in another file format</link></para><para><link xlink:href="855D15BD-39EC-458B-8AF8-456517A661D7">Save a workbook as a template</link></para><para><link xlink:href="169a0336-965b-4430-8554-4e7b5db79947">Save an Excel workbook for compatibility with earlier versions of Excel</link></para><para><link xlink:href="8ba1f596-6bc9-4e35-99d4-e27a40037789">Save documents online</link></para><para><link xlink:href="3F1F7148-EE83-404D-8EF0-9FF99FBAD1F9">Rename a worksheet</link></para><para><link xlink:href="A372182A-D733-484E-825C-18DDF3EDF009">Add a watermark in Excel</link></para></content></tabControlItemSection></tabControlItem><tabControlItem tabItemID="Accessibility"><tabControlItemTitle>Accessibility</tabControlItemTitle><tabControlItemSection><content><para><link xlink:href="1798d9d5-842a-42b8-9c99-9b7213f0040f">Keyboard shortcuts in Excel</link> </para><para><link xlink:href="6cc05fc5-1314-48b5-8eb3-683e49b3e593">Make your Excel spreadsheets accessible</link></para></content></tabControlItemSection></tabControlItem></tabControl>
+    </content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

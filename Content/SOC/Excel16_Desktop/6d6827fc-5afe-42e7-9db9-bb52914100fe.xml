@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="6d6827fc-5afe-42e7-9db9-bb52914100fe" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>When you work on a file that's stored in a SharePoint library, your administrator may have configured it to create <link xlink:href="0f6cd105-974f-44a4-aadb-43ac5bdfd247">versions</link> as you work. This lets you refer to an older version of the file if you want to see your past work. There are two types of versions that can be tracked for a file: major and minor. However, there is a limit to the number of minor versions that can be created.</para>
+  </introduction>
+  <section>
+<title>If you are the owner of the file</title><content><para>If you are the owner of the file, you can <link xlink:href="8766f85c-350d-46f3-9a80-42de99aff610#__toc269214225">publish a major version of a file</link>. This will reset the number of minor versions and allow you to continue working.</para></content>
+</section>
+  <section>
+<title>If you are not the owner of the file</title><content><para>You can save a separate copy of the file. Go to <ui>File</ui> &gt; <ui>Save As</ui> or <ui>File</ui> &gt; <ui>Save a Copy</ui> and save the file with a different name. This will keep the original file intact, with all of its versions. But the second copy will be brand new and not have any versions created yet, until you work on it.</para></content>
+</section><section>
+<title>If you are an administrator </title><content><para>You can <link xlink:href="1555d642-23ee-446a-990a-bcab618c7a37">change the configuration of the library</link> to only track major versions.</para></content>
+</section><relatedTopics />
+</developerConceptualDocument></topic>

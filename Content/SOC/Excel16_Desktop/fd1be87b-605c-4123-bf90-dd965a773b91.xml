@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="fd1be87b-605c-4123-bf90-dd965a773b91" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>The <ui>Workbook Connections</ui> dialog box helps you manage one or more connections to external data sources in your workbook. You can use this dialog box to do the following:</para>
+  </introduction>
+  
+  
+  <section address="bmmanage_connections_by_using_the_workb">
+    
+    <content>
+      
+      <list class="bullet">
+        <listItem>
+          <para>Create, edit, refresh, and delete connections that are in use in the workbook.</para>
+        </listItem>
+        <listItem>
+          <para>Verify where external data is coming from, because, for example, the connection was defined by another user.</para>
+        </listItem>
+        <listItem>
+          <para>Show where each connection is used in the current workbook.</para>
+        </listItem>
+        <listItem>
+          <para>Diagnose an error message about connections to external data.</para>
+        </listItem>
+        <listItem>
+          <para>Redirect a connection to a different server or data source, or replace the connection file for an existing connection.</para>
+        </listItem>
+        <listItem>
+          <para>Display the <ui>Existing Connections</ui> dialog box to create new connections. For more information, see <link xlink:href="945f2cbb-d50b-4ee2-bae8-c4c9381000c6">Import data from external data sources</link>.</para>
+        </listItem>
+        <listItem>
+          <para>Display the <ui>Connection Properties</ui> dialog box to modify data connection properties, edit queries, and change parameters. For more information, see <link xlink:href="9d3599a9-e9b3-461d-99b2-c5505ddae6e0">Connection properties</link>.</para>
+        </listItem>
+        <listItem>
+          <para>Make it easy to create and share connection files with users.</para>
+        </listItem>
+      </list>
+      <para>To manage the connections in the current workbook, do one or more of the following:</para>
+    </content>
+    <sections>
+      <section>
+        <title>Identify a connection</title>
+        <content>
+          <para>In the top portion of the dialog box, all connections in the workbook are displayed automatically with the following information: </para>
+          <table>
+            <thead>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>Column</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>
+                    <legacyBold>Comment</legacyBold>
+                  </para>
+                </TD>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <TD>
+                  <para>Name</para>
+                </TD>
+                <TD>
+                  <para>The name of the connection, defined in the <ui>Connection Properties</ui> dialog box.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>Description</para>
+                </TD>
+                <TD>
+                  <para>An optional description of the connection, defined in the <ui>Connection Properties</ui> dialog box.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>Last refreshed</para>
+                </TD>
+                <TD>
+                  <para>The date and time that the connection was last successfully refreshed. If blank, then the connection has never been refreshed.</para>
+                </TD>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Add a connection</title>
+        <content>
+          <list class="bullet">
+            <listItem>
+              <para>Click <ui>Add</ui> to display the <ui>Existing Connections </ui>dialog box. For more information, see <link xlink:href="be4330b3-5356-486c-a168-b68e9e616f5a">Import data from external data sources</link>.</para>
+            </listItem>
+          </list>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Display connection information</title>
+        <content>
+          <list class="bullet">
+            <listItem>
+              <para>Select a connection, and then click <ui>Properties</ui> to display the <ui>Connection Properties</ui> dialog box. For more information, see <link xlink:href="9d3599a9-e9b3-461d-99b2-c5505ddae6e0">Connection properties</link>.</para>
+            </listItem>
+          </list>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Refresh the external data</title>
+        <content>
+          <list class="bullet">
+            <listItem>
+              <para>Click the arrow next to <ui>Refresh</ui>, and then do one of the following:</para>
+              <list class="bullet">
+                <listItem>
+                  <para>To refresh specific connections, select one or more connections, and then click <ui>Refresh</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>To refresh all connections in the workbook, clear all connections, and then click <ui>Refresh All</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>To get status information about a refresh operation, select one or more connections, and then click <ui>Refresh Status</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>To stop the current refresh operation, click <ui>Cancel Refresh</ui>.</para>
+                </listItem>
+              </list>
+            </listItem>
+          </list>
+          <para>For more information for Excel 2016, see <link xlink:href="1524175f-777a-48fc-8fc7-c8514b984440">Refresh an external data connection in Excel 2016 for Windows</link>.</para><para>For more information for Excel 2013, see <link xlink:href="036367ac-d139-49e1-b64e-4a84cff3a519">Refresh an external data connection</link> .</para>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Remove one or more connections</title>
+        <content>
+          <list class="bullet">
+            <listItem>
+              <para>Select one or more connections to be removed from the workbook, and then click <ui>Remove</ui>. </para>
+              <alert class="note">
+                <list class="bullet">
+                  <listItem>
+                    <para>This button is disabled when the workbook is protected or an object, such as a PivotTable report, that uses the connection is protected. </para>
+                  </listItem>
+                  <listItem>
+                    <para>Removing a connection only removes the connection and does not remove any object or data from the workbook. </para>
+                  </listItem>
+                </list>
+              </alert>
+            </listItem>
+          </list>
+          <alert class="important">
+            <para>Removing a connection breaks the connection to the data source and may cause unintended consequences, such as different formula results and possible problems with other Excel features.</para>
+          </alert>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Display the locations of one or more connections in the workbook</title>
+        <content>
+          <list class="bullet">
+            <listItem>
+              <para>Select one or more connections, and then under <ui>Locations where connections are used in this workbook</ui>, click the link <ui>Click here to see where the selected connections are used</ui>. </para>
+              <para>The following information is displayed. </para>
+            <table>
+            <thead>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>Column</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>
+                    <legacyBold>Comment</legacyBold>
+                  </para>
+                </TD>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <TD>
+                  <para>Sheet</para>
+                </TD>
+                <TD>
+                  <para>The worksheet where the connection is used.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>Name</para>
+                </TD>
+                <TD>
+                  <para>The Excel query name.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>Location</para>
+                </TD>
+                <TD>
+                  <para>The reference to a cell, range, or object.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>Value</para>
+                </TD>
+                <TD>
+                  <para>The value of a cell, or blank for a range of cells.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>Formula</para>
+                </TD>
+                <TD>
+                  <para>The formula of a cell, or for a range of cells.</para>
+                </TD>
+              </tr>
+            </tbody>
+          </table></listItem>
+          </list>
+          
+          <para>Selecting another connection at the top of the dialog box clears the display of the current information.</para>
+          
+        </content>
+        
+      </section>
+    </sections>
+  </section><relatedTopics />
+</developerConceptualDocument></topic>

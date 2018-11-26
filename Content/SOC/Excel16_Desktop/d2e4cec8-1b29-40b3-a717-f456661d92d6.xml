@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="d2e4cec8-1b29-40b3-a717-f456661d92d6" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="__goback">If your rows of data have a date or time element, you can watch your values change over time in 3D Maps. You can also <link xlink:href="cbdfc0d7-b343-42e1-8146-5f7faa8619f6#scene_length">control how long a scene plays</link>, and <link xlink:href="cbdfc0d7-b343-42e1-8146-5f7faa8619f6#playback_range">set custom start and end dates</link> to focus on the exact time period you want.</para>
+  </introduction>
+  <section>
+    <title> Date or time fields in the Time box</title>
+    <content>
+      <para>After 3D Maps has initially plotted your geographic data, you can choose values to highlight (such as demographics, sales, or wind speed) and, if you have a time-based field, you drag it to the <ui>Time</ui> box.</para>
+      <alert class="important">
+        <para>Date and time columns need to be formatted as the Date/Time type in your source data. Values in Excel might look like a date or time, but it's possible they could be formatted as text. If date values aren't working as you expect in 3D Maps, go back to the source data and check the data type. Then, hit <ui>Refresh</ui> in 3D Maps.</para>
+      </alert>
+      <list class="ordered">
+        <listItem>
+          <para>In the <ui>Layer Pane</ui>, drag your date or time field to the <ui>Time</ui> box.</para>
+        <para>If you don't see the Layer Pane, on the <ui>Home</ui> tab, click <ui>Layer Pane</ui>.</para><para>
+        <mediaLinkInline>
+          <image xlink:href="8e760afa-7187-4464-bbba-7b9298a0cdb3">
+          </image>
+        </mediaLinkInline>
+      </para></listItem><listItem>
+          <para>Click the arrow next to the clock icon (as shown below) to choose whether to show data for an instant, as it accumulates, or let values stay until they're replaced by new values.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="3bda3397-6b8c-468d-9a67-fcc8ee7996c3">
+          </image>
+        </mediaLinkInline>
+      </para></listItem><listItem>
+          <para>To use a time aggregation type, such as Day, Month, Quarter, or Year, in the <ui>Time</ui> box, click the arrow on the right (as shown below) to select a time period. This will group your data for the selected time period.</para>
+        <para>For example, if your data is time stamped with a date, and you choose to aggregate by month, you'll see the sum of values for each month while the map animates month by month.</para><para>
+        <mediaLinkInline>
+          <image xlink:href="43d9d974-c345-4a12-8f28-039f7fe20536">
+          </image>
+        </mediaLinkInline>
+      </para></listItem>
+      </list>
+      
+      
+      
+      
+      
+      
+      
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Change the length of a scene</title>
+    <content>
+      <para>By default, a scene is only 6 seconds long. But if you have a lot of data to show over time, you may want make the scene run a bit longer. For example, if you want to show several hundred thousands of ticket sales for a movie theater over several months, you'd want to slow the animation so that you can see the sales develop over time.</para>
+      <para>You can add several scenes to a tour, and use each scene to show a different month. Or, you could have a single scene that shows all months. The total length of the tour is approximately the sum of the length of all scenes and the sum of the length of transitions between each scene. You can edit the length of each scene and their transitions by setting scene properties.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Click the <ui>Options</ui> icon on the timeline.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="26c3586c-d6fa-4591-bd66-0d92dff3ccea">
+          </image>
+        </mediaLinkInline>
+      </para><para>If you don't see the timeline, on the <ui>Home</ui> tab, click <ui>Time Line</ui>.</para><para>
+        <mediaLinkInline>
+          <image xlink:href="c901a9f5-3a5a-487f-8d59-de3806c8699e">
+          </image>
+        </mediaLinkInline>
+      </para><alert class="tip">
+        <para>If the <ui>Time Line</ui> button is dimmed, make sure you've added a date field to the <ui>Time</ui> box.</para>
+      </alert>
+      </listItem><listItem>
+          <para address="scene_length">Under <ui>Scene</ui>, set a duration for the scene. If you haven't added any additional scenes to the tour, this scene represents the entire tour.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="40538842-30e3-404d-8d59-ba571478ed28">
+          </image>
+        </mediaLinkInline>
+      </para></listItem><listItem>
+          <para address="playback_range">To have the scene show only a specific range of dates, under <ui>Time</ui>, set a start date, an end date, or both.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="70bfead3-2686-4fc1-abef-ed5debd815aa">
+          </image>
+        </mediaLinkInline>
+      </para><alert class="tip">
+        <para>You can change the duration of the tour or a scene by using the Speed slider, under <ui>Time</ui>. This changes the duration value in the <ui>Scene duration (sec)</ui> box as you move the slider.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="468c089b-b9eb-41f7-8f3b-180878a05895">
+          </image>
+        </mediaLinkInline>
+      </para></alert></listItem><listItem>
+          <para>Use the <ui>Transition duration (sec)</ui> box to set the length of time between scenes. Changing the transition time between scenes will change the overall length of the tour.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="6b16116c-cd2e-4961-969a-9c06c0da4f7f">
+          </image>
+        </mediaLinkInline>
+      </para></listItem>
+      </list>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Use the Date &amp; Time box to show elapsed time</title>
+    <content>
+      <para>Showing the <ui>Date &amp; Time</ui> box lets people see the date and time as the animation of the data progresses.</para>
+      <list class="ordered">
+        <listItem>
+          <para>On the <ui>Home</ui> tab, click <ui>Date &amp; Time</ui> to show the <ui>Date &amp; Time</ui> box during playback or preview.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="2474ef9a-dec2-42d3-9203-5f8481d3686b">
+          </image>
+        </mediaLinkInline>
+      </para></listItem><listItem>
+          <para>Right-click the <ui>Date &amp; Time</ui> box, and click <ui>Edit</ui>.</para>
+        </listItem><listItem>
+          <para>Pick a format in the <ui>Time Format</ui> box.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="7fca07fe-a77c-4e60-82ee-66242a22d115">
+          </image>
+        </mediaLinkInline>
+      </para></listItem><listItem>
+          <para>In addition to picking a time format, you can change the text's font, size, color, and add bolding or italics.</para>
+        </listItem>
+      </list>
+      
+      
+      
+      
+    </content>
+    <sections />
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

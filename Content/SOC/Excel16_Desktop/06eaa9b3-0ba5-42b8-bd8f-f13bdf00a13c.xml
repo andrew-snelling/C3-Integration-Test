@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="06eaa9b3-0ba5-42b8-bd8f-f13bdf00a13c" revisionNumber="6"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="bmbacktotop">The Compatibility Checker found one or more collaboration-related compatibility issues.</para>
+    <alert class="important">
+      <para>
+        <legacyBold>Issues that cause a minor loss of fidelity</legacyBold> might or might not have to be resolved before you continue saving the workbook—data or functionality is not lost, but the workbook might not look or work exactly the same way when you open it in an earlier version of Excel.</para>
+    </alert>
+  </introduction>
+  <section>
+    <title>Issues that cause a minor loss of fidelity</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Issue</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Solution</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>This workbook will be read-only and Shared Workbook features will not be available when someone opens it in an earlier version of Excel by using a file converter. </para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> You cannot share a Shared Workbook in an Excel 2007 or later file format with people who use Excel 97-2003.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> To continue sharing a Shared Workbook with people who use Excel 97-2003 and to ensure that all Shared Workbook features are available in the earlier versions, you should save the workbook to the Excel 97-2003 file format, and then work with it in <link xlink:href="169a0336-965b-4430-8554-4e7b5db79947">Compatibility Mode</link></para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      
+    <alert class="important"><para>"Shared Workbooks" is an older feature that allows you to collaborate on a workbook with multiple people. This feature has many limitations, and has been replaced by <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">co-authoring</link>. Co-authoring is available <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">in certain versions of Excel</link>, including Excel 2016 for <externalLink><linkText>Office 365 subscribers</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink>. <br /> <br /><mediaLinkInline><image xlink:href="66bd0628-8473-4750-b528-03b57eb3d85d"><externalLink><linkText /><linkUri>https://products.office.com/en-us/compare-all-microsoft-office-products?tab=1&amp;wt.mc_id=AID573689_QSG_147419</linkUri></externalLink></image></mediaLinkInline></para></alert></content>
+    
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

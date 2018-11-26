@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="b83768f5-f695-4311-98b1-757345f7e926" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>Suppose you want to adjust a project's schedule date by adding two weeks to see what the new completion date will be, or you want to determine how long a single activity will take to complete in a list of project tasks. You can add or subtract a number of days to or from a date by using a simple formula, or you can use worksheet functions that are designed to work specifically with dates in Excel.</para>
+  </introduction>
+  <section>
+    <title address="___toc___1_t">In this article</title>
+    <content>
+      <list class="nobullet" address="___toc___1_l">
+        <listItem>
+          <para>
+            <link xlink:href="b83768f5-f695-4311-98b1-757345f7e926#bm4">Add days to or subtract days from a date</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="b83768f5-f695-4311-98b1-757345f7e926#bm5">Add months to or subtract months from a date</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="b83768f5-f695-4311-98b1-757345f7e926#bm6">Add years to or subtract years from a date</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="b83768f5-f695-4311-98b1-757345f7e926#bm7">Add a combination of days, months, and years to a date</link>
+          </para>
+        </listItem>
+      </list>
+      
+    </content>
+    <sections />
+  </section>
+  <section address="bm4">
+    <title>Add days to or subtract days from a date</title>
+    <content>
+      <para>Suppose that an account balance of yours is due on February 8, 2010. You want to transfer funds to your checking account so that those funds arrive 15 calendar days before that date. In addition, you know that your account has a 30 day billing cycle, and you want to determine when you should transfer funds for your March 2010 bill so that those funds are available 15 days before that date.</para>
+      <list class="ordered">
+        <listItem>
+          <para>In cell A1, type <literal>2/8/10</literal>.</para>
+        </listItem>
+        <listItem>
+          <para>In cell B1, type <literal>=A1-15</literal>.</para>
+        </listItem>
+        <listItem>
+          <para>In cell C1, type <literal>=A1+30</literal>.</para>
+        </listItem>
+        <listItem>
+          <para>In cell D1, type <literal>=C1-15</literal>.</para>
+        </listItem>
+      </list>
+      <para>Cells A1 and C1 show the due dates (2/08/10 and 3/10/10) for the February and March account balances, and cells B1 and D1 show the dates (1/24/10 and 2/23/10) by which you should transfer your funds for those due dates.</para>
+      
+    </content>
+    <sections />
+  </section>
+  <section address="bm5">
+    <title>Add months to or subtract months from a date</title>
+    <content>
+      <para>You can use the <link xlink:href="3c920eb2-6e66-44e7-a1f5-753ae47ee4f5">EDATE function</link> to quickly add or subtract a specific number of whole months to or from a date.</para>
+      <para>The <legacyBold>EDATE</legacyBold> function requires two values (also referred to as arguments): the start date and the number of months that you want to add or subtract. To subtract months, enter a negative number as the second argument (for example, =EDATE("2/15/10",-5). This formula results in the date <legacyBold>9/15/09</legacyBold>.</para>
+      <para>You can specify the value of the start date either by referring to a cell that contains a date value or by entering a date enclosed in quotation marks, such as "2/15/10".</para>
+      <para>For example, suppose you want to add 16 months to October 16, 2009.</para>
+      <list class="ordered">
+        <listItem>
+          <para>In cell A5, type <literal>10/16/09</literal>.</para>
+        </listItem>
+        <listItem>
+          <para>In cell B5, type <literal>=EDATE(A5,16)</literal>.</para>
+          <para>The function uses the value in cell A5 as the date.</para>
+        </listItem>
+        <listItem>
+          <para>In cell C5, type <literal>=EDATE("10/16/09",16)</literal>.</para>
+          <para>In this case, the function uses a date value that you enter directly, "10/16/09."</para>
+          <para>Cells B5 and C5 should both show the date <legacyBold>2/16/11</legacyBold>.</para>
+          <alert class="note">
+            <para>Depending on the format of the cells that contain the formulas that you entered, Excel might display the results as <legacyItalic>serial numbers</legacyItalic>; in this case, 2/16/11 might be displayed as 40590.</para>
+          </alert>
+          <para>Excel stores dates as sequential serial numbers so that they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2010 is serial number 40179 because it is 40,178 days after January 1, 1900.</para>
+        </listItem>
+        <listItem>
+          <para>If your results appear as serial numbers, select cells B5 and C5 and continue with the following steps.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Cells</ui> group, click <ui>Format</ui>, and then click <ui>Format Cells</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Format Cells</ui> dialog box, click the <ui>Number</ui> tab.</para>
+        </listItem>
+        <listItem>
+          <para>Under <ui>Category</ui>, click <ui>Date</ui>, and then click <ui>OK</ui>. The value in each of the cells should appear as a date instead of a serial number.</para>
+        </listItem>
+      </list>
+      
+    </content>
+    <sections />
+  </section>
+  <section address="bm6">
+    <title>Add years to or subtract years from a date</title>
+    <content>
+      <para>The example may be easier to understand if you copy it to a blank worksheet.</para>
+      <para>
+        <legacyBold>How do I copy an example?</legacyBold>
+      </para>
+      <list class="bullet">
+        <listItem>
+          <para>Select the example in this article. If you are copying the example in Excel Web App, copy and paste one cell at a time.Important Do not select the row or column headers.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="bb951e2a-9ccf-4e9e-b985-7e1edfc9ad1f">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <para>Selecting an example from Help</para>
+        </listItem>
+        <listItem>
+          <para>Press CTRL+C.</para>
+        </listItem>
+        <listItem>
+          <para>Create a blank workbook or worksheet.</para>
+        </listItem>
+        <listItem>
+          <para>In the worksheet, select cell A1, and press CTRL+V. If you are working in Excel Web App, repeat copying and pasting for each cell in the example.</para>
+        </listItem>
+        <listItem>
+          <para>Important For the example to work properly, you must paste it into cell A1 of the worksheet.</para>
+        </listItem>
+        <listItem>
+          <para>To switch between viewing the results and viewing the formulas that return the results, press CTRL+` (grave accent), or on the Formulas tab, in the Formula Auditing group, click the Show Formulas button.</para>
+        </listItem>
+        <listItem>
+          <para>After you copy the example to a blank worksheet, you can adapt it to suit your needs. </para>
+        </listItem>
+      </list>
+      <table>
+        <tbody>
+          <tr>
+            <TD>
+              <table>
+                <thead>
+                  <tr>
+                    <TD />
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>1</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>2</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>3</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>4</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>5</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>
+                          <br />6</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>
+                          <br />7</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>
+                          <br />8</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                </tbody>
+              </table>
+            </TD>
+            <TD>
+              <table>
+                <thead>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>A</legacyBold>
+                      </para>
+                    </TD>
+                    <TD>
+                      <para>
+                        <legacyBold>B</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>Date</legacyBold>
+                      </para>
+                    </TD>
+                    <TD>
+                      <para>
+                        <legacyBold>Years to add (or subtract)</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>6/9/2009</para>
+                    </TD>
+                    <TD>
+                      <para>3</para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>9/2/2009</para>
+                    </TD>
+                    <TD>
+                      <para>-5</para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>12/10/2010</para>
+                    </TD>
+                    <TD>
+                      <para>25</para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>Formula</legacyBold>
+                      </para>
+                    </TD>
+                    <TD>
+                      <para>
+                        <legacyBold>Description (Result)</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>=DATE(YEAR(A2)+B2,MONTH(A2),DAY(A2))</para>
+                    </TD>
+                    <TD>
+                      <para>Adds 3 years to 6/9/2009 (6/9/2012)</para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>=DATE(YEAR(A3)+B3,MONTH(A3),DAY(A3))</para>
+                    </TD>
+                    <TD>
+                      <para>Subtracts 5 years from 9/2/2009 (9/2/2004)</para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>=DATE(YEAR(A4)+B4,MONTH(A4),DAY(A4))</para>
+                    </TD>
+                    <TD>
+                      <para>Adds 25 years to 12/10/2010 (12/10/2035)</para>
+                    </TD>
+                  </tr>
+                </tbody>
+              </table>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+    </content>
+    <sections>
+      <section>
+        <title>How the formula works</title>
+        <content>
+          <para>In each of the three formulas, a specified number of years from column B is added to the year value that is derived from the date in column A.</para>
+          <para>For example, in cell A6, the <legacyBold>YEAR</legacyBold> function is used on the date in cell A2 (6/9/2009), and returns <legacyBold>2009</legacyBold> as the year. The formula then adds 3 (the value in cell B2) to the year value, which results in <legacyBold>2012</legacyBold>. In the same formula, the <legacyBold>MONTH</legacyBold> function returns the value <legacyBold>6</legacyBold>, and the <legacyBold>DAY</legacyBold> function returns the value <legacyBold>9</legacyBold>. The <legacyBold>DATE</legacyBold> function then combines these three values into a date that is three years in the future — <legacyBold>6/9/2012</legacyBold>.</para>
+          <para>You can use a similar formula to add months to a date. For example, by using the previous sample data, you can add 9 months to the date 6/9/2009 by using the following formula: <legacyBold>=DATE(YEAR(A2),MONTH(A2)+9,DAY(A2))</legacyBold>. This formula returns the date <legacyBold>3/9/2010</legacyBold>.</para>
+          
+        </content>
+        <sections />
+      </section>
+    </sections>
+  </section>
+  <section address="bm7">
+    <title>Add a combination of days, months, and years to a date</title>
+    <content>
+      <para>The example may be easier to understand if you copy it to a blank worksheet.</para>
+      <para>
+        <legacyBold>How do I copy an example?</legacyBold>
+      </para>
+      <list class="bullet">
+        <listItem>
+          <para>Select the example in this article. If you are copying the example in Excel Web App, copy and paste one cell at a time.Important Do not select the row or column headers.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="bb951e2a-9ccf-4e9e-b985-7e1edfc9ad1f">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <para>Selecting an example from Help</para>
+        </listItem>
+        <listItem>
+          <para>Press CTRL+C.</para>
+        </listItem>
+        <listItem>
+          <para>Create a blank workbook or worksheet.</para>
+        </listItem>
+        <listItem>
+          <para>In the worksheet, select cell A1, and press CTRL+V. If you are working in Excel Web App, repeat copying and pasting for each cell in the example.</para>
+        </listItem>
+        <listItem>
+          <para>Important For the example to work properly, you must paste it into cell A1 of the worksheet.</para>
+        </listItem>
+        <listItem>
+          <para>To switch between viewing the results and viewing the formulas that return the results, press CTRL+` (grave accent), or on the Formulas tab, in the Formula Auditing group, click the Show Formulas button.</para>
+        </listItem>
+        <listItem>
+          <para>After you copy the example to a blank worksheet, you can adapt it to suit your needs. </para>
+        </listItem>
+      </list>
+      <table>
+        <tbody>
+          <tr>
+            <TD>
+              <table>
+                <thead>
+                  <tr>
+                    <TD />
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>1</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>2</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>3</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>
+                          <br />4</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>
+                          <br />5</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                </tbody>
+              </table>
+            </TD>
+            <TD>
+              <table>
+                <thead>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>A</legacyBold>
+                      </para>
+                    </TD>
+                    <TD>
+                      <para>
+                        <legacyBold>B</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>Date</legacyBold>
+                      </para>
+                    </TD>
+                    <TD />
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>6/9/2009</para>
+                    </TD>
+                    <TD />
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>
+                        <legacyBold>Formula</legacyBold>
+                      </para>
+                    </TD>
+                    <TD>
+                      <para>
+                        <legacyBold>Description (Result)</legacyBold>
+                      </para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>=DATE(YEAR(A2)+3,MONTH(A2)+1,DAY(A2)+5)</para>
+                    </TD>
+                    <TD>
+                      <para>Add 3 years, 1 month, and 5 days to 6/9/2009 (7/14/2012)</para>
+                    </TD>
+                  </tr>
+                  <tr>
+                    <TD>
+                      <para>=DATE(YEAR(A2)+1,MONTH(A2)+7,DAY(A2)+5)</para>
+                    </TD>
+                    <TD>
+                      <para>Add 1 year, 7 months, and 5 days to 6/9/2009 (1/14/2011)</para>
+                    </TD>
+                  </tr>
+                </tbody>
+              </table>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <para>The formulas in the example have the following <legacyItalic>arguments</legacyItalic> (an argument is a value that is supplied to a function).</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="b44ee088-ad49-46bb-80eb-c7aca5dab77d">
+          </image>
+        </mediaLinkInline>
+      </para>
+      <para>Formula to add dates</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="dea75f1a-e0ce-4d21-bbe5-a59afb4cf038">
+          </image>
+        </mediaLinkInline>start_date: A date or reference to a cell that contains a date.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="e1f21a9a-8aca-441d-bd52-30afbd7990f7">
+          </image>
+        </mediaLinkInline>add_year: The number of years to be added.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="db32c8ac-82a6-49f3-9623-2312f22e65da">
+          </image>
+        </mediaLinkInline>add_month: The number of months to be added.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="9a5cef04-9170-42e6-983a-6ea927480a2f">
+          </image>
+        </mediaLinkInline>add_day: The number of days to be added.</para>
+    </content>
+    <sections>
+      <section>
+        <title>How the formula works</title>
+        <content>
+          <para>In each of the formulas, a specified number of years, months, and days are added to the date that is contained in cell A2.</para>
+          <para address="__goback">For example, in cell A5 (the second formula), the <legacyBold>YEAR</legacyBold> function is used on the date in cell A2 (6/9/2009), and returns <legacyBold>2009</legacyBold> as the year. The formula then adds 1 to the year value, which results in <legacyBold>2010</legacyBold>. The <legacyBold>MONTH</legacyBold> function returns the value <legacyBold>6</legacyBold>, and 7 months are added to that value. Because the total of 6 months plus 7 months is 13 months, the <legacyBold>DATE</legacyBold> function adds 1 year to the year value, resulting in <legacyBold>2011</legacyBold>. The <legacyBold>DATE</legacyBold> function then subtracts 12 from the month value, resulting in a value of <legacyBold>1</legacyBold> for the month. The <legacyBold>DAY</legacyBold> function returns the value <legacyBold>9</legacyBold>, and 5 days are added to that, resulting in <legacyBold>14</legacyBold>. Finally, the <legacyBold>DATE</legacyBold> function combines these three values (2011, 1, and 14) into a date that is one year, seven months, and 5 days in the future — <legacyBold>1/14/2011</legacyBold>.</para>
+          
+        </content>
+        <sections />
+      </section>
+    </sections>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

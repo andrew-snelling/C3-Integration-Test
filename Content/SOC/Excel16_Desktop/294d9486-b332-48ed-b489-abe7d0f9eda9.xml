@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="294d9486-b332-48ed-b489-abe7d0f9eda9" revisionNumber="12"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<tabControl>
+				<tabControlItem tabItemID="Formulas">
+					<tabControlItemTitle>Formulas</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para><link xlink:href="ecfdc708-9162-49e8-b993-c311f47ca173">Overview of formulas in Excel</link></para>
+							<para><link xlink:href="4D0F13AC-53B7-422E-AFD2-ABD7FF379C64">Define and use names in formulas</link></para>
+							<para><link xlink:href="11A5F0E5-38A3-4115-85BC-F4A465F64A8A">Create a simple formula</link></para>
+							<para><link xlink:href="F7F5AB4E-BF24-4EFC-8FC9-0C1B77A5356F">Display or hide formulas </link></para>
+							<para><link xlink:href="1F5CF825-9B07-41B1-8719-BF88B07450C6">Move or copy a formula</link></para>
+							<para><link xlink:href="3EC7A433-46B8-4516-8085-A00E9E476B03">Display or hide zero values</link></para>
+							<para><link xlink:href="A1ABC057-ED11-443A-A635-68216555AD0A">Use Excel as your calculator</link></para>
+							<para><link xlink:href="D3F918A1-0151-403E-881F-A92F3176F8EA">Summing up ways to add and count Excel data</link></para>
+							<para><link xlink:href="AA1F3067-05C9-44E4-B141-F75BB9BB89BD">Count how often a value occurs</link></para>
+							<para><link xlink:href="FCBF4576-3AAB-4029-BA25-54313A532FF1">Find external references (links) in a workbook</link></para>
+							<para><link xlink:href="E158EF61-421C-4839-8290-34D7B1E68283">Calculate the average of a group of numbers</link></para>
+							<para><link xlink:href="E610AE0F-4D27-480C-9119-EB644F1E847E">Sum values based on multiple conditions</link></para>
+							<para><link xlink:href="6b5506e9-125a-4aba-a638-d6b40e603981">Calculate percentages</link></para>
+							<para><link xlink:href="938B7912-5699-4609-969B-38B23CA00D54">Subtract numbers</link></para>
+							<para><link xlink:href="7D94A64E-3FF3-4686-9372-ECFD5CAA57C7">Guidelines and examples of array formulas</link></para>
+							<para><link xlink:href="1d01cabc-ceb1-458d-bc70-7f9737722702">Write, insert, or change an equation</link></para>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem tabItemID="Functions">
+					<tabControlItemTitle>Functions</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para><link xlink:href="043E1C7D-7726-4E80-8F32-07B23E057F89">SUM function</link></para>
+							<para><link xlink:href="047BAC88-D466-426C-A32B-8F33EB960CF6">AVERAGE function</link></para>
+							<para><link xlink:href="E0012414-9AC8-4B34-9A47-73E662C08098">MAX function</link></para>
+							<para><link xlink:href="61635D12-920F-4CE2-A70F-96F202DCC152">MIN function</link></para>
+							<para><link xlink:href="A59CD7FC-B623-4D93-87A4-D23BF411294C">COUNT function</link></para>
+							<para><link xlink:href="b3944572-255d-4efb-bb96-c6d90033e188">All functions (alphabetical)</link></para>
+							<para><link xlink:href="5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb">All functions (categories)</link></para>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem tabItemID="Logical">
+					<tabControlItemTitle>Logical</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para><link xlink:href="69AED7C9-4E8A-4755-A9BC-AA8BBFF73BE2">Logically compare values with the IF function</link></para>
+							<para><link xlink:href="0b22ff44-f149-44ba-aeb5-4ef99da241c8">IF function - nested formulas and avoiding pitfalls</link></para>
+							<para><link xlink:href="36329a26-37b2-467c-972b-4a39bd951d45">IFS function</link></para>
+							<para><link xlink:href="E0DE10C6-F885-4E71-ABB4-1F464816DF34">Count cells using a single criteria, use the COUNTIF function</link></para>
+							<para><link xlink:href="dda3dc6e-f74e-4aee-88bc-aa8c2a866842">Count cells using multiple criteria, use the COUNTIFS function</link></para>
+							<para><link xlink:href="8d9a69b3-b867-490e-82e0-a929fbc1e273">Count unique values among duplicates</link></para>
+							<para><link xlink:href="169b8c99-c05c-4483-a712-1697a653039b">Add values that meet a single criteria with SUMIF function</link></para>
+							<para><link xlink:href="C9E748F5-7EA7-455D-9406-611CEBCE642B">Add all values that meet multiple criteria with SUMIFS function</link></para>
+							<para><link xlink:href="FAEC8E2E-0DEC-4308-AF69-F5576D8AC642">Return the average of all cells that meet a single criteria with AVERAGEIF</link></para>
+							<para><link xlink:href="48910C45-1FC0-4389-A028-F7C5C3001690">Return the average of all cells that meet multiple criteria with AVERAGEIFS</link></para>
+							<para><link xlink:href="5F19B2E8-E1DF-4408-897A-CE285A19E9D9">AND-function</link></para>
+							<para><link xlink:href="7d17ad14-8700-4281-b308-00b131e22af0">OR-function</link></para>
+							<para><link xlink:href="9cfc6011-a054-40c7-a140-cd4ba2d87d77">NOT function</link></para>
+							<para><link xlink:href="E093C192-278B-43F6-8C3A-B6CE299931F5">All logical functions</link></para>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem tabItemID="Reference">
+					<tabControlItemTitle>Reference</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para><link xlink:href="0BBC8083-26FE-4963-8AB8-93A18AD188A1">Lookup a value with VLOOKUP</link></para>
+							<para><link xlink:href="A3034EEC-B719-4BA3-BB65-E1AD662ED95F">Lookup a value with HLOOKUP</link></para>
+							<para><link xlink:href="FC5C184F-CB62-4EC7-A46E-38653B98F5BC">Find table-like information within a function with CHOOSE </link></para>
+							<para><link xlink:href="E8DFFD45-C762-47D6-BF89-533F4A37673A">Locate data with MATCH </link></para>
+							<para><link xlink:href="A5DCF0DD-996D-40A4-A822-B56B061328BD">Retrieve information by location with INDEX </link></para>
+							<para><link xlink:href="C249EFC5-5847-4329-BFEE-ECFFEAD5EF88">Look up values in a list of data</link></para>
+							<para><link xlink:href="474B3A3A-8A26-4F44-B491-92B6306FA261">INDIRECT function</link></para>
+							<para><link xlink:href="ED039415-ED8A-4A81-93E9-4B6DFAC76027">Flip with row/column orientation with TRANSPOSE</link></para>
+							<para><link xlink:href="8aa21a3a-b56a-4055-8257-3ec89df2b23e">All lookup and reference functions </link></para>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem tabItemID="More_functions">
+					<tabControlItemTitle>More functions</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+						</content>
+						<sections>
+							<section>
+								<title>Date and Time Functions</title>
+								<content>
+									<para><link xlink:href="5EB3078D-A82C-4736-8930-2F51A028FDD9">Calculate the current date with the TODAY function</link></para>
+									<para><link xlink:href="E36C0C8C-4104-49DA-AB83-82328B832349">Create a date with the DATE function</link></para>
+									<para><link xlink:href="8E10019E-D5D8-47A1-BA95-DB95123D273E">Format a date the way you want</link></para>
+									<para><link xlink:href="60E44483-2ED1-439F-8BD0-E404C190949A">Identify the day of the week with WEEKDAY</link></para>
+									<para><link xlink:href="48E717BF-A7A3-495F-969E-5005E3EB18E7">Count working days with NETWORKDAYS</link></para>
+									<para><link xlink:href="F764A5B7-05FC-4494-9486-60D494EFBF33">Determine a completion date with WORKDAY </link></para>
+									<para><link xlink:href="25dba1a4-2812-480b-84dd-8b32a451b35c">Tabulate date/time differences with DATEDIF </link></para>
+									<para><link xlink:href="B5663451-10B0-40AB-9E71-6B0CE5768138">Insert the current date and time in a cell</link></para>
+									<para><link xlink:href="B83768F5-F695-4311-98B1-757345F7E926">Add or subtract dates</link></para>
+									<para><link xlink:href="16AA6697-6D6E-49C1-8E2C-3398A7CAD6AD">Add or subtract time</link></para>
+									<para><link xlink:href="8235E7C9-B430-44CA-9425-46100A162F38">Calculate the difference between two dates</link></para>
+									<para><link xlink:href="E1C78778-749B-49A3-B13E-737715505FF6">Calculate the difference between two times</link></para>
+									<para><link xlink:href="614932F8-BF0D-4993-8E54-4612CD57334F">Convert times</link></para>
+									<para><link xlink:href="fd1b5961-c1ae-4677-be58-074152f97b81">All date and time functions</link></para>
+								</content>
+							</section>
+							<section>
+								<title>Text functions</title>
+								<content>
+									<para><link xlink:href="20D5AC4D-7B94-49FD-BB38-93D29371225C">Create a text string and format it with the TEXT function</link></para>
+									<para><link xlink:href="9203D2D2-7960-479B-84C6-1EA52B99640C">Extract the leftmost characters from a text value with LEFT, LEFTB </link></para>
+									<para><link xlink:href="240267ee-9afa-4639-a02b-f19e1786cf2f">Extract the rightmost characters from a text value with RIGHT, RIGHTB functions</link></para>
+									<para><link xlink:href="410388fa-c5df-49c6-b16c-9e5630b479f9">Remove excess space with TRIM</link></para>
+									<para><link xlink:href="8f8ae884-2ca8-4f7a-b093-75d702bea31d">Use CONCATENATE with functions</link></para>
+									<para><link xlink:href="9b1a9a3f-94ff-41af-9736-694cbd6b4ca2">Combine the text from multiple ranges and/or strings with CONCAT (Excel 2016)</link></para>
+									<para><link xlink:href="C7912941-AF2A-4BDF-A553-D0D89B0A0628">Locate a text string (case sensitive) within another string with FIND, FINDB functions</link></para>
+									<para><link xlink:href="9AB04538-0E55-4719-A72E-B6F54513B495">Locate a text string within another string with SEARCH, SEARCHB functions</link></para>
+									<para><link xlink:href="1BE151D7-5B8F-4186-87B9-7B0318583163">Count characters in cells</link></para>
+									<para><link xlink:href="A32C8E0E-90A2-435B-8635-5DD2209044AD">Combine text and numbers</link></para>
+									<para><link xlink:href="CCCD86AD-547D-4EA9-A065-7BB697C2A56E">All text functions</link></para>
+								</content>
+							</section>
+							<section>
+								<title>Statistical functions </title>
+								<content>
+									<para><link xlink:href="D0916313-4753-414C-8537-CE85BDD967D2">Find the middle value with MEDIAN</link></para>
+									<para><link xlink:href="6A2FC49D-1831-4A03-9D8C-C279CF99F723">Rank data without sorting with RANK</link></para>
+									<para><link xlink:href="3AF0AF19-1190-42BB-BB8B-01672EC00A64">Return the largest value in a data set with LARGE</link></para>
+									<para><link xlink:href="17DA8222-7C82-42B2-961B-14C45384DF07">Return the smallest value in a data set with SMALL</link></para>
+									<para><link xlink:href="6A92D772-675C-4BEE-B346-24AF6BD3AC22">Tabulat blank cells with COUNTBLANK </link></para>
+									<para><link xlink:href="44E3BE2B-ECA0-42CD-A3F7-FD9EA898FDB9">Determine frequency distributions with FREQUENCY </link></para>
+									<para><link xlink:href="E2F135F0-8827-4096-9873-9A7CF7B51EF1">Build analysis via regression techniques with TREND</link></para>
+									<para><link xlink:href="541A91DC-3D5E-437D-B156-21324E68B80D">GROWTH function</link></para>
+									<para><link xlink:href="624DAC86-A375-4435-BC25-76D659719FFD">All statistical functions</link></para>
+								</content>
+							</section>
+							<section>
+								<title>Math functions </title>
+								<content>
+									<para><link xlink:href="49B936F9-6904-425D-AA98-02FFB7F9A17B">Round a number to the decimal places I want </link></para>
+									<para><link xlink:href="9B6CD169-B6EE-406A-A97B-EDF2A9DC24F3">Find the remainder with MOD</link></para>
+									<para><link xlink:href="4CBFA695-8869-4788-8D90-021EA9F5BE73">Build random number generators with RAND</link></para>
+									<para><link xlink:href="4CC7F0D1-87DC-4EB7-987F-A469AB381685">Generate random number between numbers you specify with RANDBETWEEN</link></para>
+									<para><link xlink:href="D785BEF1-808E-4AAC-BDCD-666C810F9AF2">Convert a value between measurement systems with CONVERT </link></para>
+									<para><link xlink:href="7B027003-F060-4ADE-9040-E478765B9939">SUBTOTAL function</link></para>
+									<para><link xlink:href="C018C5D8-40FB-4053-90B1-B3E7F61A213C">ROUND function</link></para>
+									<para><link xlink:href="F82B440B-689D-4221-B21E-38DA99D33435">Round a number</link></para>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem tabItemID="Errors">
+					<tabControlItemTitle>Errors</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para><link xlink:href="8309381d-33e8-42f6-b889-84ef6df1d586">How to avoid broken formulas</link></para>
+							<para><link xlink:href="15e1b616-fbf2-4147-9c0b-0a11a20e409e">How to correct #VALUE errors</link></para>
+							<para><link xlink:href="F5193BFC-4400-43F4-88C4-8E1DCCA0428B">How to correct #NUM errors</link></para>
+							<para><link xlink:href="a9708411-f82e-4e1b-8a7e-28c28311b993">How to correct #NA error</link></para>
+							<para><link xlink:href="822c8e46-e610-4d02-bf29-ec4b8c5ff4be">How to correct #REF! error</link></para>
+							<para><link xlink:href="b6d54e31-a743-4d7d-9b61-40002a7b4286">How to correct #NAME? error</link></para>
+							<para><link xlink:href="bf801d0a-2a6e-44bd-a70e-0f780ae8f11e">How to correct a ##### error </link></para>
+							<para><link xlink:href="D171B96E-8FB4-4863-A1BA-B64557474439">Hide error values and error indicators in cells</link></para>
+							<para><link xlink:href="8D9A69B3-B867-490E-82E0-A929FBC1E273">Count unique values among duplicates</link></para>
+							<para><link xlink:href="ee158fd6-33be-42c9-9ae5-d635c3ae8c16">All math functions</link></para>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+			</tabControl>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

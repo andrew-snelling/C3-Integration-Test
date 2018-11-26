@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="b481c45b-df31-422f-8e72-66c42f968e23" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="__goback">Use time options to control how long a tour scene lasts, and to set the length of time between scenes. Use effects to highlight a scene with circular motions, rotations, pans, or zooms.</para>
+  </introduction>
+  <section>
+    <title>Change how long it takes to switch between scenes</title>
+    <content>
+      <para>A transition is the change from one scene to the next, so to include a transition a tour must contain at least two scenes.</para>
+      <para>(Therefore, the first scene in a tour never has a transition; it starts immediately.)</para><list class="ordered">
+        <listItem>
+          <para>Select the scene that the tour is switching <legacyItalic>to</legacyItalic>.</para><para>(For example, to set the time between the first and second scene, select the second scene.)</para>
+        </listItem>
+        <listItem>
+          <para> Click <ui>Home</ui> &gt; <ui>Scene Options</ui>.</para>
+        </listItem>
+      <listItem>
+          <para>Under <ui>Effects</ui>, in the <ui>Transition duration (sec)</ui> box, select the number of seconds that you want the transition between the scenes to take.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="08fe77bd-43e5-419b-8e6c-40d7723f8a90">
+          </image>
+        </mediaLinkInline>
+      </para></listItem></list>
+      
+      
+      
+      <alert class="note">
+            
+          <para></para></alert><list class="bullet">
+        <listItem>
+          <para>The first scene in a tour doesn't have a transition; it starts immediately.</para>
+        </listItem>
+        <listItem>
+          <para>By default, a transition between scenes is 3 seconds.</para>
+        </listItem>
+        <listItem>
+          <para>A transition of 0 seconds creates a "cut" style transition where the incoming scene starts immediately.</para>
+        </listItem>
+        <listItem>
+          <para>A transition always travels the entire distance between two scenes.</para>
+          <para>For example, when a scene switches from a view featuring East Asia to a view of Europe, the globe rotates during the transition. The globe may pitch upward or downward, depending on where each scene is centered in relation to the equator.</para>
+        </listItem>
+        <listItem>
+          <para>During a transition, text boxes, annotations, and the last data state from the previous scene are preserved until the new scene starts. </para>
+        </listItem>
+        <listItem>
+          <para>Transitions are designed to rotate as little as possible between scenes.</para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Specify how long a scene lasts</title>
+    <content>
+      <para>A scene's duration value controls how long the scene lasts, and how quickly the geographic data are plotted and updated over time on the map.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Select the scene that you want to work with.</para>
+        </listItem>
+        <listItem>
+          <para> Click <ui>Home</ui> &gt; <ui>Scene Options</ui>.</para>
+        </listItem>
+      <listItem>
+          <para>In the <ui>Scene duration (sec)</ui> box, enter the number of seconds that you want the scene to last.</para>
+        <para>If you want to give  the scene a name, enter the name in the <ui>Scene Name</ui> box.</para><para>
+        <mediaLinkInline>
+          <image xlink:href="22ff4a73-05c5-4a54-9cec-a8b601427e04">
+          </image>
+        </mediaLinkInline>
+      </para></listItem></list>
+      
+      
+    </content>
+    
+  </section>
+  <section>
+    <title>Specify the effect you want to apply</title>
+    <content>
+      <para>Use effects to highlight a scene with circular motions, rotations, pans, or zooms.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Select the scene that you want to work with.</para>
+        </listItem>
+        <listItem>
+          <para> Click <ui>Home</ui> &gt; <ui>Scene Options</ui>.</para>
+        </listItem>
+      <listItem>
+          <para>In the <ui>Effect</ui> box, pick the effect that you want, and then adjust the <ui>Effect Speed</ui> slider to control the speed and/or distance of the effect.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="f36877a5-610f-4942-a93e-7e7b99a0e703">
+          </image>
+        </mediaLinkInline>
+      </para></listItem></list>
+      
+      <alert class="note">
+        
+        
+            
+          <para></para></alert><list class="bullet">
+        <listItem>
+          <para>The <legacyBold>Circle</legacyBold> and <legacyBold>Figure 8 </legacyBold>effects move in a repetitive circular motion.</para>
+        </listItem>
+        <listItem>
+          <para>The <legacyBold>Dolly</legacyBold> and <legacyBold>Rotate Globe</legacyBold> effects move clockwise in a straight line.</para>
+        </listItem>
+        <listItem>
+          <para>The <legacyBold>Push In</legacyBold> effect "zooms in" on the scene, continuously increasing the size of the globe and zeroing in on the scene's center for the entire duration of the scene.</para>
+        </listItem>
+        <listItem>
+          <para>The <legacyBold>Fly Over</legacyBold> effect moves the globe, depending on where on the globe the scene is centered, downward (Northern hemisphere) or upward (Southern hemisphere).</para>
+        </listItem>
+        <listItem>
+          <para>All effects last for the entire duration of a scene.</para>
+        </listItem>
+        <listItem>
+          <para>You can use the <ui>Effect Speed</ui> slider to control how quickly the globe turns or how many circular motions are completed in the scene.</para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="cba3d67a-c5cb-406f-9b14-a02205834d72" revisionNumber="9"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>With built-in custom lists, you can sort data—either by days of the week or months of the year. Optionally, you can create your own custom lists to sort by any other characteristic that doesn’t sort well alphabetically—such as high, medium, and low—or S, M, L, XL.</para>
+		<para>With custom lists, you could sort this worksheet either by <legacyBold>Delivery</legacyBold> month or by <legacyBold>Priority</legacyBold>.</para>
+		<para><mediaLinkInline><image xlink:href="39a98d17-af54-4167-9c43-f23ae411d881" /></mediaLinkInline></para>
+	</introduction>
+	<section>
+		<title>Sort by days of the week or months of the year with a built-in custom list</title>
+		<content>
+			<para>Follow these steps:</para>
+			<list class="ordered">
+				<listItem>
+					<para>Select the columns to sort.</para>
+					<alert class="note">
+						<para>For the best results, each column should have a heading.</para>
+					</alert>
+				</listItem>
+				<listItem>
+					<para>In the ribbon, click <ui>Data</ui> &gt; <ui>Sort</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="3fbfc5b3-b45c-4963-9181-19da36129be2" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Sort</ui> popup window, in the <ui>Sort by</ui> drop-down, choose the column on which you need to sort.</para>
+					<para>For example, if you want to re-sort the previous example by delivery date, under <ui>Sort by</ui>, choose <ui>delivery</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="7e30c431-787a-4f9f-9fe2-1a8e1319ec65" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>From the <ui>Order</ui> drop-down, select <ui>Custom List</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="81ba7b34-5e12-4294-8b69-ecc182b194a1" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <legacyBold>Custom Lists</legacyBold> box, select the list that you want, and then click <ui>OK</ui> to sort the worksheet.</para>
+					<para><mediaLinkInline><image xlink:href="d13e3d4c-7132-4b4a-8b86-b0dd8a443128" /></mediaLinkInline></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Create your own custom list</title>
+		<content>
+			<para>Follow these steps to create you own custom list for sorting:</para>
+			<list class="ordered">
+				<listItem>
+					<para>In a column of a worksheet, type the values to sort by. Arrange them in the order that you want to define the sort order—from top to bottom. For example:</para>
+					<para><mediaLinkInline><image xlink:href="d36015d4-e10e-4217-a638-cfa16d249cd4" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Select all of the cells in that list, and then click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Advanced</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Scroll way down to the <ui>General</ui> section and click <ui>Edit Custom Lists</ui>...<br />
+	<br />
+	<mediaLinkInline><image xlink:href="6b097f9b-8c91-4cc6-8859-98c7ea8b8e92" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Custom Lists</ui> box, click <ui>Import</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="86c4b26d-b861-48f5-ae69-aaf7f11e75f5" /></mediaLinkInline></para>
+				</listItem>
+			</list>
+			<alert class="tip">
+				<para>For a short list—such as High, Medium, and Low, it may be faster to enter it directly into the <ui>List entries</ui> box in the <ui>Custom Lists</ui> box.</para>
+			</alert>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<tokenBlock>Excel_CommunityLinks</tokenBlock>
+		</content>
+	</section>
+	<section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="E41F7107-B92D-44EF-861F-24430830450A">Sort data in a PivotTable or PivotChart</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

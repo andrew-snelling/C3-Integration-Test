@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="49b833c0-873b-48d8-8bf2-c1c59a628534" revisionNumber="27"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <alert class="important"><para>"Shared Workbooks" is an older feature that allows you to collaborate on a workbook with multiple people. This feature has many limitations, and has been replaced by <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">co-authoring</link>. Co-authoring is available <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">in certain versions of Excel</link>, including Excel 2016 for <externalLink><linkText>Office 365 subscribers</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink>. <br /> <br /><mediaLinkInline><image xlink:href="66bd0628-8473-4750-b528-03b57eb3d85d"><externalLink><linkText /><linkUri>https://products.office.com/en-us/compare-all-microsoft-office-products?tab=1&amp;wt.mc_id=AID573689_QSG_147419</linkUri></externalLink></image></mediaLinkInline></para></alert>
+  </introduction>
+  
+  
+  
+  <section>
+<content><tabControl controlId="OfficeVersion"><tabControlItem targetedOS="Windows"><tabControlItemTitle>Windows</tabControlItemTitle><tabControlItemSection><content></content><sections><section expanded="false">
+        <title>Enabling the Shared Workbook feature</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Be certain that you want to use this method before continuing. Shared Workbooks have limitations, and one in particular is the inability to edit using Excel Online. Therefore we highly recommend <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">co-authoring</link>, which is the replacement for Shared Workbooks.</para></listItem><listItem><para>Create a new workbook or open an existing workbook. Then place it on a network location. For example, put it on a location like <legacyItalic>\\server_name\folder_name.</legacyItalic> Don't put the file on OneDrive or SharePoint. If you prefer those locations for the file, <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">co-author the workbook instead</link>.</para></listItem><listItem><para>Click <ui>Review</ui> &gt; <ui>Share Workbook</ui>. </para><para>Note that in newer versions of Excel, the Share Workbook button has been hidden. <link xlink:href="150fc205-990a-4763-82f1-6c259303fe05">Here's how to unhide it</link>.</para></listItem>
+            <listItem>
+              <para>On the <ui>Editing</ui> tab, select the <ui>Allow changes by more than one user ...</ui> check box.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Advanced</ui> tab, select the options that you want to use for tracking and updating changes, and then click <ui>OK</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>If this is a new workbook, type a name in the <ui>File name</ui> box. Or, if this is an existing workbook, click <ui>OK</ui> to save the workbook.</para></listItem>
+            
+            <listItem>
+              <para>If the workbook contains links to other workbooks or documents, verify the links and update any links that are broken.</para>
+            </listItem>
+            <listItem>
+              
+              
+            <para>Click <ui>File</ui> &gt; <ui>Save</ui>.</para></listItem><listItem><para>When you're done, <ui>- Shared</ui> will appear at the top of the Excel window, next to the filename.</para></listItem>
+          </list>
+        </content>
+        
+      </section><section expanded="false">
+<title>Additional information</title><content></content>
+<sections><section expanded="true">
+    <title>Unsupported features</title>
+    <content>
+      
+      <para>Please be aware that Shared Workbooks is an older method of sharing. Therefore, many items and actions are not supported when this method is used. The table below is only a partial list of features not supported.</para>
+      
+      <table border="1">
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Unsupported items:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Unsupported actions:</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Creating or inserting tables</para>
+            </TD>
+            <TD><para>Inserting or deleting blocks of cells</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Adding or changing conditional formats</para></TD>
+            <TD>
+              
+            <para>Deleting worksheets</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Adding or changing data validation</para></TD>
+            <TD><para>Merging cells or splitting merged cells</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating or changing charts or PivotChart reports</para></TD>
+            <TD><para>Sorting or filtering by format</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Inserting or changing pictures or other objects</para></TD>
+            <TD><para>Using drawing tools</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Inserting or changing hyperlinks</para></TD>
+            <TD><para>Assigning, changing, or removing passwords</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating, changing, or viewing scenarios</para></TD>
+            <TD><para>Protecting or unprotecting worksheets or the workbook</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Inserting automatic subtotals</para></TD>
+            <TD><para>Grouping or outlining data</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating data tables</para></TD>
+            <TD><para>Writing, recording, changing, viewing, or assigning macros</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating or changing PivotTable reports</para></TD>
+            <TD><para>Changing or deleting array formulas</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating or applying slicers</para></TD>
+            <TD><para>Adding, renaming, or deleting XML maps</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating or modifying sparklines</para></TD>
+            <TD><para>Mapping cells to XML elements</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Adding or changing Microsoft Excel 4 dialog sheets</para></TD>
+            <TD><para>Using the XML Source task pane, XML toolbar, or XML commands on the Data menu</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            </TD>
+            <TD><para>Using a data form to add new data</para></TD>
+          </tr><tr><TD><para>Adding threaded comments</para></TD><TD><para>Editing, or deleting threaded comments</para></TD></tr>
+          
+        </tbody>
+      </table></content>
+    
+  </section><section expanded="true">
+    <title>Disconnecting a user</title>
+    <content>
+      
+      <para>Before you disconnect users, make sure that they have completed their work on the workbook. If you remove active users, any unsaved work of theirs will be lost.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Click <ui>Review</ui> &gt; <ui>Share Workbook</ui>.</para>
+        <para>Note that in newer versions of Excel, the Share Workbook button has been hidden. <link xlink:href="150fc205-990a-4763-82f1-6c259303fe05">Here's how to unhide it</link>.</para></listItem>
+        <listItem>
+          <para>On the <ui>Editing</ui> tab, in the <ui>Who has this workbook open now</ui> list, review the names of users.</para>
+          
+        </listItem>
+        <listItem>
+              <para>Select the name of the user who you want to disconnect, and then click <ui>Remove User</ui>. Please note that although this action disconnects the user from the workbook, it does not prevent that user from editing the workbook again.</para>
+            </listItem><listItem>
+          <para>To delete any personal view settings of the removed user, click <ui>View</ui> &gt; <ui>Custom Views</ui> and delete any other user views.</para>
+          
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  
+  <section expanded="true">
+        <title>Before you turn off the Shared Workbook feature</title>
+        <content>
+          <para>Before you turn off this feature, you might want to make a copy of the change history. First make sure that all other users have completed their work.</para><list class="ordered">
+            <listItem>
+              <para>Click <ui>Review</ui> &gt; <ui>Track Changes</ui> &gt; <ui>Highlight Changes</ui>.</para>
+            <para>Note that in newer versions of Excel, the Track Changes button has been hidden. <link xlink:href="150fc205-990a-4763-82f1-6c259303fe05">Here's how to unhide it</link>.</para></listItem>
+            <listItem>
+              <para>In the <ui>When</ui> list, select <ui>All</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Clear the <ui>Who</ui> and <ui>Where</ui> check boxes.</para>
+            </listItem>
+            <listItem>
+              <para>Select the <ui>List changes on a new sheet</ui> check box, and then click <ui>OK</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Now you can either print the History worksheet, or you can copy the history and paste it into another workbook. </para>
+              
+            </listItem>
+          </list>
+          
+        </content>
+        
+      </section><section expanded="true">
+        <title>Turning off the Shared Workbook feature</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Click <ui>Review</ui> &gt; <ui>Share Workbook</ui>.</para>
+            <para>Note that in newer versions of Excel, the Share Workbook button has been hidden. <link xlink:href="150fc205-990a-4763-82f1-6c259303fe05">Here's how to unhide it</link>.</para></listItem>
+            <listItem>
+              <para>On the <ui>Editing</ui> tab, make sure that you are the only person listed in the <ui>Who has this workbook open now</ui> list.</para>
+              
+            </listItem>
+            <listItem>
+              <para>Clear the <ui>Allow changes by more than one user ...</ui> check box. If this check box is not available, you must first unprotect the workbook. Do the following:</para>
+              
+              <list class="ordered">
+                <listItem>
+                  <para>Click <ui>OK</ui> to close the <ui>Share Workbook</ui> dialog box.</para>
+                </listItem>
+                <listItem>
+                  <para>On the <ui>Review</ui> tab, in the <ui>Changes</ui> group, click <ui>Unprotect Shared Workbook</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>If you are prompted, enter the password, and then click <ui>OK</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>On the <ui>Review</ui> tab, in the <ui>Changes</ui> group, click <ui>Share Workbook</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>On the <ui>Editing</ui> tab, clear the <ui>Allow changes by more than one user ...</ui> check box.</para>
+                </listItem>
+                <listItem>
+                  <para>When you are prompted about the effects on other users, click <ui>Yes</ui>.</para>
+                </listItem>
+              </list>
+            </listItem>
+          </list>
+          
+        </content>
+        
+      </section></sections></section>
+  </sections></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Mac"><tabControlItemTitle>macOS</tabControlItemTitle><tabControlItemSection><content></content><sections><section expanded="false">
+        <title>Enabling the Shared Workbook feature</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Be certain that you want to use this method before continuing. Shared Workbooks have limitations, and therefore we highly recommend <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">co-authoring</link>, which is the replacement for Shared Workbooks.</para></listItem><listItem><para>Create a new workbook or open an existing workbook. Then place it on a network location. Don't put the file on OneDrive or SharePoint. If you prefer those locations for the file, <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">co-author the workbook instead</link>.</para></listItem><listItem><para>Click <ui>Review</ui> &gt; <ui>Share Workbook</ui>. </para></listItem>
+            <listItem>
+              <para>On the <ui>Editing</ui> tab, select the <ui>Allow changes by more than one user ...</ui> check box.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Advanced</ui> tab, select the options that you want to use for tracking and updating changes, and then click <ui>OK</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>If this is a new workbook, type a name in the <ui>Save As</ui> box. Or, if this is an existing workbook, click <ui>OK</ui> to save the workbook.</para></listItem>
+            
+            <listItem>
+              <para>If the workbook contains links to other workbooks or documents, verify the links and update any links that are broken.</para>
+            </listItem>
+            <listItem>
+              
+              
+            <para>Click <ui>File</ui> &gt; <ui>Save</ui>.</para></listItem><listItem><para>When you're done, <ui>- Shared</ui> will appear at the top of the Excel window, next to the filename.</para></listItem>
+          </list>
+        </content>
+        
+      </section><section>
+<title>Additional information</title><content></content>
+<sections><section expanded="true">
+    <title>Unsupported features</title>
+    <content>
+      
+      <para>Please be aware that Shared Workbooks is an older method of sharing. Therefore, many items and actions are not supported when this method is used. The table below is only a partial list of features not supported.</para>
+      
+      <table border="1">
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Unsupported items:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Unsupported actions:</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Creating or inserting tables</para>
+            </TD>
+            <TD><para>Inserting or deleting blocks of cells</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Adding or changing conditional formats</para></TD>
+            <TD>
+              
+            <para>Deleting worksheets</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Adding or changing data validation</para></TD>
+            <TD><para>Merging cells or splitting merged cells</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating or changing charts or PivotChart reports</para></TD>
+            <TD><para>Sorting or filtering by format</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Inserting or changing pictures or other objects</para></TD>
+            <TD><para>Using drawing tools</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Inserting or changing hyperlinks</para></TD>
+            <TD><para>Assigning, changing, or removing passwords</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating, changing, or viewing scenarios</para></TD>
+            <TD><para>Protecting or unprotecting worksheets or the workbook</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Inserting automatic subtotals</para></TD>
+            <TD><para>Grouping or outlining data</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating data tables</para></TD>
+            <TD><para>Writing, recording, changing, viewing, or assigning macros</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating or changing PivotTable reports</para></TD>
+            <TD><para>Changing or deleting array formulas</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating or applying slicers</para></TD>
+            <TD><para>Adding, renaming, or deleting XML maps</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Creating or modifying sparklines</para></TD>
+            <TD><para>Mapping cells to XML elements</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Adding or changing Microsoft Excel 4 dialog sheets</para></TD>
+            <TD><para>Using the XML Source task pane, XML toolbar, or XML commands on the Data menu</para></TD>
+          </tr>
+          <tr>
+            <TD>
+              
+            <para>Importing, refreshing, and exporting XML data</para></TD>
+            <TD><para>Using a data form to add new data</para></TD>
+          </tr>
+          
+        </tbody>
+      </table></content>
+    
+  </section><section expanded="true">
+    <title>Disconnecting a user</title>
+    <content>
+      
+      <para>Before you disconnect users, make sure that they have completed their work on the workbook. If you remove active users, any unsaved work of theirs will be lost.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Click <ui>Review</ui> &gt; <ui>Share Workbook</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Editing</ui> tab, in the <ui>Who has this workbook open now</ui> list, review the names of users.</para>
+          
+        </listItem>
+        <listItem>
+              <para>Select the name of the user who you want to disconnect, and then click <ui>Remove User</ui>. Please note that although this action disconnects the user from the workbook, it does not prevent that user from editing the workbook again.</para>
+            </listItem><listItem>
+          <para>To delete any personal view settings of the removed user, click <ui>View</ui> &gt; <ui>Custom Views</ui> and delete any other user views.</para>
+          
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  
+  <section expanded="true">
+        <title>Before you turn off the Shared Workbook feature</title>
+        <content>
+          <para>Before you turn off this feature, you might want to make a copy of the change history. First make sure that all other users have completed their work.</para><list class="ordered">
+            <listItem>
+              <para>Click <ui>Review</ui> &gt; <ui>Track Changes</ui> &gt; <ui>Highlight Changes</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>When</ui> list, select <ui>All</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Clear the <ui>Who</ui> and <ui>Where</ui> check boxes.</para>
+            </listItem>
+            <listItem>
+              <para>Select the <ui>List changes on a new sheet</ui> check box, and then click <ui>OK</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Now you can either print the History worksheet, or you can copy the history and paste it into another workbook. </para>
+              
+            </listItem>
+          </list>
+          
+        </content>
+        
+      </section><section expanded="true">
+        <title>Turning off the Shared Workbook feature</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Click <ui>Review</ui> &gt; <ui>Share Workbook</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Editing</ui> tab, make sure that you are the only person listed in the <ui>Who has this workbook open now</ui> list.</para>
+              
+            </listItem>
+            <listItem>
+              <para>Clear the <ui>Allow changes by more than one user ...</ui> check box. If this check box is not available, you must first unprotect the workbook. Do the following:</para>
+              
+              <list class="ordered">
+                <listItem>
+                  <para>Click <ui>OK</ui> to close the <ui>Share Workbook</ui> dialog box.</para>
+                </listItem>
+                <listItem>
+                  <para>On the <ui>Review</ui> tab, click <ui>Protect Workbook</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>If you are prompted, enter the password, and then click <ui>OK</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>On the <ui>Review</ui> tab, <ui>Share Workbook</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>On the <ui>Editing</ui> tab, clear the <ui>Allow changes by more than one user ...</ui> check box.</para>
+                </listItem>
+                
+              </list>
+            </listItem>
+          </list>
+          
+        </content>
+        
+      </section><section expanded="true">
+        <title>Before you turn off the Shared Workbook feature</title>
+        <content>
+          <para>Before you turn off this feature, you might want to make a copy of the change history. First make sure that all other users have completed their work.</para><list class="ordered">
+            <listItem>
+              <para>Click <ui>Review</ui> &gt; <ui>Track Changes</ui> &gt; <ui>Highlight Changes</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>When</ui> list, select <ui>All</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Clear the <ui>Who</ui> and <ui>Where</ui> check boxes.</para>
+            </listItem>
+            <listItem>
+              <para>Select the <ui>List changes on a new sheet</ui> check box, and then click <ui>OK</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Now you can either print the History worksheet, or you can copy the history and paste it into another workbook. </para>
+              
+            </listItem>
+          </list>
+          
+        </content>
+        
+      </section><section expanded="true">
+        <title>Turning off the Shared Workbook feature</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Click <ui>Review</ui> &gt; <ui>Share Workbook</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Editing</ui> tab, make sure that you are the only person listed in the <ui>Who has this workbook open now</ui> list.</para>
+              
+            </listItem>
+            <listItem>
+              <para>Clear the <ui>Allow changes by more than one user ...</ui> check box. If this check box is not available, you must first unprotect the workbook. Do the following:</para>
+              
+              <list class="ordered">
+                <listItem>
+                  <para>Click <ui>OK</ui> to close the <ui>Share Workbook</ui> dialog box.</para>
+                </listItem>
+                <listItem>
+                  <para>On the <ui>Review</ui> tab, click <ui>Protect Workbook</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>If you are prompted, enter the password, and then click <ui>OK</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>On the <ui>Review</ui> tab, <ui>Share Workbook</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>On the <ui>Editing</ui> tab, clear the <ui>Allow changes by more than one user ...</ui> check box.</para>
+                </listItem>
+                
+              </list>
+            </listItem>
+          </list>
+          
+        </content>
+        
+      </section></sections></section>
+  </sections></tabControlItemSection></tabControlItem></tabControl></content>
+</section><relatedTopics />
+</developerConceptualDocument></topic>

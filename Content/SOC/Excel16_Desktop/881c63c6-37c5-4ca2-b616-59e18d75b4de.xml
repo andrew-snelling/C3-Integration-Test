@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="881c63c6-37c5-4ca2-b616-59e18d75b4de" revisionNumber="11"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Excel includes a powerful set of features called <legacyBold>Get &amp; Transform</legacyBold>, which provides fast, easy data gathering and shaping capabilities. <legacyBold>Get &amp; Transform</legacyBold> enables you to connect, combine, and refine data sources to meet your analysis needs. These features are also used in <legacyBold>Power BI</legacyBold>, and in the <legacyBold>Power Query Add-In</legacyBold> available for previous versions of Excel.</para>
+		<alert class="note">
+			<para>Before diving into details, you might want to take a step back and <link xlink:href="42d895c2-d1d7-41d0-88da-d1ed7ecc102d">watch a video, or take our learning guide on Get &amp; Transform and Power Pivot</link>.</para>
+		</alert>
+		<para>Connecting to and transforming data often follows a few common steps:</para>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<mediaLink>
+				<image xlink:href="e5c63e6e-3205-4803-8b4a-6e469a211089" />
+			</mediaLink>
+			<para>While some data analysis efforts focus on a few of these steps, each step is important in the data analysis and transformation process. For more about <legacyBold>Get &amp; Transform</legacyBold> and the data analysis process, and to see an example of these steps in action using Excel, see <link xlink:href="a8310388-2a12-438c-9d29-c6d29cb8df6a">Getting Started with Get &amp; Transform in Excel</link>.</para>
+			<alert class="tip">
+				<para>Using a previous version of Excel? If so, take a look at <link xlink:href="ed614c81-4b00-4291-bd3a-55d80767f81d">Power Query - Overview and Learning</link> for an overview based on previous versions of Excel with the <externalLink><linkText>Power Query Add-in</linkText><linkUri>http://www.microsoft.com/en-us/download/details.aspx?id=39379&amp;WT.mc_id=Blog_PBI_Announce_DI</linkUri></externalLink>. The content and premises are similar but some screens and steps are slightly different, and we want you to clearly see how these features work in your version of Excel. To see these features in action in previous versions of Excel, take a look at <link xlink:href="7104fbee-9e62-4cb9-a02e-5bfb1a6c536a">Getting Started with Power Query</link>.</para>
+			</alert>
+		</content>
+	</section>
+	<section>
+		<title>Your Resources</title>
+		<content>
+			<para>The following links and information can get you started, and help you understand these new data import and transformation features in Excel. The sections and links are presented in the order you’d need if you were just starting out – the first link describes where to find the new functionality in Excel, the next section points you to a <legacyBold>Getting Started Guide</legacyBold>, and then you find links to tutorials, and community connections.</para>
+			<para>We update these links when additional resources are available, so check back often.</para>
+		</content>
+		<sections>
+			<section>
+				<title>How do I use Get &amp; Transform?</title>
+				<content>
+					<para>To use <legacyBold>Get &amp; Transform</legacyBold> in Excel, you create a <legacyItalic>query</legacyItalic> in your workbook. A <legacyItalic>query</legacyItalic> enables you to connect to, preview, and transform data from a wide variety of available data sources. You can then load that transformed data into a table, or into the built-in Data Model in Excel, and even refresh that data later on. You can also edit the query whenever you need to, and share your query, too.</para>
+					<para>To create a query in Excel, use the <legacyBold>Data</legacyBold> tab in the ribbon, then select the <legacyBold>Get Data</legacyBold> button from the <legacyBold>Get &amp; Transform Data</legacyBold> ribbon group. From there, choose your data source. </para>
+					<mediaLink>
+						<image xlink:href="de35440d-012b-4ed8-9a63-ed4ca673f7a1" />
+					</mediaLink>
+					<para>Related <legacyBold>Get &amp; Transform</legacyBold> features are also available from the <legacyBold>Get &amp; Transform</legacyBold> group. For more information, and to see these steps in action, take a look at <link xlink:href="a8310388-2a12-438c-9d29-c6d29cb8df6a">Getting Started with Get &amp; Transform Data in Excel</link>.</para>
+				</content>
+			</section></sections>
+	</section>
+	<section>
+		<title>Getting Started with Get &amp; Transform</title>
+		<content>
+			<para>Want to see how a query can transform your data? The <link xlink:href="a8310388-2a12-438c-9d29-c6d29cb8df6a">Getting Started with Get &amp; Transform in Excel</link> page explains how to connect to and transform data in Excel, with understandable categories and steps that show you how to create a query, and also how to share it.</para>
+			<alert class="tip">
+				<para>The collection of data import and transformation features available in the <legacyBold>Get &amp; Transform</legacyBold> ribbon group in Excel are available in many Microsoft products. These features are often referred to as <legacyBold>Power Query</legacyBold>. Many links in the following sections refer to <legacyBold>Power Query</legacyBold>, and the functionality described in those articles also applies to the collection of features in the <legacyBold>Get &amp; Transform</legacyBold> group in the <legacyBold>Data</legacyBold> ribbon of Excel.</para>
+			</alert>
+		</content>
+	</section>
+	<section>
+		<title>Tutorials</title>
+		<content>
+			<para>Seeing how a query is created can boost your learning around how to use <legacyBold>Get &amp; Transform</legacyBold> features. Here are a few tutorials that can get you started, as well as links that guide you through more challenging and interesting scenarios:</para>
+			<list class="bullet">
+				<listItem>
+					<para><link xlink:href="a8310388-2a12-438c-9d29-c6d29cb8df6a">Getting Started with Get &amp; Transform in Excel</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="008b3f46-5b14-4f8b-9a07-d3da689091b5">Power Query 101</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="70cfe661-5a2a-4d9d-a4fe-586cc7878c7d">Combine data from multiple data sources (Power Query)</link></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Additional information about Query</title>
+		<content>
+			<para>If you want more in-depth information on <legacyBold>Get &amp; Transform</legacyBold>, the following resources can help:</para>
+			<list class="bullet">
+				<listItem>
+					<para><link xlink:href="87c27c8e-1693-476d-8c4e-a83578f66d25">Modify a formula (Power Query)</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="6bc50988-022b-4799-a709-f8aafdee2b2f">Learn about Power Query formulas</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="9f08ceac-c949-4408-baff-6a7eaa183e11">Create an advanced query (Power Query)</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="2b433a85-ddfb-420b-9cda-fe0e60b82a94">Microsoft Power Query for Excel Help</link></para>
+				</listItem>
+				<listItem>
+					<para><externalLink><linkText>Query Formula Language Specification (M Language Reference)</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=320633</linkUri></externalLink></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Community, Forums, and Feedback</title>
+		<content>
+			<para>There are all sorts of people using these data gathering and transformation capabilities, and they like to share what they’ve learned. Take a look at the following resources to get involved with others in the community.</para>
+			<list class="bullet">
+				<listItem>
+					<para><externalLink><linkText>Power Query forum</linkText><linkUri>https://social.technet.microsoft.com/Forums/en-US/home?forum=powerquery</linkUri></externalLink></para>
+				</listItem>
+				<listItem>
+					<para><externalLink><linkText>Power BI blog</linkText><linkUri>https://blogs.msdn.com/b/powerbi/</linkUri></externalLink></para>
+				</listItem>
+				<listItem>
+					<para><externalLink><linkText>Excel blog</linkText><linkUri>https://blogs.office.com/excel/</linkUri></externalLink></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

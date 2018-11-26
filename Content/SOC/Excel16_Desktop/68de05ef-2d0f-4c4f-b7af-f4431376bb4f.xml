@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="68de05ef-2d0f-4c4f-b7af-f4431376bb4f" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="__goback">To share a 3D Maps tour, you can save it as a video file (*.mp4). Then you can share your tour with people who don't have a version of Excel that supports 3D Maps, or when you want to show it on the web through a media player, or run it on a large monitor as a video file without using Excel.</para>
+    <para>If you want music or narration to accompany your video, you can add a soundtrack (audio file), and then save the tour as a video file. 3D Maps doesn't provide you with any audio files to choose from, so you'll need to create or find those yourself.</para>
+    <list class="ordered">
+      <listItem>
+        <para>In 3D Maps, click <ui>Home</ui> &gt; <ui>Create Video</ui>.</para>
+      <para>
+      <mediaLinkInline>
+<image xlink:href="28858004-1bef-4725-92a1-1dc58769e32f" />
+</mediaLinkInline>
+    </para></listItem><listItem>
+        <para>Pick a video quality setting that best fits the device you expect your audience to use. You can create a separate video for each of the three available settings:</para>
+        <list class="bullet">
+          <listItem>
+            <para>1080p for a high definition video display</para>
+          </listItem>
+          <listItem>
+            <para>720p for a desktop, notebook, or tablet</para>
+          </listItem>
+          <listItem>
+            <para>360p for a mobile device or a small tablet</para>
+          </listItem>
+        </list>
+      </listItem><listItem>
+        <para>To attach a soundtrack (audio file) to the video, do the following:</para>
+        <list class="ordered">
+          <listItem>
+            <para>Click <ui>Soundtrack Options</ui>.</para>
+            <para>
+              <mediaLinkInline>
+                <image xlink:href="d671be33-b423-44f8-85df-bb16c074355d">
+                </image>
+              </mediaLinkInline>
+            </para>
+          </listItem>
+          <listItem>
+            <para>Click <ui>Browse</ui> to find your audio file, then click <ui>Open</ui>.</para>
+            <para>
+              <mediaLinkInline>
+                <image xlink:href="dc3fa7e1-950d-48e0-a607-cf33803b5ba3">
+                </image>
+              </mediaLinkInline>
+            </para>
+          </listItem>
+          <listItem>
+            <para>Check the values next to <ui>Video length</ui> and <ui>Soundtrack length</ui> to determine the fit of your soundtrack by comparing its length to the length of the video.</para>
+          </listItem>
+          <listItem>
+            <para>Optionally, choose options for the soundtrack—whether to loop (replay) it, and to fade in or fade out.</para>
+          </listItem>
+          <listItem>
+            <para>Click <ui>Apply</ui> to save your soundtrack settings.</para>
+          </listItem>
+        </list>
+      </listItem><listItem>
+        <para>Click <ui>Create</ui> to generate the video.</para>
+      </listItem>
+    <listItem>
+        <para>In the <ui>Save Movie</ui> box, browse to the folder where you want to save your video.</para>
+      </listItem></list>
+    
+    
+    <para>Depending on the length of the tour, it may take several minutes to save the video.</para>
+    <para>After the video has been saved, you can open it to view the tour in any player that supports .mp4 files.</para>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

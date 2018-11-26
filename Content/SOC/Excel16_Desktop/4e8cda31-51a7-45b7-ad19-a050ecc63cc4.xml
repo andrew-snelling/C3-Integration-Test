@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="4e8cda31-51a7-45b7-ad19-a050ecc63cc4" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Flash Fill automatically fills your data when it senses a pattern. To use it, see <link xlink:href="3f9bcf1e-db93-4890-94a0-1578341f73f7">Using Flash Fill</link>. However, if you're on a Windows device, you may need to enable this feature before using it. </para>
+		<list class="ordered">
+			<listItem>
+				<para>Click <ui>File</ui> &gt; <ui>Options</ui>.</para>
+			</listItem>
+			<listItem>
+				<para>Click the <ui>Advanced</ui> in the left pane, and ensure that the <ui>Automatically Flash Fill</ui> box is checked.</para>
+				<para><mediaLinkInline><image xlink:href="8d4bb5da-5817-4575-b24d-751b502a5211" /></mediaLinkInline></para>
+			</listItem>
+			<listItem>
+				<para>Click <ui>OK</ui>.</para>
+			</listItem>
+			<listItem>
+				<para>Close and restart Excel.</para>
+			</listItem>
+		</list>
+	</introduction>
+	<section>
+		<title>Start Flash Fill manually</title>
+		<content>
+			<para address="__goback">If you know that Flash Fill is enabled, but still doesn't work, then you can start it manually by clicking <ui>Data</ui> &gt; <ui>Flash Fill</ui> or <legacyBold>Home </legacyBold>&gt; <legacyBold>Flash Fill. </legacyBold>You can also press Ctrl+E on the keyboard.</para>
+			<para><mediaLinkInline><image xlink:href="f0368a80-9bf0-4cc7-902b-b764687d82ae" /></mediaLinkInline></para>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<tokenBlock>Excel_CommunityLinks</tokenBlock>
+		</content>
+	</section>
+	<section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="2e79a709-c814-4b27-8bc2-c4dc84d49464">Training video: AutoFill and FlashFill</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

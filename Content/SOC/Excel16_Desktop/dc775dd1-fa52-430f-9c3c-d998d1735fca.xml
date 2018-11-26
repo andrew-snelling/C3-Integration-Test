@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="dc775dd1-fa52-430f-9c3c-d998d1735fca" revisionNumber="9"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para address="__goback">Excel is an incredibly powerful tool for getting meaning out of vast amounts of data. But it also works really well for simple calculations and tracking almost any kind of information. The key for unlocking all that potential is the grid of cells. Cells can contain numbers, text, or formulas. You put data in your cells and group them in rows and columns. That allows you to add up your data, sort and filter it, put it in tables, and build great-looking charts. Let’s go through the basic steps to get you started.</para>
+	</introduction>
+	<section expanded="true">
+		<title>Create a new workbook</title>
+		<content>
+			<para>Excel documents are called workbooks. Each workbook has sheets, typically called spreadsheets. You can add as many sheets as you want to a workbook, or you can create new workbooks to keep your data separate.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Click <ui>File</ui>, and then click <ui>New</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Under <ui>New</ui>, click the <ui>Blank workbook</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="5c2f665e-50f0-439a-8272-3f9b1fd9d53f" /></mediaLinkInline></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Enter your data</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Click an empty cell.</para>
+					<para>For example, cell A1 on a new sheet. Cells are referenced by their location in the row and column on the sheet, so cell A1 is in the first row of column A.</para>
+				</listItem>
+				<listItem>
+					<para>Type text or a number in the cell.</para>
+				</listItem>
+				<listItem>
+					<para>Press Enter or Tab to move to the next cell.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Apply cell borders</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cell or range of cells that you want to add a border to.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Home</ui> tab, in the Font group, click the arrow next to Borders, and then click the border style that you want.</para>
+					<para><mediaLinkInline><image xlink:href="e8b8f919-45f9-4371-ac49-e908cc7fad86" /></mediaLinkInline></para>
+				</listItem>
+			</list>
+			<para>For more information, see <link xlink:href="dc8a310b-92e3-46a7-9f17-2ab745810f4a">Apply or remove cell borders on a worksheet </link>.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Apply cell shading</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cell or range of cells that you want to apply cell shading to.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Home</ui> tab, in the <ui>Font</ui> group, choose the arrow next to <ui>Fill Color</ui> <mediaLinkInline><image xlink:href="25ebae39-c75d-4328-b517-5baa66e801f0" /></mediaLinkInline>, and then under <ui>Theme Colors</ui> or <ui>Standard Colors</ui>, select the color that you want.</para>
+				</listItem>
+			</list>
+			<para>For more information about how to apply formatting to a worksheet, see <link xlink:href="D70F75A2-23E6-4C92-83D6-2F219E4AD42E">Format a worksheet</link>.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Use AutoSum to add your data</title>
+		<content>
+			<para>When you’ve entered numbers in your sheet, you might want to add them up. A fast way to do that is by using AutoSum.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cell to the right or below the numbers you want to add.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Home</ui> tab, and then click <ui>AutoSum</ui> in the <ui>Editing</ui> group.</para>
+					<para><mediaLinkInline><image xlink:href="c77a761b-9c68-40c7-adc8-5e47a61bf61a" /></mediaLinkInline></para>
+					<para>AutoSum adds up the numbers and shows the result in the cell you selected.</para>
+				</listItem>
+			</list>
+			<para>For more information, see <link xlink:href="543941E7-E783-44EF-8317-7D1BB85FE706">Use AutoSum to sum numbers</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Create a simple formula</title>
+		<content>
+			<para>Adding numbers is just one of the things you can do, but Excel can do other math as well. Try some simple formulas to add, subtract, multiply, or divide your numbers.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Pick a cell, and then type an equal sign (=).</para>
+					<para>That tells Excel that this cell will contain a formula.</para>
+				</listItem>
+				<listItem>
+					<para>Type a combination of numbers and calculation operators, like the plus sign (+) for addition, the minus sign (-) for subtraction, the asterisk (*) for multiplication, or the forward slash (/) for division.</para>
+					<para>For example, enter <literal>=2+4</literal>, <literal>=4-2</literal>, <literal>=2*4</literal>, or <literal>=4/2</literal>.</para>
+				</listItem>
+				<listItem>
+					<para>Press Enter.</para>
+					<para>This runs the calculation.</para>
+					<para>You can also press Ctrl+Enter if you want the cursor to stay on the active cell.</para>
+				</listItem>
+			</list>
+			<para>For more information, see <link xlink:href="11A5F0E5-38A3-4115-85BC-F4A465F64A8A">Create a simple formula</link>.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Apply a number format</title>
+		<content>
+			<para>To distinguish between different types of numbers, add a format, like currency, percentages, or dates.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cells that have numbers you want to format.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Home</ui> tab, and then click the arrow in the <ui> General</ui> box.</para>
+					<para><mediaLinkInline><image xlink:href="b69d2b7f-9d78-485d-8e4a-4f29d7fab0b8" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Pick a number format.</para>
+					<para><mediaLinkInline><image xlink:href="f9f4c16f-6656-4d31-a7ff-7a5597d1be54" /></mediaLinkInline></para>
+					<para>If you don’t see the number format you’re looking for, click <ui>More Number Formats</ui>. For more information, see <link xlink:href="0AFE8F52-97DB-41F1-B972-4B46E9F1E8D2">Available number formats</link>.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Put your data in a table</title>
+		<content>
+			<para>A simple way to access Excel’s power is to put your data in a table. That lets you quickly filter or sort your data.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Select your data by clicking the first cell and dragging to the last cell in your data.</para>
+					<para>To use the keyboard, hold down Shift while you press the arrow keys to select your data.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Quick Analysis</ui> button <mediaLinkInline><image xlink:href="4bc74dc1-3af4-4d39-a298-3a86a6eea68b" /></mediaLinkInline> in the bottom-right corner of the selection.</para>
+					<para><mediaLinkInline><image xlink:href="17572b22-6591-4872-bb42-beb3a44dde0e" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Click <legacyBold>Tables</legacyBold>, move your cursor to the <ui>Table</ui> button to preview your data, and then click the <ui>Table</ui> button.</para>
+					<para><mediaLinkInline><image xlink:href="76cc0f75-3c55-4e72-827c-d5f844b75c32" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Click the arrow <mediaLinkInline><image xlink:href="74a58824-2e40-473b-a207-162b2dc22733" /></mediaLinkInline> in the table header of a column.</para>
+				</listItem>
+				<listItem>
+					<para>To filter the data, clear the <legacyBold>Select All</legacyBold> check box, and then select the data you want to show in your table.</para>
+					<para><mediaLinkInline><image xlink:href="7c840989-312d-480f-9b29-328d38c83ec8" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>To sort the data, click <ui>Sort A to Z</ui> or <ui>Sort Z to A</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="befd7d86-5c02-4a6a-a340-09f51c6c1582" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>OK</ui>.</para>
+				</listItem>
+			</list>
+			<para>For more information, see <link xlink:href="e81aa349-b006-4f8a-9806-5af9df0ac664">Create or delete an Excel table</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Show totals for your numbers using Quick Analysis</title>
+		<content>
+			<para>The Quick Analysis tool (available in <token>Excel_2016</token> and <token>Excel_2013</token> only) let you total your numbers quickly. Whether it’s a sum, average, or count you want, Excel shows the calculation results right below or next to your numbers.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cells that contain numbers you want to add or count.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Quick Analysis</ui> button <mediaLinkInline><image xlink:href="4bc74dc1-3af4-4d39-a298-3a86a6eea68b" /></mediaLinkInline> in the bottom-right corner of the selection.</para>
+				</listItem>
+				<listItem>
+					<para>Click <legacyBold>Totals</legacyBold>, move your cursor across the buttons to see the calculation results for your data, and then click the button to apply the totals.</para>
+					<para><mediaLinkInline><image xlink:href="a505361e-d9af-49b3-a511-0af6c3c987ae" /></mediaLinkInline></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Add meaning to your data using Quick Analysis</title>
+		<content>
+			<para>Conditional formatting or sparklines can highlight your most important data or show data trends. Use the Quick Analysis tool (available in <token>Excel_2016</token> and <token>Excel_2013</token> only) for a Live Preview to try it out.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Select the data you want to examine more closely.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Quick Analysis</ui> button <mediaLinkInline><image xlink:href="d569b32d-d9c4-4676-b46e-ee17543dd843" /></mediaLinkInline> in the bottom-right corner of the selection.</para>
+				</listItem>
+				<listItem>
+					<para>Explore the options on the <ui>Formatting</ui> and <ui>Sparklines</ui> tabs to see how they affect your data.</para>
+					<para><mediaLinkInline><image xlink:href="7a285bcc-9a5b-468e-893a-4367b1682a0f" /></mediaLinkInline></para>
+					<para>For example, pick a color scale in the <ui>Formatting</ui> gallery to differentiate high, medium, and low temperatures.</para>
+					<para><mediaLinkInline><image xlink:href="392b535f-990e-4f17-9d5d-be021cf1eacd" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>When you like what you see, click that option.</para>
+				</listItem>
+			</list>
+			<para>Learn more about how to <link xlink:href="be6579cf-a8e3-471a-a459-873614413ce1">analyze trends in data using sparklines</link>.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Show your data in a chart using Quick Analysis</title>
+		<content>
+			<para>The Quick Analysis tool (available in <token>Excel_2016</token> and <token>Excel_2013</token> only) recommends the right chart for your data and gives you a visual presentation in just a few clicks.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cells that contain the data you want to show in a chart.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Quick Analysis</ui> button <mediaLinkInline><image xlink:href="d569b32d-d9c4-4676-b46e-ee17543dd843" /></mediaLinkInline> in the bottom-right corner of the selection.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Charts</ui> tab, move across the recommended charts to see which one looks best for your data, and then click the one that you want.</para>
+					<para><mediaLinkInline><image xlink:href="5e309ad0-397c-42d2-91aa-78963fd6304f" /></mediaLinkInline></para>
+					<alert class="note">
+						<para>Excel shows different charts in this gallery, depending on what’s recommended for your data.</para>
+					</alert>
+				</listItem>
+			</list>
+			<para>Learn about other ways to <link xlink:href="cd131b77-79c7-4537-a438-8db20cea84c0">create a chart</link>.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Sort your data</title>
+		<content>
+			<para><legacyBold>To quickly sort your data</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Select a range of data, such as A1:L5 (multiple rows and columns) or C1:C80 (a single column). The range can include titles that you created to identify columns or rows.</para>
+				</listItem>
+				<listItem>
+					<para>Select a single cell in the column on which you want to sort.</para>
+				</listItem>
+				<listItem>
+					<para>Click <mediaLinkInline><image xlink:href="82e575eb-0061-4c0b-8699-fb95a5b1c2e8" /></mediaLinkInline> to perform an ascending sort (A to Z or smallest number to largest).</para>
+				</listItem>
+				<listItem>
+					<para>Click <mediaLinkInline><image xlink:href="cee9aa13-742d-4724-be63-1b0fbbaac80a" /></mediaLinkInline> to perform a descending sort (Z to A or largest number to smallest).</para>
+				</listItem>
+			</list>
+			<para><legacyBold>To sort by specific criteria</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Select a single cell anywhere in the range that you want to sort.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Sort &amp; Filter</ui> group, choose <ui>Sort</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>The <ui>Sort</ui> dialog box appears.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Sort by</ui> list, select the first column on which you want to sort.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Sort On</ui> list, select either <ui>Values</ui>, <ui>Cell Color</ui>, <ui>Font Color</ui>, or <ui>Cell Icon</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Order</ui> list, select the order that you want to apply to the sort operation — alphabetically or numerically ascending or descending (that is, A to Z or Z to A for text or lower to higher or higher to lower for numbers).</para>
+					<para>For more information about how to sort data, see <link xlink:href="62d0b95d-2a90-4610-a6ae-2e545c4a4654">Sort data in a range or table </link>.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Filter your data</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Select the data that you want to filter.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Sort &amp; Filter</ui> group, click <ui>Filter</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="2dcd100f-0800-4925-8a87-762229b294a2" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Click the arrow <mediaLinkInline><image xlink:href="74a58824-2e40-473b-a207-162b2dc22733" /></mediaLinkInline> in the column header to display a list in which you can make filter choices.</para>
+				</listItem>
+				<listItem>
+					<para>To select by values, in the list, clear the <ui>(Select All)</ui> check box. This removes the check marks from all the check boxes. Then, select only the values you want to see, and click <ui>OK</ui> to see the results.</para>
+				</listItem>
+			</list>
+			<para>For more information about how to filter data, see <link xlink:href="01832226-31b5-4568-8806-38c37dcc180e">Filter data in a range or table</link>.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Save your work</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Click the <ui>Save</ui> button on the <ui>Quick Access Toolbar</ui>, or press Ctrl+S.</para>
+					<para><mediaLinkInline><image xlink:href="2427d5eb-f6b6-4aa7-97bf-f80c65bcecbe" /></mediaLinkInline></para>
+					<para>If you’ve saved your work before, you’re done.</para>
+				</listItem>
+				<listItem>
+					<para>If this is the first time you've save this file:</para>
+					<list class="ordered">
+						<listItem>
+							<para>Under <ui>Save As</ui>, pick where to save your workbook, and then browse to a folder.</para>
+						</listItem>
+						<listItem>
+							<para>In the <ui>File name</ui> box, enter a name for your workbook.</para>
+						</listItem>
+						<listItem>
+							<para>Click <ui>Save</ui>.</para>
+						</listItem>
+					</list>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Print your work</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Click <ui>File</ui>, and then click <ui>Print</ui>, or press Ctrl+P.</para>
+				</listItem>
+				<listItem>
+					<para>Preview the pages by clicking the <ui>Next Page</ui> and <ui>Previous Page</ui> arrows.</para>
+					<para><mediaLinkInline><image xlink:href="d981d3b2-e2d7-4d47-999b-d1f2d1ee00c7" /></mediaLinkInline></para>
+					<para>The preview window displays the pages in black and white or in color, depending on your printer settings.</para>
+					<para>If you don’t like how your pages will be printed, you can change page margins or <link xlink:href="ad3dc726-beec-4a4c-861f-ed640612bdc2">add page breaks</link>.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Print</ui>.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Activate and use an add-in</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>On the <ui>File</ui> tab, choose <ui>Options</ui>, and then choose the <ui>Add-Ins</ui> category.</para>
+				</listItem>
+				<listItem>
+					<para>Near the bottom of the <ui>Excel Options</ui> dialog box, make sure that <ui>Excel Add-ins</ui> is selected in the <ui>Manage</ui> box, and then click <ui>Go</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Add-Ins</ui> dialog box, select the check boxes the add-ins that you want to use, and then click <ui>OK</ui>.</para>
+					<para>If Excel displays a message that states it can't run this add-in and prompts you to install it, click <ui>Yes</ui> to install the add-ins.</para>
+				</listItem>
+			</list>
+			<para>For more information about how to use add-ins, see <link xlink:href="0af570c4-5cf3-4fa9-9b88-403625a0b460">Add or remove add-ins</link>.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Find and apply a template</title>
+		<content>
+			<para>Excel allows you to apply built-in templates, to apply your own custom templates, and to search from a variety of templates on <token>TE000001118</token>. <token>TE000001118</token> provides a wide selection of popular Excel templates, including budgets.</para>
+			<para>For more information about how to find and apply templates, see <link xlink:href="29F2A18D-29A6-4A07-998B-CFE5FF7FFBBB">Download free, pre-built templates</link>.</para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

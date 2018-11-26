@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="34a91eb5-8b4e-4a8a-ab28-b6492012eaae" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>f your worksheet has a lot of columns, you can use the Scale to Fit options to reduce the size of the worksheet to better fit the printed page.</para>
+		<para>Follow these steps:</para>
+		<list class="ordered">
+			<listItem>
+				<para>Click the <ui>Page Layout</ui> tab on the ribbon.</para>
+			</listItem>
+			<listItem>
+				<para>In the <ui>Scale to Fit</ui> group, in the <ui>Width</ui> box, select <ui>1 page</ui>, and in the <ui>Height</ui> box, select <ui>Automatic</ui>. Columns will now appear on one page, but the rows may extend to more than one page.</para>
+				<para><mediaLinkInline><image xlink:href="91077429-e081-41c4-9379-b9141043dd6a" /></mediaLinkInline></para>
+				<para>To print your worksheet on a single page, choose <legacyItalic><legacyBold>1 page</legacyBold></legacyItalic> in the <ui>Height</ui> box. Keep in mind, however, that the printout may be difficult to read because Excel shrinks the data to fit. To see how much scaling is used, look at the number in the <ui>Scale</ui> box. If it's a low number, you may need to make other adjustments before you print. For example, you may need to change the page orientation from portrait to landscape or target a larger paper size. For more information, see the section below to understand a few things about scaling a worksheet to fit a printed page.</para>
+			</listItem>
+			<listItem>
+				<para>To print your worksheet, press CTRL+P to open the <ui>Print</ui> dialog box, and then click <ui>OK</ui>.</para>
+			</listItem>
+		</list>
+	</introduction>
+	<section expanded="true">
+		<title>Things to know about scaling a worksheet</title>
+		<content>
+			<para>For the best experience as you scale a worksheet, it is important to remember the following:</para>
+			<list class="bullet">
+				<listItem>
+					<para>If your worksheet has many columns, you may need to switch the page orientation from portrait to landscape. To do this, go to <ui>Page Layout</ui> &gt; <ui>Page Setup</ui> &gt; <ui>Orientation</ui>, and click <ui>Landscape</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Consider using a larger paper size to accommodate many columns. To switch the default paper size, go to <ui>Page Layout</ui> &gt; <ui>Page Setup</ui> &gt; <ui>Size</ui>, and then choose the size you want.</para>
+				</listItem>
+				<listItem>
+					<para>Use the <ui>Print Area</ui> command (<ui>Page Setup</ui> group) to exclude any columns or rows that you don't need to print. For example, if you want to print columns A through F, but not columns G through Z, set the print area to include only columns A through F.</para>
+				</listItem>
+				<listItem>
+					<para>You can shrink or enlarge a worksheet for a better fit on printed pages. To do that, in <legacyBold>Page Setup</legacyBold>, click the window launcher button. Then, click <legacyBold>Scaling &gt; </legacyBold><legacyBold>Adjust to</legacyBold>, and then enter the percentage of the normal size that you want to use.</para>
+					<alert class="note">
+						<para>To reduce a worksheet to better fit the printed pages, enter a percentage that is smaller than 100%. To enlarge a worksheet to fit the printed pages, enter a percentage greater than 100%.</para>
+					</alert>
+				</listItem>
+				<listItem>
+					<para>Page Layout view isn't compatible with the <ui>Freeze Panes</ui> command. If you don't want to unfreeze the rows or columns in your worksheet, you can skip Page Layout view and instead use the <ui>Fit to</ui> options on the <ui>Page</ui> tab in the <ui>Page Setup</ui> dialog box. To do that, go to <ui>Page Layout</ui> tab, and in the <ui> Page Setup</ui> group, click the Dialog Box Launcher <mediaLinkInline><image xlink:href="d1ffe631-c008-4f80-835e-48102ab5cf7d" /></mediaLinkInline> at the bottom-right side. Optionally, press ALT+P, S, P on the keyboard.</para>
+				</listItem>
+				<listItem>
+					<para>To print a worksheet on a specific number of pages, in <legacyBold>Page Setup</legacyBold>, click the small window launcher button. Then, under <ui>Scaling</ui>, in both of the <ui>Fit to</ui> boxes, enter the number of pages (wide and tall) on which you want to print the worksheet data.</para>
+					<alert class="note">
+						<list class="bullet">
+							<listItem>
+								<para>Excel ignores manual page breaks when you use the <ui>Fit to</ui> option.</para>
+							</listItem>
+							<listItem>
+								<para>Excel does not stretch the data to fill the pages.</para>
+							</listItem>
+						</list>
+					</alert>
+				</listItem>
+				<listItem>
+					<para>To remove a scaling option, go to <ui>File</ui> &gt; <ui>Print</ui> &gt; <ui>Settings</ui> &gt; <ui>No Scaling</ui>.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Scale a worksheet to print in a different font size</title>
+		<content>
+			<para>When you print an Excel worksheet, you may find that the print font size is not what you expect.</para>
+			<para>Follow these steps to scale the worksheet for print by increasing or decreasing its font size.</para>
+			<list class="ordered">
+				<listItem>
+					<para>In the worksheet, click <ui>File</ui> &gt; <ui>Print</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Under <ui>Settings</ui>, click <ui>Custom Scaling</ui> &gt; <ui>Custom Scaling Options</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Page</ui> and in the <ui>Adjust to</ui> box, choose a percentage by which you want to increase or decrease the font size.</para>
+				</listItem>
+				<listItem>
+					<para>Review your changes in <ui>Print Preview</ui> and—if you want a different font size—repeat the steps.</para>
+					<alert class="note">
+						<para>Before you click <ui>Print</ui>, check the paper size setting in the printer properties, and also make sure the printer actually has paper in that size. If the paper size setting is different from the paper size in your printer, Excel adjusts the printout to fit the paper size in the printer and the printed worksheet might not match your Print Preview</para>
+					</alert>
+				</listItem>
+			</list>
+			<para>In <ui>Print Preview</ui>, if the worksheet appears to be reduced to a single page, check if a scaling option like <ui>Fit Sheet on One Page</ui> has been applied. Refer to the section above to learn how to make adjustments.</para>
+		</content>
+	</section>
+	
+	<section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section><relatedTopics><link xlink:href="f780d144-dd71-4e16-9f0d-b09542a4fc01">Quick start: Print a worksheet</link></relatedTopics>
+</developerConceptualDocument></topic>

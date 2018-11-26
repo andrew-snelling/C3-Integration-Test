@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="854c9555-49c8-4755-9eaf-b74e99b4f3b2" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>You can use 3D Maps to explore data with any type of map by creating or importing a custom map. For example, you might want to create a custom map to show traffic for transportation routes, like the ones on this fictional island.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="5ee1712b-47b9-4f21-a804-114446e9ea8b" />
+      </mediaLinkInline>
+    </para>
+    <para>To do this, you need to have:</para>
+    <list class="bullet">
+      <listItem>
+        <para>A picture in .jpg, .bmp, or .png file format. For example, a picture of a floor plan or a public transit routes map.</para>
+      </listItem>
+      <listItem>
+        <para>Data that relates to the picture that 3D Maps can plot on your custom map by using an XY coordinate system.</para>
+        <alert class="tip">
+          <para>If you don't have X and Y data yet, try using Microsoft Paint to record the pixel position of items in your picture and enter them in X and Y columns on your worksheet.</para>
+        </alert>
+      </listItem>
+    </list>
+  </introduction>
+  <section>
+    <content>
+      <para>Here's how you can use those items to create your custom map:</para>
+      <list class="ordered">
+        <listItem>
+          <para>In Excel, open the workbook that has the X and Y coordinates data for your image.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Insert</ui> &gt; <ui>3D Map</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="9fc05b22-ea17-4870-9364-7485aabf60d6" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>New Tour</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="3b4c245e-a24e-4807-8ddf-c4df75512bfe" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>In 3D Maps, click <ui>Home </ui>&gt; <ui>New Scene</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="64db6959-b96d-4562-9421-a5dee5add0b1" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Pick <ui>New Custom Map</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="0d864bdf-ac6e-4bbe-aada-f041deb4ed52" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Custom Maps Options</ui> box, click <ui>Browse for the background picture</ui><mediaLinkInline><image xlink:href="31a0938a-b9d9-463d-a899-7e7765ebc764" /></mediaLinkInline>, locate the picture you want to use, select it, and click <ui>Open</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="00bbf1b9-6254-4c90-a795-15e38d2b54a8" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Adjust the X and Y coordinates as needed.</para>
+          <para>You can also:</para>
+          <list class="bullet">
+            <listItem>
+              <para>Flip the axes by checking the <ui>Swap the X and Y axis</ui> box.</para>
+            </listItem>
+            <listItem>
+              <para>Click <ui>AutoFit</ui> to get the best fit.</para>
+            </listItem>
+            <listItem>
+              <para>Check the <ui>Lock current coordinate values</ui> box if you don't want the values to be changed.</para>
+            </listItem>
+          </list>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Apply</ui> to accept the selections you made, and click <ui>Next</ui> in the Layer Pane.</para>
+          <para>You're now ready to use 3D Maps as you would with any other geographical data.</para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <relatedTopics>
+    <externalLink>
+      <linkText>6 cool ways to use Custom Maps</linkText>
+      <linkUri>https://blogs.office.com/2014/10/08/6-cool-ways-use-custom-maps/</linkUri>
+    </externalLink>
+    <externalLink>
+      <linkText>5 minute tutorial for creating custom maps with Excel and 3D Maps</linkText>
+      <linkUri>https://blogs.msdn.com/b/powerbi/archive/2014/10/07/5-minute-tutorial-for-creating-custom-maps-with-excel-and-power-map.aspx</linkUri>
+    </externalLink>
+    <link xlink:href="6b56a50d-3c3e-4a9e-a527-eea62a387030">Get started with 3D Maps</link>
+  </relatedTopics>
+</developerConceptualDocument></topic>

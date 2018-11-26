@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="5dd940a1-4f87-44bd-91dd-bf45ed828f05" revisionNumber="31"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+		<para>This error means that the formula in the cell doesn't match the pattern of the formulas nearby.</para>
+		
+	</introduction>
+	
+	<section>
+<content><tabControl controlId="OfficeVersion"><tabControlItem targetedOS="Windows"><tabControlItemTitle>Windows</tabControlItemTitle><tabControlItemSection><content></content><sections><section expanded="false">
+<title>Troubleshoot why it's inconsistent</title><content><list class="ordered">
+			<listItem><para conditionalContentLocation="Action (enriched client)"><ui actionId="action_6059">Show Formulas</ui></para><para conditionalContentLocation="In-App Clients">Click <ui>Formulas</ui> &gt; <ui actionId="action_6059">Show Formulas</ui>.</para><para conditionalContentLocation="Web Only">Click <ui>Formulas</ui> &gt; <ui actionId="action_6059">Show Formulas</ui>.</para></listItem><listItem><para>Doing that lets you see the formulas in all cells, instead of the calculated results.</para></listItem><listItem><para>Compare the inconsistent formula with ones before and after it, and correct any unintentional inconsistencies.</para></listItem><listItem><para conditionalContentLocation="Action (enriched client)"><ui actionId="action_6059">Hide Formulas</ui> when you're done.</para><para conditionalContentLocation="In-App Clients">When you're done, click <ui>Formulas</ui> &gt; <ui actionId="action_6059">Show Formulas</ui>. That will switch you back to showing the calculated results of all cells.</para><para conditionalContentLocation="Web Only">When you're done, click <ui>Formulas</ui> &gt; <ui actionId="action_6059">Show Formulas</ui>. That will switch you back to showing the calculated results of all cells.</para></listItem><listItem><para>If that doesn't work, select a cell nearby that <legacyItalic>doesn't</legacyItalic> have the problem.</para>
+			</listItem><listItem><para conditionalContentLocation="Action (enriched client)"><ui actionId="action_486">Trace Precedents</ui></para><para conditionalContentLocation="In-App Clients">Click <ui>Formulas</ui> &gt; <ui>Trace Precedents</ui>.</para><para conditionalContentLocation="Web Only">Click <ui>Formulas</ui> &gt; <ui>Trace Precedents</ui>.</para></listItem><listItem><para>Then select the cell that <legacyItalic>does have</legacyItalic> the problem.</para></listItem><listItem><para conditionalContentLocation="Action (enriched client)"> <ui actionId="action_486">Trace Precedents</ui></para><para conditionalContentLocation="In-App Clients">Click <ui>Formulas</ui> &gt; <ui>Trace Precedents</ui>.</para><para conditionalContentLocation="Web Only">Click <ui>Formulas</ui> &gt; <ui>Trace Precedents</ui>.</para></listItem><listItem><para> Compare the blue arrows or ranges in blue. Then correct any problems with the inconsistent formula.</para></listItem><listItem><para conditionalContentLocation="Action (enriched client)"><ui actionId="action_453">Remove Arrows</ui> when you're done.</para><para conditionalContentLocation="In-App Clients">Click <ui>Formulas</ui> &gt; <ui actionId="action_453">Remove Arrows</ui>.</para><para conditionalContentLocation="Web Only">Click <ui>Formulas</ui> &gt; <ui actionId="action_453">Remove Arrows</ui>.</para></listItem></list></content>
+</section><section>
+<title>More solutions</title><content></content>
+<sections><section expanded="true">
+				<title>Make the inconsistent formula the consistent one</title>
+				<content>
+					<para>Select the cell with the inconsistent formula, and then hold down the SHIFT key while pressing one of your arrow keys. This will select the inconsistent cell along with others. Then do one of the following:</para><list class="bullet">
+						
+						<listItem><para>If you selected cells below, press CTRL+D to fill the formula down.</para></listItem><listItem><para>If you selected cells above, click <ui>Home</ui> &gt; <ui>Fill</ui> &gt; <ui>Up</ui> to fill the formula up.</para></listItem><listItem><para>If you selected cells to the right, press CTRL+R to fill the formula to the right.</para></listItem><listItem><para>If you selected cells to the left, click <ui>Home</ui> &gt; <ui>Fill</ui> &gt; <ui>Left</ui> to fill the formula to the left.</para></listItem></list>
+				<para>If you have more cells that need the formula, repeat the above process going in the other direction.</para></content>
+			</section><section expanded="true">
+<title>Fill the cell with a nearby formula to correct it</title><content><list class="ordered"><listItem><para>Select the cell with the problem.</para></listItem><listItem><para>Click this button: <mediaLinkInline><image xlink:href="0f4079d9-447b-4da1-85b0-b0f4d463ab92" /></mediaLinkInline> and then select either <legacyBold>Copy Formula from Above</legacyBold> or <legacyBold>Copy Formula from Left</legacyBold>. </para></listItem><listItem><para>If that doesn't work and you need the formula from the cell below, click <ui>Home</ui> &gt; <ui>Fill</ui> &gt; <ui>Up</ui>.</para></listItem><listItem><para>If you need the formula from the cell to the right, click <ui>Home</ui> &gt; <ui>Fill</ui> &gt; <ui>Left</ui>.</para></listItem></list></content>
+</section></sections></section><section expanded="true">
+<title>Not an error?</title><content><para>If the formula is not an error you can choose to ignore it:</para><list class="ordered"><listItem><para conditionalContentLocation="Action (enriched client)"><ui actionId="action_6122">Check for errors</ui></para><para conditionalContentLocation="In-App Clients">Click <ui>Formulas</ui> &gt; <ui>Error Checking</ui></para><para conditionalContentLocation="Web Only">Click <ui>Formulas</ui> &gt; <ui>Error Checking</ui></para></listItem><listItem><para>Then click <ui>Ignore Error</ui>.</para></listItem><listItem><para>Click <ui>OK</ui> or <ui>Next</ui> to jump to the next error.</para></listItem></list><alert class="note">
+ <para>If don't want Excel to check for inconsistent formulas like this, close the Error Checking dialog box. Then click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Formulas</ui>. At the bottom, uncheck <ui>Formulas inconsistent with other formulas in the region</ui>. <br /><br />If you're on a Mac, click <ui>Excel</ui> &gt; <ui>Preferences</ui> &gt; <ui>Error checking</ui> and then uncheck <ui>Formulas that don't match nearby formulas</ui>.</para>
+</alert></content>
+</section></sections></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Mac"><tabControlItemTitle>macOS</tabControlItemTitle><tabControlItemSection><content><para>An error indicator appears when the formula does not match the pattern of other formulas near it. This does not always mean that the formula is wrong. If the formula is wrong, making the <token>TE102657239</token> consistent often solves the problem.</para>
+    <para>For example, to multiply column A by column B, the formulas are A1*B1, A2*B2, A3*B3, and so on. If the next formula after A3*B3 is A4*B2, Excel identifies it as an inconsistent formula, because to continue the pattern, the formula should be A4*B4.</para>
+    <list class="ordered">
+      <listItem>
+        <para>Click the cell that contains the error indicator and look at the Formula Bar to verify that cell references are correct.</para>
+      </listItem>
+      <listItem>
+        <para>Click the arrow next to the button that appears.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="d83a8455-b95c-4446-bebb-683f7b7fb85e">
+            </image>
+          </mediaLinkInline>
+        </para>
+        <para>The shortcut menu shows the options that are available to resolve this warning.</para>
+      </listItem>
+      <listItem>
+        <para>Do any of the following:</para>
+      </listItem>
+    </list>
+    <table>
+      <thead>
+        <tr>
+          <TD>
+            <para>
+              <legacyBold>Select </legacyBold>
+            </para>
+          </TD>
+          <TD>
+            <para>
+              <legacyBold>To</legacyBold>
+            </para>
+          </TD>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <TD>
+            <para>Copy Formula from Above</para>
+          </TD>
+          <TD>
+            <para>Make the formula consistent by copying the pattern from the cell above. In our example, the formula becomes A4*B4 to match the pattern A3*B3 in the cell above.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Ignore Error </para>
+          </TD>
+          <TD>
+            <para>Remove the error indicator, for example, if the inconsistency in the formula is intentional or otherwise acceptable. </para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Edit in Formula Bar </para>
+          </TD>
+          <TD>
+            <para>Review the formula syntax and verify that cell references are what you intended. </para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Error Checking Options </para>
+          </TD>
+          <TD>
+            <para>Select the types of errors that you want Excel to flag. For example, if you don't want to see error indicators for inconsistent formulas, clear the <ui>Flag formulas that are inconsistent with formulas in adjoining cells</ui> check box.</para>
+          </TD>
+        </tr>
+      </tbody>
+    </table>
+    <alert class="tip">
+      <list class="ordered">
+        <listItem>
+          <list class="bullet">
+            <listItem>
+              <para>To ignore error indicators for multiple cells at a time, select the <token>TE102657360</token> that contains the errors that you want to ignore. Next, click the arrow next to the button that appeared <mediaLinkInline><image xlink:href="661269c6-6692-4189-a92c-4db72d969323"></image></mediaLinkInline>, and on the shortcut menu, select <ui>Ignore Error</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>To ignore error indicators for a whole sheet, first click a cell that has an error indicator. Then press <mediaLinkInline><image xlink:href="314f2d55-e8b8-4417-9d4b-b3908c1ebd0c"></image></mediaLinkInline>+ A to select the sheet. Next, click the arrow next to the button that appeared <mediaLinkInline><image xlink:href="661269c6-6692-4189-a92c-4db72d969323"></image></mediaLinkInline>, and on the shortcut menu, select <ui>Ignore Error</ui>.</para>
+            </listItem>
+          </list>
+        </listItem>
+      </list>
+    </alert></content></tabControlItemSection></tabControlItem></tabControl></content>
+</section><section>
+				<title>More resources</title>
+				<content>
+					<tokenBlock>Excel_CommunityLinks</tokenBlock>
+				</content>
+			</section><relatedTopics><link xlink:href="3A8ACCA5-1D61-4702-80E0-99A36A2822C1">Detect errors in formulas</link><link xlink:href="761401bc-25de-4673-862a-b6f33a7f563f">Hide error values and error indicators</link></relatedTopics>
+</developerConceptualDocument></topic>

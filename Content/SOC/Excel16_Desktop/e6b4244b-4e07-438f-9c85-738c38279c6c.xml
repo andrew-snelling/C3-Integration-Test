@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="e6b4244b-4e07-438f-9c85-738c38279c6c" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para address="bmbacktotop">The Compatibility Checker found one or more compatibility issues related to data types.</para>
+		<alert class="important">
+			<para>Before you continue saving the workbook to an earlier file format, you should address <legacyBold>issues that cause a significant loss of functionality</legacyBold> so that you can prevent permanent loss of data or incorrect functionality.</para>
+		</alert>
+	</introduction>
+	<section address="bm1">
+		<title>Issues that cause a significant loss of functionality</title>
+		<content>
+			<table>
+				<thead>
+					<tr>
+						<TD>
+							<para><legacyBold>Issue</legacyBold></para>
+						</TD>
+						<TD>
+							<para><legacyBold>Solution</legacyBold></para>
+						</TD>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<TD>
+							<para>This workbook contains data types that are not supported in earlier versions of Excel. In earlier versions, these data types will either show an error, or be replaced with other similar types. Those types may not look or act the same.</para>
+						</TD>
+						<TD>
+							<para><embeddedLabel>What it means</embeddedLabel> If you are an Office 365 subscriber and you have the latest version of Office installed, you can use <link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">linked data types</link>. Linked data types are not supported in earlier versions of Excel. The cells will either show an error, or be replaced with another similar data type.</para>
+							<para><embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the cells containing the linked data types, then convert them to text before saving to an earlier file format. To convert a cell with a linked data type to text, right-click the cell with the data type, and then click <legacyBold>Data Type </legacyBold>&gt; <legacyBold>Convert to Text</legacyBold>.</para>
+						</TD>
+					</tr>
+				</tbody>
+			</table>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="80da122d-048e-4b03-8736-5443fb48b862" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>3D Maps  supports several geographic formats and levels including:</para>
+    <list class="bullet">
+      <listItem>
+        <para>Latitude/Longitude (formatted as decimal)</para>
+      </listItem>
+    </list>
+    <para address="__goback">
+      <mediaLinkInline>
+        <image xlink:href="ce044884-eeb7-4627-aa87-5ed71ea00ec6">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <list class="bullet">
+      <listItem>
+        <para>Street Address</para>
+      </listItem>
+      <listItem>
+        <para>City</para>
+      </listItem>
+      <listItem>
+        <para>County</para>
+      </listItem>
+      <listItem>
+        <para>State / Province</para>
+      </listItem>
+      <listItem>
+        <para>Zip Code / Postal Code</para>
+      </listItem>
+      <listItem>
+        <para>Country/Region</para>
+      </listItem>
+    </list>
+    <para>To plot your data, pick the columns that make up your geography from the <ui>Location Add Field</ui> list, and specify the geographic level they represent. 3D Maps takes it from there and plots your data.</para>
+    
+    
+    
+    
+    <para>After you verify that the fields correspond to their geography levels in the <ui>Geography</ui> section and click <ui>Next</ui>, 3D Maps automatically starts plotting your data by using Bing. You’ll see the progress on the status bar, and you can make changes to the field list and the globe while 3D Maps resolves your geographic data.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="07541fd7-fa9c-42db-91fc-b9d6213dd2d9">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <para>If there are multiple geographic levels, you can quickly view your data at a different level on your map. Using our example, picking the <ui>Street</ui> level visualizes the data by street, like this:</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="29f984e2-56ee-451f-8204-63a1c3a252cd">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <para>Picking the <ui>State</ui> level visualizes the same data by state, like this:</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="dedb015e-585d-4c46-a762-5006ce3cfb56">
+        </image>
+      </mediaLinkInline>
+    </para>
+  </introduction>
+  <section>
+    <title>Change geography fields</title>
+    <content>
+      <para>To change the geography fields that are shown on the map by default, you can pick different fields in the <ui>Location</ui> list for any layer in the <ui>Layer Pane</ui>. They’ll automatically appear in the <ui>Geography and Map Level</ui> box, where you can verify and change their map level.</para>
+    </content>
+    <sections />
+  </section>
+  <section address="__toc352094821">
+    <title>Common geocoding errors</title>
+    <content>
+      <para>Geocoding conflicts can occur during the geocoding process. For example, 3D Maps may show an error message to let you know it couldn’t map some geography fields. This might happen when there are several cities in different states that have the same name, such as <literal>Springfield</literal>.</para>
+      <para>
+        3D Maps and Bing will try to find a solution by looking at surrounding data to determine where the city in each row of your data might be located, checking for state, country/region, province, and other geographic fields. If additional data is available, the city appears on the map, but in some cases, rows will be skipped. To avoid such conflicts, you can try adding columns that provide additional data (such as Zip Code or Country/Region) so 3D Maps can use that information to resolve the location with better accuracy.</para>
+    </content>
+    <sections />
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

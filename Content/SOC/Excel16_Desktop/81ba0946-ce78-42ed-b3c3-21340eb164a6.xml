@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="81ba0946-ce78-42ed-b3c3-21340eb164a6" revisionNumber="11"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>You can combine data from multiple cells into a single cell using the Ampersand symbol (&amp;) or the CONCAT function.</para>
+		<mediaLink>
+      <caption />
+      <image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+      <video videotype="single" videoid="RE23TT4" player="SP_MOD_OfficeCom" />
+    </mediaLink>
+		
+		
+		
+		
+		
+	</introduction>
+	<section>
+<title>Combine data with the Ampersand symbol (&amp;)</title><content><list class="ordered">
+			<listItem>
+				<para>Select the cell where you want to put the combined data.</para>
+			</listItem>
+			<listItem>
+				<para>Type = and select the first cell you want to combine.</para>
+			</listItem>
+			<listItem>
+				<para>Type <legacyBold>&amp;</legacyBold> and use quotation marks with a space enclosed.</para>
+			</listItem>
+			<listItem>
+				<para>Select the next cell you want to combine and press enter. An example formula might be <legacyBold>=A2&amp;" "&amp;B2</legacyBold>.</para>
+			</listItem>
+		</list></content>
+</section><section>
+<title>Combine data using the CONCAT function</title><content><list class="ordered"><listItem><para>Select the cell where you want to put the combined data.</para></listItem><listItem><para>Type <legacyBold>=CONCAT(</legacyBold>.</para></listItem><listItem><para>Select the cell you want to combine first.</para><para>Use commas to separate the cells you are combining and use quotation marks to add spaces, commas, or other text.</para></listItem><listItem><para>Close the formula with a parenthesis and press Enter. An example formula might be <legacyBold>=CONCAT(A2, " Family")</legacyBold>.</para></listItem></list></content>
+</section><section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	
+	<relatedTopics><link xlink:href="9b1a9a3f-94ff-41af-9736-694cbd6b4ca2">CONCAT function</link><link xlink:href="357b449a-ec91-49d0-80c3-0e8fc845691c">TEXTJOIN function</link><link xlink:href="3f9bcf1e-db93-4890-94a0-1578341f73f7">Using Flash Fill in Excel</link><link xlink:href="70cfe661-5a2a-4d9d-a4fe-586cc7878c7d">Combine data from multiple data sources (Power Query)</link><link xlink:href="ecfdc708-9162-49e8-b993-c311f47ca173">Overview of formulas in Excel</link><link xlink:href="8309381d-33e8-42f6-b889-84ef6df1d586">How to avoid broken formulas</link><link xlink:href="3a8acca5-1d61-4702-80e0-99a36a2822c1">Find and correct errors in formulas</link><link xlink:href="1798d9d5-842a-42b8-9c99-9b7213f0040f">Excel keyboard shortcuts and function keys</link><link xlink:href="CCCD86AD-547D-4EA9-A065-7BB697C2A56E">TEXT functions (reference)</link><link xlink:href="b3944572-255d-4efb-bb96-c6d90033e188">Excel functions (alphabetical)</link><link xlink:href="5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb">Excel functions (by category)</link></relatedTopics>
+</developerConceptualDocument></topic>

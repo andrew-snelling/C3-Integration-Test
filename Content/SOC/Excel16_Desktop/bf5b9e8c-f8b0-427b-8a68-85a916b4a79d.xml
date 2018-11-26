@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="bf5b9e8c-f8b0-427b-8a68-85a916b4a79d" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>A good way to showcase your 3D Maps tour is to continuously replay it by turning on the repeat option. This is great for people who might catch only the last part of the tour as they stop by, because they can watch it from the beginning when it repeats.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="0986e974-59f3-4c38-b5a1-79eebcca60df" />
+      </mediaLinkInline>
+    </para>
+  </introduction>
+  <section>
+    <content>
+      <para>While your tour is playing, you can pause it if someone wants a closer look, and move forward or back between scenes. When you resume play after pausing, the tour picks up where it was paused and continues to replay if it's set to repeat.</para>
+      <list class="ordered">
+        <listItem>
+          <para>In the 3D Maps window, press <ui>Play Tour</ui>.<br /><mediaLinkInline><image xlink:href="28858004-1bef-4725-92a1-1dc58769e32f" /></mediaLinkInline></para>
+        </listItem>
+        <listItem>
+          <para>While the tour is playing, press the <ui>Turn repeat on</ui> button.<br /><mediaLinkInline><image xlink:href="eb03279f-d887-446a-b520-27037e1fb2a3" /></mediaLinkInline><br />When the <ui>Turn repeat on</ui> button is turned on, it switches to a gray "loop" arrow inside a white circle:<br /><mediaLinkInline><image xlink:href="9f0567d1-bc00-4bcd-854d-80a5c6a81972" /></mediaLinkInline></para>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <para>Press the button to switch between repeat mode and single play.</para>
+      </alert>
+    </content>
+  </section>
+  <section>
+    <title>Set Automatic refresh while your tour plays</title>
+    <content>
+      <para>You can set your tour to automatically refresh if any of its external data source changes. If you choose <ui>Automatic refresh: on</ui>, the tour will be refreshed every ten minutes.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="fadae7d5-9e63-4d30-be54-e26e241d4d1e" />
+        </mediaLinkInline>
+      </para>
+      <list class="bullet">
+        <listItem>
+          <para>While the tour is playing, press the "..." button .</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="235063ab-0ebf-4eac-a74d-2f058f70c628" />
+            </mediaLinkInline>
+            <br />
+          </para>
+          <alert class="tip">
+            <para>Press the "..." button to toggle between the on and off state for automatic refresh.</para>
+          </alert>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <relatedTopics>
+    <link xlink:href="6b56a50d-3c3e-4a9e-a527-eea62a387030">Get started with 3D Maps</link>
+    <link xlink:href="ce6b1d5c-4602-4dae-b487-91ec0268e75d">Visualize your data in 3D Maps</link>
+    <link xlink:href="57d9a7ff-3a78-4a12-adb3-0d951ef0925c">Explore your data in a 3D Maps tour</link>
+    <link xlink:href="643fc486-cda4-4692-85ac-7129862deed5">Move around in 3D Maps</link>
+  </relatedTopics>
+</developerConceptualDocument></topic>

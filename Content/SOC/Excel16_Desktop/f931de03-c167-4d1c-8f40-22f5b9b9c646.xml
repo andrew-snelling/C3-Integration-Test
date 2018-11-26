@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f931de03-c167-4d1c-8f40-22f5b9b9c646" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		<para>Restrict the type of data or the values that users enter into a cell.</para>
+	</introduction>
+	<section>
+		<title>Find it </title>
+		<content>
+			<para><ui>Data</ui> &gt; <ui>Data Tools</ui> &gt; <ui>Data Validation</ui></para>
+		</content>
+	</section>
+	<section>
+		<title>How to </title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cell(s) you want to create a rule for</para>
+				</listItem>
+				<listItem>
+					<para>On the Settings tab, under <ui>Allow</ui>, select an option:</para>
+				<list class="bullet">
+				<listItem>
+					<para>Whole Number - to restrict the column to accept only whole numbers</para>
+				</listItem>
+				<listItem>
+					<para>Decimal - to accept decimal numbers.</para>
+				</listItem>
+				<listItem>
+					<para>List - to pick data from the drop-down list.</para>
+				</listItem>
+				<listItem>
+					<para>Date - to restrict the cell to accept only date.</para>
+				</listItem>
+				<listItem>
+					<para>Time - to restrict the cell to accept only time.</para>
+				</listItem>
+				<listItem>
+					<para>Text Length - to restrict the length of the text.</para>
+				</listItem>
+				<listItem>
+					<para>Custom – for custom formula.</para>
+				</listItem>
+			</list></listItem>
+			<listItem>
+					<para>Under <ui>Data</ui>, select a condition</para>
+				</listItem>
+				<listItem>
+					<para>Set the other required values, based on what you chose for <ui>Allow</ui> and <ui>Data</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Select OK.</para>
+				</listItem></list>
+			
+			
+			<para>Now, if the user tries to enter a value that is not valid, a pop-up appears with the message, “This value doesn’t match the data validation restrictions for this cell.”</para>
+		</content>
+	</section>
+	<section>
+		<title>Related training</title>
+		<content>
+			<para><link xlink:href="82cfacc1-46ed-400f-863d-1ee0400f5fa7">Video: Validate cell data</link></para>
+			<para><link xlink:href="f38dee73-9900-4ca6-9301-8a5f6e1f0c4c">More on data validation</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="1985a408-6fc3-4e87-ac9e-673e0e1f485e" revisionNumber="26"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>There are Excel apps available for many different devices. Each app offers a consistent experience to help you be productive. However, each one serves a slightly different purpose, depending on which device you are using.</para>
+  </introduction>
+  <section>
+    <title>For desktop computers</title>
+    <content>
+      <grid>
+        <gridRow>
+          <gridColumn>
+            <nonEmptyContent>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="5ece32db-5f75-466e-b9ed-3958fb2fa5c2" />
+                </mediaLinkInline>
+              </para>
+            </nonEmptyContent>
+          </gridColumn>
+          <gridColumn>
+            <nonEmptyContent>
+              <para>The Excel desktop applications are the fully installed versions of Excel. The latest version for Windows and Mac is Excel 2016 for Office 365 subscribers. <link xlink:href="7a28382b-7015-4b5a-9d9b-650d15742c95">Download and install instructions are here</link>. If you think you have the app already, <link xlink:href="907ce545-6ae8-459b-8d9d-de6764a635d6">find the application on your Windows PC</link>. If you're using a Mac, <link xlink:href="95db1c14-45e7-450e-86ad-1134f7e80851">find the app and add it to the dock</link>.</para>
+            </nonEmptyContent>
+          </gridColumn>
+        </gridRow>
+      </grid>
+    </content>
+  </section>
+  <section>
+    <title>For tablets and phones</title>
+    <content>
+      <grid>
+        <gridRow>
+          <gridColumn>
+            <nonEmptyContent>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="a7c8645e-d5c1-4e30-9908-6185f83602e2" />
+                </mediaLinkInline>
+              </para>
+            </nonEmptyContent>
+          </gridColumn>
+          <gridColumn>
+            <nonEmptyContent>
+              <para>You can use Excel on almost any mobile device, like a small tablet or a phone. The apps are touch-friendly and optimized for smaller screens. They have many, but not all the features of the desktop applications. They're best for light, on-the-go editing. On a Windows tablet, the app is called <ui>Excel Mobile</ui>. On a phone, it's simply called <ui>Excel</ui>. <link xlink:href="7dabb6cb-0046-40b6-81fe-767e0b1f014f">Set up instructions for mobile devices are available here</link>.</para>
+            </nonEmptyContent>
+          </gridColumn>
+        </gridRow>
+      </grid>
+    </content>
+  </section>
+  <section>
+    <title>On the web</title>
+    <content>
+      <grid>
+        <gridRow>
+          <gridColumn>
+            <nonEmptyContent>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="faaa6542-6874-4f3f-b41c-9189cac78b2f" />
+                </mediaLinkInline>
+              </para>
+            </nonEmptyContent>
+          </gridColumn>
+          <gridColumn>
+            <nonEmptyContent>
+              <para>Excel Online provides quick access to your OneDrive or SharePoint files in almost any web browser, no matter which device you are using! It has many, but not all the features of the desktop applications. However, you can always edit files in the Excel desktop app if it is installed. To access your OneDrive files with Excel Online, go to <externalLink><linkText>Excel Online</linkText><linkUri>https://office.live.com/start/Excel.aspx</linkUri></externalLink>. To access your SharePoint files, go to your organization's SharePoint site and <link xlink:href="da549fb1-1fcb-4167-87d0-4693e93cb7a0">upload a workbook</link>.</para>
+            </nonEmptyContent>
+          </gridColumn>
+        </gridRow>
+      </grid>
+    </content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

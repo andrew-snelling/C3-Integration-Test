@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="2f0c62f5-af64-49cd-aec6-de018647cae3" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>You can insert form controls like check boxes, option, or toggle buttons to make data entry easier. Check boxes work well for forms with multiple options. Option buttons are better when your user has just one choice.  Toggle buttons indicate a state between an enabled or disabled state when the button is clicked.</para>
+    <mediaLink>
+      <caption>Check box (ActiveX control)</caption>
+      <image xlink:href="a8a90bad-7550-4c77-b22f-fa21d46d6664" />
+    </mediaLink>
+    <para>
+      
+    </para>
+    <mediaLink>
+      <caption>Option button (ActiveX control)</caption>
+      <image xlink:href="20de9aeb-5cc2-4793-8f34-c9388815ee13" />
+    </mediaLink>
+    <para>
+      
+    </para>
+    <mediaLink>
+      <caption>Toggle button (ActiveX control)</caption>
+      <image xlink:href="db396c97-9b23-4616-a7d2-48d186436c43" />
+    </mediaLink>
+    <para>To add an ActiveX control, you’ll need the <ui>Developer</ui> tab on your Ribbon.</para>
+    <alert class="note">
+      <para> To enable the Developer tab, follow these instructions:</para>
+      <list class="bullet">
+        <listItem>
+          <para>In <token>TE000130080</token> and subsequent versions, click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Customize Ribbon</ui> , select the <ui>Developer</ui> check box, and click <ui>OK</ui>. </para>
+        </listItem>
+        <listItem>
+          <para>In <token>TE000130082</token>, click the Microsoft Office button <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af" /></mediaLinkInline> &gt; <ui>Excel Options</ui> &gt; <ui>Popular</ui> &gt; <ui>Show Developer tab in the Ribbon</ui>.</para>
+        </listItem>
+      </list>
+    </alert>
+    <list class="ordered">
+      <listItem>
+        <para>To add a check box, click the <ui>Developer</ui> tab, click <ui>Insert</ui>, and under <ui>ActiveX Controls</ui>, click <mediaLinkInline><image xlink:href="da322b91-19a8-4d2b-bc3e-1ef245f3b4f9" /></mediaLinkInline>.</para>
+        <para>To add an option button, click the <ui>Developer</ui> tab, click <ui>Insert</ui>, and under <ui>ActiveX Controls</ui>, click <mediaLinkInline><image xlink:href="2a2b67e6-08bb-46c9-8861-aef4f7bb21d7" /></mediaLinkInline>.</para>
+        <para>To add a toggle button, click the <ui>Developer</ui> tab, click <ui>Insert</ui>, and under <ui>ActiveX Controls</ui>, click <mediaLinkInline><image xlink:href="42752256-790d-40be-aff0-7a591229b039" /></mediaLinkInline>.</para>
+      </listItem>
+      <listItem>
+        <para>Click in the cell wherever you want to add the control.</para>
+        <alert class="tip">
+          <para>You can only add one checkbox or option button at a time. To speed things up, after you add your first control, right-click it and select <ui>Copy</ui> &gt; <ui>Paste</ui>.</para>
+        </alert>
+      </listItem>
+      <listItem>
+        <para>To edit the ActiveX control, make sure that you are in design mode. On the <ui>Developer</ui> tab, in the <ui>Controls</ui> group, click <ui>Design Mode</ui>.</para>
+      </listItem>
+      <listItem>
+        <para>To set the control properties, on the <ui>Developer</ui> tab, in the <ui>Controls</ui> group, click <ui>Properties</ui>.</para>
+        <para>You can also right-click the control, and then click <ui>Properties</ui>.</para>
+        <para>The <ui>Properties</ui> dialog box appears. For detailed information about each property, select the property, and then press F1 to display a Visual Basic Help topic. You can also type the property name in the Visual Basic Help Search box.  For more information on properties, also see <externalLink><linkText>Properties (Microsoft Forms) on MSDN</linkText><linkUri>https://msdn.microsoft.com/EN-US/library/office/jj692787.aspx</linkUri></externalLink>.</para>
+      </listItem>
+    </list>
+  </introduction>
+  <section>
+    <title>Formatting a control</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>To format a control, right-click the control,  and then click <ui>Properties</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>In the Properties dialog box, modify a property as necessary.</para>
+        </listItem>
+      </list>
+      <para>
+        <legacyBold>Deleting a control</legacyBold>
+      </para>
+      <list class="bullet">
+        <listItem>
+          <para>Right-click the control, and press DELETE.</para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <relatedTopics>
+    <link xlink:href="9f201e46-8f6b-4a9d-a320-f44b28088cb0">Add a check box or an option button (Form controls)</link>
+    <link xlink:href="15BA7E28-8D7F-42AB-9470-FFB9AB94E7C2 ">Overview of forms, form controls, and ActiveX controls on a worksheet</link>
+  </relatedTopics>
+</developerConceptualDocument></topic>

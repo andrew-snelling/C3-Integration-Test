@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="385ee963-c2ac-4bc2-b5a8-c56264e82597" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>Custom regions allows data to be mapped to the regions that matter most to you, even if they are not the traditional zip code, county, state, or country regions. Custom regions are useful for scenarios involving sales districts, school districts, congressional districts, land lot development, crop rotation, geological analysis, and anything else using custom-defined polygons.
+
+</para>
+    <para>You can import .KML or .SHP files that contain custom polygons. Once imported, you can use custom regions in the same manner as you would use standard regions such as zip codes.
+</para>
+    <para>
+      <legacyBold> Import a custom region file</legacyBold>
+    </para>
+    <list class="ordered">
+      <listItem>
+        <para>Open a 3D map.</para>
+        <para>The <ui>3D Maps</ui> window appears.</para>
+      </listItem>
+      <listItem>
+        <para>On the <ui>Home</ui> tab, in the <ui>Map</ui> group, click <ui>Custom Region</ui>.</para>
+        <mediaLink>
+          <image xlink:href="a32148a9-6dd2-4cfd-8ad5-9325092b4da9">
+          </image>
+        </mediaLink>
+        <para>The <ui>Manage Custom Region Set</ui> dialog box appears.</para>
+      </listItem>
+      <listItem>
+        <para>Click <ui>Import New Set</ui>.</para>
+      </listItem>
+      <listItem>
+        <para>In the <ui>File name</ui> box, browse to and select the file you want to import, and then click <ui>Open</ui>.</para>
+        <para>The <ui>Manage Custom Region Set</ui> dialog box appears, with the file listed in the <ui>Set Name</ui> box.</para>
+      </listItem>
+      <listItem>
+        <para>Click <ui>Import</ui>.</para>
+      </listItem>
+    </list>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

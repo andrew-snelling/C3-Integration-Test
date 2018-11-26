@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="5fca57b7-8c52-4e09-979a-631085113862" revisionNumber="9"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>To <link xlink:href="cd131b77-79c7-4537-a438-8db20cea84c0">create a chart</link>, you need to select at least one cell in a range of data (a set of cells). Do one of the following:</para>
+    <list class="bullet">
+      <listItem>
+        <para>If your chart data is in a continuous range of cells, select any cell in that range. Your chart will include all the data in the range.</para>
+      </listItem>
+      <listItem>
+        <para>If your data isn't in a continuous range, select nonadjacent cells or ranges. Just make sure your selection forms a rectangle.</para>
+      </listItem>
+    </list>
+    <alert class="tip">
+      <para> If you don't want to include specific rows or columns of data in a chart, you can simply <link xlink:href="659C2CAD-802E-44EE-A614-DDE8443579F8">hide them on the worksheet</link>, or you can apply chart filters to show the data points you want after you create the chart.</para>
+    </alert>
+  </introduction>
+  <section>
+    <title>Arrange data for charts</title>
+    <content>
+      <para>Excel can <link xlink:href="cd131b77-79c7-4537-a438-8db20cea84c0">recommend charts</link> for you. The charts it suggests depend on how you’ve arranged the data in your worksheet. You also may have your own charts in mind. Either way, this table lists the best ways to arrange your data for a given chart. </para>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>For this chart</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Arrange the data</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para><legacyBold>Column, bar, line, area, surface, or radar chart</legacyBold></para>
+            <para><br /></para><para>Learn more abut </para><para><link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmcolumncharts">column</link>, </para><para><link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmbarcharts">bar </link>, </para><para><link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmlinecharts">line</link>,</para><para> <link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmareacharts">area </link>, </para><para><link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmsurfacecharts">surface</link>, </para><para>and <link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmradarcharts">radar</link>  charts.</para></TD>
+            <TD>
+              <para>In columns or rows.</para>
+              <para>
+                <mediaLinkInline>
+<image xlink:href="12318b63-5c57-43e7-9e6b-61db8768bdac" />
+</mediaLinkInline>
+              </para><mediaLink>
+<image xlink:href="0196ca5a-ea1a-468c-bbeb-642eb0e64634" />
+</mediaLink>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para><legacyBold>Pie chart</legacyBold></para>
+              <para>This chart uses one set of values (called a data series).</para>
+            <para><br /></para><para>Learn more about </para><para><link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmpiecharts">pie charts</link>.</para></TD>
+            <TD>
+              <para>In one column or row, and one column or row of labels.</para>
+              <para>
+                <mediaLinkInline>
+<image xlink:href="83fb7ec3-b7e9-4bf4-8688-b1ad6833480e" />
+</mediaLinkInline>
+              </para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para><legacyBold>Doughnut chart</legacyBold></para>
+              <para>This chart can use one or more data series.</para>
+            <para><br /></para><para>Learn more about </para><para><link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmdoughnutcharts">doughnut charts</link>.</para></TD>
+            <TD>
+              <para>In one or multiple columns or rows of data, and one column or row of labels.</para>
+              <para>
+                <mediaLinkInline>
+<image xlink:href="3739c489-7f9e-46fa-9144-a3b6d0205c8f" />
+</mediaLinkInline>
+              </para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para><legacyBold>XY (scatter) or bubble chart</legacyBold></para>
+            <para><br /></para><para>Learn more about</para><para> <link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmscattercharts">XY (scatter) charts</link></para><para> and <link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmbubblecharts">bubble charts</link>.</para></TD>
+            <TD>
+              <para>In columns, placing your x values in the first column and your y values in the next column.</para>
+              <para>
+                <mediaLinkInline>
+<image xlink:href="f0de1f8c-978f-41c1-b6e3-7003a9dea304" />
+</mediaLinkInline>
+             </para><para>For bubble charts, add a third column to specify the size of the bubbles it shows, to represent the data points in the data series.</para><para><mediaLinkInline>
+<image xlink:href="949b2a89-d5fb-4f18-a106-f8453c3ba623" />
+</mediaLinkInline> </para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para><legacyBold>Stock chart</legacyBold></para>
+            <para><br /></para><para>Learn more about </para><para><link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90#bmstockcharts">stock charts</link>.</para></TD>
+            <TD>
+              <para>In columns or rows, using a combination of opening, high, low, and closing values, plus names or dates as labels in the right order. </para>
+              <para>
+                <mediaLinkInline>
+<image xlink:href="6ebd7d45-d818-433f-94bf-34d1e19f92ce" />
+</mediaLinkInline>
+              </para>
+            </TD>
+          </tr>
+        </tbody>
+      </table></content>
+    <sections />
+  </section>
+  <section>
+<title>See Also</title><content><para><link xlink:href="cd131b77-79c7-4537-a438-8db20cea84c0">Create a chart</link></para><para><link xlink:href="A6187218-807E-4103-9E0A-27CDB19AFB90">Available chart types</link></para><para><link xlink:href="25340cfb-3fa3-428c-82cf-79983125df12">Add a data series to your chart</link></para><para><link xlink:href="1d119e2d-1a5f-45a4-8ad3-bacc7430c0a1">Create a combo chart with a secondary axis</link></para><para><link xlink:href="ad955a6e-c1db-4550-8664-be059e4bca19">Change the data series in a chart</link></para></content>
+</section><relatedTopics />
+</developerConceptualDocument></topic>

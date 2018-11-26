@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="90c35a40-bcc3-46d9-aa7f-4106f78850b4" revisionNumber="17"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top"> 
+	 <para address="bmbacktotop">This article shows you how to move your data from Excel to Access and convert your data to relational tables so that you can use Microsoft  Excel and Access together. To summarize, Access is best for capturing, storing, querying, and sharing data, and Excel is best for calculating, analyzing, and visualizing data.</para>
+	 <para>Two articles, <link xlink:href="09576147-47d1-4c6f-9312-e825227fcaea">Using Access or Excel to manage your data</link> and <link xlink:href="2a454445-13cc-4b39-bc2f-d27fd12ca414">Top 10 reasons to use Access with Excel</link>, discuss which program is best suited for a particular task and how to use Excel and Access together to create a practical solution.</para>
+  <para>When you move data from Excel to Access, there are three basic steps to the process.</para>
+		<para> <mediaLinkInline> <image xlink:href="d4deb7a2-9f35-4886-9692-fe9fea4c40fb"> </image> </mediaLinkInline> </para>
+		
+	 <alert class="note">
+ <para>For information on data modeling and relationships in Access, see <link xlink:href="EB2159CF-1E30-401A-8084-BD4F9C9CA1F5">Database design basics</link>.</para>
+</alert></introduction>
+  
+  
+  <section>
+		<title>Step 1: Import data from Excel to Access</title>
+		<content>
+		  <para>Importing data is an operation that can go a lot more smoothly if you take some time to prepare and clean your data. Importing data is like moving to a new home. If you clean out and organize your possessions before you move, settling into your new home is much easier.</para>
+		<para><legacyBold>Clean your data before you import</legacyBold></para><para>Before you import data into Access, in Excel it's a good idea to:</para>
+			 <list class="bullet">
+				<listItem> 
+				  <para>Convert cells that contain non-atomic data (that is, multiple values in one cell) to multiple columns. For example, a cell in a "Skills" column that contains multiple skill values, such as "C# programming," "VBA programming," and "Web design" should be broken out to separate columns that each contain only one skill value.</para>
+				</listItem>
+				<listItem> 
+				  <para>Use the TRIM command to remove leading, trailing, and multiple embedded spaces.</para>
+				</listItem>
+				<listItem> 
+				  <para>Remove non-printing characters.</para>
+				</listItem>
+				<listItem> 
+				  <para>Find and fix spelling and punctuation errors.</para>
+				</listItem>
+				<listItem> 
+				  <para>Remove duplicate rows or duplicate fields.</para>
+				</listItem>
+				<listItem> 
+				  <para>Ensure that columns of data do not contain mixed formats, especially numbers formatted as text or dates formatted as numbers.</para>
+				</listItem>
+			 </list>
+			 
+			 
+			 
+			 <para>For more information, see the following Excel help topics:</para>
+			 <list class="bullet">
+				<listItem> 
+				  <para> <link xlink:href="2844b620-677c-47a7-ac3e-c2e157d1db19">Top ten ways to clean your data</link> </para>
+				</listItem>
+				
+				<listItem> 
+				  <para> <link xlink:href="ccf664b0-81d6-449b-bbe1-8daaec1e83c2">Filter for unique values or remove duplicate values</link> </para>
+				</listItem>
+				<listItem> 
+				  <para> <link xlink:href="40105F2A-FE79-4477-A171-C5BAD0F0A885">Convert numbers stored as text to numbers</link> </para>
+				</listItem>
+				<listItem> 
+				  <para> <link xlink:href="8df7663e-98e6-4295-96e4-32a67ec0a680">Convert dates stored as text to dates</link> </para>
+				</listItem>
+			 </list>
+			 <alert class="note"> 
+				<para>If your data cleaning needs are complex, or you don't have the time or resources to automate the process on your own, you might consider using a third-party vendor. For more information, search for "data cleansing software" or "data quality" by your favorite search engine in your Web browser.</para>
+			 </alert>
+		  <para><legacyBold>Choose the best data type when you import</legacyBold></para><para>During the import operation in Access, you want to make good choices so that you receive few (if any) conversion errors that will require manual intervention. The following table summarizes how Excel number formats and Access data types are converted when you import data from Excel to Access, and offers some tips on the best data types to choose in the Import Spreadsheet Wizard.</para>
+			 <table> <thead> <tr> <TD> 
+			 <para> <legacyBold>Excel number format</legacyBold> </para>
+			 </TD> <TD> 
+			 <para> <legacyBold>Access data type</legacyBold> </para>
+			 </TD> <TD> 
+			 <para> <legacyBold>Comments</legacyBold> </para>
+			 </TD> <TD> 
+			 <para> <legacyBold>Best practice</legacyBold> </para>
+			 </TD> </tr> </thead> <tbody> <tr> <TD> 
+			 <para>Text</para>
+			 </TD> <TD> 
+			 <para>Text, Memo</para>
+			 </TD> <TD> 
+			 <para>The Access Text data type stores alphanumeric data up to 255 characters. The Access Memo data type stores alphanumeric data up to 65,535 characters.</para>
+			 </TD> <TD> 
+			 <para>Choose <ui>Memo</ui> to avoid truncating any data.</para>
+			 </TD> </tr> <tr> <TD> 
+			 <para>Number, Percentage, Fraction, Scientific</para>
+			 </TD> <TD> 
+			 <para>Number </para>
+			 </TD> <TD> 
+			 <para>Access has one Number data type that varies based on a Field Size property (Byte, Integer, Long Integer, Single, Double, Decimal). </para>
+			 </TD> <TD> 
+			 <para>Choose <ui>Double</ui> to avoid any data conversion errors.</para>
+			 </TD> </tr> <tr> <TD> 
+			 <para>Date</para>
+			 </TD> <TD> 
+			 <para>Date</para>
+			 </TD> <TD> 
+			 <para>Access and Excel both use the same serial date number to store dates. In Access, the date range is larger: from -657,434 (January 1, 100 A.D.) to 2,958,465 (December 31, 9999 A.D.). </para>
+			 <para>Because Access does not recognize the 1904 date system (used in Excel for the Macintosh), you need to convert the dates either in Excel or Access to avoid confusion.</para>
+			 <para>For more information, see <link xlink:href="aaa2159b-4ae8-4651-8bce-d4707bc9fb9f">Change the date system, format, or two-digit year interpretation</link> and <link xlink:href="a1952878-7c58-47b1-893d-e084913cc958">Import or link to data in an Excel workbook</link>.</para>
+			 
+			 </TD> <TD> 
+			 <para>Choose <ui>Date</ui>.</para>
+			 </TD> </tr> <tr> <TD> 
+			 <para>Time</para>
+			 </TD> <TD> 
+			 <para>Time</para>
+			 </TD> <TD> 
+			 <para>Access and Excel both store time values by using the same data type.</para>
+			 </TD> <TD> 
+			 <para>Choose <ui>Time</ui>, which is usually the default.</para>
+			 </TD> </tr> <tr> <TD> 
+			 <para>Currency, Accounting</para>
+			 </TD> <TD> 
+			 <para>Currency</para>
+			 </TD> <TD> 
+			 <para>In Access, the Currency data type stores data as 8-byte numbers with precision to four decimal places, and is used to store financial data and prevent rounding of values.</para>
+			 </TD> <TD> 
+			 <para>Choose <ui>Currency</ui>, which is usually the default.</para>
+			 </TD> </tr> <tr> <TD> 
+			 <para>Boolean </para>
+			 </TD> <TD> 
+			 <para>Yes/No</para>
+			 </TD> <TD> 
+			 <para>Access uses -1 for all Yes values and 0 for all No values, whereas Excel uses 1 for all TRUE values and 0 for all FALSE values. </para>
+			 </TD> <TD> 
+			 <para>Choose <ui>Yes/No</ui>, which automatically converts underlying values.</para>
+			 </TD> </tr> <tr> <TD> 
+			 <para>Hyperlink</para>
+			 </TD> <TD> 
+			 <para>Hyperlink</para>
+			 </TD> <TD> 
+			 <para>A hyperlink in Excel and Access contains a URL or Web address that you can click and follow.</para>
+			 </TD> <TD> 
+			 <para>Choose <ui>Hyperlink</ui>, otherwise Access may use the Text data type by default.</para>
+			 </TD> </tr> </tbody> </table> 
+			 <para>Once the data is in Access, you can delete the Excel data. Don't forget to backup the original Excel workbook first before deleting it.</para>
+			 <para>For more information, see the Access help topic <link xlink:href="a1952878-7c58-47b1-893d-e084913cc958">Import or link to data in an Excel workbook</link>.</para>
+			 
+		  <para><legacyBold>Automatically append data the easy way</legacyBold></para><para>A common problem Excel users have is appending data with the same columns into one large worksheet. For example, you may have an asset tracking solution that started out in Excel but now has grown to include files from many workgroups and departments. This data may be in different worksheets and workbooks, or in text files that are data feeds from other systems. There is no user interface command or easy way to append similar data in Excel.</para>
+		  <para>The best solution is to use Access, where you can easily import and append data into one table by using the Import Spreadsheet Wizard. Furthermore, you can append a lot of data into one table. You can save the import operations, add them as scheduled Microsoft Outlook tasks, and even use macros to automate the process.</para></content>
+		 
+	 </section><section>
+		<title>Step 2: Normalize data by using the Table Analyzer Wizard</title>
+		<content>
+		  <para>At first glance, stepping through the process of normalizing your data may seem a daunting task. Fortunately, normalizing tables in Access is a process that is much easier, thanks to the Table Analyzer Wizard.</para>
+		  <para> <mediaLinkInline> <image xlink:href="9acaebad-ba2e-448b-89d3-223e9e00898b"> </image> </mediaLinkInline> </para>
+		  <para>1. Drag selected columns to a new table and automatically create relationships</para>
+		  <para>2. Use button commands to rename a table, add a primary key, make an existing column a primary key, and undo the last action</para>
+		  <para>You can use this wizard to do the following:</para>
+		  <list class="bullet">
+			 <listItem> 
+				<para>Convert a table into a set of smaller tables and automatically create a primary and foreign key relationship between the tables.</para>
+			 </listItem>
+			 <listItem> 
+				<para>Add a primary key to an existing field that contains unique values, or create a new ID field that uses the AutoNumber data type.</para>
+			 </listItem>
+			 <listItem> 
+				<para>Automatically create relationships to enforce referential integrity with cascading updates. Cascading deletes are not automatically added to prevent accidentally deleting data, but you can easily add cascading deletes later.</para>
+			 </listItem>
+			 <listItem> 
+				<para>Search new tables for redundant or duplicate data (such as the same customer with two different phone numbers) and update this as desired.</para>
+			 </listItem>
+			 <listItem> 
+				<para>Back up the original table and rename it by appending "_OLD" to its name. Then, you create a query that reconstructs the original table, with the original table name so that any existing forms or reports based on the original table will work with the new table structure.</para>
+			 </listItem>
+		  </list>
+		  
+		<para>For more information, see <link xlink:href="8EDBB763-5BAB-4FBC-B62D-C17B1A40BBE2">Normalize your data using the Table Analyzer</link>.</para></content>
+		 
+	 </section><section>
+		<title>Step 3: Connect to Access data from Excel</title>
+		<content>
+		  <para>After the data has been normalized in Access and a query or table has been created that reconstructs the original data, it's a simple matter of connecting to the Access data from Excel. Your data is now in Access as an external data source, and so can be connected to the workbook through a data connection, which is a container of information that is used to locate, log on to, and access the external data source. Connection information is stored in the workbook and can also be stored in a connection file, such as an Office Data Connection (ODC) file (.odc file name extension) or a Data Source Name file (.dsn extension). After you connect to external data, you can also automatically refresh (or update) your Excel workbook from Access whenever the data is updated in Access.</para>
+		  <para>For more information, see <link xlink:href="c0ad7aec-ff1a-4e48-9c21-dc18a102433f">Overview of connecting (importing) data</link>.</para>
+		  
+		</content>
+		 
+	 </section>
+  
+  <section>
+	 <title>Get your data into Access</title>
+	 <content>
+		<para>This section walks you through the following phases of normalizing your data: Breaking values in the Salesperson and Address columns into their most atomic pieces, separating related subjects into their own tables, copying and pasting those tables from Excel into Access, creating key relationships between the newly created Access tables, and creating and running a simple query in Access to return information.</para>
+	 <para><legacyBold>Example data in non-normalized form</legacyBold></para><para>The following worksheet contains non-atomic values in the Salesperson column and the Address column. Both columns should be split into two or more separate columns. This worksheet also contains information about salespersons, products, customers, and orders. This information should also be split further, by subject, into separate tables.</para>
+		  <table> <thead> <tr> <TD> 
+		  <para> <legacyBold>Salesperson</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Order ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Order Date</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Product ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Qty</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Price</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Customer Name</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Address</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Phone</legacyBold> </para>
+		  </TD> </tr> </thead> <tbody>  <tr> <TD> 
+		  <para>Li, Yale</para>
+		  </TD> <TD> 
+		  <para>2349</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>C-789</para>
+		  </TD> <TD> 
+		  <para>3</para>
+		  </TD> <TD> 
+		  <para>$7.00</para>
+		  </TD> <TD> 
+		  <para>Fourth Coffee</para>
+		  </TD> <TD> 
+		  <para>7007 Cornell St Redmond, WA 98199</para>
+		  </TD> <TD> 
+		  <para>425-555-0201</para>
+		  </TD> </tr>  <tr> <TD> 
+		  <para>Li, Yale</para>
+		  </TD> <TD> 
+		  <para>2349</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>C-795</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> <TD> 
+		  <para>$9.75</para>
+		  </TD> <TD> 
+		  <para>Fourth Coffee</para>
+		  </TD> <TD> 
+		  <para>7007 Cornell St Redmond, WA 98199</para>
+		  </TD> <TD> 
+		  <para>425-555-0201</para>
+		  </TD> </tr><tr> <TD> 
+		  <para>Adams, Ellen</para>
+		  </TD> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>2</para>
+		  </TD> <TD> 
+		  <para>$16.75</para>
+		  </TD> <TD> 
+		  <para>Adventure Works</para>
+		  </TD> <TD> 
+		  <para>1025 Columbia Circle Kirkland, WA 98234</para>
+		  </TD> <TD> 
+		  <para>425-555-0185</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Adams, Ellen</para>
+		  </TD> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>F-198</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> <TD> 
+		  <para>$5.25</para>
+		  </TD> <TD> 
+		  <para>Adventure Works</para>
+		  </TD> <TD> 
+		  <para>1025 Columbia Circle Kirkland, WA 98234</para>
+		  </TD> <TD> 
+		  <para>425-555-0185</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Adams, Ellen</para>
+		  </TD> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>B-205</para>
+		  </TD> <TD> 
+		  <para>1</para>
+		  </TD> <TD> 
+		  <para>$4.50</para>
+		  </TD> <TD> 
+		  <para>Adventure Works</para>
+		  </TD> <TD> 
+		  <para>1025 Columbia Circle Kirkland, WA 98234</para>
+		  </TD> <TD> 
+		  <para>425-555-0185</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Hance, Jim</para>
+		  </TD> <TD> 
+		  <para>2351</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>C-795</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> <TD> 
+		  <para>$9.75</para>
+		  </TD> <TD> 
+		  <para>Contoso, Ltd.</para>
+		  </TD> <TD> 
+		  <para>2302 Harvard Ave Bellevue, WA 98227</para>
+		  </TD> <TD> 
+		  <para>425-555-0222</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Hance, Jim</para>
+		  </TD> <TD> 
+		  <para>2352</para>
+		  </TD> <TD> 
+		  <para>3/5/09</para>
+		  </TD> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>2</para>
+		  </TD> <TD> 
+		  <para>$16.75</para>
+		  </TD> <TD> 
+		  <para>Adventure Works</para>
+		  </TD> <TD> 
+		  <para>1025 Columbia Circle Kirkland, WA 98234</para>
+		  </TD> <TD> 
+		  <para>425-555-0185</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Hance, Jim</para>
+		  </TD> <TD> 
+		  <para>2352</para>
+		  </TD> <TD> 
+		  <para>3/5/09</para>
+		  </TD> <TD> 
+		  <para>D-4420</para>
+		  </TD> <TD> 
+		  <para>3</para>
+		  </TD> <TD> 
+		  <para>$7.25</para>
+		  </TD> <TD> 
+		  <para>Adventure Works</para>
+		  </TD> <TD> 
+		  <para>1025 Columbia Circle Kirkland, WA 98234</para>
+		  </TD> <TD> 
+		  <para>425-555-0185</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Koch, Reed</para>
+		  </TD> <TD> 
+		  <para>2353</para>
+		  </TD> <TD> 
+		  <para>3/7/09</para>
+		  </TD> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> <TD> 
+		  <para>$16.75</para>
+		  </TD> <TD> 
+		  <para>Fourth Coffee</para>
+		  </TD> <TD> 
+		  <para>7007 Cornell St Redmond, WA 98199</para>
+		  </TD> <TD> 
+		  <para>425-555-0201</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Koch, Reed</para>
+		  </TD> <TD> 
+		  <para>2353</para>
+		  </TD> <TD> 
+		  <para>3/7/09</para>
+		  </TD> <TD> 
+		  <para>C-789</para>
+		  </TD> <TD> 
+		  <para>5</para>
+		  </TD> <TD> 
+		  <para>$7.00</para>
+		  </TD> <TD> 
+		  <para>Fourth Coffee</para>
+		  </TD> <TD> 
+		  <para>7007 Cornell St Redmond, WA 98199</para>
+		  </TD> <TD> 
+		  <para>425-555-0201</para>
+		  </TD> </tr>  </tbody> </table></content>
+	 <sections> 
+	 
+	 <section>
+		<title>Information in its smallest parts: atomic data</title>
+		<content>
+		  <para>Working with the data in this example, you can use the <legacyBold>Text to Column</legacyBold> command in Excel to separate the "atomic" parts of a cell (such as street address, city, state, and postal code) into discrete columns.</para>
+		  <para>The following table shows the new columns in the same worksheet after they have been split to make all values atomic. Note that the information in the Salesperson column has been split into Last Name and the First Name columns and that the information in the Address column has been split into Street Address, City, State, and ZIP Code columns. This data is in "first normal form."</para>
+		  <table> <thead> <tr> <TD> 
+		  <para> <legacyBold>Last Name</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>First Name</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold> </legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Street Address</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>City</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>State</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>ZIP Code</legacyBold> </para>
+		  </TD> </tr> </thead> <tbody> <tr> <TD> 
+		  <para>Li</para>
+		  </TD> <TD> 
+		  <para>Yale</para>
+		  </TD> <TD /> <TD> 
+		  <para>2302 Harvard Ave</para>
+		  </TD> <TD> 
+		  <para>Bellevue</para>
+		  </TD> <TD> 
+		  <para>WA</para>
+		  </TD> <TD> 
+		  <para>98227</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Adams</para>
+		  </TD> <TD> 
+		  <para>Ellen</para>
+		  </TD> <TD /> <TD> 
+		  <para>1025 Columbia Circle</para>
+		  </TD> <TD> 
+		  <para>Kirkland</para>
+		  </TD> <TD> 
+		  <para>WA</para>
+		  </TD> <TD> 
+		  <para>98234</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Hance</para>
+		  </TD> <TD> 
+		  <para>Jim</para>
+		  </TD> <TD /> <TD> 
+		  <para>2302 Harvard Ave</para>
+		  </TD> <TD> 
+		  <para>Bellevue</para>
+		  </TD> <TD> 
+		  <para>WA</para>
+		  </TD> <TD> 
+		  <para>98227</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>Koch</para>
+		  </TD> <TD> 
+		  <para>Reed</para>
+		  </TD> <TD /> <TD> 
+		  <para>7007 Cornell St Redmond</para>
+		  </TD> <TD> 
+		  <para>Redmond</para>
+		  </TD> <TD> 
+		  <para>WA</para>
+		  </TD> <TD> 
+		  <para>98199</para>
+		  </TD> </tr>  </tbody> </table> 
+		</content>
+		 
+	 </section>
+	 <section>
+		<title>Breaking data out into organized subjects in Excel</title>
+		<content>
+		  <para>The several tables of example data that follow show the same information from the Excel worksheet after it has been split into tables for salespersons, products, customers, and orders. The table design isn't final, but it's on the right track.</para>
+		  
+		  
+		  
+		  <para>The Salespersons table contains only information about sales personnel. Note that each record has a unique ID (SalesPerson ID). The SalesPerson ID value will be used in the Orders table to connect orders to salespeople.</para>
+		  <table> <thead> <tr> <TD> 
+		  <para> <legacyBold>Salespersons</legacyBold> </para>
+		  </TD> <TD /> <TD /> </tr> </thead> <tbody> <tr> <TD> 
+		  <para> <legacyBold>Salesperson ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Last Name</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>First Name</legacyBold> </para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>101</para>
+		  </TD> <TD> 
+		  <para>Li</para>
+		  </TD> <TD> 
+		  <para>Yale</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>103</para>
+		  </TD> <TD> 
+		  <para>Adams</para>
+		  </TD> <TD> 
+		  <para>Ellen</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>105</para>
+		  </TD> <TD> 
+		  <para>Hance</para>
+		  </TD> <TD> 
+		  <para>Jim</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>107</para>
+		  </TD> <TD> 
+		  <para>Koch</para>
+		  </TD> <TD> 
+		  <para>Reed</para>
+		  </TD> </tr>  </tbody> </table> 
+		  <para>The Products table contains only information about products. Note that each record has a unique ID (Product ID). The Product ID value will be used to connect product information to the Order Details table.</para>
+		  <table> <thead> <tr> <TD> 
+		  <para> <legacyBold>Products</legacyBold> </para>
+		  </TD> <TD /> </tr> </thead> <tbody> <tr> <TD> 
+		  <para> <legacyBold>Product ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Price</legacyBold> </para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>16.75</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>B-205</para>
+		  </TD> <TD> 
+		  <para>4.50</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>C-789</para>
+		  </TD> <TD> 
+		  <para>7.00</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>C-795</para>
+		  </TD> <TD> 
+		  <para>9.75</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>D-4420</para>
+		  </TD> <TD> 
+		  <para>7.25</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>F-198</para>
+		  </TD> <TD> 
+		  <para>5.25</para>
+		  </TD> </tr>  </tbody> </table> 
+		  <para>The Customers table contains only information about customers. Note that each record has a unique ID (Customer ID). The Customer ID value will be used to connect customer information to the Orders table.</para>
+		  <table> <thead> <tr> <TD> 
+		  <para> <legacyBold>Customers</legacyBold> </para>
+		  </TD> <TD /> <TD /> <TD /> <TD /> <TD /> <TD /> </tr> </thead> <tbody> <tr> <TD> 
+		  <para> <legacyBold>Customer ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Name</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Street Address</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>City</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>State</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>ZIP Code</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Phone</legacyBold> </para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>1001</para>
+		  </TD> <TD> 
+		  <para>Contoso, Ltd.</para>
+		  </TD> <TD> 
+		  <para>2302 Harvard Ave</para>
+		  </TD> <TD> 
+		  <para>Bellevue</para>
+		  </TD> <TD> 
+		  <para>WA</para>
+		  </TD> <TD> 
+		  <para>98227</para>
+		  </TD> <TD> 
+		  <para>425-555-0222</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>1003</para>
+		  </TD> <TD> 
+		  <para>Adventure Works</para>
+		  </TD> <TD> 
+		  <para>1025 Columbia Circle</para>
+		  </TD> <TD> 
+		  <para>Kirkland</para>
+		  </TD> <TD> 
+		  <para>WA</para>
+		  </TD> <TD> 
+		  <para>98234</para>
+		  </TD> <TD> 
+		  <para>425-555-0185</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>1005</para>
+		  </TD> <TD> 
+		  <para>Fourth Coffee</para>
+		  </TD> <TD> 
+		  <para>7007 Cornell St</para>
+		  </TD> <TD> 
+		  <para>Redmond</para>
+		  </TD> <TD> 
+		  <para>WA</para>
+		  </TD> <TD> 
+		  <para>98199</para>
+		  </TD> <TD> 
+		  <para>425-555-0201</para>
+		  </TD> </tr> </tbody> </table> 
+		  <para>The Orders table contains information about orders, salespersons, customers, and products. Note that each record has a unique ID (Order ID). Some of the information in this table needs to be split into an additional table that contains order details so that the Orders table contains only four columns — the unique order ID, the order date, the salesperson ID, and the customer ID. The table shown here has not yet been split into the Order Details table.</para>
+		  <table> <thead> <tr> <TD> 
+		  <para> <legacyBold>Orders</legacyBold> </para>
+		  </TD> <TD /> <TD /> <TD /> <TD /> <TD /> </tr> </thead> <tbody> <tr> <TD> 
+		  <para> <legacyBold>Order ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Order Date</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>SalesPerson ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Customer ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Product ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Qty</legacyBold> </para>
+		  </TD> </tr>  <tr> <TD> 
+		  <para>2349</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>101</para>
+		  </TD> <TD> 
+		  <para>1005</para>
+		  </TD> <TD> 
+		  <para>C-789</para>
+		  </TD> <TD> 
+		  <para>3</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2349</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>101</para>
+		  </TD> <TD> 
+		  <para>1005</para>
+		  </TD> <TD> 
+		  <para>C-795</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>103</para>
+		  </TD> <TD> 
+		  <para>1003</para>
+		  </TD> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>2</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>103</para>
+		  </TD> <TD> 
+		  <para>1003</para>
+		  </TD> <TD> 
+		  <para>F-198</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>103</para>
+		  </TD> <TD> 
+		  <para>1003</para>
+		  </TD> <TD> 
+		  <para>B-205</para>
+		  </TD> <TD> 
+		  <para>1</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2351</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>105</para>
+		  </TD> <TD> 
+		  <para>1001</para>
+		  </TD> <TD> 
+		  <para>C-795</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2352</para>
+		  </TD> <TD> 
+		  <para>3/5/09</para>
+		  </TD> <TD> 
+		  <para>105</para>
+		  </TD> <TD> 
+		  <para>1003</para>
+		  </TD> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>2</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2352</para>
+		  </TD> <TD> 
+		  <para>3/5/09</para>
+		  </TD> <TD> 
+		  <para>105</para>
+		  </TD> <TD> 
+		  <para>1003</para>
+		  </TD> <TD> 
+		  <para>D-4420</para>
+		  </TD> <TD> 
+		  <para>3</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2353</para>
+		  </TD> <TD> 
+		  <para>3/7/09</para>
+		  </TD> <TD> 
+		  <para>107</para>
+		  </TD> <TD> 
+		  <para>1005</para>
+		  </TD> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2353</para>
+		  </TD> <TD> 
+		  <para>3/7/09</para>
+		  </TD> <TD> 
+		  <para>107</para>
+		  </TD> <TD> 
+		  <para>1005</para>
+		  </TD> <TD> 
+		  <para>C-789</para>
+		  </TD> <TD> 
+		  <para>5</para>
+		  </TD> </tr>  </tbody> </table> 
+		  <para>Order details, such as the product ID and quantity are moved out of the Orders table and stored in a table named Order Details. Keep in mind that there are 9 orders, so it makes sense that there are 9 records in this table. Note that the Orders table has a unique ID (Order ID), which will referred to from the Order Details table.</para>
+		  <para>The final design of the Orders table should look like the following:</para>
+		  <table> <thead> <tr> <TD> 
+		  <para> <legacyBold>Orders</legacyBold> </para>
+		  </TD> <TD /> <TD /> <TD /> </tr> </thead> <tbody> <tr> <TD> 
+		  <para> <legacyBold>Order ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Order Date</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>SalesPerson ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Customer ID</legacyBold> </para>
+		  </TD> </tr>  <tr> <TD> 
+		  <para>2349</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>101</para>
+		  </TD> <TD> 
+		  <para>1005</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>103</para>
+		  </TD> <TD> 
+		  <para>1003</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2351</para>
+		  </TD> <TD> 
+		  <para>3/4/09</para>
+		  </TD> <TD> 
+		  <para>105</para>
+		  </TD> <TD> 
+		  <para>1001</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2352</para>
+		  </TD> <TD> 
+		  <para>3/5/09</para>
+		  </TD> <TD> 
+		  <para>105</para>
+		  </TD> <TD> 
+		  <para>1003</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2353</para>
+		  </TD> <TD> 
+		  <para>3/7/09</para>
+		  </TD> <TD> 
+		  <para>107</para>
+		  </TD> <TD> 
+		  <para>1005</para>
+		  </TD> </tr>  </tbody> </table> 
+		  <para>The Order Details table contains no columns that require unique values (that is, there is no primary key), so it is okay for any or all columns to contain "redundant" data. However, no two records in this table should be completely identical (this rule applies to any table in a database). In this table, there should be 17 records — each corresponding to a product in an individual order. For example, in order 2349, three C-789 products comprise one of the two parts of the entire order.</para>
+		  <para>The Order Details table should, therefore, look like the following:</para>
+		  <table> <thead> <tr> <TD> 
+		  <para> <legacyBold>Order Details</legacyBold> </para>
+		  </TD> <TD /> <TD /> </tr> </thead> <tbody> <tr> <TD> 
+		  <para> <legacyBold>Order ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Product ID</legacyBold> </para>
+		  </TD> <TD> 
+		  <para> <legacyBold>Qty</legacyBold> </para>
+		  </TD> </tr>  <tr> <TD> 
+		  <para>2349</para>
+		  </TD> <TD> 
+		  <para>C-789</para>
+		  </TD> <TD> 
+		  <para>3</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2349</para>
+		  </TD> <TD> 
+		  <para>C-795</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>2</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>F-198</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2350</para>
+		  </TD> <TD> 
+		  <para>B-205</para>
+		  </TD> <TD> 
+		  <para>1</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2351</para>
+		  </TD> <TD> 
+		  <para>C-795</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2352</para>
+		  </TD> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>2</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2352</para>
+		  </TD> <TD> 
+		  <para>D-4420</para>
+		  </TD> <TD> 
+		  <para>3</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2353</para>
+		  </TD> <TD> 
+		  <para>A-2275</para>
+		  </TD> <TD> 
+		  <para>6</para>
+		  </TD> </tr> <tr> <TD> 
+		  <para>2353</para>
+		  </TD> <TD> 
+		  <para>C-789</para>
+		  </TD> <TD> 
+		  <para>5</para>
+		  </TD> </tr>  </tbody> </table> 
+		</content>
+		 
+	 </section>
+	 <section>
+		<title>Copying and pasting data from Excel into Access</title>
+		<content>
+		  <para>Now that the information about salespersons, customers, products, orders, and order details has been broken out into separate subjects in Excel, you can copy that data directly into Access, where it will become tables.</para><para><legacyBold>Creating relationships between the Access tables and running a query</legacyBold></para>
+		  
+		  
+		  
+		<para>After you have moved your data to Access, you can create relationships between tables and then create queries to return information about various subjects. For example, you can create a query that returns the Order ID and the names of the salespersons for orders entered between 3/05/09 and 3/08/09.</para><para>In addition, you can create forms and reports to make data entry and sales analysis easier.</para></content>
+		 
+	 </section>
+	 
+	 </sections> 
+  </section><section>
+<title>Need more help?</title>
+            <content>
+                        <para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.
+            </para>
+</content>
+</section>
+<relatedTopics /> 
+</developerConceptualDocument></topic>

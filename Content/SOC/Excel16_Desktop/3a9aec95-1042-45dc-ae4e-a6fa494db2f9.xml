@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="3a9aec95-1042-45dc-ae4e-a6fa494db2f9" revisionNumber="8"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction><para>You can quickly find the fields you are looking for in long lists of fields without scrolling, using the new search in PivotTable functionality.  </para>       
+    
+  </introduction>
+  
+  
+  <section>
+<title></title><content><list class="ordered">
+      <listItem>
+        <para>Click on the PivotTable with the fields you want to search for. </para>
+      </listItem><listItem><para>In the<ui> PivotTable Fields</ui> pane,  enter the field name to find.</para><para><mediaLinkInline>
+<image xlink:href="c6114f44-ffd2-482b-adeb-a6f261e0179f" />
+</mediaLinkInline></para><para>The field you're searching for will now display at the top of the list.</para><para><mediaLinkInline>
+<image xlink:href="dc36699b-dc82-44ce-a608-efed92de000d" />
+</mediaLinkInline></para></listItem>
+      
+      
+      
+      
+    </list></content>
+</section><relatedTopics><link xlink:href="A9A84538-BFE9-40A9-A8E9-F99134456576">Create a PivotTable to analyze worksheet data</link><link xlink:href="E41F7107-B92D-44EF-861F-24430830450A">Sort data in a PivotTable</link><link xlink:href="CC1ED287-3A97-4E95-B377-DDFAFE79FA8F ">Filter data in a PivotTable</link></relatedTopics>
+</developerConceptualDocument></topic>

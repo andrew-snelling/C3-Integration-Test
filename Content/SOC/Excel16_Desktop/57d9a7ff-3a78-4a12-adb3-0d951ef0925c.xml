@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="57d9a7ff-3a78-4a12-adb3-0d951ef0925c" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="__goback">A Microsoft 3D Maps tour can show a time-based relationship between geographic locations and their associated data—such as population numbers, temperature highs or lows, or flight arrival delays.</para>
+    <para>When you start 3D Maps from a workbook that doesn’t already contain a tour, a new tour with a single scene is automatically created. Tours and scenes are the basic way to save the 3D Maps visualizations of your data. </para>
+    <para>You can create as many tours as you want in a workbook. You switch between tours and create new tours by using the <ui>Launch 3D Maps</ui> box. This example has three tours that show world population by continent.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="4c580a36-d25e-4de9-916c-45494fe25b72">
+        </image>
+      </mediaLinkInline>
+    </para>
+  </introduction>
+  <section>
+    <title>Create a tour</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Select any cell in the Excel table or range of cells that has your data. Be sure to do this before you create the tour; it makes it easier for you to hook up the data to the new tour.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Insert</ui> &gt; <ui>3D Map</ui> &gt; <ui>Open 3D Maps</ui>.</para>
+        <para>The <ui>Launch 3D Maps</ui> window appears, showing your new tour.</para></listItem>
+      </list>
+      
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Add another tour to your workbook</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Select any cell in the Excel table or range of cells that has your data. Be sure to do this before you create the tour; it makes it easier for you to hook up the data to the new tour.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Insert</ui> &gt; <ui>3D Map</ui> &gt; <ui>Open 3D Maps</ui>.</para>
+        <para>The <ui>Launch 3D Maps</ui> box appears.</para></listItem>
+      <listItem>
+          <para>Click <ui>New Tour</ui>.</para>
+        <para>The new tour appears in the <ui>Launch 3D Maps</ui> window. If another tour was already open, 3D Maps closes it.</para></listItem></list>
+      
+      
+      
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Save your tours</title>
+    <content>
+      <para>There’s no <ui>Save</ui> button in 3D Maps; all tours and scenes are preserved in the state in which you close the window. When you save your workbook, any 3D Maps tours and scenes are saved with it.</para>
+      <para>All changes you make to a scene in 3D Maps while editing are saved automatically, but any changes you make to a scene in tour playback mode—such as resizing, removing a legend, or removing a timeline—aren’t saved. All tours open in edit mode by default, and all the scenes in a tour are shown in the Tour Editor pane.</para>
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Add a scene to a tour</title>
+    <content>
+      <para>A tour can have a single scene, or multiple scenes that play sequentially to show different views of your data, such as highlighting a section of a map, or showing other data related to the geographic locations. For example, the first scene in your tour could show population growth for cities over time, followed by a scene showing the number of public swimming pools in those cities over the same time period, followed by more scenes that show other information about those cities. This example shows a four-scene tour for a selection of cities in the U.S. Southwest region.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="325a235c-0061-4186-88c0-b568f95f8640">
+          </image>
+        </mediaLinkInline>
+      </para>
+      <para>To learn about adding scenes to a tour, see <link xlink:href="1f5e6f7c-776b-4503-9f71-e5101630bc31">Add or move a scene in a 3D Maps tour</link>.</para>
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Play a tour</title>
+    <content>
+      <para>
+        3D Maps always plays a tour in full-screen mode. Playback buttons are available at the bottom of the screen.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="f89d7342-ac55-4c36-93b2-6a204297eeae">
+          </image>
+        </mediaLinkInline>
+      </para>
+      <list class="ordered">
+        <listItem>
+          <para>Open the tour from the <ui>Launch 3D Maps</ui> box.</para>
+        </listItem>
+        <listItem>
+          <para>In the 3D Maps window, on the <ui>Home</ui> tab, click <ui>Play Tour</ui>.</para>
+        </listItem>
+      </list>
+      <para>You can pause, play, move to the previous or next scene, or go back to edit mode. When you pause the tour, you can explore the 3-D environment and interact with it. Any changes you make in play mode aren't saved as part of the scene. Once you resume playback or go back to edit mode, the changes you made in play mode are lost.</para>
+      <alert class="note">
+        <para>
+          The
+          <ui>Play Tour</ui> button always plays the tour beginning with the first scene. You can navigate to the scene you want with the <ui>Next</ui> and <ui>Previous</ui> buttons in Play mode.</para>
+      </alert>
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Delete a tour</title>
+    <content>
+      <alert class="note">
+        <para>The Undo command in Excel can't restore a tour you've just deleted.</para>
+      </alert>
+      <list class="ordered">
+        <listItem>
+          <para>In the workbook, click <ui>Insert</ui> &gt; <ui>3D Map</ui> &gt; <ui>Open 3D Maps</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>Right-click the tour, and click <ui>Delete</ui>.</para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Copy a tour</title>
+    <content>
+      <para>In the <ui>Launch 3D Maps</ui> box, right-click a tour and click <ui>Duplicate</ui>. This creates a new tour that you can fine tune, while leaving the original tour untouched.</para>
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Learn more about working with 3D Maps </title>
+    <content>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <link xlink:href="1f5e6f7c-776b-4503-9f71-e5101630bc31">Add or move a scene in a 3D Maps tour</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="5848706a-aba9-4152-8819-765a092e75a9">Change the look of your 3D Maps</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="be0bad76-3f04-4e9b-8a53-1801fc2b17d9">Add a heat map in 3D Maps</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="ff97b42f-3a69-43f5-9d61-0587e115d80e">Switch to a flat map</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="68de05ef-2d0f-4c4f-b7af-f4431376bb4f">Export my 3D Map to video</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="f1b54f95-085d-4d40-9c4b-5b6ea8a2db95">Copy a 3D Maps screen to another application</link>
+          </para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="0091ae04-dfcb-44fc-ad47-3b16844e8173" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="bmbacktotop">You can change the properties of an external data range to control data that has been imported into a worksheet through a connection to an external data source, such as a database, a Web query, or a text file.</para>
+  </introduction>
+  
+  <section expanded="true">
+    <title>Learn more about external data ranges and properties </title>
+    <content>
+      <para>An external data range (also called a query table) is a defined name or table name that defines the location of the data that is brought into a worksheet. When you connect to external data, Excel automatically creates an external data range. The only exception to this is a PivotTable report that is connected to a data source — a PivotTable report does not use an external data range. In Excel, you can format and lay out an external data range or use it in calculations, as with any other data.</para>
+    <para><legacyBold>External data range properties</legacyBold></para><para>An external data range has additional properties (not to be confused with connection properties) that you can use to control the data, such as the preservation of cell formatting and column width. You can change these external data range properties by clicking <ui>Properties</ui> in the <ui>Connections</ui> group on the <ui>Data</ui> tab. Then make your changes by doing the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>For external data ranges that are created from Microsoft Query and the Data Connection Wizard, use the <ui>External Data Properties</ui> dialog box.</para>
+            </listItem>
+            <listItem>
+              <para>For external data ranges that are created from an imported text file or Web query that retrieves HTML data, use the <ui>External Data Range Properties</ui> dialog box.</para>
+            </listItem>
+            <listItem>
+              <para>For external data ranges that are created from a Web query that retrieves XML data, use the <ui>XML Map Properties</ui> dialog box.</para>
+            </listItem>
+          </list>
+        <para><legacyBold>Using templates with external data ranges</legacyBold></para><para>If you want to share a summary or a report that is based on external data, you can give other users a workbook that contains an external data range, or you can create a report template. A <token>TE000126982</token> lets you save the summary or report without saving the external data so that the file is smaller. The external data is retrieved when a user opens the report template.</para></content>
+    
+  </section>
+  <section expanded="true">
+    <title>Find an external data range</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Select the worksheet in which you want to search for an <token>TE000126957</token>.</para>
+        </listItem>
+        <listItem>
+          <para>On the <token>TE000127058</token>, click the arrow next to the <ui>Name Box</ui>, and then click the name of the external data range that you want.</para>
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Change the name of an external data range</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>On the <ui>Formulas</ui> tab, in the <ui>Defined Names</ui> group, click <ui>Name Manager</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="bf61fe96-288e-45cb-af8b-a9cb90bec782">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Name Manager</ui> dialog box, click the name of the external data range, and then click <ui>Edit</ui>. You can also double-click the name. </para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Edit Name</ui> dialog box, type the new name for the reference in the <ui>Name</ui> box.</para>
+        </listItem>
+      </list>
+      <alert class="note">
+        <para>The <ui>Close</ui> button closes only the <ui>Name Manager</ui> dialog box. You don't have to click <ui>Close</ui> in order to commit changes that you already made.</para>
+      </alert>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Change the underlying query for an external data range</title>
+    <content>
+      <para>You can change the underlying query for an external data range that was created from Microsoft Query, an imported text file, a Web query, or the Data Connection Wizard.</para>
+    </content>
+    <sections>
+      <section expanded="true">
+        <title>Change the underlying query for an external data range created from Microsoft Query</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Click a cell in the external data range for which you want to change the underlying query.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Properties</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>External Data Properties</ui> dialog box, click <ui>Connection Properties</ui><mediaLinkInline><image xlink:href="5ac565cd-c570-4d54-adc6-27ec062e1c13"></image></mediaLinkInline> .</para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>Connection Properties</ui> dialog box, click the <ui>Definition</ui> tab, and then click <ui>Edit Query</ui>.</para>
+            </listItem>
+          </list>
+          
+            <para>For more information about constructing and editing queries in Microsoft Query, see Microsoft Query Help.</para>
+          
+        </content>
+        
+      </section>
+      <section expanded="true">
+        <title>Change the underlying query for an external data range created from an imported text file</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Click a cell in the external data range for which you want to change the underlying query.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Connections</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>Workbook Connections</ui> dialog box, click <ui>Properties</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>Connection Properties</ui> dialog box, click the <ui>Definition</ui> tab, and then click <ui>Edit Query</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>Import Text File</ui> dialog box, click <ui>Import</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Make changes to the imported text file in the Text Import Wizard, and then click <ui>Finish</ui>.</para>
+              <para>For more information about importing text files, see <link xlink:href="5250ac4c-663c-47ce-937b-339e391393ba">Import or export text files</link>.</para>
+            </listItem>
+          </list>
+        </content>
+        
+      </section>
+      <section expanded="true">
+        <title>Change the underlying query for an external data range created from a Web query</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Click a cell in the external data range for which you want to change the underlying query.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Properties</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>Workbook Connections</ui> dialog box, click <ui>Properties</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>Connection Properties</ui> dialog box, click the <ui>Definition</ui> tab, and then click <ui>Edit Query</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Make changes to the Web query in the <ui>Edit Web Query</ui> dialog box, and then click <ui>Finish</ui>.</para>
+            </listItem>
+          </list>
+          
+            <para>For more information about creating and editing Web queries, see <link xlink:href="b2725d67-c9e8-43e6-a590-c0a175bd64d8">Connect to a web page (Power Query)</link>.</para>
+          
+        </content>
+        
+      </section>
+      <section expanded="true">
+        <title>Change the underlying query for an external data range created by using the Data Connection Wizard</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Click a cell in the external data range for which you want to change the underlying query.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Properties</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>External Data Properties</ui> dialog box, click <ui>Connection Properties</ui><mediaLinkInline><image xlink:href="5ac565cd-c570-4d54-adc6-27ec062e1c13"></image></mediaLinkInline> .</para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>Connection Properties</ui> dialog box, click the <ui>Definition</ui> tab.</para>
+            </listItem>
+            <listItem>
+              <para>Do one of the following:</para>
+              <list class="bullet">
+                <listItem>
+                  <para>In the <ui>Command type</ui> box, click <ui>Table</ui> and then, in the <ui>Command text</ui> box, change the value to the name of an appropriate table, view, or query.</para>
+                </listItem>
+                <listItem>
+                  <para>In the <ui>Command type</ui> box, click <ui>SQL</ui> or <ui>Default</ui> and then, in the <ui>Command text</ui> box, edit the SQL statement.</para>
+                  <alert class="note">
+                    <para>Depending on how the connection was defined, the <ui>Command type</ui> box may be unavailable (it appears dimmed).</para>
+                  </alert>
+                </listItem>
+              </list>
+            </listItem>
+          </list>
+          
+        </content>
+        
+      </section>
+    </sections>
+  </section>
+  <section expanded="true">
+    <title>Copy an external data range and its underlying query</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>On the formula bar, click the arrow next to the <ui>Name Box</ui>, and select the name of the external data range that you want to copy.</para>
+          <para>For an Excel table, select the name of the range, and then press CTRL+A to select the table headers.</para>
+          <para>If you want to include column labels or formulas that are not part of the external data range, select the cells that contain the column labels or formulas that you want to copy. Click the arrow next to the <ui>Name Box</ui> on the formula bar, and click the name of the external data range that you want to copy.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click <ui>Copy</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="0d0e40b2-a3d5-470a-94f6-9fdecdb81d37">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Switch to the workbook in which you want to paste the external data range.</para>
+        </listItem>
+        <listItem>
+          <para>Click the upper-left cell of the <token>TE000127076</token>.</para>
+          <para>To ensure that the <token>TE000127120</token> does not replace existing data, make sure that the worksheet has no data under or to the right of the cell that you click.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click <ui>Paste</ui>.</para>
+        </listItem>
+      </list>
+      <alert class="note">
+        <para>If you copy only part of an external data range, the underlying <token>TE000127094</token> is not copied, and the copied data can't be refreshed.</para>
+      </alert>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Specify how new data is added to an external data range</title>
+    <content>
+      <para>You can control how to handle a smaller or larger data set that is returned to Excel when data is refreshed.</para>
+      <list class="ordered">
+        <listItem>
+          <para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Properties</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>External Data Range Properties</ui> dialog box, under <ui>If the number of rows in the data range changes upon refresh</ui>, click one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>
+                <ui>Insert cells for new data, delete unused cells</ui>
+              </para>
+              <alert class="note">
+                <list class="bullet">
+                  <listItem>
+                    <para>When one or more rows are added in the data source, cells directly under the external data range move down, but cells to the right of the external data range do not move.</para>
+                  </listItem>
+                  <listItem>
+                    <para>When one or more rows are deleted in the data source, cells directly under the external data range move up, but cells to the right of the external data range do not move.</para>
+                  </listItem>
+                </list>
+              </alert>
+            </listItem>
+            <listItem>
+              <para>
+                <ui>Insert entire rows for new data, clear unused cells</ui>
+              </para>
+              <alert class="note">
+                <list class="bullet">
+                  <listItem>
+                    <para>When one or more rows are added in the data source, cells directly under and to the right of the external data range move down.</para>
+                  </listItem>
+                  <listItem>
+                    <para>When one or more rows are deleted in the data source, cells directly under and to the right of the external data range do not move.</para>
+                  </listItem>
+                </list>
+              </alert>
+            </listItem>
+            <listItem>
+              <para>
+                <ui>Overwrite existing cells with new data, clear unused cells</ui>
+              </para>
+              <alert class="note">
+                <list class="bullet">
+                  <listItem>
+                    <para>When one or more rows are added in the data source, cells directly under the external data range are overwritten, but cells to the right of the external data range do not move.</para>
+                  </listItem>
+                  <listItem>
+                    <para>When one or more rows are deleted in the data source, cells directly under and to the right of the external data range do not move.</para>
+                  </listItem>
+                </list>
+              </alert>
+            </listItem>
+          </list>
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Specify data formatting and layout</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Properties</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Under <ui>Data formatting and layout</ui>, do one or more of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>To include field names as the first row, select the <ui>Include field names</ui> check box.</para>
+              <alert class="note">
+                <para>This check box is only available for an external data range that is converted from a Microsoft Office 2003 program, or to an external data range that is created programmatically.</para>
+              </alert>
+            </listItem>
+            <listItem>
+              <para>To add a column of row numbers, select the <ui>Include row numbers</ui> check box.</para>
+              <alert class="note">
+                <para>This check box is not available for an imported text file, XML file, or Web query.</para>
+              </alert>
+            </listItem>
+            <listItem>
+              <para>To preserve the cell formatting that you apply, select the <ui>Preserve cell formatting</ui> check box.</para>
+              <alert class="note">
+                <para>For a Web query, this option is automatically cleared when you select <ui>Full HTML Formatting</ui> in the <ui>Options</ui> dialog box. You access the <ui>Options</ui> dialog box from the <ui>Edit Query</ui> dialog box.</para>
+              </alert>
+            </listItem>
+            <listItem>
+              <para>To preserve the column widths that you set, select the <ui>Adjust column width</ui> check box.</para>
+            </listItem>
+            <listItem>
+              <para>To preserve the column sorting, filtering, and layout that you apply, select the <ui>Preserve column sort/filter/layout</ui> check box.</para>
+              <alert class="note">
+                <para>This check box is not available for a Web query.</para>
+              </alert>
+            </listItem>
+            <listItem>
+              <para>To preserve the column filtering that you apply, select the <ui>Preserve column filter</ui> check box.</para>
+              <alert class="note">
+                <para>This check box is available only for a Web query that is based on XML data.</para>
+              </alert>
+            </listItem>
+          </list>
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Copy formulas when an external data range expands</title>
+    <content>
+      <alert class="note">
+        <para>The following procedure applies only to an external data range that is converted from a Microsoft Office 2003 program, or to an external data range that is created programmatically. All external data ranges that are created by using the user interface are created as Excel tables. These tables automatically expand when new rows are added and fill down calculated columns.</para>
+      </alert>
+      <list class="ordered">
+        <listItem>
+          <para>Enter a formula in a cell that is adjacent to the first row of data in the external data range. </para>
+          <alert class="note">
+            <para>The first row of data may be the first or second row in the external data range, depending on whether the first row contains headers.</para>
+          </alert>
+        </listItem>
+        <listItem>
+          <para>Select the cell and double-click the <token>TE000127055</token> to copy the formula to all rows in the external data range.</para>
+        </listItem>
+        <listItem>
+          <para>Click a cell in the external data range.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Properties</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>External Data Range Properties</ui> dialog box, select the <ui>Fill down formulas in columns adjacent to data</ui> check box. </para>
+          <alert class="note">
+            <para>If the external data range expands when you <token>TE000126979</token>, Excel copies only those formulas that are immediately adjacent to or within the external data range.</para>
+          </alert>
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Freeze data in an external data range</title>
+    <content>
+      <para>Freezing an external data range retains the data but not its underlying query, so a frozen external data range cannot be refreshed.</para>
+    </content>
+    <sections>
+      <section expanded="true">
+        <title>Freeze data in an Excel table</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Click the worksheet that contains the Excel table from which you want to remove the data connection.</para>
+            </listItem>
+            <listItem>
+              <para>On the formula bar, click the arrow next to the <ui>Name Box</ui>, and then click the name of the external data range from which you want to remove the data connection. The data range is then selected.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Tools</ui> tab, in the <ui>External Table Data</ui> group, click <ui>Unlink</ui>. The data range remains and still bears the same name, but the connection is deleted.</para>
+            </listItem>
+          </list>
+        </content>
+        
+      </section>
+      <section expanded="true">
+        <title>Freeze data in a range</title>
+        <content>
+          <alert class="note">
+            <para>The following procedure applies only to an external data range that is converted from a Microsoft Office 2003 program, or to an external data range that is created programmatically. All external data ranges that are created by using the user interface are created as Excel tables. These tables automatically expand when new rows are added and fill down calculated columns.</para>
+          </alert>
+          <list class="ordered">
+            <listItem>
+              <para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Properties</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>Under <ui>Query definition</ui>, clear the <ui>Save query definition</ui> check box.</para>
+            </listItem>
+          </list>
+          <alert class="note">
+            <para> When you save your workbook, the underlying query is deleted from the workbook. However, the saved database query files (.dqy or .odc files) are not deleted. If you saved the query when you created it in the Query Wizard or in Microsoft Query, the query file is saved on your computer, and you can use the query again to retrieve external data. For more information, see Microsoft Query Help.</para>
+          </alert>
+          
+        </content>
+        
+      </section>
+    </sections>
+  </section>
+  <section expanded="true">
+    <title>Customize field names in an external data range</title>
+    <content>
+      <alert class="note">
+        <para>The following procedure applies only to an external data range that is created by using the Data Connection Wizard or Microsoft Query (and not to an imported text file or Web query), an external data range converted from a Microsoft Office 2003 program, or an external data range created programmatically. All external data ranges that are created by using the user interface are created as Excel tables.</para>
+      </alert>
+      <list class="ordered">
+        <listItem>
+          <para>Insert a blank row above the external data range by doing one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>Select a cell above which you want to insert the new row. Then, on the <ui>Home</ui> tab, in the <ui>Cells</ui> group, click the arrow next to <ui>Insert</ui>, and then click <ui>Insert Sheet Rows</ui>. Because you have selected one cell, one new row is inserted above the current row.</para>
+            </listItem>
+            <listItem>
+              <para>Click the row selector of the row above which you want to insert a new row. Then, on the <ui>Home</ui> tab, in the <ui>Cells</ui> group, click  <ui>Insert</ui>. Because you have selected one entire row, one new row is inserted above the selected row.<br /></para>
+            </listItem>
+          </list>
+        </listItem>
+        <listItem>
+          <para>Type the labels that you want in the cells in the blank row.</para>
+        </listItem>
+        <listItem>
+          <para>Click a cell in the external data range.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Properties</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>External Data Range Properties</ui> dialog box, under <ui>Data formatting and layout</ui>, clear the <ui>Include field names</ui> check box, and then click <ui>OK</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>To remove the existing field names and refresh the external data range, click a cell in the external data range, and then click <ui>Refresh Data</ui> <mediaLinkInline><image xlink:href="b8081bbe-8a31-46f3-ad1f-066843493573"></image></mediaLinkInline>.</para>
+        </listItem>
+      </list>
+      <alert class="note">
+        <para>When you retrieve data from a database, any changes to column names in Microsoft Query are retained in the external data range. For information about changing column names in the query, see Microsoft Query Help.</para>
+      </alert>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Delete an external data range</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click the worksheet that contains the external data range that you want to delete.</para>
+        </listItem>
+        <listItem>
+          <para>On the formula bar, click the arrow next to the <ui>Name Box</ui>, and then click the name of the external data range that you want to delete.</para>
+          <para>If the external data range is an Excel table, press CTRL+A to select the entire table.</para>
+        </listItem>
+        <listItem>
+          <para>To delete the external data range, press DELETE.</para>
+        </listItem>
+        <listItem>
+          <para>To delete the underlying query, click <ui>Yes</ui> when Excel prompts you.</para>
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  <section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section>
+<relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="682a1cc5-701a-4ce7-92db-cc9eebc5ffa0" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para> If you're using Excel and negative numbers aren't displaying with parentheses, you can <link xlink:href="104b47a6-8ae2-471f-8f73-c4b96e7bb146">change the way negative numbers are displayed</link>. But if that doesn't work, or if the parentheses option <ui>($1,234.10)</ui> isn't available, it's likely because an operating system setting isn't set properly. If you're using a Mac, make sure you use the App Store and update to the latest version of macOS. If you're using Windows, use one of the following solutions to change the negative number format. Keep in mind that changing the setting will affect all programs on your computer, not just Excel.</para>
+  </introduction>
+  
+  <section address="__toc310590333">
+    <title>Change negative number formats in Windows</title>
+    <content />
+    <sections>
+      <section expanded="true">
+        <title>In Windows 10 and Windows 8</title>
+        <content>
+          <list class="ordered">
+            <listItem><para>Close Excel.</para></listItem><listItem><para>From the <ui>Start</ui> menu, search for <ui>Control Panel</ui>, and open Control Panel.</para>
+            </listItem>
+            <listItem>
+              <para>Under <ui>Clock, Language, and Region</ui>, click <ui>Change date, time, or number formats</ui>.</para>
+            <alert class="note">
+ <para>If you don't see <ui>Clock, Language, and Region</ui>, click <ui>Category</ui> in the <ui>View by</ui> menu at the top of the page. </para>
+</alert></listItem>
+            <listItem>
+              <para>On the <ui>Formats</ui> tab, click <ui>Additional settings</ui> at the bottom.</para></listItem>
+            
+          <listItem><para>On the <ui>Numbers</ui> tab, for <ui>Negative number format</ui>, choose <ui>(1.1)</ui></para></listItem><listItem><para>On the <ui>Currency</ui> tab, for <ui>Negative currency format</ui>, choose <ui>($1.1)</ui></para></listItem><listItem><para>Click <ui>OK</ui>, and then click <ui>OK</ui> again.</para></listItem><listItem><para>Reopen Excel.</para></listItem></list>
+          
+        </content>
+        
+      </section>
+      <section expanded="true">
+        <title>In Windows 7</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Close Excel.</para></listItem><listItem><para>Click <ui>Start</ui> &gt; <ui>Control Panel</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Under <ui>Clock, Language, and Region</ui>, click <ui>Change keyboards or other input methods</ui>.</para>
+            <alert class="note">
+ <para>If you don't see <ui>Clock, Language, and Region</ui>, click <ui>Category</ui> in the <ui>View by</ui> menu at the top. </para>
+</alert></listItem>
+            <listItem>
+              <para>On the <ui>Formats</ui> tab, click <ui>Additional settings</ui> at the bottom.</para></listItem>
+            <listItem><para>On the <ui>Numbers</ui> tab, for <ui>Negative number format</ui>, choose <ui>(1.1)</ui></para></listItem><listItem><para>On the <ui>Currency</ui> tab, for <ui>Negative currency format</ui>, choose <ui>($1.1)</ui></para></listItem><listItem><para>Click <ui>OK</ui>, and then click <ui>OK</ui> again.</para></listItem><listItem><para>Reopen Excel.</para></listItem>
+          </list>
+          
+        </content>
+        
+      </section>
+      <section address="__toc310590334" expanded="true">
+        <title>In Windows Vista</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              <para>Close Excel.</para></listItem><listItem><para>Click <ui>Start</ui> &gt; <ui>Control Panel</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Under <ui>Clock, Language, and Region</ui>, click <ui>Change keyboards or other input methods</ui>.</para>
+              <alert class="note">
+ <para>In Classic View, double-click <ui>Regional and Language Options</ui>, and then click the <ui>Formats</ui> tab.</para>
+</alert>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Formats</ui> tab, click <ui>Additional settings</ui> at the bottom.</para></listItem>
+            <listItem><para>On the <ui>Numbers</ui> tab, for <ui>Negative number format</ui>, choose <ui>(1.1)</ui></para></listItem><listItem><para>On the <ui>Currency</ui> tab, for <ui>Negative currency format</ui>, choose <ui>($1.1)</ui></para></listItem><listItem><para>Click <ui>OK</ui>, and then click <ui>OK</ui> again.</para></listItem><listItem><para>Reopen Excel.</para></listItem>
+            
+          </list>
+          
+        </content>
+        
+      </section>
+      <section address="__toc310590335" expanded="true">
+        <title>In Windows XP</title>
+        <content>
+          <list class="ordered">
+            <listItem>
+              
+              <para>Close Excel.</para></listItem><listItem><para>Click <ui>Start</ui> &gt; <ui>Settings</ui> &gt; <ui>Control Panel</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Click <ui>Date, Time, Language, and Regional Options</ui>, and then click <ui>Regional and Language Options</ui>. </para>
+              <alert class="note">
+ <para>In Classic View, double-click <ui>Regional and Language Options</ui>, and then click the <ui>Formats</ui> tab.</para>
+</alert>
+            </listItem>
+            
+            <listItem>
+              <para>On the <ui>Formats</ui> tab, click <ui>Additional settings</ui> at the bottom.</para></listItem>
+            <listItem><para>On the <ui>Numbers</ui> tab, for <ui>Negative number format</ui>, choose <ui>(1.1)</ui></para></listItem><listItem><para>On the <ui>Currency</ui> tab, for <ui>Negative currency format</ui>, choose <ui>($1.1)</ui></para></listItem><listItem><para>Click <ui>OK</ui>, and then click <ui>OK</ui> again.</para></listItem><listItem><para>Reopen Excel.</para></listItem>
+          </list>
+          
+        </content>
+        
+      </section>
+    </sections>
+  </section><relatedTopics />
+</developerConceptualDocument></topic>

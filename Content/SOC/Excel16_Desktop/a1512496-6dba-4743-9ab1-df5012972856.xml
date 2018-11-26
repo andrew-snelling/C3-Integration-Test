@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="a1512496-6dba-4743-9ab1-df5012972856" revisionNumber="19"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>A Pareto or sorted <link xlink:href="85680173-064b-4024-b39d-80f17ff2f4e8">histogram</link> chart contains both columns sorted in descending order and a line representing the cumulative total percentage. Pareto charts highlight the biggest factors in a data set, and are considered one of the seven basic tools of quality control as it's easy to see the most common problems or issues.
+</para>
+    <para>
+    </para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="d5436121-4026-4a6e-a2c0-880707fe0a05" />
+      </mediaLinkInline>
+    </para>
+  </introduction>
+  <section>
+<content><tabControl controlId="PickTab"><tabControlItem targetedOS="Windows" address="WindowsTab"><tabControlItemTitle>Windows</tabControlItemTitle><tabControlItemSection><content></content><sections><section>
+    <title>Create a Pareto chart </title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Select your data. Typically, you select a column containing text (categories) and one of numbers. A Pareto chart then groups the same categories and sums the corresponding numbers.</para>
+          <mediaLink>
+            <caption>Data used to create the example chart above</caption>
+            <image xlink:href="495fbf4c-bffb-476c-9f35-22f996c4cfd5" />
+          </mediaLink>
+          <para>If you select two columns of numbers, rather than one of numbers and one of corresponding text categories, Excel  will chart your data in bins, just like a histogram. You can then <link xlink:href="a1512496-6dba-4743-9ab1-df5012972856#BKMK_Bins">adjust these bins</link>.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Insert</ui> &gt; <ui> Insert Statistic Chart</ui>, and then under <ui>Histogram</ui>, pick <ui>Pareto</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="82e4f9cc-4de0-4934-bff5-3e042ac65430" />
+            </mediaLinkInline>
+          </para>
+          <para>You can also use the <ui>All Charts</ui> tab in <ui>Recommended Charts</ui> to create a Pareto chart (click<ui> Insert</ui> &gt; <ui>Recommended Charts</ui> &gt; <ui>All Charts</ui> tab.</para>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <para>Use the <ui>Design</ui> and  <ui>Format</ui> tabs to customize the look of your  chart. If you don't see these tabs, click anywhere in the Pareto chart to add the <ui>Chart Tools</ui> to the ribbon.</para>
+      </alert>
+      <mediaLink>
+        <image xlink:href="fd7db992-63b2-4e28-a877-a2ae13d6b7ef" />
+      </mediaLink>
+    </content>
+  </section>
+  <section address="BKMK_Bins">
+    <title>Configure bins</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Right-click on the chart horizontal axis, &gt; <ui>Format Axis</ui> &gt;<ui>Axis Options</ui>.</para>
+          <mediaLink>
+            <image xlink:href="625d7344-d0be-4f56-b941-ee27f947fb8f" />
+          </mediaLink>
+        </listItem>
+        <listItem>
+          <para>Use the information below to pick the options you want in the <ui>Format Axis</ui> task pane.</para>
+          <mediaLink>
+            <image xlink:href="859f6194-795a-4916-866c-c3d5f109444d" />
+          </mediaLink>
+          <para>
+            <embeddedLabel>By Category</embeddedLabel> The default when both data and text are plotted. The text categories are plotted on the horizontal axis  and graphed in descending order. </para>
+          <alert class="tip">
+            <para>To count the number of appearances for text strings, add a column and fill it with the value “1”, then plot the Pareto chart and set the bins to <ui>By Category</ui>.</para>
+          </alert>
+          <para>
+            <embeddedLabel>Automatic</embeddedLabel> This is the default for Pareto charts plotted with a single column of data.
+The bin width is calculated using  <link xlink:href="85680173-064b-4024-b39d-80f17ff2f4e8#BKMK_ScottRefRule">Scott’s normal reference rule</link>.</para>
+          <para>
+            <embeddedLabel>Bin width</embeddedLabel> Enter a positive decimal number for the number of data points in each range. </para>
+          <para>
+            <embeddedLabel>Number of bins</embeddedLabel>
+Enter the number of bins for the Pareto chart (including the overflow and underflow bins). The bin width will adjust automatically.</para>
+          <para>
+            <embeddedLabel>Overflow bin</embeddedLabel>
+Check the box to create a bin for all values above the number in the corresponding box. 
+To change this value, enter a decimal number into the box. </para>
+          <para>
+            <embeddedLabel>Underflow bin</embeddedLabel>
+Check the box to create a bin for all values below or equal to the number in the corresponding box. To change this value, enter a decimal number into the box. </para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <section>
+    <title>Formulas used to create histograms in <token>Excel_2016</token></title>
+    <content>
+      <para>
+        <embeddedLabel>Scott’s normal reference rule:</embeddedLabel>
+      </para>
+      <mediaLink>
+        <image xlink:href="25c6c101-4945-4e5a-bfa3-05b845c66e3a" />
+      </mediaLink>
+      <para>
+
+Scott’s normal reference rule tries to minimize the bias in variance of the Pareto chart compared with the data set, while assuming normally distributed data. 
+</para>
+    </content>
+    <content>
+      <para>
+        <embeddedLabel>Overflow Bin</embeddedLabel>
+      </para>
+      <mediaLink>
+        <image xlink:href="6acca524-130d-4e6a-88de-ad3066210ed6" />
+      </mediaLink>
+    </content>
+    <content>
+      <para>
+        <embeddedLabel>Underflow Bin</embeddedLabel>
+      </para>
+      <mediaLink>
+        <image xlink:href="bd261a41-09b7-4319-b0f1-3dd817d4fc0d" />
+      </mediaLink>
+      
+    </content>
+  </section>
+  </sections></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Mac" address="MacTab"><tabControlItemTitle>macOS</tabControlItemTitle><tabControlItemSection><content></content><sections><section>
+<title>Create a Pareto chart</title><content><list class="ordered"><listItem>
+          <para>Select your data. Typically, you select a column containing text (categories) and one of numbers. A Pareto chart then groups the same categories and sums the corresponding numbers.</para>
+          <mediaLink>
+            <caption>Data used to create the example chart above</caption>
+            <image xlink:href="495fbf4c-bffb-476c-9f35-22f996c4cfd5" />
+          </mediaLink>
+          <para>If you select two columns of numbers, rather than one of numbers and one of corresponding text categories, Excel  will chart your data in bins, just like a histogram. You can then adjust these bins. For details, see "Configure bins" on the <link xlink:href="a1512496-6dba-4743-9ab1-df5012972856#PickTab=WindowsTab">Windows tab</link>.</para>
+        </listItem><listItem><para>On the ribbon, click the <ui>Insert</ui> tab, and then click <mediaLinkInline>
+<image xlink:href="d534ad0a-9643-474b-8795-bfbee600db94" />
+</mediaLinkInline> (the Statistical chart icon), and in <ui>Histogram</ui> section, click <ui>Pareto</ui>.</para><mediaLink>
+<image xlink:href="01d8f796-f34f-48b3-9845-9c05755a5203" />
+</mediaLink><alert class="tip">
+ <para>Use the <ui>Chart Design </ui> and <ui>Format</ui> tabs to customize the look of your chart. If you don't see these tabs, click anywhere in the Pareto chart to display them on the ribbon.</para>
+</alert></listItem></list></content>
+</section></sections></tabControlItemSection></tabControlItem></tabControl><alert class="tip">
+        <para>To read more about the Pareto chart and how it helps you visualize statistical data,  see this <externalLink><linkText> blog post on the histogram, Pareto, and box and whisker chart </linkText><linkUri>https://blogs.office.com/2015/08/18/visualize-statistics-with-histogram-pareto-and-box-and-whisker-charts/</linkUri></externalLink> by the Excel team. You may also be interested learning more about <externalLink><linkText> the other new chart types described in this blog post</linkText><linkUri>https://blogs.office.com/2015/07/02/introducing-new-and-modern-chart-types-now-available-in-office-2016-preview/</linkUri></externalLink>.</para>
+      </alert></content>
+</section><relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="150fc205-990a-4763-82f1-6c259303fe05" revisionNumber="13"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>If you're using the latest version of Excel and you're an Office 365 subscriber, you may find that buttons related to the "Shared Workbook" feature are no longer on the Review tab. We've removed them because there's a much easier and better way to share workbooks, and that's with <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">co-authoring</link>.</para>
+	<para>You can still access the Shared Workbook buttons if you need them. For example, you may need to turn off the Shared Workbook feature, or you may be in the middle of using the feature. The quickest way to get these buttons back is to add them to your Quick Access Toolbar. The Quick Access Toolbar is the bar of small buttons at the top of the Excel window, to the right of the Save button.</para><alert class="important">
+				<para>Be certain that you want to use these buttons before continuing. This feature has many limitations, and therefore we highly recommend <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">co-authoring</link>, which is the replacement for Shared Workbooks.</para>
+			</alert></introduction>
+	<section>
+<content><tabControl><tabControlItem targetedOS="Windows"><tabControlItemTitle>Windows</tabControlItemTitle><tabControlItemSection><content></content><sections><section>
+		<title>Add Shared Workbook buttons to the Quick Access Toolbar</title>
+		<content>
+			
+			
+			<list class="ordered">
+				<listItem>
+					<para>Click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Quick Access Toolbar</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Open the list under <ui>Choose commands from</ui> and select <ui>All Commands</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Scroll down that list until you see <ui>Share Workbook (Legacy)</ui>. Select that item and click <ui>Add</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Then scroll through the list until you see <ui>Track Changes (Legacy)</ui>. Select that item and click <ui>Add</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Scroll through the list until you see <ui>Protect Sharing (Legacy)</ui>. Select that item and click <ui>Add</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Scroll through the list until you see <ui>Compare and Merge Workbooks</ui>. Select that item and click <ui>Add</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>OK</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Now four new buttons will appear at the top of the Excel window. Each button looks like this:</para>
+					<list class="bullet">
+						<listItem>
+							<para>Share Workbook button: <mediaLinkInline><image xlink:href="a37724a4-c2e0-4121-870f-2b45664bcc3f" /></mediaLinkInline></para>
+						</listItem>
+						<listItem>
+							<para>Track Changes button: <mediaLinkInline><image xlink:href="c349509c-7eeb-41a2-a9da-faa713a10a09" /></mediaLinkInline></para>
+						</listItem>
+						<listItem>
+							<para>Protect and Share button: <mediaLinkInline><image xlink:href="c71bc89f-5437-44b9-b3c1-112b763f5b28" /></mediaLinkInline></para>
+						</listItem>
+						<listItem>
+							<para>Compare and Merge Workbooks button: <mediaLinkInline><image xlink:href="b9591447-f4e9-481d-b506-6e3214e9b418" /></mediaLinkInline></para>
+						</listItem>
+					</list>
+				</listItem>
+			</list>
+			<para>You may encounter other articles that refer to these buttons being on the Review tab. But after doing the steps above, the buttons are available on the Quick Access Toolbar instead.</para>
+		</content>
+	</section>
+	</sections></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Mac"><tabControlItemTitle>macOS</tabControlItemTitle><tabControlItemSection><content></content><sections><section>
+<title>Add Shared Workbook buttons to the Quick Access Toolbar</title><content><list class="ordered"><listItem><para>Click <ui>Excel</ui> &gt; <ui>Preferences</ui> &gt; <ui>Ribbon &amp; Toolbar</ui> (under <ui>Authoring</ui>)</para></listItem><listItem><para>Click <ui>Quick Access Toolbar</ui>.</para></listItem><listItem><para>Under <ui>Choose commands from</ui>, click <ui>Review Tab</ui>.</para></listItem><listItem><para>Select <ui>Share Workbook (Legacy)</ui> from the list, and click <ui> &gt; </ui> to move the command to the <ui>Customize Quick Access Toolbar:</ui> list, and finally click <ui>Save</ui>.</para></listItem></list></content>
+</section></sections></tabControlItemSection></tabControlItem></tabControl></content>
+</section>
+	<relatedTopics><link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">Collaborate with others on a workbook with co-authoring</link><link xlink:href="49b833c0-873b-48d8-8bf2-c1c59a628534">About the shared workbooks feature</link></relatedTopics>
+</developerConceptualDocument></topic>

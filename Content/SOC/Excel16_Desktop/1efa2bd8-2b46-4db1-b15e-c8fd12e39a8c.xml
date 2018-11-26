@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="1efa2bd8-2b46-4db1-b15e-c8fd12e39a8c" revisionNumber="12"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para address="__goback">
+      In charts, axis labels are shown below the horizontal (also known as <legacyItalic>category</legacyItalic>) axis, next to the vertical (also known as <legacyItalic>value</legacyItalic>) axis, and, in a 3-D chart, next to the depth axis. </para>
+    <mediaLink>
+      <image xlink:href="952d0e16-8398-4b91-bb06-5b19bed1d655" />
+    </mediaLink>
+    <para>The chart uses text from your source data for axis labels. To change the label, you can change the text in the source data. If you don't want to change the text of the source data, you can create label text just for the chart you're working on.</para>
+    <para>In addition to changing the text of labels, you can also change their appearance by adjusting formats. </para>
+    
+    <alert class="note">
+      <para>An axis label is different from an axis <legacyItalic>title</legacyItalic>, which you can add to describe what's shown on the axis. Axis titles aren't automatically shown in a chart. To learn how to add them, see <link xlink:href="4CF3C009-1482-4908-922A-997C32EA8250">Add or remove titles in a chart</link>. Also, horizontal axis labels (in the chart above, Qtr 1, Qtr 2, Qtr 3, and Qtr 4) are different from the <legacyItalic>legend</legacyItalic> labels below them (East Asia Sales 2009 and East Asia Sales 2010). To learn more about legends, see <link xlink:href="5032720c-d36b-4bb9-b204-c0f3a4a215c5">Add and format a chart legend</link>. </para>
+    </alert>
+    
+    
+  </introduction>
+  <section expanded="true">
+    <title>Change the text of category labels in the source data </title>
+    
+    
+    
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click each cell in the worksheet that contains the label text you want to change.</para>
+        </listItem>
+        <listItem>
+          <para>Type the text you want in each cell, and press Enter.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="d9ee058c-a601-48e1-86a1-630f06ba799c">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <para>As you change the text in the cells, the labels in the chart are updated.</para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <section expanded="true">
+    <title>
+      Use new  text for category labels in the chart and leavesource data text unchanged</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Right-click the category labels to change, and click <ui>Select Data</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="d2b12249-f197-4787-bec4-572991e9deed">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>In <ui>Horizontal (Category) Axis Labels</ui>, click <ui>Edit</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>In <ui>Axis label range</ui>, enter the labels you want to use, separated by commas.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="1f24f9e6-9bb2-4ae0-8109-edb9817e83ee">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <para>For example, type <legacyBold>Quarter 1</legacyBold><legacyBold>,Quarter</legacyBold><legacyBold> 2,Quarter 3,Quarter 4</legacyBold>.</para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  
+  <section expanded="true">
+    <title>Change the format of text in category axis labels</title>
+    <content>
+      <para>
+        
+      </para>
+      <list class="ordered">
+        <listItem>
+          <para>Right-click the category axis labels you want to format, and then select <ui>Font</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="0335b59e-83c3-4455-871f-f291f6e79c69" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>On the <legacyBold>Font</legacyBold> tab, pick the formatting options you want.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Character Spacing</ui> tab, pick the spacing options you want.</para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <section expanded="true">
+    <title>Change the format of numbers on the value axis</title>
+    <content>
+      <para>
+        
+      </para>
+      <list class="ordered">
+        <listItem>
+          <para>Right-click the value axis labels you want to format, and then select <ui>Format Axis</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Format Axis</ui> pane, select <ui>Number</ui>.</para>
+          <alert class="tip">
+            <para>If you don't see the <ui>Number</ui> section in the pane, make sure you've selected a value axis (it's usually the vertical axis on the left).</para>
+          </alert>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="ba65d0c6-ed9d-405a-a491-29edcc81d740">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Choose the number format options you want.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="e02cecc8-7934-4113-86ae-296e9d1a53b6">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <alert class="tip">
+            <para>If the number format you choose uses decimal places, you can specify them in the <ui>Decimal places</ui> box.</para>
+          </alert>
+        </listItem>
+        <listItem>
+          <para>To keep numbers linked to the worksheet cells, select the <ui>Linked to source</ui> check box.</para>
+          <alert class="note">
+            <para> Before you format numbers as percentages, make sure that the numbers shown on the chart have been calculated as percentages in the worksheet, or are shown in decimal format like <literal>0.1</literal>. To calculate percentages on the worksheet, divide the amount by the total. For example, if you enter <literal>=10/100</literal> and format the result <literal>0.1</literal> as a percentage, the number is correctly shown as <literal>10%</literal>.</para>
+          </alert>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  
+  
+  
+  <section>
+    <title>Related information</title>
+    <content>
+      <para>
+        <link xlink:href="4CF3C009-1482-4908-922A-997C32EA8250">Add or remove titles in a chart</link>
+      </para>
+      <para>
+        <link xlink:href="884bf2f1-2e29-454e-8b42-f467c9f4eb2d">Add data labels to a chart</link>
+      </para>
+      <para>
+        <link xlink:href="A6187218-807E-4103-9E0A-27CDB19AFB90">Available chart types in Office</link>
+      </para>
+    </content>
+  </section>
+  
+  <relatedTopics>
+  </relatedTopics>
+</developerConceptualDocument></topic>

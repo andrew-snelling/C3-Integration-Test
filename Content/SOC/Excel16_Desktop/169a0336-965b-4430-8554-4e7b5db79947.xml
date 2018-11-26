@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="169a0336-965b-4430-8554-4e7b5db79947" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para address="bmbacktotop">You’ve upgraded to a new version of Excel, and realize you’ll be sharing workbooks with people who haven’t upgraded yet. Running the Compatibility Checker can help you identify features or information that might not be available in an earlier version, so you can resolve some of those issues before you share your workbook.</para>
+	</introduction>
+	<section>
+		<title>Save a file to .xls format and review Compatibility Checker issues</title>
+		<content>
+			<para>Follow these steps:</para>
+			<list class="ordered">
+				<listItem>
+					<para>Click <ui>File</ui> &gt; <ui>Export</ui> &gt; <ui>Change File Type</ui>.<br />
+	<br />
+	<mediaLinkInline><image xlink:href="0f4a5045-b656-4250-b18a-0792b831f2f7" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para />
+					<para><mediaLinkInline><image xlink:href="0f4a5045-b656-4250-b18a-0792b831f2f7" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Under <ui>Workbook File Types</ui>, double-click <ui>Excel 97-2003 Workbook (*.xls)</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="9ffc4a66-680a-4ebd-8f2e-5d19079e285d" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Save As</ui> popup window, choose a folder location for the workbook.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>File name</ui> box, type a new file name (or use the one that’s already there).</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Save</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>If the <ui>Compatibility Checker</ui> appears, review any compatibility issues that were found.<br />
+	<br />
+	<mediaLinkInline><image xlink:href="4cbdb328-f9d9-4256-9c4f-75da04ace878" /></mediaLinkInline></para>
+					<para>The <ui>Find</ui> link takes you to that place in your worksheet, and the <ui>Help</ui> link takes you to information on the issue and possible solutions.<br />
+	 </para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<list class="bullet">
+					<listItem>
+						<para>In your new version of Excel, the workbook you just saved in .xls format opens in <ui>Compatibility Mode</ui>. Keep working in this mode when you plan to send this workbook back and forth to people who open it in the earlier version of Excel.</para>
+					</listItem>
+					<listItem>
+						<para>When you no longer need backward compatibility, click <ui>File</ui> &gt; <ui>Info</ui> &gt; <ui>Convert</ui> to convert the workbook to the current file format so you can take advantage of <link xlink:href="5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73">What's new in Excel</link>.</para>
+					</listItem>
+				</list>
+			</alert>
+		</content>
+	</section>
+	<section address="RunCC">
+		<title>Run the Compatibility Checker for Excel 2007 and later</title>
+		<content>
+			<para>To verify that a workbook is compatible with Excel 2013, 2010, or 2007, run the Compatibility Checker manually the first time you save your workbook. Then set the Compatibility Checker to run automatically every time you save that workbook.</para>
+			<para>Follow these steps:</para>
+			<list class="ordered">
+				<listItem>
+					<para>Click <ui>File</ui> &gt; <ui>Info</ui> &gt; <ui>Check for Issues</ui>.</para>
+					<para><legacyBold><mediaLinkInline><image xlink:href="7ce642d5-3204-43c7-85f1-b2f45432c893" /></mediaLinkInline> </legacyBold></para>
+				</listItem>
+				<listItem>
+					<para>Choose <ui>Check Compatibility</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>To check for compatibility automatically from now on, check the <ui>Check compatibility when saving this workbook</ui> box.<br />
+	 </para>
+					<alert class="tip">
+						<para>You can also specify the versions of Excel that you want to include when you check for compatibility. All versions are checked by default, so just uncheck the versions you don't want to include.</para>
+					</alert>
+					<para><mediaLinkInline><image xlink:href="d6616a80-ad83-4d68-a0fc-8e2bf7cad4c5" /></mediaLinkInline></para>
+					<para>If any issues are found, the <ui>Find</ui> link takes you to that place in your worksheet, and the <ui>Help</ui> link takes you to information on the issue and possible solutions.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="8FDD91A3-792E-4AEF-A5BB-46F603D0E585">Excel formatting and features that are not transferred to other file formats</link></para>
+			<para><link xlink:href="F9C80C5B-5AFC-40DA-A841-B888746ABD40">Worksheet compatibility issues</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

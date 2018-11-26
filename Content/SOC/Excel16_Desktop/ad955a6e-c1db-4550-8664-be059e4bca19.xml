@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="ad955a6e-c1db-4550-8664-be059e4bca19" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>After you  <link xlink:href="cd131b77-79c7-4537-a438-8db20cea84c0">create your chart </link>, you can change the data series in two ways:</para>
+    <list class="bullet">
+      <listItem>
+        <para>
+          <link xlink:href="ad955a6e-c1db-4550-8664-be059e4bca19#BKMK_Filters">Use chart filters</link> to show or hide data in your chart.</para>
+      </listItem>
+      <listItem>
+        <para>
+          <link xlink:href="ad955a6e-c1db-4550-8664-be059e4bca19#BKMK_DB">Use the Select Data Source box</link> to edit the data in your series or rearrange them on your chart.</para>
+      </listItem>
+    </list>
+  </introduction>
+  <section address="BKMK_Filters">
+    <title>Use chart filters</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click anywhere in your chart.</para>
+        </listItem>
+        <listItem>
+          <para> Click the <ui>Chart Filters</ui> button <mediaLinkInline><image xlink:href="81382e84-761c-4729-b7ff-c19bfa3715b0" /></mediaLinkInline> next to the chart.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Values</ui> tab, check or uncheck the series or categories you want to show or hide.</para>
+          <mediaLink>
+            <image xlink:href="41665126-4eba-44ce-8d86-6923a8cfa2ae" />
+          </mediaLink>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Apply</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>If you want to edit or rearrange the data in your series, click <ui>Select Data</ui>, and then follow steps 2-4 in the next section.</para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <section address="BKMK_DB">
+    <title>Use the Select Data Source box</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Right-click your chart, and then pick <ui>Select Data</ui>.</para>
+          <para>You can also get to this box from the <ui>Values</ui> tab in the <ui>Chart Filters</ui> gallery.</para>
+          <mediaLink>
+            <image xlink:href="10f690a6-9fa3-42d2-8832-4f11e045a6e5" />
+          </mediaLink>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Legend Entries (Series)</ui> box, click the series you want to change.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Edit</ui>, make your changes, and click <ui>OK</ui>.</para>
+          <para>Changes you make may break links to the source data on the worksheet.</para>
+        </listItem>
+        <listItem>
+          <para>To rearrange a series, select it, and then click <ui>Move Up</ui><mediaLinkInline><image xlink:href="2fe73798-eb5f-4c75-8263-6752f775e9a7" /></mediaLinkInline> or <ui>Move Down</ui><mediaLinkInline><image xlink:href="5ee781bb-fd18-4779-a830-3c8f5a509a2e" /></mediaLinkInline>.</para>
+        </listItem>
+      </list>
+      <alert class="note">
+        <para>You can also <link xlink:href="25340cfb-3fa3-428c-82cf-79983125df12">add a data series </link> or remove them in this box by clicking the <ui>Add</ui> or <ui>Remove</ui> buttons. Removing a data series deletes it from the chart—you can’t use chart filters to show it again.</para>
+      </alert>
+    </content>
+  </section>
+  <relatedTopics>
+    <link xlink:href="9b52c40f-b49c-46c9-803e-c38888eb350a">Rename a data series</link>
+  </relatedTopics>
+</developerConceptualDocument></topic>

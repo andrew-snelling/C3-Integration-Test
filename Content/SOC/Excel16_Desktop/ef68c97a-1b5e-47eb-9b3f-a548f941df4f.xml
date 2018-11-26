@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="ef68c97a-1b5e-47eb-9b3f-a548f941df4f" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="bmbacktotop">The Compatibility Checker found one or more conditional formatting-related compatibility issues.</para>
+    <alert class="important">
+      <para>Before you continue saving the workbook to an earlier file format, you should address <legacyBold>issues that cause a significant loss of functionality</legacyBold> so that you can prevent permanent loss of data or incorrect functionality.</para>
+    </alert>
+    <para>
+      <legacyBold>Issues that cause a minor loss of fidelity</legacyBold> might or might not have to be resolved before you continue saving the workbook—data or functionality is not lost, but the workbook might not look or work exactly the same way when you open it in an earlier version of Microsoft Excel.</para>
+  </introduction>
+  <section>
+    <title address="___toc___1_t">In this article</title>
+    <content>
+      <list class="nobullet" address="___toc___1_l">
+        <listItem>
+          <para>
+            <link xlink:href="ef68c97a-1b5e-47eb-9b3f-a548f941df4f#bm1">Issues that cause a significant loss of functionality</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="ef68c97a-1b5e-47eb-9b3f-a548f941df4f#bm2">Issues that cause a minor loss of fidelity</link>
+          </para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <section address="bm1">
+    <title>Issues that cause a significant loss of functionality</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Issue</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Solution</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Some cells have more conditional formats than are supported by the selected file format. Only the first three conditions will be displayed in earlier versions of Excel.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, conditional formatting can contain up to sixty-four conditions, but in Excel 97-2003, you will see the first three conditions only.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2007 and later, unless the rules were edited in Excel 97-2003.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that have conditional formatting applied that use more than three conditions, and then make the necessary changes to use no more than three conditions.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some cells have overlapping conditional formatting ranges. Earlier versions of Excel will not evaluate all of the conditional formatting rules on the overlapping cells. The overlapping cells will show different conditional formatting. </para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> Overlapping conditional formatting ranges are not supported in Excel 97-2003, and the conditional formatting is not displayed as expected.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2007 and later, unless the rules were edited in Excel 97-2003.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that have overlapping conditional formatting ranges, and then make the necessary changes to avoid overlap.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain a conditional formatting type that is not supported in earlier versions of Excel, such as data bars, color scales, or icon sets.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 97-2003, you will not see conditional formatting types, such as data bars, color scales, icon sets, top or bottom ranked values, above or below average values, unique or duplicate values, and table column comparison to determine which cells to format.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2007 and later, unless the rules were edited in Excel 97-2003.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that have conditional formatting types that are new in Excel 2007 and later, and then make the necessary changes to use only formatting types that are supported in the earlier versions of Excel.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some cells contain conditional formatting with the <ui>Stop if True</ui> option cleared. Earlier versions of Excel do not recognize this option and will stop after the first true condition.</para>
+            </TD>
+            <TD>
+              <para address="__goback">
+                <embeddedLabel>What it means</embeddedLabel> In Excel 97-2003, conditional formatting without stopping when the condition has been met is not an option. Conditional formatting is no longer applied after the first condition is true.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2007 and later, unless the rules were edited in Excel 97-2003.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain conditional formatting with the <ui>Stop if True</ui> option cleared, and then click <ui>Fix</ui> to resolve the compatibility issue.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain a conditional formatting type on a nonadjacent range (such as top/bottom N, top/bottom N%, above/below average, or above/below standard deviation). This is not supported in earlier versions of Excel.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 97-2003, you will not see conditional formatting in nonadjacent cells. </para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2007 and later, unless the rules were edited in Excel 97-2003.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain a conditional formatting type on a nonadjacent range, and then make the necessary changes to use conditional formatting rules that are available in earlier versions of Excel.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some PivotTables in this workbook contain conditional formatting that may not function correctly in earlier versions of Excel. The conditional formatting rules will not display the same results when you use these PivotTables in earlier versions of Excel.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> Conditional formatting results you see in Excel 97-2003 PivotTable reports will not be the same as in Excel 2007 and later PivotTable reports.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2007 and later, unless the rules were edited in Excel 97-2003.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate PivotTable report fields that contain conditional formatting rules, and then apply conditional formatting rules that are available in the earlier versions of Excel.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain conditional formatting which refers to values on other worksheets. These conditional formats will not be supported in earlier versions of Excel. </para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 97-2003, conditional formatting that refers to values on other worksheets is not displayed.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2010 and later, unless the rules were edited in Excel 97-2007.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain conditional formatting that refers to values on other worksheets, and then apply conditional formatting that does not refer to values on other worksheets.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain conditional formatting using the 'Text that contains' format with a cell reference or formula. These conditional formats will not be supported in earlier versions of Excel. </para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel>  In Excel 97-2007, conditional formatting that use formulas for text that contains rules is not displayed on the worksheet.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2010 and later, unless the rules were edited in Excel 97-2007.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain conditional formatting that uses formulas for text that contains rules, and then apply conditional formatting that is supported in earlier versions of Excel.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain a rule that will not be supported in earlier versions of Excel because there is a formula error in its range.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 97-2007, conditional formatting that use range-based rules cannot be displayed correctly on the worksheet when the range-based rules contain formula errors.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain range-based rules that contain formula errors, and then make the necessary changes so that range-based rules do not contain formula errors.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain a conditional formatting icon set arrangement that is not supported in earlier versions of Excel.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 97-2007, conditional formatting that displays a specific icon set arrangement is not supported and the icon set arrangement is not displayed on the worksheet.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2010 and later, unless the rules were edited in Excel 97-2007.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain conditional formatting that display a specific icon set arrangement, and then make sure that conditional formatting does not display that icon set arrangement.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain a data bar rule that uses a "Negative Value" setting. These data bars will not be supported in earlier versions of Excel. </para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 97-2007, conditional formatting that contains a data bar rule that uses a negative value is not displayed on the worksheet.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2010 and later, unless the rules were edited in Excel 97-2007.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain conditional formatting that contains negative data bars because the negative value format is set to <ui>Automatic</ui> in the <ui>New Formatting Rule</ui> dialog box (<ui>Home</ui> tab, <ui>Styles</ui> group, <ui>Conditional Formatting</ui>, <ui>New Rule</ui>) or the <ui>Axis Settings</ui> have been set to <ui>Automatic</ui> or <ui>Cell midpoint</ui> in the <ui>Negative Value and Axis Settings</ui> dialog box (<ui>Home</ui> tab, <ui>Styles</ui> group, <ui>Conditional Formatting</ui>, <ui>New Rule</ui>, <ui>Data Bar</ui> format style, <ui>Negative Values and Axis</ui> button), and then make the necessary changes.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain conditional formatting which refers to more than 8192 discontinuous areas of cells. These conditional formats will not be saved.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 97-2007, conditional formatting that refers to more than 8192 discontinuous areas of cells is not displayed on the worksheet.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2010 and later, unless the rules were edited in Excel 97-2007.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain conditional formatting that refer to more than 8192 discontinuous areas of cells, and then change the number of discontinuous areas of cells the conditional formatting refers to.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <para>
+        <link xlink:href="dbb9ec1f-4e1e-4b34-af3a-9d8362b53d21#__top">Top of Page</link>
+      </para>
+    </content>
+    <sections />
+  </section>
+  <section address="bm2">
+    <title>Issues that cause a minor loss of fidelity</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Issue</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Solution</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain a data bar rule that uses a fill, border, or "bar direction" setting. These data bars will not be supported in earlier versions of Excel. </para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 97-2007, conditional formatting that contains a data bar rule that uses a solid color fill or border or left to right and right to left bar direction settings for data bars is not displayed on the worksheet.</para>
+              <para>However, all conditional formatting rules remain available in the workbook and are applied when the workbook is opened again in Excel 2010 and later, unless the rules were edited in Excel 97-2007.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain a conditional formatting data bar rule that uses a solid color fill or border or left to right and right to left settings for data bars, and then and then make the necessary changes.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <para>
+        <link xlink:href="dbb9ec1f-4e1e-4b34-af3a-9d8362b53d21#__top">Top of Page</link>
+      </para>
+    </content>
+    
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

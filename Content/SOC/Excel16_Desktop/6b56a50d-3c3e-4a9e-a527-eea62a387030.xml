@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="6b56a50d-3c3e-4a9e-a527-eea62a387030" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top"> 
+	 <alert class="note">
+ <para>Power Map, our popular 3-D geospatial visualization add-in for Excel 2013, is now fully integrated into Excel. We’ve also given this feature a more descriptive name, “3D Maps". You'll  find this functionality alongside other visualization features on the <ui>Insert</ui> tab.</para>
+</alert><para>Microsoft 3D Maps for Excel is a three-dimensional (3-D) data visualization tool that lets you look at information in new ways. 3D Maps lets you discover insights you might not see in traditional two-dimensional (2-D) tables and charts.</para>
+	 <para> <mediaLinkInline> <image xlink:href="1f00521a-e0a4-4a67-b6c6-5d78972fb966"> </image> </mediaLinkInline> </para>
+	 <para>With 3D Maps, you can plot geographic and temporal data on a 3-D globe or custom map, show it over time, and create visual tours you can share with other people. You’ll want to use 3D Maps to:</para>
+	 <list class="bullet">
+		<listItem> 
+		  <para> <embeddedLabel>Map data</embeddedLabel> Plot more than a million rows of data visually on Bing maps in 3-D format from an Excel table or Data Model in Excel.</para>
+		</listItem>
+		<listItem> 
+		  <para> <embeddedLabel>Discover insights</embeddedLabel> Gain new understandings by viewing your data in geographic space and seeing time-stamped data change over time.</para>
+		</listItem>
+		<listItem> 
+		  <para> <embeddedLabel>Share stories</embeddedLabel> Capture screenshots and build cinematic, guided video tours you can share broadly, engaging audiences like never before. Or export tours to video and share them that way as well.</para>
+		</listItem>
+	 </list>
+	 <para address="__toc352094808">You’ll find the <ui>3D Map</ui> button in the <ui>Tours</ui> group, on the <ui>Insert</ui> tab of the Excel ribbon, as shown in this picture.</para>
+	 <para> <mediaLinkInline> <image xlink:href="351cfd51-c01e-4a1f-852c-f86b4383502b"> </image> </mediaLinkInline> </para>
+	 
+  </introduction>
+  <section>
+	 <title>Create your first 3D Map</title>
+	 <content>
+		<para>When you have Excel data that has geographic properties in table format or in a <legacyLink xlink:href="87e7a54c-87dc-488e-9410-5c75dbcb0f7b">Data Model</legacyLink>—for example, rows and columns that have names of cities, states, counties, zip codes, countries/regions, or longitudes and latitudes—you’re ready to get started. Here’s how:</para>
+		<list class="ordered">
+		  <listItem> 
+			 <para>In Excel, open a workbook that has the table or Data Model data you want to explore in 3D Maps.</para>
+		  <para>For information about using your own data, see <link xlink:href="a732ef13-4f84-414d-9ed2-e97911115a44">Prepare your data for 3D Maps</link>.</para><para>If you don’t have data to explore yet, try downloading <link xlink:href="88a28df6-8258-40aa-b5cc-577873fb0f4a#__exploring_sample_datasets">one of our sample data workbooks</link>.</para></listItem>
+		<listItem> 
+			 <para>Click any cell in the table.</para>
+		  </listItem><listItem> 
+			 <para>Click <ui>Insert</ui> &gt; <ui>3D Map</ui>.</para><para>(Clicking <ui>3D Map</ui> for the first time automatically enables 3D Maps.)</para>
+		  <para> 3D Maps uses Bing to geocode your data based on its geographic properties. After a few seconds, the globe will appear next to the first screen of the <ui>Layer Pane</ui>.</para></listItem><listItem> 
+			 <para>In the <ui>Layer Pane</ui>, verify that fields are mapped correctly and click the drop-down arrow of any incorrectly mapped fields to match them to the right geographic properties.</para>
+		  <para>For example, make sure that <legacyBold>Seattle</legacyBold> is recognized as a <legacyBold>City</legacyBold> in the drop-down box.</para><para> <mediaLinkInline> <image xlink:href="3e5ec772-073f-4da8-ae65-90bfac663d22"> </image> </mediaLinkInline> </para></listItem><listItem> 
+			 <para>When 3D Maps plots the data, dots appear on the globe.</para>
+		  <para> <mediaLinkInline> <image xlink:href="3e551401-73a4-4f2f-9393-6da13a9b538d"> </image> </mediaLinkInline> </para></listItem></list>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	 </content>
+	  
+  </section>
+  <section address="__exploring_sample_datasets">
+	 <title>Explore sample datasets in 3D Maps</title>
+	 <content>
+		<para>Our sample datasets are a great way to try out 3D Maps. Just download one of the following workbooks that already have the necessary geo-spatial entries you need to get started:</para>
+		<list class="bullet">
+		  <listItem> 
+			 <para> <externalLink> 
+			 <linkText>Chicago Crime Data</linkText>
+			 <linkUri>https://download.microsoft.com/download/5/8/c/58cd2d35-a915-432e-8f96-ba34bde09a13/chicago_narcotics.xlsx</linkUri>
+			 </externalLink> </para>
+		  </listItem>
+		  <listItem> 
+			 <para> <externalLink> 
+			 <linkText>Dallas Utilities Seasonal Electricity Consumption Simulation</linkText>
+			 <linkUri>https://download.microsoft.com/download/F/4/A/F4AE2368-A7D3-4100-908E-A30EAAE556E3/Dallas Utility Demo.xlsx</linkUri>
+			 </externalLink> </para>
+		  </listItem>
+		  <listItem> 
+			 <para> <externalLink> 
+			 <linkText>Food Inspections in Seattle</linkText>
+			 <linkUri>http://download.microsoft.com/download/A/0/9/A0983C4D-5999-4C33-AFB2-9EC78E70A3D9/food_inspection.xlsx</linkUri>
+			 </externalLink> </para>
+		  </listItem>
+		  <listItem> 
+			 <para> <externalLink> 
+			 <linkText>Power Stations</linkText>
+			 <linkUri>https://download.microsoft.com/download/4/C/C/4CC2F2D5-42E9-4CE2-936B-01A1C8CEA85D/Power Station Sample.xlsx</linkUri>
+			 </externalLink> </para>
+			 
+		  </listItem>
+		</list>
+	 </content>
+	  
+  </section>
+  <section>
+	 <title>Next steps for working with your data in 3D Maps</title>
+	 <content>
+		<list class="bullet">
+		  <listItem> 
+			 <para> <link xlink:href="57d9a7ff-3a78-4a12-adb3-0d951ef0925c">Explore your data in a 3D Maps tour</link> </para>
+		  </listItem>
+		  <listItem> 
+			 <para> <link xlink:href="80da122d-048e-4b03-8736-5443fb48b862">Geocode your 3D Maps data</link> </para>
+		  </listItem>
+		  <listItem> 
+			 <para> <link xlink:href="643fc486-cda4-4692-85ac-7129862deed5">Move around in 3D Maps</link> </para>
+		  </listItem>
+		  <listItem> 
+			 <para> <link xlink:href="ce6b1d5c-4602-4dae-b487-91ec0268e75d">Visualize your data in 3D Maps</link> </para>
+		  </listItem>
+		  <listItem> 
+			 <para> <link xlink:href="5848706a-aba9-4152-8819-765a092e75a9">Change the look of your 3D Maps</link></para>
+		  </listItem>
+		  <listItem> 
+			 <para><link xlink:href="854c9555-49c8-4755-9eaf-b74e99b4f3b2">Create a custom map in 3D Maps</link></para>
+		  </listItem>
+		  <listItem> 
+			 <para> <link xlink:href="1f5e6f7c-776b-4503-9f71-e5101630bc31">Add or move a scene in a 3D Maps tour</link> </para>
+		  </listItem>
+		  <listItem> 
+			 <para><link xlink:href="4a8e4338-d6cb-4f31-a2db-201824b40c63">Filter data in a 3D Maps tour</link></para>
+		  </listItem>
+		  <listItem> 
+			 <para> <link xlink:href="d2e4cec8-1b29-40b3-a717-f456661d92d6">Change 3D Maps time options</link></para>
+		  </listItem>
+		  <listItem> 
+			 <para> <link xlink:href="68de05ef-2d0f-4c4f-b7af-f4431376bb4f">Export a 3D Maps tour as a video</link> </para>
+		  </listItem>
+		</list>
+	 </content>
+	 <sections /> 
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

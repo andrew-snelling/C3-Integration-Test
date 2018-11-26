@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="412bfa2e-9242-4c34-a0e4-b7b36e28d04d" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    
+  </introduction>
+  
+  <section>
+    <title>Symptoms</title>
+    <content>
+      <para>There are two possible situations where you might see this message:</para>
+      <list class="bullet">
+        <listItem>
+          <para>You see a green triangle in the upper-left corner of a cell that contains a formula.</para>
+        </listItem>
+        <listItem>
+          <para>You are evaluating errors in the <ui>Error Checking</ui> box.</para>
+        </listItem>
+      </list>
+    </content>
+    
+  </section>
+  <section>
+    <title>Cause</title>
+    <content>
+      <para>By default, all cells are locked to protect them from accidental or unauthorized changes. In this case, the cell containing the formula is not locked for protection.</para>
+    </content>
+    
+  </section>
+  <section>
+    <title>Resolution</title>
+    <content>
+      <para>Lock the cell by doing one of the following:</para>
+      <list class="bullet">
+        <listItem>
+          <para>Click the <ui>Error Checking</ui> button <mediaLinkInline><image xlink:href="5475457f-8ef4-4e95-8d8f-a1318af7007e"></image></mediaLinkInline>next to the cell, and then click <ui>Lock Cell</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Error Checking </ui> box, click <ui>Lock Cell</ui>.</para>
+        </listItem>
+      </list>
+      <para>Protecting cells that contain formulas prevents them from being changed, and can help avoid future errors. However, locking the cell is a first step, and you must perform additional operations to protect the workbook, such as setting a password.</para>
+      <para>For more information about how to protect a workbook, see <link xlink:href="01e05aab-64a9-4e9d-8b94-c3f79bc6ac7f">Protect a worksheet with or without a password</link>.</para>
+      <alert class="note">
+        <para>You can leave the cell unlocked if you prefer to leave it unprotected. However, the message will continue to appear unless you disable this error checking rule.</para>
+      </alert>
+      <para address="__goback">For more information about how to control error checking, see  <link xlink:href="3a8acca5-1d61-4702-80e0-99a36a2822c1">Detect errors in formulas in Excel</link>.</para>
+    </content>
+    
+  </section>
+  
+  <relatedTopics><link xlink:href="cb7835f6-9c37-4161-bb53-d1c410acaf21">Lock cells to protect them</link><link xlink:href="F7F5AB4E-BF24-4EFC-8FC9-0C1B77A5356F">Display or hide formulas</link><link xlink:href="7E365A4D-3E89-4616-84CA-1931257C1517">Password protect a workbook</link></relatedTopics>
+</developerConceptualDocument></topic>

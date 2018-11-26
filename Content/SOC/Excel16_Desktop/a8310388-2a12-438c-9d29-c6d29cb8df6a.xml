@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="a8310388-2a12-438c-9d29-c6d29cb8df6a" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<introduction>
+		<para>With <ui>Get &amp; Transform</ui> in Excel, you can search for data sources, make connections, and then <legacyItalic>shape</legacyItalic> that data (for example remove a column, change a data type, or merge tables) in ways that meet your needs. Once you’ve shaped your data, you can share your findings or use your query to create reports.</para>
+		<para />
+		<mediaLink>
+			<image xlink:href="e5c63e6e-3205-4803-8b4a-6e469a211089" />
+		</mediaLink>
+		<para>Looking at those steps in order, they often occur like this:</para>
+		<list class="bullet">
+			<listItem>
+				<para><legacyBold>Connect</legacyBold> – make connections to data sitting in the cloud, in a service, or locally</para>
+			</listItem>
+			<listItem>
+				<para><legacyBold>Transform</legacyBold> – shape the data to meet your needs; the original source remains unchanged</para>
+			</listItem>
+			<listItem>
+				<para><legacyBold>Combine</legacyBold> – create a data model from multiple data sources, and get a unique view into the data</para>
+			</listItem>
+			<listItem>
+				<para><legacyBold>Share</legacyBold> – once your query is complete you can save it, share it, or use it for reports</para>
+			</listItem>
+		</list>
+		<para>Whenever you connect to data, transform it, or combine it with other data sources, a feature of <ui>Get &amp; Transform</ui> called <ui>Query Editor</ui> records each step, and lets you modify it however you want. <ui>Query Editor</ui> also lets you undo, redo, change the order, or modify any step… all so you can shape your view of the connected data just the way you want it.</para>
+		<para>With <ui>Get &amp; Transform</ui>, you can create queries that are as simple or complex as you need. As you add steps to a query, <ui>Query Editor</ui> works behind the scenes to create a set of discrete instructions that carry out your commands. Those instructions are created in the M Language. Users who enjoy the power and flexibility of data scripting can manually create or change M Language queries using the <ui>Advanced Editor</ui>. <ui>Query Editor</ui> and the <ui>Advanced Editor</ui> are described in more detail later in this article.</para>
+		<para>You can begin a new query from the <ui>Data</ui> tab &gt; <ui>Get Data</ui> &gt; Select a data source. If you don't see the <ui>Get Data</ui> button, then select the <ui>New Query</ui> button from the <ui>Data</ui> tab. Here's an example of choosing from a database source.</para>
+		
+		<mediaLink>
+<image xlink:href="de35440d-012b-4ed8-9a63-ed4ca673f7a1" />
+</mediaLink><alert class="note">
+			<para><ui>Power Query</ui> is also available for previous versions of Excel as an <externalLink><linkText>add-in</linkText><linkUri>https://support.office.com/en-us/article/Whats-new-in-Power-Query-936b2fca-4168-41ad-bbbd-7b83856b6776</linkUri></externalLink>, as well as in <legacyBold>Power BI</legacyBold>. To see <legacyBold>Power Query</legacyBold> in action in previous versions of Excel, take a look at <link xlink:href="7104fbee-9e62-4cb9-a02e-5bfb1a6c536a">Getting Started with Power Query</link>.</para>
+		</alert>
+	</introduction>
+	<section>
+		<title>Connect</title>
+		<content>
+			<para>You can use a query to connect to a single data source, such as an <legacyBold>Access</legacyBold> database, or you can connect to multiple files, databases, OData feeds, or Web sites. You can then bring all those sources together using your own unique combinations, and uncover insights you might not otherwise have seen.</para>
+			<para>When you select <ui>Get Data</ui> from the <ui>Get &amp; Transform</ui> section on the <legacyBold>Data</legacyBold> tab (or <ui>New Query</ui> if you don't see the <ui>Get Data</ui> button), you'll see many data sources to choose from, including files like Excel <legacyBold>workbooks</legacyBold> or CSV files, databases such as <legacyBold>Access</legacyBold>, <legacyBold>SQL Server</legacyBold>, <legacyBold>Oracle</legacyBold>, and <legacyBold>MySQL</legacyBold>, <legacyBold>Azure</legacyBold> services such as <legacyBold>HDInsight</legacyBold> or <legacyBold>Blob Storage</legacyBold>, and all sorts of other sources such as the <legacyBold>Web</legacyBold>, <legacyBold>SharePoint Lists</legacyBold>, <legacyBold>Hadoop Files</legacyBold>, <legacyBold>Facebook</legacyBold>, <legacyBold>Salesforce</legacyBold>, and others.</para>
+			<alert class="note">
+				<para>You can learn about what data sources are available in which Excel versions here: <link xlink:href="e9332067-8e49-46fc-97ff-f2e1bfa0cb16">Where is Get &amp; Transform (Power Query)</link>.</para>
+			</alert>
+			
+			<para>When you connect to a data source, <ui>Get &amp; Transform</ui> displays a <ui>Navigator </ui>window, which allows you to edit the data from the source. When you select <ui>Edit</ui> from the <ui>Navigator</ui> window, <ui>Get &amp; Transform</ui> launches <ui>Query Editor</ui>, a dedicated window that facilitates and displays your data connections and the transformations you apply. The next section, <legacyBold>Transform</legacyBold>, provides more information about <ui>Query Editor</ui>.</para>
+		</content>
+	</section>
+	<section>
+		<title>Transform</title>
+		<content>
+			<para><ui>Get &amp; Transform</ui> lets you <legacyItalic>transform</legacyItalic> the data from your data sources in ways that help you analyze it. <legacyItalic>Transforming</legacyItalic> data means modifying it in some way to meet your needs – for example, you could remove a column, change a data type, or merge tables – each of which is a data transformation. As you transform data, it collectively takes on the shape you need to further your analysis. The process of applying transformations to one or more sets of data is often called <legacyItalic>shaping</legacyItalic> data.</para>
+			<para>Excel uses a dedicated <ui>Query Editor</ui> to facilitate and display data transformations. When you select <ui>Data</ui> &gt; <ui>Get Data</ui>, then select the data source, such as a workbook, or a database, the <ui>Navigator</ui> window appears so you can select which table (or tables) you want to use in your query. When you select a table, a preview of its data is shown in the right pane of the <ui>Navigator</ui> window.</para>
+			<mediaLink>
+<image xlink:href="83db71ff-ae8a-40dc-97f0-b40649c4eecb" />
+</mediaLink>
+			<para>If you select <ui>Load</ui>, the data source is brought directly into Excel as is. If you select <ui>Edit</ui>, that will launch <ui>Query Editor</ui>.</para>
+			<mediaLink>
+<image xlink:href="c8b439dd-badc-45e0-ae24-5453c354c29f" />
+</mediaLink>
+			<para><ui>Query Editor</ui> keeps track of everything you do with the data. <ui>Query Editor</ui> records and labels each transformation, or step, you apply to the data. Whether the transformation is a connection to a data souce, removing a column, a merge, or a data type change, <ui>Query Editor</ui> tracks each operation in the <ui>Applied Steps</ui> section of the <ui>Query Settings</ui> pane.</para>
+			<para>The transformations you apply to your data connections collectively constitute your <legacyItalic>query</legacyItalic>.</para>
+			<para>It’s important to know that the actions you define in <ui>Query Editor</ui> don't change the original source data. Instead, Excel records each step you take when connecting or transforming the data, and once you’ve finished shaping the data, it takes a snapshot of the refined data set and brings it into the workbook.</para>
+			<para>There are many, many transformations you can apply to data. You can also write your own transformations using the M Language,  using Query Editor’s <ui>Advanced Editor</ui>. You can open the <ui>Advanced Editor</ui> from Query Editor’s <ui>Home</ui> or <ui>View</ui> tabs, where you can modify the M Language steps associated with the existing query, or create your own. </para>
+			<mediaLink>
+<image xlink:href="a98fa51e-7d64-4052-8acd-3a259b8d0091" />
+</mediaLink>
+			<para>When you’re done creating your query you can select <ui>Close &amp; Load</ui> from the <ui>Home</ui> tab, and the query results are loaded into Excel and available in a new workbook tab.</para>
+			<para>Learn more about <legacyBold>Transform</legacyBold>:</para>
+			<list class="bullet">
+				<listItem>
+					<para><link xlink:href="1d6cdb63-bf70-4ae8-a7d5-6ae9547004d9">Introduction to the Query Editor (Power Query)</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="ca69e0f0-3db1-4493-900c-6279bef08df4">Add a query to an Excel worksheet (Power Query)</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="3e221afc-c764-4cd9-9a96-a5a5a7688e46">Edit query step settings (Power Query)</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="9b2dac2b-e13d-46a4-8940-7bc55f44597d">Shape data (Power Query)</link></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Share</title>
+		<content>
+			<para>When you save an Excel workbook that contains a query, the query is <legacyItalic>automatically saved</legacyItalic> as well. You can view all queries in an Excel workbook by selecting <legacyBold>Queries &amp; Connections</legacyBold> on the <legacyBold>Data</legacyBold> tab.</para>
+			<mediaLink>
+<image xlink:href="86aab661-de65-45a2-aa87-c698c794b7ce" />
+</mediaLink>
+			
+			
+			<para>But why stop there? With the <legacyBold>Power BI Data Catalog</legacyBold>, you can share your queries with anyone in your organization. Or create a query that you’ll use frequently, then use it in multiple workbooks and save yourself work. Instead of saving and emailing Excel workbooks, figuring out what has changed, or whether its data is stale, save a query to the <ui>Data Catalog</ui>. Just right-click on a query in the <ui>Queries &amp; Connections</ui> pane, and a menu provides all sorts of options, including <ui>Send To Data Catalog</ui>.</para>
+			<mediaLink>
+<image xlink:href="7c8b1820-b3e1-4343-bbf6-f45f55c782e7" />
+</mediaLink>
+			<para>Notice the other options in the right-click menu, too. You can <ui>Duplicate</ui> a query, which lets you change some or all elements of a query without changing the original query; it’s like creating a query template that you can then modify to create customized datasets – like one dataset for retail, another for wholesale, and another for inventory, all of them based on the same data connections.</para>
+			<para>You can also <ui>Merge</ui> or <ui>Append</ui> queries, which lets you turn queries into reusable building blocks.</para>
+			<para>You can also publish your workbook to Power BI, and create online reports that can be shared with your group, refreshed automatically, and refined. To publish a workbook to Power BI, select <ui>File &gt; Publish &gt; Publish to Power BI</ui>. </para>
+			<alert class="note">
+				<para>Your workbook must be saved to <legacyBold>OneDrive for Business</legacyBold> to publish it to Power BI.</para>
+			</alert>
+			<para>With your query complete, you can use it to create reports in <legacyBold>Excel</legacyBold>, or in <legacyBold>Power BI</legacyBold>. Take a look at the following section to learn more about reporting resources that let you take advantage of all the good work you did when using <legacyBold>Get &amp; Transform</legacyBold> functionality to shape data just the way you want it.</para>
+			<para>Learn more about <legacyBold>Share</legacyBold>:</para>
+			<list class="bullet">
+				<listItem>
+					<para><link xlink:href="7342b49c-6567-4155-a7ac-acdc14d9ad0f">Publish to Power BI</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="76f93a6d-37d9-46b5-bc40-d5f2162401f5">View and Manage Queries in a Workbook (Power Query)</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="353b6b69-47f8-422e-bf7e-db70bca51eea">Share queries in the Power BI Data Catalog</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="16b1421c-9708-466a-8d6e-30a324949722">Combine multiple queries (Power Query)</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="fd157620-5470-4c0f-b132-7ca2616d17f9">Merge queries (Power Query)</link></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+<title>Need more help?</title>
+	<content>
+		<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.
+	</para>
+</content>
+</section><relatedTopics />
+</developerConceptualDocument></topic>

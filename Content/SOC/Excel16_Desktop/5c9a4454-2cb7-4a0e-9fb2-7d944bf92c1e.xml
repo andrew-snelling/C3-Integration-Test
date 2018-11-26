@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="5c9a4454-2cb7-4a0e-9fb2-7d944bf92c1e" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>If you open a file in protected mode that contains certain volatile functions (i.e. =CELL()). After clicking Enable Editing, the contents of the cells turn to #N/A! errors.</para>
+    <para address="__goback">Press F9 to re-calculate the sheet, and the functions should start working.</para>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

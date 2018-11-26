@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="818bc531-ad0b-4031-b4c2-acf45829fd97" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>To quickly find all the values associated with a particular geographic location, use the <ui>Find Location</ui> button in the <ui>Map</ui> group.</para>
+    <para>You can go to any location on the globe whether it is in your data set or not. Type any region or point of interest, and 3D Maps navigates and zooms to that location, showing it in the center of the window and looking directly down.</para>
+    <list class="ordered">
+      <listItem>
+        <para>Click <ui>Find Location</ui>.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="b7989faa-9ac7-4f61-8515-f4d3113778a7">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>In the <ui>Find Location</ui> box, enter the location and click <ui>Find</ui>.</para>
+        <para address="__goback">
+          <mediaLinkInline>
+            <image xlink:href="0a393e73-b9a1-4d11-ac53-7007e7347e8c">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+    </list>
+    <alert class="tip">
+      <para> You can also type latitude and longitude (in decimal degrees) in the <ui>Find Location</ui> box. For example, typing 47.6381966,-122.1313785, takes you to Redmond, Washington.</para>
+    </alert>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="9e382e73-7f5e-495a-a8dc-be8225b1bb78" revisionNumber="9"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Excel's Quick Analysis button lets you instantly create different types of charts, including line and column charts, or add miniature graphs called sparklines.</para>
+		
+		<mediaLink><caption></caption>
+			<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+			<video channel="" player="SP_MOD_OfficeCom" videoid="RWfod2" videotype="single" />
+		</mediaLink>
+		
+		<list class="ordered">
+			<listItem>
+				<para>Select a range of cells.</para>
+			</listItem>
+			<listItem>
+				<para>Select the <legacyBold>Quick Analysis </legacyBold>button that appears at the bottom right corner of the selected data.</para>
+			<para>Or, press Ctrl + Q.</para>
+		<para><mediaLinkInline>
+<image xlink:href="32b5ef2b-115c-4e2e-80a5-f2219e4e46fc" />
+</mediaLinkInline></para>
+		</listItem>
+		<listItem><para>Select <ui>Charts</ui>.</para><para><mediaLinkInline>
+<image xlink:href="ac16c29a-f52f-4cf5-98b5-6def889eaa83" />
+</mediaLinkInline></para></listItem><listItem><para>Hover over the chart types to preview a chart, and then select the chart you want.</para></listItem></list>
+		
+		
+		
+		
+	</introduction>
+	
+	<section>
+    <title>Need more help?</title>
+    <content>
+      <para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+    </content>
+  </section><relatedTopics><link xlink:href="9e382e73-7f5e-495a-a8dc-be8225b1bb78">Analyze your data instantly</link></relatedTopics>
+</developerConceptualDocument></topic>

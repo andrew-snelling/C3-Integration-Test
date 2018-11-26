@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>You can hide any worksheet in a workbook to remove it from view. You can also hide the workbook window of a workbook to remove it from your workspace. The data in hidden worksheets and workbook windows is not visible, but it can still be referenced from other worksheets and workbooks. You can display hidden worksheets or workbook windows as needed.</para>
+    <para>By default, all workbook windows of workbooks that you open are displayed on the taskbar, but you can hide or display them on the taskbar as needed.</para>
+  </introduction>
+  <section>
+    <title address="___toc___1_t">What do you want to do?</title>
+    <content>
+      <list class="nobullet" address="___toc___1_l">
+        <listItem>
+          <para>
+            <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#bmhideworksheet">Hide a worksheet</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#bmdisplayhiddenworksheet">Display a hidden worksheet</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#bmhideworkbookwindow">Hide a workbook window</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#bmdisplayworkbookwindow">Display a hidden workbook window</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#bmhidedisplayworkbookstaskbar">Hide or display workbook windows on the Windows taskbar</link>
+          </para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <section address="bmhideworksheet">
+    <title>Hide a worksheet</title>
+    <content>
+      <alert class="note">
+        <para>If you have a larger number of worksheets that you want to hide, be aware that while you can hide multiple worksheets at once, you can unhide only one sheet at a time.</para>
+      </alert>
+      <list class="ordered">
+        <listItem>
+          <para>Select the worksheets that you want to hide.</para>
+          <para>
+            <legacyBold>How to select worksheets</legacyBold>
+          </para>
+          <table>
+            <thead>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>To select</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>
+                    <legacyBold>Do this</legacyBold>
+                  </para>
+                </TD>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <TD>
+                  <para>A single sheet</para>
+                </TD>
+                <TD>
+                  <para>Click the sheet tab. </para>
+                  <para>
+                    <mediaLinkInline>
+                      <image xlink:href="1ec35422-2686-44f8-b1a7-69f626e8bf56">
+                      </image>
+                    </mediaLinkInline>
+                  </para>
+                  <para>If you don't see the tab that you want, click the tab scrolling buttons to display the tab, and then click the tab.</para>
+                  <para>
+                    <mediaLinkInline>
+                      <image xlink:href="2c48027c-1a1d-4030-8346-cc713048b7b7">
+                      </image>
+                    </mediaLinkInline>
+                  </para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>Two or more adjacent sheets</para>
+                </TD>
+                <TD>
+                  <para>Click the tab for the first sheet. Then hold down SHIFT while you click the tab for the last sheet that you want to select.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>Two or more nonadjacent sheets</para>
+                </TD>
+                <TD>
+                  <para>Click the tab for the first sheet. Then hold down CTRL while you click the tabs of the other sheets that you want to select.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>All sheets in a workbook</para>
+                </TD>
+                <TD>
+                  <para>Right-click a sheet tab, and then click <ui>Select All Sheets</ui> on the ofShortcutMenu.</para>
+                </TD>
+              </tr>
+            </tbody>
+          </table>
+          <para>
+            <embeddedLabel>Tip</embeddedLabel> When multiple worksheets are selected, <ui>[Group]</ui> appears in the title bar at the top of the worksheet. To cancel a selection of multiple worksheets in a workbook, click any unselected worksheet. If no unselected sheet is visible, right-click the tab of a selected sheet, and then click <ui>Ungroup Sheets</ui> on the shortcut menu. </para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Home</ui> &gt; <ui>Format</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="88b7e837-5fc0-4596-9159-b6eda61cfb04">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Under <ui>Visibility</ui>, click <ui>Hide &amp; Unhide</ui>, and then click <ui>Hide Sheet</ui>.</para>
+        </listItem>
+      </list>
+      <para>
+        <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#__top">Top of Page</link>
+      </para>
+    </content>
+    <sections />
+  </section>
+  <section address="bmdisplayhiddenworksheet">
+    <title>Display a hidden worksheet</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click <ui>Home</ui> &gt; <ui>Format</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="88b7e837-5fc0-4596-9159-b6eda61cfb04">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Under <ui>Visibility</ui>, click <ui>Hide &amp; Unhide</ui>, and then click <ui>Unhide Sheet</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Unhide</ui> box, double-click the name of the hidden sheet that you want to display.</para>
+          <alert class="note">
+            <para>You can unhide only one worksheet at a time.</para>
+          </alert>
+        </listItem>
+      </list>
+      <alert class="note">
+        <para>If worksheets are hidden by Visual Basic for Applications (VBA) code that assigns the property <legacyBold>xlSheetVeryHidden</legacyBold>, you cannot use the <ui>Unhide</ui> command to display those hidden sheets. If you are using a workbook that contains VBA macros and you encounter problems when working with hidden worksheets, contact the owner of the workbook for more information.</para>
+      </alert>
+      <para>
+        <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#__top">Top of Page</link>
+      </para>
+    </content>
+    <sections />
+  </section>
+  <section address="bmhideworkbookwindow">
+    <title>Hide a workbook window</title>
+    <content>
+      <list class="bullet">
+        <listItem>
+          <para>Click <ui>View</ui> &gt; <ui>Hide</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="596d8590-7336-4a2d-91a7-be4d307b75a9">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+      </list>
+      <alert class="note">
+        <para>When you exit Excel, you will be asked if you want to save changes to the hidden workbook window. Click <ui>Yes</ui> if you want the workbook window to be hidden the next time that you open the workbook.</para>
+      </alert>
+      <para>
+        <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#__top">Top of Page</link>
+      </para>
+    </content>
+    <sections />
+  </section>
+  <section address="bmdisplayworkbookwindow">
+    <title>Display a hidden workbook window</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click <ui>View</ui> &gt; <ui>Unhide</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="debbe7d6-3c68-42fa-8667-79e48ad22fd6">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <alert class="note">
+            <para>If <ui>Unhide</ui> is unavailable, the workbook does not contain hidden workbook windows.</para>
+          </alert>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Unhide</ui> dialog box, double-click the workbook window that you want to display.</para>
+        </listItem>
+      </list>
+      <para>
+        <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#__top">Top of Page</link>
+      </para>
+    </content>
+    <sections />
+  </section>
+  <section address="bmhidedisplayworkbookstaskbar">
+    <title>Hide or display workbook windows on the Windows taskbar</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click the <ui>File</ui> &gt; <ui>Options</ui>. </para>
+        </listItem>
+        
+        <listItem>
+          <para>Under <ui>Display</ui>, clear or check the <ui>Show all windows in the Taskbar</ui> box.</para>
+        </listItem>
+      </list>
+      <para>
+        <link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de#__top">Top of Page</link>
+      </para>
+    </content>
+    <sections />
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

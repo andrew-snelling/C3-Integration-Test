@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="5d2735ec-a8f2-4a06-a5f7-8b4352a4fa8d" revisionNumber="6"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>When a formula in a cell is different from the other cells in a table column, an alert indicator will appear near that cell (see the . This doesn't necessarily mean that the formula is wrong, but does indicate some exception exists.</para>
+		<para>Calculated column exceptions are created when you do any of the following:</para>
+		<list class="bullet">
+			<listItem>
+				<para>Type data other than a formula in a calculated column cell.</para>
+			</listItem>
+			<listItem>
+				<para>Type a formula in a calculated column cell, and then click <ui>Undo </ui> <mediaLinkInline><image xlink:href="8b423e26-fab7-4633-a7f0-43442ca758e1" /></mediaLinkInline> on the <ui>Quick Access Toolbar</ui>.</para>
+			</listItem>
+			<listItem>
+				<para>Type a new formula in a calculated column that already contains one or more exceptions.</para>
+			</listItem>
+			<listItem>
+				<para>Copy data into the calculated column that does not match the calculated column formula.<br />
+	 </para>
+				<alert class="note">
+					<para>If the copied data contains a formula, this formula overwrites the data in the calculated column.</para>
+				</alert>
+			</listItem>
+			<listItem>
+				<para>Move or delete a cell on another worksheet area that is referenced by one of the rows in a calculated column.</para>
+			</listItem>
+		</list>
+		<para>
+<mediaLinkInline>
+<image xlink:href="a184d344-1b40-444f-a8c6-4571e12f01f6" />
+</mediaLinkInline>
+ </para>
+		<para>The shortcut menu shows the options available to resolve this warning.</para>
+		<table>
+			<thead>
+				<tr>
+					<TD>
+						<para><legacyBold>Select </legacyBold></para>
+					</TD>
+					<TD>
+						<para><legacyBold>To</legacyBold></para>
+					</TD>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<TD>
+						<para><legacyBold>Restore to Calculated Column Formula</legacyBold></para>
+					</TD>
+					<TD>
+						<para>Make the formula consistent by restoring the pattern from the calculated column.</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para><legacyBold>Ignore Error</legacyBold></para>
+					</TD>
+					<TD>
+						<para>Remove the error indicator if, for example, the inconsistency in the formula is intentional or otherwise acceptable.</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para><legacyBold>Edit in Formula Bar</legacyBold></para>
+					</TD>
+					<TD>
+						<para>Review the formula syntax and verify that the cell references are valid.</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para><legacyBold>Error Checking Options</legacyBold></para>
+					</TD>
+					<TD>
+						<para>If you no longer want to see this type of indicator in your worksheets, disable this option:</para>
+						<para>In <legacyBold>File &gt; Options &gt; Formulas &gt;</legacyBold> <ui>Error checking rules</ui>, clear the check box for <ui>Inconsistent calculated column formula in tables</ui>, and then click <ui>OK</ui>.</para>
+					</TD>
+				</tr>
+			</tbody>
+		</table>
+	</introduction>
+	
+	<section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section><section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c">Overview of Excel tables</link></para>
+			<para><link xlink:href="BF0CE08B-D012-42EC-8ECF-A2259C9FAF3F">Video: Create and format an Excel table</link></para>
+			<para><link xlink:href="6944378F-A222-4449-93D8-474386B11F20">Total the data in an Excel table</link></para>
+			<para><link xlink:href="6789619f-c889-495c-99c2-2f971c0e2370">Format an Excel table</link></para>
+			<para><link xlink:href="4d6585be-4292-444c-b86b-71cb4e5d3e16">Resize a table by adding or removing rows and columns</link></para>
+			<para><link xlink:href="01832226-31B5-4568-8806-38C37DCC180E">Filter data in a range or table</link></para>
+			<para><link xlink:href="0B326FF1-1764-4EBE-84EA-786265D41C77">Convert a table to a range</link></para>
+			<para><link xlink:href="F5ED2452-2337-4F71-BED3-C8AE6D2B276E">Using structured references with Excel tables</link></para>
+			<para><link xlink:href="1e9c9c83-bf17-41c7-b243-c48625a7a6ff">Excel table compatibility issues</link></para>
+			<para><link xlink:href="974544F9-94BC-4AA8-9159-97282D256DAB">Export an Excel table to SharePoint</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

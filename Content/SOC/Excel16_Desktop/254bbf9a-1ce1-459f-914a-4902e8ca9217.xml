@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="254bbf9a-1ce1-459f-914a-4902e8ca9217" revisionNumber="15"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>You can quickly copy your chart to another application by saving it as a picture. This also prevents people from editing your chart.</para>
+		<alert class="tip">
+			<para>You can also <link xlink:href="4ba759cc-62f3-422c-bd75-3fc83b06bb6b">copy an Excel chart to another Office application</link>.</para>
+		</alert>
+		<para>Follow these steps to save a chart as a picture:</para>
+		<list class="ordered">
+			<listItem>
+				<para>Click the chart that you want to save as a picture.</para>
+			</listItem>
+			<listItem>
+				<para>On the <ui>Home</ui> tab &gt; <ui>Copy</ui>. Or, right-click over the chart and choose <legacyBold>Copy</legacyBold> from the popup menu.</para>
+			</listItem>
+			<listItem>
+				<para>On the <ui>Home</ui> tab, click the arrow under <ui>Paste</ui> &gt; <ui>Paste Special</ui>.</para>
+			</listItem>
+			<listItem>
+				<para>In the <ui>Paste Special</ui> box, in the <ui>As</ui> list, click the graphic file format that you want.</para>
+				<mediaLink>
+					<image xlink:href="8654a1fe-f6bc-492a-9f72-1865a8fa06a1" />
+				</mediaLink>
+			</listItem>
+			<listItem>
+				<para>Right-click over the graphic and choose <ui>Save as Picture</ui>.</para>
+			</listItem>
+			<listItem>
+				<para>Enter a name for your graphic file, browse to the location to save the file, and then click <ui>Save</ui>.
+	 </para>
+			</listItem>
+		</list>
+		
+	<para><legacyBold>TIP</legacyBold>: In PowerPoint, you can right-click the chart and choose <ui>Save as Picture</ui>. There's no need to copy it as a picture first.</para>
+			<para><mediaLinkInline><image xlink:href="feafda70-1b74-4165-86aa-76037b418e29" /></mediaLinkInline></para></introduction>
+	<section>
+		<title>Choosing a graphics file format</title>
+		<content>
+			<table>
+				<thead>
+					<tr>
+						<TD>
+							<para><legacyBold>File format</legacyBold></para>
+						</TD>
+						<TD>
+							<para><legacyBold>What it means</legacyBold></para>
+						</TD>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<TD>
+							<para>Device Independent Bitmap (.bmp)</para>
+						</TD>
+						<TD>
+							<para address="__goback">Graphics created in one program are displayed in another program exactly the way they appeared in the original program.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para>Graphics Interchange Format (.gif)</para>
+						</TD>
+						<TD>
+							<para>Supports 256 colors and no image data is lost when the file is compressed.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para>JPEG File Interchange Format (.jpg)</para>
+						</TD>
+						<TD>
+							<para>Best used for pictures with many colors, such as scanned photos.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para>Portable Network Graphics Format (.png)</para>
+						</TD>
+						<TD>
+							<para>Improves the quality of graphics on a web site because parts of the image can be transparent and brightness can be controlled.</para>
+						</TD>
+					</tr>
+				</tbody>
+			</table>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

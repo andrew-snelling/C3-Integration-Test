@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73" revisionNumber="215"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+<introduction><para>As an Office 365 subscriber, you regularly get new and improved Office features. Take a look below to see what's available to you today.</para></introduction><section>
+<content><tabControl controlId="Audience"><tabControlItem><tabControlItemTitle>Office 365 Subscribers</tabControlItemTitle><tabControlItemSection><content><grid styleId="lined"><gridRow><gridColumn><title>Latest updates for Excel for Windows Desktop</title><nonEmptyContent><para>See what's new in the October update, <legacyBold>Version 18.10 (11001.20074)</legacyBold>. <br />
+<link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link></para></nonEmptyContent></gridColumn></gridRow></grid><grid><gridRow>
+									<gridColumn>
+										<nonEmptyContent>
+											
+											<mediaLink>
+<image xlink:href="e3a39be5-b7af-4223-acb8-32ee273700c9" />
+</mediaLink>
+										</nonEmptyContent>
+									</gridColumn><gridColumn>
+										<nonEmptyContent>
+											<para><legacyBold>Reveal what's behind a picture</legacyBold></para>
+											<para>Put a picture on a slide, worksheet, document, or message, pick a pre-set, and watch the transparency change. That's it!</para>
+											
+											
+										<para><link xlink:href="ea62f9bf-f0ee-4b64-bcc5-c49275bf350d">LEARN MORE</link></para></nonEmptyContent>
+									</gridColumn>
+									
+								</gridRow></grid><grid><gridRow><gridColumn><title>Want new features first?</title><nonEmptyContent><para>Become an Office Insider and you'll be first in line to see new features and tell us what you think.</para><para><externalLink><linkText>JOIN OFFICE INSIDER TODAY</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=724059</linkUri></externalLink></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><mediaLink><image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" /><video videoid="1a4432b7-ea63-4891-9636-3befa1f62aa4" channel="ALTENUS_MS_OFFICE" player="ocvideo" videotype="single" /></mediaLink></nonEmptyContent></gridColumn></gridRow></grid><grid><gridRow><gridColumn><title>Grow your Office skills</title><nonEmptyContent><grid><gridRow><gridColumn><nonEmptyContent><mediaLink>
+ <image xlink:href="4c83671d-995d-40ce-8aec-2cb11fb4b0fc"></image>
+</mediaLink><para><legacyBold><link xlink:href="9bc05390-e94c-46af-a5b3-d7c22f6990bb">Excel Training</link></legacyBold></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><mediaLink>
+ <image xlink:href="9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3"></image>
+</mediaLink><para><legacyBold><link xlink:href="94b00f50-5896-479c-b0c5-ff74603b35a3">Excel Quick Start guide</link></legacyBold></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><mediaLink><image xlink:href="cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8"><externalLink><linkText /><linkUri>/office-training-center/Word-tips</linkUri></externalLink></image></mediaLink><para><legacyBold><externalLink><linkText>Tips for Excel</linkText><linkUri>/office-training-center/Excel-tips</linkUri></externalLink></legacyBold></para></nonEmptyContent></gridColumn></gridRow></grid></nonEmptyContent></gridColumn></gridRow></grid><grid><gridRow><gridColumn><title>More about releases</title><nonEmptyContent><grid><gridRow><gridColumn><nonEmptyContent><para><legacyBold>When do I get new features?</legacyBold><br />New Office 365 features are sometimes rolled out over a period of time to all subscribers.</para><para><link xlink:href="da36192c-58b9-4bc9-8d51-bb6eed468516">See how features are rolled out</link></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>Complete list of all updates</legacyBold><br />Get information about all the channel releases for Office 365 client applications.</para><para><externalLink><linkText>Latest releases</linkText><linkUri>https://technet.microsoft.com/en-us/office/mt465751</linkUri></externalLink></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>New for non-subscribers</legacyBold><br />Not an Office 365 subscriber but using Office 2016 or Office 2019? Find out what's available in your version.</para><para><link xlink:href="29d7e38e-ef06-4d9c-a476-03d896928b2f">What's new in Office 2016?</link><link xlink:href="5077cbbe-0d94-44cc-b30e-654e37629b0c">What's new in Office 2019?</link></para></nonEmptyContent></gridColumn></gridRow></grid></nonEmptyContent></gridColumn></gridRow></grid></content></tabControlItemSection></tabControlItem><tabControlItem><tabControlItemTitle>Office Insiders</tabControlItemTitle><tabControlItemSection><content><grid styleId="lined"><gridRow><gridColumn><title>Latest updates for Excel Insiders</title><nonEmptyContent><para>There's nothing new for Insiders in <legacyBold>Version 1811 (Build 11029.20045)</legacyBold>. Check back again soon!<br />
+<link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link></para></nonEmptyContent></gridColumn></gridRow></grid><grid styleId="lined"><gridRow><gridColumn><title>Update to the latest build</title><nonEmptyContent><para>If you're enrolled in the Monthly Channel (Targeted) level, you get a new Office for Windows desktop feature update approximately once a month, plus subsequent updates containing important fixes or security updates. To install an update manually, click <ui>File</ui> &gt; <ui>Account</ui> &gt; <ui>Update Options</ui> &gt; <ui>Update Now</ui>.</para><para>For a history of recent updates, and to check if you have the latest version installed, see <externalLink><linkText>Update history for the Monthly Channel (Targeted) level</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=858542</linkUri></externalLink>.</para></nonEmptyContent></gridColumn></gridRow></grid><grid styleId="lined"><gridRow><gridColumn><title>Be a part of the community</title><nonEmptyContent><grid><gridRow><gridColumn><nonEmptyContent><mediaLink>
+ <image xlink:href="719e00d6-d826-4d13-af78-876439fb612c"></image>
+</mediaLink><para><legacyBold>Office Insider community</legacyBold></para><para>Connect with people who are as interested in technology as you are, and get support from the Office Insider community.</para><para><externalLink><linkText>Visit the community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=843493</linkUri></externalLink></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><mediaLink>
+ <image xlink:href="2faeb12e-fbdb-45b6-8593-ed63f3584104"></image>
+</mediaLink><para><legacyBold>Follow us on @OfficeInsider</legacyBold></para><para>Join the growing community of experts and enthusiasts who are helping shape the future of Office.</para><para><externalLink><linkText>Follow us on Twitter</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=717717</linkUri></externalLink></para></nonEmptyContent></gridColumn></gridRow></grid><tokenBlock></tokenBlock></nonEmptyContent></gridColumn></gridRow></grid><grid><gridRow><gridColumn><title>Where to send feedback</title><nonEmptyContent><para>We'd love to hear your thoughts about what works, what doesn't, and where you think we can improve. </para><list class="bullet"><listItem><para>To report an issue or send a suggestion, click <ui>File</ui> &gt; <ui>Feedback</ui>. </para></listItem><listItem><para>In Outlook, you can get immediate support by clicking <ui>File</ui> &gt; <ui> Support</ui>.</para><para>You can also talk to us in the <externalLink><linkText>Office Insider community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=843493</linkUri></externalLink> or on <externalLink><linkText>Twitter</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=717717</linkUri></externalLink>.</para></listItem></list></nonEmptyContent></gridColumn></gridRow></grid></content></tabControlItemSection></tabControlItem><tabControlItem><tabControlItemTitle>Previous Releases</tabControlItemTitle><tabControlItemSection><content><grid><gridRow><gridColumn><nonEmptyContent><para> </para></nonEmptyContent><sections><section>
+<title>September 2018 updates</title><content><para>See what's new in the September update <legacyBold>Version 1809 (Build 10827.20138)</legacyBold>.</para><grid><gridRow>
+									<gridColumn>
+										<nonEmptyContent>
+											<mediaLink>
+<image xlink:href="320284a9-02b8-4d0f-b214-2a1ef64003cf" />
+</mediaLink>
+										</nonEmptyContent>
+									</gridColumn><gridColumn>
+										<nonEmptyContent>
+											<para><legacyBold>Speedy lookup</legacyBold></para>
+											<para>Get your answers faster with super-charged VLOOKUP, HLOOKUP, and MATCH functions.</para>
+											
+										<para><link xlink:href="60f18521-2589-4734-89dd-ba4ee1f6c000">LEARN MORE</link></para></nonEmptyContent>
+									</gridColumn>
+									
+								</gridRow><gridRow>
+									<gridColumn>
+										<nonEmptyContent>
+											<mediaLink>
+												<image xlink:href="7647fb71-1863-493c-889b-3eebe18adb24" />
+											</mediaLink>
+										</nonEmptyContent>
+									</gridColumn>
+									<gridColumn>
+										<nonEmptyContent>
+											<para><legacyBold>Your ribbon icons have a new look</legacyBold></para>
+											<para>Don't worry, everything works the same. Plus all of the icons look great on screens of all sizes.</para>
+											
+											<para><link xlink:href="a6cdf19a-b2bd-4be1-9515-d74a37aa59bf">LEARN MORE</link></para>
+										</nonEmptyContent>
+									</gridColumn>
+								</gridRow></grid></content>
+</section><section expanded="true">
+<title>June 2018 updates</title><content><para>See what's new and improved in the June feature update <legacyBold>Version 1806 (Build 10228.20080)</legacyBold>.<br />
+<link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link></para><grid><gridRow><gridColumn><nonEmptyContent><mediaLink>
+<image xlink:href="955a8523-75ef-48c5-885f-ab4b7fcc0c88" />
+</mediaLink></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>Chat with co-authors while you edit</legacyBold></para><para>Collaborate more effectively by chatting with your co-authors without leaving the app.</para><para><link xlink:href="1ecc6c7f-0b02-4baa-b9d9-c9d67023bedd">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow><gridRow><gridColumn><nonEmptyContent><mediaLink>
+<image xlink:href="55f99e64-f3dd-48ec-be06-5c783a75fb1f" />
+</mediaLink></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>One-click fixes for accessibility issues</legacyBold></para><para>The Accessibility Checker is better than ever with updated support for international standards and handy recommendations to make your documents more accessible.</para><para><link xlink:href="a16f6de0-2f39-4a2b-8bd8-5ad801426c7f">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow><gridRow><gridColumn><nonEmptyContent><mediaLink>
+<image xlink:href="540b1cee-c291-4d6b-80fc-1d7e1450f954" />
+</mediaLink></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>Add visual impact </legacyBold></para><para>Bring visual interest to your documents, worksheets, and presentations by inserting Scalable Vector Graphics (SVG) that have filters applied to them.</para><para><link xlink:href="e2459f17-3996-4795-996e-b9a13486fa79">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow></grid></content>
+</section><section expanded="true">
+<title>March 2018 updates</title><content><para>See what's new and improved in the March 2018 feature update, <legacyBold>Version 1803 (Build 9126.2156)</legacyBold>. <br /><link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link></para><grid><gridRow><gridColumn><nonEmptyContent><para><mediaLinkInline>
+<image xlink:href="a9077de0-7396-47fa-ad14-1b9024cac562" />
+</mediaLinkInline></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>Break the language barrier</legacyBold></para><para>Translate words, phrases or sentences to another language with Microsoft Translator. You can do this from the <ui>Review</ui> tab in the ribbon.</para><para><link xlink:href="287380e4-a56c-48a1-9977-f2dca89ce93f#id0eaacaaa=office_2016_for_windows">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow></grid></content>
+</section><section expanded="true">
+<title>January 2018 updates</title><content><para>See what's new and improved in the January 2018 feature update, <legacyBold>Version 1801 (Build 9001.2138)</legacyBold>. <br /><link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link></para><grid><gridRow><gridColumn><nonEmptyContent><mediaLink><image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" /><video videoid="99f2215e-28f7-4610-b149-b6187db1736e" channel="ALTENUS_MS_OFFICE" player="SP_MOD_OfficeCom" videotype="single" /></mediaLink></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>Precision selecting</legacyBold></para><para>Ever selected too many cells or the wrong ones? You can now deselect extraneous cells without having to start over.</para><para><legacyItalic>New in: </legacyItalic><mediaLinkInline>
+ <image xlink:href="e35e614e-8373-44cb-b2a1-17ce4b42a68f"></image>
+</mediaLinkInline></para><para><link xlink:href="d1b56f30-7d63-4a64-8f0b-da4958204b52">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow></grid></content>
+</section><section expanded="true">
+<title>December 2017 updates</title><content><para>See what's new and improved in the December 2017 feature update, <legacyBold>Version 1712 (Build 8827.2148)</legacyBold>. <br /><link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link>.</para><grid><gridRow><gridColumn><nonEmptyContent><mediaLink><image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" /><video videoid="594e87d8-e0bb-44eb-b98b-bede2f22439c" channel="ALTENUS_MS_OFFICE" player="ocvideo" videotype="single" /></mediaLink></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>Convert SVG icons to shapes</legacyBold></para><para>Transform all SVG pictures and icons into Office shapes so you can change their color, size, or texture.</para><para><link xlink:href="69f29d39-194a-4072-8c35-dbe5e7ea528c">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow></grid></content>
+</section><section expanded="true">
+<title>October 2017 updates</title><content><para>See what's new and improved in the October 2017 feature update, <legacyBold>Version 1710 (Build 8625.2121)</legacyBold>. <br /><link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link></para><grid><gridRow><gridColumn><nonEmptyContent><para><legacyBold>Digital Pencil</legacyBold></para><para><mediaLinkInline>
+<image xlink:href="66e4d070-2180-4afe-a37f-f133b660d1ab" />
+</mediaLinkInline></para><para>Write or sketch out ideas with our new pencil texture. </para><para><link xlink:href="6d76c674-7f4b-414d-b67f-b3ffef6ccf53">LEARN MORE</link></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>Learn with the new Office Training Center</legacyBold></para><para><mediaLinkInline>
+<image xlink:href="6d4f3a8b-b3d6-445d-82be-ae22b975697e" />
+</mediaLinkInline></para><para>Do more with Excel using new templates, tips, and guides - all in the new Office Training Center.</para><para><link xlink:href="b8f02f81-ec85-4493-a39b-4c48e6bc4bfb">EXPLORE TRAINING</link></para></nonEmptyContent></gridColumn></gridRow></grid></content>
+</section><section expanded="true" address="August_2017">
+<title>August 2017 updates</title><content><para>See what's new and improved in the August 2017 feature update, <legacyBold>Version 1708 (Build 8431.2079)</legacyBold>.<br /><link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link></para><grid><gridRow><gridColumn><nonEmptyContent><para><legacyBold>Insert 3D models to see all the angles</legacyBold></para><para>Use 3D to increase the visual and creative impact of your workbooks.  Easily insert a 3D model, then you can rotate it through 360 degrees. </para><para><externalLink><linkText>Download a template</linkText><linkUri>https://templates.office.com/en-us/TM16400557</linkUri></externalLink> and give the feature a try!</para><para><link xlink:href="ec5feb79-b0af-47f6-a885-151fcc88ac0a">LEARN MORE</link></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent>
+<para><mediaLinkInline>
+<image xlink:href="e954d263-c5ff-4eb3-937b-9e1782abf16f" />
+</mediaLinkInline></para></nonEmptyContent></gridColumn></gridRow><gridRow><gridColumn><nonEmptyContent><para><legacyBold>Work faster. Get more done.</legacyBold></para><para><mediaLinkInline>
+<image xlink:href="2f201cf7-ca05-4617-a753-853ec1cd6771" />
+</mediaLinkInline></para><para>Bring on those complex workbooks with multiple sheets. Excel opens them faster, so you can crunch formulas with large ranges, filter lots of rows, or copy and paste quicker.</para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>New ink effects</legacyBold></para><para><mediaLinkInline>
+<image xlink:href="37620d3c-641e-4f45-a492-45955752aeaa" />
+</mediaLinkInline></para><para>Express your ideas with flair using metallic pens and ink effects like rainbow, galaxy, lava, ocean, gold, silver, and more. </para><para><link xlink:href="6d76c674-7f4b-414d-b67f-b3ffef6ccf53">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow></grid></content>
+</section><section expanded="true">
+<title>July 2017 updates</title><content><para>See what's new and improved in the July 2017 feature update, <legacyBold>Version 1707 (Build 8326.2058)</legacyBold>. <br /><link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link>.</para><grid><gridRow><gridColumn><nonEmptyContent><para><legacyBold>Collaborative editing</legacyBold></para><para><mediaLinkInline>
+<image xlink:href="1cb28aa7-c62e-487d-a11d-236adbd7374e" />
+</mediaLinkInline></para><para>Work with others at the same time in your workbook. You and your colleagues can open and work on the same Excel workbook. This is called co-authoring. When you co-author, you can see each other's changes quickly — in a matter of seconds. </para><para><link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow><gridRow><gridColumn><nonEmptyContent><para><legacyBold>Excel saves for you</legacyBold></para><para><mediaLinkInline>
+<image xlink:href="eb237e1e-0d84-424a-904c-6e5963c10854" />
+</mediaLinkInline></para><para>Changes are saved automatically for workbooks stored in the cloud, and you can see others’ updates in seconds. Save your files to OneDrive, OneDrive for Business, or SharePoint Online. </para><para><link xlink:href="6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5">LEARN MORE</link></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>Helpful sounds improve accessibility</legacyBold></para><para><mediaLinkInline>
+<image xlink:href="defa0b60-939a-4e63-8cc5-ff64ef2983b2" />
+</mediaLinkInline></para><para>Turn on audio cues to guide you as you work. Find it in <ui>Options</ui> &gt; <ui>Ease of Access</ui>. No add-in needed.</para><para><link xlink:href="49FDA9BE-CCE5-4C72-A87F-B11000197F5F">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow></grid></content>
+</section><section expanded="true">
+<title>June 2017 updates</title><content><para>See what's new and improved in the June 2017 feature update, <legacyBold>Version 1706 (Build 8229.2073)</legacyBold>. <br /><link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link>.</para><grid><gridRow><gridColumn><nonEmptyContent><para><legacyBold>Customizable, portable pen set</legacyBold></para><mediaLink>
+ <image xlink:href="8194b5ac-f87d-43c2-8a39-ead50dfb0030"></image>
+</mediaLink><para>Create a personal set of pens to suit your needs. <token>Office_generic</token> remembers your pen set in <token>Word_generic</token>, <token>Excel_generic</token>, and <token>PowerPoint_generic</token> across all your Windows devices.</para><para><link xlink:href="6d76c674-7f4b-414d-b67f-b3ffef6ccf53">LEARN MORE</link></para></nonEmptyContent></gridColumn><gridColumn><nonEmptyContent><para><legacyBold>Quick access to superscript and subscript</legacyBold></para><para><mediaLinkInline>
+<image xlink:href="825fc0cc-0ad7-4657-ac96-cb0ca208e303" />
+</mediaLinkInline></para><para>Keep the superscript and subscript commands at your fingertips by adding them to the Ribbon or Quick Access Toolbar.</para><para><link xlink:href="3649411b-adf4-483e-b0e8-7b844605da74">LEARN MORE</link></para></nonEmptyContent></gridColumn></gridRow><gridRow><gridColumn><nonEmptyContent><para><legacyBold>Updates for Get &amp; Transform and the Power Query add-in</legacyBold></para><list class="bullet"><listItem><para><legacyItalic>More  enhancements when you add a column from examples:</legacyItalic> In the Query Editor, Column from Examples has been improved to support suggestions, more Date/Time operations, and additional transformations. <br /></para></listItem><listItem><para><legacyItalic>New Azure Data Lake Store connector:</legacyItalic> We're always working to add new connectors. Now you can import data from an Azure Data Lake Store analytics service.<br /></para></listItem></list></nonEmptyContent></gridColumn></gridRow></grid></content>
+</section></sections></gridColumn></gridRow></grid></content></tabControlItemSection></tabControlItem></tabControl></content>
+</section><relatedTopics></relatedTopics>  
+</developerConceptualDocument></topic>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="295d95e2-1e8a-4337-bfa9-0582b815c0b4" revisionNumber="13"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>You can use formulas that reference <link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">linked data types.</link>This allows you to retrieve and expose more information about a specific linked data type. In the following example, the linked data type, Stocks, is used in cells A2 through A11. Then in columns B and C, there are formulas that extract more information from the Stocks data type in column A.</para>
+		
+		<para><mediaLinkInline><image xlink:href="7412b44c-1f3e-4dd5-b305-35397059ca09" /></mediaLinkInline></para>
+		<para>In this example, cell B2 contains the formula <legacyBold>=A2.Price</legacyBold>﻿ and cell C2 contains the formula <legacyBold>=A2.Change</legacyBold>. When the records are in a table, you can use the column names in the formula. In this case, cell B2 would contain the formula =<legacyBold>[@Company﻿].Price </legacyBold>and C2 would contain <legacyBold>=[@Company].Change</legacyBold>.</para>
+	<alert class="note">
+ <para>June 12, 2018: Linked data types is currently a beta feature, and only available to a portion of  <externalLink><linkText>Office Insiders</linkText><linkUri>https://products.office.com/office-insider</linkUri></externalLink> at this time. We'll continue to optimize this feature over the next several months. When it's ready, we'll release it to all Office Insiders, and <externalLink><linkText>Office 365 subscribers</linkText><linkUri>https://products.office.com/buy/compare-microsoft-office-products</linkUri></externalLink>.</para>
+</alert></introduction>
+	<section>
+		<title />
+		<content>
+			<alert class="tip">
+				<list class="bullet">
+					<listItem>
+						<para>As soon as you type a reference to another cell, for example: <ui>=A2</ui>, Excel will present you with a formula <link xlink:href="6d13daa5-e003-4431-abab-9edef51fae6b">AutoComplete</link> list of fields that you can reference for that data type. Select the field you want from the list, or type it if you know it. You can also get the list of fields by typing the "dot" operator, for example: <ui>=A2.</ui><br />
+	<br />
+	<mediaLinkInline><image xlink:href="7b20e3e8-b5b7-4734-9745-588fa174d38f" /></mediaLinkInline></para>
+					</listItem>
+					<listItem>
+						<para>Data type field references are not case sensitive, so you can enter =A2.Price, or =A2.price.</para>
+					</listItem>
+					<listItem>
+						<para>If you select a field that has spaces in the name, Excel will automatically add brackets ([ ]) around the field name. For example: =A2.[52 Week High]</para>
+					</listItem>
+					<listItem>
+						<para>The <link xlink:href="4a579c45-7326-4168-b556-df8b5685175b">FIELDVALUE function</link> can also be used, but we recommend it only for creating conditional calculations based on linked data types.</para>
+					</listItem>
+				</list>
+			</alert>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">Linked data types</link></para>
+			<para><link xlink:href="4a579c45-7326-4168-b556-df8b5685175b">FIELDVALUE function</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

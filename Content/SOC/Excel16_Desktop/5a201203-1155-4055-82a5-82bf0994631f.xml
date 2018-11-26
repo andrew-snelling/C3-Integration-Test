@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="5a201203-1155-4055-82a5-82bf0994631f" revisionNumber="38"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>If you're upgrading to Excel 2019 for Windows from an earlier Excel version, you'll still have all the features you're used to—and you'll notice a few new ones as well!</para>
+	</introduction>
+	<section expanded="true">
+		<title>New functions</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para>We continue to make improvements with Excel, and its native functions.</para>
+							<para><legacyBold>CONCAT</legacyBold></para>
+							<para>This new function is like CONCATENATE, but better. First of all, it's shorter and easier to type. But it also supports range references, in addition to cell references. Learn more about <link xlink:href="9b1a9a3f-94ff-41af-9736-694cbd6b4ca2">CONCAT.</link></para>
+							<para><legacyBold>IFS</legacyBold></para>
+							<para>Tired of typing complicated, nested IF functions? The IFS function is the solution. With this function, conditions are tested in the order that you specify. If passed, the result is returned. You can also specify an else "catch all" if none of the conditions are met. Learn more about <link xlink:href="36329a26-37b2-467c-972b-4a39bd951d45">IFS.</link></para>
+							<para><legacyBold>MAXIFS</legacyBold></para>
+							<para>This function returns the largest number in a range, that meets a single or multiple criteria. Learn more about <link xlink:href="dfd611e6-da2c-488a-919b-9b6376b28883">MAXIFS.</link></para>
+							<para><legacyBold>MINIFS</legacyBold></para>
+							<para>This function is similar to MAXIFS, but it returns the smallest number in a range, that meets a single or multiple criteria. Learn more about <link xlink:href="6ca1ddaa-079b-4e74-80cc-72eef32e6599">MINIFS.</link></para>
+							<para><legacyBold>SWITCH</legacyBold></para>
+							<para>This function evaluates an expression against a list of values in order, and returns the first matching result. If no results match, the "else" is returned. Learn more about <link xlink:href="47ab33c0-28ce-4530-8a45-d532ec4aa25e">SWITCH.</link></para>
+							<para><legacyBold>TEXTJOIN</legacyBold></para>
+							<para>This function combines text from multiple ranges, and each item is separated by a delimiter that you specify. Learn more about <link xlink:href="357b449a-ec91-49d0-80c3-0e8fc845691c">TEXTJOIN.</link></para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>New charts</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Map charts</legacyBold></para>
+							<para>You can <link xlink:href="f2cfed55-d622-42cd-8ec9-ec8a358b593b">create a map chart</link> to compare values and show categories across geographical regions. Use it when you have geographical regions in your data, like countries/regions, states, counties or postal codes. <externalLink><linkText>Watch a quick map chart video here.</linkText><linkUri>https://youtu.be/GP8MmCUB9e0</linkUri></externalLink></para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="de2e3f0c-fbae-4a92-8e8a-a641b4db8d60" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Funnel charts</legacyBold></para>
+							<para><link xlink:href="ba21bcba-f325-4d9f-93df-97074589a70e">Funnel charts</link> show values across multiple stages in a process. For example, you could use a funnel chart to show the number of sales prospects at each stage in a sales pipeline. Typically, the values decrease gradually, allowing the bars to resemble a funnel.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="972f3492-4573-485e-91df-0c51aa84ed99" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Enhanced visuals</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<grid>
+								<gridRow>
+									<gridColumn>
+										<nonEmptyContent>
+											<para><legacyBold>Scalable Vector Graphics (SVG)</legacyBold></para>
+											<para>Bring visual interest to your documents, worksheets, and presentations by inserting <link xlink:href="e2459f17-3996-4795-996e-b9a13486fa79">Scalable Vector Graphics (SVG)</link> that have filters applied to them.</para>
+										</nonEmptyContent>
+									</gridColumn>
+									<gridColumn>
+										<nonEmptyContent>
+											<mediaLink>
+												<image xlink:href="540b1cee-c291-4d6b-80fc-1d7e1450f954" />
+											</mediaLink>
+										</nonEmptyContent>
+									</gridColumn>
+								</gridRow>
+								<gridRow>
+									<gridColumn>
+										<nonEmptyContent>
+											<para><legacyBold>Convert SVG icons to shapes</legacyBold></para>
+											<para><link xlink:href="69f29d39-194a-4072-8c35-dbe5e7ea528c">Transform all SVG pictures and icons into Office shapes</link> so you can change their color, size, or texture.</para>
+										</nonEmptyContent>
+									</gridColumn>
+									<gridColumn>
+										<nonEmptyContent>
+											
+											<mediaLink>
+												<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+												<video channel="ALTENUS_MS_OFFICE" player="ocvideo" videoid="594e87d8-e0bb-44eb-b98b-bede2f22439c" videotype="single" />
+											</mediaLink>
+										</nonEmptyContent>
+									</gridColumn>
+								</gridRow>
+								<gridRow>
+									<gridColumn>
+										<nonEmptyContent>
+											<para><legacyBold>Insert 3D models to see all the angles</legacyBold></para>
+											<para>Use 3D to increase the visual and creative impact of your workbooks. <link xlink:href="ec5feb79-b0af-47f6-a885-151fcc88ac0a">Easily insert a 3D model</link>, then you can rotate it through 360 degrees.</para>
+											<para><externalLink><linkText>Download a template</linkText><linkUri>https://templates.office.com/en-us/TM16400557,</linkUri></externalLink> and give it a try!</para>
+										</nonEmptyContent>
+									</gridColumn>
+									<gridColumn>
+										<nonEmptyContent>
+											<para><mediaLinkInline><image xlink:href="e954d263-c5ff-4eb3-937b-9e1782abf16f" /></mediaLinkInline></para>
+										</nonEmptyContent>
+									</gridColumn>
+								</gridRow>
+							</grid>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Ink improvements</title>
+		<content>
+			<para>We introduced Inking features in Office 2016, but we're constantly improving, and adding features.</para>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>New ink effects</legacyBold></para>
+							<para>Express your ideas with flair using <link xlink:href="6d76c674-7f4b-414d-b67f-b3ffef6ccf53">metallic pens and ink effects</link> like rainbow, galaxy, lava, ocean, gold, silver, and more.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><mediaLinkInline><image xlink:href="37620d3c-641e-4f45-a492-45955752aeaa" /></mediaLinkInline></para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Digital Pencil</legacyBold></para>
+							<para>Write or sketch out ideas with our new <link xlink:href="6d76c674-7f4b-414d-b67f-b3ffef6ccf53">pencil texture</link>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><mediaLinkInline><image xlink:href="66e4d070-2180-4afe-a37f-f133b660d1ab" /></mediaLinkInline></para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Customizable, portable pen set</legacyBold></para>
+							<para>Create a <link xlink:href="6d76c674-7f4b-414d-b67f-b3ffef6ccf53">personal set of pens</link> to suit your needs. <token>Office_generic</token> remembers your pen set in <token>Word_generic</token>, <token>Excel_generic</token>, and <token>PowerPoint_generic</token> across all your Windows devices.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="8194b5ac-f87d-43c2-8a39-ead50dfb0030" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Ink equations</legacyBold></para>
+							<para>Including math equations has gotten much easier. Now, you can go to <ui>Insert</ui> &gt; <ui>Equation</ui> &gt; <ui>Ink Equation</ui>, any time you want to include a complex math equation in your workbook. If you have a touch device, you can use your finger or a touch stylus to write math equations by hand, and Excel will convert it to text. (If you don't have a touch device, you can use a mouse to write, too). You can also erase, select, and correct what you've written as you go.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><mediaLinkInline><image xlink:href="7fb15e22-cca7-43e1-b813-8d82282a1ca5" /></mediaLinkInline></para>
+							<para><mediaLinkInline><image xlink:href="f3bd02f5-463c-4449-aaf1-d2c5aa382f65" /></mediaLinkInline></para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>New Ink Replay button</legacyBold></para>
+							<para>Using ink in your spreadsheets? Now you can replay or rewind your ink to better understand the flow of it. Or your peers can replay it to get step-by-step instructions. You'll find <ui>Ink Replay</ui> on the <ui>Draw</ui> tab. Give it a try!</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Lasso Select at your fingertips</legacyBold></para>
+							<para>Excel now has Lasso Select <mediaLinkInline><image xlink:href="432ed621-7b8c-4495-a8df-c14db8ff3055" /></mediaLinkInline>, a free-form tool for selecting ink. Drag with the tool to select a particular area of an ink drawing, and then you can manipulate that object as you wish. For more information, see <link xlink:href="c00b7319-2b50-4784-8114-47593d991c5c">Draw and annotate with ink in Office</link>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Convert ink drawing to shapes</legacyBold></para>
+							<para>The Draw tab lets you select inking styles and start making ink annotations on your touch-enabled device. However, you can also convert those ink annotations to shapes. Just select them, and then select <ui>Convert to Shapes</ui>. That way, you get the freedom of freeform drawing with the uniformity and standardization of Office graphic shapes. To learn more about inking in Office, see <link xlink:href="c00b7319-2b50-4784-8114-47593d991c5c">Draw and annotate with ink in Office</link>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Use your Surface pen to select and change objects</legacyBold></para>
+							<para>In Excel, with a Surface pen, you can select an area without even tapping the selection tool on the ribbon. Just press the barrel button on the pen and draw with the pen to make a selection. Then you can use the pen to move, resize, or rotate the ink object. For more information, see <link xlink:href="c00b7319-2b50-4784-8114-47593d991c5c">Draw and annotate with ink in Office</link>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Better accessibility features</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>One-click fixes for accessibility issues</legacyBold></para>
+							<para>The <link xlink:href="a16f6de0-2f39-4a2b-8bd8-5ad801426c7f">Accessibility Checker</link> is better than ever with updated support for international standards, and handy recommendations to make your documents more accessible.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="55f99e64-f3dd-48ec-be06-5c783a75fb1f" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Helpful sounds improve accessibility</legacyBold></para>
+							<para><link xlink:href="49fda9be-cce5-4c72-a87f-b11000197f5f">Turn on audio cues</link> to guide you as you work.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><mediaLinkInline><image xlink:href="defa0b60-939a-4e63-8cc5-ff64ef2983b2" /></mediaLinkInline></para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Sharing is easier</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Insert recent links</legacyBold></para>
+							<para>Easily <link xlink:href="002684c4-bf06-422b-821f-b4ef84fdb0e3">attach hyperlinks to recent cloud-based files or websites</link>, and create meaningful display names for people using screen readers. To add a link to a recently used file, on the <ui>Insert</ui> tab, choose <ui>Link</ui> and select any file from the displayed list.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="4a15d835-fbc0-42c1-a006-3cb7bb78f09c" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>View and restore changes in workbooks that are shared</legacyBold></para>
+							<para>Quickly view who has made changes in workbooks that are shared, and easily restore earlier versions. For more information, see <link xlink:href="5c1e076f-a9c9-41b8-8ace-f77b9642e2c2">View historical versions of Office files</link>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Quickly save to recent folders</legacyBold></para>
+							<para>This feature was highly requested by our customers: Go to <ui>File</ui> &gt; <ui>Save As</ui> &gt; <ui>Recent</ui>, and you’ll see a list of recently accessed folders that you can save to.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>General improvements</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Precision selecting</legacyBold></para>
+							<para>Ever selected too many cells or the wrong ones? You can now <link xlink:href="d1b56f30-7d63-4a64-8f0b-da4958204b52">deselect extraneous cells</link> without having to start over.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							
+							<mediaLink>
+								<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+								<video channel="ALTENUS_MS_OFFICE" player="SP_MOD_OfficeCom" videoid="99f2215e-28f7-4610-b149-b6187db1736e" videotype="single" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Quick access to superscript and subscript</legacyBold></para>
+							<para><link xlink:href="3649411b-adf4-483e-b0e8-7b844605da74">Keep the superscript and subscript commands at your fingertips</link> by adding them to the Ribbon or Quick Access Toolbar.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><mediaLinkInline><image xlink:href="825fc0cc-0ad7-4657-ac96-cb0ca208e303" /></mediaLinkInline></para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Improved autocomplete</legacyBold></para>
+							<para>Excel autocomplete isn't as picky as it was before. For example, let's say you want to use the NETWORKDAYS function, but you can't remember how it is spelled. If you just type <literal>=DAYS</literal>, the autocomplete menu will bring back all of the functions that contain "DAYS," including, <ui>NETWORKDAYS</ui>. Before, you had to spell the function name exactly.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>New Themes</legacyBold></para>
+							<para>There are now three Office Themes that you can apply: <legacyBold>Colorful</legacyBold>, <legacyBold>Dark Gray</legacyBold>, and <legacyBold>White</legacyBold>. To access these themes, go to <ui>File</ui> <legacyBold> &gt;</legacyBold> <ui>Options</ui> <legacyBold> &gt; </legacyBold><ui>General</ui>, and then click the drop-down menu next to <ui>Office Theme</ui>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Black Theme</legacyBold></para>
+							<para>The highest-contrast Office theme yet has arrived. To change your Office theme, go to <ui>File</ui> &gt; <ui>Account</ui>, and then click the drop-down menu next to <ui>Office Theme</ui>. The theme you choose will be applied across all your Office apps. To learn more about Office themes, see <link xlink:href="63e65e1c-08d4-4dea-820e-335f54672310">Change the look and feel of Office for Windows with Office themes</link>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Break the language barrier</legacyBold></para>
+							<para>Translate words, phrases, or sentences to another language with <link xlink:href="287380e4-a56c-48a1-9977-f2dca89ce93f">Microsoft Translator</link>. You can do this from the <ui>Review</ui> tab in the ribbon.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><mediaLinkInline><image xlink:href="a9077de0-7396-47fa-ad14-1b9024cac562" /></mediaLinkInline></para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>No warnings when saving a CSV file</legacyBold></para>
+							<para>Remember this warning? <legacyItalic>"This file may contain features that are not compatible with CSV..."</legacyItalic> Well, you asked for it! We will no longer show this when saving a CSV file.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>CSV (UTF-8) support</legacyBold></para>
+							<para>You asked for it on our <externalLink><linkText>Excel User Voice forum</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>: You can now open and save CSV files that use UTF-8 character encoding. Go to <ui>File</ui> &gt; <ui>Save As</ui> &gt; <ui>Browse</ui>. Then click the <ui>Save as type</ui> menu, and you'll find the new option for <ui>CSV UTF-8 (Comma delimited)</ui>. CSV UTF-8 is a commonly used file format that supports more characters than Excel’s existing CSV option (ANSI). What does this mean? Better support for working with non-English data, and ease of moving data to other applications.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Data Loss Protection (DLP) in Excel</legacyBold></para>
+							<para>Data Loss Protection (DLP) is a high-value enterprise feature that is well loved in Outlook. We are introducing DLP in Excel to enable real time scan of content based on a set of predefined policies for the most common sensitive data types (e.g., credit card number, social security number, and US bank account number). This capability will also enable the synchronization of DLP policies from Office 365 in Excel, Word, and PowerPoint, and provide organizations with unified policies across content stored in Exchange, SharePoint and OneDrive for Business.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>PivotTable enhancements</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para>Excel is known for its flexible and powerful analysis experiences, through the familiar PivotTable authoring environment. With Excel 2010 and Excel 2013, this experience was significantly enhanced with the introduction of Power Pivot and the Data Model, bringing the ability to easily build sophisticated models across your data, augment them with measures and KPIs, and then calculate over millions of rows with high speed. Here are some of the enhancements we made, so that you can focus less on managing your data and more on uncovering the insights that matter.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Personalize the default PivotTable layout</embeddedLabel></para>
+							<para><link xlink:href="efd8569c-f07a-43c1-9db2-4f2912a0f94e">Set up a PivotTable the way you like</link>. Choose how you want to display subtotals, grand totals, and the report layout, then save it as your default. The next time you create a PivotTable, you will start with that layout.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Automatic relationship detection</embeddedLabel></para>
+							<para>Discovers and creates relationships among the tables used for your workbook’s data model, so you don’t have to. Excel knows when your analysis requires two or more tables to be linked together, and notifies you. With one click, it does the work to build the relationships, so you can take advantage of them immediately.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Creating, editing, and deleting custom measures</embeddedLabel></para>
+							<para>Can now be done directly from the PivotTable fields list, saving you a lot of time when you need to add additional calculations for your analysis.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Automatic time grouping</embeddedLabel></para>
+							<para>Helps you to use time-related fields (year, quarter, month) in your PivotTable more powerfully, by auto-detecting, and grouping them on your behalf. Once grouped together, simply drag the group to your PivotTable in one action, and immediately begin your analysis across the different levels of time with drill-down capabilities.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>PivotChart drill-down buttons</embeddedLabel></para>
+							<para>Allow you to zoom in and out across groupings of time, and other hierarchical structures within your data.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Search in the PivotTable</embeddedLabel></para>
+							<para>Field list helps you get to the fields that are important to you across your entire data set.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Smart rename</embeddedLabel></para>
+							<para>Gives you the ability to rename tables and columns in your workbook’s data model. With each change, Excel automatically updates any related tables, and calculations across your workbook, including all worksheets and DAX formulas.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Multiple usability improvements</embeddedLabel></para>
+							<para>Have also been made. For example, delayed updating allows you to perform multiple changes in Power Pivot without the need to wait until each is propagated across the workbook. The changes will be propagated at one time, once the Power Pivot window is closed.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="3c61fedf-3380-4871-8c33-2f916423fcb5" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Multi-select Slicer</embeddedLabel></para>
+							<para>You can select multiple items in an Excel Slicer on a touch device. This is a change from prior versions of Excel, where only one item in a Slicer could be selected at a time using touch input. You can enter Slicer multi-select mode by using the new button located in the Slicer’s label.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="f592b03f-8c28-4f48-b1be-a9d47a21bafd" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Faster OLAP PivotTables!</embeddedLabel></para>
+							<para>If you work with connections to OLAP servers, your PivotTables are now faster. The June 2016 update contains query and cache improvements in this powerful feature’s performance. You could benefit from this work, whether you use PivotTables to answer one-off questions, or build complicated workbooks with dozens of PivotTables. It doesn’t matter if your PivotTables are connected to a tabular or multi-dimensional model, Any PivotTable connected to Microsoft SQL Server Analysis Services, 3rd party OLAP providers, or the Power Pivot <link xlink:href="D7B119ED-1B3B-4F23-B634-445AB141B59B">Data Model</link> will likely give you fresh data, faster. Additionally, now if you disable Subtotals and Grand Totals, PivotTables can be much faster when refreshing, expanding, collapsing, and drilling into your data. The bigger the PivotTable, the bigger the potential improvement. Specifically, we have made improvements in three major areas while querying OLAP servers:</para>
+							<list class="bullet">
+								<listItem>
+									<para>Improved query efficiency: Excel will now query for Subtotals and Grand Totals only if they’re required to render the PivotTable results. This means you wait less for the OLAP server to finish processing the query, and you wait less while waiting for the results to transfer over your network connection. You simply disable Subtotals and Grand Totals from the PivotTable Design tab just like you would normally. See: <link xlink:href="FC4D8406-F230-4762-AA2F-310826F3E5E2">Show or hide subtotals and totals in a PivotTable.</link></para>
+								</listItem>
+								<listItem>
+									<para>Reduced the number of queries: Excel is smarter when refreshing your data. Queries will now only refresh when they’ve actually changed and need to be refreshed.</para>
+								</listItem>
+								<listItem>
+									<para>Smarter caches: When the PivotTable schema is retrieved, it is now shared across all of the PivotTables on that connection, further reducing the number of queries.</para>
+								</listItem>
+							</list>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Power Pivot updates</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Save relationship diagram view as picture</embeddedLabel></para>
+							<para>Save the data model diagram view as a high resolution image file that can then be used for sharing, printing or analyzing the data model. To create the image file, in the Power Pivot pane, click <ui>File</ui> &gt; <ui>Save View as Picture</ui>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Enhanced Edit Relationship dialog creates faster and more accurate data relationships</embeddedLabel></para>
+							<para>Power Pivot users can manually add or edit a table relationship while exploring a sample of the data—up to five rows of data in a selected table. This helps create faster and more accurate relationships, without the need to go back and forth to the data view every time you wish to create, or edit a table relationship.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="b57dfdb4-592e-4821-9113-0bdcb24f1259" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Table selection using keyboard navigation</embeddedLabel></para>
+							<para>In the <ui>Edit Relationship</ui> dialog, type the first letter of a table name to move the first column name starting with the selected letter.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Column selection using column navigation</embeddedLabel></para>
+							<para>In the <ui>Edit Relationship</ui> dialog, type the first letter of a column name to move the first column starting with the selected letter. Retype the same letter moves to the next column starting with the selected letter.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Auto column suggestion for same column name in both tables</embeddedLabel></para>
+							<para>After selecting the first table and column, on the selection of the second table, if a column with the same name exists, it is auto-selected (works both ways).</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><embeddedLabel>Fixes that improve your overall modeling user experience</embeddedLabel></para>
+							<para>1) The Power Pivot data model is no longer lost when working with hidden workbooks; 2) You can now upgrade an earlier workbook with a data model to Excel 2016 and later; and 3) You can add a calculated column in Power Pivot, unless it contains a formula.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Publish to Power BI</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para>If you have a Power BI subscription, you can now publish files that are stored locally to Power BI. To get started, first save your file to your computer. Then click <ui>File</ui> &gt; <ui>Publish</ui> &gt; <ui>Publish to Power BI</ui>. After you upload, you can click the <ui>Go To Power BI</ui> button to see the file in your web browser.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Get &amp; Transform (Power Query)</title>
+		<content>
+			<para>This section contains improvements made to Get &amp; Transform (also known as Power Query).</para>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>New and improved connectors</legacyBold></para>
+							<para>We have new connectors in Excel 2019. For example, there's the new <link xlink:href="1032dbbf-f673-4cb2-82f1-360a9e31a1b2">SAP HANA</link> connector. We also have improved many of our existing connectors so that you can import data from a variety of sources with efficiency and ease. For more information on our connectors, see <link xlink:href="be4330b3-5356-486c-a168-b68e9e616f5a">Import data from external data sources</link>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="b2eeff9b-a0e4-4113-96b9-2804ceae3c50" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>Improved transformations</legacyBold></para>
+							<para>In Excel 2019 we have significantly improved many of the data transformation features in the Power Query Editor. For example: <link xlink:href="5282d425-6dd0-46ca-95bf-8e0da9539662">Splitting columns</link>, <link xlink:href="2dbb579a-915b-4ebd-b622-8e7f3d1d61a6">inserting custom columns</link>, and <link xlink:href="CD82C570-8DA7-4D70-91A1-3827B5995EAB">adding columns from an example</link> are improved. Plus, <link xlink:href="FD157620-5470-4C0F-B132-7CA2616D17F9">merge</link> and <link xlink:href="E42CA582-4F62-4A43-B37F-99E2B2A4813A">append</link> operations, and <link xlink:href="b5610630-f5bf-4ba4-9217-a628f9b89353">filtering</link> transforms are enhanced as well.</para>
+						</nonEmptyContent>
+					</gridColumn>
+					<gridColumn>
+						<nonEmptyContent>
+							<mediaLink>
+								<image xlink:href="7b69b6e4-5bbf-4656-94e8-810e8f6ecd43" />
+							</mediaLink>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<para><legacyBold>General improvements</legacyBold></para>
+							<para>Excel 2019 also has some general improvements across the Get &amp; Transform area in Excel 2019. One notable improvement is the new <ui>Queries &amp; Connections</ui> side pane, which lets you manage queries and connections easily . There are also many improvements to the Power Query Editor as well, including “select-as-you-type” drop-down menus, date picker support for date filters and conditional columns, the ability to reorder query steps via drag-and-drop, and the ability to keep the layout in Excel when refreshing. For general information about how to get started with Get &amp; Transform, see the article, <link xlink:href="ad78befd-eb1c-4ea7-a55d-79d1d67cf9b3">Unified Get &amp; Transform experience</link>.</para>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+			<para>For more information on updates to Get &amp; Transform, check out the <externalLink><linkText>Excel Blog</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel-Blog/bg-p/ExcelBlog</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<section>
+		<title>Grow your Office skills</title>
+		<content>
+			<grid styleId="lined">
+				<gridRow>
+					<gridColumn>
+						<nonEmptyContent>
+							<grid>
+								<gridRow>
+									<gridColumn>
+										<nonEmptyContent>
+											<mediaLink>
+												<image xlink:href="4c83671d-995d-40ce-8aec-2cb11fb4b0fc" />
+											</mediaLink>
+											<para><legacyBold><link xlink:href="9bc05390-e94c-46af-a5b3-d7c22f6990bb">Excel Training</link></legacyBold></para>
+										</nonEmptyContent>
+									</gridColumn>
+									<gridColumn>
+										<nonEmptyContent>
+											<mediaLink>
+												<image xlink:href="9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3" />
+											</mediaLink>
+											<para><legacyBold><link xlink:href="94b00f50-5896-479c-b0c5-ff74603b35a3">Excel Quick Start guide</link></legacyBold></para>
+										</nonEmptyContent>
+									</gridColumn>
+									<gridColumn>
+										<nonEmptyContent>
+											<mediaLink>
+												<image xlink:href="cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8">
+													<externalLink><linkText /><linkAlternateText></linkAlternateText><linkUri>/office-training-center/Word-tips</linkUri></externalLink>
+												</image>
+											</mediaLink>
+											<para><legacyBold><externalLink><linkText>Tips for Excel</linkText><linkUri>/office-training-center/Excel-tips</linkUri></externalLink></legacyBold></para>
+										</nonEmptyContent>
+									</gridColumn>
+								</gridRow>
+							</grid>
+						</nonEmptyContent>
+					</gridColumn>
+				</gridRow>
+			</grid>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

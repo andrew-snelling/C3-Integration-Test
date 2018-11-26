@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="fb08258f-3a25-492d-8c7c-0165780528a0" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>When the data you use for your map changes, you can refresh it manually in 3D Maps. The changes will then be reflected on your map. Here’s how:</para>
+    <list class="bullet">
+      <listItem>
+        <para>In 3D Maps, click <ui>Home</ui> &gt; <ui>Refresh Data</ui>.</para>
+      </listItem>
+    </list>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="6e983036-c608-4f8e-86a8-1a1fedeaa408">
+        </image>
+      </mediaLinkInline>
+    </para>
+  </introduction>
+  <section>
+    <title>Add data to Power Map</title>
+    <content>
+      <para>To add new data to your 3D Maps<token>TE104085179</token>:</para>
+      <list class="ordered">
+        <listItem>
+          <para>In 3D Maps, go to the map you want to add data to.</para>
+        </listItem>
+        <listItem>
+          <para>Leaving the 3D Maps window open, click in Excel and select the worksheet data you want to add.</para>
+        </listItem>
+        <listItem>
+          <para>On the Excel ribbon, click <ui>Insert</ui> &gt; <ui>Map</ui> arrow &gt; <ui>Add Selected Data to Power Map</ui>.</para>
+        </listItem>
+      </list>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="f178b858-aa99-4ef3-95fe-74a3c1ea7c13">
+          </image>
+        </mediaLinkInline>
+      </para>
+      <para>Your 3D Maps will automatically update to show the additional data.</para>
+    </content>
+    
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

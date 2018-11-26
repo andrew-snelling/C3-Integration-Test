@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="3a8acca5-1d61-4702-80e0-99a36a2822c1" revisionNumber="14"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Formulas can sometimes result in error values in addition to returning unintended results. The following are some tools that you can use to find and investigate the causes of these errors and determine solutions.</para>
+		<alert class="note">
+			<para>This topic contains techniques that can help you correct formula errors. It is not an exhaustive list of methods for correcting every possible formula error. For help on specific errors, you can search for questions like yours in the Excel Community Forum, or post one of your own.</para>
+		</alert>
+		<mediaLink>
+			<image xlink:href="49042674-8248-4e9e-8a81-13af1afb90ac">
+				<externalLink><linkText /><linkAlternateText></linkAlternateText><linkUri>https://go.microsoft.com/fwlink/?LinkId=799646</linkUri></externalLink>
+			</image>
+		</mediaLink>
+	</introduction>
+	<section>
+		<title>Learn how to enter a simple formula</title>
+		<content>
+			<para>Formulas are equations that perform calculations on values in your worksheet. A formula starts with an equal sign (=). For example, the following formula adds 3 to 1.</para>
+			<para>=3+1</para>
+			<para>A formula can also contain any or all of the following: functions, references, operators, and constants.</para>
+			<mediaLink>
+				<image xlink:href="0c0657d7-2951-431d-9e3f-d3dcc074e09b" />
+			</mediaLink>
+			<para><legacyBold>Parts of a formula</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Functions: included with <token>Excel_generic</token>, functions are engineered formulas that carry out specific calculations. For example, the PI() function returns the value of pi: 3.142...</para>
+				</listItem>
+				<listItem>
+					<para>References: refer to individual cells or ranges of cells. A2 returns the value in cell A2.</para>
+				</listItem>
+				<listItem>
+					<para>Constants: numbers or text values entered directly into a formula, such as 2.</para>
+				</listItem>
+				<listItem>
+					<para>Operators: The ^ (caret) operator raises a number to a power, and the * (asterisk) operator multiplies. Use + and – add and subtract values, and / to divide.</para>
+					<alert class="note">
+						<para>Some functions require what are referred to as <legacyBold>arguments</legacyBold>. Arguments are the values that certain functions use to perform their calculations. When required, arguments are placed between the function’s parentheses (). The PI function does not require any arguments, which is why it’s blank. Some functions require one or more arguments, and can leave room for additional arguments. You need to use a comma to separate arguments, or a semi-colon (;) depending on your location settings.</para>
+					</alert>
+				</listItem>
+			</list>
+			<para>The SUM function for example, requires only one argument, but can accommodate 255 total arguments.</para>
+			<mediaLink>
+				<image xlink:href="a310183d-5dd5-4d7c-90d3-d21161d89584" />
+			</mediaLink>
+			<para><legacyBold>=SUM(A1:A10)</legacyBold> is an example of a single argument.</para>
+			<para><legacyBold>=SUM(A1:A10, C1:C10)</legacyBold> is an example of multiple arguments.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Correct common errors when entering formulas</title>
+		<content>
+			<para>The following table summarizes some of the most common errors that a user can make when entering a formula, and explains how to correct them.</para>
+			<table border="2">
+				<tbody>
+					<tr>
+						<TH>
+							<para>Make sure that you</para>
+						</TH>
+						<TH>
+							<para>More information</para>
+						</TH>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Start every function with the equal sign (=)</legacyBold></para>
+						</TD>
+						<TD>
+							<para>If you omit the equal sign, what you type may be displayed as text or as a date. For example, if you type <legacyBold>SUM(A1:A10)</legacyBold>, <token>Excel_generic</token> displays the text string <legacyBold>SUM(A1:A10)</legacyBold> and does not perform the calculation. If you type <legacyBold>11/2</legacyBold>, <token>Excel_generic</token> displays the date <legacyBold>2-Nov</legacyBold> (assuming the cell format is <legacyItalic>General</legacyItalic>) instead of dividing 11 by 2.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Match all open and closing parentheses </legacyBold></para>
+						</TD>
+						<TD>
+							<para>Make sure that all parentheses are part of a matching pair (opening and closing). When you use a function in a formula, it is important for each parenthesis to be in its correct position for the function to work correctly. For example, the formula <legacyBold>=IF(B5&lt;0),"Not valid",B5*1.05)</legacyBold> will not work because there are two closing parentheses and only one open parenthesis, when there should only be one each. The formula should look like this: <legacyBold>=IF(B5&lt;0,"Not valid",B5*1.05)</legacyBold>.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Use a colon to indicate a range</legacyBold></para>
+						</TD>
+						<TD>
+							<para>When you refer to a range of cells, use a colon (:) to separate the reference to the first cell in the range and the reference to the last cell in the range. For example, <legacyBold>=SUM(A1:A5)</legacyBold>, not <legacyBold>=SUM(A1 A5)</legacyBold>, which would return a #NULL! Error.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Enter all required arguments</legacyBold></para>
+						</TD>
+						<TD>
+							<para>Some functions have required arguments. Also, make sure that you have not entered too many arguments.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Enter the correct type of arguments</legacyBold></para>
+						</TD>
+						<TD>
+							<para>Some functions, such as <legacyBold>SUM</legacyBold>, require numerical arguments. Other functions, such as <legacyBold>REPLACE</legacyBold>, require a text value for at least one of their arguments. If you use the wrong type of data as an argument, <token>Excel_generic</token> may return unexpected results or display an error.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Nest no more than 64 functions</legacyBold></para>
+						</TD>
+						<TD>
+							<para>You can enter, or nest, no more than 64 levels of functions within a function.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Enclose other sheet names in single quotation marks</legacyBold></para>
+						</TD>
+						<TD>
+							<para>If a formula refers to values or cells on other worksheets or workbooks, and the name of the other workbook or worksheet contains spaces or non-alphabetical characters, you must enclose its name within single quotation marks ( ' ), like <legacyBold>='Quarterly Data'!D3, or =‘123’!A1</legacyBold>.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Place an exclamation point (!) after a worksheet name when you refer to it in a formula</legacyBold></para>
+						</TD>
+						<TD>
+							<para>For example, to return the value from cell D3 in a worksheet named Quarterly Data in the same workbook, use this formula: <legacyBold>='Quarterly Data'!D3</legacyBold>.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Include the path to external workbooks</legacyBold></para>
+						</TD>
+						<TD>
+							<para>Make sure that each external reference contains a workbook name and the path to the workbook.</para>
+							<para>A reference to a workbook includes the name of the workbook and must be enclosed in brackets ([<legacyItalic>Workbookname.xlsx</legacyItalic>]). The reference must also contain the name of the worksheet in the workbook.</para>
+							<para>If the workbook that you want to refer to is not open in <token>Excel_generic</token>, you can still include a reference to it in a formula. You provide the full path to the file, such as in the following example: <legacyBold>=ROWS('C:\My Documents\[Q2 Operations.xlsx]Sales'!A1:A8)</legacyBold>. This formula returns the number of rows in the range that includes cells A1 through A8 in the other workbook (8).</para>
+							<alert class="note">
+								<para>If the full path contains space characters, as does the preceding example, you must enclose the path in single quotation marks (at the beginning of the path and after the name of the worksheet, before the exclamation point).</para>
+							</alert>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><legacyBold>Enter numbers without formatting</legacyBold></para>
+						</TD>
+						<TD>
+							<para>Do not format numbers when you enter them in formulas. For example, if the value that you want to enter is $1,000, enter <legacyBold>1000</legacyBold> in the formula. If you enter a comma as part of a number, <token>Excel_generic</token> treats it as a separator character. If you want numbers displayed so that they show thousands or millions separators, or currency symbols, format the cells after you enter the numbers.</para>
+							<para>For example, if you want to add 3100 to the value in cell A3, and you enter the formula <legacyBold>=SUM(3,100,A3)</legacyBold>, <token>Excel_generic</token> adds the numbers 3 and 100 and then adds that total to the value from A3, instead of adding 3100 to A3 which would be <legacyBold>=SUM(3100,A3)</legacyBold>. Or, if you enter the formula =ABS(-2,134), <token>Excel_generic</token> displays an error because the ABS function accepts only one argument: <legacyBold>=ABS(-2134)</legacyBold>.</para>
+						</TD>
+					</tr>
+				</tbody>
+			</table>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Correct common problems in formulas</title>
+		<content>
+			<para>You can implement certain rules to check for errors in formulas. These rules do not guarantee that your worksheet is error free, but they can go a long way toward finding common mistakes. You can turn any of these rules on or off individually.</para>
+			<para>Errors can be marked and corrected in two ways: one error at a time (like a spell checker), or immediately when they occur on the worksheet as you enter data.</para>
+			<para>You can resolve an error by using the options that Excel displays, or you can ignore the error by clicking <ui>Ignore Error</ui>. If you ignore an error in a particular cell, the error in that cell does not appear in further error checks. However, you can reset all previously ignored errors so that they appear again.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Turn error checking rules on or off</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>For Excel on Windows, Click <legacyBold>File</legacyBold> &gt; <legacyBold>Options</legacyBold> &gt; <legacyBold>Formulas</legacyBold>, or<br />
+	for Excel on Mac, click the <legacyBold>Excel menu &gt; Preferences &gt; Error Checking</legacyBold>. </para>
+					<para>In <token>TE000130082</token>, click the<legacyBold> Microsoft Office button</legacyBold> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af" /></mediaLinkInline>&gt; <legacyBold>Excel Options</legacyBold> &gt; <legacyBold>Formulas</legacyBold>.</para>
+				</listItem>
+				<listItem>
+					<para>Under <ui>Error Checking</ui>, check <ui>Enable background error checking</ui>. Any error that is found, will be marked with a triangle in the top-left corner of the cell.</para>
+					<mediaLink>
+						<image xlink:href="17c10934-24af-4ac2-afff-129b38360c11" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>To change the color of the triangle that marks where an error occurs, in the <legacyBold>Indicate errors using this color box</legacyBold>, select the color that you want.</para>
+				</listItem>
+				<listItem>
+					<para>Under <legacyBold>Excel checking rules</legacyBold>, select or clear the check boxes of any of the following rules:</para>
+					<list class="bullet">
+						<listItem>
+							<para><legacyBold>Cells containing formulas that result in an error</legacyBold>: A formula does not use the expected syntax, arguments, or data types. Error values include #DIV/0!, #N/A, #NAME?, #NULL!, #NUM!, #REF!, and #VALUE!. Each of these error values have different causes and are resolved in different ways.</para>
+							<alert class="note">
+								<para>If you enter an error value directly in a cell, it is stored as that error value but is not marked as an error. However, if a formula in another cell refers to that cell, the formula returns the error value from that cell.</para>
+							</alert>
+						</listItem>
+						<listItem>
+							<para><legacyBold>Inconsistent calculated column formula in tables</legacyBold>: A calculated column can include individual formulas that are different from the master column formula, which creates an exception. Calculated column exceptions are created when you do any of the following:</para>
+							<list class="bullet">
+								<listItem>
+									<para>Type data other than a formula in a calculated column cell.</para>
+								</listItem>
+								<listItem>
+									<para>Type a formula in a calculated column cell, and then use <legacyBold>Ctrl +Z</legacyBold> or click <ui>Undo</ui> <mediaLinkInline><image xlink:href="8b423e26-fab7-4633-a7f0-43442ca758e1" /></mediaLinkInline> on the <ui>Quick Access Toolbar</ui>.</para>
+								</listItem>
+								<listItem>
+									<para>Type a new formula in a calculated column that already contains one or more exceptions.</para>
+								</listItem>
+								<listItem>
+									<para>Copy data into the calculated column that does not match the calculated column formula. If the copied data contains a formula, this formula overwrites the data in the calculated column.</para>
+								</listItem>
+								<listItem>
+									<para>Move or delete a cell on another worksheet area that is referenced by one of the rows in a calculated column.</para>
+								</listItem>
+							</list>
+						</listItem>
+						<listItem>
+							<para><legacyBold>Cells containing years represented as 2 digits</legacyBold>: The cell contains a text date that can be misinterpreted as the wrong century when it is used in formulas. For example, the date in the formula =YEAR("1/1/31") could be 1931 or 2031. Use this rule to check for ambiguous text dates.</para>
+						</listItem>
+						<listItem>
+							<para><legacyBold>Numbers formatted as text or preceded by an apostrophe</legacyBold>: The cell contains numbers stored as text. This typically occurs when data is imported from other sources. Numbers that are stored as text can cause unexpected sorting results, so it is best to convert them to numbers. <legacyBold>‘=SUM(A1:A10)</legacyBold> is seen as text.</para>
+						</listItem>
+						<listItem>
+							<para><legacyBold>Formulas inconsistent with other formulas in the region</legacyBold>: The formula does not match the pattern of other formulas near it. In many cases, formulas that are adjacent to other formulas differ only in the references used. In the following example of four adjacent formulas, Excel displays an error next to the formula =SUM(A10:C10) in cell D4 because the adjacent formulas increment by one row, and that one increments by 8 rows — Excel expects the formula =SUM(A4:C4).</para>
+							<mediaLink>
+								<image xlink:href="faa8153c-bf85-4eb2-a958-17786a7e7af5" />
+							</mediaLink>
+							<para>If the references that are used in a formula are not consistent with those in the adjacent formulas, Excel displays an error.</para>
+						</listItem>
+						<listItem>
+							<para><legacyBold>Formulas which omit cells in a region</legacyBold>: A formula may not automatically include references to data that you insert between the original range of data and the cell that contains the formula. This rule compares the reference in a formula against the actual range of cells that is adjacent to the cell that contains the formula. If the adjacent cells contain additional values and are not blank, Excel displays an error next to the formula.</para>
+							<para>For example, Excel inserts an error next to the formula <legacyBold>=SUM(D2:D4)</legacyBold> when this rule is applied, because cells D5, D6, and D7 are adjacent to the cells that are referenced in the formula and the cell that contains the formula (D8), and those cells contain data that should have been referenced in the formula.</para>
+							<mediaLink>
+								<image xlink:href="82967f5c-40ab-4382-9b83-2b8c33202022" />
+							</mediaLink>
+						</listItem>
+						<listItem>
+							<para><legacyBold>Unlocked cells containing formulas</legacyBold>: The formula is not locked for protection. By default, all cells on a worksheet are locked so they can’t be changed when the worksheet is protected. This can help avoid inadvertent mistakes like accidentally deleting or altering formulas. This error indicates that the cell has been set to be unlocked, but the sheet has not been protected. Check to make sure that you do not want the cell locked or not.</para>
+						</listItem>
+						<listItem>
+							<para><legacyBold>Formulas referring to empty cells</legacyBold>: The formula contains a reference to an empty cell. This can cause unintended results, as shown in the following example.</para>
+							<para>Suppose you want to calculate the average of the numbers in the following column of cells. If the third cell is blank, it is not included in the calculation and the result is 22.75. If the third cell contains 0, the result is 18.2.</para>
+							<mediaLink>
+								<image xlink:href="5044978c-431d-4111-927a-f6f2c59ba598" />
+							</mediaLink>
+						</listItem>
+						<listItem>
+							<para><legacyBold>Data entered in a table is invalid</legacyBold>: There is a validation error in a table. Check the validation setting for the cell by going to the <ui>Data</ui> tab &gt; <ui>Data Tools</ui> group &gt; <ui>Data Validation</ui>.</para>
+						</listItem>
+					</list>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Correct common formula errors one by one</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Select the worksheet you want to check for errors.</para>
+				</listItem>
+				<listItem>
+					<para>If the worksheet is manually calculated, press F9 to recalculate.</para>
+					<para>If the <legacyBold>Error Checking</legacyBold> dialog is not displayed, then click on the <ui>Formulas</ui> tab &gt;<ui> Formula Auditing</ui> &gt; <ui>Error Checking</ui> button.</para>
+				</listItem>
+				<listItem>
+					<para>If you have previously ignored any errors, you can check for those errors again by doing the following: click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Formulas</ui>. For Excel on Mac, click the <legacyBold>Excel menu &gt; Preferences &gt; Error Checking</legacyBold>.</para>
+					<para>In the <ui>Error Checking</ui> section, click <ui>Reset Ignored Errors</ui> &gt; <ui>OK</ui>.</para>
+					<mediaLink>
+						<image xlink:href="e69fa32b-85f9-425a-9d0c-aba556bfd7b0" />
+					</mediaLink>
+					<alert class="note">
+						<para>Resetting ignored errors resets all errors in all sheets in the active workbook.</para>
+					</alert>
+					<alert class="tip">
+						<para>It might help if you move the <ui>Error Checking</ui> dialog box just below the formula bar.</para>
+					</alert>
+					<mediaLink>
+						<image xlink:href="f0beedbe-641b-4d9f-be78-cf22a131fec2" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>Click one of the action buttons in the right side of the dialog box. The available actions differ for each type of error.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Next</ui>.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<para>If you click <ui>Ignore Error</ui>, the error is marked to be ignored for each consecutive check.</para>
+			</alert>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Correct common formula errors individually</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Next to the cell, click the <legacyBold>Error Checking</legacyBold> button <mediaLinkInline><image xlink:href="b8e3cbc3-e489-4ba6-9005-6359b0458921" /></mediaLinkInline> that appears, and then click the option you want. The available commands differ for each type of error, and the first entry describes the error.</para>
+					<para>If you click <legacyBold>Ignore Error</legacyBold>, the error is marked to be ignored for each consecutive check.</para>
+					<mediaLink>
+						<image xlink:href="f0beedbe-641b-4d9f-be78-cf22a131fec2" />
+					</mediaLink>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Correct a # error value</title>
+		<content>
+			<para>If a formula cannot correctly evaluate a result, Excel displays an error value, such as #####, #DIV/0!, #N/A, #NAME?, #NULL!, #NUM!, #REF!, and #VALUE!. Each error type has different causes, and different solutions.</para>
+			<para>The following table contains links to articles that describe these errors in detail, and a brief description to get you started.</para>
+			<table border="1">
+				<tbody>
+					<tr>
+						<TH>
+							<para>Topic</para>
+						</TH>
+						<TH>
+							<para>Description</para>
+						</TH>
+					</tr>
+					<tr>
+						<TD>
+							<para><link xlink:href="bf801d0a-2a6e-44bd-a70e-0f780ae8f11e">Correct a #### error</link></para>
+						</TD>
+						<TD>
+							<para>Excel displays this error when a column is not wide enough to display all the characters in a cell, or a cell contains negative date or time values.</para>
+							<para>For example, a formula that subtracts a date in the future from a date in the past, such as =06/15/2008-07/01/2008, results in a negative date value.</para>
+							<alert class="tip">
+								<para>Try to auto-fit the cell by double-clicking between the column headers. If ### is displayed because Excel can’t display all of the characters this will correct it.</para>
+							</alert>
+							<mediaLink>
+								<image xlink:href="d7738e76-060b-40cd-a60b-389371c80526" />
+							</mediaLink>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><link xlink:href="3A5A18A9-8D80-4EBB-A908-39E759A009A5">Correct a #DIV/0! error</link></para>
+						</TD>
+						<TD>
+							<para>Excel displays this error when a number is divided either by zero (0) or by a cell that contains no value.</para>
+							<alert class="tip">
+								<para>Add an error handler like in the following example, which is =IF(C2,B2/C2,0)</para>
+							</alert>
+							<mediaLink>
+								<image xlink:href="c3a7cda8-6f27-4813-94c1-071480a63f49" />
+							</mediaLink>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><link xlink:href="8659a7b1-c47d-4e5f-a21b-0f17e15cbac0">Correct a #N/A error</link></para>
+						</TD>
+						<TD>
+							<para>Excel displays this error when a value is not available to a function or formula.</para>
+							<para>If you’re using a function like VLOOKUP, does what you’re trying to lookup have a match in the lookup range? Most often it doesn’t.</para>
+							<para>Try using IFERROR to suppress the #N/A. In this case you could use:</para>
+							<para><legacyBold>=IFERROR(VLOOKUP(D2,$D$6:$E$8,2,TRUE),0)</legacyBold></para>
+							<mediaLink>
+								<image xlink:href="2c612d9e-3aae-48d1-a5c6-927fe5a04b4b" />
+							</mediaLink>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><link xlink:href="b6d54e31-a743-4d7d-9b61-40002a7b4286">Correct a #NAME? error</link></para>
+						</TD>
+						<TD>
+							<para>This error is displayed when Excel does not recognize text in a formula. For example, a range name or the name of a function may be spelled incorrectly.</para>
+							<alert class="note">
+								<para>If you’re using a function, make sure the function name is spelled correctly. In this case SUM is spelled incorrectly. Remove the “e” and Excel will correct it.</para>
+							</alert>
+							<mediaLink>
+								<image xlink:href="2123b2a6-1d94-4b5b-8bd4-7bb1e5341bf9" />
+							</mediaLink>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><link xlink:href="f5193bfc-4400-43f4-88c4-8e1dcca0428b">Correct a #NULL! error</link></para>
+						</TD>
+						<TD>
+							<para>Excel displays this error when you specify an intersection of two areas that do not intersect (cross). The intersection operator is a space character that separates references in a formula.</para>
+							<alert class="note">
+								<para>Make sure your ranges are correctly separated - the areas C2:C3 and E4:E6 do not intersect, so entering the formula <legacyBold>=SUM(C2:C3 E4:E6)</legacyBold> returns the #NULL! error. Putting a comma between the C and E ranges will correct it <legacyBold>=SUM(C2:C3,E4:E6)</legacyBold></para>
+							</alert>
+							<mediaLink>
+								<image xlink:href="64a0121f-923e-4b50-a199-fafa296d0ed6" />
+							</mediaLink>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><link xlink:href="F5193BFC-4400-43F4-88C4-8E1DCCA0428B">Correct a #NUM! error</link></para>
+						</TD>
+						<TD>
+							<para>Excel displays this error when a formula or function contains invalid numeric values.</para>
+							<para>Are you using a function that iterates, such as IRR or RATE? If so, the #NUM! error is probably because the function can’t find a result. Refer to the help topic for resolution steps.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><link xlink:href="822C8E46-E610-4D02-BF29-EC4B8C5FF4BE">Correct a #REF! error</link></para>
+						</TD>
+						<TD>
+							<para>Excel displays this error when a cell reference is not valid. For example, you may have deleted cells that were referred to by other formulas, or you may have pasted cells that you moved on top of cells that were referred to by other formulas.</para>
+							<para>Did you accidentally delete a row or column? We deleted column B in this formula, =SUM(A2,B2,C2), and look what happened.</para>
+							<para>Either use <ui>Undo</ui> (Ctrl+Z) to undo the deletion, rebuild the formula, or use a continuous range reference like this: =SUM(A2:C2), which would have automatically updated when column B was deleted.</para>
+							<mediaLink>
+								<image xlink:href="5fe1eafc-21a1-48d5-98cf-e646fbe6cd0c" />
+							</mediaLink>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para><link xlink:href="15e1b616-fbf2-4147-9c0b-0a11a20e409e">Correct a #VALUE! error</link></para>
+						</TD>
+						<TD>
+							<para>Excel can display this error if your formula includes cells that contain different data types.</para>
+							<para>Are you using Math operators (+, -, *, /, ^) with different data types? If so, try using a function instead. In this case =SUM(F2:F5) would correct the problem.</para>
+							<mediaLink>
+								<image xlink:href="21e9d637-b56c-49c4-a8b8-e095b64aceda" />
+							</mediaLink>
+						</TD>
+					</tr>
+				</tbody>
+			</table>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Watch a formula and its result by using the Watch Window</title>
+		<content>
+			<para>When cells are not visible on a worksheet, you can watch those cells and their formulas in the Watch Window toolbar. The Watch Window makes it convenient to inspect, audit, or confirm formula calculations and results in large worksheets. By using the Watch Window, you don't need to repeatedly scroll or go to different parts of your worksheet.</para>
+			<mediaLink>
+				<image xlink:href="14034721-1ed0-4ddf-9717-86958387ee17" />
+			</mediaLink>
+			<para>This toolbar can be moved or docked like any other toolbar. For example, you can dock it on the bottom of the window. The toolbar keeps track of the following cell properties: 1) Workbook, 2) Sheet, 3) Name (if the cell has a corresponding Named Range), 4) Cell address, 5) Value, and 6) Formula.</para>
+			<alert class="note">
+				<para>You can have only one watch per cell.</para>
+			</alert>
+			<para><legacyBold>Add cells to the Watch Window</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cells that you want to watch.</para>
+					<para>To select all cells on a worksheet with formulas, on the <ui>Home</ui> tab, in the <ui>Editing</ui> group, click <ui>Find &amp; Select</ui> (or you can use <ui>Ctrl+G</ui>, or <ui>Control+G</ui> on the Mac)&gt; Go To <ui>Special</ui> &gt; <ui>Formulas</ui>.</para>
+					<mediaLink>
+						<image xlink:href="67fba400-b363-405e-afea-29254a00a299" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Formulas</ui> tab, in the <ui>Formula Auditing</ui> group, click <ui>Watch Window</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Add Watch</ui>.</para>
+					<mediaLink>
+						<image xlink:href="067be5ca-8fa2-4b5c-9351-9d4b52672fef" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>Confirm that you have selected all of the cells you want to watch and click <ui>Add</ui>.</para>
+					<mediaLink>
+						<image xlink:href="62a54461-68cc-447a-8b00-0304045293a8" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>To change the width of a Watch Window column, drag the boundary on the right side of the column heading.</para>
+				</listItem>
+				<listItem>
+					<para>To display the cell that an entry in Watch Window toolbar refers to, double-click the entry.</para>
+					<alert class="note">
+						<para>Cells that have external references to other workbooks are displayed in the Watch Window toolbar only when the other workbooks are open.</para>
+					</alert>
+				</listItem>
+			</list>
+			<para><legacyBold>Remove cells from the Watch Window</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>If the Watch Window toolbar is not displayed, on the <ui>Formulas</ui> tab, in the <ui>Formula Auditing</ui> group, click <ui>Watch Window</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Select the cells that you want to remove.</para>
+					<para>To select multiple cells, press CTRL and then click the cells.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Delete Watch</ui>.</para>
+					<mediaLink>
+						<image xlink:href="2e0350a7-2ca6-43f9-9fa9-72af1328723f" />
+					</mediaLink>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Evaluate a nested formula one step at a time</title>
+		<content>
+			<para>Sometimes, understanding how a nested formula calculates the final result is difficult because there are several intermediate calculations and logical tests. However, by using the <ui>Evaluate Formula</ui> dialog box, you can see the different parts of a nested formula evaluated in the order the formula is calculated. For example, the formula =IF(AVERAGE(D2:D5)&gt;50,SUM(E2:E5),0)is easier to understand when you can see the following intermediate results:</para>
+			<mediaLink>
+				<image xlink:href="9b4b1c73-8a77-4489-839d-ac4afed5548f" />
+			</mediaLink>
+			<table border="1">
+				<tbody>
+					<tr>
+						<TD>
+							<para><legacyBold>In the Evaluate Formula dialog box</legacyBold></para>
+						</TD>
+						<TD>
+							<para><legacyBold>Description</legacyBold></para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para>=IF(AVERAGE(D2:D5)&gt;50,SUM(E2:E5),0)</para>
+						</TD>
+						<TD>
+							<para>The nested formula is initially displayed. The AVERAGE function and the SUM function are nested within the IF function.</para>
+							<para>The cell range D2:D5 contains the values 55, 35, 45, and 25, and so the result of the <legacyBold>AVERAGE(D2:D5)</legacyBold> function is 40.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para>=IF(40&gt;50,SUM(E2:E5),0)</para>
+						</TD>
+						<TD>
+							<para>The cell range D2:D5 contains the values 55, 35, 45, and 25, and so the result of the AVERAGE(D2:D5) function is 40.</para>
+						</TD>
+					</tr>
+					<tr>
+						<TD>
+							<para>=IF(False,SUM(E2:E5),0)</para>
+						</TD>
+						<TD>
+							<para>Because 40 is not greater than 50, the expression in the first argument of the IF function (the logical_test argument) is False.</para>
+							<para>The IF function returns the value of the third argument (the value_if_false argument). The SUM function is not evaluated because it is the second argument to the IF function (value_if_true argument), and it is returned only when the expression is True.</para>
+						</TD>
+					</tr>
+				</tbody>
+			</table>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cell that you want to evaluate. Only one cell can be evaluated at a time.</para>
+				</listItem>
+				<listItem>
+					<para>Select the <ui>Formulas</ui> tab &gt; <ui>Formula Auditing</ui> &gt; <ui>Evaluate Formula</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Evaluate</ui> to examine the value of the underlined reference. The result of the evaluation is shown in italics.</para>
+					<para>If the underlined part of the formula is a reference to another formula, click Step In to display the other formula in the <ui>Evaluation</ui> box. Click <ui>Step Out</ui> to go back to the previous cell and formula.</para>
+					<para>The <ui>Step In</ui> button is not available for a reference the second time the reference appears in the formula, or if the formula refers to a cell in a separate workbook.</para>
+				</listItem>
+				<listItem>
+					<para>Continue clicking <ui>Evaluate</ui> until each part of the formula has been evaluated.</para>
+				</listItem>
+				<listItem>
+					<para>To see the evaluation again, click <ui>Restart</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>To end the evaluation, click <ui>Close</ui>.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<list class="bullet">
+					<listItem>
+						<para>Some parts of formulas that use the <legacyBold>IF</legacyBold> and <legacyBold>CHOOSE</legacyBold> functions are not evaluated — in these cases, #N/A is displayed in the Evaluation box.</para>
+					</listItem>
+					<listItem>
+						<para>If a reference is blank, a zero value (0) is displayed in the <legacyBold>Evaluation</legacyBold> box.</para>
+					</listItem>
+					<listItem>
+						<para>The following functions are recalculated each time the worksheet changes, and can cause the <ui>Evaluate Formula</ui> dialog box to give results different from what appears in the cell: <legacyBold>RAND</legacyBold>, <legacyBold>AREAS</legacyBold>, <legacyBold>INDEX</legacyBold>, <legacyBold>OFFSET</legacyBold>, <legacyBold>CELL</legacyBold>, <legacyBold>INDIRECT</legacyBold>, <legacyBold>ROWS</legacyBold>, <legacyBold>COLUMNS</legacyBold>, <legacyBold>NOW</legacyBold>, <legacyBold>TODAY</legacyBold>, <legacyBold>RANDBETWEEN</legacyBold>.</para>
+					</listItem>
+				</list>
+			</alert>
+		</content>
+	</section>
+	
+	
+	  <section>
+    <title>Need more help?</title>
+    <content>
+      <para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+    </content>
+  </section><section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="a59bef2b-3701-46bf-8ff1-d3518771d507">Display the relationships between formulas and cells</link></para>
+			<para><link xlink:href="8309381D-33E8-42F6-B889-84EF6DF1D586">How to avoid broken formulas</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="3ae257d2-ca94-49ff-a481-e9fc8adeeeb5" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="bmbacktotop">Consolidating data is a useful way to combine data from different sources into one report. For example, if you have a PivotTable of expense figures for each of your regional offices, you can use a data consolidation to roll up these figures into a corporate expense report. This report can contain sales totals and averages, current inventory levels, and highest selling products for the whole enterprise.</para>
+  </introduction>
+  
+  <section expanded="true">
+    <title>Learn about consolidating multiple ranges</title>
+    <content>
+      <para>To summarize and report results from separate worksheet ranges, you can consolidate data from each separate worksheet range into a PivotTable on a master worksheet. The separate worksheet ranges can be in the same workbook as the master worksheet or in a different workbook. When you consolidate data, you are assembling it so that you can more easily update and aggregate data regularly or as needed.</para>
+      <para>The resulting consolidated PivotTable report can have the following fields in the <ui>PivotTable Field List</ui>, which you can add to the PivotTable: Row, Column, and Value. In addition, the report can have up to four page filter fields, called Page1, Page2, Page3, and Page4.</para>
+      
+    </content>
+    <sections>
+      <section>
+        <title>Setting up the source data</title>
+        <content>
+          <para>Each range of data should be arranged in cross-tab format, with matching row and column names for items that you want to summarize together. Do not include any total rows or total columns from the source data when you specify the data for the report. The following example shows four ranges in cross-tab format.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="470a56f2-039a-46c2-af74-8d7f95783812">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Page fields in data consolidations</title>
+        <content>
+          <para>Data consolidation can use page fields that contain items representing one or more of the source ranges. For example, if you're consolidating budget data from the Marketing, Sales, and Manufacturing departments, a page field can include one item to show the data for each department, plus an item to show the combined data. The following example shows a consolidated PivotTable that has one page field and multiple items selected.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="7cfd100e-861a-4411-a458-1cac119840d1">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Using named ranges</title>
+        <content>
+          <para>If the range of data is likely to change the next time that you consolidate the data (that is, the number of rows may change), consider defining a <token>TE000126969</token> for each source range in the separate worksheets. Then use those names when you consolidate the ranges in the master worksheet. If a source range expands, you can update the range for the name in the separate worksheet to include the new data before you refresh the PivotTable.</para>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Other ways to consolidate data</title>
+        <content>
+          <para>Excel also provides other ways to consolidate data that work with data in multiple formats and layouts. For example, you can create formulas with 3D references, or you can use the <ui>Consolidate</ui> command (on the <ui>Data</ui> tab, in the <ui>Data Tools</ui> group).</para>
+          
+          
+        </content>
+        <sections />
+      </section>
+    </sections>
+  </section>
+  <section address="bm2">
+    <title>Consolidate multiple ranges</title>
+    <content>
+      <para>You can use the PivotTable and PivotChart Wizard to consolidate multiple ranges. In the wizard, you can choose between using no page fields, a single page field, or multiple page fields.</para>
+    </content>
+    <sections>
+      <section>
+        <title>Consolidate data without using page fields</title>
+        <content>
+          <para>To combine the data from all the ranges and create a consolidation that does not have page fields, do the following:</para>
+          <list class="ordered">
+            <listItem>
+              <para>Add the PivotTable and PivotChart Wizard to the Quick Access Toolbar. To do that:</para><list class="ordered">
+                <listItem>
+                  <para>Click the arrow next to the toolbar and then click <ui>More Commands</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>Under <ui>Choose commands from</ui>, select <ui>All Commands</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>In the list, select <ui>PivotTable and PivotChart Wizard</ui>, click <ui>Add</ui>, and then click <ui>OK</ui>.</para>
+                </listItem>
+              </list>
+            </listItem>
+            <listItem>
+              <para>Click a blank cell (that is not part of a PivotTable) in the workbook.</para></listItem><listItem><para>Click on the PivotTable Table and PivotChard wizard icon on the Quick Access Toolbar.</para>
+              
+              
+              
+            </listItem>
+            <listItem>
+              <para>On <ui>Step 1</ui> page of the wizard, click <ui>Multiple consolidation ranges</ui>, and then click <ui>Next</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On <ui>Step 2a</ui> page of the wizard, click <ui>I will create the page fields</ui>, and then click <ui>Next</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On <ui>Step 2b</ui> page of the wizard, do the following:</para>
+              <list class="ordered">
+                <listItem>
+                  <para>Go back to the workbook and select the cell range, and then back on the PivotTable and PivotChart Wizard, click <ui>Add</ui>.</para>
+                  <alert class="tip">
+      <para>If the cell range is in another workbook, open the workbook first to make it easier to make select the data. </para>
+    </alert>
+                </listItem>
+                <listItem>
+                  <para address="__goback">Under <ui>How many page fields do you want?</ui>, click <ui>0</ui>, and then click <ui>Next</ui>.</para>
+                </listItem>
+              </list>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Step 3</ui> page of the wizard, select between adding the PivotTable to a  new or an existing worksheet, and then click <ui>Finish</ui>.</para>
+            </listItem>
+          </list>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Consolidate data by using a single page field</title>
+        <content>
+          <para>To include a single page field that has an item for each source range, plus an item that consolidates all the ranges, do the following:</para>
+          <list class="ordered">
+            <listItem>
+              
+              <para>Add the PivotTable and PivotChart Wizard to the Quick Access Toolbar. To do that:</para><list class="ordered">
+                <listItem>
+                  <para>Click the arrow next to the toolbar and then click <ui>More Commands</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>Under <ui>Choose commands from</ui>, select <ui>All Commands</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>In the list, select <ui>PivotTable and PivotChart Wizard</ui>, click <ui>Add</ui>, and then click <ui>OK</ui>.</para>
+                </listItem>
+              </list>
+            </listItem><listItem><para>Click a blank cell (that is not part of a PivotTable) in the workbook .</para>
+            </listItem>
+            
+            <listItem>
+              <para>On <ui>Step 1</ui> page of the wizard, click <ui>Multiple consolidation ranges</ui>, and then click <ui>Next</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On <ui>Step 2a</ui> page of the wizard, click <ui>Create a single page field for me</ui>, and then click <ui>Next</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On <ui>Step 2b</ui> page of the wizard, do the following:</para>
+              <list class="ordered">
+                <listItem>
+                  <para>Go back to the workbook and select the cell range, and then back on the PivotTable and PivotChart Wizard, click <ui>Add</ui>.</para>
+                  
+                  
+                <alert class="tip">
+      <para>If the cell range is in another workbook, open the workbook first to make it easier to make select the data. </para>
+    </alert></listItem>
+              </list>
+            </listItem>
+            <listItem>
+              <para>Click <ui>Next</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Step 3</ui> page of the wizard, select between adding the PivotTable to a  new or an existing worksheet, and then click <ui>Finish</ui>.</para>
+            </listItem>
+          </list>
+        </content>
+        <sections />
+      </section>
+      <section>
+        <title>Consolidate data by using multiple page fields</title>
+        <content>
+          <para>You can create multiple page fields and assign your own item names for each source range. This lets you create partial or full consolidations; for example, one page field that consolidates Marketing and Sales apart from Manufacturing, and another page field that consolidates all three departments. To create a consolidation that uses multiple page fields, do the following:</para>
+          <list class="ordered">
+            <listItem>
+              
+              <para>Add the PivotTable and PivotChart Wizard to the Quick Access Toolbar. To do that:</para><list class="ordered">
+                <listItem>
+                  <para>Click the arrow next to the toolbar and then click <ui>More Commands</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>Under <ui>Choose commands from</ui>, select <ui>All Commands</ui>.</para>
+                </listItem>
+                <listItem>
+                  <para>In the list, select <ui>PivotTable and PivotChart Wizard</ui>, click <ui>Add</ui>, and then click <ui>OK</ui>.</para>
+                </listItem>
+              </list>
+            </listItem><listItem><para>Click a blank cell (that is not part of a PivotTable) in the workbook.</para>
+            </listItem>
+            
+            <listItem>
+              <para>On <ui>Step 1</ui> page of the wizard, click <ui>Multiple consolidation ranges</ui>, and then click <ui>Next</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On <ui>Step 2a</ui> page of the wizard, click <ui>I will create the page fields</ui>, and then click <ui>Next</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On <ui>Step 2b</ui> page of the wizard, do the following:</para>
+              <list class="ordered">
+                <listItem>
+                  <para>Go back to the workbook and select the cell range, and then back on the PivotTable and PivotChart Wizard, click <ui>Add</ui>.</para>
+                  <alert class="tip">
+      <para>If the cell range is in another workbook, open the workbook first to make it easier to make select the data. </para>
+    </alert>
+                </listItem>
+                <listItem>
+                  <para>Under <ui>How many page fields do you want?</ui>, click the number of page fields that you want to use.</para>
+                </listItem>
+                <listItem>
+                  <para>Under <ui>What item labels do you want each page field to use to identify the selected data range?</ui>, for each page field, select the cell range, and then enter a name for that range.</para>
+                  <para>
+                    <legacyBold>Example</legacyBold>
+                  </para>
+                  <list class="bullet">
+                    <listItem>
+                      <para>If you selected <ui>1</ui> under <ui>How many page fields do you want?</ui>, select each range, and then enter a different name in the <ui>Field One</ui> box. If you have four ranges and each one corresponds to a different quarter of the fiscal year, select the first range, enter Q1, select the second range, enter Q2, and repeat the process for Q3 and Q4.</para>
+                    </listItem>
+                    <listItem>
+                      <para>If you selected <ui>2</ui> under <ui>How many page fields do you want?</ui>, do the same as the previous example in the <ui>Field one</ui> box. Then, select two ranges, and enter the same name, such as H1 and H2, in the <ui>Field two</ui> box. Select the first range, enter H1, select the second range, enter H1, select the third range, enter H2, select the fourth range, and then enter H2.</para>
+                    </listItem>
+                  </list>
+                </listItem>
+                <listItem>
+                  <para>Click <ui>Next</ui>.</para>
+                </listItem>
+              </list>
+            </listItem>
+            <listItem>
+              <para>On the <ui>Step 3</ui> page of the wizard, select  between adding the PivotTable to a  new or an existing worksheet, and then click <ui>Finish</ui>.</para>
+            </listItem>
+          </list>
+          <para>
+            <link xlink:href="3ae257d2-ca94-49ff-a481-e9fc8adeeeb5#__top">Top of Page</link>
+          </para>
+        </content>
+        
+      </section>
+    </sections>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

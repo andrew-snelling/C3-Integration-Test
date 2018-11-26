@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="ba21bcba-f325-4d9f-93df-97074589a70e" revisionNumber="15"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>Funnel charts show values across multiple stages in a process. For example, you could use a funnel chart to show the number of sales prospects at each stage in a sales pipeline.  Typically, the values decrease gradually, allowing the bars to resemble a funnel.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="972f3492-4573-485e-91df-0c51aa84ed99" />
+      </mediaLinkInline>
+    </para>
+    <tokenBlock>O365Upsell_Excel</tokenBlock>
+  </introduction>
+  <section expanded="true">
+    <title>Insert a funnel chart in Excel for Windows</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Set up your data like the above example. Use one column for the stages in the process, and one for the values. </para>
+        </listItem>
+        <listItem>
+          <para>Select the data.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Insert</ui> &gt; <ui>Insert Waterfall or Stock chart</ui> &gt; <ui>Funnel</ui>. </para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="b15ba29d-7c8c-47a7-922e-c666157f0263" />
+            </mediaLinkInline>
+          </para>
+          <alert class="tip">
+            <para>In Excel, use the <ui>Design</ui> and <ui>Format</ui> tabs to customize the look of your chart. If you don't see these tabs, click anywhere in the funnel chart, and then the <ui>Chart Tools</ui> will appear at the top of the program:<br /><mediaLinkInline><image xlink:href="fd7db992-63b2-4e28-a877-a2ae13d6b7ef" /></mediaLinkInline></para>
+          </alert>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <section expanded="true">
+<title>Insert a funnel chart in Excel for Mac</title><content><list class="ordered"><listItem><para>Set up your data like the above example. Use one column for the stages in the process, and one for the values. </para></listItem><listItem><para>Select the data.</para></listItem><listItem><para>On the ribbon, click the <ui>Insert</ui> tab, then click <mediaLinkInline>
+<image xlink:href="6bf78a0e-223c-4ab1-a4d5-5f68a62e018b" />
+</mediaLinkInline> (the <ui>Waterfall</ui> icon) and select <ui>Funnel</ui>. </para><alert class="tip">
+ <para>In Excel for Mac, use the <ui>Chart Design</ui> and <ui>Format</ui> tabs to customize the look of your chart. If you don't see these tabs, click anywhere in the funnel chart and the tabs will appear on the ribbon.</para>
+</alert></listItem></list></content>
+</section><section expanded="true">
+    <title>Insert a funnel chart in Excel Mobile and Excel for Android</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Set up your data like the above example. Use one column for the stages in the process, and one for the values. </para>
+        </listItem>
+        <listItem>
+          <para>Select the data.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Insert</ui> &gt; <ui>Chart</ui> &gt; <ui>Funnel</ui>. </para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <section expanded="true">
+    <title>Insert a funnel chart in Outlook, PowerPoint, and Word</title>
+    <content>
+      <alert class="note">
+        <para>This feature is only available in these applications if you have an <externalLink><linkText>Office 365 subscription</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink>. If you are an Office 365 subscriber, <link xlink:href="ee68f6cf-422f-464a-82ec-385f65391350">make sure you have the latest version of Office</link>.</para>
+      </alert>
+      <list class="ordered">
+        <listItem>
+          <para>Click  an empty space in an email message, presentation, or document. </para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Insert</ui> &gt; <ui>Chart </ui>&gt; <ui>Funnel</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>The funnel chart will appear. And, a small window with example data will appear. Change the numbers to your own.</para>
+          <alert class="tip">
+            <para>At the top of the data window is the <ui>Edit Data in Microsoft Excel</ui> button <mediaLinkInline><image xlink:href="63c765ee-fd17-4209-80dd-efc5da84d4fa" /></mediaLinkInline>. Click this button if you want more room to work with the data.</para>
+          </alert>
+        </listItem>
+        <listItem>
+          <para>To add the names of the stages, right-click anywhere in column A, and then click <ui>Insert</ui>.
+</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Entire column</ui>, and then click <ui>OK</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>Type the names of the stages in cells A2, A3, and so on.</para>
+        </listItem>
+        <listItem>
+          <para>At the top of the program window, click the <ui>Design </ui>tab.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Select Data</ui>. </para>
+          <alert class="note">
+            <para>In PowerPoint, you may have to move the small data window down to see the <ui>Select Data</ui> button.</para>
+          </alert>
+          <para>The <ui>Select Data Source</ui> window will appear. And, dashed lines will appear around the second column of data.</para>
+        </listItem>
+        <listItem>
+          <para>In the data, click and drag to select both columns: the stages and the values.
+When you're done, the dashed lines should surround the two columns.</para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Select Data Source</ui> window, click <ui>OK</ui> to close it.
+</para>
+        </listItem>
+        <listItem>
+          <para>Now close the data window. Or, if you opened Excel to edit your data, close the Excel window.</para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

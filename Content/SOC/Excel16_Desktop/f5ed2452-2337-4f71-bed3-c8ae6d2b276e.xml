@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f5ed2452-2337-4f71-bed3-c8ae6d2b276e" revisionNumber="8"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>When you <link xlink:href="e81aa349-b006-4f8a-9806-5af9df0ac664">create an Excel table</link>, Excel assigns a name to the table, and to each column header in the table. When you add formulas to an Excel table, those names can appear automatically as you enter the formula and select the cell references in the table instead of manually entering them. Here's an example of what Excel does:</para>
+    <table>
+      <thead>
+        <tr>
+          <TD>
+            <para>
+              <legacyBold>Instead of using explicit cell references</legacyBold>
+            </para>
+          </TD>
+          <TD>
+            <para>
+              <legacyBold>Excel uses table and column names</legacyBold>
+            </para>
+          </TD>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <TD>
+            <para>=Sum(C2:C7)</para>
+          </TD>
+          <TD>
+            <para>=SUM(DeptSales[Sales Amount])</para>
+          </TD>
+        </tr>
+      </tbody>
+    </table>
+    <para>That combination of table and column names is called a structured reference. The names in structured references adjust whenever you add or remove data from the table.</para>
+    <para>Structured references also appear when you create a formula outside of an Excel table that references table data. The references can make it easier to locate tables in a large workbook.</para>
+    <para>To include structured references in your formula, click the table cells you want to reference instead of typing their cell reference in the formula. Let’s use the following example data to enter a formula that automatically uses structured references to calculate the amount of a sales commission.</para>
+    <table>
+      <thead>
+        <tr>
+          <TD>
+            <para>
+              <legacyBold>Sales</legacyBold>
+              <legacyBold>Person</legacyBold>
+            </para>
+          </TD>
+          <TD>
+            <para>
+              <legacyBold>Region</legacyBold>
+            </para>
+          </TD>
+          <TD>
+            <para>
+              <legacyBold>Sales </legacyBold>
+              <legacyBold>Amount</legacyBold>
+            </para>
+          </TD>
+          <TD>
+            <para>
+              <legacyBold>% Commission</legacyBold>
+            </para>
+          </TD>
+          <TD>
+            <para>
+              <legacyBold>Commission Amount </legacyBold>
+            </para>
+          </TD>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <TD>
+            <para>Joe</para>
+          </TD>
+          <TD>
+            <para>North</para>
+          </TD>
+          <TD>
+            <para>260</para>
+          </TD>
+          <TD>
+            <para>10%</para>
+          </TD>
+          <TD />
+        </tr>
+        <tr>
+          <TD>
+            <para>Robert</para>
+          </TD>
+          <TD>
+            <para>South</para>
+          </TD>
+          <TD>
+            <para>660</para>
+          </TD>
+          <TD>
+            <para>15%</para>
+          </TD>
+          <TD />
+        </tr>
+        <tr>
+          <TD>
+            <para>Michelle</para>
+          </TD>
+          <TD>
+            <para>East</para>
+          </TD>
+          <TD>
+            <para>940</para>
+          </TD>
+          <TD>
+            <para>15%</para>
+          </TD>
+          <TD />
+        </tr>
+        <tr>
+          <TD>
+            <para>Erich</para>
+          </TD>
+          <TD>
+            <para>West</para>
+          </TD>
+          <TD>
+            <para>410</para>
+          </TD>
+          <TD>
+            <para>12%</para>
+          </TD>
+          <TD />
+        </tr>
+        <tr>
+          <TD>
+            <para>Dafna</para>
+          </TD>
+          <TD>
+            <para>North</para>
+          </TD>
+          <TD>
+            <para>800</para>
+          </TD>
+          <TD>
+            <para>15%</para>
+          </TD>
+          <TD />
+        </tr>
+        <tr>
+          <TD>
+            <para>Rob</para>
+          </TD>
+          <TD>
+            <para>South</para>
+          </TD>
+          <TD>
+            <para>900</para>
+          </TD>
+          <TD>
+            <para>15%</para>
+          </TD>
+          <TD />
+        </tr>
+      </tbody>
+    </table>
+    <list class="ordered">
+      <listItem>
+        <para>Copy the sample data in the table above, including the column headings, and paste it into cell A1 of a new Excel worksheet.</para>
+      </listItem>
+      <listItem>
+        <para>To create the table, select any cell within the data range, and press <ui>Ctrl+T</ui>.</para>
+      </listItem>
+      <listItem>
+        <para>Make sure the <ui>My table has headers</ui> box is checked, and click <ui>OK</ui>.</para>
+      </listItem>
+      <listItem>
+        <para>In cell E2, type an equal sign (<legacyBold>=</legacyBold>), and click cell C2.</para>
+        <para>In the formula bar, the structured reference <literal>[@[Sales Amount]]</literal> appears after the equal sign.</para>
+      </listItem>
+      <listItem>
+        <para>Type an asterisk (<legacyBold>*</legacyBold>) directly after the closing bracket, and click cell D2.</para>
+        <para>In the formula bar, the structured reference <literal>[@[% Commission]]</literal> appears after the asterisk.</para>
+      </listItem>
+      <listItem>
+        <para>Press <ui>Enter</ui>.</para>
+        <para>Excel automatically creates a calculated column and copies the formula down the entire column for you, adjusting it for each row.</para>
+      </listItem>
+    </list>
+  </introduction>
+  <section address="__toc384908003">
+    <title>What happens when I use explicit cell references?</title>
+    <content>
+      <para>If you enter explicit cell references in a calculated column, it can be harder to see what the formula is calculating.</para>
+      <list class="ordered">
+        <listItem>
+          <para>In your sample worksheet, click cell E2</para>
+        </listItem>
+        <listItem>
+          <para>In the formula bar, enter <literal>=C2*D2</literal> and press <ui>Enter</ui>.</para>
+        </listItem>
+      </list>
+      <para>Notice that while Excel copies your formula down the column, it doesn't use structured references. If, for example, you add a column between the existing columns C and D, you'd have to revise your formula.</para>
+    </content>
+  </section>
+  <section address="__toc384648761">
+    <title>How do I change a table name?</title>
+    <content>
+      <para>When you create an Excel table, Excel creates a default table name (Table1, Table2, and so on), but you can change the table name to make it more meaningful.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Select any cell in the table to show the <ui>Table Tools </ui> &gt; <ui>Design</ui> tab on the ribbon.</para>
+        </listItem>
+        <listItem>
+          <para>Type the name you want in the <ui>Table Name</ui> box, and press <ui>Enter</ui>.</para>
+        </listItem>
+      </list>
+      <para>In our example data, we used the name <literal>DeptSales</literal><legacyBold>.</legacyBold></para>
+      <para>
+        <legacyBold>Use the following rules for table names:</legacyBold>
+      </para>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <legacyBold>Use valid characters</legacyBold>  Always start a name with a letter, an underscore character (<legacyBold>_</legacyBold>), or a backslash (<legacyBold>\</legacyBold>). Use letters, numbers, periods, and underscore characters for the rest of the name. You can’t use "C", "c", "R", or "r" for the name, because they’re already designated as a shortcut for selecting the column or row for the active cell when you enter them in the <legacyBold>Name</legacyBold> or <legacyBold>Go To</legacyBold> box.</para>
+        </listItem>
+      </list>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <legacyBold>Don’t use cell references</legacyBold>  Names can’t be the same as a cell reference, such as Z$100 or R1C1.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <legacyBold>Don’t use a space to separate words</legacyBold>  Spaces can’t be used in the name. You can use the underscore character (<legacyBold>_</legacyBold>) and period (<legacyBold>.</legacyBold>) as word separators. For example, DeptSales, Sales_Tax or First.Quarter.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <legacyBold>Use no more than 255 characters</legacyBold> A table name can have up to 255 characters.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <legacyBold>Use unique table names</legacyBold> Duplicate names aren’t allowed. Excel doesn’t distinguish between upper and lowercase characters in names so if you enter “Sales” but already have another name called “SALES" in the same workbook, you’ll be prompted to choose a unique name.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <legacyBold>Use an object identifier</legacyBold>  If you plan on having a mix of tables, PivotTables and charts, it's a good idea to prefix your names with the object type. For example: tbl_Sales for a sales table, pt_Sales for a sales PivotTable, and chrt_Sales for a sales chart, or ptchrt_Sales for a sales PivotChart. This keeps all of your names in an ordered list in the <link xlink:href="4d0f13ac-53b7-422e-afd2-abd7ff379c64">Name Manager</link>.</para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <section address="__toc384648768">
+    <title>Structured reference syntax rules</title>
+    <content>
+      <para>You can also enter or change structured references manually in the formula but to do that, it will help to understand structured reference syntax. Let’s go over the following formula example:</para>
+      <para>=SUM(DeptSales[[#Totals],[Sales Amount]],DeptSales[[#Data],[Commission Amount]])</para>
+      <para>This formula has the following structured reference components:</para>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <embeddedLabel>Table name:</embeddedLabel>
+            <literal>DeptSales </literal>is a custom table name. It references the table data, without any header or total rows. You can use a default table name, such as Table1, or change it to use a custom name.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Column specifier:</embeddedLabel>
+            <literal>[Sales Amount]</literal>
+            <legacyBold> and </legacyBold>
+            <literal>[Commission Amount</literal>] are column specifiers that use the names of the columns they represent. They reference the column data, without any column header or total row. Always enclose specifiers in brackets as shown.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Item specifier:</embeddedLabel>
+            <literal>[#Totals]</literal> and <literal>[#Data]</literal> are special item specifiers that refer to specific portions of the table, such as the total row.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Table specifier:</embeddedLabel>
+            <literal>[[#Totals],[Sales Amount]]</literal> and <literal>[[#Data],[Commission Amount]]</literal> are table specifiers that represent the outer portions of the structured reference. Outer references follow the table name, and you enclose them in square brackets.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Structured reference:</embeddedLabel>
+            <literal>(DeptSales[[#Totals],[Sales Amount]]</literal> and <literal>DeptSales[[#Data],[Commission Amount]]</literal> are structured references, represented by a string that begins with the table name and ends with the column specifier.</para>
+        </listItem>
+      </list>
+      <para address="__change_table_names">To create or edit structured references manually, use these syntax rules:</para>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <embeddedLabel>Use brackets around specifiers</embeddedLabel> All table, column, and special item specifiers need to be enclosed in matching brackets ([ ]). A specifier that contains other specifiers requires outer matching brackets to enclose the inner matching brackets of the other specifiers. For example: <literal>=DeptSales[[Sales Person]:[Region]]</literal></para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>All column headers are text strings</embeddedLabel> But they don’t require quotes when they’re used in a structured reference. Numbers or dates, such as 2014 or 1/1/2014, are also considered text strings. You can’t use expressions with column headers. For example, the expression <literal>DeptSalesFYSummary[[2014]:[2012]]</literal> won’t work.</para>
+        </listItem>
+      </list>
+      <para>
+        <embeddedLabel>Use brackets around column headers with special characters</embeddedLabel> If there are special characters, the entire column header needs to be enclosed in brackets, which means that double brackets are required in a column specifier. For example: <literal>=DeptSalesFYSummary[[Total $ Amount]]</literal></para>
+      <para>Here’s the list of special characters that need extra brackets in the formula:</para>
+      <list class="bullet">
+        <listItem>
+          <para>Tab</para>
+        </listItem>
+        <listItem>
+          <para>Line feed</para>
+        </listItem>
+        <listItem>
+          <para>Carriage return</para>
+        </listItem>
+        <listItem>
+          <para>Comma (,)</para>
+        </listItem>
+        <listItem>
+          <para>Colon (:)</para>
+        </listItem>
+        <listItem>
+          <para>Period (.)</para>
+        </listItem>
+        <listItem>
+          <para>Left bracket ([)</para>
+        </listItem>
+        <listItem>
+          <para>Right bracket (])</para>
+        </listItem>
+        <listItem>
+          <para>Pound sign (#)</para>
+        </listItem>
+        <listItem>
+          <para>Single quotation mark (')</para>
+        </listItem>
+        <listItem>
+          <para>Double quotation mark (")</para>
+        </listItem>
+        <listItem>
+          <para>Left brace ({)</para>
+        </listItem>
+        <listItem>
+          <para>Right brace (})</para>
+        </listItem>
+        <listItem>
+          <para>Dollar sign ($)</para>
+        </listItem>
+        <listItem>
+          <para>Caret (^)</para>
+        </listItem>
+        <listItem>
+          <para>Ampersand (&amp;)</para>
+        </listItem>
+        <listItem>
+          <para>Asterisk (*)</para>
+        </listItem>
+        <listItem>
+          <para>Plus sign (+)</para>
+        </listItem>
+        <listItem>
+          <para>Equal sign (=)</para>
+        </listItem>
+        <listItem>
+          <para>Minus sign (-)</para>
+        </listItem>
+        <listItem>
+          <para>Greater than symbol (&gt;)</para>
+        </listItem>
+        <listItem>
+          <para>Less than symbol (&lt;)</para>
+        </listItem>
+        <listItem>
+          <para>Division sign (/)</para>
+        </listItem>
+      </list>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <embeddedLabel>Use an escape character for some special characters in column headers</embeddedLabel> Some characters have special meaning and require the use of a single quotation mark (') as an escape character. For example: <literal>=DeptSalesFYSummary['#OfItems]</literal></para>
+        </listItem>
+      </list>
+      <para>
+        <legacyBold>Here’s the list of special characters that need an escape character (‘) in the formula:</legacyBold>
+      </para>
+      <list class="bullet">
+        <listItem>
+          <para>Left bracket ([)</para>
+        </listItem>
+        <listItem>
+          <para>Right bracket (])</para>
+        </listItem>
+        <listItem>
+          <para>Pound sign(#)</para>
+        </listItem>
+        <listItem>
+          <para>Single quotation mark (')</para>
+        </listItem>
+      </list>
+      <para>
+        <embeddedLabel>Use the space character to improve readability in a structured reference</embeddedLabel> You can use space characters to improve the readability of a structured reference. For example: <literal>=DeptSales[ [Sales Person]:[Region] ]</literal> or <literal>=DeptSales[[#Headers], [#Data], [% Commission]]</literal></para>
+      <para>It’s recommended to use one space:</para>
+      <list class="bullet">
+        <listItem>
+          <para>After the first left bracket ([)</para>
+        </listItem>
+        <listItem>
+          <para>Preceding the last right bracket (]).</para>
+        </listItem>
+        <listItem>
+          <para>After a comma.</para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <section address="__toc384908006">
+    <title>Reference operators</title>
+    <content>
+      <para>For more flexibility in specifying ranges of cells, you can use the following reference operators to combine column specifiers.</para>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>This structured reference:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Refers to:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>By using the:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Which is cell range:</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>=DeptSales[[Sales Person]:[Region]]</para>
+            </TD>
+            <TD>
+              <para>All of the cells in two or more adjacent columns</para>
+            </TD>
+            <TD>
+              <para>: (colon) range operator</para>
+            </TD>
+            <TD>
+              <para>A2:B7</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[Sales Amount],DeptSales[Commission Amount]</para>
+            </TD>
+            <TD>
+              <para>A combination of two or more columns</para>
+            </TD>
+            <TD>
+              <para>, (comma) union operator</para>
+            </TD>
+            <TD>
+              <para>C2:C7, E2:E7</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[[Sales Person]:[Sales Amount]] DeptSales[[Region]:[% Commission]]</para>
+            </TD>
+            <TD>
+              <para>The intersection of two or more columns</para>
+            </TD>
+            <TD>
+              <para> (space) intersection operator</para>
+            </TD>
+            <TD>
+              <para>B2:C7</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+    </content>
+  </section>
+  <section address="__toc384648764">
+    <title>Special item specifiers</title>
+    <content>
+      <para>To refer to specific portions of a table, such as just the totals row, you can use any of the following special item specifiers in your structured references.</para>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>This special item specifier:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Refers to:</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>#All</para>
+            </TD>
+            <TD>
+              <para>The entire table, including column headers, data, and totals (if any).</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>#Data</para>
+            </TD>
+            <TD>
+              <para>Just the data rows.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>#Headers</para>
+            </TD>
+            <TD>
+              <para>Just the header row.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>#Totals</para>
+            </TD>
+            <TD>
+              <para>Just the total row. If none exists, then it returns null.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>#This Row</para>
+              <para>or</para>
+              <para>@</para>
+              <para>or</para>
+              <para>@[Column Name]</para>
+            </TD>
+            <TD>
+              <para>Just the cells in the same row as the formula. These specifiers can’t be combined with any other special item specifiers. Use them to force implicit intersection behavior for the reference or to override implicit intersection behavior and refer to single values from a column.</para>
+              <para>Excel automatically changes #This Row specifiers to the shorter @ specifier in tables that have more than one row of data. But if your table has only one row, Excel doesn’t replace the #This Row specifier, which may cause unexpected calculation results when you add more rows. To avoid calculation problems, make sure you enter multiple rows in your table before you enter any structured reference formulas.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+    </content>
+  </section>
+  <section address="__toc384648765">
+    <title>Qualifying structured references in calculated columns</title>
+    <content>
+      <para>When you create a calculated column, you often use a structured reference to create the formula. This structured reference can be unqualified or fully qualified. For example, to create the calculated column, called Commission Amount, that calculates the amount of commission in dollars, you can use the following formulas:</para>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Type of structured reference</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Example</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Comment</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Unqualified</para>
+            </TD>
+            <TD>
+              <para>=[Sales Amount]*[% Commission]</para>
+            </TD>
+            <TD>
+              <para>Multiplies the corresponding values from the current row.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Fully qualified</para>
+            </TD>
+            <TD>
+              <para>=DeptSales[Sales Amount]*DeptSales[% Commission]</para>
+            </TD>
+            <TD>
+              <para>Multiples the corresponding values for each row for both columns.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <para>The general rule to follow is this: If you’re using structured references within a table, such as when you create a calculated column, you can use an unqualified structured reference, but if you use the structured reference outside of the table, you need to use a fully qualified structured reference.</para>
+    </content>
+  </section>
+  <section address="__examples_of_using">
+    <title>Examples of using structured references</title>
+    <content>
+      <para>Here are some ways to use structured references.</para>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>This structured reference:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Refers to:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Which is cell range:</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>=DeptSales[[#All],[Sales Amount]]</para>
+            </TD>
+            <TD>
+              <para>All the cells in the Sales Amount column.</para>
+            </TD>
+            <TD>
+              <para>C1:C8</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[[#Headers],[% Commission]]</para>
+            </TD>
+            <TD>
+              <para>The header of the % Commission column.</para>
+            </TD>
+            <TD>
+              <para>D1</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[[#Totals],[Region]]</para>
+            </TD>
+            <TD>
+              <para>The total of the Region column. If there is no Totals row, then it returns null.</para>
+            </TD>
+            <TD>
+              <para>B8</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[[#All],[Sales Amount]:[% Commission]]</para>
+            </TD>
+            <TD>
+              <para>All the cells in Sales Amount and % Commission.</para>
+            </TD>
+            <TD>
+              <para>C1:D8</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[[#Data],[% Commission]:[Commission Amount]]</para>
+            </TD>
+            <TD>
+              <para>Just the data of the % Commission and Commission Amount columns.</para>
+            </TD>
+            <TD>
+              <para>D2:E7</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[[#Headers],[Region]:[Commission Amount]]</para>
+            </TD>
+            <TD>
+              <para>Just the headers of the columns between Region and Commission Amount.</para>
+            </TD>
+            <TD>
+              <para>B1:E1</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[[#Totals],[Sales Amount]:[Commission Amount]]</para>
+            </TD>
+            <TD>
+              <para>The totals of the Sales Amount through Commission Amount columns. If there is no Totals row, then it returns null.</para>
+            </TD>
+            <TD>
+              <para>C8:E8</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[[#Headers],[#Data],[% Commission]]</para>
+            </TD>
+            <TD>
+              <para>Just the header and the data of % Commission.</para>
+            </TD>
+            <TD>
+              <para>D1:D7</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>=DeptSales[[#This Row], [Commission Amount]]</para>
+              <para>or</para>
+              <para>=DeptSales[@Commission Amount]</para>
+            </TD>
+            <TD>
+              <para>The cell at the intersection of the current row and the Commission Amount column. If used in the same row as a header or total row, this will return a <link xlink:href="15e1b616-fbf2-4147-9c0b-0a11a20e409e">#VALUE!</link> error.</para>
+              <para>If you type the longer form of this structured reference (#This Row) in a table with multiple rows of data, Excel automatically replaces it with the shorter form (@). They both work the same.</para>
+            </TD>
+            <TD>
+              <para>E5 (if the current row is 5)</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+    </content>
+  </section>
+  <section address="__toc384648767">
+    <title>Strategies for working with structured references</title>
+    <content>
+      <para>Consider the following when you work with structured references.</para>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <embeddedLabel>Use Formula AutoComplete</embeddedLabel> You may find that using Formula AutoComplete is very useful when you enter structured references and to ensure the use of correct syntax. For more information, see <link xlink:href="6d13daa5-e003-4431-abab-9edef51fae6b">Use Formula AutoComplete</link>.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Decide whether to generate structured references for tables in semi-selections</embeddedLabel> By default, when you create a formula, clicking a cell range within a table semi-selects the cells and automatically enters a structured reference instead of the cell range in the formula. This semi-selection behavior makes it much easier to enter a structured reference. You can turn this behavior on or off by selecting or clearing the <ui>Use table names in formulas</ui> check box in the <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Formulas</ui> &gt; <ui>Working with formulas</ui> dialog.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Use workbooks with external links to Excel tables in other workbooks</embeddedLabel> If a workbook contains an external link to an Excel table in another workbook, that linked source workbook must be open in Excel to avoid <link xlink:href="822c8e46-e610-4d02-bf29-ec4b8c5ff4be">#REF!</link> errors in the destination workbook that contains the links. If you open the destination workbook first and <link xlink:href="822c8e46-e610-4d02-bf29-ec4b8c5ff4be">#REF!</link> errors appear, they will be resolved if you then open the source workbook. If you open the source workbook first, you should see no error codes.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Convert a range to a table and a table to a range</embeddedLabel> When you convert a table to a range, all cell references change to their equivalent absolute A1 style references. When you convert a range to a table, Excel doesn’t automatically change any cell references of this range to their equivalent structured references.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Turn off column headers</embeddedLabel> You can toggle table column headers on and off from the table <ui>Design</ui> tab &gt; <ui>Header Row</ui>. If you turn off table column headers, structured references that use column names aren’t affected, and you can still use them in formulas. Structured references that refer directly to the table headers (e.g. <literal>=DeptSales[[#Headers],[%Commission]]</literal>) will result in <link xlink:href="822c8e46-e610-4d02-bf29-ec4b8c5ff4be">#REF</link>.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Add or delete columns and rows to the table</embeddedLabel> Because table data ranges often change, cell references for structured references adjust automatically. For example, if you use a table name in a formula to count all the data cells in a table, and you then add a row of data, the cell reference automatically adjusts.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Rename a table or column</embeddedLabel> If you rename a column or table, Excel automatically changes the use of that table and column header in all structured references that are used in the workbook.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Move, copy, and fill structured references</embeddedLabel> All structured references remain the same when you copy or move a formula that uses a structured reference.</para>
+          <alert class="note">
+            <para>Copying a structured reference and doing a fill of a structured reference are not the same thing. When you copy, all the structured references remain the same, while when you fill a formula, fully qualified structured references adjust the column specifiers like a series as summarized in the following table.</para>
+          </alert>
+        </listItem>
+      </list>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>If the fill direction is: </legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>And while filling, you </legacyBold>
+                <legacyBold>press:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Then: </legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Up or down</para>
+            </TD>
+            <TD>
+              <para>Nothing</para>
+            </TD>
+            <TD>
+              <para>There is no column specifier adjustment.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Up or down</para>
+            </TD>
+            <TD>
+              <para>Ctrl</para>
+            </TD>
+            <TD>
+              <para>Column specifiers adjust like a series.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Right or left</para>
+            </TD>
+            <TD>
+              <para>None</para>
+            </TD>
+            <TD>
+              <para>Column specifiers adjust like a series.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Up, down, right, or left</para>
+            </TD>
+            <TD>
+              <para>Shift</para>
+            </TD>
+            <TD>
+              <para>Instead of overwriting values in current cells, current cell values are moved and column specifiers are inserted.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+    </content>
+  </section>
+  <section>
+    <title>Need more help?</title>
+    <content>
+      <para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+    </content>
+  </section>
+  <section>
+    <title>Related Topics</title>
+    <content>
+      <para>
+        <link xlink:href="7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c">Overview of Excel tables</link>
+        <br />
+        <link xlink:href="BF0CE08B-D012-42EC-8ECF-A2259C9FAF3F">Video: Create and format an Excel table</link>
+        <br />
+        <link xlink:href="6944378F-A222-4449-93D8-474386B11F20">Total the data in an Excel table</link>
+        <br />
+        <link xlink:href="6789619f-c889-495c-99c2-2f971c0e2370">Format an Excel table</link>
+        <br />
+        <link xlink:href="4d6585be-4292-444c-b86b-71cb4e5d3e16">Resize a table by adding or removing rows and columns</link>
+        <br />
+        <link xlink:href="01832226-31B5-4568-8806-38C37DCC180E">Filter data in a range or table</link>
+        <br />
+        <link xlink:href="0B326FF1-1764-4EBE-84EA-786265D41C77">Convert a table to a range</link>
+        <br />
+        <link xlink:href="1e9c9c83-bf17-41c7-b243-c48625a7a6ff">Excel table compatibility issues</link>
+        <br />
+        <link xlink:href="974544F9-94BC-4AA8-9159-97282D256DAB">Export an Excel table to SharePoint</link>
+        <br />
+        <link xlink:href="ecfdc708-9162-49e8-b993-c311f47ca173">Overviews of formulas in Excel</link>
+      </para>
+    </content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

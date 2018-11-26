@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="922632e9-66fe-4f2b-823e-d2e855834f6f" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top"> 
+	 <para>When your 3D Map has a lot of data and it's distributed over many geographic locations, it can be challenging to find the highest or the lowest values. And it’s easier to do a visual comparison with a top or bottom 100 chart. Adding a 2 dimensional (2-D) chart makes it easy to see where the highest 100 or lowest 100 values are for all layers inside a scene. On a 3-D chart it can be hard to tell which value is greater due to depth cues, but it’s easy when these depth cues are removed on a 2-D chart.</para>
+	 <mediaLink>
+		<caption>Top 100 chart showing the highest values from left to right per geographical location.</caption>
+		<image xlink:href="8de915c9-6c4c-4582-aaed-e9c5ffd2bdd9"> </image></mediaLink>
+	 <list class="ordered">
+		<listItem> 
+		  <para>Click <ui>Home</ui> &gt; <ui>2D Charts</ui>.</para>
+		  <para> <mediaLinkInline> <image xlink:href="4a5038c6-5971-4c45-9f53-bf27173b4b1d"> </image> </mediaLinkInline> </para>
+		</listItem>
+		<listItem> 
+		  <para>To change to another type of chart, such as a bar chart, click the icon in the upper-right corner of the chart and pick the chart type that you want.</para>
+		  <para> <mediaLinkInline> <image xlink:href="ec55ea99-db80-405c-bfa5-fd6d205933d1"> </image> </mediaLinkInline> </para>
+		</listItem>
+		<listItem> 
+		  <para>To switch between the top 100 values and the bottom 100 values, click the  <ui>Top 100 Locations</ui>  or <ui>Bottom 100 Locations</ui> link above the chart.</para>
+		  <para> <mediaLinkInline> <image xlink:href="fe5b7b65-c69b-4ffa-bd5a-ee954b179586"> </image> </mediaLinkInline> </para>
+		  <alert class="note"> 
+			 <list class="bullet">
+				<listItem> 
+				  <para>If there's only one layer in the scene, the chart is generated automatically. If there's more than one layer, pick the layer that you want to show in the chart.</para>
+				</listItem>
+				<listItem> 
+				  <para>You can resize the chart by dragging the sizing handles. This also resizes the column widths.</para>
+				</listItem>
+				<listItem> 
+				  <para>Clicking an individual bar will turn the other bars gray and “brush” the bar on the globe to show where the value is located. The globe or the map will also rotate and zoom so that the brushed location is visible in the center of the map. If the clicked bar isn’t visible on the 3-D map, the globe will turn to make it visible.</para>
+				</listItem>
+				<listItem> 
+				  <para>You can change the order if you have more than one value shown in this layer by changing what you're sorting on in the Field List. For example, if you're sorting by count of tickets sold in a zip code, you can change the sort to discount amount per ticket for zip code.</para>
+				</listItem>
+			 </list>
+		  </alert>
+		</listItem>
+	 </list>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

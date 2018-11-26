@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="104b47a6-8ae2-471f-8f73-c4b96e7bb146" revisionNumber="8"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>You can display negative numbers by using the minus sign, parentheses, or by applying a red color (with or without parentheses).</para>
+    
+    
+    <list class="ordered">
+      <listItem>
+        <para>Select the cell or range of cells that you want to format with a negative number style.</para>
+        
+      </listItem>
+      <listItem>
+        <para>If you're using Windows, press Ctrl+1. If you're using a Mac, press <mediaLinkInline>
+<image xlink:href="314f2d55-e8b8-4417-9d4b-b3908c1ebd0c" />
+</mediaLinkInline>+1</para></listItem>
+      <listItem>
+        <para>In the <ui>Category</ui> box, click either <ui>Number</ui> or <ui>Currency</ui>.</para>
+        
+      </listItem>
+      <listItem>
+        <para>Under <ui>Negative numbers</ui>, select an option for negative numbers.</para>
+      </listItem>
+    </list>
+    <para><legacyBold>Where's the parentheses option?</legacyBold> If you're missing the parentheses option for negative numbers, it may be due to an operating system setting. <link xlink:href="682a1cc5-701a-4ce7-92db-cc9eebc5ffa0">This article explains how to fix this.</link></para>
+  </introduction>
+  <relatedTopics><link xlink:href="2d450d95-2630-43b8-bf06-ccee7cbe6864">Create or delete a custom number format</link></relatedTopics>
+</developerConceptualDocument></topic>

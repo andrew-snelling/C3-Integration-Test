@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="cb7835f6-9c37-4161-bb53-d1c410acaf21" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Suppose that your boss wants you to protect an entire workbook, but also wants to be able to change a few cells after you enable protection on the workbook.  Before you enabled password protection, you had unlocked some cells in the workbook. Now that your boss is done with the workbook, you can lock these cells.</para>
+		<para>Follow these steps to lock cells in a worksheet:</para>
+		<list class="ordered">
+			<listItem>
+				<para>Select the cells you want to lock.</para>
+			</listItem>
+			<listItem>
+				<para>On the <ui>Home</ui> tab, in the <ui>Alignment</ui> group, click the small arrow to open the <ui>Format Cells</ui> popup window.</para>
+			</listItem>
+			<listItem>
+				<para>On the <ui>Protection</ui> tab, select the <ui>Locked</ui> check box, and then click <ui>OK</ui> to close the popup.</para>
+				<para><legacyBold>NOTE: </legacyBold>If you try these steps on a workbook or worksheet you haven't protected, you'll see the cells are already locked. This means that the cells are ready to be locked when you protect the workbook or worksheet.</para>
+			</listItem>
+			<listItem>
+				<para>On the <ui>Review</ui> tab in the ribbon, in the <ui>Changes</ui> group, select either <ui>Protect Sheet</ui> or <ui>Protect Workbook</ui>, and then reapply protection. See <link xlink:href="3179EFDB-1285-4D49-A9C3-F4CA36276DE6">Protect a worksheet</link> or <link xlink:href="7E365A4D-3E89-4616-84CA-1931257C1517">Protect a workbook</link>.</para>
+				<alert class="tip">
+					<para>It's a best practice to unlock any cells that you may want to change before you protect a worksheet or a workbook, but you can also unlock them after you apply protection. To remove protection, simply remove the password.</para>
+				</alert>
+			</listItem>
+		</list>
+		<para>In addition to protecting workbooks and worksheets, you can also protect formulas.</para>
+	</introduction>
+	
+	<section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section><relatedTopics><link xlink:href="3179EFDB-1285-4D49-A9C3-F4CA36276DE6">Protect a worksheet</link><link xlink:href="7E365A4D-3E89-4616-84CA-1931257C1517">Protect a workbook</link><link xlink:href="f7f5ab4e-bf24-4efc-8fc9-0c1b77a5356f">Display or hide formulas</link></relatedTopics>
+</developerConceptualDocument></topic>

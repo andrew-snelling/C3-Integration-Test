@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="4a579c45-7326-4168-b556-df8b5685175b" revisionNumber="22"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>You can use the <legacyBold>FIELDVALUE</legacyBold> function to retrieve field data from linked data types like the Stocks or Geography <link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">data types</link>. There are easier methods for <link xlink:href="295d95e2-1e8a-4337-bfa9-0582b815c0b4">writing formulas that reference data types</link>, so the FIELDVALUE function should be used mainly for creating conditional calculations based on linked data types.</para>
+		<alert class="note">
+ <para>June 12, 2018: This function is currently a beta feature, and only available to a portion of  <externalLink><linkText>Office Insiders</linkText><linkUri>https://products.office.com/office-insider</linkUri></externalLink> at this time. We'll continue to optimize this feature over the next several months. When it's ready, we'll release it to all Office Insiders, and <externalLink><linkText>Office 365 subscribers</linkText><linkUri>https://products.office.com/buy/compare-microsoft-office-products</linkUri></externalLink>.</para>
+</alert>
+	</introduction>
+	<section>
+		<title>Technical details</title>
+		<content>
+			<para><legacyBold>Syntax</legacyBold></para>
+			<para><legacyBold>=FIELDVALUE(value, field_name)</legacyBold></para>
+			<para>The <legacyBold>FIELDVALUE</legacyBold> function syntax has the following arguments:</para>
+			<list class="bullet">
+				<listItem>
+					<para><legacyBold>value</legacyBold> – The cell address, table column, or named range that contains a linked data type. </para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>field_name</legacyBold> – The name or names of the fields you would like to extract from the linked data type</para>
+				</listItem>
+			</list>
+			<para><legacyBold>Description</legacyBold></para>
+			<list class="bullet">
+				<listItem>
+					<para>The <legacyBold>FIELDVALUE</legacyBold> function returns all matching fields(s) from the linked data type specified in the value argument.</para>
+				</listItem>
+				<listItem>
+					<para>The <legacyBold>FIELDVALUE</legacyBold> function belongs to the <link xlink:href="5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb">Lookup &amp; Reference family of functions.</link></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Examples</title>
+		<content>
+			<para>In the following basic example, the formula <legacyBold>=FIELDVALUE(A2,"Price")</legacyBold> extracts the Price field from the stock data type for JM Smucker Co.<br />
+<br />
+<mediaLinkInline><image xlink:href="962927bb-8a0f-4b3d-93ad-b8132e5fc6e8" /></mediaLinkInline></para>
+			<para>The next example is a more typical example for the FIELDVALUE function. Here we're using the <link xlink:href="c526fd07-caeb-47b8-8bb6-63f3e417f611">IFERROR function</link> to check for errors. If there isn't a company name in cell A2, the FIELDVALUE formula returns an error, and in that case we want to display nothing (""). But if there is a company name, we want to retrieve the Price from the data type in A2 with <legacyBold>=IFERROR(FIELDVALUE($A2,B$1),"")</legacyBold>.<br />
+<br />
+<mediaLinkInline><image xlink:href="98621e17-f56f-4a64-af01-9bb3a827465c" /></mediaLinkInline></para>
+			<para>Note that the FIELDVALUE function allows you to reference worksheet cells for the field_name argument, so the above formula references cell B1 for Price instead of manually entering "Price" in the formula. </para>
+		</content>
+	</section>
+	<section>
+		<title>Remarks</title>
+		<content>
+			<para>If you try to retrieve data from a non-existent data type field, the <legacyBold>FIELDVALUE</legacyBold> function will return the <link xlink:href="66b3a5db-1904-41aa-9913-51ded9dd15f2">#FIELD! error</link>. For instance, you might have entered "Prices", when the actual data type field is named "Price". Double-check your formula to make sure you're using a valid field name. If you want to display a list of field names for a record, select the cell for the record, and press <ui>Ctrl+Shift+F2</ui>.</para>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<section>
+		<title>See also</title>
+		<content>
+			<para><link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">Stocks and geographic data types</link></para>
+			<para><link xlink:href="295d95e2-1e8a-4337-bfa9-0582b815c0b4">How to write formulas that reference data types</link></para>
+			<para><link xlink:href="66b3a5db-1904-41aa-9913-51ded9dd15f2">#FIELD! error</link></para>
+			<para />
+			<para />
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

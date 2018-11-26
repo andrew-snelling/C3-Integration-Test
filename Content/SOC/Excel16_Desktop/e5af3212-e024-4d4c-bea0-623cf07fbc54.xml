@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="e5af3212-e024-4d4c-bea0-623cf07fbc54" revisionNumber="30"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<mediaLink><image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" /><video videoid="RE2lDM3" channel="ALTENUS_MS_OFFICE" player="ocvideo" videotype="single" /></mediaLink><para>To insert a stock price into Excel, you first convert text into the <legacyBold>Stocks </legacyBold>data type. Then you can use another column to extract certain details relative to that data type, like the stock price, change in price, and so on.</para>
+		<alert class="note">
+ <para>June 12, 2018: This data type is currently a beta feature, and only available to a portion of  <externalLink><linkText>Office Insiders</linkText><linkUri>https://products.office.com/office-insider</linkUri></externalLink> at this time. We'll continue to optimize it over the next several months. When it's ready, we'll release it to all Office Insiders, and <externalLink><linkText>Office 365 subscribers</linkText><linkUri>https://products.office.com/buy/compare-microsoft-office-products</linkUri></externalLink>.</para>
+</alert>
+	</introduction>
+	<section>
+<content><list class="ordered"><listItem><para>Type some text in cells. For example, type a ticker symbol, company name, or fund name into each cell. </para></listItem><listItem><para>Then select the cells.</para></listItem><listItem><para>Although it's not required, we recommend creating an <link xlink:href="e81aa349-b006-4f8a-9806-5af9df0ac664">Excel table</link>. Later on, this will make extracting online information easier. To create a table, go to <ui>Insert</ui> &gt; <ui>Table</ui>. </para></listItem><listItem><para>With the cells still selected, go to the <ui>Data</ui> tab, and then click either <ui>Stocks</ui> or <ui>Geography</ui>.</para></listItem><listItem><para>If Excel finds a match between the text in the cells, and our online sources, it will convert your text to the Stocks data type. You'll know they're converted if they have this icon for stocks: <mediaLinkInline><image xlink:href="f19a7e7b-9c50-452a-9e24-43b60c3ba800" /></mediaLinkInline>.</para></listItem><listItem><para>Select one or more cells with the data type, and the <ui>Add Column </ui> button <mediaLinkInline><image xlink:href="1ab74b83-6e3b-4432-aa67-5b7562134ed9" /></mediaLinkInline> will appear. Click that button, and then click a field name to extract more information. For example, for stocks you might pick <ui>Price</ui>.</para></listItem><listItem><para>Click the <ui>Add Column </ui> button again to add more fields. If you're using a table, here's a tip: Type a field name in the header row. For example, type <ui>Change</ui> in the header row for stocks, and the change in price column will appear. Or type other field names like <ui>Last Trade Time, </ui> <ui>Previous Close</ui>, and <ui>Exchange</ui>.</para></listItem></list><alert class="tip">
+				<para>To see all of the fields available for a company or fund, click the stock icon ( <mediaLinkInline><image xlink:href="f19a7e7b-9c50-452a-9e24-43b60c3ba800" /></mediaLinkInline> ) or select the cell and press Ctrl+Shift+F5.</para>
+				<para>If you see <mediaLinkInline><image xlink:href="09a25441-4fdc-4399-bf7f-f1a7062beb30" /></mediaLinkInline> instead of an icon, then Excel is having a hard time matching your text with data in our online sources. Correct any spelling mistakes and when you press Enter, Excel will do its best to find matching information. Or, click <mediaLinkInline><image xlink:href="09a25441-4fdc-4399-bf7f-f1a7062beb30" /></mediaLinkInline> and a selector pane will appear. Search for data using a keyword or two, choose the data you want, and then click <ui>Select</ui>.</para><para>You can also <link xlink:href="295d95e2-1e8a-4337-bfa9-0582b815c0b4">write formulas that reference data types</link>.</para>
+				
+			<para>Stock information is delayed, provided "as-is", and is not for trading purposes or advice. See <link xlink:href="98a03e23-37f6-4776-beea-c5a6c8e787e6">About our data sources</link> for more information.</para></alert></content>
+</section>
+	<section>
+		<title>See also</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">More about linked data types</link></para></listItem><listItem><para><link xlink:href="4a579c45-7326-4168-b556-df8b5685175b">FIELDVALUE function</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="66b3a5db-1904-41aa-9913-51ded9dd15f2">#FIELD! error</link></para>
+				</listItem>
+			</list>
+		</content>
+	</section><relatedTopics />
+</developerConceptualDocument></topic>

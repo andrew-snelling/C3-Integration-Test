@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="215e9e2e-5813-41ad-a9ef-a0c0874841bb" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>With Excel 2016, you can analyze different types of data from all sorts of different sources, and for many different reasons. In this article, you learn how to use the built-in <legacyBold>My Cashflow</legacyBold> template in Excel 2016 to manage the money you earn, how much you spend, and where your spending occurs.</para>
+  </introduction>
+  <section>
+    <title>Using the My Cashflow template</title>
+    <content>
+      <para>The <legacyBold>My Cashflow</legacyBold> template is a simple example of how Excel 2016 and analyze, model, and present data to you interesting and insightful ways. The template is a great way to become familiar with the data analysis capabilities of Excel 2016, and to demonstrate how the built-in templates in Excel can make data analysis easy.</para>
+      <para>In this article, you learn how to do the following with Excel 2016:</para>
+      <list class="ordered">
+        <listItem>
+          <para>Perform <legacyItalic>data modeling</legacyItalic>, using the built-in modeling capabilities of Excel.</para>
+        </listItem>
+        <listItem>
+          <para>
+                Put some of Excel's <legacyItalic>time intelligence</legacyItalic> functionality to work.</para>
+        </listItem>
+        <listItem>
+          <para>
+                Learn how the My Cashflow template was created, using powerful calculations called <legacyItalic>Measures</legacyItalic> that you can use in your workbooks as well.
+              </para>
+        </listItem>
+      </list>
+    </content>
+    <sections>
+      <section>
+        <title>Open the My Cashflow template</title>
+        <content>
+          <para>
+            To open the My Cashflow template, select <legacyBold>New &gt; Business analysis feature tour</legacyBold>.
+          </para>
+          <mediaLink>
+            <image xlink:href="055847fb-0709-4a4c-a7e5-497ff1737ac6" />
+          </mediaLink>
+          <para>If you can't see the template, use the search box and type <legacyItalic>business analysis feature tour</legacyItalic>, and then select the magnifying glass button to begin the search (or click the Enter key). The My Cashflow template appears.</para>
+          <para>
+            Once the template is open, you see the first workbook tab, titled <legacyBold>Start</legacyBold>. Select the <legacyBold>Lets' get started</legacyBold> button to begin.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="b3d6e9e4-1917-43a3-825b-8e9988c519de" />
+            </mediaLinkInline>
+          </para>
+          <para>The My Cashflow workbook tab is selected, showing you the cashflow report for the selected year. This cashflow graph displays a year-over-year cashflow comparison of the current year (selected by the buttons in the upper right corner of the workbook) and the previous year. This is considered a <legacyItalic>time intelligence</legacyItalic> calculation. You can select a different year using the buttons in the upper right corner of the worksheet. Notice how the bar graph changes when you select a different year. </para>
+          <mediaLink>
+            <image xlink:href="501257bc-f511-40eb-9278-7a8de9f2940a" />
+          </mediaLink>
+        </content>
+      </section>
+      <section>
+        <title>Enter your own cash flow data</title>
+        <content>
+          <para>It's interesting to see the sample data that was included with the template, but it's much more interesting with your own data. To enter your own numbers - whether real numbers, or just experimenting with the template to get a feel for how it works - select the <legacyBold>Sample Data</legacyBold> worksheet tab. Notice the <legacyBold>TRY IT</legacyBold> instructions, to the right of the table, that provide guidance and a button to enter your own sample data.</para>
+          <mediaLink>
+            <image xlink:href="367f719f-a929-48bb-bd70-7ea8191f008a" />
+          </mediaLink>
+          <para>Once you select <legacyBold>Add a new sample row</legacyBold>, the template highlights a new row at the bottom of the table, and fills in the four columns with the following information:</para>
+          <list class="bullet">
+            <listItem>
+              <para>
+                <legacyBold>Transaction Type</legacyBold> - this first column is either Income or Expense. By using only those two categories, the graph on the My Cashflow worksheet can consistently compare income to expenses. In this example the bonus is Income.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Date</legacyBold> - this is the date of the transaction. The template automatically inserts 4/1/2015, but you can apply whichever data you choose. The graph in the My Cashflow sheet groups income and expenses by month and year, based on the value in this column.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Category</legacyBold> - this column lets you categorize your income and expenses. There are quite a few categories already included, which you can choose from. You can also create a new category, especially if you expect to get lots of bonus checks, which is always nice. You can view income and expenses by category too, so entering information into this category consistently will help ensure any subsequent analysis goes smoothly.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <legacyBold>Amount</legacyBold> - this is the amount of the income or expense. You enter positive numbers into this column (rather than using negative numbers for expenses, for example), because the calculations associated with the data model knows how to properly handle income and expenses, based on positive numbers in this column.</para>
+            </listItem>
+          </list>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="a4e6c259-3d42-44c2-a0c7-9dccb1480a28" />
+            </mediaLinkInline>
+          </para>
+          <para>Once the data is entered, and we go back to the chart and select the Update now button (which refreshes the data model), we can see the changes reflected in the cashflow chart. With the additional $1500 income we added in the <legacyBold>TRY IT</legacyBold> instructions, the month of April went from being down 38.94% compared to the previous year, to being up 68.48% over the previous year. </para>
+          <mediaLink>
+            <image xlink:href="e6d82004-e3e9-4933-9b85-2df7bae6b016" />
+          </mediaLink>
+        </content>
+      </section>
+    </sections>
+  </section>
+  <section>
+    <title>Using the Excel Data Model</title>
+    <content>
+      <para>By completing the previous steps to enter additional sample data into the My Cashflow workbook, you've just interacted with the Excel data model. A <legacyItalic>data model</legacyItalic> is an organized collection of data elements that relate to one another in a structured, or standardized, way. In the My Cashflow data model, there are many data elements (the cashflow entries) that relate to one another by the four structured, or standardized, categories (Transaction Type, Data, Category, Amount). </para>
+      <para>Data models can be simple like this My Cashflow data model, or complex like a database or a collection of databases that are organized to relate to one another in specific ways. Data models do not have to be permanent or created solely by database engineers; data models can be created on-the-fly in Excel from various sources, to suit your own data analysis needs. </para>
+      <para>You can also analyze a data model by looking at portions of that data in particular ways, such as through graphs or other visualizations. For example, you might want to analyze only expenses for your cashflow, and only for the 2015 calendar year. By doing so, you're looking at (analyzing) a subset of the data model that meets your criteria, and gaining insights from what you see. Just like data models, visualizations and data analysis can be simple (such as: a graph of how much I spent on my Internet bill in 2015) or complex.   </para>
+    </content>
+    <sections>
+    </sections>
+  </section>
+  <section>
+    <title>Enable Data Analysis add-ins</title>
+    <content>
+      <para>Excel 2016 includes a powerful data modeling feature called <legacyBold>Power Pivot</legacyBold>. To enable Power Pivot and other data analysis add-ins, select <legacyBold>File &gt; Options</legacyBold> to bring up the <legacyBold>Excel Options</legacyBold> window. Select <legacyBold>Advanced</legacyBold> from the left pane, then scroll down to the <legacyBold>Data</legacyBold> section, which is near the bottom of the scrolled window. At the bottom of the Data section, there's an option to <legacyBold>Enable Data Analysis add-ins: Power Pivot, Power View, and Power Map</legacyBold>. </para>
+      <mediaLink>
+        <image xlink:href="de5e9e8f-2dc1-441c-a7dc-82f7302a7ede" />
+      </mediaLink>
+      <para>Select the checkbox, and then select <legacyBold>OK</legacyBold>.</para>
+      <para>When the data analysis add-ins are enabled, the <legacyBold>Manage Data Model</legacyBold> button appears in the <legacyBold>Data Tools</legacyBold> section of the <legacyBold>Data</legacyBold> ribbon. When we select the <legacyBold>Manage Data Model</legacyBold> button, the Power Pivot data modeling window appears.</para>
+      <mediaLink>
+        <image xlink:href="748fce98-1834-4265-b50d-6b7a9726844c" />
+      </mediaLink>
+    </content>
+  </section>
+  <section>
+    <title>Using Time Intelligence in Excel 2016 with Measures</title>
+    <content>
+      <para>The My Cashflow template uses a few of the time intelligence capabilities of Excel 2016, such as the year-over-year comparison demonstrated earlier in this article. These time intelligence capabilities  were implemented as <legacyItalic>Measures</legacyItalic> that were created in the data model in the template. To see these Measures, select the <legacyBold>Manage Data Model</legacyBold> button in the <legacyBold>Data</legacyBold> tab to show the  <legacyBold>Power Pivot</legacyBold> window. The first measure is called <legacyItalic>Total Cashflow</legacyItalic>.</para>
+      <mediaLink>
+        <image xlink:href="fa025fa9-1921-427d-b273-6c9395743135" />
+      </mediaLink>
+      <para>In the My Cashflow template, the year-over-year calculation compares the current year cashflow (we'll call it CYC for now) to the previous year cashflow (PYC). The formula to create the year-over-year calculation is the following:</para>
+      <para>
+        <codeInline>Year-Over-Year = (CYC-PYC)/PYC</codeInline>
+      </para>
+      <para>The following time intelligence Measures were included in the My Cashflow template:</para>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <codeInline>TotalIncome:=CALCULATE(sum([AMOUNT]),'Sample'[TRANSACTION TYPE]="Income")</codeInline>
+          </para>
+          <para>
+            <codeInline>TotalIncome</codeInline> summarizes the <legacyBold>Amount</legacyBold> column, but only includes values with the <legacyBold>Transaction Type</legacyBold> value specified as <legacyBold>Income</legacyBold>.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <codeInline>TotalExpenses:=CALCULATE(sum([AMOUNT])*-1,'Sample'[TRANSACTION TYPE]="Expenses")</codeInline>
+          </para>
+          <para>
+            <codeInline>TotalExpenses</codeInline> is similar to <codeInline>TotalIncome</codeInline>, where <legacyBold>Transaction Type</legacyBold> is specified as <legacyBold>Expense</legacyBold>. The result is then multiplied by -1 to reflect that the results are expenses.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <codeInline>Total Cashflow:=[TotalIncome]+[TotalExpenses]</codeInline>
+          </para>
+          <para>
+            <codeInline>Total Cashflow</codeInline> is created by adding the <codeInline>[TotalIncome]+[TotalExpenses]</codeInline>  measures. Creating it this way, by using measures as the building block elements in the calculation, enables future change in either of those measures to automatically be reflected in <codeInline>Total Cashflow</codeInline>.</para>
+          <para>Having <codeInline>Total Cashflow</codeInline> also enabled us to create a pivot table with our cashflow data. Adding a <legacyBold>Year</legacyBold> slicer enabled us to see a specific year's cashflow (the current year, for example). 
+
+
+In order to create the year-over-year comparison, we also needed the previous year's cashflow, and furthermore, needed that previous year's cashflow to be presented when the slicer is showing the current year. To resolve that challenge, 
+
+we created the Measure called <codeInline>PreviousYearCashflow</codeInline>.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <codeInline>PreviousYearCashflow:=CALCULATE([Total Cashflow],SAMEPERIODLASTYEAR('Calendar'[Date]))</codeInline>
+          </para>
+          <para>
+            <legacyItalic>Calculate</legacyItalic> is a powerful function; the <legacyItalic>Calculate </legacyItalic>function can replace an existing filter with a new one, in order to answer analytical problems and to support users needs.</para>
+          <para>In the <codeInline>PreviousYearCashflow</codeInline> Measure we summarize the <codeInline>Total Cashflow</codeInline> we created before, and have the time dimension new context in order to get the data we wanted. Specifically: if <codeInline>Total Cashflow</codeInline> is sliced on 2015, <codeInline>PreviousYearCashflow</codeInline> presents data for 2014 by using the <codeInline>SAMEPERIODLASTYEAR</codeInline> functionality.</para>
+        </listItem>
+      </list>
+      <para>The formula syntax used in Measures is part of powerful analytical language called <legacyItalic>DAX (Data Analysis Expressions)</legacyItalic>. You can find more information about DAX in the related topics section that follows.</para>
+    </content>
+  </section>
+  <relatedTopics>
+    <link xlink:href="881c63c6-37c5-4ca2-b616-59e18d75b4de" DisplayType="title">Get &amp; Transform in Excel 2016</link>
+    <link xlink:href="a8310388-2a12-438c-9d29-c6d29cb8df6a" DisplayType="title">Getting Started with Get &amp; Transform in Excel 2016</link>
+    <link xlink:href="f9001958-7901-4caa-ad80-028a6d2432ed" DisplayType="title">Power Pivot - Overview and Learning</link>
+    <link xlink:href="bab3fbe3-2385-485a-980b-5f64d3b0f730" DisplayType="title">Data Analysis Expressions (DAX) in Power Pivot</link>
+  </relatedTopics>
+</developerConceptualDocument></topic>

@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="0a0ebbed-10e7-444b-b16b-6f0c090f8ec7" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="bmbacktotop">You can zoom in to get a close-up view of your file or zoom out to see more of the page at a reduced size. You can also save a particular zoom setting with a document or template, presentation, or worksheet.</para>
+  </introduction>
+  <section>
+<title></title><content><tabControl><tabControlItem targetedOfficeVersion="Office 2013, Office 2016, Office 2019, Office 365 Subscription"><tabControlItemTitle>Newer versions</tabControlItemTitle><tabControlItemSection><content></content><sections><section expanded="true">
+    <title>Quickly zoom in or out of a document, presentation, or worksheet</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>In Word, Outlook, PowerPoint or Excel, on the status bar, click the <ui>Zoom</ui> slider .</para><para><mediaLinkInline>
+<image xlink:href="f2e487a1-bfcf-415a-a41f-43149a2bb18d" />
+</mediaLinkInline></para>
+        </listItem>
+        <listItem>
+          <para>Slide to the percentage zoom setting that you want. Click <ui>-</ui> or <ui>+</ui> to zoom in gradual increments.</para>
+        </listItem>
+      </list>
+      
+    <alert class="note">
+ <para>In Outlook, the zoom slider zooms only the content in the Reading Pane.</para>
+</alert></content>
+    <sections />
+  </section><section expanded="true">
+    <title>Choose a particular zoom setting</title>
+    <content>
+      <para>You can choose how much of a document, presentation, or worksheet you view on the screen.</para>
+    <para><legacyBold>In Word</legacyBold></para><para>Do one of the following:</para>
+          <para>
+                <mediaLinkInline>
+<image xlink:href="2849afdc-a096-4b5e-9554-560f478f3280" />
+</mediaLinkInline>
+              </para><list class="bullet">
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom 100%</ui>. This returns the view to 100% zoom.</para>
+              
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>One Page</ui>, <ui>Multiple Pages</ui>, or <ui>Page Width</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>, and then enter a percentage or choose any other settings that you want.</para>
+            </listItem>
+          </list><para><legacyBold>In PowerPoint</legacyBold></para><para>Do one of the following:</para><para><mediaLinkInline>
+<image xlink:href="9c77e00b-09eb-46c0-9ba6-da099400bed5" />
+</mediaLinkInline></para>
+          <list class="bullet">
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Fit to Window</ui>, which changes the current slide to the size of your PowerPoint window.</para>
+              
+            <alert class="note">
+ <para>There  also is a <ui>Fit to Window</ui> button near the zoom slider on the status bar.  <mediaLinkInline>
+<image xlink:href="ee8b4579-8cea-4657-8fc0-5596d7873b33" />
+</mediaLinkInline></para>
+</alert></listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>, and then enter a percentage or choose any other settings that you want.</para>
+            </listItem>
+          </list><para><legacyBold>In Excel</legacyBold></para><para>Do one of the following:</para>
+          <para>
+                <mediaLinkInline>
+<image xlink:href="3eaf2845-e5eb-4ece-a079-b10565244834" />
+</mediaLinkInline>
+              </para><list class="bullet">
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom 100%</ui>.</para>
+              
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom to Selection</ui>, which maximizes the view of cells that you've selected.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>, and then enter a percentage or choose any other settings that you want.</para>
+            </listItem>
+          </list><para><legacyBold>In Outlook</legacyBold></para><para>In the main Outlook window, the zoom slider is the only way to zoom in or out. When you are reading or editing a message, zoom from the ribbon:</para>
+          <list class="ordered">
+            <listItem>
+              <para>In an open message, on the <ui>Message</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>. </para>
+              
+            </listItem>
+            <listItem>
+              <para>In the <ui>Zoom</ui> dialog box, enter a percentage or choose any other settings that you want. </para>
+            </listItem>
+            
+          </list></content>
+    
+  </section><section expanded="true">
+    
+    <title>Save a zoom setting in PowerPoint or Excel</title><content><alert class="note">
+ <para>Word doesn't save zoom settings in documents. Instead, it opens a document at the last zoom level you used.</para>
+</alert><list class="ordered">
+            <listItem>
+              <para>Open the presentation or worksheet that you want to save with a particular zoom setting.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Choose the setting that you want.</para>
+            </listItem>
+            <listItem>
+              <para>Click <ui>Save</ui>. </para><para><legacyBold>Keyboard shortcut:</legacyBold> Ctrl+S</para>
+            </listItem>
+          </list></content>
+    
+  </section></sections></tabControlItemSection></tabControlItem><tabControlItem targetedOfficeVersion="Office 2010"><tabControlItemTitle>Office 2010</tabControlItemTitle><tabControlItemSection><content></content><sections><section expanded="true">
+    <title>Quickly zoom in or out of a document, presentation, or worksheet</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>In Word, Outlook, PowerPoint or Excel, on the status bar, click the <ui>Zoom</ui> slider <mediaLinkInline>
+<image xlink:href="a769b5eb-2711-4aec-973a-d49bc5d7e884" />
+</mediaLinkInline>.</para>
+        </listItem>
+        <listItem>
+          <para>Slide to the percentage zoom setting that you want. Click the <ui>-</ui> or <ui>+</ui> buttons to zoom in gradual increments.</para>
+        </listItem>
+      </list>
+      
+    <alert class="note">
+ <para>In Outlook, the zoom slider zooms only the content in the Reading Pane.</para>
+</alert></content>
+    <sections />
+  </section>
+  <section expanded="true">
+    <title>Choose a particular zoom setting</title>
+    <content>
+      <para>You can choose how much of a document, presentation, or worksheet you view on the screen.</para>
+    <para><legacyBold>In Word</legacyBold></para><para>Do one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom 100%</ui>. This returns the view to 100% zoom.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="d3d661ce-078b-4573-bd66-196cec1c6c88">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>One Page</ui>, <ui>Two Pages</ui>, or <ui>Page Width</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>, and then enter a percentage or choose any other settings that you want.</para>
+            </listItem>
+          </list><para><legacyBold>In Microsoft PowerPoint</legacyBold></para><para>Do one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Fit to Window</ui>, which changes the current slide to the size of your PowerPoint window.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="110c067d-7393-403c-b5d1-7b9f1ce107ba">
+                  </image>
+                </mediaLinkInline></para>
+            <alert class="note">
+ <para>There  also is a <ui>Fit to Window</ui> button near the zoom slider on the status bar.  <mediaLinkInline>
+<image xlink:href="42c47a5c-9871-4a09-9259-3731fa6f15e4" />
+</mediaLinkInline></para>
+</alert></listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>, and then enter a percentage or choose any other settings that you want.</para>
+            </listItem>
+          </list><para><legacyBold>In Excel</legacyBold></para><para>Do one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom 100%</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="863c47f6-51bd-4877-b2fa-43fd9c35474f">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom to Selection</ui>, which maximizes the view of cells that you've selected.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>, and then enter a percentage or choose any other settings that you want.</para>
+            </listItem>
+          </list><para><legacyBold>In Outlook</legacyBold></para><para>In the main Outlook window, the zoom slider is the only way to zoom in or out. When you are reading or editing a message, zoom from the ribbon:</para>
+          <list class="ordered">
+            <listItem>
+              <para>In an open message, on the <ui>Message</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>. </para><para><mediaLinkInline>
+<image xlink:href="c02bf36e-a150-443b-b336-d3134a5d5358" />
+</mediaLinkInline></para>
+              
+            </listItem>
+            <listItem>
+              <para>In the <ui>Zoom</ui> dialog box, enter a percentage or choose any other settings that you want. </para>
+            </listItem>
+            
+          </list></content>
+    
+  </section>
+  <section expanded="true">
+    <title>Save a particular zoom setting</title>
+    <content><para><legacyBold>In Word</legacyBold></para><para>To save a particular zoom setting with your document or template so that it always opens with that zoom setting, you must make a change in the document or template first. That can be as simple as adding and deleting one character (or a single space).</para>
+          <list class="ordered">
+            <listItem>
+              <para>Open the document or template that you want to save with a particular zoom setting.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="d3d661ce-078b-4573-bd66-196cec1c6c88">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>Choose the setting that you want.</para>
+            </listItem>
+            <listItem>
+              <para>Add and delete a single character in the document or template.</para>
+            </listItem>
+            <listItem>
+              <para>Click <ui>Save</ui>. </para><para><legacyBold>Keyboard shortcut:</legacyBold> Ctrl+S</para>
+            </listItem>
+          </list><para><legacyBold>In PowerPoint or Excel</legacyBold></para><list class="ordered">
+            <listItem>
+              <para>Open the presentation or worksheet that you want to save with a particular zoom setting.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Choose the setting that you want.</para>
+            </listItem>
+            <listItem>
+              <para>Click <ui>Save</ui>. </para><para><legacyBold>Keyboard shortcut:</legacyBold> Ctrl+S</para>
+            </listItem>
+          </list></content>
+    
+  </section></sections></tabControlItemSection></tabControlItem><tabControlItem targetedOfficeVersion="Office 2007"><tabControlItemTitle>Office 2007</tabControlItemTitle><tabControlItemSection><content></content><sections>
+  <section address="bm1" expanded="true">
+    <title>Quickly zoom in or out of a document, presentation, or worksheet</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>On the status bar, click the <ui>Zoom</ui> slider <mediaLinkInline><image xlink:href="8d2ddfe3-daf1-4ac0-8855-b14cdbd3ad03"></image></mediaLinkInline>.</para>
+        </listItem>
+        <listItem>
+          <para>Slide to the percentage zoom setting that you want.</para>
+        </listItem>
+      </list>
+      <para>
+        <link xlink:href="0a0ebbed-10e7-444b-b16b-6f0c090f8ec7#__top">Top of Page</link>
+      </para>
+    </content>
+    <sections />
+  </section>
+  <section address="bm2" expanded="true">
+    <title>Choose a particular zoom setting</title>
+    <content>
+      <para>You can choose how much of a document, presentation, or worksheet you view on the screen.</para>
+    <para><legacyBold>In Word</legacyBold></para><para>Do one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom 100%</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="d3d661ce-078b-4573-bd66-196cec1c6c88">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>One Page</ui>, <ui>Two Pages</ui>, or <ui>Page Width</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>, and then enter a percentage or choose any other settings that you want.</para>
+            </listItem>
+          </list><para><legacyBold>In PowerPoint</legacyBold></para><para>Do one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Fit to Window</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="110c067d-7393-403c-b5d1-7b9f1ce107ba">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>, and then enter a percentage or choose any other settings that you want.</para>
+            </listItem>
+          </list><para><legacyBold>In Excel</legacyBold></para><para>Do one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom 100%</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="863c47f6-51bd-4877-b2fa-43fd9c35474f">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom to Selection</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>, and then enter a percentage or choose any other settings that you want.</para>
+            </listItem>
+          </list><para><legacyBold>In Outlook</legacyBold></para><list class="ordered">
+            <listItem>
+              <para>In an open message, on the <ui>Format Text</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>. </para><para><mediaLinkInline>
+<image xlink:href="c02bf36e-a150-443b-b336-d3134a5d5358" />
+</mediaLinkInline></para>
+              
+            </listItem>
+            <listItem>
+              <para>In the <ui>Zoom</ui> dialog box, enter a percentage or choose any other settings that you want. </para>
+            </listItem>
+            
+          </list></content>
+    
+  </section>
+  <section address="bm3" expanded="true">
+    <title>Save a particular zoom setting</title>
+    <content><para><legacyBold>In Word</legacyBold></para><para>To save a particular zoom setting with your document or template so that the document or template always opens with that zoom setting, you must make a change in the document or template first. Adding and deleting a single space are all that is necessary to make sure the document or template is edited and the setting is saved.</para>
+          <list class="ordered">
+            <listItem>
+              <para>Open the document or template that you want to save with a particular zoom setting.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="d3d661ce-078b-4573-bd66-196cec1c6c88">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>Choose the setting that you want.</para>
+            </listItem>
+            <listItem>
+              <para>Add and delete a single space in the document or template.</para>
+            </listItem>
+            <listItem>
+              <para>Click the <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af"></image></mediaLinkInline>, and then click <ui>Save</ui>.</para>
+            </listItem>
+          </list><para><legacyBold>In PowerPoint or Excel</legacyBold></para><list class="ordered">
+            <listItem>
+              <para>Open the presentation or worksheet that you want to save with a particular zoom setting.</para>
+            </listItem>
+            <listItem>
+              <para>On the <ui>View</ui> tab, in the <ui>Zoom</ui> group, click <ui>Zoom</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>Choose the setting that you want.</para>
+            </listItem>
+            <listItem>
+              <para>Click the <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af"></image></mediaLinkInline>, and then click <ui>Save</ui>.</para>
+            </listItem>
+          </list></content>
+    
+  </section></sections></tabControlItemSection></tabControlItem></tabControl></content>
+</section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

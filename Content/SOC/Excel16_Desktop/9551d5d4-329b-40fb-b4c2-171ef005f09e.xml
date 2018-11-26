@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="9551d5d4-329b-40fb-b4c2-171ef005f09e" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>You can publish a workbook to a Microsoft SharePoint library so that people can view or edit it in a web browser without needing Excel installed on their computers. Publishing is essentially the same as saving, but with some built-in options that let you control what people can see when they open the workbook in a browser. </para>
+    <para>Adopting an organization-wide practice of saving or publishing a workbook to a central SharePoint site can help you ensure that slightly different versions of the same workbook don't start popping up all over your organization when it's sent around in email.</para>
+    <para>By setting some publish options, you can emphasize specific parts of your workbook, such as charts, or exclude other parts from being viewed in the browser. For example, you can show a chart but not its underlying data. Or, you can show only certain worksheets to those people who need to see them and hide the other worksheets.</para>
+    <para>This article shows you how to publish a workbook from Excel for Windows and does not cover connecting a workbook or workbook data to an Excel Web Access Web Part on a SharePoint page.</para>
+    <para>When you publish a workbook to a SharePoint site, the entire workbook is saved to SharePoint. A user with the needed SharePoint permissions can view and work with the entire workbook either in the browser or in the Excel desktop program.</para>
+    <para>If <token>TE102825576</token> is deployed on SharePoint, viewing and working with your data in the browser can be very much like working with your data in the Excel desktop program. In fact, unlike the Excel desktop program, multiple users can simultaneously edit a workbook in the browser grid. When you view a workbook in the browser, if the <ui>Edit in <token>TE000001087</token></ui> button is visible, you'll know that <token>TE102825576</token> is ready to use.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="2d4d8a6a-94a8-4b90-9d37-97fbe81f13a4">
+        </image>
+      </mediaLinkInline>
+    </para>
+    
+  </introduction>
+  <section>
+    <title>Prepare the workbook</title>
+    <content>
+      <para>Before you publish the workbook, you can choose to select only the worksheets or items that you want visible in the browser. Just remember that although you can limit what is viewable in this mode, the entire contents of the workbook are still saved to the SharePoint server.</para>
+      <para>If you want to include entire worksheets as an item in addition to other items, such as charts or PivotTables, define the entire worksheet as a named range. Select the entire worksheet, and then define a named range. This named range will then appear as an available item in the <ui>Publish Options</ui> dialog box when you are ready to publish.</para>
+      <para>To let users enter a value in a cell to work with a formula in another cell, set that cell as a defined name in Excel before you publish the workbook. You can then add that defined name as a parameter on the <ui>Parameters</ui> tab in the <ui>Browser View Options</ui> dialog box.</para>
+      <para>For example, the following shows a cell D2, that has the defined name "Rate." In the browser, a user enters a value of 5.625 in the <ui>Rate</ui> box in the <ui>Parameters</ui> pane, and then clicks <ui>Apply</ui>. That value then appears in cell D2, and the formula in A2 uses the value in D2. The result of the formula is recalculated, and shown in A2: $1,151.31.</para>
+      
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="646ae73c-0fcb-4578-ab7c-8f87ab53d791">
+          </image>
+        </mediaLinkInline>
+      </para>
+      <alert class="note">
+        <para>If you create slicers for an Excel table and define a name for the range of cells containing the table and slicers, you won't be able to use the slicers to filter the table in the browser if you publish the defined range. If you publish the table or the entire worksheet or its workbook, the slicers will work as expected in the browser.</para>
+      </alert>
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Publish the workbook</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click the <ui>File</ui> tab, click <ui>Save As</ui>, and then click <ui>SharePoint</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>If you see your SharePoint folder under<legacyBold> Current</legacyBold>, <ui>Recent</ui>, or <ui>Older</ui>, click the folder you want.</para><para>The <ui>Save As</ui> dialog box appears.</para><para><br />Otherwise, click <ui>Browse</ui>,  enter the web address for the SharePoint site, and then browse to the folder where you want to publish the workbook.</para>
+        <mediaLink>
+<image xlink:href="42f1b010-2b34-466a-9869-220b77b14f29" />
+</mediaLink></listItem>
+        <listItem>
+          <para>To select individual worksheets or items to publish from the workbook, click <ui>Browser View Options</ui>. </para>
+        <mediaLink>
+<image xlink:href="5f908317-a8b1-447c-9e02-1f7124256fd6" />
+</mediaLink><para>You'll see the <ui>Show</ui> tab and the <ui>Parameters</ui> tab. </para></listItem>
+      <listItem><para>If you just want to publish the entire workbook, click <ui>Save</ui>. Otherwise, do one of the following:</para><list class="bullet">
+        <listItem>
+          <para>To show the entire workbook in the browser, on the <ui>Show</ui> tab, select <legacyBold>Entire Workbook</legacyBold> in the list box.</para>
+        </listItem>
+        <listItem>
+          <para>To show only specific worksheets in the browser, on the <ui>Show</ui> tab, select <legacyBold>Sheets</legacyBold> in the list box, and then clear the check boxes for the sheets you don't want hidden in the browser.</para>
+          <para>By default, all sheets are selected. To quickly make all sheets viewable after you unselected some of the check boxes, select the <ui>All Sheets</ui> check box.</para>
+        </listItem>
+        <listItem>
+          <para>To show only specific items in the browser (such as named ranges, charts, tables, or PivotTables), on the <ui>Show</ui> tab, select <legacyBold>Items in the Workbook</legacyBold> in the list box, and then select the check boxes for the items that you want to show.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Parameters</ui> tab, add any defined names you want to use to specify cells that are editable when users view the workbook in the browser, and then click <ui>OK</ui>.</para>
+        </listItem>
+      </list></listItem><listItem>
+          <para>Save the workbook.</para>
+        </listItem></list>
+      
+      
+      <alert class="note">
+        <list class="bullet">
+          <listItem>
+            <para>If you select items that have the same name (such as a chart and its underlying table of data), only one of these items will be available in the browser. To show all the items, make sure that each item in the workbook has a unique name.</para>
+          </listItem>
+          
+          
+          <listItem>
+            <para>You can rename tables on the <ui>Design</ui> tab in the <ui>Properties</ui> group, rename PivotTables on the <ui>Options</ui> tab in the <ui>PivotTable</ui> group, and rename charts or PivotCharts on the <ui>Layout</ui> tab in the <ui>Properties</ui> group. Rename other duplicate items, such as named ranges on the <ui>Formulas</ui> tab in the <ui>Defined Names</ui> group.</para>
+          </listItem>
+        </list>
+      </alert>
+    </content>
+    
+  </section>
+  
+  <relatedTopics />
+</developerConceptualDocument></topic>

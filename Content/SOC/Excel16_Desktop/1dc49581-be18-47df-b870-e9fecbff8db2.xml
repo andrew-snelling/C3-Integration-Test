@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="1dc49581-be18-47df-b870-e9fecbff8db2" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>So now that everyone knows what’s shown on your map, you can add a legend.</para>
+    <para address="__goback">
+      <mediaLinkInline>
+        <image xlink:href="637ef42e-f1b2-461e-9bfa-5632c1b8dd45">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <para>A legend is automatically created when you add fields to the <ui>Category</ui> box in the Layer Pane, but if it isn’t shown on the map, here’s how you can add it:</para>
+    <list class="ordered">
+      <listItem>
+        <para>Click <ui>Home</ui> &gt; <ui>Legend</ui>.</para><para>
+      <mediaLinkInline>
+        <image xlink:href="1eb1301e-6dd3-4e7e-b2ff-d5fa17abbfaf">
+        </image>
+      </mediaLinkInline>
+    </para>
+      </listItem><listItem>
+        <para>To resize the legend, click it, and drag the sizing handle to the size you want.</para>
+      <para>
+      <mediaLinkInline>
+        <image xlink:href="ed0a7b59-7b16-4c89-a60f-4f09ce1de12f">
+        </image>
+      </mediaLinkInline>
+    </para></listItem><listItem>
+        <para>To move the legend, click the legend bar and drag it to the location you want.</para>
+      <para>
+      <mediaLinkInline>
+        <image xlink:href="744560b7-ec65-446d-a920-e1832dfca38d">
+        </image>
+      </mediaLinkInline>
+    </para></listItem>
+    </list>
+    
+    
+    
+    
+    
+    <alert class="tip">
+      <para> To remove a legend, click the <ui>Close</ui> icon in the legend bar. You can always show it again by clicking <ui>Home</ui> &gt; <ui>Legend</ui>.</para>
+    </alert>
+    <alert class="note">
+      <para />
+    </alert>
+    <list class="bullet">
+      <listItem>
+        <para>Each layer has its own legend. You can arrange them separately to show different details for different layers. You can also change their size and place them in different locations on the map.</para>
+      </listItem>
+      <listItem>
+        <para>Legends are available for all chart types, and they’re automatically updated every time you make a change to their associated layer.</para>
+      </listItem>
+      <listItem>
+        <para>You can’t edit or format the labels in a legend.</para>
+      </listItem>
+    </list>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

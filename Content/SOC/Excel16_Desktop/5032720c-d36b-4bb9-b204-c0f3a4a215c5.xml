@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="5032720c-d36b-4bb9-b204-c0f3a4a215c5" revisionNumber="11"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>This article shows you how to add a chart legend in Office 2016, and also how to customize the appearance of the legend, including the font, the border, and the background.</para>
+  </introduction>
+  <section>
+<content><tabControl controlId="OfficeVersion"><tabControlItem targetedOS="Windows"><tabControlItemTitle>Windows</tabControlItemTitle><tabControlItemSection><content></content><sections><section expanded="true">
+    <title>Add a chart legend</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click the chart to which you want to add a legend,  click the <ui>Chart Elements</ui> button <mediaLinkInline><image xlink:href="626dda4e-57b4-416e-bc66-e7479e005a0a"></image></mediaLinkInline> ,  and then click <ui>Legend</ui>.</para>
+          <mediaLink>
+            <image xlink:href="38dfea4c-0d1e-474c-864d-e9bb4ab88e24" />
+          </mediaLink>
+        </listItem>
+        <listItem>
+          <para>
+                To change the location of the legend, click the arrow next to <ui>Legend</ui> and then click the location that you want.</para>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <list class="bullet">
+          <listItem>
+            <para>By default, a legend does not overlap the chart. If you have space constraints, you may be able to reduce the size of the chart by clicking <ui>More Options</ui> and then clearing the <ui>Show the legend without overlapping the chart</ui> check box.</para>
+          </listItem>
+          <listItem>
+            <para>To remove a legend, right-click it, and then click <ui>Delete</ui>.</para>
+            <mediaLink>
+              <image xlink:href="67fa39c6-4888-4dd6-bda9-435b4a43dc96" />
+            </mediaLink>
+          </listItem>
+        </list>
+      </alert>
+    </content>
+  </section>
+  <section expanded="true">
+    <title>Format a chart legend</title>
+    <content>
+      <para>Once you add the chart legend, there are many things that you can do to change how it looks.</para>
+      <para>
+        <legacyBold>Change font or font size</legacyBold>
+      </para>
+      <list class="ordered">
+        <listItem>
+          <para>Right-click the legend, and then click <ui>Font</ui>.</para>
+          <mediaLink>
+            <image xlink:href="2bf9bdc1-9519-4135-b7b4-f8f3c9c8294b" />
+          </mediaLink>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Font</ui> tab, make the changes that you want to the font or font size.</para>
+          <mediaLink>
+            <image xlink:href="6d872784-9c25-4438-bf93-208c71970800" />
+          </mediaLink>
+        </listItem>
+      </list>
+      <para>
+        <legacyBold>Change legend border or  background</legacyBold>
+      </para>
+      <list class="ordered">
+        <listItem>
+          <para>Right-click the legend, and then click <ui>Format Legend</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Format Legend</ui> task pane, pick the options that you want.</para>
+          <mediaLink>
+            <image xlink:href="158c0417-0e11-4c1c-9270-df6372f3bdf5" />
+          </mediaLink>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <para>You can really make your legend stand out by adding an effect. Click <ui>Effects</ui> and then pick the effect that you want. A wide variety of effects is available, including shadows, glows, and soft edges. (Just be careful not to go overboard: you probably don't want to clutter the presentation of your data.)</para>
+      </alert>
+      <mediaLink>
+        <image xlink:href="9281faa3-e8d2-4c10-920f-905356300458" />
+      </mediaLink>
+    </content>
+  </section>
+  </sections></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Mac"><tabControlItemTitle>macOS</tabControlItemTitle><tabControlItemSection><content></content><sections><section expanded="true">
+<title>Customize a legend (Office 2016 for Mac)</title><content>
+      <para>A legend can make your chart easier to read because it positions the labels for the data series outside the <token>TE102655856</token> of the chart. You can change the position of the legend and customize its colors and fonts. You can also edit the text in the legend and change the order of the entries in the legend.</para>
+      <list class="ordered">
+        <listItem>
+          <para>This step applies to Word 2016 for Mac only: On the <ui>View</ui> menu, click <ui>Print Layout</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>Click the chart, and then click the <ui>Chart Design</ui> tab.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Add Chart Element</ui> &gt; <ui>Legend</ui>.</para>
+          
+        </listItem>
+        <listItem>
+          <para>To change the position of the legend, choose <ui>Right</ui>, <ui>Top</ui>, <ui>Left</ui>, or <ui>Bottom</ui>. To change the format of the legend, click <ui>More Legend Options</ui>, and then make the format changes that you want.</para>
+          <para>Depending on the chart type, some options may not be available.</para>
+        </listItem>
+      </list></content>
+</section><section expanded="true">
+<title>Customize a legend (Office for Mac 2011)</title><content>
+      <para>A legend can make your chart easier to read because it positions the labels for the data series outside the <token>TE102655856</token> of the chart. You can change the position of the legend and customize its colors and fonts. You can also edit the text in the legend and change the order of the entries in the legend.</para>
+      <list class="ordered">
+        <listItem>
+          <para>This step applies to Word for Mac 2011 only: On the <ui>View</ui> menu, click <ui>Print Layout</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>Click the chart, and then click the <ui>Chart Layout</ui> tab.</para>
+        </listItem>
+        <listItem>
+          <para>To change the position of the legend, under <ui>Labels</ui>, click <ui>Legend</ui>, and then click the legend position that you want.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="872631d6-ba23-42e7-81c2-cc5de5695834">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>To change the format of the legend, under <ui>Labels</ui>, click <ui>Legend</ui>, click <ui>Legend Options</ui>, and then make the format changes that you want.</para>
+          <para>Depending on the chart type, some options may not be available.</para>
+        </listItem>
+      </list></content>
+</section></sections></tabControlItemSection></tabControlItem></tabControl></content>
+</section><relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="ce722bf9-0b4a-49a5-94ba-438fde18fc2b" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para address="bmbacktotop">You can use a custom <token>TE000127116</token> to save specific display settings (such as hidden rows and columns, cell selections, filter settings, and window settings) and print settings (such as page settings, margins, headers and footers, and sheet settings) for a worksheet so that you can quickly apply these settings to that worksheet when needed. You can also include a specific <token>TE000127092</token> in a custom view.</para>
+		<para>You can create multiple custom views per worksheet, but you can only apply a custom view to the worksheet that was active when you created the custom view. If you no longer need a custom view, you can delete it.</para>
+	</introduction>
+	<section>
+		<title address="___toc___1_t">What do you want to do?</title>
+		<content>
+			<list address="___toc___1_l" class="nobullet">
+				<listItem>
+					<para><link xlink:href="ce722bf9-0b4a-49a5-94ba-438fde18fc2b#bmcreatecustomview">Create a custom view</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="ce722bf9-0b4a-49a5-94ba-438fde18fc2b#bmapplycustomview">Apply a custom view</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="ce722bf9-0b4a-49a5-94ba-438fde18fc2b#bmdeletecustomview">Delete a custom view</link></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section address="bmcreatecustomview">
+		<title>Create a custom view</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>On a worksheet, change the display and print settings that you want to save in a custom view.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>View</ui> tab, in the <ui>Workbook Views</ui> group, click <ui>Custom Views</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="43e20b4e-5bd3-4b48-a791-1b55f5f946aa" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Add</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Name</ui> box, type a name for the view.</para>
+					<alert class="tip">
+						<para>To make a view easier to identify, you can include the name of the active worksheet in the name of a view.</para>
+					</alert>
+				</listItem>
+				<listItem>
+					<para>Under <ui>Include in view</ui>, select the check boxes of the settings that you want to include. All the views that you add to the workbook appear under <ui>Views</ui> in the <ui>Custom Views</ui> dialog box. When you select a view in the list, and then click <ui>Show</ui>, the worksheet that was active when you created the view will be displayed.</para>
+				</listItem>
+			</list>
+			<list class="bullet">
+				<listItem>
+					<para>If any worksheet in the workbook contains an Excel table, the <ui>Custom Views</ui> command will not be available anywhere in the workbook.</para>
+				</listItem>
+			</list>
+			<para><link xlink:href="ce722bf9-0b4a-49a5-94ba-438fde18fc2b#__top">Top of Page</link></para>
+		</content>
+	</section>
+	<section address="bmapplycustomview">
+		<title>Apply a custom view</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>On the <ui>View</ui> tab, in the <ui>Workbook Views</ui> group, click <ui>Custom Views</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="43e20b4e-5bd3-4b48-a791-1b55f5f946aa" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Views</ui> box, click the name of the view that you want to apply, and then click <ui>Show</ui>.</para>
+					<alert class="note">
+						<para>The worksheet that was active when you created the custom view is automatically displayed.</para>
+					</alert>
+				</listItem>
+			</list>
+			<para><link xlink:href="ce722bf9-0b4a-49a5-94ba-438fde18fc2b#__top">Top of Page</link></para>
+		</content>
+	</section>
+	<section address="bmdeletecustomview">
+		<title>Delete a custom view</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>On the <ui>View</ui> tab, in the <ui>Workbook Views</ui> group, click <ui>Custom Views</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="43e20b4e-5bd3-4b48-a791-1b55f5f946aa" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Views</ui> box, click the name of the view that you want to delete, and then click <ui>Delete</ui>.</para>
+				</listItem>
+			</list>
+			<para><link xlink:href="ce722bf9-0b4a-49a5-94ba-438fde18fc2b#__top">Top of Page</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

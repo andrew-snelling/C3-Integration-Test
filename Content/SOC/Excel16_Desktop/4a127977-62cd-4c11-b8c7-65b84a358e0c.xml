@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="4a127977-62cd-4c11-b8c7-65b84a358e0c" revisionNumber="11"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>The sunburst chart is ideal for displaying hierarchical data. Each level of the hierarchy is represented by one ring or circle with the innermost circle as the top of the hierarchy. A sunburst chart without any hierarchical data  (one level of categories), looks similar to a  doughnut chart. However, a sunburst chart with multiple levels of categories shows how the outer rings relate to the inner rings. The sunburst chart is most effective at showing how one ring is broken into its contributing pieces, while another type of hierarchical chart, the  <link xlink:href="dfe86d28-a610-4ef5-9b30-362d5c624b68">treemap chart</link>, is ideal for comparing relative sizes. </para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="eb234cf8-1004-49bc-bfee-a50602ac492a" />
+      </mediaLinkInline>
+    </para>
+  </introduction>
+  <section>
+<content><tabControl controlId="OfficeVersion"><tabControlItem targetedOS="Windows"><tabControlItemTitle>Windows</tabControlItemTitle><tabControlItemSection><content></content><sections><section>
+    <title>Create a sunburst chart </title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Select your data.</para>
+          <mediaLink>
+            <caption>Data used to create the example chart. Note the blank cells.</caption>
+            <image xlink:href="b2aa45d9-18f3-420a-ac2c-92baaf3511d1" />
+          </mediaLink>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Insert</ui> &gt; <ui> Insert Hierarchy Chart</ui> &gt; <ui>Sunburst</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="388b7b8e-13d8-4712-a5e3-e46d3fdf4505" />
+            </mediaLinkInline>
+          </para>
+          <para>You can also use the <ui>All Charts</ui> tab in <ui>Recommended Charts</ui> to create a sunburst chart, although the sunburst chart will only be recommended when empty (blank) cells exist within the hierarchal structure. (click <ui>Insert</ui> &gt;<ui>Recommended Charts</ui> &gt; <ui>All Charts</ui> tab)</para>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <para>Use the <ui>Design</ui> and  <ui>Format</ui> tabs to customize the look of your  chart. If you don't see these tabs, click anywhere in the sunburst chart to add the <ui>Chart Tools</ui> to the ribbon.</para>
+      </alert>
+      <mediaLink>
+        <image xlink:href="fd7db992-63b2-4e28-a877-a2ae13d6b7ef" />
+      </mediaLink>
+      
+    </content>
+  </section></sections></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Mac"><tabControlItemTitle>macOS</tabControlItemTitle><tabControlItemSection><content></content><sections><section>
+<title>Create a sunburst chart</title><content><list class="ordered"><listItem>
+          <para>Select your data.</para>
+          <mediaLink>
+            <caption>Data used to create the example chart. Note the blank cells.</caption>
+            <image xlink:href="b2aa45d9-18f3-420a-ac2c-92baaf3511d1" />
+          </mediaLink>
+        </listItem><listItem><para>On the ribbon, click the <ui>Insert</ui> tab, and then click <mediaLinkInline>
+<image xlink:href="e22228f7-0e94-47f1-870c-4fa60afb3444" />
+</mediaLinkInline> (<ui>Hierarchy</ui> icon), and select <ui>Sunburst</ui>.</para><mediaLink>
+<image xlink:href="026518a4-5bf7-4a7b-921f-e49d1d87da6f" />
+</mediaLink><alert class="tip">
+ <para>Use the <ui>Chart Design</ui> and <ui>Format</ui> tabs to customize the look of your chart. If you don't see these tabs, click anywhere in the Sunburst chart to display them on the ribbon.</para>
+</alert></listItem></list></content>
+</section></sections></tabControlItemSection></tabControlItem></tabControl><para>To read more about the sunburst chart and how it helps you visualize hierarchical data,  see this <externalLink><linkText> blog post on the sunburst and treemap chart </linkText><linkUri>https://blogs.office.com/2015/08/11/breaking-down-hierarchical-data-with-treemap-and-sunburst-charts</linkUri></externalLink> by the Excel team. You may also be interested learning more about <externalLink><linkText> the other new chart types described in this blog post</linkText><linkUri>https://blogs.office.com/2015/07/02/introducing-new-and-modern-chart-types-now-available-in-office-2016-preview/</linkUri></externalLink>.</para></content>
+</section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

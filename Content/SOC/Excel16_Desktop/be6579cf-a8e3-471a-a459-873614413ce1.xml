@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="be6579cf-a8e3-471a-a459-873614413ce1" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="__goback">Sparklines are tiny charts inside single worksheet cells that can be used to visually represent and show a trend in your data. Sparklines can draw attention to important items such as seasonal changes or economic cycles and highlight the maximum and minimum values in a different color. Showing trends in your worksheet data can be useful, especially when you’re sharing your data with other people. </para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="558cd95b-356a-4a26-9b9b-11c9352e75b4">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <list class="ordered">
+      <listItem>
+        <para>Select a blank cell near the data you want to show in a sparkline.</para>
+      </listItem>
+      <listItem>
+        <para>On the  <ui>Insert</ui> tab, in the <ui>Sparklines</ui> group, click <ui>Line</ui>, <ui>Column</ui>, or <ui>Win/Loss</ui>.</para>
+      <para>
+      <mediaLinkInline>
+        <image xlink:href="97911963-9a1f-4ab6-be22-dc68685a3dbf">
+        </image>
+      </mediaLinkInline>
+    </para></listItem>
+    <listItem>
+        <para>In the <ui>Data Range</ui> box, enter the range of cells that has the data you want to show in the sparkline.</para>
+      <para>For example, if your data is in cells A, B, C, and D of row 2, enter <literal>A2:D2</literal>.</para><para>
+      <mediaLinkInline>
+        <image xlink:href="c2ca0da8-50ea-440d-a8d2-dee22369720e">
+        </image>
+      </mediaLinkInline>
+    </para><para>If you’d rather select the range of cells on the worksheet, click <mediaLinkInline><image xlink:href="cd1cff50-fc90-4268-a264-97f9a4fa882a"></image></mediaLinkInline> to temporarily collapse the dialog box, select the cells on the worksheet, and then click <mediaLinkInline><image xlink:href="a9db12a2-620e-4f2f-a250-2ba69672e8be"></image></mediaLinkInline> to show the dialog box in full.</para></listItem><listItem>
+        <para>Click <ui>OK</ui>.</para>
+      <para>The <ui>Sparkline Tools</ui> appear on the ribbon. Use the commands on the <ui>Design</ui> tab to customize your sparklines.</para><para>
+      <mediaLinkInline>
+        <image xlink:href="09da6ac6-38e0-49fa-bdeb-0fe14e0e25ef">
+        </image>
+      </mediaLinkInline>
+    </para></listItem></list>
+    
+    
+    
+    
+    
+    
+    
+    <para>Tips</para>
+    <list class="bullet">
+      <listItem>
+        <para>Because a sparkline is embedded in a cell, any text you enter in the cell uses the sparkline as its background, as shown in the following example.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="201e0b9c-5a86-4945-b8b9-fb6424322417">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>If you select one cell, you can always copy a sparkline to other cells in a column or row later by dragging or using <ui>Fill Down</ui> (Ctrl+D).</para>
+      </listItem>
+    </list>
+  </introduction>
+  <section>
+    <title>Customize your sparklines</title>
+    <content>
+      <para>After you create sparklines, you can change their type, style, and format at any time.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Select the sparklines you want to customize to show the <ui>Sparkline Tools</ui> on the ribbon.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="09da6ac6-38e0-49fa-bdeb-0fe14e0e25ef">
+          </image>
+        </mediaLinkInline>
+      </para></listItem>
+      <listItem>
+          <para>On the <ui>Design</ui> tab, pick the options you want. You can: </para>
+          <list class="bullet">
+            <listItem>
+              <para>Show markers to highlight individual values in line sparklines.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="87d1ebd2-7751-4276-ad82-7d299075f5db">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>Change the style or format of sparklines.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="329c5ee3-1892-4055-acb7-86a76c0609bb">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>Show and change axis settings.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="8ed1df4b-c6b0-40ee-be72-77b8ec3e9784">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+            <listItem>
+              <para>Change the way data is shown.</para>
+              <para>
+                <mediaLinkInline>
+                  <image xlink:href="e5c8d72c-2b42-4ef6-9794-edf4d025668c">
+                  </image>
+                </mediaLinkInline>
+              </para>
+            </listItem>
+          </list>
+        </listItem></list>
+      
+      
+    </content>
+    
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="be0bad76-3f04-4e9b-8a53-1801fc2b17d9" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top"> 
+	 <para>When you open 3D Maps, Bing Maps automatically plots your data in a column chart. You can change to a heat map, where colors represent your data, making it easy for people to take in lots of data at a quick glance.</para>
+	 <mediaLink>
+		<caption>Heat map showing energy capacity of the middle and eastern US</caption>
+		<image xlink:href="7fe6493f-cabd-4694-9e89-0c5a0ad567c4"> </image></mediaLink>
+	 <list class="ordered">
+		<listItem> 
+		  <para>Click <ui>Home</ui> &gt;<ui>Layer Pane</ui>.</para>
+		  <para> <mediaLinkInline> <image xlink:href="65317674-9161-4cb5-a3b6-6f78b84a8a7c"> </image> </mediaLinkInline> </para>
+		</listItem>
+		<listItem> 
+		  <para>In the <ui>Layer Pane</ui>, in the layer that you want to display as a heat map, click the <ui>Heat Map</ui> icon.</para>
+		  <para> <mediaLinkInline> <image xlink:href="5d13d870-e158-4ec3-aa0f-32b8af6a611a"> </image> </mediaLinkInline> </para>
+		  <alert class="note"> 
+			 <list class="bullet">
+				<listItem> 
+				  <para>When you switch to a heat map, the <ui>Height</ui> field changes to <ui>Value</ui>.</para>
+				</listItem>
+				<listItem> 
+				  <para>You may want to <link xlink:href="643fc486-cda4-4692-85ac-7129862deed5">zoom in or rotate the chart</link> to get a better view of the heat map.</para>
+				</listItem>
+				<listItem> 
+				  <para>You can’t <link xlink:href="b276b8d0-4eb3-476a-8e88-ad61373b8647">add annotations</link> to heat maps.</para>
+				</listItem>
+			 </list>
+		  </alert>
+		</listItem>
+	 </list>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

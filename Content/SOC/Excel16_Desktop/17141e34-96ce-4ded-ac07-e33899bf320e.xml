@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="17141e34-96ce-4ded-ac07-e33899bf320e" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top"> 
+	 <para>When you open 3D Maps for a new set of data, it detects the geography in your data and plots a clustered column chart by default.</para>
+	 <mediaLink>
+		<caption>Clustered columns</caption>
+		<image xlink:href="9faadbd0-3fe6-41a4-8b08-fa19c47583e3"> </image></mediaLink><mediaLink>
+		<caption>The same data shown as stacked columns</caption>
+		<image xlink:href="bdfb26ff-0bcd-4fd6-a160-c6dfa229c871"> </image></mediaLink>
+  </introduction>
+  
+  <section>
+	 <title>Switch between clustered and stacked columns</title>
+	 <content>
+		<list class="ordered">
+		  <listItem> 
+			 <para>Click <ui>Home</ui> &gt; <ui>Layer Pane</ui>.</para>
+			 <para> <mediaLinkInline> <image xlink:href="65317674-9161-4cb5-a3b6-6f78b84a8a7c"> </image> </mediaLinkInline> </para>
+		  </listItem>
+		  <listItem> 
+			 <para>In the <ui>Layer Pane</ui> tab, for the layer that you want to change, click <ui>Stacked Column</ui> or <ui>Clustered Column</ui>.</para>
+			 <para> <mediaLinkInline> <image xlink:href="ba18954d-89ac-4ea0-9cad-1112dfb7f5ec"> </image> </mediaLinkInline> </para>
+			 <alert class="note"> 
+				<list class="bullet">
+				  <listItem> 
+					 <para>You can drag additional fields into the <ui>Height</ui> or <ui>Category</ui> boxes, or check the fields, and 3D Maps puts your field in the appropriate box. </para>
+				  </listItem>
+				  <listItem> 
+					 <para>If you drag a field only to the <ui>Category</ui> box and leave the <ui>Height</ui> box blank, 3D Maps automatically adds that same field to <ui>Height</ui> and draws a chart that represents the count of each category. </para>
+				  </listItem>
+				  <listItem> 
+					 <para>You can also <link xlink:href="3e35d639-519a-4799-96bf-d81da6f6d07a">change the shape of the columns</link>.</para>
+				  </listItem>
+				</list>
+			 </alert>
+		  </listItem>
+		</list>
+	 </content>
+	 <sections /> 
+  </section>
+  <section>
+	 <title>More about stacked and clustered columns</title>
+	 <content>
+		<para>Use stacked columns when you have multiple data series and you want to emphasize the total. For example, if you want to plot all of the different kinds of show tickets (<legacyBold>Day</legacyBold>, <legacyBold>Evening</legacyBold>, <legacyBold>Full Price</legacyBold>, <legacyBold>Discounted</legacyBold>, <legacyBold>Member</legacyBold>, <legacyBold>Nonmember</legacyBold>) by ZIP code.</para>
+		<para>Use clustered columns to compare data across both categories and data series. For example, if you have entries like <legacyBold>Strongly Agree</legacyBold>, <legacyBold>Agree</legacyBold>, <legacyBold>Neutral</legacyBold>, <legacyBold>Disagree</legacyBold>, and <legacyBold>Strongly Disagree</legacyBold>, by customer segment.</para>
+	 </content>
+	  
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

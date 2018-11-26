@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="6055ecd9-e20f-4a7a-a611-4481bd488c55" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>The status bar at the bottom of Office programs displays status on options that are selected to appear on the status bar. Many options are selected by default. If you want to customize the status bar, right-click it, and then click the options that you want.</para>
+    <para>The following options are available on the status bar in Excel.</para>
+    <alert class="note">
+ <para>A few options may not be available depending on the Excel version you are using.</para>
+</alert><table>
+      <thead>
+        <tr>
+          <TD>
+            <para>
+              <legacyBold>This option</legacyBold>
+            </para>
+          </TD>
+          <TD>
+            <para>
+              <legacyBold>Displays the following on the status bar</legacyBold>
+            </para>
+          </TD>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <TD>
+            <para>Cell Mode</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays the current cell editing mode on the left side of the status bar. One of the following modes is displayed.</para>
+            <list class="bullet">
+              <listItem>
+                <para>
+                  <ui>Ready</ui> to indicate a general state.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <ui>Enter</ui> to indicate content entry mode. It is displayed when you select a cell and start typing, or when you press F2 twice.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <ui>Edit</ui> to indicate in-cell editing mode. It is displayed when you double-click a cell, or when you press F2 so that you can enter or edit data in a cell.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <ui>Point</ui> to indicate formula cell selection mode. It is displayed when you start a formula and then click the cells that you want to include in the formula.</para>
+              </listItem>
+            </list>
+          </TD>
+        </tr>
+        <tr><TD><para>Flash Fill Blank Cells</para></TD><TD><para>Selected by default, this option indicates the number of cells that were left blank after a <link xlink:href="2e79a709-c814-4b27-8bc2-c4dc84d49464">Flash Fill</link> operation.</para></TD></tr><tr><TD><para>Flash Fill Changed Cells</para></TD><TD><para>Selected by default, this option indicates the number of cells that were populated by the <link xlink:href="2e79a709-c814-4b27-8bc2-c4dc84d49464">Flash Fill</link>.</para></TD></tr><tr>
+          <TD>
+            <para>Signatures</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option indicates that the active workbook has been digitally signed.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Information Management Policy</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option indicates that Information Rights Management (IRM) has been used to restrict permission to content in the active workbook. </para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Permissions</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays an icon next to the Cell Mode indicator that you can click to view the current read and edit document permissions. </para><para>This icon displays only when access to the document has been restricted. To apply restriction in <token>TE000130082</token>, click <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af"></image></mediaLinkInline>, <ui>Prepare</ui>, <ui>Restrict Permission</ui>, <ui>Restricted Access</ui>. In other versions, click <ui>File</ui> &gt; <ui>Info</ui> &gt; <ui>Protect Workbook</ui> &gt; <ui>Restrict Access</ui> &gt; <ui>Restricted Access</ui>.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Caps Lock</para>
+          </TD>
+          <TD>
+            <para>When selected, this option displays <ui>Caps Lock</ui> to indicate that CAPS LOCK is turned on to allow typing in uppercase characters. This option is not selected by default.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Num Lock</para>
+          </TD>
+          <TD>
+            <para>When selected, this option displays <ui>Num Lock</ui> to indicate that NUM LOCK is turned on to allow using the keys on the numeric keypad to enter numbers in the worksheet. This option is not selected by default.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Scroll Lock</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays <ui>Scroll Lock</ui> to indicate that SCROLL LOCK is turned on to allow scrolling in the worksheet by using the arrow keys.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Fixed Decimal</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays <ui>Fixed Decimal</ui> to indicate that all numerical values that you enter on the worksheet will be displayed with fixed decimals. This option is turned on when you select the <ui>Automatically insert a decimal point</ui> check box under <ui>Editing options</ui> on the <ui>Advanced</ui> tab of the <ui>Excel Options</ui> dialog box (in <token>TE000130082</token>, click <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af"></image></mediaLinkInline> <ui>Microsoft Office Button </ui>, <ui>Excel Options</ui>, <ui>Advanced</ui>. In other Excel versions, click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Advanced</ui>.). </para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Overtype Mode</para>
+          </TD>
+          <TD>
+            <para>When selected, this option displays <ui>Overtype</ui> to indicate that INSERT was pressed to activate overtype mode while editing cell contents in cell editing mode (double-click a cell or press F2). This option is not selected by default.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>End Mode</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays <ui>End Mode</ui> to indicate that END was pressed to activate end mode. Pressing END followed by an arrow key moves the selection in the direction of the arrow key, stopping at the start and end of data, and then the start or end of the worksheet. </para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Macro Recording</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays a button next to the Cell Mode indicator that you can click to start recording a macro.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Selection Mode</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays one of the following cell selection modes.</para>
+            <list class="bullet">
+              <listItem>
+                <para>
+                  <ui>Extend Selection</ui> when you press F8 to extend the cell selection by using arrow keys.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <ui>Add to Selection</ui> when you press SHIFT+F8 to add a nonadjacent cell or range to a selection of cells by using the arrow keys.</para>
+              </listItem>
+            </list>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Page Number</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays the page number of the selected worksheet page and the number of pages in the worksheet when you are working in Page Layout view or Print Preview view.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Average</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays the average that is calculated from selected cells that contain numerical values. </para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Count</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays the number of selected cells. </para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Numerical Count</para>
+          </TD>
+          <TD>
+            <para>When selected, this option displays the number of selected cells that contain numerical values. This option is not selected by default.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Minimum</para>
+          </TD>
+          <TD>
+            <para>When selected, this option displays the minimum numerical value in selected cells. This option is not selected by default.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Maximum</para>
+          </TD>
+          <TD>
+            <para>When selected, this option displays the maximum numerical value in selected cells. This option is not selected by default.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Sum</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays the sum of numerical values in selected cells. </para>
+          </TD>
+        </tr>
+        <tr><TD><para>Upload Status</para></TD><TD><para>Selected by default, this option indicates the upload status of the spreadsheet to the web. </para></TD></tr><tr>
+          <TD>
+            <para>View Shortcuts</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays the <ui>Normal</ui> view, <ui>Page Layout</ui> view, and <ui>Page Break Preview</ui> buttons. You can click these buttons to change the current view.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Zoom</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays the <ui>Zoom</ui> level. You can click <ui>Zoom</ui> to open the <ui>Zoom</ui> dialog box, where you can specify the percentage of magnification that you want to use.</para>
+          </TD>
+        </tr>
+        <tr>
+          <TD>
+            <para>Zoom Slider</para>
+          </TD>
+          <TD>
+            <para>Selected by default, this option displays the<ui> Zoom</ui> slider with the <ui>Zoom out</ui> and <ui>Zoom in</ui> buttons. You can then drag the slider or click the <ui>Zoom out</ui> and <ui>Zoom in</ui> buttons to magnify the content of the worksheet to have a closer look, or to reduce the size of the content on the worksheet so that you can view more content.</para>
+          </TD>
+        </tr>
+      </tbody>
+    </table>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="58b5f051-0e80-4387-a383-c5bdba34322a" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para><link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">Linked data types</link> were released in Excel for Office 365 in June 2018, and as such, other features might not be able to identify them. This can be especially true when you want to use other features to conditionally identify whether a cell contains a linked data type or not. This article explains some workarounds you can use to identify linked data types in cells.</para>
+	</introduction>
+	<section>
+		<title>Formulas</title>
+		<content>
+			<para>You can always <link xlink:href="295d95e2-1e8a-4337-bfa9-0582b815c0b4">write formulas that reference data types</link>. However, if you want to extract the text of a cell with a linked data type by using the TEXT function, you'll get a #VALUE! error.</para>
+			<para>A workaround is to use the <link xlink:href="4a579c45-7326-4168-b556-df8b5685175b">FIELDVALUE</link> function and specify the <ui>Name</ui> field for the <ui>field_name</ui> argument. In the following example, if cell A1 contained a stock data type, then the formula would return the stock name.</para>
+			<para><legacyBold>=FIELDVALUE(A1,"Name")</legacyBold></para>
+			<para>However, if cell A1 doesn't contain a linked data type, then the FIELDVALUE function will return a <link xlink:href="66b3a5db-1904-41aa-9913-51ded9dd15f2">#FIELD! error</link>. If you want to evaluate whether or not a cell contains a linked data type, you can use the following formula, which uses the ISERROR function to test if the FIELDVALUE function will return an error.</para>
+			<para><legacyBold>=IF(ISERROR(FIELDVALUE(A2,"Name")),"This cell doesn’t have a linked data type","This cell has a linked data type")</legacyBold></para>
+			<para>If the formula evaluates to an error, then it will return the text "This cell doesn’t have a linked data type", otherwise, it will return "This cell has a linked data type".</para>
+			<para>If you simply want to suppress the #FIELD! error, you can use:</para>
+			<para><legacyBold>=IFERROR(FIELDVALUE(A1,"Name"),"")</legacyBold></para>
+			<para>Which will return a blank cell if there's an error.</para>
+		</content>
+	</section>
+	<section>
+		<title>Conditional formatting</title>
+		<content>
+			<para>You can <link xlink:href="fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f">conditionally format</link> a cell based on whether or not it has a linked data type. You'd first select the cells that need the conditional formatting, and then go to <legacyBold>Home</legacyBold> &gt; <legacyBold>Conditional Formatting</legacyBold> &gt; <legacyBold>New Rule</legacyBold> &gt; <legacyBold>Use a formula...</legacyBold> For the formula, you'd use the following:</para>
+			<para><legacyBold>=NOT(ISERROR(FIELDVALUE(A1,"Name")))</legacyBold></para>
+			<para>Where cell A1 is the top cell in the range you want to evaluate. Then apply the format you want.</para>
+			<para>In this example, if cell A1 contains a valid field name for "Name", then the formula returns TRUE and formatting will be applied. If cell A1 doesn't contain a linked data type, then the formula returns FALSE, and no formatting will be applied. You could remove the NOT if you wanted to highlight any cells that don't contain valid linked data types instead.</para>
+		</content>
+	</section>
+	<section>
+		<title>VBA</title>
+		<content>
+			<para>There are several VBA (Visual Basic for Applications) methods that you can use to identify if a cell or range contains linked data types. This first procedure uses the <externalLink><linkText>HasRichDataType property</linkText><linkUri>https://docs.microsoft.com/en-us/office/vba/api/excel.range.hasrichdatatype</linkUri></externalLink>. </para>
+			<para>Both of these procedures will prompt you to select a range of cells to evaluate, then return a message box with the results.</para>
+			<code>
+Sub IsLinkedDataType()
+    Dim c As Range
+    Dim rng As Range
+    Dim strResults As String
+    
+    Set rng = Application.InputBox("Select a range to check for linked data types", Type:=8)
+    
+    For Each c In rng
+      '    Check if the HasRichDataType is TRUE or FALSE
+        If c.HasRichDataType = True Then
+        '   The cell holds a linked data type
+            strResults = strResults &amp; c.Text &amp; " - Linked data type" &amp; vbCrLf
+        Else
+            strResults = strResults &amp; c.Text &amp; " - Not a linked data type" &amp; vbCrLf
+        End If
+    Next c
+
+    MsgBox "Your range contains the following details" &amp; vbCrLf &amp; vbCrLf &amp; strResults, vbInformation + vbOKOnly, "Results"
+    
+End Sub</code>
+			<para>This next procedure uses the <externalLink><linkText>LinkedDataTypeState property</linkText><linkUri>https://docs.microsoft.com/en-us/office/vba/api/excel.range.linkeddatatypestate</linkUri></externalLink>.</para>
+			<code>
+Sub IsLinkedDataTypeState()
+    Dim c As Range
+    Dim rng As Range
+    Dim strResults As String
+    
+    Set rng = Application.InputBox("Select a range to check for linked data types", Type:=8)
+    
+    For Each c In rng
+   '    Check if the LinkedDataTypeState is 1 (TRUE) or 0 (FALSE)
+        If c.LinkedDataTypeState = 1 Then
+        '   The cell holds a linked data type
+            strResults = strResults &amp; c.Text &amp; " - Linked data type" &amp; vbCrLf
+        Else
+            strResults = strResults &amp; c.Text &amp; " - Not a linked data type" &amp; vbCrLf
+        End If
+    Next c
+    
+   MsgBox "Your range contains the following details" &amp; vbCrLf &amp; vbCrLf &amp; strResults, vbInformation + vbOKOnly, "Results"
+
+End Sub</code>
+			<para>This final code snippet is a user defined function (UDF), and you reference it just like any other Excel formula. Simply enter =<legacyBold>fn_IsLinkedDataType(A1)</legacyBold>, where A1 is the cell you want to evaluate.</para>
+			<code>
+Public Function fn_IsLinkedDataType(c As Range)
+'   Function will return TRUE if a referenced cell contains a linked data type
+    If c.HasRichDataType = True Then
+      fn_IsLinkedDataType = "Linked data type"
+    Else
+        fn_IsLinkedDataType = "Not a linked data type"
+    End If
+End Function</code>
+			<para>To use any of these examples, press <ui>Alt+F11</ui> to open the Visual Basic Editor (VBE), then go to <ui>Insert </ui>&gt; <ui>Module</ui>, and paste the code in the new window that opens on the right. You can use <ui>Alt+Q</ui> to exit back to Excel when you're done. To run either of the first two examples, go to the <link xlink:href="e1192344-5e56-4d45-931b-e5fd9bea2d45">Developer tab </link>&gt; <legacyBold>Code </legacyBold>&gt; <legacyBold>Macros </legacyBold>&gt; select the macro you want to run from the list, then select <legacyBold>Run</legacyBold>.</para>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

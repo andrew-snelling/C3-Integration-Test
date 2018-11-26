@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="61a33056-9935-484f-8ac8-f1a89e210877" revisionNumber="60"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<mediaLink>
+			<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+			<video channel="ALTENUS_MS_OFFICE" player="ocvideo" videoid="RE2lDM3" videotype="single" />
+		</mediaLink>
+		<para>You can get stock and geographic data in Excel. It's as easy as typing text into a cell, and converting it to the <ui>Stocks</ui> data type, or the <ui>Geography</ui> data type. These two data types are new, and they are considered <legacyItalic>linked data types</legacyItalic> because they have a connection to an online data source. That connection allows you to bring back rich, interesting information that you can work with and refresh.</para>
+		<alert class="note">
+			<para>June 12, 2018: These data types are currently beta features, and only available to a portion of <externalLink><linkText>Office Insiders</linkText><linkUri>https://products.office.com/office-insider</linkUri></externalLink> at this time. We'll continue to optimize these features over the next several months. When they're ready, we'll release them to all Office Insiders, and <externalLink><linkText>Office 365 subscribers</linkText><linkUri>https://products.office.com/buy/compare-microsoft-office-products</linkUri></externalLink>.</para>
+		</alert>
+		<grid>
+			<gridRow>
+				<gridColumn>
+					<title>Stocks</title><nonEmptyContent>
+						<mediaLink>
+							<image xlink:href="758743e7-a2ca-42db-9f43-a45b05b1b077" />
+						</mediaLink>
+						<para>In the picture above, the cells with company names in column A contain the Stocks data type. You know this because they have this icon: <mediaLinkInline><image xlink:href="f19a7e7b-9c50-452a-9e24-43b60c3ba800" /></mediaLinkInline>. The Stocks data type is connected to an online source that contains more information. Columns B and C are extracting that information. Specifically, the values for price, and change in price are getting <legacyItalic>extracted</legacyItalic> from the Stocks data type in column A.</para>
+					</nonEmptyContent>
+				</gridColumn>
+				<gridColumn>
+					<title>Geography</title><nonEmptyContent>
+						<mediaLink>
+							<image xlink:href="3bd93428-5ca5-4300-a196-2dd04936abb9" />
+						</mediaLink>
+						<para>In this example, column A contains cells that have the Geography data type. The <mediaLinkInline><image xlink:href="7c73a931-efd4-4f68-bdb6-b964bf6c7e55" /></mediaLinkInline> icon indicates this. This data type is connected to an online source that contains more information. Columns B and C are extracting that information. Specifically, the values for population, and gasoline price are getting <legacyItalic>extracted</legacyItalic> from the Geography data type in column A.</para>
+					</nonEmptyContent>
+				</gridColumn>
+			</gridRow>
+		</grid>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Type some text in cells. If you want stock information, type a ticker symbol, company name, or fund name into each cell. If you want geographic data, type a country, province, territory, or city name into each cell.</para>
+				</listItem>
+				<listItem>
+					<para>Then select the cells.</para>
+				</listItem>
+				<listItem>
+					<para>Although it's not required, we recommend creating an <link xlink:href="e81aa349-b006-4f8a-9806-5af9df0ac664">Excel table</link>. Later on, this will make extracting online information easier. To create a table, go to <ui>Insert</ui> &gt; <ui>Table</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>With the cells still selected, go to the <ui>Data</ui> tab, and then click either <ui>Stocks</ui> or <ui>Geography</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>If Excel finds a match between the text in the cells, and our online sources, it will convert your text to either the Stocks data type or Geography data type. You'll know they're converted if they have this icon for stocks: <mediaLinkInline><image xlink:href="f19a7e7b-9c50-452a-9e24-43b60c3ba800" /></mediaLinkInline> and this icon for geography: <mediaLinkInline><image xlink:href="7c73a931-efd4-4f68-bdb6-b964bf6c7e55" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Select one or more cells with the data type, and the <ui>Insert Data</ui> button <mediaLinkInline><image xlink:href="1ab74b83-6e3b-4432-aa67-5b7562134ed9" /></mediaLinkInline> will appear. Click that button, and then click a field name to extract more information. For example, for stocks you might pick <ui>Price</ui> and for Geography you might pick <ui>Population</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Insert Data </ui> button again to add more fields. If you're using a table, here's a tip: Type a field name in the header row. For example, type <ui>Change</ui> in the header row for stocks, and the change in price column will appear.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<para>If you see <mediaLinkInline><image xlink:href="09a25441-4fdc-4399-bf7f-f1a7062beb30" /></mediaLinkInline> instead of an icon, then Excel is having a hard time matching your text with data in our online sources. Correct any spelling mistakes and when you press Enter, Excel will do its best to find matching information. Or, click <mediaLinkInline><image xlink:href="09a25441-4fdc-4399-bf7f-f1a7062beb30" /></mediaLinkInline> and a selector pane will appear. Search for data using a keyword or two, choose the data you want, and then click <ui>Select</ui>.</para>
+			</alert>
+		</content>
+	</section>
+	<section>
+		<title>More you can do</title>
+		<content />
+		<sections>
+			<section expanded="true">
+				<title>Discover more data with cards</title>
+				<content>
+					<grid>
+						<gridRow>
+							<gridColumn>
+								<nonEmptyContent>
+									<mediaLink>
+										<image xlink:href="ad5d401f-589a-45c1-9178-5a9f71a19f71" />
+									</mediaLink>
+								</nonEmptyContent>
+							</gridColumn>
+							<gridColumn>
+								<nonEmptyContent>
+									<para>After you convert text into the Stocks or Geography data types, an icon will appear in the cell. Click the icon to see the card. The card reveals a list of <legacyBold>fields</legacyBold> and corresponding <legacyBold>values</legacyBold>. Depending on the data, there could be numerous field/value pairs that you can see and work with.</para>
+									<para>For example, in this picture the card for <ui>France</ui> is shown. <ui>Capital</ui> is one of the fields available for France. And <ui>Paris</ui> is the value for that field. <ui>Leader(s)</ui> is another field, and the leader names are the values.</para>
+									<para>If you want to see more field/value pairs, scroll down inside the card.</para>
+									<para>If you're curious where the fields and values are coming from, you'll notice the "Powered by" note at the bottom of the card.</para>
+								</nonEmptyContent>
+							</gridColumn>
+						</gridRow>
+					</grid>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Add fields with cards</title>
+				<content>
+					<grid>
+						<gridRow>
+							<gridColumn>
+								<nonEmptyContent>
+									<mediaLink>
+										<image xlink:href="5c9e5a54-ddca-4e6b-b6f3-2ced995ffab6" />
+									</mediaLink>
+								</nonEmptyContent>
+							</gridColumn>
+							<gridColumn>
+								<nonEmptyContent>
+									<para>You can also add fields from cards. With the card open, rest your cursor over a field. Then click the <ui>Extract</ui> button <mediaLinkInline><image xlink:href="7e2f9e10-d311-4a4e-8eae-d27ba89a2525" /></mediaLinkInline>.</para>
+								</nonEmptyContent>
+							</gridColumn>
+						</gridRow>
+					</grid>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Write formulas that refer to data types</title>
+				<content>
+					<grid>
+						<gridRow>
+							<gridColumn>
+								<nonEmptyContent>
+									<mediaLink>
+										<image xlink:href="7a72c25b-b96d-4a1f-bd5d-610adf39bb41" />
+									</mediaLink>
+								</nonEmptyContent>
+							</gridColumn>
+							<gridColumn>
+								<nonEmptyContent>
+									<para>It is also possible to write formulas that use the values from the Stocks or Geography data types. This can be helpful if your data is not in a table. For example, type <ui>=A2</ui> and then Excel's AutoComplete menu will appear, showing you the available fields for "France." You can also type a "dot", for example: <ui>=A2.</ui> and that will show the menu as well. For more information, see <link xlink:href="295d95e2-1e8a-4337-bfa9-0582b815c0b4">How to write formulas that reference data types</link>.</para>
+								</nonEmptyContent>
+							</gridColumn>
+						</gridRow>
+					</grid>
+				</content>
+			</section></sections>
+	</section>
+	<section>
+		<title>Tips and tricks</title>
+		<content />
+		<sections>
+			<section expanded="true">
+				<title>A quick way to open a card</title>
+				<content>
+					<para>Press Ctrl+Shift+F5.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>A quick way to add a column</title>
+				<content>
+					<para>Press <ui>Alt+Shift+F10</ui> to open the <ui>Insert Data</ui> menu. You can also press the <ui>Ctrl</ui> key. Then use your arrow keys to move to a field, and press Enter to choose a field.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>How to refresh the data</title>
+				<content>
+					<para>The Stocks and Geography data types are considered <legacyItalic>linked</legacyItalic> data types. This is because they refer to an online data source. Once you convert text to a linked data type, an external data connection is established in the workbook. That way, if the data changes online, you can update it by refreshing it in Excel. To refresh the data, right-click a cell with the linked data type and click <legacyBold>Data Type</legacyBold> &gt; <ui>Refresh</ui>. That will refresh the cell you selected, plus any other cells that have that same data type.</para>
+					<para>If you want to refresh all linked data types and all data connections that may be in the workbook (including queries, other data connections, and PivotTables), click <ui>Data</ui> &gt; <ui>Refresh All</ui> or press <ui>Ctrl+Alt+F5</ui>.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Can I unlink the cells?</title>
+				<content>
+					<para>Yes. Select a cell with a linked data type, then press <ui>CTRL+C</ui> to copy it. Press <ui>CTRL+ALT+V</ui>, and then choose <ui>Values</ui>. This will paste the data type into the new cell, but the data won't be refreshable.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Switch out the data</title>
+				<content>
+					<para>You can switch out the information for a Stock or Geography data type. Just right-click the cell, and click <ui>Data Type</ui> &gt; <ui>Change...</ui>. A pane will appear on the right. Search for the data you want, and then click <ui>Select</ui> to put that information in place of the original one.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Remove a data type</title>
+				<content>
+					<para>If you don't want the Stocks or Geography data type anymore, just right-click the cell, and click <ui>Data Type</ui> &gt; <ui>Convert to Text</ui>. The data type is removed, there's no longer an online connection, and the value in the cell is converted to text. Keep in mind that if you convert the data type to text, any column or formulas that had extracted values from that data type will display the #FIELD! error.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Sorting and filtering tip</title>
+				<content>
+					<grid>
+						<gridRow>
+							<gridColumn>
+								<nonEmptyContent>
+									<mediaLink>
+										<image xlink:href="5d764960-1f25-46f3-bd8a-bd672feae26c" />
+									</mediaLink>
+								</nonEmptyContent>
+							</gridColumn>
+							<gridColumn>
+								<nonEmptyContent>
+									<para>You can always sort and filter data in Excel by using the filter buttons on the column headers. (Turn on filter buttons by clicking <ui>Data</ui> &gt; <ui>Filter</ui>.)</para>
+									<para>But here's a tip for cells with data types: Click the filter button above the cells with icons. Then decide how you want to sort or filter. If you want to do so using the displayed name, keep <ui>Display Value</ui> selected under <ui>Select field</ui>. If you want to sort or filter by another field from the linked data type, select that field under <ui>Select field</ui>.</para>
+									<para>In this example, we selected the field <ui>Area</ui>. Excel then used that as a basis for the filter check boxes below, and displays the populations for the countries we have in the table. Also good to know: Excel will change the <ui>Number Filter</ui> menus depending on the field you select under <ui>Select field</ui>.</para>
+								</nonEmptyContent>
+							</gridColumn>
+						</gridRow>
+					</grid>
+				</content>
+			</section></sections>
+	</section>
+	<section>
+		<title>Frequently asked questions</title>
+		<content />
+		<sections>
+			<section expanded="true">
+				<title>Are there other data types?</title>
+				<content>
+					<para>Excel has always had data types. But they've been traditional ones like text, number, and so on. The Stocks and Geography data types are unique because they are considered <legacyItalic>linked data types</legacyItalic>. Linked data types contain a connection to an online data source. At this time, Stocks and Geography are the only linked data types. We plan to support more in the future, based on customer feedback.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>If I send a workbook to my coworker or friend, will these new data types work for them?</title>
+				<content>
+					<para>Yes, but they need to use Excel 2016 for Office 365 subscribers.</para>
+					<alert class="note">
+						<para><token>Office_365_Note_Gradual_Rollout</token></para>
+					</alert>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Will this work in other versions of Excel?</title>
+				<content>
+					<para>At this time, only Excel 2016 for Office 365 subscribers supports the Stocks and Geography data types. Other versions of Excel may eventually support these data types, as we are continually improving Excel. If you open these new data types in a version of Excel that <legacyItalic>doesn't</legacyItalic> support them, #VALUE! will appear for those cells. And #NAME? will appear in place of any formulas that reference these data types.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Does the fill handle work with data types?</title>
+				<content>
+					<para>You cannot select a cell with a data type, and drag the fill handle down to link up text that's not already a data type. The same thing goes for the Format Painter. However, if you are using these data types in a table, you can type under the last row of the table. When you press Enter, Excel will automatically attempt to match your text with online data, and convert it into a data type. It will also do this if you aren't using a table. Just make sure the cell you are typing in has two or more cells above it that already use a data type.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Are there any other limitations to know about?</title>
+				<content>
+					<para>The Stocks and Geography data types are very new, and there are some traditional Excel features that will not function well with them. For example, if you try to create a PivotTable based on information from these data types, you'll get a #VALUE! error. And, using these data types with Power Pivot, Power Query, or even some charts may not work as expected. </para>
+					<para>Another example is with map charts. If you try to create a map chart based on data from the Geography data type, the map might not display correctly. We are working to improve this issue. In the meantime, please refer to the <link xlink:href="f2cfed55-d622-42cd-8ec9-ec8a358b593b">map chart</link> article for more information.</para>
+				</content>
+			</section>
+			<section expanded="true">
+				<title>Which languages are these data types available in?</title>
+				<content>
+					<para>At this time, these data types are only available if you have the English editing language <link xlink:href="663d9d94-ca99-4a0d-973e-7c4a6b8a827d">added to your Office Language Preferences</link>. We hope to support more languages in the future.</para>
+				</content>
+			</section></sections>
+	</section>
+	<section>
+		<title>See also</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><link xlink:href="4a579c45-7326-4168-b556-df8b5685175b">FIELDVALUE function</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="66b3a5db-1904-41aa-9913-51ded9dd15f2">#FIELD! error</link></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

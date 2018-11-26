@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="8a4e2455-2547-4d4c-8347-82a4a68a99f3" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>This dialog  gives you a quick way to select which tab or worksheet is active. This is helpful when you have a workbook with many worksheets and you can't see them all at once.</para>
+  </introduction>
+  
+  <section>
+    <title>Need more information about worksheets?</title>
+    <content>
+      <para><link xlink:href="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de">Hide or show worksheets or workbooks</link></para>
+      
+      <para><link xlink:href="47207967-bbb2-4e95-9b5c-3c174aa69328">Move or copy worksheets or worksheet data</link></para>
+      <para><link xlink:href="19D3D21E-A3B3-4E13-A422-D1F43F1FAAF2">Insert or delete a worksheet</link></para>
+      <para><link xlink:href="096b40c9-0ee7-4980-bac6-cc92aec7b266">Select one or multiple worksheets</link></para><para><link xlink:href="3f1f7148-ee83-404d-8ef0-9ff99fbad1f9">Rename a worksheet</link></para>
+    </content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

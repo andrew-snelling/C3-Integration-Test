@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f9d20709-a06f-413e-a6ce-fa77f1f4c21d" revisionNumber="-1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>Start with an empathetic introduction that matches the customer's emotional state. Clearly state the intent, and acknowledge any pain points—why they're searching for help. Then give them the quick answer or show them the steps.</para>
+  </introduction>
+  <section>
+    <title>First level heading </title>
+    <content>
+      <para>This sentence introduces an ordered list that you can use to outline a procedure.</para>
+      <para>
+        <legacyBold>Procedure title (optional)</legacyBold>
+      </para>
+      <list class="ordered">
+        <listItem>
+          <para>Add steps for the procedure that best satisfies the main intent.</para>
+        </listItem>
+        <listItem>
+          <para>
+                Add a step by placing cursor before the <ui>/step</ui> tag, then press Enter.
+              </para>
+          <para>
+                Add an indented paragraph under a numbered step by placing cursor before the <ui>/para</ui> tag, then press Enter.
+              </para>
+        </listItem>
+        <listItem>
+          <para>
+                Turn the numbered steps into a bulleted list by placing cursor after the <ui>steps</ui> tag. In the Attribute Inspector, drop down the <ui>class</ui> list, then click <ui>bullet</ui>.
+              </para>
+        </listItem>
+      </list>
+      <para>This sentence introduces a bulleted list.</para>
+      <list class="bullet">
+        <listItem>
+          <para>List item 1.</para>
+        </listItem>
+        <listItem>
+          <para>
+            Add another list item by placing the cursor before the <ui>/listItem</ui> tag, then press Enter.
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            Turn the bulleted list into a numbered list by placing cursor after the <ui>list</ui> tag. In the Attribute Inspector, drop down the <ui>class</ui> list, then click <ui>ordered</ui>.
+          </para>
+        </listItem>
+      </list>
+      <para>
+        To create a table with a header, click <ui>Table</ui> &gt; <ui>Insert</ui>.
+      </para>
+      <table border="1">
+        <tbody>
+          <tr>
+            <TD>
+              <para>Table row</para>
+            </TD>
+            <TD>
+              <para>Table row</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Table row</para>
+            </TD>
+            <TD>
+              <para>Table row</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <para>Here's a "tip" alert.</para>
+      <alert class="tip">
+        <para>Customers like tips. When you have a good tip to share, include it.</para>
+      </alert>
+    </content>
+    <sections>
+      <section>
+        <title>Second level heading</title>
+        <content>
+          <para>
+            To create a second-level heading, add a <ui>sections</ui> tag after the <ui>/content</ui> tag of the parent section, and then add a <ui>section</ui> tag into this <ui>sections</ui> tag.
+          </para>
+          <para>
+            To add another heading level of the same level, add a <ui>section</ui> after the last <ui>/section</ui> tag.
+          </para>
+        </content>
+      </section>
+    </sections>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

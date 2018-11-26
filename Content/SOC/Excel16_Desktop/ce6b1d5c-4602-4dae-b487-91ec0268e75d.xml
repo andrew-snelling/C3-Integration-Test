@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="ce6b1d5c-4602-4dae-b487-91ec0268e75d" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>After <link xlink:href="3857c274-1a44-4020-876a-398fecee70e7">plotting your geography data</link> in 3D Maps, you can use the <ui>Layer Pane</ui> to change the look and feel of your data on the map. By default, 3D Maps shows a <link xlink:href="d41ed0ff-dd86-4d6d-a675-01a6b4550992">column chart</link>, but you can show a <link xlink:href="5ab7fff1-68ff-4699-b7e6-3fe1e3c57f23">bubble chart</link>, <link xlink:href="ce15c2c9-e9b1-47ab-ae53-37489cb67726">region chart</link>, or <link xlink:href="ec3f185c-4993-41ce-9aa7-636e7c6eb1de">heat map</link> instead.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="f49e350a-82b5-40b3-ad99-0da5c91f5bdf">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <para>Here’s an example of a region chart that shows voting preferences by county for the major political parties in the United States. The deeper the red or the blue color, the higher the percentage by which a particular party leads in an election.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="e1350f5f-92c0-4d06-a1d5-b6e1a3aa5f8a">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <para>Here’s how to change the way your data is visualized:</para>
+    <list class="ordered">
+      <listItem>
+        <para>If you don’t see the <ui>Layer Pane</ui>, click <ui>Home</ui> &gt; <ui>Layer Pane</ui>.</para>
+      <para>
+      <mediaLinkInline>
+        <image xlink:href="6c59c340-bab3-46c5-ba38-073e2bed7eca">
+        </image>
+      </mediaLinkInline>
+    </para></listItem>
+    <listItem>
+        <para>For the layer where you want to show additional data, in the <ui>Add Field</ui> drop-down list under <ui>Location</ui>, click the type of data that you want to show.</para><para>(You can add more than one type of data.)</para>
+      <para>
+      <mediaLinkInline>
+        <image xlink:href="f3268a30-b63e-48f3-a618-8a0c4e2f751d">
+        </image>
+      </mediaLinkInline>
+    </para><alert class="tip">
+ <para>The fields that appear in this list will vary depending on the data that is available.</para>
+</alert></listItem>
+    <listItem>
+        <para>To change the type of chart that is displayed, click any of the available types: <ui>Stacked Column</ui>, <ui>Clustered Column</ui>, <ui>Bubble</ui>, <ui>Heat Map</ui>, or <ui>Region</ui>.</para>
+      <para>
+      <mediaLinkInline>
+        <image xlink:href="89884b58-61bc-4cf6-b4da-40955064c500">
+        </image>
+      </mediaLinkInline>
+    </para></listItem></list>
+    
+    
+    
+    
+    
+    
+    <alert class="note">
+      <list class="bullet">
+        <listItem>
+          <para>When you apply a heat map, the <ui>Height</ui> or <ui>Size</ui> box changes to a <legacyBold></legacyBold><ui>Value</ui> box. You can change the way value fields are aggregated, by clicking the arrow in the <ui>Value</ui> box and picking the function that you want. Typically, <ui>Sum</ui> is applied by default, but you can pick <ui>Average</ui>, <ui>Count</ui>, <ui>Max</ui>, <ui>Min</ui>, or <ui>None</ui>. You can also remove a value field from the <ui>Value</ui> box.</para>
+        </listItem>
+        <listItem>
+          <para>If you drag a field to the <legacyBold></legacyBold><ui>Category</ui> box and leave the <ui>Height</ui> box blank, 3D Maps automatically adds that field to the <ui>Height</ui> box and draws a visual that represents the count of each category.</para>
+        </listItem>
+        <listItem>
+          <para>Instead of dragging fields into the <legacyBold></legacyBold><ui>Height</ui> and <legacyBold></legacyBold><ui>Category</ui> boxes, you can just check the field boxes. 3D Maps puts those fields in the appropriate box. </para>
+        </listItem>
+      </list>
+    </alert>
+  </introduction>
+  <section>
+    <title>Learn more about chart types and shapes </title>
+    <content>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <link xlink:href="17141e34-96ce-4ded-ac07-e33899bf320e">Create a stacked or clustered column chart in Power Map</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="26aae7bf-0ace-4b99-9a30-280e1169b91a">Change to a bubble chart in Power Map</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="ce15c2c9-e9b1-47ab-ae53-37489cb67726">Create a region chart</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="be0bad76-3f04-4e9b-8a53-1801fc2b17d9">Add a heat map in Power Map</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="3e35d639-519a-4799-96bf-d81da6f6d07a">Change the Power Map chart shapes</link>
+          </para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="8d8a52bb-03c3-4933-ab6c-330aabf1e589" revisionNumber="20"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Share a workbook with others, right within Excel. You can let them edit the workbook or just view it.</para>
+		
+		<mediaLink><caption></caption>
+			<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+			<video channel="" player="SP_MOD_OfficeCom" videoid="RE2oqXT" videotype="single" />
+		</mediaLink>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<tabControl>
+				<tabControlItem targetedOS="Windows">
+					<tabControlItemTitle>Windows</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							
+							<list class="ordered">
+								<listItem>
+									<para>Select <legacyBold>Share</legacyBold>.</para>
+								</listItem>
+								<listItem>
+									<para>Select permissions and then <legacyBold>Apply</legacyBold>.</para>
+								</listItem>
+								<listItem>
+									<para>Add people.</para>
+								</listItem>
+								<listItem>
+									<para>Type a message if you like.</para>
+								</listItem>
+								<listItem>
+									<para>Select <legacyBold>Send</legacyBold>.</para>
+								</listItem>
+							</list>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem conditionalContentLocalization="Mac" targetedOS="Mac">
+					<tabControlItemTitle>macOS</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para>It takes just three steps to share a workbook.</para>
+						</content>
+						<sections>
+							<section expanded="true">
+								<title>Step 1. Upload the workbook</title>
+								<content>
+									<para>Using a web browser, upload or create a new workbook on <link xlink:href="b00ad3fe-6643-4b16-9212-de00ef02b586">OneDrive</link>, <link xlink:href="5bd927ad-d186-495c-93e8-7ca116fe7b83">OneDrive for Business</link>, or a <link xlink:href="eb18fcba-c953-4d45-8d90-8da66edeacdb">SharePoint Online library</link>.</para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 2: Share it</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>If you uploaded the file, click the filename to open it. The workbook will open in a new tab in your web browser.</para>
+										</listItem>
+										<listItem>
+											<para>Click the <ui>Edit in Excel</ui> button. If you don't have this button, click <ui>Edit in Browser</ui>, and then click <ui>Edit in Excel</ui> after the page reloads.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Open Microsoft Excel</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>When the file opens in the Excel program, you may see a yellow bar which says the file is in Protected View. Click the <ui>Enable Editing</ui> button if that's the case.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Share</ui> in the upper-right.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Invite People</ui>. Then type email addresses, and separate each with a semicolon. Make sure to also select <ui>Can Edit</ui>. When you’re done, click the <ui>Share</ui> button.</para>
+											<alert class="tip">
+												<para>If you want to send the link yourself, click <ui>Share</ui> in the upper-right, and then click <ui>Copy Link</ui> &gt; <ui>View and Edit</ui>.</para>
+											</alert>
+										</listItem>
+										<listItem>
+											<para>If you clicked the Share button in the previous step, email messages will be sent to each person. The message will come from your email address. You will also receive a copy of the message, just so you know what it looks like.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 3: Other people can open it</title>
+								<content>
+									<para>If you clicked the <ui>Share</ui> button, people will receive an email message inviting them to open the file. They can click the link to open the workbook. A web browser will open, and the workbook will open in Excel Online. If they want to edit in the browser, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>. If they want to open it in the Excel app, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Excel</ui>.</para>
+									<alert class="tip">
+										<para>If they're using the latest version of Excel 2016 for Office 365 subscribers, they can open the file directly in the Excel app. They can click <ui>File</ui> &gt; <ui>Open...</ui> &gt; <ui>Shared</ui>, and then select a file that has been shared by another person.</para>
+									</alert>
+									<para>More than one person can edit a workbook at the same time. This is called <link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">co-authoring</link>. However, everyone will need a version of the Excel app that supports co-authoring. At this time, Excel for Android, Excel for iOS, Excel Mobile, and Excel 2016 for Office 365 subscribers are the versions that currently support co-authoring. If they don't have a supported version, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui> to edit the file in Excel Online.</para>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+			</tabControl>
+		</content>
+	</section>
+	
+	<section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section><relatedTopics><link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">Collaborate on Excel workbooks at the same time with co-authoring</link></relatedTopics>
+</developerConceptualDocument></topic>

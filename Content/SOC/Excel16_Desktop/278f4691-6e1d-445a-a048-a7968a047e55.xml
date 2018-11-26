@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="278f4691-6e1d-445a-a048-a7968a047e55" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    
+  </introduction>
+  
+  <section>
+    <title>Excel issues</title>
+    <content><para><link xlink:href="37E7D3C9-9E84-40BF-A805-4CA6853A1FF4">Excel not responding, hangs, freezes or stops working</link></para><para><link xlink:href="7ABFC44D-E9BF-4896-8899-BD10EF4D61AB">Repairing a corrupted workbook</link></para><para><link xlink:href="42623D50-2F9B-4583-AD9C-F1B381185E48">Where are my worksheet tabs?</link></para><para><link xlink:href="49d932ce-0240-49cf-94df-1587d9d97093">Fix and workarounds for recent Excel issues for Windows </link></para><para><link xlink:href="b8d3cd00-a01a-489b-b4de-e27d5cf38851">Fix and workarounds for recent Excel issues for Mac</link></para></content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

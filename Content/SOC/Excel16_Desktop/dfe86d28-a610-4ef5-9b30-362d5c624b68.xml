@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="dfe86d28-a610-4ef5-9b30-362d5c624b68" revisionNumber="19"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		
+		
+		<para>A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns, such as which items are a store's best sellers. The tree branches are represented by rectangles and each sub-branch is shown as a smaller rectangle. The treemap chart displays categories by color and proximity and can easily show lots of data which would be difficult with other chart types.</para>
+		<para>Treemap charts are good for comparing proportions within the hierarchy, however, treemap charts aren't great at showing hierarchical levels between the largest categories and each data point. <link xlink:href="4a127977-62cd-4c11-b8c7-65b84a358e0c">A sunburst chart</link> is a much better visual chart for showing that.</para>
+		<para><mediaLinkInline><image xlink:href="b3bfff05-380e-4dd9-b49b-7a2bfd128870" /></mediaLinkInline></para>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<tabControl controlId="OfficeVersion">
+				<tabControlItem targetedOS="Windows">
+					<tabControlItemTitle>Windows</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+						</content>
+						<sections>
+							<section>
+								<title>Create a treemap chart</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Select your data.</para>
+											<mediaLink><caption>Data used to create the example chart above</caption>
+												<image xlink:href="2435927b-1b26-401e-810c-76386561a1cf" />
+											</mediaLink>
+											<para />
+										</listItem>
+										<listItem>
+											<para>Click <ui>Insert</ui> &gt; <ui> Insert Hierarchy Chart</ui> &gt; <ui>Treemap</ui>.</para>
+											<para><mediaLinkInline><image xlink:href="2522a587-3985-4238-a95a-0898b082e343" /></mediaLinkInline></para>
+											<para>You can also use <ui>Recommended Charts</ui> to create a treemap chart, although the treemap chart will only be recommended when empty (blank) cells exist within the hierarchal structure (click <ui>Insert</ui> &gt; <ui>Recommended Charts</ui> &gt; <ui>All Charts</ui> tab).</para>
+										</listItem>
+									</list>
+									<alert class="tip">
+										<para>Use the <ui>Design</ui> and <ui>Format</ui> tabs to customize the look of your chart. If you don't see these tabs, click anywhere in the treemap chart to add the <ui>Chart Tools</ui> to the ribbon.</para>
+									</alert>
+									<mediaLink>
+										<image xlink:href="fd7db992-63b2-4e28-a877-a2ae13d6b7ef" />
+									</mediaLink>
+								</content>
+							</section>
+							<section>
+								<title>Change label display</title>
+								<content>
+									<para>Excel automatically uses a different color for each of the top level or parent categories. However, you can also use the layout of the data labels to distinguish between the categories.</para>
+									<mediaLink>
+										<image xlink:href="30c5473b-b589-4832-8d65-844bcb5602a4" />
+									</mediaLink>
+									<para />
+									<list class="ordered">
+										<listItem>
+											<para>Right-click one of the rectangles on the chart &gt; <ui>Format Data Series</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Under <ui>Series Options</ui> &gt; <ui>Label Options</ui>, pick the display option you want.</para>
+											<para><mediaLinkInline><image xlink:href="b4d1d67f-aebc-46e6-81e1-5c81d472cdf2" /></mediaLinkInline></para>
+										</listItem>
+									</list>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOS="Mac">
+					<tabControlItemTitle>macOS</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<alert class="note">
+								<para>This feature is only available if you have an <externalLink><linkText>Office 365 subscription</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink>, and Mac version 16 or later. <link xlink:href="932788b8-a3ce-44bf-bb09-e334518b8b19">Find your Office version</link>.<br />
+ </para>
+								<para><mediaLinkInline><image xlink:href="66bd0628-8473-4750-b528-03b57eb3d85d" /></mediaLinkInline></para>
+							</alert>
+							<para />
+						</content>
+						<sections>
+							<section>
+								<title>Create a treemap chart</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Select your data.</para>
+											<mediaLink><caption>Data used to create the example chart above</caption>
+												<image xlink:href="2435927b-1b26-401e-810c-76386561a1cf" />
+											</mediaLink>
+											<para />
+										</listItem>
+										<listItem>
+											<para>On the ribbon, click the <ui>Insert</ui> tab, then click <mediaLinkInline><image xlink:href="e22228f7-0e94-47f1-870c-4fa60afb3444" /></mediaLinkInline> (Hierarchy icon), and then select <ui>Treemap</ui>.</para>
+											<mediaLink>
+												<image xlink:href="f824897d-7b9f-459d-9d3c-668fcc58a0a4" />
+											</mediaLink>
+											<alert class="note">
+												<para>Use the <ui>Chart Design</ui> and <ui>Format</ui> tabs to customize the look of your chart. If you don't see these tabs, click anywhere in the Treemap chart to display them on the ribbon.</para>
+											</alert>
+										</listItem>
+									</list>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+			</tabControl>
+			<alert class="tip">
+				<para>To read more about the treemap chart and how it helps you visualize hierarchical data, see this <externalLink><linkText>blog post on the treemap and sunburst chart</linkText><linkUri>https://blogs.office.com/2015/08/11/breaking-down-hierarchical-data-with-treemap-and-sunburst-charts</linkUri></externalLink> by the Excel team. You may also be interested learning more about <externalLink><linkText>the other new chart types described in this blog post</linkText><linkUri>https://blogs.office.com/2015/07/02/introducing-new-and-modern-chart-types-now-available-in-office-2016-preview/</linkUri></externalLink>.</para>
+			</alert>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

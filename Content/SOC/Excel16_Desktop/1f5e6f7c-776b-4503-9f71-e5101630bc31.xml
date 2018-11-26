@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="1f5e6f7c-776b-4503-9f71-e5101630bc31" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>By adding more scenes to your tour, you can create new views of your data that focus on specific geographic locations, or time periods.</para>
+    <para address="__goback">When you add a new scene to a tour, it’s not empty—it’s based on the currently selected scene in the <ui>Tour Editor</ui> pane. After you make changes to the new scene, you can move it wherever you want in the tour.</para>
+    <para>
+      <legacyBold>Create a tour</legacyBold>
+    </para>
+    <list class="ordered">
+      <listItem>
+        <para>In an Excel table, select any cell or range of cells that contains your data.</para>
+        <para>Doing so before you create the tour makes it easier to hook up the data to the new tour.</para>
+      </listItem>
+      <listItem>
+        <para>On the <ui>Insert</ui> tab, in the <ui>Tours</ui> group, click <ui>3D Maps</ui>, and then click  <ui>Open 3D Maps</ui>.</para>
+      </listItem>
+      <listItem>
+        <para>If the <ui>Enable the Data Analysis add-ins to use this feature</ui> dialog box appears, click <ui>Enable</ui>.</para>
+      </listItem>
+    </list>
+    <para>
+      <legacyBold>Add a new scene</legacyBold>
+    </para>
+    <list class="ordered">
+      <listItem>
+        <para>In the <ui>3D Maps</ui> window, click the <ui>Home</ui> tab, and then click the <ui>New Scene</ui> down arrow.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="42db74bf-f543-4ae9-abd7-6b687e7c0611">
+            </image>
+          </mediaLinkInline>
+        </para>
+        <para>Three options appears.</para>
+      </listItem>
+      <listItem>
+        <para>Select one of the following scene options:</para>
+        <list class="bullet">
+          <listItem>
+            <para>
+              <ui>Copy Scene</ui>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <ui>World Map</ui>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <ui>New Custom Map</ui>
+            </para>
+          </listItem>
+        </list>
+        <para>The new scene appears directly below the selected scene in the <ui>Tour Editor</ui> pane.</para>
+      </listItem>
+      <listItem>
+        <para>To access scene options, click the <ui>Settings</ui> icon that appears when you hover over the scene thumbnail.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="5bb0ad0b-6223-489b-9680-eb7874ddf455">
+            </image>
+          </mediaLinkInline>
+        </para>
+        <para>You can use the scene option settings to:</para>
+        <list class="bullet">
+          <listItem>
+            <para>Change the scene's name.</para>
+          </listItem>
+          <listItem>
+            <para>Change the length of the scene's play time.</para>
+          </listItem>
+          <listItem>
+            <para>Change the length of the transition time from the previous scene.</para>
+          </listItem>
+          <listItem>
+            <para>Add an effect to the scene, such as a flyover, zoom (push in), or globe rotation.</para>
+          </listItem>
+          <listItem>
+            <para>Make an effect more dramatic by increasing its magnitude.</para>
+          </listItem>
+          <listItem>
+            <para>Speed up or slow down an effect.</para>
+          </listItem>
+        </list>
+      </listItem>
+    </list>
+  </introduction>
+  <section>
+    <title>Move a scene</title>
+    <content>
+      <para>If you have multiple scenes, you can change their order by dragging a scene to another location in the <ui>Tour Editor</ui> pane.</para>
+    </content>
+    <sections />
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

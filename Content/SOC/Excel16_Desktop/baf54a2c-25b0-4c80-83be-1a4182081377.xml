@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="baf54a2c-25b0-4c80-83be-1a4182081377" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>You can use the <legacyBold>Paste Special</legacyBold> dialog box to copy complex items from a program other than Excel and paste those items into an Excel worksheet.</para>
+    <para>
+      <embeddedLabel>Source</embeddedLabel> Displays the name of the source data and its location. If you copied the data from a program that did not provide the source data and its location to the Clipboard, the source is identified as "Unknown."</para>
+    <para>
+      <embeddedLabel>Paste</embeddedLabel> Inserts or embeds the Clipboard contents at the insertion point in the format specified in the <ui>As</ui> box. When you select this option, the Clipboard contents are pasted or embedded as an object, but no link is created. If the data is embedded as an object, the source program is started when you double-click the worksheet data, and you then use the source program to edit the data.</para>
+    <para>
+      <embeddedLabel>Paste link</embeddedLabel> Creates a link from the pasted data to its source file. When you select this option, changes that are made to the source file will be reflected in the worksheet.</para>
+    <para>
+      <embeddedLabel>As</embeddedLabel> Specifies the type of data that you want to paste from the Clipboard.</para>
+    <para>
+      <embeddedLabel>Display as icon</embeddedLabel> Displays the Clipboard contents as an icon in the worksheet. When you select this check box, an icon appears in the destination area that you can click to see the embedded or linked data. Use this option if you do not want the embedded or linked data to be displayed in the worksheet.</para>
+    <para>
+      <embeddedLabel>Result</embeddedLabel> Describes the effects of the options that you select.</para>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

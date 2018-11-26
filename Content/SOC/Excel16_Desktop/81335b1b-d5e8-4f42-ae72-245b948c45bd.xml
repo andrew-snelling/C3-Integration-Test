@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="81335b1b-d5e8-4f42-ae72-245b948c45bd" revisionNumber="16"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Counting is an integral part of data analysis, whether you are tallying the head count of a department in your organization or the number of units that were sold quarter-by-quarter. Excel provides multiple techniques that you can use to count cells, rows, or columns of data. To help you make the best choice, this article provides a comprehensive summary of methods, a downloadable workbook with interactive examples, and links to related topics for further understanding.</para>
+		<alert class="note">
+			<para>Counting should not be confused with summing. For more information about summing values in cells, columns, or rows, see <link xlink:href="d3f918a1-0151-403e-881f-a92f3176f8ea">Summing up ways to add and count Excel data</link>.</para>
+		</alert>
+	</introduction>
+	<section>
+		<title>Download our examples</title>
+		<content>
+			<para>You can download an example workbook that gives examples to supplement the information in this article. Most sections in this article will refer to the appropriate worksheet within the example workbook that provides examples and more information.</para>
+			<para><externalLink><linkText>Download examples to count values in a spreadsheet</linkText><linkUri>http://download.microsoft.com/download/7/C/E/7CEF3F2B-91D1-42B1-BB1E-B1C46C5DA725/Examples to count values in an Excel spreadsheet.xlsx</linkUri></externalLink></para>
+		</content>
+	</section>
+	<section>
+		<title address="___toc___1_t">In this article</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_SimpleCounting">Simple counting</link></para>
+					<list class="bullet">
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_AutoSum">Use AutoSum</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_AddSubtotalRow">Add a Subtotal row</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_CountCellsTableSUBTOTAL">Count cells in a list or Excel table column by using the SUBTOTAL function</link></para>
+						</listItem>
+					</list>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_CountingOneOrMoreConditions">Counting based on one or more conditions</link></para>
+					<list class="bullet">
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_Video_COUNT_And_Others">Video: Use the COUNT, COUNTIF, and COUNTA functions</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_Count">Count cells in a range by using the COUNT function</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_COUNTIF">Count cells in a range based on a single condition by using the COUNTIF function</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_DCOUNT">Count cells in a column based on single or multiple conditions by using the DCOUNT function</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_COUNTIFS">Count cells in a range based on multiple conditions by using the COUNTIFS function</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_COUNT_andIF">Count based on criteria by using the COUNT and IF functions together</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_SUM_and_IF">Count how often multiple text or number values occur by using the SUM and IF functions together</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_CountPivotTable">Count cells in a column or row in a PivotTable</link></para>
+						</listItem>
+					</list>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_CountData_BlankValues">Counting when your data contains blank values</link></para>
+					<list class="bullet">
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_COUNTA">Count nonblank cells in a range by using the COUNTA function</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_DCOUNTA">Count nonblank cells in a list with specific conditions by using the DCOUNTA function</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_COUNTBLANK">Count blank cells in a contiguous range by using the COUNTBLANK function</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_SUMandIF">Count blank cells in a non-contiguous range by using a combination of SUM and IF functions</link></para>
+						</listItem>
+					</list>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_CountUniqueOccurences">Counting unique occurrences of values</link></para>
+					<list class="bullet">
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_AdvancedFilter">Count the number of unique values in a list column by using Advanced Filter</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_Count_IF_SUM_FREQUENCY">Count the number of unique values in a range that meet one or more conditions by using IF, SUM, FREQUENCY, MATCH, and LEN functions</link></para>
+						</listItem>
+					</list>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_SpecialCases">Special cases (count all cells, count words)</link></para>
+					<list class="bullet">
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_ROWS_COLUMNS_functions">Count the total number of cells in a range by using ROWS and COLUMNS functions</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_NestedFormula">Count words in a range by using a combination of SUM, IF, LEN, TRIM, and SUBSTITUTE functions</link></para>
+						</listItem>
+					</list>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_DisplayCalcCountStatusBar">Displaying calculations and counts on the status bar</link></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section address="BKMK_SimpleCounting">
+		<title>Simple counting</title>
+		<content>
+			<para>You can count the number of values in a range or table by using a simple formula, clicking a button, or by using a worksheet function.</para>
+			<para>Excel can also display the count of the number of selected cells on the Excel <token>TE000127590</token>. See the video demo that follows for a quick look at using the status bar. Also, see the section <link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_DisplayCalcCountStatusBar">Displaying calculations and counts on the status bar</link> for more information. You can refer to the values shown on the status bar when you want a quick glance at your data and don't have time to enter formulas.</para>
+		</content>
+		<sections>
+			<section>
+				<title address="BKMK_Video_CountCells">Video: Count cells by using the Excel status bar</title>
+				<content>
+					<para>Watch the following video to learn how to view count on the status bar.</para>
+					
+					<mediaLink><caption>View count on the Excel status bar</caption>
+						<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+						<video channel="ALTENUS_MS_OFFICE" player="ocvideo" videoid="8447075d-5ac9-4dbd-8e1f-e4f87d6d9530" videotype="single" />
+					</mediaLink>
+				</content>
+			</section>
+			<section address="BKMK_AutoSum">
+				<title>Use AutoSum</title>
+				<content>
+					<para>Use <legacyBold>AutoSum</legacyBold> by selecting a range of cells that contains at least one numeric value. Then on the <ui>Formulas</ui> tab, click <ui>AutoSum</ui> &gt; <ui>Count Numbers</ui>.</para>
+					<mediaLink>
+						<image xlink:href="8a2b9de2-1b44-4bb4-8fee-753047cf7040" />
+					</mediaLink>
+					<para>Excel returns the count of the numeric values in the range in a cell adjacent to the range you selected. Generally, this result is displayed in a cell to the right for a horizontal range or in a cell below for a vertical range.</para>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_AddSubtotalRow">
+				<title>Add a Subtotal row</title>
+				<content>
+					<para>You can add a subtotal row to your Excel data. Click anywhere inside your data, and then click <ui>Data</ui> &gt; <ui>Subtotal</ui>.</para>
+					<alert class="note">
+						<para>The <ui>Subtotal</ui> option will only work on normal Excel data, and not Excel tables, PivotTables, or PivotCharts.</para>
+					</alert>
+					<mediaLink>
+						<image xlink:href="b87f6aaa-4821-407a-bf92-40f540e38382" />
+					</mediaLink>
+					<para>Also, refer to the following articles:</para>
+					<list class="bullet">
+						<listItem>
+							<para><link xlink:href="08ce98c4-0063-4d42-8ac7-8278c49e9aff">Outline (group) data in a worksheet</link></para>
+						</listItem>
+						<listItem>
+							<para><link xlink:href="7881d256-b4fa-4f81-b71e-b0a3d4a52b3a">Insert subtotals in a list of data in a worksheet</link></para>
+						</listItem>
+					</list>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_CountCellsTableSUBTOTAL">
+				<title>Count cells in a list or Excel table column by using the SUBTOTAL function</title>
+				<content>
+					<para>Use the <link xlink:href="bbecc044-0889-4185-9685-3d2c8b72826f">SUBTOTAL</link> function to count the number of values in an Excel table or range of cells. If the table or range contains hidden cells, you can use SUBTOTAL to include or exclude those hidden cells, and this is the biggest difference between SUM and SUBTOTAL functions.</para>
+					<para>The SUBTOTAL syntax goes like this:</para>
+					<para>SUBTOTAL(function_num,ref1,[ref2],...)</para>
+					<mediaLink>
+						<image xlink:href="8ef94725-c46a-4879-b069-295eb501fe06" />
+					</mediaLink>
+					<para>To include hidden values in your range, you should set the <legacyItalic>function_num</legacyItalic> argument to <legacyBold>2</legacyBold>.</para>
+					<para>To exclude hidden values in your range, set the <legacyItalic>function_num</legacyItalic> argument to <legacyBold>102</legacyBold>.</para>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section></sections>
+	</section>
+	<section address="BKMK_CountingOneOrMoreConditions">
+		<title>Counting based on one or more conditions</title>
+		<content>
+			<para>You can count the number of cells in a range that meet conditions (also known as criteria) that you specify by using a number of worksheet functions.</para>
+		</content>
+		<sections>
+			<section address="BKMK_Video_COUNT_And_Others">
+				<title>Video: Use the COUNT, COUNTIF, and COUNTA functions</title>
+				<content>
+					<para>Watch the following video to see how to use the <legacyBold>COUNT</legacyBold> function and how to use the <legacyBold>COUNTIF</legacyBold> and <legacyBold>COUNTA</legacyBold> functions to count only the cells that meet conditions you specify.</para>
+					
+					<mediaLink><caption></caption>
+						<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+						<video channel="ALTENUS_MS_OFFICE" player="ocvideo" videoid="92011d98-21fc-4965-9b40-e3f6e232f8c2" videotype="single" />
+					</mediaLink>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_Count">
+				<title>Count cells in a range by using the COUNT function</title>
+				<content>
+					<para>Use the <link xlink:href="A59CD7FC-B623-4D93-87A4-D23BF411294C">COUNT</link> function in a formula to count the number of numeric values in a range.</para>
+					<mediaLink>
+						<image xlink:href="78354c8a-7f86-4bd9-95e8-528eddf8320e" />
+					</mediaLink>
+					<para>In the above example, A2, A3, and A6 are the only cells that contains numeric values in the range, hence the output is 3.</para>
+					<alert class="note">
+						<para>A7 is a time value, but it contains text (<legacyItalic>a.m.</legacyItalic>), hence COUNT does not consider it a numerical value. If you were to remove <legacyItalic>a.m</legacyItalic>. from the cell, COUNT will consider A7 as a numerical value, and change the output to 4.</para>
+					</alert>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_COUNTIF">
+				<title>Count cells in a range based on a single condition by using the COUNTIF function</title>
+				<content>
+					<para>Use the <link xlink:href="a8b3d1c2-309b-4e44-9047-e1746e90e55c">COUNTIF function</link> function to count how many times a particular value appears in a range of cells.</para>
+					<mediaLink>
+						<image xlink:href="62fb31d2-e506-4b5d-9b23-f8b49a48f259" />
+					</mediaLink>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_DCOUNT">
+				<title>Count cells in a column based on single or multiple conditions by using the DCOUNT function</title>
+				<content>
+					<para><link xlink:href="edf9c596-f619-4a19-a56f-3a475932f647">DCOUNT function</link> counts the cells that contain numbers in a field (column) of records in a list or database that match conditions that you specify.</para>
+					<para>In the following example, you want to find the count of the months including or later than March 2016 that had more than 400 units sold. The first table in the worksheet, from A1 to B7, contains the sales data.</para>
+					<mediaLink>
+						<image xlink:href="73ee9786-f690-4522-9ade-e50cfa247c16" />
+					</mediaLink>
+					<para>DCOUNT uses conditions to determine where the values should be returned from. Conditions are typically entered in cells in the worksheet itself, and you then refer to these cells in the <legacyItalic>criteria</legacyItalic> argument. In this example, cells A10 and B10 contain two conditions—one that specifies that the return value must be greater than 400, and the other that specifies that the ending month should be equal to or greater than March 31st, 2016.</para>
+					<para>You should use the following syntax:</para>
+					<para><legacyBold>=DCOUNT(A1:B7,"Month ending",A9:B10)</legacyBold></para>
+					<para><legacyBold>DCOUNT</legacyBold> checks the data in the range A1 through B7, applies the conditions specified in A10 and B10, and returns <legacyBold>2</legacyBold>, the total number of rows that satisfy both conditions (rows 5 and 7).</para>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_COUNTIFS">
+				<title>Count cells in a range based on multiple conditions by using the COUNTIFS function</title>
+				<content>
+					<para>The <link xlink:href="dda3dc6e-f74e-4aee-88bc-aa8c2a866842">COUNTIFS</link> function is similar to the COUNTIF function with one important exception: COUNTIFS lets you apply criteria to cells across multiple ranges and counts the number of times all criteria are met. You can use up to 127 range/criteria pairs with COUNTIFS.</para>
+					<para>The syntax for COUNTIFS is:</para>
+					<para>COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2],…)</para>
+					<para>See the following example:</para>
+					<mediaLink>
+						<image xlink:href="05f3ad27-fadf-43bf-86ea-2ba4ed0100ec" />
+					</mediaLink>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_COUNT_andIF">
+				<title>Count based on criteria by using the COUNT and IF functions together</title>
+				<content>
+					<para>Let's say you need to determine how many salespeople sold a particular item in a certain region or you want to know how many sales over a certain value were made by a particular salesperson. You can use the IF and COUNT functions together; that is, you first use the IF function to test a condition and then, only if the result of the IF function is True, you use the COUNT function to count cells.</para>
+					<alert class="note">
+						<list class="bullet">
+							<listItem>
+								<para>The formulas in this example must be entered as array formulas. If you have opened this workbook in Excel for Windows or Excel 2016 for Mac and want to change the formula or create a similar formula, press F2, and then press Ctrl+Shift+Enter to make the formula return the results you expect. In earlier versions of Excel for Mac, use <mediaLinkInline><image xlink:href="314f2d55-e8b8-4417-9d4b-b3908c1ebd0c" /></mediaLinkInline> +Shift+Enter.</para>
+							</listItem>
+							<listItem>
+								<para>For the example formulas to work, the second argument for the IF function must be a number.</para>
+							</listItem>
+						</list>
+					</alert>
+					<mediaLink>
+						<image xlink:href="cfb7be38-c85f-4936-980d-31c30e525b45" />
+					</mediaLink>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_SUM_and_IF">
+				<title>Count how often multiple text or number values occur by using the SUM and IF functions together</title>
+				<content>
+					<para>In the examples that follow, we use the <legacyBold>IF</legacyBold> and <legacyBold>SUM</legacyBold> functions together. The <legacyBold>IF</legacyBold> function first tests the values in some cells and then, if the result of the test is True, <legacyBold>SUM</legacyBold> totals those values that pass the test.</para>
+					<para><legacyBold>Example 1</legacyBold></para>
+					<mediaLink>
+						<image xlink:href="a88fb6e8-b458-4ae3-8356-03de4ba2ba3e" />
+					</mediaLink>
+					<para>The above function says if C2:C7 contains the values <legacyItalic>Buchanan</legacyItalic> and <legacyItalic>Dodsworth</legacyItalic>, then the SUM function should display the sum of records where the condition is met. The formula finds three records for Buchanan and one for Dodsworth in the given range, and displays <legacyItalic>4</legacyItalic>.</para>
+					<para><legacyBold>Example 2</legacyBold></para>
+					<mediaLink>
+						<image xlink:href="fd31de74-ea32-47f6-b25f-afb695d3b86b" />
+					</mediaLink>
+					<para>The above function says if D2:D7 contains values lesser than $9000 or greater than $19,000, then SUM should display the sum of all those records where the condition is met. The formula finds two records D3 and D5 with values lesser than $9000, and then D4 and D6 with values greater than $19,000, and displays <legacyItalic>4</legacyItalic>.</para>
+					<para><legacyBold>Example 3</legacyBold></para>
+					<mediaLink>
+						<image xlink:href="adbb3a3f-f3c4-4ef1-8440-79275e36b063" />
+					</mediaLink>
+					<para>The above function says if D2:D7 has invoices for Buchanan for less than $9000, then SUM should display the sum of records where the condition is met. The formula finds that C6 meets the condition, and displays <legacyItalic>1</legacyItalic>.</para>
+					<alert class="important">
+						<para>The formulas in this example must be entered as array formulas. That means you press <legacyBold>F2</legacyBold> and then press <legacyBold>Ctrl+Shift+Enter</legacyBold>. In earlier versions of Excel for Mac use <mediaLinkInline><image xlink:href="314f2d55-e8b8-4417-9d4b-b3908c1ebd0c" /></mediaLinkInline><legacyBold>+Shift+Enter.</legacyBold></para>
+					</alert>
+					<para>See the following Knowledge Base articles for additional tips:</para>
+					<list class="bullet">
+						<listItem>
+							<para><externalLink><linkText>XL: Using SUM(IF()) As an Array Function Instead of COUNTIF() with AND</linkText><linkUri>https://support.microsoft.com/?id=275166</linkUri></externalLink></para>
+						</listItem>
+						<listItem>
+							<para><externalLink><linkText>XL: How to Count the Occurrences of a Number or Text in a Range</linkText><linkUri>https://support.microsoft.com/?id=214153</linkUri></externalLink></para>
+						</listItem>
+					</list>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_CountPivotTable">
+				<title>Count cells in a column or row in a PivotTable</title>
+				<content>
+					<para>A PivotTable summarizes your data and helps you analyze and drill down into your data by letting you choose the categories on which you want to view your data.</para>
+					<para>You can quickly create a PivotTable by selecting a cell in a range of data or Excel table and then, on the <ui>Insert</ui> tab, in the <ui>Tables</ui> group, clicking <ui>PivotTable</ui>.</para>
+					<mediaLink>
+						<image xlink:href="76d9a8fe-5d87-47cd-a69e-d919e4f2d9c7" />
+					</mediaLink>
+					<para>Let's look at a sample scenario of a Sales spreadsheet, where you can count how many sales values are there for Golf and Tennis for specific quarters.</para>
+					<alert class="note">
+						<para>For an interactive experience, you can run these steps on the sample data provided in the <legacyBold>PivotTable</legacyBold> sheet in the downloadable workbook.</para>
+					</alert>
+					<list class="ordered">
+						<listItem>
+							<para>Enter the following data in an Excel spreadsheet.</para>
+							<mediaLink>
+								<image xlink:href="7f7bfbae-27da-4d18-b6fd-a4f645833bf5" />
+							</mediaLink>
+						</listItem>
+						<listItem>
+							<para>Select A2:C8</para>
+						</listItem>
+						<listItem>
+							<para>Click <ui>Insert</ui> &gt; <ui>PivotTable</ui>.</para>
+						</listItem>
+						<listItem>
+							<para>In the Create PivotTable dialog box, click <ui>Select a table or range</ui>, then click <ui>New Worksheet</ui>, and then click <ui>OK</ui>.</para>
+							<para>An empty PivotTable is created in a new sheet.</para>
+						</listItem>
+						<listItem>
+							<para>In the PivotTable Fields pane, do the following:</para>
+							<list class="ordered">
+								<listItem>
+									<para>Drag <legacyBold>Sport</legacyBold> to the <ui>Rows</ui> area.</para>
+								</listItem>
+								<listItem>
+									<para>Drag <legacyBold>Quarter</legacyBold> to the <ui>Columns</ui> area.</para>
+								</listItem>
+								<listItem>
+									<para>Drag <legacyBold>Sales</legacyBold> to the <ui>Values</ui> area.</para>
+								</listItem>
+								<listItem>
+									<para>Repeat step c.</para>
+									<para>The field name displays as <legacyBold>SumofSales2</legacyBold> in both the PivotTable and the Values area.</para>
+									<para>At this point, the PivotTable Fields pane looks like this:</para>
+									<mediaLink>
+										<image xlink:href="2cba5374-039c-402f-aaff-bba597a346ff" />
+									</mediaLink>
+								</listItem>
+								<listItem>
+									<para>In the <ui>Values</ui> area, click the dropdown next to <legacyBold>SumofSales2</legacyBold> and select <ui>Value Field Settings</ui>.</para>
+								</listItem>
+								<listItem>
+									<para>In the <ui>Value Field Settings</ui> dialog box, do the following:</para>
+									<list class="ordered">
+										<listItem>
+											<para>In the <ui>Summarize value field by</ui> section, select <ui>Count</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>In the <ui>Custom Name</ui> field, modify the name to <legacyBold>Count</legacyBold>.</para>
+											<mediaLink>
+												<image xlink:href="b26a59b4-d927-459f-86c3-b620f845c134" />
+											</mediaLink>
+										</listItem>
+										<listItem>
+											<para>Click <ui>OK</ui>.</para>
+										</listItem>
+									</list>
+								</listItem>
+							</list>
+							<para>The PivotTable displays the count of records for Golf and Tennis in Quarter 3 and Quarter 4, along with the sales figures.</para>
+							<mediaLink>
+								<image xlink:href="e3f0d0ac-39f7-4060-b1d8-ad35b77e1297" />
+							</mediaLink>
+						</listItem>
+					</list>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section></sections>
+	</section>
+	<section address="BKMK_CountData_BlankValues">
+		<title>Counting when your data contains blank values</title>
+		<content>
+			<para>You can count cells that either contain data or are blank by using worksheet functions.</para>
+		</content>
+		<sections>
+			<section address="BKMK_COUNTA">
+				<title>Count nonblank cells in a range by using the COUNTA function</title>
+				<content>
+					<para>Use the <link xlink:href="c0cf05ab-369c-4661-b3ce-5c8d5aef717b">COUNTA function</link> function to count only cells in a range that contain values.</para>
+					<para>When you count cells, sometimes you want to ignore any blank cells because only cells with values are meaningful to you. For example, you want to count the total number of salespeople who made a sale (column D).</para>
+					<mediaLink>
+						<image xlink:href="f1ae864d-203c-4e96-8a90-2a72e7b96c51" />
+					</mediaLink>
+					<para><legacyBold>COUNTA</legacyBold> ignores the blank values in D3, D4, D8, and D11, and counts only the cells containing values in column D. The function finds six cells in column D containing values and displays <legacyBold>6</legacyBold> as the output.</para>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_DCOUNTA">
+				<title>Count nonblank cells in a list with specific conditions by using the DCOUNTA function</title>
+				<content>
+					<para>Use the <link xlink:href="29f4126d-5a6b-4b7f-bfb6-a50d7bae0c89">DCOUNTA</link> function to count nonblank cells in a column of records in a list or database that match conditions that you specify.</para>
+					<para>The following example uses the <legacyBold>DCOUNTA</legacyBold> function to count the number of records in the database that is contained in the range A1:B7 that meet the conditions specified in the criteria range A9:B10. Those conditions are that the Product ID value must be greater than or equal to 2000 and the Ratings value must be greater than or equal to 50.</para>
+					<mediaLink>
+						<image xlink:href="ad9ca955-bfef-4625-94e0-9bceb76e072b" />
+					</mediaLink>
+					<para>DCOUNTA finds two rows that meet the conditions- rows 2 and 4, and displays the value <legacyBold>2</legacyBold> as the output.</para>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_COUNTBLANK">
+				<title>Count blank cells in a contiguous range by using the COUNTBLANK function</title>
+				<content>
+					<para>Use the <link xlink:href="4672a5e1-464b-4b9f-a1b2-d1ce16700846">COUNTBLANK function</link> function to return the number of blank cells in a contiguous range (cells are contiguous if they are all connected in an unbroken sequence). If a cell contains a formula that returns empty text (""), that cell is counted.</para>
+					<para>When you count cells, there may be times when you want to include blank cells because they are meaningful to you. In the following example of a grocery sales spreadsheet. suppose you want to find out how many cells don't have the sales figures mentioned.</para>
+					<mediaLink>
+						<image xlink:href="eeb795b4-f198-4e4c-87fa-59be17779d3b" />
+					</mediaLink>
+					<alert class="note">
+						<para>The COUNTBLANK worksheet function provides the most convenient method for determining the number of blank cells in a range, but it doesn't work very well when the cells of interest are in a closed workbook or when they do not form a contiguous range. The Knowledge Base article <externalLink><linkText>XL: When to Use SUM(IF()) instead of CountBlank()</linkText><linkUri>https://support.microsoft.com/?id=274537</linkUri></externalLink> shows you how to use a SUM(IF()) array formula in those cases.</para>
+					</alert>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_SUMandIF">
+				<title>Count blank cells in a non-contiguous range by using a combination of SUM and IF functions</title>
+				<content>
+					<para>Use a combination of the <legacyBold>SUM</legacyBold> function and the <legacyBold>IF</legacyBold> function. In general, you do this by using the <legacyBold>IF</legacyBold> function in an array formula to determine whether each referenced cell contains a value, and then summing the number of FALSE values returned by the formula.</para>
+					<para>See a few examples of SUM and IF function combinations in an earlier section <link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_SUM_and_IF">Count how often multiple text or number values occur by using the SUM and IF functions together</link> in this topic.</para>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section></sections>
+	</section>
+	<section address="BKMK_CountUniqueOccurences">
+		<title>Counting unique occurrences of values</title>
+		<content>
+			<para>You can count unique values in a range by using a <link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_CountPivotTable">PivotTable</link>, <link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_COUNTIF">COUNTIF function</link>, <link xlink:href="81335b1b-d5e8-4f42-ae72-245b948c45bd#BKMK_SUM_and_IF">SUM and IF functions together</link>, or the <ui>Advanced Filter</ui> dialog box.</para>
+		</content>
+		<sections>
+			<section address="BKMK_AdvancedFilter">
+				<title>Count the number of unique values in a list column by using Advanced Filter</title>
+				<content>
+					<para>Use the <ui>Advanced Filter</ui> dialog box to find the unique values in a column of data. You can either filter the values in place or you can extract and paste them to a new location. Then you can use the <legacyBold>ROWS</legacyBold> function to count the number of items in the new range.</para>
+					<para>To use Advanced Filter, click the <ui>Data</ui> tab, and in the <ui>Sort &amp; Filter</ui> group, click <ui>Advanced</ui>.</para>
+					<para>The following figure shows how you use the Advanced Filter to copy only the unique records to a new location on the worksheet.</para>
+					<mediaLink>
+						<image xlink:href="333751a5-5327-4dff-9f88-83b1dc177bee" />
+					</mediaLink>
+					<para>In the following figure, column E contains the values that were copied from the range in column D.</para>
+					<mediaLink>
+						<image xlink:href="005905d7-9db7-46be-a8fd-4ecc884a3b33" />
+					</mediaLink>
+					<alert class="note">
+						<list class="bullet">
+							<listItem>
+								<para>If you filter your data in place, values are not deleted from your worksheet — one or more rows might be hidden. Click <ui>Clear</ui> in the <ui>Sort &amp; Filter</ui> group on the <ui>Data</ui> tab to display those values again.</para>
+							</listItem>
+							<listItem>
+								<para>If you only want to see the number of unique values at a quick glance, select the data after you have used the Advanced Filter (either the filtered or the copied data) and then look at the status bar. The <ui>Count</ui> value on the status bar should equal the number of unique values.</para>
+							</listItem>
+						</list>
+					</alert>
+					<para>For more information, see <link xlink:href="92a540bb-ea71-4abe-97e7-84a5c1194505">Filter by using advanced criteria.</link></para>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_Count_IF_SUM_FREQUENCY">
+				<title>Count the number of unique values in a range that meet one or more conditions by using IF, SUM, FREQUENCY, MATCH, and LEN functions</title>
+				<content>
+					<para>Use various combinations of the <legacyBold>IF</legacyBold>, <legacyBold>SUM</legacyBold>, <legacyBold>FREQUENCY</legacyBold>, <legacyBold>MATCH</legacyBold>, and <legacyBold>LEN</legacyBold> functions.</para>
+					<para>For more information and examples, see the section "Count the number of unique values by using functions" in the article <link xlink:href="8d9a69b3-b867-490e-82e0-a929fbc1e273">Count unique values among duplicates</link>.</para>
+					<para>Also, see the article <externalLink><linkText>XL: How to determine the number of unique items in a list</linkText><linkUri>https://support.microsoft.com/?kbid=823573</linkUri></externalLink>.</para>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section></sections>
+	</section>
+	<section address="BKMK_SpecialCases">
+		<title>Special cases (count all cells, count words)</title>
+		<content>
+			<para>You can count the number of cells or the number of words in a range by using various combinations of worksheet functions.</para>
+		</content>
+		<sections>
+			<section address="BKMK_ROWS_COLUMNS_functions">
+				<title>Count the total number of cells in a range by using ROWS and COLUMNS functions</title>
+				<content>
+					<para>Suppose you want to determine the size of a large worksheet to decide whether to use manual or automatic calculation in your workbook. To count all the cells in a range, use a formula that multiplies the return values using the <link xlink:href="B592593E-3FC2-47F2-BEC1-BDA493811597">ROWS</link> and <link xlink:href="4E8E7B4E-E603-43E8-B177-956088FA48CA">COLUMNS</link> functions. See the following image for an example:</para>
+					<mediaLink>
+						<image xlink:href="a9c85fdc-847b-4dca-85dd-a3d48bb5ca97" />
+					</mediaLink>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section>
+			<section address="BKMK_NestedFormula">
+				<title>Count words in a range by using a combination of SUM, IF, LEN, TRIM, and SUBSTITUTE functions</title>
+				<content>
+					<para>You can use a combination of the <legacyBold>SUM</legacyBold>, <legacyBold>IF</legacyBold>, <legacyBold>LEN</legacyBold>, <legacyBold>TRIM</legacyBold>, and <legacyBold>SUBSTITUTE</legacyBold> functions in an array formula. The following example shows the result of using a nested formula to find the number of words in a range of 7 cells (3 of which are empty). Some of the cells contain leading or trailing spaces — the <legacyBold>TRIM</legacyBold> and <legacyBold>SUBSTITUTE</legacyBold> functions remove these extra spaces before any counting occurs. See the following example:</para>
+					<mediaLink>
+						<image xlink:href="529e9b45-40a5-4b08-83ad-4b1fa4cae9ee" />
+					</mediaLink>
+					<para>Now, for the above formula to work correctly, you have to make this an array formula, otherwise the formula returns the #VALUE! error. To do that, click on the cell that has the formula, and then in the Formula bar, press Ctrl + Shift + Enter. Excel adds a curly bracket at the beginning and the end of the formula, thus making it an array formula.</para>
+					<para>For more information on array formulas, see <link xlink:href="ecfdc708-9162-49e8-b993-c311f47ca173">Overview of formulas in Excel</link> and <link xlink:href="E43E12E0-AFC6-4A12-BC7F-48361075954D">Create an array formula</link>.</para>
+					<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+				</content>
+			</section></sections>
+	</section>
+	<section address="BKMK_DisplayCalcCountStatusBar">
+		<title>Displaying calculations and counts on the status bar</title>
+		<content>
+			<para>When one or more cells are selected, information about the data in those cells is displayed on the Excel status bar. For example, if four cells on your worksheet are selected, and they contain the values 2, 3, a text string (such as "cloud"), and 4, all of the following values can be displayed on the status bar at the same time: Average, Count, Numerical Count, Min, Max, and Sum. Right-click the status bar to show or hide any or all of these values. These values are shown in the illustration that follows.</para>
+			<mediaLink>
+				<image xlink:href="5ce57e54-ec3e-4a84-9506-e94f15458250" />
+			</mediaLink>
+			<para><link xlink:href="96dacf89-5be0-44f0-865f-0b2ff0208e2d#__top">Top of Page</link></para>
+		</content>
+	</section>
+	<section>
+		<title>Do you have a specific Excel question?</title>
+		<content>
+			<para><externalLink><linkText>Post a question in the Excel community forum</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink></para>
+		</content>
+	</section>
+	<section>
+		<title>Help us improve Excel</title>
+		<content>
+			<para>Do you have suggestions about how we can improve the next version of Excel? If so, please check out the topics at <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

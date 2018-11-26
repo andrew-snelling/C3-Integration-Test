@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="66b3a5db-1904-41aa-9913-51ded9dd15f2" revisionNumber="13"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>The<legacyBold> #FIELD!</legacyBold> error will appear when:</para>
+		<list class="bullet">
+			<listItem>
+				<para>The referenced field is not found in a <link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">linked data type</link>.</para>
+			</listItem>
+			<listItem>
+				<para>The referenced cell doesn't contain a <link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">linked data type</link>.</para>
+			</listItem>
+		</list>
+		<alert class="note">
+			<para>You can insert <link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">linked data types</link> from the <ui>Data</ui> tab. You can also <link xlink:href="295d95e2-1e8a-4337-bfa9-0582b815c0b4">write formulas that reference them</link>.</para>
+		</alert>
+	</introduction>
+	<section>
+		<title>#FIELD! error when inserting a table column</title>
+		<content>
+			<para>When a new column tries to reference a field from a data type record, but the record doesn't have any data for that particular field, the #FIELD! error will occur. For example, you added a column to show stock expense ratios, but the stock record on that row doesn't have an expense ratio in the first place, so the result is #FIELD!.</para>
+			<para><legacyBold>Solutions:</legacyBold></para>
+			<list class="bullet">
+				<listItem>
+					<para>If <link xlink:href="3a8acca5-1d61-4702-80e0-99a36a2822c1">Error Checking</link> is enabled, click the Exclamation point icon to the left of the cell, and choose the <ui>Ignore Error</ui> option.<br />
+	<br />
+	<mediaLinkInline><image xlink:href="ca800b7c-040f-4638-abcc-0c1a2a709578" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Remove the column, and replace it with a new column that references a field that does have data.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>#FIELD! error when typing a formula</title>
+		<content>
+			<para>If you type a formula like <ui>=A1.City</ui>, or <ui>=FIELDVALUE(A1,"City")</ui>, and cell A1 doesn't use a Geography data type, the #FIELD! error will occur. Similarly, if you create a formula like <ui>=A1.Price</ui>, or <ui>=FIELDVALUE(A1,"Price")</ui>, and cell A1 doesn't use the Stocks data type, then the error will occur.</para>
+			<para>This can also happen when a formula references a field from a data type, but the data type doesn't have any data for that particular field. For example, if you entered a formula like <ui>=A1.ExpenseRatio</ui>, or <ui>=FIELDVALUE(A1,"ExpenseRatio")</ui>, but the that particular stock doesn't have an expense ratio in the first place, the result is #FIELD!.</para>
+			<para><legacyBold>Solutions:</legacyBold></para>
+			<list class="bullet">
+				<listItem>
+					<para>If <link xlink:href="3a8acca5-1d61-4702-80e0-99a36a2822c1">Error Checking</link> is enabled, click the Exclamation point icon to the left of the cell, and choose the<ui> Ignore Error</ui> option.</para>
+				</listItem>
+				<listItem>
+					<para>Delete the formula.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">Introduction to data types in Excel</link></para>
+			<para><link xlink:href="4a579c45-7326-4168-b556-df8b5685175b">FIELDVALUE function</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

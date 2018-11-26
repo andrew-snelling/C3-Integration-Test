@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="62f4219f-db4b-4754-aca8-4743f6190f0d" revisionNumber="15"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>A box and whisker chart shows distribution of data into quartiles, highlighting the  mean and outliers.  The boxes may have lines extending vertically called “whiskers”. These lines indicate variability outside the upper and lower quartiles, and any point outside those lines or whiskers is considered an outlier. </para>
+    <para>Box and whisker charts are most commonly used in statistical analysis. For example, you could use a box and whisker chart  to compare medical trial results or teachers' test scores.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="96be2fcc-a80d-486c-8575-0ccad1fe0ca8" />
+      </mediaLinkInline>
+    </para>
+  </introduction>
+  <section>
+<content><tabControl controlId="OfficeVersion"><tabControlItem targetedOS="Windows"><tabControlItemTitle>Windows</tabControlItemTitle><tabControlItemSection><content></content><sections><section>
+    <title>Create a box and whisker  chart </title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Select your data—either a single data series, or multiple data series.</para>
+          <para>(The data shown in the following illustration is a portion of the data used to create the sample chart shown above.)</para>
+          <mediaLink>
+            <image xlink:href="9c3ce7ea-8042-4d8d-b808-72d8df22286e" />
+          </mediaLink>
+        </listItem>
+        <listItem>
+          <para>In Excel, click <ui>Insert</ui> &gt; <ui> Insert Statistic Chart</ui> &gt;<ui>Box and Whisker</ui> as shown in the following illustration.</para>
+          <alert class="important">
+            <para>In Word, Outlook, and PowerPoint, this step works a little differently:<br /></para>
+            <list class="ordered">
+              <listItem>
+                <para>On the <ui>Insert</ui> tab, in the <ui>Illustrations</ui> group, click <ui>Chart</ui>.</para>
+              </listItem>
+              <listItem>
+                <para>In the <ui>Insert Chart</ui> dialog box, on the <ui>All Charts</ui> tab, click <ui>Box &amp; Whisker</ui>.</para>
+              </listItem>
+            </list>
+          </alert>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="ee0b1589-88b2-4619-91a1-0a35d20a091a" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <list class="bullet">
+          <listItem>
+            <para>Use the <ui>Design</ui> and  <ui>Format</ui> tabs to customize the look of your  chart.</para>
+            <mediaLink>
+              <image xlink:href="fd7db992-63b2-4e28-a877-a2ae13d6b7ef" />
+            </mediaLink>
+          </listItem>
+          <listItem>
+            <para>If you don't see these tabs, click anywhere in the box and whisker chart to add the <ui>Chart Tools</ui> to the ribbon.</para>
+          </listItem>
+        </list>
+      </alert>
+    </content>
+  </section>
+  <section>
+    <title>Change box and whisker chart options</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Right-click one of the boxes on the chart to select that box and then, on the shortcut menu, click <ui>Format Data Series</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Format Data Series</ui> pane, with <ui>Series Options</ui> selected, make the changes that you want.</para>
+          <para>(The information in the chart following the illustration can help you make your choices.)</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="2c8828a3-fb5f-4bbd-bdc1-9972fbc2b09d" />
+            </mediaLinkInline>
+          </para>
+          <table border="1">
+            <tbody>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>Series option</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>
+                    <legacyBold>Description</legacyBold>
+                  </para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>Gap width</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>	
+Controls the gap between the categories.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>Show inner points</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>
+Displays the data points that lie between the lower whisker line and the upper whisker
+line.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>Show outlier points</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>
+Displays the outlier points that lie either below the lower whisker line or above the upper whisker
+line.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>Show mean markers</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>
+Displays the mean marker of the selected series.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>Show mean line</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>
+Displays the line connecting the means of the boxes in the selected series.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>Quartile Calculation</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>	
+Choose a method for median calculation:</para>
+                  <list class="nobullet">
+                    <listItem>
+                      <para>
+                        <embeddedLabel>	Inclusive median</embeddedLabel> The median is included in the calculation if N (the number of values in the data) is odd.</para>
+                    </listItem>
+                    <listItem>
+                      <para>
+                        <embeddedLabel>Exclusive median</embeddedLabel> The median is excluded from the calculation if N (the number of values in the data) is odd.</para>
+                    </listItem>
+                  </list>
+                </TD>
+              </tr>
+            </tbody>
+          </table>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <para>To read more about the box and whisker chart and how it helps you visualize statistical data,  see this <externalLink><linkText> blog post on the histogram, Pareto, and box and whisker chart </linkText><linkUri>https://blogs.office.com/2015/08/18/visualize-statistics-with-histogram-pareto-and-box-and-whisker-charts/</linkUri></externalLink> by the Excel team. You may also be interested learning more about <externalLink><linkText> the other new chart types described in this blog post</linkText><linkUri>https://blogs.office.com/2015/07/02/introducing-new-and-modern-chart-types-now-available-in-office-2016-preview/</linkUri></externalLink>.</para>
+      </alert>
+    </content>
+  </section></sections></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Mac"><tabControlItemTitle>macOS</tabControlItemTitle><tabControlItemSection><content></content><sections><section>
+    <title>Create a box and whisker  chart </title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Select your data—either a single data series, or multiple data series.</para>
+          <para>(The data shown in the following illustration is a portion of the data used to create the sample chart shown above.)</para>
+          <mediaLink>
+            <image xlink:href="9c3ce7ea-8042-4d8d-b808-72d8df22286e" />
+          </mediaLink>
+        </listItem>
+        <listItem>
+          <para>On the ribbon, click the <ui>Insert</ui> tab, and then click <mediaLinkInline>
+<image xlink:href="d534ad0a-9643-474b-8795-bfbee600db94" />
+</mediaLinkInline> (the <ui>Statistical chart</ui> icon), and select <ui>Box and Whisker</ui>.</para>
+          
+          
+        </listItem>
+      </list>
+      <alert class="tip">
+        <list class="bullet">
+          <listItem>
+            <para>Use the <ui>Chart Design</ui> and  <ui>Format</ui> tabs to customize the look of your  chart.</para>
+            
+          </listItem>
+          <listItem>
+            <para>If you don't see the <ui>Chart Design</ui> and  <ui>Format</ui> tabs, click anywhere in the box and whisker chart to add them to the ribbon.</para>
+          </listItem>
+        </list>
+      </alert>
+    </content>
+  </section>
+  <section>
+    <title>Change box and whisker chart options</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click one of the boxes on the chart to select that box and then in the ribbon click <ui>Format</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>Use the tools in the <ui>Format</ui> ribbon tab to make the changes that you want.</para>
+          
+          
+          
+        </listItem>
+      </list>
+      <alert class="tip">
+        <para>To read more about the box and whisker chart and how it helps you visualize statistical data,  see this <externalLink><linkText> blog post on the histogram, Pareto, and box and whisker chart </linkText><linkUri>https://blogs.office.com/2015/08/18/visualize-statistics-with-histogram-pareto-and-box-and-whisker-charts/</linkUri></externalLink> by the Excel team. You may also be interested learning more about <externalLink><linkText> the other new chart types described in this blog post</linkText><linkUri>https://blogs.office.com/2015/07/02/introducing-new-and-modern-chart-types-now-available-in-office-2016-preview/</linkUri></externalLink>.</para>
+      </alert>
+    </content>
+  </section></sections></tabControlItemSection></tabControlItem></tabControl></content>
+</section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

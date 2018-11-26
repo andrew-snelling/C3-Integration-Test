@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="643fc486-cda4-4692-85ac-7129862deed5" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>You can navigate the 3-D environment in <token>TE104085179</token> by using a mouse, the keyboard, or if you’re working on a Touch-enabled device by using gestures.</para>
+  </introduction>
+  <section>
+    <title>Mouse navigation</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>To</legacyBold>
+                <legacyBold>:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Do this</legacyBold>
+                <legacyBold>:</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Zoom to a location in the globe</para>
+            </TD>
+            <TD>
+              <para>Rapidly double-click any portion of the globe.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Zoom in or out</para>
+            </TD>
+            <TD>
+              <para>Rotate the scroll wheel, or click the plus and minus buttons.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Pan the globe without changing the pitch </para>
+            </TD>
+            <TD>
+              <para>Drag the globe up, down, left, or right.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Change the pitch of the globe</para>
+            </TD>
+            <TD>
+              <para>Press and hold Shift while dragging the globe.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Reset the globe and view if you’ve lost the point of focus</para>
+            </TD>
+            <TD>
+              <para>Rotate the scroll wheel to zoom all the way out.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Pan and spin the globe</para>
+            </TD>
+            <TD>
+              <para>Click the arrow keys up, down, left, or right.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <alert class="note">
+        <para> You can’t use rolling in the 3-D environment of 3D Maps.</para>
+      </alert>
+    </content>
+    <sections />
+  </section>
+  <section address="__toc352094825">
+    <title>Keyboard navigation</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para address="__toc352094826">
+                <legacyBold>To</legacyBold>
+                <legacyBold>:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Do this</legacyBold>
+                <legacyBold>:</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Pan and spin the globe</para>
+            </TD>
+            <TD>
+              <para>Press the up, down, left, or right arrow keys.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Orbit the current target</para>
+            </TD>
+            <TD>
+              <para>Press and hold Shift while pressing the left or right arrow keys.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Increase or decrease the camera pitch</para>
+            </TD>
+            <TD>
+              <para>Press and hold Shift while pressing the up or down arrow keys.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Zoom in or out</para>
+            </TD>
+            <TD>
+              <para>Press the plus (+) or minus (-) keys.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Touch navigation</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>To</legacyBold>
+                <legacyBold>:</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Do this</legacyBold>
+                <legacyBold>:</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Select a data point</para>
+            </TD>
+            <TD>
+              <para>Tap the screen.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Zoom to a location in the globe</para>
+            </TD>
+            <TD>
+              <para>Double Tap the location.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Pan the globe</para>
+            </TD>
+            <TD>
+              <para>Drag the globe in any direction (up, down, left, or right).</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Zoom in</para>
+            </TD>
+            <TD>
+              <para>Pinch Closed.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Zoom out</para>
+            </TD>
+            <TD>
+              <para>Pinch Open.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Tilt the horizon</para>
+            </TD>
+            <TD>
+              <para>Two finger drag up or down.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Rotate the horizon</para>
+            </TD>
+            <TD>
+              <para>Two finger drag left or right.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>View a context menu</para>
+            </TD>
+            <TD>
+              <para>Press and hold.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      
+    </content>
+    <sections />
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

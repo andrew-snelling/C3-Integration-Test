@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f2e7ffe9-41fa-4ce5-8278-cf92d3b66340" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Many <externalLink><linkText>calendar templates</linkText><linkUri>https://templates.office.com/en-us/Calendars</linkUri></externalLink> are available for use in <token>Excel_noversion_long</token>. A template provides a basic calendar layout that you can easily adapt for your needs.</para>
+		<para>An Excel calendar template may have one or more of these features:</para>
+		<list class="bullet">
+			<listItem>
+				<para>Twelve months in one or separate worksheets.</para>
+			</listItem>
+			<listItem>
+				<para>Thirteen months starting with July or August and ending with July or August of the next year to represent a school year.</para>
+			</listItem>
+			<listItem>
+				<para>Calendar printing on one page or twelve pages (thirteen pages for school year calendars).</para>
+			</listItem>
+			<listItem>
+				<para>Display of weekdays from Sunday to Saturday or from Monday to Sunday.</para>
+			</listItem>
+			<listItem>
+				<para>Portrait or landscape orientation for printed pages.</para>
+			</listItem>
+			<listItem>
+				<para>A ruled column for notes.</para>
+			</listItem>
+			<listItem>
+				<para>A vacation planner.</para>
+			</listItem>
+			<listItem>
+				<para>To-do lists.</para>
+			</listItem>
+			<listItem>
+				<para>Task trackers.</para>
+			</listItem>
+			<listItem>
+				<para>Budget trackers.</para>
+			</listItem>
+			<listItem>
+				<para>Daily schedule tracker.</para>
+			</listItem>
+		</list>
+		<para />
+		<para><legacyBold>Download a calendar template:</legacyBold></para>
+		<para>Browse through the <externalLink><linkText>calendar templates</linkText><linkUri>https://templates.office.com/en-us/Calendars</linkUri></externalLink>, choose an Excel calendar template that is best for you. Click the <legacyBold>Download</legacyBold> button on the template page, open the template file in Excel, and then edit and save your calendar.</para>
+		<alert class="note">
+			<para>By default, a template file download goes into the <legacyBold>Downloads</legacyBold> folder on your computer. You may want to copy the template file to a different location so that you can easily find it later.</para>
+		</alert>
+		
+		
+	</introduction>
+	<section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section><relatedTopics><link xlink:href="91804E1F-360B-4BF9-B21D-103A25A84868">Create a calendar by using a template</link></relatedTopics>
+</developerConceptualDocument></topic>

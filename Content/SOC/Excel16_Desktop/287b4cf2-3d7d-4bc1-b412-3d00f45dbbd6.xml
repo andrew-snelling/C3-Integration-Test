@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="287b4cf2-3d7d-4bc1-b412-3d00f45dbbd6" revisionNumber="17"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>To insert geographic data into Excel, you first convert text into the Geography data type. Then you can use another column to extract certain details relative to that data type, like Total population, or Time zone.</para>
+		<alert class="note">
+			<para>June 12, 2018: This data type is currently a beta feature, and only available to a portion of <externalLink><linkText>Office Insiders</linkText><linkUri>https://products.office.com/office-insider</linkUri></externalLink> at this time. We'll continue to optimize this feature over the next several months. When it's ready, we'll release it to all Office Insiders, and <externalLink><linkText>Office 365 subscribers</linkText><linkUri>https://products.office.com/buy/compare-microsoft-office-products</linkUri></externalLink>.</para>
+		</alert>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Type some text in cells. For example, type a country, state, province, territory, or city name into each cell.</para>
+				</listItem>
+				<listItem>
+					<para>Then select the cells.</para>
+				</listItem>
+				<listItem>
+					<para>Although it's not required, we recommend creating an <link xlink:href="e81aa349-b006-4f8a-9806-5af9df0ac664">Excel table</link>. Later on, this will make extracting online information easier. To create a table, go to <ui>Insert</ui> &gt; <ui>Table</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>With the cells still selected, go to the <ui>Data</ui> tab, and then click <ui>Geography</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>If Excel finds a match between the text in the cells, and our online sources, it will convert your text to the Geography data type. You'll know they're converted if they have this icon: <mediaLinkInline><image xlink:href="7c73a931-efd4-4f68-bdb6-b964bf6c7e55" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Select one or more cells with the data type, and the <ui>Insert Data </ui> button <mediaLinkInline><image xlink:href="1ab74b83-6e3b-4432-aa67-5b7562134ed9" /></mediaLinkInline> will appear. Click that button, and then click a field name to extract more information. For example, pick <ui>Population</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Insert Data </ui> button again to add more fields. If you're using a table, type a field name in the header row. For example, type <ui>Area</ui> in the header row and the Area column will appear with data.</para>
+				</listItem>
+			</list>
+			<alert class="tip">
+				<para>To see all of the fields available, click the geography icon ( <mediaLinkInline><image xlink:href="f19a7e7b-9c50-452a-9e24-43b60c3ba800" /></mediaLinkInline> ) or select the cell and press <ui>Ctrl+Shift+F5</ui>.</para>
+				<para>If you see <mediaLinkInline><image xlink:href="09a25441-4fdc-4399-bf7f-f1a7062beb30" /></mediaLinkInline> instead of an icon, then Excel is having a hard time matching your text with data in our online sources. Correct any spelling mistakes and when you press Enter, Excel will do its best to find matching information. Or, click <mediaLinkInline><image xlink:href="09a25441-4fdc-4399-bf7f-f1a7062beb30" /></mediaLinkInline> and a selector pane will appear. Search for data using a keyword or two, choose the data you want, and then click <ui>Select</ui>.</para>
+				<para>You can also <link xlink:href="295d95e2-1e8a-4337-bfa9-0582b815c0b4">write formulas that reference data types</link>.</para>
+			</alert>
+		</content>
+	</section>
+	<section>
+		<title>See also</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">More about linked data types</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="4a579c45-7326-4168-b556-df8b5685175b">FIELDVALUE function</link></para>
+				</listItem>
+				<listItem>
+					<para><link xlink:href="66b3a5db-1904-41aa-9913-51ded9dd15f2">#FIELD! error</link></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="9ddcf8f5-75b8-4ad6-98cf-611da389bb58" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>To be able to work with controls, you have to enable the Developer tab on the ribbon. See <link xlink:href="e1192344-5e56-4d45-931b-e5fd9bea2d45">Show the Developer tab</link>.</para><list class="ordered">
+      <listItem>
+        <para address="bm0">If one or more controls is an ActiveX control, do the following:</para>
+        <list class="ordered">
+          
+          <listItem>
+            <para>Make sure that you are in design mode. On the <ui>Developer</ui> tab, in the <ui>Controls</ui> group, turn on <ui>Design Mode</ui> <mediaLinkInline><image xlink:href="d1c806e8-1a1e-4c3d-b1cd-84e344da4c8d"></image></mediaLinkInline>.</para>
+          </listItem>
+        </list>
+      </listItem>
+      <listItem>
+        <para>Select the control or controls that you want to delete.</para>
+        <para>For more information, see <link xlink:href="c4333a13-5a39-485c-af13-5d23440faed4">Select or deselect controls on a worksheet</link>.</para>
+      </listItem>
+      <listItem>
+        <para>Press DELETE.</para>
+      </listItem>
+    </list>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

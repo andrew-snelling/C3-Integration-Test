@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="cd131b77-79c7-4537-a438-8db20cea84c0" revisionNumber="13"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Exploring <link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90">charts in Excel</link> and finding that the one you pick isn’t working well for your data is a thing of the past! Try the <ui>Recommended Charts</ui> command on the <ui>Insert</ui> tab to quickly create a chart that’s just right for your data.</para>
+		<list class="ordered">
+			<listItem>
+				<para><link xlink:href="5fca57b7-8c52-4e09-979a-631085113862">Select the data</link> for which you want to create a chart.</para>
+			</listItem>
+			<listItem>
+				<para>Click <ui>Insert</ui> &gt; <ui>Recommended Charts</ui>.</para>
+				<para><mediaLinkInline><image xlink:href="23eadb2e-90a9-4c1a-b3f8-80059188aa37" /></mediaLinkInline></para>
+			</listItem>
+			<listItem>
+				<para>On the <ui>Recommended Charts</ui> tab, scroll through the list of charts that Excel recommends for your data, and click any chart to see how your data will look.</para>
+				<para><mediaLinkInline><image xlink:href="7c57eaf2-ab9a-4301-ae9c-1c183605eed4" /></mediaLinkInline></para>
+				<alert class="tip">
+					<para>If you don’t see a chart you like, click <ui>All Charts</ui> to see all available chart types.</para>
+				</alert>
+			</listItem>
+			<listItem>
+				<para address="__goback">When you find the chart you like, click it &gt; <ui>OK</ui>.</para>
+			</listItem>
+			<listItem>
+				<para>Use the <ui>Chart Elements</ui>, <ui>Chart Styles</ui>, and <ui>Chart Filters</ui> buttons next to the upper-right corner of the chart to add chart elements like <link xlink:href="4CF3C009-1482-4908-922A-997C32EA8250">axis titles</link> or <link xlink:href="884bf2f1-2e29-454e-8b42-f467c9f4eb2d">data labels</link>, <link xlink:href="f601baf0-da61-439b-8dc9-30b469edbaa7">customize the look of your chart</link>, or change the data that’s shown in the chart.</para>
+				<para><mediaLinkInline><image xlink:href="a77a73e8-2ee2-4a44-9e38-a6998c87e4c4" /></mediaLinkInline></para>
+			</listItem>
+			<listItem>
+				<para>To access additional design and formatting features, click anywhere in the chart to add the <ui>Chart Tools</ui> to the ribbon, and then click the options you want on the <ui>Design</ui> and <ui>Format</ui> tabs.</para>
+				<para><mediaLinkInline><image xlink:href="fd7db992-63b2-4e28-a877-a2ae13d6b7ef" /></mediaLinkInline></para>
+			</listItem>
+		</list>
+	</introduction>
+	<section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="A6187218-807E-4103-9E0A-27CDB19AFB90">Available chart types in Office</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

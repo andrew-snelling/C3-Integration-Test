@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="8e0210b9-c8ed-42e7-8370-d1d2248f63fb" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>If <link xlink:href="884bf2f1-2e29-454e-8b42-f467c9f4eb2d">data labels you added to your chart</link> are in the way of your data visualization—or you simply want to move them elsewhere—you can change their placement by picking another location or by dragging them to the location you want.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="f28cf4e3-05f2-41af-9208-0bffd461770e" />
+      </mediaLinkInline>
+    </para>
+    <list class="ordered">
+      <listItem>
+        <para>Click any data label once to select all of them, or double-click a specific data label you want to move.</para>
+      </listItem>
+      <listItem>
+        <para> Right-click the selection &gt;<ui>Chart Elements </ui><mediaLinkInline><image xlink:href="626dda4e-57b4-416e-bc66-e7479e005a0a" /></mediaLinkInline>  &gt; <ui>Data Labels</ui> arrow, and select the placement option you want. </para>
+        <mediaLink>
+          <image xlink:href="dbf76893-afe0-413a-84eb-386715cca299" />
+        </mediaLink>
+        <para>Different options are available for different chart types. For example, you can place data labels outside of the data points in a pie chart but not in a column chart.</para>
+        <alert class="tip">
+          <para>If you want to show your data labels inside a text bubble shape, click <ui>Data Callout</ui>.</para>
+        </alert>
+        <mediaLink>
+          <image xlink:href="16b7c48b-25e0-4191-ab71-292af23b3ee1" />
+        </mediaLink>
+      </listItem>
+      <listItem>
+        <para>If you decide the labels make your chart look too cluttered, you can remove any or all of them by clicking the data labels and then pressing Delete.</para>
+      </listItem>
+    </list>
+    <alert class="tip">
+      <para>If the text inside the data labels is small, click and drag the data labels to the size you want. You can also <link xlink:href="EE7525E3-3A58-4142-B0E3-8140A1D6545E">change their format</link> to make them easier to read.</para>
+    </alert>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="4a8e4338-d6cb-4f31-a2db-201824b40c63" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>To see a subset of data in your 3D Maps tour, you might have tried filtering the data source in the workbook, but found out it has no effect on what's shown in the tour.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="f5b97434-e9a5-4cc9-bdfe-fac0a13be2bb" />
+      </mediaLinkInline>
+    </para>
+    <para>To filter data in the tour, you can add and change filters in the Tour Editor pane. The picture above has a filter applied to show only California (CA) counties that have power plants with total capacity between 1000 and 5000 megawatts.</para>
+  </introduction>
+  <section>
+    <title>
+    </title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>In the Tour Editor pane, click <ui>Filter</ui><mediaLinkInline><image xlink:href="e23704f5-c66a-40ef-80f5-bbd9d0a138be" /></mediaLinkInline>.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Add Filters</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="35f4bd9d-55aa-4754-a588-09377ce56dd2" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Choose the fields you want to filter, then click <ui>Add</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="e9b11701-783b-4c46-a48e-bef820300f30" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Set your filters by using a Range filter (a slider bar), a List filter (check boxes), or an Advanced filter (criteria statements).</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="d7d14abb-704f-4ec0-a486-03954545f7a9" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+      </list>
+      <para>Do one of the following to set filters on the fields:</para>
+      <list class="bullet">
+        <listItem>
+          <para>Set a Range filter by using the slider bar.</para>
+          <para>In the picture above, a Range filter sets the <ui>Sum of Capacity (Megawatts)</ui> range between 1000 and 5000.</para>
+        </listItem>
+        <listItem>
+          <para>Set a List filter by choosing one or more check boxes.</para>
+          <para>In the picture above, a List filter is set to show only data from power plants in <ui>CA</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>Set an Advanced filter, where you can build multiple criteria statements.</para>
+          <para>In the picture above, an Advanced filter limits the <ui>Initial Date of Operation</ui> to dates no earlier than 1/1/1968.</para>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <para>Use the button shown below to switch between a Range or List filter and an Advanced filter.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="15acaf28-626f-449b-ac1f-a3aed87f37b3" />
+          </mediaLinkInline>
+        </para>
+      </alert>
+    </content>
+  </section>
+  <section>
+    <title>See Also</title>
+    <content>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <link xlink:href="6b56a50d-3c3e-4a9e-a527-eea62a387030">Get started with 3D Maps</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="57d9a7ff-3a78-4a12-adb3-0d951ef0925c">Explore your data in a 3D Maps tour</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="a732ef13-4f84-414d-9ed2-e97911115a44">Get and prep your data for 3D Maps</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="fb08258f-3a25-492d-8c7c-0165780528a0">Refresh or add 3D Maps data</link>
+          </para>
+        </listItem>
+      </list>
+    </content>
+  </section>
+  <relatedTopics>
+  </relatedTopics>
+</developerConceptualDocument></topic>

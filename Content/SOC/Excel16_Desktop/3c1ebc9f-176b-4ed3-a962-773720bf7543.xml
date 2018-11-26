@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="3c1ebc9f-176b-4ed3-a962-773720bf7543" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>When you hover over or click any data point on your map (except heat map visualizations), you'll see a data card that shows details about that data point.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="b543f4a1-b6ab-4438-b82c-9e787d6d07d1" />
+      </mediaLinkInline>
+    </para>
+    <para>By default, a data card shows  information  based on default field list selections, but you can customize the data card to show the details you want. You can add or remove data fields, change the way those fields are aggregated or organized, include a title (such as a location name), or rename the field headers.  You can also pick predefined data fields from a set of layout templates.</para>
+  </introduction>
+  <section>
+    <title>
+    </title>
+    <content>
+      <para>Here's how to customize what's shown in a data card:</para>
+      <list class="ordered">
+        <listItem>
+          <para>Point to a data point to show its data card.</para>
+        </listItem>
+        <listItem>
+          <para>In the top-right corner of the data card, click the <ui>Settings</ui> button <mediaLinkInline><image xlink:href="a9f9fd0e-3767-400e-90f4-c8f274a56712" /></mediaLinkInline>.</para>
+          <alert class="tip">
+            <para>You can also click the <ui>Settings</ui> button  in the Layer pane and  click <ui>Create custom display names  and data aggregations</ui> under  <ui>Customize Data Card</ui>.</para>
+          </alert>
+          <para>The <ui>Customize Data Card</ui> box appears.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="e694672a-cb53-40ca-a830-bccc10572a70" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>To add fields, click the <ui>Add Field</ui> icon <mediaLinkInline><image xlink:href="84d05275-49ca-445e-8c68-f96fede5d995" /></mediaLinkInline>, and pick the field you want. You can scroll down to see all available fields as needed.</para>
+          <para>Repeat this step for each field you want to show in the data card.</para>
+        </listItem>
+        <listItem>
+          <para>To make changes to  a  field, hover over its name to show these buttons: <mediaLinkInline><image xlink:href="08f4b384-b097-43ad-9080-1f6b9be89018" /></mediaLinkInline>.</para>
+          <para>To change  a field name, click <mediaLinkInline><image xlink:href="43a31d16-b92a-45d0-9799-c4b2ed5389c6" /></mediaLinkInline>.  </para>
+          <para>To change the way a field aggregates, click  <mediaLinkInline><image xlink:href="7d2e858b-610d-4c15-b970-1e4f0679dde6" /></mediaLinkInline>.</para>
+          <para>Data is aggregated as sum by default. You can choose different ways to aggregate, or pick <ui>No Aggregation</ui>.</para>
+          <para>To remove a field from the data card, click <mediaLinkInline><image xlink:href="1c9129cc-a3cf-45e0-92a0-2bf49500a35b" /></mediaLinkInline>.</para>
+        </listItem>
+        <listItem>
+          <para> To change the order of the fields in the data card, drag and drop data fields to the location you want.</para>
+        </listItem>
+        <listItem>
+          <para> To add a title or change the layout, click the template arrows to select the template that meets your needs.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="b27e3cf3-d5f9-47aa-b6b3-26c5e0916152" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>To start over, you can click <ui>Reset Defaults</ui>. </para>
+          <para>Custom settings you applied will be removed.</para>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <list class="bullet">
+          <listItem>
+            <para>If you want to add your own text  to items in the map, you can <link xlink:href="b276b8d0-4eb3-476a-8e88-ad61373b8647">insert it as an annotation</link>. 3D Maps automatically adjusts the orientation of annotations. Unlike data cards,  annotations stay  visible with the associated data point.</para>
+          </listItem>
+          <listItem>
+            <para>You can also <link xlink:href="272bc963-6794-4b8d-ae01-c598227d2f9f">add a text box</link> to provide additional details. A text box isn't associated with a data point and stays visible on the map in the location where you placed it.</para>
+          </listItem>
+        </list>
+      </alert>
+    </content>
+    <content>
+    </content>
+  </section>
+  <relatedTopics>
+    <externalLink>
+      <linkText>3D Maps for Excel–February update for Office 365</linkText>
+      <linkUri>https://blogs.office.com/2015/02/10/power-map-excel-february-update-office-365-2/</linkUri>
+    </externalLink>
+  </relatedTopics>
+</developerConceptualDocument></topic>

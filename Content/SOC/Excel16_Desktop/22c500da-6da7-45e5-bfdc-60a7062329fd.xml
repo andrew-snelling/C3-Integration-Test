@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="22c500da-6da7-45e5-bfdc-60a7062329fd" revisionNumber="28"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		<para />
+		<para>If you have historical time-based data, you can use it to create a forecast. When you create a forecast, Excel creates a new worksheet that contains both a table of the historical and predicted values and a chart that expresses this data. A forecast can help you predict things like future sales, inventory requirements, or consumer trends.</para>
+		<para>Information about <legacyLink xlink:href="22c500da-6da7-45e5-bfdc-60a7062329fd#BKMK_Calculation">how the forecast is calculated</legacyLink> and <legacyLink xlink:href="22c500da-6da7-45e5-bfdc-60a7062329fd#BKMK_Dialog">options you can change</legacyLink> can be found at the bottom of this article.</para>
+		<mediaLink><caption></caption>
+			<image xlink:href="bf52dcc4-3a1e-4db3-bf2c-2f796d01f01e" />
+		</mediaLink>
+		<para />
+		<para />
+		<para />
+		<para />
+		<para />
+	</introduction>
+	<section>
+		<title>Create a forecast</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>In a worksheet, enter two data series that correspond to each other:</para>
+					<list class="bullet">
+						<listItem>
+							<para>A series with date or time entries for the timeline</para>
+						</listItem>
+						<listItem>
+							<para>A series with corresponding values</para>
+							<para>These values will be predicted for future dates.</para>
+						</listItem>
+					</list>
+					<alert class="note">
+						<para>The timeline requires consistent intervals between its data points. For example, monthly intervals with values on the 1st of every month, yearly intervals, or numerical intervals. It’s okay if your timeline series is missing up to 30% of the data points, or has several numbers with the same time stamp. The forecast will still be accurate. However, summarizing data before you create the forecast will produce more accurate forecast results.</para>
+					</alert>
+				</listItem>
+				<listItem>
+					<para>Select both data series.</para>
+					<alert class="tip">
+						<para>If you select a cell in one of your series, Excel automatically selects the rest of the data.</para>
+					</alert>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Forecast</ui> group, click <ui>Forecast Sheet</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="729d4098-b4cb-4b0c-a5e1-d046a3093db9" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Create Forecast Worksheet</ui> box, pick either a line chart or a column chart for the visual representation of the forecast.</para>
+					<para><mediaLinkInline><image xlink:href="1f8ebf53-95b1-43d3-a73d-c20b4d3a5aa8" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Forecast End</ui> box, pick an end date, and then click <ui>Create</ui>.</para>
+					<para>Excel creates a new worksheet that contains both a table of the historical and predicted values and a chart that expresses this data.</para>
+					<para>You'll find the new worksheet just to the left ("in front of") the sheet where you entered the data series.</para>
+				</listItem>
+			</list>
+		</content>
+		<sections>
+			<section address="BKMK_Dialog">
+				<title>Customize your forecast</title>
+				<content>
+					<para>If you want to change any advanced settings for your forecast, click <ui>Options</ui>.</para>
+					<para>You'll find information about each of the options in the following table.</para>
+					<table border="1">
+						<tbody>
+							<tr>
+								<TD>
+									<para><legacyBold>Forecast Options</legacyBold></para>
+								</TD>
+								<TD>
+									<para><legacyBold>Description</legacyBold></para>
+								</TD>
+							</tr>
+							<tr>
+								<TD>
+									<para><legacyBold>Forecast Start</legacyBold></para>
+								</TD>
+								<TD>
+									<para>Pick the date for the forecast to begin. When you pick a date before the end of the historical data, only data prior to the start date are used in the prediction (this is sometimes referred to as "hindcasting").</para>
+									<alert class="tip">
+										<list class="bullet">
+											<listItem>
+												<para>Starting your forecast before the last historical point gives you a sense of the prediction accuracy as you can compare the forecasted series to the actual data. However, if you start the forecast too early, the forecast generated won't necessarily represent the forecast you'll get using all the historical data. Using all of your historical data gives you a more accurate prediction.</para>
+											</listItem>
+											<listItem>
+												<para>If your data is seasonal, then starting a forecast before the last historical point is recommended.</para>
+											</listItem>
+										</list>
+									</alert>
+								</TD>
+							</tr>
+							<tr>
+								<TD>
+									<para><legacyBold>Confidence Interval</legacyBold></para>
+								</TD>
+								<TD>
+									<para>Check or uncheck <ui>Confidence Interval</ui> to show or hide it. The confidence interval is the range surrounding each predicted value, in which 95% of future points are expected to fall, based on the forecast (with normal distribution). Confidence interval can help you figure out the accuracy of the prediction. A smaller interval implies more confidence in the prediction for the specific point. The default level of 95% confidence can be changed using the up or down arrows.</para>
+								</TD>
+							</tr>
+							<tr>
+								<TD>
+									<para><legacyBold>Seasonality</legacyBold></para>
+								</TD>
+								<TD>
+									<para>Seasonality is a number for the length (number of points) of the seasonal pattern and is automatically detected. For example, in a yearly sales cycle, with each point representing a month, the seasonality is 12. You can override the automatic detection by choosing <ui>Set Manually</ui> and then picking a number.</para>
+									<alert class="note">
+										<para>When setting seasonality manually, avoid a value for less than 2 cycles of historical data. With less than 2 cycles, Excel cannot identify the seasonal components. And when the seasonality is not significant enough for the algorithm to detect, the prediction will revert to a linear trend.</para>
+									</alert>
+								</TD>
+							</tr>
+							<tr>
+								<TD>
+									<para><legacyBold>Timeline Range</legacyBold></para>
+								</TD>
+								<TD>
+									<para>Change the range used for your timeline here. This range needs to match the <ui>Values Range</ui>.</para>
+								</TD>
+							</tr>
+							<tr>
+								<TD>
+									<para><legacyBold>Values Range</legacyBold></para>
+								</TD>
+								<TD>
+									<para>Change the range used for your value series here. This range needs to be identical to the <ui>Timeline Range</ui>.</para>
+								</TD>
+							</tr>
+							<tr>
+								<TD>
+									<para><legacyBold>Fill Missing Points Using</legacyBold></para>
+								</TD>
+								<TD>
+									<para>To handle missing points, Excel uses interpolation, meaning that a missing point will be completed as the weighted average of its neighboring points as long as fewer than 30% of the points are missing. To treat the missing points as zeros instead, click <ui>Zeros</ui> in the list.</para>
+								</TD>
+							</tr>
+							<tr>
+								<TD>
+									<para><legacyBold>Duplicate Aggregates Using</legacyBold></para>
+								</TD>
+								<TD>
+									<para>When your data contains multiple values with the same timestamp, Excel will average the values. To use another calculation method, such as <ui>Median</ui>, pick the calculation from the list.</para>
+								</TD>
+							</tr>
+							<tr>
+								<TD>
+									<para><legacyBold>Include Forecast Statistics</legacyBold></para>
+								</TD>
+								<TD>
+									<para>Check this box if you want additional statistical information on the forecast included in a new worksheet. Doing this adds a table of statistics generated using the <link xlink:href="897a2fe9-6595-4680-a0b0-93e0308d5f6e#_FORECAST.ETS.STAT">FORECAST.ETS.STAT</link> function and includes measures, such as the smoothing coefficients (Alpha, Beta, Gamma), and error metrics (MASE, SMAPE, MAE, RMSE).</para>
+								</TD>
+							</tr>
+						</tbody>
+					</table>
+				</content>
+			</section></sections>
+	</section>
+	<section address="BKMK_Calculation">
+		<title>Formulas used in forecasting data</title>
+		<content>
+			<para>When you use a formula to create a forecast, it returns a table with the historical and predicted data, and a chart. The forecast predicts future values using your existing time-based data and the AAA version of the Exponential Smoothing (ETS) algorithm.</para>
+			<para>The table can contain the following columns, three of which are calculated columns:</para>
+			<list class="bullet">
+				<listItem>
+					<para>Historical time column (your time-based data series)</para>
+				</listItem>
+				<listItem>
+					<para>Historical values column (your corresponding values data series)</para>
+				</listItem>
+				<listItem>
+					<para>Forecasted values column (calculated using <link xlink:href="897a2fe9-6595-4680-a0b0-93e0308d5f6e#_FORECAST.ETS">FORECAST.ETS</link>)</para>
+				</listItem>
+				<listItem>
+					<para>Two columns representing the confidence interval (calculated using <link xlink:href="897a2fe9-6595-4680-a0b0-93e0308d5f6e#_FORECAST.ETS.CONFINT">FORECAST.ETS.CONFINT</link>). These columns appear only when the <ui>Confidence Interval</ui> is checked in the <ui>Options</ui> section of the box..</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Download a sample workbook</title>
+		<content>
+			<para><externalLink><linkText>Click this link to download a workbook with Excel FORECAST.ETS function examples</linkText><linkUri>https://download.microsoft.com/download/7/8/E/78E7FB59-A554-4586-B3F4-AEAEBC4036AF/Forecast_ets_example.xlsx</linkUri></externalLink></para>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<section>
+		<title>Related Topics</title>
+		<content>
+			<para><link xlink:href="897a2fe9-6595-4680-a0b0-93e0308d5f6e">Forecasting functions</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f4db3f23-f5a1-4b30-abb3-62e8c2c33d9b" revisionNumber="8"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>Maybe you’ve  <link xlink:href="cd131b77-79c7-4537-a438-8db20cea84c0">created a chart </link> and think “this needs a little something else” to make it more impactful. Here’s where <ui>Chart Styles</ui><mediaLinkInline><image xlink:href="87d7f9ff-e94f-4732-b198-8b2907946d79" /></mediaLinkInline> is useful. Click the chart, click <mediaLinkInline><image xlink:href="87d7f9ff-e94f-4732-b198-8b2907946d79" /></mediaLinkInline> , located next to the chart in the upper right corner, and pick an option in the <ui>Style</ui> or <ui>Color</ui> galleries.</para>
+  </introduction>
+  <section>
+    <title>Change the color of a chart</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click the chart you want to change. </para>
+        </listItem>
+        <listItem>
+          <para> In the upper right corner, next to the chart, click <ui>Chart Styles</ui><mediaLinkInline><image xlink:href="87d7f9ff-e94f-4732-b198-8b2907946d79" /></mediaLinkInline> .</para>
+        </listItem>
+        <listItem>
+          <para> Click <ui>Color</ui> and pick the color scheme you want. </para>
+          <mediaLink>
+            <image xlink:href="27349917-8884-44a1-9c5c-921481956496" />
+          </mediaLink>
+        </listItem>
+      </list>
+      <alert class="tip">
+        <para>Chart styles (combinations of formatting options and chart layouts) use the theme colors. To change color schemes, switch to a different theme. In Excel, click <ui>Page Layout</ui>, click the <ui>Colors</ui> button, and then pick the color scheme you want or create your own theme colors.</para>
+      </alert>
+      <mediaLink>
+        <image xlink:href="e7e3d8e9-2be2-4478-9d98-8655f3d4afe8" />
+      </mediaLink>
+    </content>
+  </section>
+  <section>
+    <title>Change the chart style</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Click the chart you want to change. </para>
+        </listItem>
+        <listItem>
+          <para>In the upper right corner next to the chart, click <ui>Chart Styles</ui><mediaLinkInline><image xlink:href="87d7f9ff-e94f-4732-b198-8b2907946d79" /></mediaLinkInline> .</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>Style</ui> and pick the option you want.</para>
+        </listItem>
+      </list>
+      <mediaLink>
+        <image xlink:href="92d1a689-26f4-4d47-b2af-452bec230c52" />
+      </mediaLink>
+      <para>As you scroll down the gallery, Live Preview shows you how your chart data will look with the currently selected style.</para>
+    </content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="c7bb3e47-0b8b-47e6-8fed-0b8726288217" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Excel provides many options for displaying numbers as percentages, currency, dates, and so on. If these built-in formats do not meet your needs, you can <link xlink:href="78f2a361-936b-4c03-8772-09fab54be7f4">create or delete a custom number format</link> to create your own. Excel also gives you the ability to reference specific data types with data that is provided by online services.</para>
+		
+		
+	</introduction>
+	<section>
+		<title>Summary of number formats and data types in Excel</title>
+		<content>
+			<table>
+			<caption>Number format/Data type</caption>
+			<thead>
+				<tr>
+					<TH>
+						<para />
+					</TH>
+					<TH>
+						<para />
+					</TH>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<TD>
+						<para>General</para>
+					</TD>
+					<TD>
+						<para>No specific number format</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Number</para>
+					</TD>
+					<TD>
+						<para>General number with or without decimal places, and a thousands separator</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Currency</para>
+					</TD>
+					<TD>
+						<para>General monetary values</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Accounting</para>
+					</TD>
+					<TD>
+						<para>General monetary values displayed in the Accounting format</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Date</para>
+					</TD>
+					<TD>
+						<para>Display the date in the selected format (Short, medium, long, etc.)</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Time</para>
+					</TD>
+					<TD>
+						<para>Display the time in the selected format (AM/PM, Medium time, 24-hour)</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Percentage</para>
+					</TD>
+					<TD>
+						<para>Display values as percentages</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Fraction</para>
+					</TD>
+					<TD>
+						<para>Display values as fractions</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Scientific</para>
+					</TD>
+					<TD>
+						<para>Display values in scientific notation format</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Text</para>
+					</TD>
+					<TD>
+						<para>No number format applied</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Special</para>
+					</TD>
+					<TD>
+						<para>Zip code, phone number, social security number</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Custom</para>
+					</TD>
+					<TD>
+						<para>A custom format created using number codes from existing formats</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Stocks *</para>
+					</TD>
+					<TD>
+						<para>Contains data pertaining to stocks traded on public exchanges</para>
+					</TD>
+				</tr>
+				<tr>
+					<TD>
+						<para>Geography *</para>
+					</TD>
+					<TD>
+						<para>Contains data pertaining to geographic locations</para>
+					</TD>
+				</tr>
+			</tbody>
+		</table><alert class="note">
+			<para>* <token>Office_365_Note_Gradual_Rollout</token></para>
+		</alert>
+		</content>
+	</section>
+	<relatedTopics><link xlink:href="78f2a361-936b-4c03-8772-09fab54be7f4">Create or delete a custom number format</link></relatedTopics>
+</developerConceptualDocument></topic>

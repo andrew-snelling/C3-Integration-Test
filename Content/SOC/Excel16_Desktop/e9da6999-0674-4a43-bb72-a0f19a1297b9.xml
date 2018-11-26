@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="e9da6999-0674-4a43-bb72-a0f19a1297b9" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction><para>The #UNKNOWN! error indicates a unknown data type that is not currently supported in this version of Excel. If you need to work with this data type, consider upgrading to a <externalLink><linkText>newer version of Office.</linkText><linkUri>https://products.office.com/buy/compare-microsoft-office-products</linkUri></externalLink></para><alert class="note">
+ <para>July 31, 2018: This feature is being made available to customers on a gradual basis over several days or weeks. It will first be available to <externalLink><linkText>Office Insider</linkText><linkUri>https://products.office.com/office-insider</linkUri></externalLink> participants, and later to <externalLink><linkText>Office 365</linkText><linkUri>https://products.office.com/buy/compare-microsoft-office-products</linkUri></externalLink> subscribers. If you are an Office 365 subscriber, <link xlink:href="ee68f6cf-422f-464a-82ec-385f65391350">make sure you have the latest version of Office</link>.</para>
+</alert></introduction>
+  
+  
+  <section>
+    <title>Need more help?</title>
+    <content>
+      <tokenBlock>Excel_CommunityLinks</tokenBlock>
+    </content>
+  </section>
+  <relatedTopics><link xlink:href="61a33056-9935-484f-8ac8-f1a89e210877">Stock quotes and geographic data</link></relatedTopics>
+</developerConceptualDocument></topic>

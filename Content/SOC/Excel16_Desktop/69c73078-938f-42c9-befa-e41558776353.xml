@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="69c73078-938f-42c9-befa-e41558776353" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>When you <link xlink:href="A9A84538-BFE9-40A9-A8E9-F99134456576">create a PivotTable</link> that shows value amounts, subtotals and grand totals appear automatically, but you can hide them.</para>
+		<para><mediaLinkInline><image xlink:href="8f77cb5e-5463-4781-94e2-de01cc041f33" /></mediaLinkInline></para>
+	</introduction>
+	<section>
+		<title>Show or hide subtotals</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para address="bmbacktotop">Click anywhere in the PivotTable to show the <ui>PivotTable Tools</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="3f1e2861-fc79-4012-9ba0-d82a99ccd831" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Design</ui> &gt; <ui>Subtotals</ui>, and pick the option you want.</para>
+					<para><mediaLinkInline><image xlink:href="4cf4667f-b8b2-491e-82b5-728af8d6ab46" /></mediaLinkInline></para>
+					<alert class="tip">
+						<para>You can include filtered items in the total amounts by clicking <ui>Include Filtered Items in Totals</ui>. Click this option again to turn it off. You’ll find additional options for totals and filtered items on the <ui>Totals &amp; Filters</ui> tab in the <ui>PivotTable Options</ui> box (<ui>Analyze </ui> <ui>&gt; Options</ui>).</para>
+					</alert>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Show or hide grand totals</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Click anywhere in the PivotTable to show the <ui>PivotTable Tools</ui> on the ribbon.</para>
+					<para><mediaLinkInline><image xlink:href="3f1e2861-fc79-4012-9ba0-d82a99ccd831" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Design</ui> &gt; <ui>Grand Totals</ui>, and pick the option you want.</para>
+					<para><mediaLinkInline><image xlink:href="60e79cae-4d51-47af-8b78-6cb01e8f4c56" /></mediaLinkInline></para>
+					<alert class="tip">
+						<para>If you don’t want to show grand totals for rows or columns, uncheck the <ui>Show grand totals for rows</ui> or <ui>Show grand totals for columns</ui> boxes on the <ui>Totals &amp; Filters</ui> tab in the <ui>PivotTable Options</ui> box (<ui>Analyze </ui> <ui>&gt; Options</ui>).</para>
+					</alert>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="a9a84538-bfe9-40a9-a8e9-f99134456576">Create a PivotTable to analyze worksheet data</link></para>
+			<para><link xlink:href="CC1ED287-3A97-4E95-B377-DDFAFE79FA8F ">Filter data in a PivotTable</link></para>
+			<para><link xlink:href="C9D1DDD0-6580-47D1-82BC-C84A5A340725">Group or ungroup data in a PivotTable report</link></para>
+			<para><link xlink:href="6be5afed-348c-4db2-9f87-5ac262d67b3f">Turn off time grouping in PivotTables</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

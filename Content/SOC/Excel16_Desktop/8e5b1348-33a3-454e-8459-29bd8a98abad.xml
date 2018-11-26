@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="8e5b1348-33a3-454e-8459-29bd8a98abad" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="__goback">You can change the size of shapes in a layer to better highlight your geographic data points. Shapes that are too small can be easy to miss, while shapes that are too large can interfere with other shapes.</para>
+    <para>By default, shape size is set to <ui>100%</ui>.</para>
+    <list class="ordered">
+      <listItem>
+        <para>For the layer that you want to change, in the <ui>Layer Options</ui> area, use the <ui>Size</ui> slider to change the size of the shapes.</para><para>
+      <mediaLinkInline>
+        <image xlink:href="1082c4b3-2723-415d-91f6-141b9a07723c">
+        </image>
+      </mediaLinkInline>
+    </para>
+      <para>(If you don't see the <ui>Layer Pane</ui>, click <ui>Home</ui> &gt; <ui>Layer Pane</ui>.)</para></listItem>
+    <listItem>
+        <para>If you want to make sure that your new settings don't get changed accidentally, select the <ui>Lock current scale</ui> check box.</para>
+      </listItem></list>
+    
+    
+    
+    
+    
+    
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

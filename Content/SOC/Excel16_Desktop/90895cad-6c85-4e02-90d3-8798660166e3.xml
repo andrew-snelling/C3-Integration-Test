@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="90895cad-6c85-4e02-90d3-8798660166e3" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="bmbacktotop">Microsoft Office Excel has a number of features that make it easy to manage and analyze data. To take full advantage of these features, it is important that you organize and format data in a <token>TE000127118</token> according to the following guidelines.</para>
+  </introduction>
+  <section>
+    <title address="___toc___1_t">In this article</title>
+    <content>
+      <list class="nobullet" address="___toc___1_l">
+        <listItem>
+          <para>
+            <link xlink:href="90895cad-6c85-4e02-90d3-8798660166e3#bm1">Data organization guidelines</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="90895cad-6c85-4e02-90d3-8798660166e3#bm2">Data format guidelines</link>
+          </para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <section address="bm1">
+    <title>Data organization guidelines</title>
+    <content>
+      <para>
+        <embeddedLabel>Put similar items in the same column</embeddedLabel> Design the data so that all rows have similar items in the same column.</para>
+      <para>
+        <embeddedLabel>Keep a range of data separate</embeddedLabel> Leave at least one blank column and one blank row between a related data range and other data on the worksheet. Excel can then more easily detect and select the range when you sort, filter, or insert automatic subtotals.</para>
+      <para>
+        <embeddedLabel>Position critical data above or below the range</embeddedLabel> Avoid placing critical data to the left or right of the range because the data might be hidden when you filter the range.</para>
+      <para>
+        <embeddedLabel>Avoid blank rows and columns in a range</embeddedLabel> Avoid putting blank rows and columns within a range of data. Do this to ensure that Excel can more easily detect and select the related data range.</para>
+      <para>
+        <embeddedLabel>Display all rows and columns in a range</embeddedLabel> Make sure that any hidden rows or columns are displayed before you make changes to a range of data. When rows and columns in a range are not displayed, data can be deleted inadvertently. For more information, see <link xlink:href="659C2CAD-802E-44EE-A614-DDE8443579F8">Hide or display rows and columns</link>.</para>
+      <para>
+        <link xlink:href="90895cad-6c85-4e02-90d3-8798660166e3#__top">Top of Page</link>
+      </para>
+    </content>
+    <sections />
+  </section>
+  <section address="bm2">
+    <title>Data format guidelines</title>
+    <content>
+      <para>
+        <embeddedLabel>Use column labels to identify data</embeddedLabel> Create column labels in the first row of the range of data by applying a different format to the data. Excel can then use these labels to create reports and to find and organize data. Use a font, alignment, format, pattern, border, or capitalization style for column labels that is different from the format that you assign to the data in the range. Format the cells as text before you type the column labels. For more information, see <link xlink:href="d5efbdb5-b79b-475a-8c56-99aad944b030">Ways to format a worksheet</link>.</para>
+      <para>
+        <embeddedLabel>Use cell borders to distinguish data</embeddedLabel> When you want to separate labels from data, use cell borders — not blank rows or dashed lines — to insert lines below the labels. For more information, see <link xlink:href="dc8a310b-92e3-46a7-9f17-2ab745810f4a">Apply or remove cell borders on a worksheet</link>.</para>
+      <para>
+        <embeddedLabel>Avoid leading or trailing spaces to avoid errors</embeddedLabel> Avoid inserting spaces at the beginning or end of a cell to indent data. These extra spaces can affect sorting, searching, and the format that is applied to a cell. Instead of typing spaces to indent data, you can use the <ui>Increase Indent</ui> command within the cell. For more information, see <link xlink:href="8BF8177A-D2E8-4F5C-A707-D51625FD7758">Reposition the data in a cell</link>.</para>
+      <para>
+        <embeddedLabel>Extend data formats and formulas</embeddedLabel> When you add new rows of data to the end of a data range, Excel extends consistent formatting and formulas. Three of the five preceding cells must use the same format for that format to be extended. All of the preceding formulas must be consistent for a formula to be extended. For more information, see <link xlink:href="74e31bdd-d993-45da-aa82-35a236c5b5db">Fill data automatically in worksheet cells</link>.</para>
+      <para>
+        <embeddedLabel>Use an Excel table format to work with related data</embeddedLabel> You can turn a contiguous range of cells on your worksheet into an Excel table. Data that is defined by the table can be manipulated independently of data outside of the table, and you can use specific table features to quickly sort, filter, total, or calculate the data in the table. You can also use the table feature to compartmentalize sets of related data by organizing that data in multiple tables on a single worksheet. For more information, see <link xlink:href="7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c">Overview of Excel tables</link>.</para>
+      <para>
+        <link xlink:href="90895cad-6c85-4e02-90d3-8798660166e3#__top">Top of Page</link>
+      </para>
+    </content>
+    
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

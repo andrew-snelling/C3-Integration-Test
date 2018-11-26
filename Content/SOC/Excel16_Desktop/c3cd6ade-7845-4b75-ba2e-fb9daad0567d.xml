@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="c3cd6ade-7845-4b75-ba2e-fb9daad0567d" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>After you've imported XML data, mapped the data to cells in your worksheet, and made changes to the data, you often want to export or save the data to an XML file.</para>
+		<alert class="important">
+			<para>When creating XML maps and exporting data in Excel to XML data files, there's a limit on the number of rows that can be exported. Exporting to XML from Excel will save a maximum of 65,536 rows. If your file has more than 65,536 rows, you should do one of the following:</para>
+			<list class="bullet">
+				<listItem>
+					<para>Export the data using the .XLSX file format.</para>
+				</listItem>
+				<listItem>
+					<para>Save the file as XML Spreadsheet (.XML), which will lose the mappings.</para>
+				</listItem>
+				<listItem>
+					<para>Delete all rows after 65,536 and then export again to maintain the mappings but lose the data at the end of the file.</para>
+				</listItem>
+			</list>
+		</alert>
+	</introduction>
+	<section expanded="true">
+		<title>Export XML data from a worksheet with no more than 65,536 rows</title>
+		<content>
+			<para>Follow these steps:</para>
+			<list class="ordered">
+				<listItem>
+					<para>On the <ui>Developer</ui> tab, in the <ui>XML</ui> group, click <ui>Export</ui>.</para>
+					<para>If you don't see the <ui>Developer</ui> tab, see <link xlink:href="e1192344-5e56-4d45-931b-e5fd9bea2d45">Show the Developer tab</link>.</para>
+				</listItem>
+				<listItem>
+					<para>If a small <legacyBold>Export XML</legacyBold> dialog box appears, click the XML map you want to use, and then click <ui>OK</ui>.</para>
+					<para>This dialog box only appears if an XML table isn't selected and if the workbook has more than one XML map.</para>
+				</listItem>
+				<listItem>
+					<para>In the large <ui>Export XML</ui> dialog box, in the <legacyBold>File name</legacyBold> box, type a name for the XML data file.</para>
+				</listItem>
+				<listItem>
+					<para>Click <legacyBold>Export</legacyBold>.</para>
+					<alert class="note">
+						<para>If your worksheet has headings or labels that are different from the XML element names in the XML map, Excel will use the XML element names when you export or save XML data from the worksheet.</para>
+					</alert>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Export XML data from a worksheet with more than 65,536 rows</title>
+		<content>
+			<para>Follow these steps:</para>
+			<list class="ordered">
+				<listItem>
+					<para>Subtract 65,537 from the total number of rows in your file to get the number of excess rows.</para>
+				</listItem>
+				<listItem>
+					<para>Delete those excess rows from the beginning of the Excel worksheet.</para>
+				</listItem>
+				<listItem>
+					<para>Export the worksheet as an XML data file.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Close</ui> but <legacyUnderline>do not save</legacyUnderline> the sheet. Then reopen the Excel worksheet.</para>
+				</listItem>
+				<listItem>
+					<para>Delete all rows except the rows from step 1 above, then export as an XML data file.</para>
+					<para>This procedure will give you remainder of the rows. At that point, you will have two XML export files, which you can combine to create a duplicate of your original worksheet.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section address="bm2" expanded="true">
+		<title>Save XML data in mapped cells to an XML data file</title>
+		<content>
+			<para>For backward compatibility with earlier XML functionality, you might want to save the file to an XML data file (.xml) instead of using the <ui>Export</ui> command.</para>
+			<para>Follow these steps:</para>
+			<list class="ordered">
+				<listItem>
+					<para>Press Ctrl+S to save your file.</para>
+					<para>This ensures that any changes you made to your workbook won't be lost when the workbook is saved as an XML data file.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>File</ui> &gt; <ui>Save As</ui>, and then select the location where you want to save the file.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>File name</ui> box, enter a name for the XML data file.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Save as type</ui> list, click <ui>XML Data</ui>, and then click <ui>Save</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>If you get a message stating that saving the file as XML data may result in the loss of features, click <ui>Continue</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>If a small <ui>Export XML</ui> popup window appears, click the XML map you want to use, and then click <ui>OK</ui>.</para>
+					<para>This popup window only appears if an XML table isn't selected and the workbook has more than one XML map.</para>
+				</listItem>
+				<listItem>
+					<para>In the large <ui>Export XML </ui>dialog box, in the <ui>File name</ui> box, type a name for the XML data file.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Export</ui>.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<para>If your worksheet has headings or labels that are different from the XML element names in the XML map, Excel will use the XML element names when you export or save XML data from the worksheet.</para>
+			</alert>
+		</content>
+	</section>
+	<section address="bm3" expanded="false">
+		<title>Common issues with exporting XML data</title>
+		<content>
+			<para>When you export XML data, you may encounter messages such as those below.</para>
+		</content>
+		<sections>
+			<section>
+				<title>The XML map can be exported but some required elements aren't mapped</title>
+				<content>
+					<para>There may be several reasons for this message:</para>
+					<list class="bullet">
+						<listItem>
+							<para>The XML map that corresponds with this XML table has one or more required elements that aren't mapped to the XML table.</para>
+							<para>The hierarchical list of elements in the XML source task pane indicates required elements by placing a red asterisk on the top-right corner of the icon to the left of each element. To map a required element, drag it to the worksheet location where you want it to appear.</para>
+						</listItem>
+						<listItem>
+							<para>The element is a recursive structure.</para>
+							<para>A common example of a recursive structure is a hierarchy of employees and managers in which the same XML elements are nested several levels. Although you may have mapped all of the elements in the XML Source task pane, Excel doesn't support recursive structures that are more than one level deep and therefore can't map all of the elements.</para>
+						</listItem>
+						<listItem>
+							<para>The XML table contains mixed content.</para>
+							<para>Mixed content occurs when an element has a child element and simple text outside of a child element. One common case is where formatting tags (such as the bold tags) are used to mark up data within an element. Although the child element (if Excel supports it) can be displayed, the text content will be lost when the data is imported, isn't available when the data is exported, and therefore can't be round-tripped.</para>
+						</listItem>
+					</list>
+				</content>
+			</section>
+			<section>
+				<title>The XML maps in your workbook can't be exported</title>
+				<content>
+					<para>An XML map can't be exported if the relationship of the mapped element with other elements can't be preserved. This relationship may not be preserved for any of these reasons:</para>
+					<list class="bullet">
+						<listItem>
+							<para>The schema definition of a mapped element is contained within a sequence with the following attributes:</para>
+							<list class="bullet">
+								<listItem>
+									<para>The <legacyBold>maxoccurs</legacyBold> attribute isn't equal to 1.</para>
+								</listItem>
+								<listItem>
+									<para>The sequence has more than one direct child element defined or has another compositor as a direct child.</para>
+								</listItem>
+							</list>
+						</listItem>
+						<listItem>
+							<para>Nonrepeating sibling elements with the same repeating parent element are mapped to different XML tables.</para>
+						</listItem>
+						<listItem>
+							<para>Multiple repeating elements are mapped to the same XML table and the repetition isn't defined by an ancestor element.</para>
+						</listItem>
+						<listItem>
+							<para>Child elements from different parents are mapped to the same XML table.</para>
+						</listItem>
+					</list>
+					<para />
+					<para>Additionally, the XML map can't be exported if it has one of the following XML schema constructs:</para>
+					<list class="bullet">
+						<listItem>
+							<para><embeddedLabel>List of lists —</embeddedLabel>One list of items has a second list of items.</para>
+						</listItem>
+						<listItem>
+							<para><embeddedLabel>Denormalized data <embeddedLabel>—</embeddedLabel></embeddedLabel>An XML table has an element that has been defined in the schema to occur once (the <legacyBold>maxoccurs</legacyBold> attribute is set to 1). When you add such an element to an XML table, Excel fills the table column with multiple instances of the element.</para>
+						</listItem>
+						<listItem>
+							<para><embeddedLabel>Choice <embeddedLabel>—</embeddedLabel></embeddedLabel>A mapped element is part of a <legacyBold>&lt;choice&gt;</legacyBold> schema construct.</para>
+						</listItem>
+					</list>
+				</content>
+			</section>
+			<section>
+				<title>Excel can't save the workbook because it doesn't have any mapped ranges</title>
+				<content>
+					<para>Excel can't save your workbook in the XML data file unless you create one or more mapped ranges.</para>
+					<para>If you added an XML map to your workbook, follow these steps to map XML elements to your worksheet:</para>
+					<list class="ordered">
+						<listItem>
+							<para>On the <ui>Developer</ui> tab, in the <ui>XML</ui> group, click <ui>Source</ui>.</para>
+							<para><mediaLinkInline><image xlink:href="7f5a7f7e-1706-49e5-85ab-108fe74a96e2" /></mediaLinkInline><br />
+	If you don't see the <ui>Developer</ui> tab, see <link xlink:href="e1192344-5e56-4d45-931b-e5fd9bea2d45">Show the Developer tab</link>.</para>
+						</listItem>
+						<listItem>
+							<para>In the <ui>XML Source</ui> task pane, select the elements you want to map to your worksheet.</para>
+							<para>To select nonadjacent elements, click one element, hold down CTRL, and then click each element.</para>
+						</listItem>
+						<listItem>
+							<para>Drag the selected elements to the worksheet location where you want them to appear.</para>
+						</listItem>
+					</list>
+					<para>If you haven't added an XML map to your workbook, or if your data isn't in an XML table, save your workbook in the Excel Macro-Enabled Workbook file format (.xlsm).</para>
+				</content>
+			</section></sections>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

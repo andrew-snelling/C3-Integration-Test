@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f1b54f95-085d-4d40-9c4b-5b6ea8a2db95" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>To copy a 3D Maps screen to another application like Microsoft Word or PowerPoint, you can capture what’s shown on the 3-D screen and paste it in a Word document or PowerPoint presentation as a static picture.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="8ece5e66-fc2e-4f54-be45-1ea8784a6602">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <list class="ordered">
+      <listItem>
+        <para>In 3D Maps, <link xlink:href="67b16386-8b73-4181-867c-5ca8d042ca71">move around on your map</link> to show exactly what you want to capture.</para>
+      </listItem>
+      <listItem>
+        <para>Click <ui>Home</ui> &gt; <ui>Capture Screen</ui>.</para>
+      <para>
+      <mediaLinkInline>
+<image xlink:href="28858004-1bef-4725-92a1-1dc58769e32f" />
+</mediaLinkInline>
+    </para><para>This copies the screen capture to the Clipboard.</para></listItem><listItem address="__goback">
+        <para>In the other application, click where you want to paste the screen capture and press Ctrl+V.</para>
+        <alert class="tip">
+          <para> If you want to show an entire 3D Maps tour in a PowerPoint presentation, you can <link xlink:href="0082dc6b-3ed6-4690-96f7-e0579d1c1eec">create a video of the tour</link> and insert it in a PowerPoint slide.</para>
+        </alert>
+      </listItem>
+    </list>
+    
+    
+    
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

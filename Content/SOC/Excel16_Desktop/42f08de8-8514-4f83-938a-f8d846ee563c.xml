@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="42f08de8-8514-4f83-938a-f8d846ee563c" revisionNumber="8"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    
+  </introduction>
+  
+  <section>
+    <title></title>
+    <content>
+      
+      
+      
+      
+      <tabControl><tabControlItem tabItemID="Print"><tabControlItemTitle>Print</tabControlItemTitle><tabControlItemSection><content><para><link xlink:href="1af561b2-5444-4fc1-b24d-9e4d05b9ebf1">Print a worksheet in landscape or portrait orientation</link></para><para><link xlink:href="d3550133-f6a1-4c72-ad70-5309a2e8fe8c">Print rows with column headers on top of every page</link></para><para><link xlink:href="D9484315-5123-48AE-BC58-2E8DCF271252">Create and print mailing labels for an address list in Excel</link></para><para><link xlink:href="27048AF8-A321-416D-BA1B-E99AE2182A7E">Set a specific print area </link></para><para><link xlink:href="ad3dc726-beec-4a4c-861f-ed640612bdc2">Insert, move, or delete page breaks in a worksheet </link></para><para><link xlink:href="3e4f2a66-7350-4042-9639-418da7ab5b37">Print the top row on every page</link></para><para><link xlink:href="bcd8f03a-c28d-42a2-9217-aab0e43aa930">Preview worksheet pages before you print</link></para><para><link xlink:href="34A91EB5-8B4E-4A8A-AB28-B6492012EAAE">Make a worksheet fit the printed page</link></para><para><link xlink:href="fdb32f2a-8a5a-41fe-a5b0-0a734fdfade1">Print gridlines in a worksheet</link></para><para><link xlink:href="34a91eb5-8b4e-4a8a-ab28-b6492012eaae">Scale a worksheet for printing</link></para><para><link xlink:href="0D6DAC43-7EE7-4F34-8B08-FFCC8B022409">Repeat specific rows or columns on every printed page</link></para></content></tabControlItemSection></tabControlItem><tabControlItem tabItemID="Share_files"><tabControlItemTitle>Share files</tabControlItemTitle><tabControlItemSection><content><para><link xlink:href="8d8a52bb-03c3-4933-ab6c-330aabf1e589">Share your Excel 2016 workbook with others</link></para><para><link xlink:href="7152aa8b-b791-414c-a3bb-3024e46fb104">Work on a file at the same time with co-authoring</link></para><para><link xlink:href="7e365a4d-3e89-4616-84ca-1931257c1517">Password protect a workbook</link></para><para><link xlink:href="3179efdb-1285-4d49-a9c3-f4ca36276de6">Protect a worksheet with or without a password</link></para><para><link xlink:href="05084cc3-300d-4c1a-8416-38d3e37d6826">Remove a password from a worksheet or workbook</link></para></content></tabControlItemSection></tabControlItem></tabControl>
+    </content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

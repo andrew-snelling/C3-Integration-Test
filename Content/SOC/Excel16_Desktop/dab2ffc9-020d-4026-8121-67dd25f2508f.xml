@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="dab2ffc9-020d-4026-8121-67dd25f2508f" revisionNumber="22"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>To keep an area of a worksheet visible while you scroll to another area of the worksheet, go to the <ui>View</ui> tab, where you can <ui>Freeze Panes</ui> to lock specific rows and columns in place, or you can <ui>Split </ui>panes to create separate windows of the same worksheet.</para>
+		
+		<mediaLink><caption></caption>
+			<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+			<video channel="" player="SP_MOD_OfficeCom" videoid="RE1FOed" videotype="single" />
+		</mediaLink>
+	</introduction>
+	<section>
+		<title>Freeze rows or columns</title>
+		<content>
+			<para><legacyBold>Freeze the first column</legacyBold></para>
+			<list class="bullet">
+				<listItem>
+					<para>Select <legacyBold>View </legacyBold>&gt; <legacyBold>Freeze Panes</legacyBold> &gt; <legacyBold>Freeze First Column</legacyBold>.</para>
+				</listItem>
+			</list>
+			<para>            The faint line that appears between Column A and B shows that the first column is frozen.</para>
+			<para><legacyBold>Freeze the first two columns</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Select the third column.</para>
+				</listItem>
+				<listItem>
+					<para>Select <legacyBold>View </legacyBold>&gt;<legacyBold> Freeze Panes</legacyBold> &gt; <legacyBold>Freeze Panes.</legacyBold></para>
+				</listItem>
+			</list>
+			<para><legacyBold>Freeze columns and rows</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Select the cell below the rows and to the right of the columns you want to keep visible when you scroll.</para>
+				</listItem>
+				<listItem>
+					<para>Select <legacyBold>View </legacyBold>&gt; <legacyBold>Freeze Panes</legacyBold> &gt; <legacyBold>Freeze Panes.</legacyBold></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Unfreeze rows or columns</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para>On the <ui>View</ui> tab &gt; <ui>Window</ui> &gt; <ui>Unfreeze Panes</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="f869675c-37c2-4140-9d9f-194478d3bd58" /></mediaLinkInline></para>
+					<alert class="note">
+						<para>If you don’t see the <legacyBold>View</legacyBold> tab, it’s likely that you are using Excel Starter. To learn more about features that aren’t supported in that version, see <link xlink:href="0982b3f1-7bca-49a7-a04b-3c09d05941d4">Excel features that are not fully supported in Excel Starter</link>.</para>
+					</alert>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	
+	<relatedTopics><link xlink:href="b8eb717e-9d3e-4354-8c02-d779a4b404b2">Freeze panes to lock the first row or column in Excel 2016 for Mac</link><link xlink:href="516A7001-B3ED-4122-A6BB-FD6D4A9D6434">Split panes to lock rows or columns in separate worksheet areas</link><link xlink:href="ecfdc708-9162-49e8-b993-c311f47ca173">Overview of formulas in Excel</link><link xlink:href="8309381d-33e8-42f6-b889-84ef6df1d586">How to avoid broken formulas</link><link xlink:href="3a8acca5-1d61-4702-80e0-99a36a2822c1">Find and correct errors in formulas</link><link xlink:href="1798d9d5-842a-42b8-9c99-9b7213f0040f">Keyboard shortcuts in Excel for Windows</link><link xlink:href="acf5419e-1f87-444d-962f-4e951a658ccd">Keyboard shortcuts in Excel for Mac</link><link xlink:href="b3944572-255d-4efb-bb96-c6d90033e188">Excel functions (alphabetical)</link><link xlink:href="5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb">Excel functions (by category)</link></relatedTopics>
+</developerConceptualDocument></topic>

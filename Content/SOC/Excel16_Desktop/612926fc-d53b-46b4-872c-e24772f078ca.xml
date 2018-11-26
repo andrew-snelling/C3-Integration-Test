@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="612926fc-d53b-46b4-872c-e24772f078ca" revisionNumber="15"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+
+    <para>The Solver Add-in is a Microsoft Office Excel <token>TE000127233</token> program that is available when you install Microsoft Office or Excel.</para>
+    <para>To use the Solver Add-in, however, you first need to load it in Excel.</para>
+    
+  </introduction>
+    
+  
+<section>
+<content><tabControl controlId="OfficeVersion"><tabControlItem targetedOS="Windows"><tabControlItemTitle>Windows</tabControlItemTitle><tabControlItemSection><content><list class="ordered">
+      <listItem>
+        <para>In Excel 2010 and later, go to <legacyBold>File &gt; Options</legacyBold></para><alert class="note">
+ <para>For Excel 2007, click the <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af"></image></mediaLinkInline>, and then click <ui>Excel Options</ui>.</para>
+</alert>
+      </listItem>
+      <listItem>
+        <para>Click <ui>Add-Ins</ui>, and then in the <ui>Manage</ui> box, select <ui>Excel Add-ins</ui>.</para>
+      </listItem>
+      <listItem>
+        <para>Click <ui>Go</ui>.</para>
+      </listItem>
+      <listItem>
+        <para>In the <ui>Add-Ins available</ui> box, select the <ui>Solver Add-in</ui> check box, and then click <ui>OK</ui>.</para>
+        <alert class="note">
+ <list class="bullet"><listItem><para> If the <ui>Solver Add-in</ui> is not listed in the <ui>Add-Ins available</ui> box, click <ui>Browse</ui> to locate the add-in.</para></listItem><listItem><para>If you get prompted that the Solver Add-in is not currently installed on your computer, click <ui>Yes</ui> to install it.</para></listItem></list>
+</alert>
+      </listItem>
+      <listItem>
+        <para address="__goback">After you load the Solver Add-in, the <ui>Solver</ui> command is available in the <ui>Analysis</ui> group on the <ui>Data</ui> tab.</para>
+      </listItem>
+    </list></content></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Mac"><tabControlItemTitle>macOS</tabControlItemTitle><tabControlItemSection><content><list class="ordered">
+      <listItem>
+        <para>On the <ui>Tools</ui> menu, select <ui>Excel Add-Ins</ui>.</para>
+      </listItem>
+      <listItem>
+        <para>In the <ui>Add-Ins available</ui> box, select the <ui>Solver Add-In</ui> check box, and then click <ui>OK</ui>.</para>
+        <list class="bullet">
+          <listItem>
+            <para>If <ui>Solver Add-in</ui> is not listed in the <ui>Add-Ins available</ui> box, click <ui>Browse</ui> to locate the add-in.</para>
+          </listItem>
+          <listItem>
+            <para>If you get a prompt that the Solver add-in is not currently installed on your computer, click <ui>Yes</ui> in the dialog box to install it.</para>
+          </listItem>
+        </list><para>After you load the Solver add-in, the <ui>Solver</ui> button is available on the <ui>Data</ui> tab.</para>
+      </listItem>
+      
+    </list></content></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Android"><tabControlItemTitle>Android</tabControlItemTitle><tabControlItemSection><content><para>The Solver add-in from Frontline Systems isn't currently available for Excel on mobile devices.</para><para>Solver is a free add-in for Excel 2013 with SP1 and later. For more information, search for Solver in the <externalLink><linkText>Office Store</linkText><linkUri>https://store.office.com/</linkUri></externalLink>.</para></content></tabControlItemSection></tabControlItem><tabControlItem targetedOS="iOS"><tabControlItemTitle>iOS</tabControlItemTitle><tabControlItemSection><content><para>The Solver add-in from Frontline Systems isn't currently available for Excel on mobile devices.</para><para>Solver is a free add-in for Excel 2013 with SP1 and later. For more information, search for Solver in the <externalLink><linkText>Office Store</linkText><linkUri>https://store.office.com/</linkUri></externalLink>.</para></content></tabControlItemSection></tabControlItem><tabControlItem targetedOS="Windows Phone"><tabControlItemTitle>Windows Mobile</tabControlItemTitle><tabControlItemSection><content><para>The Solver add-in from Frontline Systems isn't currently available for Excel on mobile devices.</para><para>Solver is a free add-in for Excel 2013 with SP1 and later. For more information, search for Solver in the <externalLink><linkText>Office Store</linkText><linkUri>https://store.office.com/</linkUri></externalLink>.</para></content></tabControlItemSection></tabControlItem></tabControl></content>
+</section><section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section>
+<relatedTopics><link xlink:href="5D1A388F-079D-43AC-A7EB-F63E45925040">Define and solve a problem by using Solver</link><link xlink:href="ecfdc708-9162-49e8-b993-c311f47ca173">Overview of formulas in Excel</link>
+<link xlink:href="8309381d-33e8-42f6-b889-84ef6df1d586">How to avoid broken formulas</link>
+<link xlink:href="4d4c160b-8d9a-45f1-bec7-75f4b90045f8">Use error checking to detect errors in formulas</link>
+<link xlink:href="1798d9d5-842a-42b8-9c99-9b7213f0040f">Keyboard shortcuts in Excel 2016 for Windows</link>
+<link xlink:href="acf5419e-1f87-444d-962f-4e951a658ccd">Keyboard shortcuts in Excel 2016 for Mac</link>
+
+<link xlink:href="b3944572-255d-4efb-bb96-c6d90033e188">Excel functions (alphabetical)</link>
+<link xlink:href="5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb">Excel functions (by category)</link></relatedTopics>
+</developerConceptualDocument></topic>

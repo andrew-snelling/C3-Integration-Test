@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="9785e791-de6f-48dd-9b0d-899d75c33d69" revisionNumber="9"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>Excel lets you to print all or part of a worksheet or workbook, with just the information you need. It's all about how you prepare your file. By setting things up before you're ready to print, you can control what is printed.</para>
+  </introduction>
+  <section>
+    <title></title>
+    <content>
+      
+      
+      
+      
+      
+      <table border="1">
+        <tbody>
+          <tr>
+            <TH>
+              <para>To do</para>
+            </TH>
+            <TH>
+              <para>More information</para>
+            </TH>
+          </tr>
+          <tr>
+            <TD>
+              <para>Before you begin</para>
+            </TD>
+            <TD>
+              <para>First things first. See <link xlink:href="7c4ef01a-22c0-4713-a7f7-942f4bd1ee52">Connect to a printer</link></para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Set options before you print</para>
+            </TD>
+            <TD>
+              
+            <list class="bullet"><listItem><para>Do you know you can set page margins to align the worksheet data better on a printed page? Page margins are the blank spaces between the worksheet data and the edges of the printed page.  See <link xlink:href="353f52fc-0d2c-4958-9166-99fbd22b963a">Set page margins before printing a worksheet</link>.</para></listItem><listItem><para>Does your worksheet have a lot of columns that you need to be accommodated on a single page or fixed number of pages? If so, you will have to scale your worksheet so that the data in your worksheet fits the dimensions of the page. Scaling can even help you switch to a different font size if the current font doesn't seem to work.  See <link xlink:href="34a91eb5-8b4e-4a8a-ab28-b6492012eaae">Scale a worksheet</link>.</para></listItem><listItem><para>Want to change the page orientation such as landscape or portrait? See <link xlink:href="1af561b2-5444-4fc1-b24d-9e4d05b9ebf1">Print a worksheet in landscape or portrait orientation</link>.</para></listItem><listItem><para>Need to adjust page breaks before printing? See <link xlink:href="ad3dc726-beec-4a4c-861f-ed640612bdc2">Create manual page breaks in a worksheet </link>.</para></listItem><listItem><para>Do you know gridlines don't appear on a printed page? You will need to enable the setting if you want gridlines in your printed data. See <link xlink:href="fdb32f2a-8a5a-41fe-a5b0-0a734fdfade1">Print gridlines in a worksheet</link>.</para></listItem><listItem><para>Do you know you can add headers and footers to the worksheet before printing? For example, <link xlink:href="27a88fb9-f54e-4ac4-84d7-bf957c6ce29c">page numbers</link>, date, file name, or anything relevant. See <link xlink:href="cae2a88c-64a7-42ab-96a4-28d2fc16ad31">Headers and footers in a worksheet</link>.</para></listItem><listItem><para>Do you want to print row or column headers on top of every page? It's also called print titles.  See <link xlink:href="d3550133-f6a1-4c72-ad70-5309a2e8fe8c">Print rows with column headers on top of every page</link>.</para></listItem><listItem><para>If you want a faster printing output, you can switch to a lower dots-per-inch (dpi) resolution or use draft quality printing. See <link xlink:href="b0e11707-1e47-4452-810f-0f4deb038455">Change the print resolution or print quality for a worksheet</link>.</para><alert class="note">
+ <para>A lower dpi setting or draft quality printing will reduce printing time, but also result in a low print quality. </para>
+</alert></listItem></list></TD>
+          </tr>
+          
+          <tr><TD><para>Preview</para></TD><TD><para>Preview pages before you print. See <link xlink:href="BCD8F03A-C28D-42A2-9217-AAB0E43AA930">Preview worksheet pages before you print </link>.</para></TD></tr><tr>
+            <TD>
+              <para>Print only part of a worksheet</para>
+            </TD>
+            <TD><para>A print area is one or more ranges of cells that you designate to print when you don't want to print the entire worksheet.  If you print a specific selection on a worksheet frequently, you can define a print area that includes just that selection. See <link xlink:href="27048AF8-A321-416D-BA1B-E99AE2182A7E">Change or clear a print area on a worksheet</link></para></TD>
+          </tr><tr><TD><para>Print a worksheet or workbook</para></TD><TD><para>You can print entire or partial worksheets and workbooks, one at a time, or several at once. And if the data that you want to print is in a Microsoft Excel table, you can print just the Excel table. You can also print to a file instead to a printer. See <link xlink:href="F4AD7962-B1D5-4EB9-A24F-0907F36C4B94">Print a worksheet or workbook</link></para></TD></tr><tr><TD><para>Troubleshoot printing issues</para></TD><TD><para><link xlink:href="6a548ebd-bcae-4641-b8ac-ca1fa7ef291e">My Print button and some printer settings aren’t available</link></para></TD></tr>
+        </tbody>
+      </table>
+      
+      
+    </content>
+    
+  </section>
+  
+  <section>
+<title>Need more help?</title>
+            <content>
+                        <para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.
+            </para>
+</content>
+</section><relatedTopics><link xlink:href="f780d144-dd71-4e16-9f0d-b09542a4fc01">Quick start: Print a worksheet</link></relatedTopics>
+</developerConceptualDocument></topic>

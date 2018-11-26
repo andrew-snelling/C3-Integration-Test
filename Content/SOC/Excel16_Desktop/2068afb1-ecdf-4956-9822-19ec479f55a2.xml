@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="2068afb1-ecdf-4956-9822-19ec479f55a2" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>A <legacyBold>Scenario</legacyBold> is a set of values that Excel saves and can substitute automatically on your worksheet. You can create and save different groups of values as scenarios and then switch between these scenarios to view the different results.</para>
+    <para>If several people have specific information that you want to use in scenarios, you can collect the information in separate workbooks, and then merge the scenarios from the different workbooks into one.</para>
+    <para>After you have all the scenarios you need, you can create a scenario summary report that incorporates information from all the scenarios.</para>
+  <para>Scenarios are managed with the <legacyBold>Scenario Manager wizard </legacyBold>from the <legacyBold>What-If Analysis </legacyBold>group on the <legacyBold>Data </legacyBold>tab.</para></introduction>
+  
+  <section expanded="true">
+<title>Kinds of What-If Analysis</title><content><para>There are three kinds of What-If Analysis tools that come with Excel: <legacyBold>Scenarios</legacyBold>, <legacyBold><link xlink:href="e95e2487-6ca6-4413-ad12-77542a5ea50b">Data Tables</link></legacyBold> and <legacyBold><link xlink:href="320cb99e-f4a4-417f-b1c3-4f369d6e66c7">Goal Seek</link></legacyBold>. Scenarios and Data Tables take sets of input values and project forward to determine possible results. Goal Seek differs from Scenarios and Data Tables in that it takes a result and projects backwards to determine possible input values that produce that result.</para><para>Each scenario can accommodate up to 32 variable values. If you want to analyze more than 32 values, and the values represent only one or two variables, you can use Data Tables. Although it is limited to only one or two variables (one for the row input cell and one for the column input cell), a Data Table can include as many different variable values as you want. A scenario can have a maximum of 32 different values, but you can create as many scenarios as you want.</para><para>In addition to these three tools, you can install add-ins that help you perform What-If Analysis, such as the <link xlink:href="5d1a388f-079d-43ac-a7eb-f63e45925040">Solver add-in</link>. The Solver add-in is similar to Goal Seek, but it can accommodate more variables. You can also create forecasts by using the fill handle and various commands that are built into Excel.
+
+For more advanced models, you can use the <link xlink:href="6C67CCF0-F4A9-487C-8DEC-BDB5A2CEFAB6">Analysis ToolPak add-in</link>.
+</para></content>
+</section><section expanded="true">
+<title>Creating scenarios</title><content><para>Suppose that you want to create a budget but are uncertain of your revenue. By using scenarios, you can define different possible values for the revenue and then switch between scenarios to perform what-if analyses.</para><para>For example, assume that your worst case budget scenario is Gross Revenue of $50,000 and Costs of Goods Sold of $13,200, leaving $36,800 in Gross Profit. To define this set of values as a scenario, you first enter the values in a worksheet, as shown in the following illustration:</para><para><mediaLinkInline>
+<image xlink:href="2a27fe32-6c58-456f-84ec-2e4e4cf7a096" />
+</mediaLinkInline></para><para>The <legacyBold>Changing cells</legacyBold> have values that you type in, while the <legacyBold>Result cell </legacyBold>contains a formula that is based on the Changing cells (in this illustration cell B4 has the formula <legacyBold>=B2-B3</legacyBold>).</para><para>
+            You then use the <legacyBold>Scenario Manager</legacyBold> dialog to save these values as a scenario.  Goto the <legacyBold>Data tab &gt; What-If Analysis &gt; Scenario Manager &gt; Add</legacyBold>.</para><para><mediaLinkInline>
+<image xlink:href="75ba4ea1-5494-47b5-bc8a-23d4e9182588" />
+</mediaLinkInline></para><para><mediaLinkInline>
+<image xlink:href="59ac5a3b-e76f-40c9-bbb6-734e8d708682" />
+</mediaLinkInline></para><para>In the <legacyBold>Scenario name</legacyBold> dialog, name the scenario Worst Case, and specify that cells B2 and B3 are the values that change between scenarios.  If you select the <legacyBold>Changing cells</legacyBold> on your worksheet before adding a Scenario, the Scenario Manager will automatically insert the cells for you, otherwise you can type them by hand, or use the cell selection dialog to the right of the Changing cells dialog box.</para><para><mediaLinkInline>
+<image xlink:href="e21f155c-99c4-4e3e-9803-948fdbca4f33" />
+</mediaLinkInline></para><alert class="note">
+            <para>Although this example contains only two changing cells (B2 and B3), a scenario can contain up to 32 cells.</para>
+          </alert><para><legacyBold>Protection</legacyBold> – You can also protect your scenarios, so in the Protection section check the options that you want, or uncheck them if you don't want any protection. </para><list class="bullet"><listItem><para>Select <legacyBold>Prevent Changes </legacyBold>to prevent editing the scenario when the worksheet is protected.</para></listItem><listItem><para>Select <legacyBold>Hidden</legacyBold> to prevent displaying the scenario when the worksheet is protected.</para></listItem></list><alert class="note">
+ <para>These options apply only to protected worksheets. For more information about protected worksheets, see <link xlink:href="3179efdb-1285-4d49-a9c3-f4ca36276de6">Protect a worksheet </link></para>
+</alert><para>Now suppose that your Best Case budget scenario is Gross Revenue of $150,000 and Costs of Goods Sold of $26,000, leaving $124,000 in Gross Profit. To define this set of values as a scenario, you create another scenario, name it Best Case, and supply different values for cell B2 (150,000) and cell B3 (26,000). Because Gross Profit (cell B4) is a formula - the difference between Revenue (B2) and Costs (B3) -  you do not change cell B4 for the Best Case scenario.</para><mediaLink>
+<image xlink:href="69a1e98c-2edd-4239-99e6-ccb162300899" />
+</mediaLink><para>After you save a scenario, it becomes available in the list of scenarios that you can use in your what-if analyses. Given the values in the preceding illustration, if you chose to display the Best Case scenario, the values in the worksheet would change to resemble the following illustration:</para><mediaLink>
+<image xlink:href="bc286294-2b55-4b89-b31e-bae08d706068" />
+</mediaLink></content>
+</section><section expanded="true">
+<title>Merging scenarios</title><content><para>There may be times when you have all the information in one worksheet or workbook needed to create all the scenarios that you want to consider. However, you may want to gather scenario information from other sources. For example, suppose you are trying to create a company budget. You might collect scenarios from different departments, like Sales, Payroll, Production, Marketing, and Legal, because each of these sources has different information to use in creating the budget.</para><para>You can gather these scenarios into one worksheet by using the <ui>Merge</ui> command. Each source can supply as many or as few changing cell values as you want. For example, you might want each department to supply expenditure projections, but only need revenue projections from a few.</para><para>When you choose to merge, the Scenario Manager will load a <legacyBold>Merge Scenario wizard</legacyBold>, which will list all of the worksheets in the active workbook, as well as listing any other workbooks you might have open at the time.  The wizard will tell you how many scenarios you have on each source worksheet you select.</para><mediaLink>
+<image xlink:href="c5e7ca56-6a2e-4954-87fe-45ba3d6d49dd" />
+</mediaLink><para>When you collect different scenarios from various sources, you should use the same cell structure in each of the workbooks. For example, Revenue might always go in cell B2 and Expenditures might always go in cell B3. If you use different structures for the scenarios from various sources, it can be difficult to merge the results.</para><alert class="tip">
+            <para>Consider first creating a scenario yourself, and then sending your colleagues a copy of the workbook that contains that scenario. This makes it easier to be sure that all the scenarios are structured the same way.</para>
+          </alert></content>
+</section><section expanded="true">
+<title>Scenario summary reports</title><content><para>To compare several scenarios, you can create a report that summarizes them on the same page. The report can list the scenarios side by side or present them in a <token>TE000127079</token>. </para><mediaLink>
+<image xlink:href="a8023cfa-3435-4308-b761-1f180fd83433" />
+</mediaLink><para>A scenario summary report based on the preceding two example scenarios would look something like the following:</para><mediaLink>
+<image xlink:href="97ca3aaf-b401-4386-826f-cc3822d2ebf5" />
+</mediaLink><para>You’ll notice that Excel has automatically added <legacyBold>Grouping levels</legacyBold> for you, which will expand and collapse the view as you click the different selectors.</para><para>A note appears at the end of the summary report explaining that the <legacyBold>Current Values </legacyBold>column represents the values of changing cells at the time the Scenario Summary Report was created, and that the cells that changed for each scenario are highlighted in gray.</para><alert class="note">
+ <list class="bullet"><listItem><para>By default, the summary report uses cell references to identify the Changing cells and Result cells. If you create named ranges for the cells before you run the summary report, the report will contain the names instead of cell references.</para></listItem><listItem><para>Scenario reports do not automatically recalculate. If you change the values of a scenario, those changes will not show up in an existing summary report, but will show up if you create a new summary report.</para></listItem><listItem><para>You don't need result cells to generate a scenario summary report, but you do need them for a scenario PivotTable report.</para></listItem></list>
+</alert><mediaLink>
+<caption>Scenario with Named Ranges</caption><image xlink:href="1b4cc464-6126-43cb-9344-c06a9ffda436" />
+</mediaLink><para><br /></para><mediaLink>
+<caption>Scenario PivotTable report</caption><image xlink:href="b0c991f3-b740-457d-8012-be7306adfbb7" />
+</mediaLink></content>
+</section>
+  
+  
+  
+  
+  <section>
+<content><para>
+            <link xlink:href="2068afb1-ecdf-4956-9822-19ec479f55a2#__top">Top of Page</link>
+          </para></content>
+</section><section>
+<title>Need more help?</title>
+	<content>
+		<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.
+	</para>
+</content>
+</section>  
+  
+<relatedTopics><link xlink:href="e95e2487-6ca6-4413-ad12-77542a5ea50b">Data Tables</link><link xlink:href="320cb99e-f4a4-417f-b1c3-4f369d6e66c7">Goal Seek</link><link xlink:href="22BFFA5F-E891-4ACC-BF7A-E4645C446FB4">Introduction to What-If Analysis</link><link xlink:href="5D1A388F-079D-43AC-A7EB-F63E45925040">Define and solve a problem by using Solver</link><link xlink:href="6C67CCF0-F4A9-487C-8DEC-BDB5A2CEFAB6">Use the Analysis ToolPak to perform complex data analysis</link><link xlink:href="ecfdc708-9162-49e8-b993-c311f47ca173">Overview of formulas in Excel</link>
+<link xlink:href="8309381d-33e8-42f6-b889-84ef6df1d586">How to avoid broken formulas</link>
+<link xlink:href="3a8acca5-1d61-4702-80e0-99a36a2822c1">Find and correct errors in formulas</link>
+<link xlink:href="e56d0e8f-a566-4094-8604-5190ae8026128">Keyboard shortcuts in Excel for Windows</link>
+<link xlink:href="acf5419e-1f87-444d-962f-4e951a658ccd">Keyboard shortcuts in Excel for Mac</link>
+
+<link xlink:href="b3944572-255d-4efb-bb96-c6d90033e188">Excel functions (alphabetical)</link>
+<link xlink:href="5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb">Excel functions (by category)</link></relatedTopics>
+</developerConceptualDocument></topic>

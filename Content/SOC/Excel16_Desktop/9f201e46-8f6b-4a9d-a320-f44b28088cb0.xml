@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="9f201e46-8f6b-4a9d-a320-f44b28088cb0" revisionNumber="9"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>You can insert form controls such as check boxes or option buttons to make data entry easier. Check boxes work well for forms with multiple options. Option buttons are better when your user has just one choice. </para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="4c36215b-63f8-404d-abd0-96f3cf81c639">
+        </image>
+      </mediaLinkInline>
+      <mediaLinkInline>
+        <image xlink:href="103d1b3f-d657-48b4-ac04-8a496843070b">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <para>To add either a check box or an option button, you’ll need the <ui>Developer</ui> tab on your Ribbon.</para>
+    <alert class="note">
+      <para> To enable the Developer tab, follow these instructions:</para>
+      <list class="bullet">
+        <listItem>
+          <para>In <token>TE000130080</token> and subsequent versions, click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Customize Ribbon</ui> , select the <ui>Developer</ui> check box, and click <ui>OK</ui>. </para>
+        </listItem>
+        <listItem>
+          <para>In <token>TE000130082</token>, click the Microsoft Office button <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af" /></mediaLinkInline> &gt; <ui>Excel Options</ui> &gt; <ui>Popular</ui> &gt; <ui>Show Developer tab in the Ribbon</ui>.</para>
+        </listItem>
+      </list>
+    </alert>
+    <list class="ordered">
+      <listItem>
+        <para>To add a check box, click the <ui>Developer</ui> tab, click <ui>Insert</ui>, and under <ui>Form Controls</ui>, click <mediaLinkInline><image xlink:href="da322b91-19a8-4d2b-bc3e-1ef245f3b4f9" /></mediaLinkInline>.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="f72c015c-512b-4a5b-a320-a93c9279c864">
+            </image>
+          </mediaLinkInline>
+        </para>
+        <para>To add an option button, click the <ui>Developer</ui> tab, click <ui>Insert</ui>, and under <ui>Form Controls</ui>, click <mediaLinkInline><image xlink:href="2a2b67e6-08bb-46c9-8861-aef4f7bb21d7" /></mediaLinkInline>.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="f1e5ce01-7452-4f73-8871-da47c85b8c9f">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>Click in the cell where you want to add the check box or option button control.</para>
+        <alert class="tip">
+          <para>You can only add one checkbox or option button at a time. To speed things up, after you add your first control, right-click it and select <ui>Copy</ui> &gt; <ui>Paste</ui>.</para>
+        </alert>
+      </listItem>
+      <listItem>
+        <para>To edit or remove the default text for a control,  click the control, and then update the  text as needed.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="13c7401b-fa9c-4ba6-9f46-5dd03075601c">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+    </list>
+    <alert class="tip">
+      <para> If you can’t see all of the text, click and drag one of the control handles until you can read it all. The size of the control and its distance from the text can’t be edited. </para>
+    </alert>
+  </introduction>
+  <section>
+    <title>Formatting a control</title>
+    <content>
+      <para>After you insert a check box or option button, you might want to make sure that it works the way you want it to. For example, you might want to customize the appearance or properties.</para>
+      <alert class="note">
+        <para>The size of the option button inside the control and its distance from its associated text cannot be adjusted.</para>
+      </alert>
+      <list class="ordered">
+        <listItem>
+          <para>To format a control, right-click the control,  and then click <ui>Format Control</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="29f14733-39f7-42df-bf6b-43be08a3ca98">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Format Control</ui> dialog box, on the <ui>Control</ui> tab, you can modify any of the available options:</para>
+          <list class="bullet">
+            <listItem>
+              <para>
+                <ui>Checked</ui>: Displays an option button that is selected.</para>
+            </listItem>
+            <listItem>
+              <para>
+                <ui>Unchecked</ui>: Displays an option button that is cleared.</para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>Cell link</ui> box, enter a cell reference that contains the current state of the option button. </para>
+              <para>The linked cell returns the number of the selected option button in the group of options. Use the same linked cell for all options in a group. The first option button returns a 1, the second option button returns a 2, and so on. If you have two or more option groups on the same worksheet, use a different linked cell for each option group.</para>
+              <para>Use the returned number in a formula to respond to the selected option.</para>
+              <para>For example, a personnel form, with a <ui>Job type </ui> group box, contains two option buttons labeled <ui>Full-time</ui> and <ui>Part-time</ui> linked to cell C1. After a user selects one of the two options, the following formula in cell D1 evaluates to "Full-time" if the first option button is selected or "Part-time" if the second option button is selected.</para>
+              <para>
+                <codeInline>=IF(C1=1,"Full-time","Part-time") </codeInline>
+              </para>
+              <para>If you have three or more options to evaluate in the same group of options, you can use the <link xlink:href="fc5c184f-cb62-4ec7-a46e-38653b98f5bc">CHOOSE</link> or <link xlink:href="446d94af-663b-451d-8251-369d5e3864cb">LOOKUP</link> functions in a similar manner.</para>
+            </listItem>
+          </list>
+        </listItem>
+        <listItem>
+          <para>Click <ui>OK</ui>.</para>
+        </listItem>
+      </list>
+      <para>
+        <legacyBold>Deleting a control</legacyBold>
+      </para>
+      <list class="bullet">
+        <listItem>
+          <para>Right-click the control, and press DELETE.</para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <relatedTopics>
+    <link xlink:href="2f0c62f5-af64-49cd-aec6-de018647cae3">Add a check box, option, or Toggle button (ActiveX controls)</link>
+    <link xlink:href="15BA7E28-8D7F-42AB-9470-FFB9AB94E7C2 ">Overview of forms, form controls, and ActiveX controls on a worksheet</link>
+  </relatedTopics>
+</developerConceptualDocument></topic>

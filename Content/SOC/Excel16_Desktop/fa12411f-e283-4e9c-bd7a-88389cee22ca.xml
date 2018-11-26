@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="fa12411f-e283-4e9c-bd7a-88389cee22ca" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction address="__top">
+    <tokenBlock>Retire_Asset</tokenBlock><list class="ordered">
+      <listItem>
+        <para>Make sure that smart tags are turned on. </para>
+        <para>
+          <legacyBold>How to turn on smart tags</legacyBold>
+        </para>
+        <list class="ordered">
+          <listItem>
+            <para>Click the <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af"></image></mediaLinkInline>, and then click <ui>Excel Options</ui>.</para>
+          </listItem>
+          <listItem>
+            <para>Click <ui>Proofing</ui>, and then click <ui>AutoCorrect Options</ui>.</para>
+            <para>The <ui>AutoCorrect</ui> dialog box appears.</para>
+          </listItem>
+          <listItem>
+            <para>Click the <ui>Smart Tags</ui> tab, and then select the <ui>Label data with smart tags</ui> check box.</para>
+            <para>
+              <legacyBold>
+                <embeddedLabel>Issue:</embeddedLabel> I don’t see any smart tags in the <ui>Recognizers</ui> list</legacyBold>
+            </para>
+            <para>If you don’t see a list of smart tags in the <ui>Recognizers</ui> list (on the <ui>Smart Tags</ui> tab in the <ui>AutoCorrect</ui> dialog box), the Smart Tags add-in must be installed. To install the add-in, do the following:</para>
+            <list class="ordered">
+              <listItem>
+                <para>On your computer's system disk, locate the following folder:</para>
+                <para>
+                  <ui>\Program Files\Common Files\Microsoft Shared\Smart Tag</ui>
+                </para>
+              </listItem>
+              <listItem>
+                <para>Run the program <ui>SmartTagInstall.exe</ui>.</para>
+              </listItem>
+            </list>
+          </listItem>
+          <listItem>
+            <para>Click <ui>OK</ui> twice.</para>
+          </listItem>
+        </list>
+      </listItem>
+      <listItem>
+        <para>Type a recognized U.S. financial symbol (for example, <legacyBold>MSFT</legacyBold>) in a cell. Be sure to type the symbol in uppercase letters.</para>
+      </listItem>
+      <listItem>
+        <para>Click outside the cell.</para>
+      </listItem>
+      <listItem>
+        <para>Move your mouse pointer over the purple triangle in the lower-right corner of the cell, and then click the arrow next to the <ui>Smart Tag Actions</ui> <mediaLinkInline><image xlink:href="6713dba8-0f70-4e6b-ad5f-5d57ce75a51d"></image></mediaLinkInline>button to see a list of options.</para>
+      </listItem>
+      <listItem>
+        <para>Click <ui>Insert refreshable stock price</ui>.</para>
+      </listItem>
+      <listItem>
+        <para>In the <ui>Insert Stock Price</ui> dialog box, choose whether to insert the stock price on a new worksheet or in a specific area of your current worksheet.</para>
+        <alert class="note">
+          <para>The data that is returned might fill a large portion of your worksheet.</para>
+        </alert>
+      </listItem>
+    </list>
+  </introduction>
+	
+	<relatedTopics />
+</developerConceptualDocument></topic>

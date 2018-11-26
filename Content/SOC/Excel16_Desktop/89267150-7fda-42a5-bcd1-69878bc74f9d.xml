@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="89267150-7fda-42a5-bcd1-69878bc74f9d" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>"…for those who have just joined us, I'm calling this <legacyItalic>incredible</legacyItalic> game, high above courtside. The ball is in play with 7 seconds to go on the game clock. The point guard drives hard to the top of the key — spins away from one defender — gets smacked by another! He throws up an off-balance, desperation shot… <legacyItalic>It's good!</legacyItalic> The crowd is going bonkers!!"</para>
+    <para>Before you and the announcer keel over from excitement, you may start wondering, "How can I keep track of 64 teams and all this NCAA madness?" </para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="73e1bddf-4966-4777-bbfd-ce75b7f04909">
+        </image>
+      </mediaLinkInline>
+    </para>
+  </introduction>
+  <section>
+    <title>Use a spreadsheet to track your picks</title>
+    <content>
+      <para>We've made it easy for you to track the progress of your favorite college men's and women's basketball teams. You can use the Excel NCAA bracket template for the Men's or Women's NCAA Division I championship.</para><para>To open the bracket template, on the <ui>File</ui> menu, click <ui>New</ui>, and then search for the template ("NCAA basketball" should do the trick). </para>
+      
+      <para>The <ui>Brackets</ui> worksheet shows you who's playing whom and allows you to track the winners all the way to the final round. But say you and your buddies want to calculate how many of the teams you pick are winners in their respective rounds, and then see who gets the most points along with next year's bragging rights? We've made that easy for you, too. In the second worksheet (<ui>Tracker</ui>), which is coordinated with the first worksheet, you can easily track your results, make your selections, and total your results while barely lifting a finger.</para>
+    </content>
+    
+  </section>
+  
+  <section>
+    <title>Throw a party</title>
+    <content>
+      <para>Last but not least, if you're planning an event for your fellow basketball fans, we've created a custom party invitation to help you celebrate the madness.  To open it in Word, on the <ui>File</ui> menu, click <ui>New</ui>, and then search for the "College basketball party" template.</para>
+      
+      
+      
+    </content>
+    
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

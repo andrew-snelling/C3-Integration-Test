@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="6be5afed-348c-4db2-9f87-5ac262d67b3f" revisionNumber="8"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para></para>
+  </introduction>
+  <section>
+    
+    <content>
+      <alert class="warning">
+ <para>This article describes how to make changes to the Windows Registry. Incorrectly editing the registry may severely damage your operating system, requiring you to reinstall it. Microsoft cannot guarantee that problems resulting from editing the registry incorrectly can be resolved. Before editing the registry, back up any valuable data. Use Registry Editor at your own risk.
+For the most recent information about using and protecting your computer's registry, see Microsoft Windows Help.</para>
+</alert><para>To turn off time grouping on PivotTables (including data model PivotTables) and Pivot Charts, follow these instructions for adding a new DWORD (32-bit) Value registry key. The new key is: <literal>HKEY_CURRENT_USER &gt; Software &gt; Microsoft &gt; Office &gt; 16.0 &gt; Excel &gt; Options &gt; DateAutoGroupingDisabled</literal>.</para><list class="bullet"><listItem><para>Click the Windows Start Menu and type "<legacyBold>regedit.exe</legacyBold>".</para><mediaLink>
+<image xlink:href="92915570-8704-4af4-88bf-67f54a743d08" />
+</mediaLink></listItem><listItem><para>When asked if you’d like the Registry Editor to make changes to your computer, click yes.</para><mediaLink>
+<image xlink:href="750a1d20-56e5-4d4e-a862-731c7dfe1249" />
+</mediaLink></listItem><listItem><para>On the left hand side of the new Registry Editor window that opens, select <legacyBold>HKEY_CURRENT_USER</legacyBold>.</para><mediaLink>
+<image xlink:href="1587a3df-55b4-4602-b747-4c4cd9e47fd7" />
+</mediaLink></listItem><listItem><para>In the menu beneath that, select <legacyBold>SOFTWARE &gt; Microsoft &gt; Office &gt; 16.0 &gt; Excel &gt; Options</legacyBold>.</para><mediaLink>
+<image xlink:href="e4b93759-3706-4c66-b1b6-56607181747c" />
+</mediaLink></listItem><listItem><para>Next, select <legacyBold>Edit &gt; New &gt; DWORD (32-bit) Value</legacyBold>, and rename the new DWORD value to "<legacyBold>DateAutoGroupingDisabled</legacyBold>".</para><mediaLink>
+<image xlink:href="2562e51b-306c-4255-8b86-b84f9d2d9d6f" />
+</mediaLink><para><br /></para><mediaLink>
+<image xlink:href="e4b93759-3706-4c66-b1b6-56607181747c" />
+</mediaLink></listItem><listItem><para>Press enter to edit the new DWORD value, and set its <legacyBold>Value data</legacyBold> field to <legacyBold>“1”</legacyBold>. </para></listItem></list><mediaLink>
+<image xlink:href="aa3172ce-5455-41b2-809d-c8790c5386bb" />
+</mediaLink><alert class="note">
+ <para>The new key is effective immediately, there is no need to restart Excel.</para>
+</alert>
+      
+      
+      
+      
+      
+      
+      
+    </content>
+    
+  </section>
+  
+    
+  
+<section>
+<title>Need more help?</title>
+	<content>
+		<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.
+	</para>
+</content>
+</section><relatedTopics><link xlink:href="ecfdc708-9162-49e8-b993-c311f47ca173">Overview of formulas in Excel</link>
+<link xlink:href="8309381d-33e8-42f6-b889-84ef6df1d586">How to avoid broken formulas</link>
+<link xlink:href="4d4c160b-8d9a-45f1-bec7-75f4b90045f8">Use error checking to detect errors in formulas</link>
+<link xlink:href="1798d9d5-842a-42b8-9c99-9b7213f0040f">Keyboard shortcuts in Excel for Windows</link>
+<link xlink:href="acf5419e-1f87-444d-962f-4e951a658ccd">Keyboard shortcuts in Excel for Mac</link>
+
+<link xlink:href="b3944572-255d-4efb-bb96-c6d90033e188">Excel functions (alphabetical)</link>
+<link xlink:href="5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb">Excel functions (by category)</link></relatedTopics>
+</developerConceptualDocument></topic>

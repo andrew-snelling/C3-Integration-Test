@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="0a253749-6fbb-45e3-a29e-9a2db99bfa1e" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>If you need to move your chart to another sheet, you can either move it to a new worksheet, or to an existing worksheet. <ui>Right-click</ui> on the chart (for Mac, you can use <ui>Ctrl+Click</ui>), then select <ui>Move</ui>. In the <ui>Move Chart</ui> dialog, choose <ui>New sheet</ui>, or the <ui>Object in</ui> option. </para>
+  <mediaLink>
+<image xlink:href="745ce1ef-274e-494b-9d4f-d6f8d1b26084" />
+</mediaLink></introduction>
+  <section>
+    <title>New sheet</title>
+    <content>
+      <para>This will create a new chart sheet dedicated to displaying a single chart, so it will take up the full sheet. You may prefer this option if you want to display the chart in a slide later. The chart will be resized to fit the visible space in that new sheet, so you may need to readjust your formatting by using the chart tools.</para>
+    </content>
+  </section>
+  <section>
+    <title>Object in</title>
+    <content>
+      <para>This will move the chart to an existing worksheet you select from the drop-down box. The size and formatting of the chart will remain the same.</para>
+    </content>
+  </section>
+  <section>
+<title>Need more help?</title>
+	<content>
+		<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.
+	</para>
+</content>
+</section><relatedTopics><link xlink:href="0baf399e-dd61-4e18-8a73-b3fd5d5680c2">Create a chart from start to finish</link></relatedTopics>
+</developerConceptualDocument></topic>

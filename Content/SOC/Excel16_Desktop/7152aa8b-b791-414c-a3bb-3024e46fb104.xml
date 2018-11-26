@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="7152aa8b-b791-414c-a3bb-3024e46fb104" revisionNumber="88"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		
+		<mediaLink><image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" /><video videoid="RE2ojxu" channel="ALTENUS_MS_OFFICE" player="ocvideo" videotype="single" /></mediaLink>
+		<para>You and your colleagues can open and work on the same Excel workbook. This is called co-authoring. When you co-author, you can see each other's changes quickly — in a matter of seconds. And with certain versions of Excel, you'll see other people's selections in different colors. If you're using a version of Excel that supports co-authoring, you select <ui>Share</ui> in the upper-right corner, type email addresses, and then choose a cloud location. But if you need more details, like which versions are supported and where the file can be stored, this article will walk you through the process.</para>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<tabControl>
+				<tabControlItem targetedOS="Windows">
+					<tabControlItemTitle>Windows</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<tokenBlock>O365Upsell_Excel</tokenBlock>
+							<para>To co-author in Excel for Windows desktops, you need to make sure certain things are set up before you start. After that, it just takes about four steps to co-author with other people.</para>
+						</content>
+						<sections>
+							<section expanded="true">
+								<title>What you need to co-author</title>
+								<content>
+									<list class="bullet">
+										<listItem>
+											<para>You need an <externalLink><linkText>Office 365 subscription</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink>.</para>
+										</listItem>
+										<listItem>
+											<para>You need the <link xlink:href="ee68f6cf-422f-464a-82ec-385f65391350">latest version of Excel for Office 365 installed</link>. Please note that if you have a work or school account, you might not have a version of Office that supports co-authoring yet. This might be because your administrator hasn’t <link xlink:href="da36192c-58b9-4bc9-8d51-bb6eed468516">provided the latest version to install</link>.</para>
+										</listItem>
+										<listItem>
+											<para>You need to <link xlink:href="f374bfd7-a280-4dae-9274-fbe1b3c04593">sign in to Office with your subscription account</link>.</para>
+										</listItem>
+										<listItem>
+											<para>You need to use Excel Workbooks in .xlsx, .xlsm, or .xlsb files. If your file isn’t in this format, open the file and then click <ui>File</ui> &gt; <ui>Save As</ui> &gt; <ui>Browse</ui> &gt; <ui>Save as type</ui>. Change the format to <legacyBold>Excel Workbook (*.xlsx)</legacyBold>. Please note that co-authoring does not support the Strict Open XML Spreadsheet format.</para>
+										</listItem>
+										
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 1. Upload the workbook</title>
+								<content>
+									<para>Using a web browser, upload or create a new workbook on <link xlink:href="b00ad3fe-6643-4b16-9212-de00ef02b586">OneDrive</link>, <link xlink:href="5bd927ad-d186-495c-93e8-7ca116fe7b83">OneDrive for Business</link>, or a <link xlink:href="eb18fcba-c953-4d45-8d90-8da66edeacdb">SharePoint Online library</link>. Please note that SharePoint On-Premises sites (sites that are not hosted by Microsoft), do not support co-authoring. If you are not sure which one you are using, ask the person in charge of your site, or your IT department.</para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 2: Share it</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>If you uploaded the file, click the filename to open it. The workbook will open in a new tab in your web browser.</para>
+										</listItem>
+										<listItem>
+											<para>Click the <ui>Edit in Excel</ui> button. If you don't have this button, click <ui>Edit in Browser</ui>, and then click <ui>Edit in Excel</ui> after the page reloads.</para>
+										</listItem>
+										<listItem>
+											<para>If you are prompted to choose a version of Excel, click <ui>Microsoft Excel</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>When the file opens in the Excel program, you may see a yellow bar which says the file is in Protected View. Click the <ui>Enable Editing</ui> button if that's the case.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Share</ui> in the upper-right.</para>
+										</listItem>
+										<listItem>
+											<para>Type email addresses in the <ui>Invite people</ui> box, and separate each with a semicolon. Make sure to also select <ui>Can edit</ui>. When you’re done, click the <ui>Share</ui> button.</para>
+											<alert class="note">
+												<para>If you want to send the link yourself, don't click the Share button. Instead, click <ui>Get a sharing link</ui> at the bottom of the pane.</para>
+											</alert>
+										</listItem>
+										<listItem>
+											<para>If you clicked the Share button in the previous step, email messages will be sent to each person. The message will come from your email address. You will also receive a copy of the message, just so you know what it looks like.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 3: Other people can open it</title>
+								<content>
+									<para>If you clicked the <ui>Share</ui> button, people will receive an email message inviting them to open the file. They can click the link to open the workbook. A web browser will open, and the workbook will open in Excel Online. If they want to use an Excel app to co-author, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Excel</ui>. However, they'll need a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring. If they don't have a supported version, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui> to edit the file.</para>
+									<alert class="note">
+										<para>If they're using the latest version of Excel, PowerPoint, or Word there's an easier way: They can click <ui>File</ui> &gt; <ui>Open</ui> and select <ui>Shared with Me</ui>.</para>
+									</alert>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 4: Co-author with others</title>
+								<content>
+									<para>With the file still open in Excel, make sure that <ui>AutoSave</ui> is on in the upper-left corner. When others eventually open the file , you'll be co-authoring together. You know you're co-authoring if you see pictures of people in the upper-right of the Excel window. (You may also see their initials, or a "G" which stands for guest.)</para>
+									<para><mediaLinkInline><image xlink:href="1cb28aa7-c62e-487d-a11d-236adbd7374e" /></mediaLinkInline></para>
+									<para>Co-authoring tips:</para>
+									<list class="bullet">
+										<listItem>
+											<para>You might see other people's selections in different colors. This happens if they are using Excel for Office 365 subscribers, Excel Online, Excel for Android, Excel Mobile, or Excel for iOS. If they're using another version you won't see their selections, but their changes will appear as they are working.</para>
+										</listItem>
+										<listItem>
+											<para>If you see other people's selections in different colors, they'll show up as blue, purple and so on. However, your selection will always be green. And on other people’s screens, their own selections will be green as well. If you lose track of who’s who, rest your cursor over the selection, and the person’s name will be revealed. If you want to jump to where someone is working, click their picture or initials, and then click the <ui>Go to</ui> option.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section>
+								<title>Frequently asked questions</title>
+								<content />
+								<sections>
+									<section expanded="true">
+										<title>What is AutoSave?</title>
+										<content>
+											<para>In Excel for Office 365 subscribers, you might notice AutoSave in the upper-left corner. AutoSave is enabled when a file is stored on OneDrive, OneDrive for Business, or SharePoint Online. It automatically saves your changes to the cloud as you are working. And, if other people are working on the same file, AutoSave lets them see your changes in just a matter of seconds. For more information on AutoSave, including reasons why it may be available or unavailable, see <link xlink:href="6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5">What is AutoSave?</link></para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why am I getting the "File is locked" error?</title>
+										<content>
+											<para><link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">There are a handful of reasons why this error can occur.</link> The most common one is because someone has opened the file with a version of Excel that <legacyItalic>doesn't</legacyItalic> support co-authoring. If just one person does this, then everyone else will get the "locked" error — even if everyone else is using a version of Excel that <legacyItalic>does</legacyItalic> support co-authoring.</para>
+											<para>Versions of Excel that support co-authoring:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Excel for Office 365*</para>
+												</listItem>
+												<listItem>
+													<para>Excel for Office 365 for Mac*</para>
+												</listItem><listItem>
+													<para>Excel Online</para>
+												</listItem>
+												<listItem>
+													<para>Excel for Android</para>
+												</listItem>
+												<listItem>
+													<para>Excel for iOS</para>
+												</listItem>
+												<listItem>
+													<para>Excel Mobile</para>
+												</listItem>
+											</list>
+											<para>* Co-authoring in this version requires the latest version of Excel for Office 365 installed, and requires you to <link xlink:href="f374bfd7-a280-4dae-9274-fbe1b3c04593">sign in to Office with an Office 365 subscription account</link>. Please note that if you have a work or school account, you might not have a version of Office that supports co-authoring yet. This might be because your administrator hasn’t <link xlink:href="da36192c-58b9-4bc9-8d51-bb6eed468516">provided the latest version to install</link>.</para>
+											<para>If you are still getting the "locked" error, see <link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">Excel file is locked out for editing</link> for more solutions to this problem.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s selections?</title>
+										<content>
+											<para>You can see other people's selections in different colors, but only if you and other people are using Excel for Office 365 subscribers, Excel Online, Excel for Android, Excel Mobile, or Excel for iOS. In addition, if people are using Excel for Office 365 subscribers, then everyone needs to have <ui>AutoSave</ui> on to see colored selections.</para>
+											<para>If you are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS and you <legacyItalic>don't</legacyItalic> see other people's selections, then wait a few seconds. If you still don't see someone's selections, make sure they are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS. If they are using another version, like Excel Mobile, then their selections will not appear to you. However, any changes they make will show up almost instantly. In addition, if they are using an older ﻿version of Excel, like Excel 2013, then they won't be able to edit the file at the same time as you, and therefore you won't be able to see their selections.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s changes?</title>
+										<content>
+											<para>To co-author and see changes made by others, everyone needs to use a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring. If they don't have a supported version, they can always use Excel Online in their web browser by clicking <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>. If that doesn't solve the problem, try one or more of the following:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Wait a minute or two. Sometimes it takes some time for Excel and the cloud to communicate with each other.</para>
+												</listItem>
+												<listItem>
+													<para>Tell everyone to click the <ui>Enable Editing</ui> button if it appears.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure everyone who is working in Excel for Office 365 subscribers has <link xlink:href="6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5">AutoSave</link> on in the upper-left corner of the Excel window.</para>
+												</listItem>
+												<listItem>
+													<para>If you are using OneDrive to sync files, make sure it is not paused, and make sure that <ui>Use Office 2016 to sync files... </ui> is turned on. Details on this setting <link xlink:href="8a409b0c-ebe1-4bfa-a08e-998389a9d823">can be found here</link>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for Android have AutoSave on. They can turn it on by tapping <ui>File</ui> &gt; <mediaLinkInline><image xlink:href="b2e3093b-b6f5-4403-89f3-ae54e3462ff6" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for iOS have AutoSave on. They can turn it on by tapping <ui>File</ui> <mediaLinkInline><image xlink:href="599bffb8-524a-4dc7-b02d-62829b2d5c8e" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure the file is not read-only.</para>
+												</listItem>
+												<listItem>
+													<para>On a Windows PC, open the file and go to <ui>File</ui> &gt; <ui>Info</ui>. Resolve any errors that may be shown there.</para>
+												</listItem>
+											</list>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What can I do about “Refresh recommended” and “Upload failed” messages?</title>
+										<content>
+											<para>This may happen occasionally if someone uses an Excel feature that is not fully supported in Excel co-authoring yet. This can stop the co-authoring process temporarily. If you don’t have any unsaved changes, simply click <ui>Refresh</ui>. If you have unsaved changes that you don’t need to keep, you can click <ui>Discard changes</ui>. For stuff that you need to keep, click <ui>Save a Copy</ui> and save the file as a different name. Then, select and copy the changes you need to keep. Finally, one last step: Reopen the original file that's on the cloud and paste your changes back in.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What happens when two people make a change to the same thing?</title>
+										<content>
+											<para>In general, the last change that is saved, either with the <ui>Save</ui> button or automatically with <ui>AutoSave</ui>, is the one that “wins.” There are some exceptions to this, but that’s generally how it works. If you don’t want to have conflicts with other people, assign areas or sheets to each person. You can explain these assignments when you send the link out, or you can make the assignments obvious in the workbook itself by putting people’s names in heading cells, or naming sheets with people’s names.</para>
+											<para>Keep in mind that if you are using OneDrive to sync files, changes you make while your computer is offline won't get merged until your computer is online again. And once online, all your changes get merged at once.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Can I see previous versions of the file?</title>
+										<content>
+											<para>Yes. In Excel for Office 365, click <ui>File</ui> &gt; <ui>Info</ui> &gt; <ui>View and restore previous versions</ui>. Then find a past version in the list, and then click <ui>Open version</ui>. The past version will open. If you want to restore it to the current version, wait until everyone is no longer co-authoring, and then click <ui>Restore</ui>. For more information on versions, see <link xlink:href="5c1e076f-a9c9-41b8-8ace-f77b9642e2c2">View historical versions of Office files</link>.</para>
+										</content>
+									</section></sections>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem conditionalContentLocalization="Mac" targetedOS="Mac">
+					<tabControlItemTitle>macOS</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para>To co-author in Excel for Mac desktops, you need to make sure certain things are set up before you start. After that, it just takes about four steps to co-author with other people.</para>
+						</content>
+						<sections>
+							<section expanded="true">
+								<title>What you need to co-author</title>
+								<content>
+									<list class="bullet">
+										<listItem>
+											<para>You need an <externalLink><linkText>Office 365 subscription</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink>.</para>
+										</listItem>
+										<listItem>
+											<para>You need the <link xlink:href="ee68f6cf-422f-464a-82ec-385f65391350">latest version of Excel for Office 365 installed</link>. Please note that if you have a work or school account, your administrator may control which version of Office you can install, and it may not be the latest version. See <link xlink:href="da36192c-58b9-4bc9-8d51-bb6eed468516">When do I get the newest features in Office 365?</link> for more information.</para>
+										</listItem>
+										<listItem>
+											<para>You need to use .xlsx, .xlsm, or .xlsb files. If your file isn’t in this format, open the file and then click <ui>File</ui> &gt; <ui>Save As…</ui>. Change the file format to .xlsx, .xlsm, or .xlsb.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 1. Upload the workbook</title>
+								<content>
+									<para>Using your web browser, upload or create a new workbook on <link xlink:href="b00ad3fe-6643-4b16-9212-de00ef02b586">OneDrive</link>, <link xlink:href="5bd927ad-d186-495c-93e8-7ca116fe7b83">OneDrive for Business</link>, or a <link xlink:href="eb18fcba-c953-4d45-8d90-8da66edeacdb">SharePoint Online library</link>. Please note that SharePoint On-Premises sites (sites that are not hosted by Microsoft), do not support co-authoring. If you are not sure which one you are using, ask the person in charge of your site, or your IT department.</para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 2: Share it</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>If you uploaded the file, click the filename to open it. The workbook will open in a new tab in your web browser.</para>
+										</listItem>
+										<listItem>
+											<para>Click the <ui>Edit in Excel</ui> button. If you don't have this button, click <ui>Edit in Browser</ui>, and then click <ui>Edit in Excel</ui> after the page reloads.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Open Microsoft Excel</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>When the file opens in the Excel program, you may see a yellow bar which says the file is in Protected View. Click the <ui>Enable Editing</ui> button if that's the case.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Share</ui> in the upper-right.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Invite People</ui>. Then type email addresses, and separate each with a semicolon. Make sure to also select <ui>Can Edit</ui>. When you’re done, click the <ui>Share</ui> button.</para>
+											<alert class="tip">
+												<para>If you want to send the link yourself, click <ui>Share</ui> in the upper-right, and then click <ui>Copy Link</ui> &gt; <ui>View and Edit</ui>.</para>
+											</alert>
+										</listItem>
+										<listItem>
+											<para>If you clicked the Share button in the previous step, email messages will be sent to each person. The message will come from your email address. You will also receive a copy of the message, just so you know what it looks like.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 3: Other people can open it</title>
+								<content>
+									<para>If you clicked the <ui>Share</ui> button, people will receive an email message inviting them to open the file. They can click the link to open the workbook. A web browser will open, and the workbook will open in Excel Online. If they want to use an Excel app to co-author, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Excel</ui>. However, they'll need a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring. If they don't have a supported version, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui> to edit the file.</para>
+									<alert class="tip">
+										<para>If they're using the latest version of Excel for Office 365 subscribers, there's an easier way: They can click <ui>File</ui> &gt; <ui>Open...</ui> &gt; <ui>Shared</ui> and select a file that has been shared by another person.</para>
+									</alert>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 4: Co-author with others</title>
+								<content>
+									<para>With the file still open in Excel, make sure that <ui>AutoSave</ui> is on in the upper-left corner. When others eventually open the file, you'll be co-authoring together. If you are in the same area as them, you might see their cell selections in a different color than yours. You'll also see their changes appear as they are working. In addition, if you click <ui>Share</ui> in the upper-right, you'll see pictures of people and their name or email address. (You may also see their initials, or a "G" which stands for guest.)</para>
+									
+									
+								</content>
+							</section><section>
+								<title>Frequently asked questions</title>
+								<content />
+								<sections>
+									<section expanded="true">
+										<title>What is AutoSave?</title>
+										<content>
+											<para>In Excel for Office 365 subscribers, you might notice AutoSave in the upper-left corner. AutoSave is enabled when a file is stored on OneDrive, OneDrive for Business, or SharePoint Online. It automatically saves your changes to the cloud as you are working. And, if other people are working on the same file, AutoSave lets them see your changes in just a matter of seconds. For more information on AutoSave, including reasons why it may be available or unavailable, see <link xlink:href="6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5">What is AutoSave?</link></para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why am I getting the "File is locked" error?</title>
+										<content>
+											<para><link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">There are a handful of reasons why this error can occur.</link> The most common one is because someone has opened the file with a version of Excel that <legacyItalic>doesn't</legacyItalic> support co-authoring. If just one person does this, then everyone else will get the "locked" error — even if everyone else is using a version of Excel that <legacyItalic>does</legacyItalic> support co-authoring.</para>
+											<para>Versions of Excel that support co-authoring:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Excel for Office 365*</para>
+												</listItem><listItem>
+													<para>Excel for Office 365 for Mac*</para>
+												</listItem>
+												<listItem>
+													<para>Excel Online</para>
+												</listItem>
+												<listItem>
+													<para>Excel for Android</para>
+												</listItem>
+												<listItem>
+													<para>Excel for iOS</para>
+												</listItem>
+												<listItem>
+													<para>Excel Mobile</para>
+												</listItem>
+											</list>
+											<para>* Co-authoring in this version requires the latest version of Excel installed, and requires you to <link xlink:href="f374bfd7-a280-4dae-9274-fbe1b3c04593">sign in to Office with an Office 365 subscription account</link>. Please note that if you have a work or school account, you might not have a version of Office that supports co-authoring yet. This might be because your administrator hasn’t <link xlink:href="da36192c-58b9-4bc9-8d51-bb6eed468516">provided the latest version to install</link>. </para>
+											<para>If you are still getting the "locked" error, see <link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">Excel file is locked out for editing</link> for more solutions to this problem.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s selections?</title>
+										<content>
+											<para>You can see other people's selections in different colors, but only if you and other people are using Excel for Office 365 subscribers, Excel Online, Excel for Android, Excel Mobile, or Excel for iOS. In addition, if people are using Excel for Office 365 subscribers, then everyone needs to have <ui>AutoSave</ui> on to see colored selections.</para>
+											<para>If you are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS and you <legacyItalic>don't</legacyItalic> see other people's selections, then wait a few seconds. If you still don't see someone's selections, make sure they are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS. If they are using another version, like Excel Mobile, then their selections will not appear to you. However, any changes they make will show up almost instantly. In addition, if they are using an older ﻿version of Excel, like Excel for Mac 2011, then they won't be able to edit the file at the same time as you, and therefore you won't be able to see their selections.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s changes?</title>
+										<content>
+											<para>To co-author and see changes made by others, everyone needs to use a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, and Excel Mobile support co-authoring. In addition, Excel for Office 365 support co-authoring when you have an Office 365 subscription. If somebody doesn't have a supported version, they can always use Excel Online in their web browser by clicking <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>. If that doesn't solve the problem, try one or more of the following:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Wait a minute or two. Sometimes it takes some time for Excel and the cloud to communicate with each other.</para>
+												</listItem>
+												<listItem>
+													<para>Tell everyone to click the <ui>Enable Editing</ui> button if it appears.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure everyone who is working in Excel 365 for Windows or Mac has <link xlink:href="6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5">AutoSave</link> on in the upper-left corner of the Excel window.</para>
+												</listItem>
+												<listItem>
+													<para>If you are using OneDrive to sync files, make sure it is not paused, and make sure that <ui>Use Office 2016 to sync files... </ui> is turned on. Details on this setting <link xlink:href="8a409b0c-ebe1-4bfa-a08e-998389a9d823">can be found here</link>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for Android have AutoSave on. They can turn it on by tapping <ui>File</ui> &gt; <mediaLinkInline><image xlink:href="b2e3093b-b6f5-4403-89f3-ae54e3462ff6" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for iOS have AutoSave on. They can turn it on by tapping <ui>File</ui> <mediaLinkInline><image xlink:href="599bffb8-524a-4dc7-b02d-62829b2d5c8e" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure the file is not read-only.</para>
+												</listItem>
+												<listItem>
+													<para>On a Windows PC, open the file and go to <ui>File</ui> &gt; <ui>Info</ui>. Resolve any errors that may be shown there.</para>
+												</listItem>
+											</list>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What can I do about “Refresh recommended” and “Upload failed” messages?</title>
+										<content>
+											<para>This may happen occasionally if someone uses an Excel feature that is not fully supported in Excel co-authoring yet. This can stop the co-authoring process temporarily. If you don’t have any unsaved changes, simply click <ui>Refresh</ui>. If you have unsaved changes that you don’t need to keep, you can click <ui>Discard changes</ui>. For stuff that you need to keep, click <ui>Save a Copy</ui> and save the file as a different name. Then, select and copy the changes you need to keep. Finally, one last step: Reopen the original file that's on the cloud and paste your changes back in.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What happens when two people make a change to the same thing?</title>
+										<content>
+											<para>In general, the last change that is saved, either with the <ui>Save</ui> button or automatically with <ui>AutoSave</ui>, is the one that “wins.” There are some exceptions to this, but that’s generally how it works. If you don’t want to have conflicts with other people, assign areas or sheets to each person. You can explain these assignments when you send the link out, or you can make the assignments obvious in the workbook itself by putting people’s names in heading cells, or naming sheets with people’s names.</para>
+											<para>Keep in mind that if you are using OneDrive to sync files, changes you make while your computer is offline won't get merged until your computer is online again. And once online, all your changes get merged at once.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Can I see previous versions of the file?</title>
+										<content>
+											<para>Yes. Click <ui>File</ui> &gt; <ui>Restore</ui> &gt; <ui>Browse Version History</ui>. Then find a past version in the list, and then click <ui>Open Version</ui>. The past version will open. If you want to restore it to the current version, wait until everyone is no longer co-authoring, and then click <ui>Restore</ui>. </para>
+										</content>
+									</section></sections>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOfficeVersion="Office Online">
+					<tabControlItemTitle>Online</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para>It takes just four steps to co-author in Excel Online.</para>
+						</content>
+						<sections>
+							<section expanded="true">
+								<title>Step 1. Upload the workbook</title>
+								<content>
+									<para>Using a web browser, upload or create a new workbook on <link xlink:href="b00ad3fe-6643-4b16-9212-de00ef02b586">OneDrive</link>, <link xlink:href="5bd927ad-d186-495c-93e8-7ca116fe7b83">OneDrive for Business</link>, or a <link xlink:href="eb18fcba-c953-4d45-8d90-8da66edeacdb">SharePoint Online library</link>.</para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 2: Share it</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>If you uploaded the file, click the filename to open it. The workbook will open in a new tab in your web browser.</para>
+										</listItem>
+										<listItem>
+											<para>In the upper-right area, click <ui>Share</ui> &gt;<ui>Share with People</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Type email addresses in the first box, and separate each with a semicolon. Make sure to also select <ui>Can edit</ui> or <ui>Recipients can edit</ui>. When you’re done, click the <ui>Share</ui> button.</para>
+											<alert class="tip">
+												<para>If you want to send the link yourself, don't click the Share button. Instead, click <ui>Get a link</ui> on the left.</para>
+											</alert>
+										</listItem>
+										<listItem>
+											<para>If you clicked the Share button in the previous step, email messages will be sent to each person. The message will come from your email address. You will also receive a copy of the message, just so you know what it looks like.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 3: Other people can open it</title>
+								<content>
+									<para>If you clicked the <ui>Share</ui> button, people will receive an email message inviting them to open the file. They can click the link to open the workbook. A web browser will open, and the workbook will open in Excel Online. If they want to use an Excel app to co-author, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Excel</ui>. However, they'll need a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring. If they don't have a supported version, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui> to edit the file.</para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 4: Co-author with others</title>
+								<content>
+									<para>Now you can co-author the workbook at the same time as other people. You know you're co-authoring with one other person if you see a message in the upper-right corner says they are editing. If more than one other person is editing, you'll a different message that tells you the number of people that are co-authoring. For example: "2 other people are here."</para>
+									<para>Co-authoring tips:</para>
+									<list class="bullet">
+										<listItem>
+											<para>If you want to jump to where someone is working, click their name, and then click the <ui>Editing...</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>You might see other people's selections in different colors. This happens if they are using Excel for Office 365 subscribers, Excel Online, Excel for Android, Excel Mobile, or Excel for iOS. If they're using another version you won't see their selections, but their changes will appear as they are working.</para>
+										</listItem>
+										<listItem>
+											<para>If you see other people's selections in different colors, they'll show up as blue, purple and so on. However, your selection will always be green. And on other people’s screens, their own selections will be green as well. If you lose track of who’s who, rest your cursor over the selection, and the person’s name will be revealed.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section>
+								<title>Frequently asked questions</title>
+								<content />
+								<sections>
+									<section expanded="true">
+										<title>Why am I getting the "File is locked" error?</title>
+										<content>
+											<para><link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">There are a handful of reasons why this error can occur.</link> The most common one is because someone has opened the file with a version of Excel that <legacyItalic>doesn't</legacyItalic> support co-authoring. If just one person does this, then everyone else will get the "locked" error — even if everyone else is using a version of Excel that <legacyItalic>does</legacyItalic> support co-authoring.</para>
+											<para>Versions of Excel that support co-authoring:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Excel for Office 365*</para>
+												</listItem><listItem>
+													<para>Excel for Office 365 for Mac*</para>
+												</listItem>
+												<listItem>
+													<para>Excel Online</para>
+												</listItem>
+												<listItem>
+													<para>Excel for Android</para>
+												</listItem>
+												<listItem>
+													<para>Excel for iOS</para>
+												</listItem>
+												<listItem>
+													<para>Excel Mobile</para>
+												</listItem>
+											</list>
+											<para>* Co-authoring in this version requires the latest version of Excel installed, and requires you to <link xlink:href="f374bfd7-a280-4dae-9274-fbe1b3c04593">sign in to Office with an Office 365 subscription account</link>. Please note that if you have a work or school account, you might not have a version of Office that supports co-authoring yet. This might be because your administrator hasn’t <link xlink:href="da36192c-58b9-4bc9-8d51-bb6eed468516">provided the latest version to install</link>. </para>
+											<para>If you are still getting the "locked" error, see <link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">Excel file is locked out for editing</link> for more solutions to this problem.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s selections?</title>
+										<content>
+											<para>You can see other people's selections in different colors, but only if you and other people are using Excel Office 365 subscribers, Excel Online, Excel for Android, Excel Mobile, or Excel for iOS. In addition, if people are using Excel for Office 365 subscribers, then everyone needs to have <ui>AutoSave</ui> on to see colored selections.</para>
+											<para>If you are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS and you <legacyItalic>don't</legacyItalic> see other people's selections, then wait a few seconds. If you still don't see someone's selections, make sure they are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS. If they are using another version, like Excel Mobile, then their selections will not appear to you. However, any changes they make will show up almost instantly. In addition, if they are using an older ﻿version of Excel, like Excel 2013, then they won't be able to edit the file at the same time as you, and therefore you won't be able to see their selections.</para>
+											<para />
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s changes?</title>
+										<content>
+											<para>To co-author and see changes made by others, everyone needs to use a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring. If they don't have a supported version, they can always use Excel Online in their web browser by clicking <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>. If that doesn't solve the problem, try one or more of the following:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Wait a minute or two. Sometimes it takes some time for Excel and the cloud to communicate with each other.</para>
+												</listItem>
+												<listItem>
+													<para>Tell everyone to click the <ui>Enable Editing</ui> button if it appears.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure everyone who is working in Excel for Office 365 subscribers has <link xlink:href="6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5">AutoSave</link> on.</para>
+												</listItem>
+												<listItem>
+													<para>If someone is using OneDrive to sync files, they need to make sure it is not paused. And, they need the <ui>Use Office 2016 to sync files... </ui> setting turned on. Details on this setting <link xlink:href="8a409b0c-ebe1-4bfa-a08e-998389a9d823">can be found here</link>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for Android have AutoSave on. They can turn it on by tapping <ui>File</ui> &gt; <mediaLinkInline><image xlink:href="b2e3093b-b6f5-4403-89f3-ae54e3462ff6" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for iOS have AutoSave on. They can turn it on by tapping <ui>File</ui> <mediaLinkInline><image xlink:href="599bffb8-524a-4dc7-b02d-62829b2d5c8e" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure the file is not read-only.</para>
+												</listItem>
+												<listItem>
+													<para>On a Windows PC, open the file and go to <ui>File</ui> &gt; <ui>Info</ui>. Resolve any errors that may be shown there.</para>
+												</listItem>
+											</list>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What can I do about “Refresh recommended” and “Upload failed” messages?</title>
+										<content>
+											<para>This may happen occasionally if someone uses an Excel feature that is not fully supported in Excel co-authoring yet. This can stop the co-authoring process temporarily. If you don’t have any unsaved changes, simply click <ui>Refresh</ui>. If you have unsaved changes that you don’t need to keep, you can click <ui>Discard changes</ui>. For stuff that you need to keep, click <ui>Save a Copy</ui> and save the file as a different name. Then, select and copy the changes you need to keep. Finally, one last step: Reopen the original file that's on the cloud and paste your changes back in.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What happens when two people make a change to the same thing?</title>
+										<content>
+											<para>In general, the last change that is saved, either with the <ui>Save</ui> button or automatically with <ui>AutoSave</ui>, is the one that “wins.” There are some exceptions to this, but that’s generally how it works. If you don’t want to have conflicts with other people, assign areas or sheets to each person. You can explain these assignments when you send the link out, or you can make the assignments obvious in the workbook itself by putting people’s names in heading cells, or naming sheets with people’s names.</para>
+											<para>Keep in mind that if someone is using OneDrive to sync files, changes they make while their computer is offline won't get merged until their computer is online again. And once online, all their changes get merged at once.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Can I see previous versions of the file?</title>
+										<content>
+											<para>Yes. In Excel Online, go to the folder that contains the file. Then right-click the filename and choose <ui>Version history</ui>. Then click an older version on the left and that version will open. If you want to restore it to the current version, wait until everyone is no longer co-authoring, and then click <ui>Restore</ui>.</para>
+										</content>
+									</section></sections>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem conditionalContentLocalization="Android" targetedOS="Android">
+					<tabControlItemTitle>Android</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para>To co-author in Excel Android, you need to make sure certain things are set up before you start. After that, it just takes about four steps to co-author with other people.</para>
+						</content>
+						<sections>
+							<section expanded="true">
+								<title>What you need to co-author</title>
+								<content>
+									<list class="bullet">
+										<listItem>
+											<para>You need <externalLink><linkText>the latest version of Excel</linkText><linkUri>https://play.google.com/store/apps/details?id=com.microsoft.office.excel</linkUri></externalLink> installed, and you need to sign in to Excel with a Microsoft account. Go to <ui>File</ui> &gt; <ui>Open</ui> and make sure your Microsoft account is listed there. If it isn't, tap <ui>Add a place</ui> to add the account. Please note that if you have a phone or tablet that's larger than 10.1 inches, you need to sign in with an <externalLink><linkText>Office 365 subscription</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink> account.</para>
+										</listItem>
+										<listItem>
+											<para>You need to use .xlsx, .xlsm, or .xlsb files. If your file isn’t in this format, open the file in a desktop version of Excel. Then tap <ui>File</ui> &gt; <ui>Save As</ui> &gt; <ui>Browse</ui> &gt; <ui>Save as type</ui> and change the format to .xlsx, .xlsm, or .xlsb.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 1: Save the workbook to the cloud</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Create or open a file, and then tap <ui>File</ui> &gt; <ui>Save As</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Check the current location of the file. If OneDrive or SharePoint are selected, then tap the <ui>Back</ui> button, and go to the next step. If one of these is not selected, then tap <ui>OneDrive</ui> or <ui>SharePoint</ui> on the left, name the file, and then tap <ui>Save</ui>.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 2: Share the file</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Tap <mediaLinkInline><image xlink:href="d218d945-8506-4325-b027-e9af2954e892" /></mediaLinkInline> in the upper-right.</para>
+										</listItem>
+										<listItem>
+											<para>Type email addresses in the <ui>Invite people</ui> box, and separate each with a semicolon.</para>
+										</listItem>
+										<listItem>
+											<para>Make sure to also select <ui>Can edit</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>When you’re done, tap the <ui>Share</ui> button. Tapping this button will send email messages to people for you.</para>
+											<alert class="tip">
+												<para>If you want to send the link yourself, don't tap the Share button. Instead, tap <ui>Share as link</ui>.</para>
+											</alert>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 3: Other people can open it</title>
+								<content>
+									<para>If you tapped the <ui>Share</ui> button, people will receive an email message inviting them to open the file. They can click the link to open the workbook. A web browser will open the workbook in Excel Online. They can co-author in Excel Online right away by clicking <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>.</para>
+									<para>If they want to use an Excel app and not Excel Online to co-author, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Excel</ui>. However, they'll need a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring.</para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 4: Co-author with others</title>
+								<content>
+									<para>Now you can co-author the workbook at the same time as other people. To see who's editing the file with you, tap <ui>Share</ui> in the upper-right, and then tap <ui>Manage</ui>. If there are others working on the file at the same time as you, you'll see their name listed. If they have an <ui>Editing</ui> label, they're working on the file.</para>
+								</content>
+							</section>
+							<section>
+								<title>Frequently asked questions</title>
+								<content />
+								<sections>
+									<section expanded="true">
+										<title>Why am I getting the "File is locked" error?</title>
+										<content>
+											<para><link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">There are a handful of reasons why this error can occur.</link> The most common one is because someone has opened the file with a version of Excel that <legacyItalic>doesn't</legacyItalic> support co-authoring. If just one person does this, then everyone else will get the "locked" error — even if everyone else is using a version of Excel that <legacyItalic>does</legacyItalic> support co-authoring.</para>
+											<para>Versions of Excel that support co-authoring:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Excel for Office 365*</para>
+												</listItem><listItem>
+													<para>Excel for Office 365 for Mac*</para>
+												</listItem>
+												<listItem>
+													<para>Excel Online</para>
+												</listItem>
+												<listItem>
+													<para>Excel for Android</para>
+												</listItem>
+												<listItem>
+													<para>Excel for iOS</para>
+												</listItem>
+												<listItem>
+													<para>Excel Mobile</para>
+												</listItem>
+											</list>
+											<para>* Co-authoring in this version requires the latest version of Excel installed, and requires you to <link xlink:href="f374bfd7-a280-4dae-9274-fbe1b3c04593">sign in to Office with an Office 365 subscription account</link>. Please note that if you have a work or school account, you might not have a version of Office that supports co-authoring yet. This might be because your administrator hasn’t <link xlink:href="da36192c-58b9-4bc9-8d51-bb6eed468516">provided the latest version to install</link>. </para>
+											<para>If you are still getting the "locked" error, see <link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">Excel file is locked out for editing</link> for more solutions to this problem.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s selections?</title>
+										<content>
+											<para>You can see other people's selections in different colors, but only if you and other people are using Excel for Office 365 subscribers, Excel Online, Excel for Android, Excel Mobile, or Excel for iOS. In addition, if people are using Excel for Office 365 subscribers, then everyone needs to have <ui>AutoSave</ui> on to see colored selections.</para>
+											<para>If you are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS and you <legacyItalic>don't</legacyItalic> see other people's selections, then wait a few seconds. If you still don't see someone's selections, make sure they are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS. If they are using another version, like Excel Mobile, then their selections will not appear to you. However, any changes they make will show up almost instantly. In addition, if they are using an older ﻿version of Excel, like Excel 2013, then they won't be able to edit the file at the same time as you, and therefore you won't be able to see their selections.</para>
+											<para />
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s changes?</title>
+										<content>
+											<para>To co-author and see changes made by others, everyone needs to use a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring. If they don't have a supported version, they can always use Excel Online in their web browser by clicking <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>. If that doesn't solve the problem, try one or more of the following:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Wait a minute or two. Sometimes it takes some time for Excel and the cloud to communicate with each other.</para>
+												</listItem>
+												<listItem>
+													<para>Tell everyone to click the <ui>Enable Editing</ui> button if it appears.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure everyone who is working in Excel for Office 365 subscribers has <link xlink:href="6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5">AutoSave</link> on in the upper-left corner of the Excel window.</para>
+												</listItem>
+												<listItem>
+													<para>If someone is using OneDrive to sync files, they need to make sure it is not paused. And, they need the <ui>Use Office 2016 to sync files... </ui> setting turned on. Details on this setting <link xlink:href="8a409b0c-ebe1-4bfa-a08e-998389a9d823">can be found here</link>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for Android have AutoSave on. They can turn it on by tapping <ui>File</ui> &gt; <mediaLinkInline><image xlink:href="b2e3093b-b6f5-4403-89f3-ae54e3462ff6" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for iOS have AutoSave on. They can turn it on by tapping <ui>File</ui> <mediaLinkInline><image xlink:href="599bffb8-524a-4dc7-b02d-62829b2d5c8e" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure the file is not read-only.</para>
+												</listItem>
+												<listItem>
+													<para>On a Windows PC, open the file and go to <ui>File</ui> &gt; <ui>Info</ui>. Resolve any errors that may be shown there.</para>
+												</listItem>
+											</list>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What can I do about “Refresh recommended” and “Upload failed” messages?</title>
+										<content>
+											<para>This may happen occasionally if someone uses an Excel feature that is not fully supported in Excel co-authoring yet. This can stop the co-authoring process temporarily. If you don’t have any unsaved changes, simply tap <ui>Refresh</ui>. If you have unsaved changes that you don’t need to keep, you can tap <ui>Discard changes</ui>. For stuff that you need to keep, tap <ui>Save a copy</ui> and save the file as a different name. Then, select and copy the changes you need to keep. Finally, one last step: Reopen the original file that's on the cloud and paste your changes back in.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What happens when two people make a change to the same thing?</title>
+										<content>
+											<para>In general, the last change that is saved, either with the <ui>Save</ui> button or automatically with <ui>AutoSave</ui>, is the one that “wins.” There are some exceptions to this, but that’s generally how it works. If you don’t want to have conflicts with other people, assign areas or sheets to each person. You can explain these assignments when you send the link out, or you can make the assignments obvious in the workbook itself by putting people’s names in heading cells, or naming sheets with people’s names.</para>
+											<para>Keep in mind that if someone is using OneDrive to sync files, changes they make while their computer is offline won't get merged until their computer is online again. And once online, all their changes get merged at once.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Can I see previous versions of the file?</title>
+										<content>
+											<para>Yes. In Excel for Android, tap <ui>File</ui> &gt; <ui>History</ui>. Then tap a past version, and it will open. If you want to restore it to the current version, wait until everyone is no longer co-authoring, and then tap <ui>Restore this version</ui>.</para>
+										</content>
+									</section></sections>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem conditionalContentLocalization="iOS" targetedOS="iOS">
+					<tabControlItemTitle>iOS</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para>To co-author in Excel for iOS, you need to make sure certain things are set up before you start. After that, it just takes about four steps to co-author with other people.</para>
+						</content>
+						<sections>
+							<section expanded="true">
+								<title>What you need to co-author</title>
+								<content>
+									<list class="bullet">
+										<listItem>
+											<para>You need <externalLink><linkText>the latest version of Excel</linkText><linkUri>https://itunes.apple.com/us/app/microsoft-excel/id586683407</linkUri></externalLink> installed, and you need to sign in to Excel with a Microsoft account. When you open Excel, tap <ui>Open</ui> and make sure your Microsoft account is listed there. If it isn't, tap <ui>Add a place</ui> to add the account. Please note that if you have a phone or tablet that's larger than 10.1 inches, you need to sign in with an <externalLink><linkText>Office 365 subscription</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink> account.</para>
+										</listItem>
+										<listItem>
+											<para>You need to use .xlsx, .xlsm, or .xlsb files. If your file isn’t in this format, open the file in a desktop version of Excel. Then click <ui>File</ui> &gt; <ui>Save As</ui> &gt; <ui>Browse</ui> &gt; <ui>Save as type</ui> and change the format to .xlsx, .xlsm, or .xlsb.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 1: Save the workbook to the cloud</title>
+								<content>
+									<para>Co-authoring requires that you save a workbook to <link xlink:href="b00ad3fe-6643-4b16-9212-de00ef02b586">OneDrive</link>, <link xlink:href="5bd927ad-d186-495c-93e8-7ca116fe7b83">OneDrive for Business</link>, or a <link xlink:href="eb18fcba-c953-4d45-8d90-8da66edeacdb">SharePoint Online library</link>. Please note that SharePoint On-Premises sites (sites that are not hosted by Microsoft), do not support co-authoring. If you are not sure which one you are using, ask the person in charge of your site, or your IT department.</para>
+									<list class="ordered">
+										<listItem>
+											<para>Create or open a file.</para>
+										</listItem>
+										<listItem>
+											<para>If you created a file, tap <ui>File</ui> <mediaLinkInline><image xlink:href="599bffb8-524a-4dc7-b02d-62829b2d5c8e" /></mediaLinkInline>, tap <ui>Name</ui>, and then name the file. Then choose a OneDrive, OneDrive for Business, or SharePoint Online location on the left and tap <ui>Save</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>If you opened an existing file, tap <ui>File</ui> <mediaLinkInline><image xlink:href="599bffb8-524a-4dc7-b02d-62829b2d5c8e" /></mediaLinkInline> &gt; <ui>Properties</ui>. If the <ui>Location </ui> path contains the words "OneDrive," "d.docs.live.net", or "SharePoint" then it's likely been saved to one of these locations already. If it doesn't have those words, tap <ui>File</ui> &gt; <ui>Save a Copy</ui> and save it to OneDrive, OneDrive for Business, or SharePoint Online.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 2: Share the file</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Tap <ui>Share</ui> <mediaLinkInline><image xlink:href="2b54480a-dad4-4387-911f-dafc7cf9f8b5" /></mediaLinkInline> in the upper-right.</para>
+										</listItem>
+										<listItem>
+											<para>If you want to send the link to the file yourself, tap <ui>Copy Link</ui> &gt; <ui>View and Edit</ui>. Then paste the link into an email message or IM window.</para>
+										</listItem>
+										<listItem>
+											<para>If you want Excel to send the link for you in an email message, tap <ui>Invite People</ui>. Then type email addresses in the <ui>Invite people</ui> box and tap <ui>return</ui> after each address. Also make sure that <ui>Can edit</ui> is turned on. Finally, tap <ui>Send</ui>.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 3: Other people can open it</title>
+								<content>
+									<para>If you tapped <ui>Send</ui> in the previous step, people will receive an email message inviting them to open the file. They can click the link to open the workbook. A web browser will open the workbook in Excel Online. They can co-author in Excel Online right away by clicking <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>.</para>
+									<para>If they want to use an Excel app and not Excel Online to co-author, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Excel</ui>. However, they'll need a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring.</para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 4: Co-author with others</title>
+								<content>
+									<para>Now you can co-author the workbook at the same time as other people. To see who's editing the file with you, tap <ui>Share</ui> <mediaLinkInline><image xlink:href="a209c5df-b9af-45de-bffd-d0ef124d4148" /></mediaLinkInline> in the upper-right, and then tap <ui>Shared With</ui>. If there are others working on the file at the same time as you, you'll see their name listed. If they have an <ui>Editing...</ui> label, they're working on the file.</para>
+								</content>
+							</section>
+							<section>
+								<title>Frequently asked questions</title>
+								<content />
+								<sections>
+									<section expanded="true">
+										<title>Why am I getting the "File is locked" error?</title>
+										<content>
+											<para><link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">There are a handful of reasons why this error can occur.</link> The most common one is because someone has opened the file with a version of Excel that <legacyItalic>doesn't</legacyItalic> support co-authoring. If just one person does this, then everyone else will get the "locked" error — even if everyone else is using a version of Excel that <legacyItalic>does</legacyItalic> support co-authoring.</para>
+											<para>Versions of Excel that support co-authoring:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Excel for Office 365*</para>
+												</listItem><listItem>
+													<para>Excel for Office 365 for Mac*</para>
+												</listItem>
+												<listItem>
+													<para>Excel Online</para>
+												</listItem>
+												<listItem>
+													<para>Excel for Android</para>
+												</listItem>
+												<listItem>
+													<para>Excel for iOS</para>
+												</listItem>
+												<listItem>
+													<para>Excel Mobile</para>
+												</listItem>
+											</list>
+											<para>* Co-authoring in this version requires the latest version of Excel installed, and requires you to <link xlink:href="f374bfd7-a280-4dae-9274-fbe1b3c04593">sign in to Office with an Office 365 subscription account</link>. Please note that if you have a work or school account, you might not have a version of Office that supports co-authoring yet. This might be because your administrator hasn’t <link xlink:href="da36192c-58b9-4bc9-8d51-bb6eed468516">provided the latest version to install</link>. </para>
+											<para>If you are still getting the "locked" error, see <link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">Excel file is locked out for editing</link> for more solutions to this problem.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s selections?</title>
+										<content>
+											<para>You can see other people's selections in different colors, but only if you and other people are using Excel for Office 365 subscribers, Excel Online, Excel for Android, Excel Mobile, or Excel for iOS. In addition, if people are using Excel for Office 365 subscribers, then everyone needs to have <ui>AutoSave</ui> on to see colored selections.</para>
+											<para>If you are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS and you <legacyItalic>don't</legacyItalic> see other people's selections, then wait a few seconds. If you still don't see someone's selections, make sure they are using Excel for Office 365 subscribers, Excel Online, Excel for Android, or Excel for iOS. If they are using another version, like Excel Mobile, then their selections will not appear to you. However, any changes they make will show up almost instantly. In addition, if they are using an older ﻿version of Excel, like Excel 2013, then they won't be able to edit the file at the same time as you, and therefore you won't be able to see their selections.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s changes?</title>
+										<content>
+											<para>To co-author and see changes made by others, everyone needs to use a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring. If they don't have a supported version, they can always use Excel Online in their web browser by clicking <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>. If that doesn't solve the problem, try one or more of the following:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Wait a minute or two. Sometimes it takes some time for Excel and the cloud to communicate with each other.</para>
+												</listItem>
+												<listItem>
+													<para>Tell everyone to click the <ui>Enable Editing</ui> button if it appears.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure everyone who is working in Excel for Office 365 subscribers has <link xlink:href="6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5">AutoSave</link> on in the upper-left corner of the Excel window.</para>
+												</listItem>
+												<listItem>
+													<para>If someone is using OneDrive to sync files, they need to make sure it is not paused. And, they need the <ui>Use Office 2016 to sync files... </ui> setting turned on. Details on this setting <link xlink:href="8a409b0c-ebe1-4bfa-a08e-998389a9d823">can be found here</link>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for Android have AutoSave on. They can turn it on by tapping <ui>File</ui> &gt; <mediaLinkInline><image xlink:href="b2e3093b-b6f5-4403-89f3-ae54e3462ff6" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for iOS have AutoSave on. They can turn it on by tapping <ui>File</ui> <mediaLinkInline><image xlink:href="599bffb8-524a-4dc7-b02d-62829b2d5c8e" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure the file is not read-only.</para>
+												</listItem>
+												<listItem>
+													<para>On a Windows PC, open the file and go to <ui>File</ui> &gt; <ui>Info</ui>. Resolve any errors that may be shown there.</para>
+												</listItem>
+											</list>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What can I do about “Refresh recommended” and “Upload failed” messages?</title>
+										<content>
+											<para>This may happen occasionally if someone uses an Excel feature that is not fully supported in Excel co-authoring yet. This can stop the co-authoring process temporarily. If you don’t have any unsaved changes, simply tap <ui>Refresh</ui>. If you have unsaved changes that you don’t need to keep, you can tap <ui>Discard changes</ui>. For stuff that you need to keep, tap <ui>Save a copy</ui> and save the file as a different name. Then, select and copy the changes you need to keep. Finally, one last step: Reopen the original file that's on the cloud and paste your changes back in.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What happens when two people make a change to the same thing?</title>
+										<content>
+											<para>In general, the last change that is saved, either with the <ui>Save</ui> button or automatically with <ui>AutoSave</ui>, is the one that “wins.” There are some exceptions to this, but that’s generally how it works. If you don’t want to have conflicts with other people, assign areas or sheets to each person. You can explain these assignments when you send the link out, or you can make the assignments obvious in the workbook itself by putting people’s names in heading cells, or naming sheets with people’s names.</para>
+											<para>Keep in mind that if someone is using OneDrive to sync files, changes they make while their computer is offline won't get merged until their computer is online again. And once online, all their changes get merged at once.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Can I see previous versions of the file?</title>
+										<content>
+											<para>If you want to restore the file to a past version, wait until everyone is no longer co-authoring. Then tap <ui>File</ui> <mediaLinkInline><image xlink:href="599bffb8-524a-4dc7-b02d-62829b2d5c8e" /></mediaLinkInline> &gt; <ui>Restore</ui> &gt; <ui>View Version History Online</ui>. A web browser will open with the versions past versions of the file. If you're using OneDrive, tap a version on the left, and then tap <ui>Restore</ui>. If you're using OneDrive for Business or SharePoint Online, tap a version date and time, tap the down arrow, and then tap <ui>Restore</ui>. Then go back to Excel for iOS, and reopen the file.</para>
+										</content>
+									</section></sections>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOS="Windows Phone">
+					<tabControlItemTitle>Windows Mobile</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para>To co-author in Excel Mobile, you need to make sure certain things are set up before you start. After that, it just takes about four steps to co-author with other people.</para>
+						</content>
+						<sections>
+							<section expanded="true">
+								<title>What you need to co-author</title>
+								<content>
+									<list class="bullet">
+										<listItem>
+											<para>You need <externalLink><linkText>the latest version of Excel Mobile</linkText><linkUri>https://www.microsoft.com/store/p/excel-mobile/9wzdncrfjbh3</linkUri></externalLink> installed on your tablet or phone, and you need to sign in to Excel with a Microsoft account. Go to <ui>File</ui> &gt; <ui>Settings</ui> &gt; <ui>Accounts</ui> and make sure your Office 365 account is listed there. If it isn't, tap <ui>Add account</ui>. Please note that if you have a phone or tablet that's larger than 10.1 inches, you need to sign in with an <externalLink><linkText>Office 365 subscription</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink> account.</para>
+										</listItem>
+										<listItem>
+											<para>You need to use .xlsx, .xlsm, or .xlsb files. If your file isn’t in this format, open the file in a desktop version of Excel. Then click <ui>File</ui> &gt; <ui>Save As</ui> &gt; <ui>Browse</ui> &gt; <ui>Save as type</ui> and change the format to .xlsx, .xlsm, or .xlsb.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 1: Save a workbook to the cloud</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Create or open a file, and then tap <ui>File</ui> &gt; <ui>Save</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Check the current location of the file. Under the filename, check to see if the words OneDrive or SharePoint are in the path of the file. If they are, tap the <ui>Back</ui> button and go to the next step. If one of these is not included in the path, then tap <ui>Save a copy of this file</ui>, and then save the file to a <ui>OneDrive</ui>, <ui>OneDrive for Business</ui>, or <ui>SharePoint Online</ui> location. Please note that SharePoint On-Premises sites (sites that are not hosted by Microsoft), do not support co-authoring. If you are not sure which one you are using, ask the person in charge of your site, or your IT department.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 2: Share the file</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Tap <mediaLinkInline><image xlink:href="d218d945-8506-4325-b027-e9af2954e892" /></mediaLinkInline> in the upper-right.</para>
+										</listItem>
+										<listItem>
+											<para>Type email addresses in the <ui>Invite people</ui> box, and separate each with a semicolon.</para>
+										</listItem>
+										<listItem>
+											<para>Make sure to also select <ui>Can edit</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>When you’re done, tap the <ui>Share</ui> button. Tapping this button will send email messages to people for you.</para>
+											<alert class="tip">
+												<para>If you want to send the link yourself, don't tap the Share button. Instead, tap <ui>Get a sharing link</ui> at the bottom of the pane.</para>
+											</alert>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 3: Other people can open it</title>
+								<content>
+									<para>If you tapped the <ui>Share</ui> button, people will receive an email message inviting them to open the file. They can click the link to open the workbook. A web browser will open the workbook in Excel Online. They can co-author in Excel Online right away by clicking <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>.</para>
+									<para>If they want to use an Excel app and not Excel Online to co-author, they can click <ui>Edit Workbook</ui> &gt; <ui>Edit in Excel</ui>. However, they'll need a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring.</para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Step 4: Co-author with others</title>
+								<content>
+									<para>Now you can co-author the workbook at the same time as other people. To see who's editing the file with you, tap <ui>Share</ui> in the upper-right. If there are others working on the file at the same time as you, you'll see their name listed. If they have an <ui>Editing</ui> label, they're working on the file.</para>
+								</content>
+							</section>
+							<section>
+								<title>Frequently asked questions</title>
+								<content />
+								<sections>
+									<section expanded="true">
+										<title>Why am I getting the "File is locked" error?</title>
+										<content>
+											<para><link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">There are a handful of reasons why this error can occur.</link> The most common one is because someone has opened the file with a version of Excel that <legacyItalic>doesn't</legacyItalic> support co-authoring. If just one person does this, then everyone else will get the "locked" error — even if everyone else is using a version of Excel that <legacyItalic>does</legacyItalic> support co-authoring.</para>
+											<para>Versions of Excel that support co-authoring:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Excel for Office 365 *</para>
+												</listItem><listItem>
+													<para>Excel for Office 365 for Mac*</para>
+												</listItem>
+												<listItem>
+													<para>Excel Online</para>
+												</listItem>
+												<listItem>
+													<para>Excel for Android</para>
+												</listItem>
+												<listItem>
+													<para>Excel for iOS</para>
+												</listItem>
+												<listItem>
+													<para>Excel Mobile</para>
+												</listItem>
+											</list>
+											<para>* Co-authoring in this version requires the latest version of Excel installed, and requires you to <link xlink:href="f374bfd7-a280-4dae-9274-fbe1b3c04593">sign in to Office with an Office 365 subscription account</link>. Please note that if you have a work or school account, you might not have a version of Office that supports co-authoring yet. This might be because your administrator hasn’t <link xlink:href="da36192c-58b9-4bc9-8d51-bb6eed468516">provided the latest version to install</link>.</para>
+											<para>If you are still getting the "locked" error, see <link xlink:href="6fa93887-2c2c-45f0-abcc-31b04aed68b3">Excel file is locked out for editing</link> for more solutions to this problem.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s selections?</title>
+										<content>
+											<para>Other people's selections aren't visible in Excel Mobile at this time. The versions that support showing selections are Excel for Office 365 subscribers, Excel Online, Excel for Android, and Excel for iOS.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Why can’t I see other people’s changes?</title>
+										<content>
+											<para>To co-author and see changes made by others, everyone needs to use a version of the Excel app that supports co-authoring. Excel for Android, Excel for iOS, Excel Mobile, and Excel for Office 365 subscribers are the versions that currently support co-authoring. If they don't have a supported version, they can always use Excel Online in their web browser by clicking <ui>Edit Workbook</ui> &gt; <ui>Edit in Browser</ui>. If that doesn't solve the problem, try one or more of the following:</para>
+											<list class="bullet">
+												<listItem>
+													<para>Wait a minute or two. Sometimes it takes some time for Excel and the cloud to communicate with each other.</para>
+												</listItem>
+												<listItem>
+													<para>Tell everyone to click the <ui>Enable Editing</ui> button if it appears.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure everyone who is working in Excel for Office 365 subscribers has <link xlink:href="6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5">AutoSave</link> on in the upper-left corner of the Excel window.</para>
+												</listItem>
+												<listItem>
+													<para>If someone is using OneDrive to sync files, they need to make sure it is not paused. And, they need the <ui>Use Office 2016 to sync files... </ui> setting turned on. Details on this setting <link xlink:href="8a409b0c-ebe1-4bfa-a08e-998389a9d823">can be found here</link>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for Android have AutoSave on. They can turn it on by tapping <ui>File</ui> &gt; <mediaLinkInline><image xlink:href="b2e3093b-b6f5-4403-89f3-ae54e3462ff6" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure those who are working in Excel for iOS have AutoSave on. They can turn it on by tapping <ui>File</ui> <mediaLinkInline><image xlink:href="599bffb8-524a-4dc7-b02d-62829b2d5c8e" /></mediaLinkInline> &gt; <ui>AutoSave</ui>.</para>
+												</listItem>
+												<listItem>
+													<para>Make sure the file is not read-only.</para>
+												</listItem>
+												<listItem>
+													<para>On a Windows PC, open the file and go to <ui>File</ui> &gt; <ui>Info</ui>. Resolve any errors that may be shown there.</para>
+												</listItem>
+											</list>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What can I do about “Refresh recommended” and “Upload failed” messages?</title>
+										<content>
+											<para>This may happen occasionally if someone uses an Excel feature that is not fully supported in Excel co-authoring yet. This can stop the co-authoring process temporarily. If you don’t have any unsaved changes, simply tap <ui>Refresh</ui>. If you have unsaved changes that you don’t need to keep, you can tap <ui>Discard changes</ui>. For stuff that you need to keep, tap <ui>Save a copy</ui> and save the file as a different name. Then, select and copy the changes you need to keep. Finally, one last step: Reopen the original file that's on the cloud and paste your changes back in.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>What happens when two people make a change to the same thing?</title>
+										<content>
+											<para>In general, the last change that is saved, either with the <ui>Save</ui> button or automatically with <ui>AutoSave</ui>, is the one that “wins.” There are some exceptions to this, but that’s generally how it works. If you don’t want to have conflicts with other people, assign areas or sheets to each person. You can explain these assignments when you send the link out, or you can make the assignments obvious in the workbook itself by putting people’s names in heading cells, or naming sheets with people’s names.</para>
+											<para>Keep in mind that if someone is using OneDrive to sync files, changes they make while their computer is offline won't get merged until their computer is online again. And once online, all their changes get merged at once.</para>
+										</content>
+									</section>
+									<section expanded="true">
+										<title>Can I see previous versions of the file?</title>
+										<content>
+											<para>In Excel Mobile, tap <ui>File</ui> &gt; <ui>History</ui>. Then tap a past version, and it will open. If you want to restore it to the current version, wait until everyone is no longer co-authoring, and then tap <ui>Restore this version</ui>.</para>
+										</content>
+									</section></sections>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+			</tabControl>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

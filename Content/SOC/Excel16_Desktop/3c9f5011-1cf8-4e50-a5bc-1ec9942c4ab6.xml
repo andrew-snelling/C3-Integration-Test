@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="3c9f5011-1cf8-4e50-a5bc-1ec9942c4ab6" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>You double-click on an Excel file, but Excel doesn't open the file. Instead, it opens a blank screen with the buttons grayed out. Your screen may look similar to this:</para>
+  <para><mediaLinkInline>
+<image xlink:href="530ba587-edf9-4143-9723-40864cbe5d20" />
+</mediaLinkInline></para></introduction>
+  <section>
+<title>Solution</title><content><para>Trying performing an Online Repair of Office by following the steps in <link xlink:href="7821d4b6-7c1d-4205-aa0e-a6b40c5bb88b">Repair an Office application</link>.</para><para>If that doesn't work, please click the <ui>Contact us</ui> link below. (If you don't see this link, click <ui>Read article in browser</ui>, and then click the <ui>Contact us</ui> link at the bottom of the page.)</para></content>
+</section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

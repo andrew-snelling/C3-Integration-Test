@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="803d65eb-6a3e-4534-8c6f-ff12d1c4139e" revisionNumber="12"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    
+  <para address="bmbacktotop">Use <ui>Cut</ui>, <ui>Copy</ui>, and <ui>Paste</ui> to move or copy cell contents. Or copy specific contents or attributes from the cells. For example, copy the resulting value of a formula without copying the formula, or copy only the formula.</para><para>When you move or copy a cell, Excel moves or copies the cell, including formulas and their resulting values, cell formats, and comments. </para><mediaLink>
+      <caption />
+      <image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+      <video videotype="single" videoid="54b3c654-6f0f-44b6-8726-532a6f2fda12" player="SP_MOD_OfficeCom" />
+    </mediaLink><para>You can move cells in Excel by drag and dropping or using the <ui>Cut</ui> and <ui>Paste</ui> commands.</para><para><legacyBold>Move cells by drag and dropping</legacyBold></para><list class="ordered">
+                    <listItem>
+                      <para>Select the cells or range of cells that you want to move or copy.</para>
+                    </listItem>
+                    <listItem>
+                      <para>Point to the border of the selection.</para>
+                      
+                    </listItem><listItem><para>When the pointer becomes a move pointer <mediaLinkInline><image xlink:href="6ed20a8c-374c-4e13-b5cc-bd9de0c51e72"></image></mediaLinkInline>, drag the cell or range of cells to another location.</para></listItem>
+                  </list><para><legacyBold>Move cells by using Cut and Paste</legacyBold></para><list class="ordered">
+                    <listItem>
+                      <para>Select a cell or a cell range.</para>
+                    </listItem>
+                    <listItem>
+                      <para>Select <ui>Home</ui> &gt; <ui>Cut</ui> <mediaLinkInline><image xlink:href="391c04d4-cdf8-4d30-b69a-9d33ef9305cc"></image></mediaLinkInline> or press Ctrl + X.</para>
+                    </listItem>
+                    <listItem>
+                      <para>Select a cell where you want to move the data.</para>
+                    </listItem>
+                    <listItem>
+                      <para>Select <ui>Home</ui> &gt; <ui>Paste</ui><mediaLinkInline><image xlink:href="7cb6a126-5752-4271-b00e-9ce77d8d95a2"></image></mediaLinkInline> or press Ctrl + V.</para>
+                    </listItem>
+                  </list><mediaLink>
+      <caption></caption>
+      <image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+      <video videotype="single" videoid="RE26ckP" player="SP_MOD_OfficeCom" />
+    </mediaLink><para>Copy cells in your worksheet using the <ui>Copy</ui> and <ui>Paste</ui> commands.</para><list class="ordered"><listItem><para>Select the cell or range of cells.</para></listItem><listItem><para>Select <ui>Copy</ui> or press Ctrl + C.</para></listItem><listItem><para>Select <ui>Paste</ui> or press Ctrl + V.</para></listItem></list></introduction>
+  
+  
+  <section expanded="true">
+<title>Move or copy cells</title><content><list class="ordered">
+        <listItem>
+          <para>Select the cells that you want to move or copy. </para>
+          <para><link xlink:href="803d65eb-6a3e-4534-8c6f-ff12d1c4139e#_tocHowSelectCellsOrRanges">How to select cells or ranges</link>
+          </para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, do one of the following:</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc982bd7-420f-4232-89ad-29b2de918b0e">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <list class="bullet">
+            <listItem>
+              <para>To move cells, click <ui>Cut</ui> <mediaLinkInline><image xlink:href="5264357d-5d76-45d5-b7ea-40a879ebdfef"></image></mediaLinkInline>. </para>
+              <para>
+                <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+X.</para>
+            </listItem>
+            <listItem>
+              <para>To copy cells, click <ui>Copy</ui> <mediaLinkInline><image xlink:href="fdfa2699-b557-43b6-8a48-47d4f7938efe"></image></mediaLinkInline>. </para>
+              <para>
+                <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+C.</para>
+            </listItem>
+          </list>
+        </listItem>
+        <listItem>
+          <para>Select the upper-left cell of the paste area. </para>
+          <alert class="tip">
+      <para>To move or copy a selection to a different worksheet or workbook, click another worksheet tab or switch to another workbook, and then select the upper-left cell of the paste area.</para>
+    </alert>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click <ui>Paste</ui> <mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>. </para>
+          <para>
+            <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+V.</para>
+        </listItem>
+      </list><alert class="note">
+ 
+<list class="bullet">
+        <listItem>
+          <para>Excel displays an animated moving border around cells that were cut or copied. To cancel a moving border, press Esc.</para></listItem><listItem><para>Excel replaces existing data in the paste area when you cut and paste cells to move them.</para>
+        </listItem>
+        <listItem>
+          <para>To choose specific options when you paste cells, you can click the arrow below <ui>Paste</ui> <mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>, and then click the option that you want. For example, you can click <ui>Paste Special</ui> or <ui>Picture</ui>.</para>
+        </listItem><listItem><para>By default, Excel displays the <ui>Paste Options</ui> button on the worksheet to give you special options when you paste cells, such as <ui>Keep Source Formatting</ui>. If you don't want to display this button every time that you paste cells, you can turn this option off. Click the <ui>File</ui> tab, and then click <ui>Options</ui>. In the <ui>Advanced</ui> category, under <ui>Cut, Copy, and Paste</ui>, clear the <ui>Show Paste Options button when content is pasted</ui> check box.</para></listItem>
+      </list></alert></content>
+</section><section expanded="true">
+    <title>Move or copy cells by using a mouse</title>
+    <content>
+      <para>By default, drag-and-drop editing is turned on so that you can use the mouse to move and copy cells.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Select the cells or <token>TE000127095</token> of cells that you want to move or copy.</para>
+          <para>
+            <link xlink:href="803d65eb-6a3e-4534-8c6f-ff12d1c4139e#_tocHowSelectCellsOrRanges">How to select cells or ranges</link>
+          </para><para>
+          </para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>Do one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>To move a cell or range of cells, point to the border of the selection. When the pointer becomes a move pointer <mediaLinkInline><image xlink:href="9094b44f-3464-413b-ac50-df2eddc9dec3"></image></mediaLinkInline>, drag the cell or range of cells to another location.</para>
+            </listItem>
+            <listItem>
+              <para>To copy a cell or range of cells, hold down Ctrl while you point to the border of the selection. When the pointer becomes a copy pointer <mediaLinkInline><image xlink:href="03bb25cb-7522-43bc-814b-6f3a6887c723"></image></mediaLinkInline>, drag the cell or range of cells to another location.</para>
+            </listItem>
+          </list>
+        </listItem>
+      </list>
+      <alert class="note">
+      <para>Excel replaces existing data in the paste area when you move cells.</para>
+    </alert>
+      
+      <para>When you copy cells, cell references automatically adjust. But, when you move cells, cell references are not adjusted, and the contents of those cells and of any cells that point to them may be displayed as reference errors. In this case, you have to adjust the references manually.</para>
+      <para>If the selected copy area includes hidden cells, rows, or columns, Excel copies them. You may have to unhide data temporarily you don't want to include when you copy information.</para>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Insert moved or copied cells between existing cells</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Select the cell or <token>TE000127095</token> of cells that contains the data that you want to move or copy.</para>
+          <para>
+            <link xlink:href="803d65eb-6a3e-4534-8c6f-ff12d1c4139e#_tocHowSelectCellsOrRanges">How to select cells or ranges</link>
+          </para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, do one of the following:</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc982bd7-420f-4232-89ad-29b2de918b0e">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <list class="bullet">
+            <listItem>
+              <para>To move the selection, click <ui>Cut</ui> <mediaLinkInline><image xlink:href="5264357d-5d76-45d5-b7ea-40a879ebdfef"></image></mediaLinkInline>. </para>
+              <para>
+                <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+X.</para>
+            </listItem>
+            <listItem>
+              <para>To copy the selection, click <ui>Copy</ui> <mediaLinkInline><image xlink:href="fdfa2699-b557-43b6-8a48-47d4f7938efe"></image></mediaLinkInline>. </para>
+              <para>
+                <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+C.</para>
+            </listItem>
+          </list>
+        </listItem>
+        <listItem>
+          <para>Right-click the upper-left cell of the paste area, and then click <ui>Insert Cut Cells</ui> or <ui>Insert Copied Cells</ui>.</para>
+          <para>
+            <embeddedLabel>Tip</embeddedLabel> To move or copy a selection to a different worksheet or workbook, click another worksheet tab or switch to another workbook, and then select the upper-left cell of the paste area.</para>
+        </listItem>
+        <listItem>
+          <para>In the <ui>Insert Paste</ui> dialog box, click the direction in which you want to shift the surrounding cells.</para>
+        </listItem>
+      </list>
+      <para>
+        <embeddedLabel>Note</embeddedLabel> If you insert whole rows or columns, the surrounding rows and columns are shifted down and to the left.</para>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Copy visible cells only</title>
+    <content>
+      <para>If some cells, rows, or columns on the worksheet are not displayed, you have the option of copying all cells or only the visible cells. For example, you can choose to copy only the displayed summary data on an outlined worksheet.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Select the cells that you want to copy.</para>
+          <para>
+            <link xlink:href="803d65eb-6a3e-4534-8c6f-ff12d1c4139e#_tocHowSelectCellsOrRanges">How to select cells or ranges</link>
+          </para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Editing</ui> group, click <ui>Find &amp; Select</ui>, and then click <ui>Go To Special</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="773d3e90-bbd3-4883-94fa-5e03d961c37b">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Under <ui>Select</ui>, click <ui>Visible cells only</ui>, and then click <ui>OK</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click <ui>Copy</ui> <mediaLinkInline><image xlink:href="fdfa2699-b557-43b6-8a48-47d4f7938efe"></image></mediaLinkInline>. </para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc982bd7-420f-4232-89ad-29b2de918b0e">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <para>
+            <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+C.</para>
+        </listItem>
+        <listItem>
+          <para>Select the upper-left cell of the paste area.</para>
+          <alert class="tip">
+      <para>To move or copy a selection to a different worksheet or workbook, click another worksheet tab or switch to another workbook, and then select the upper-left cell of the paste area.</para>
+    </alert>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click <ui>Paste</ui> <mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>. </para>
+          <para>
+            <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+V.</para>
+        </listItem>
+      </list>
+      
+      <list class="bullet">
+        <listItem>
+          <para>If you click the arrow below <ui>Paste</ui> <mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>, you can choose from several paste options to apply to your selection.</para>
+        </listItem>
+      </list>
+      <para>Excel pastes the copied data into consecutive rows or columns. If the paste area contains hidden rows or columns, you might have to unhide the paste area to see all of the copied cells.</para>
+      <para>When you copy or paste hidden or filtered data to another application or another instance of Excel, only visible cells are copied.</para>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Prevent copied blank cells from replacing data</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Select the <token>TE000127095</token> of cells that contains blank cells.</para>
+          <para>
+            <link xlink:href="803d65eb-6a3e-4534-8c6f-ff12d1c4139e#_tocHowSelectCellsOrRanges">How to select cells or ranges</link>
+          </para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click <ui>Copy</ui> <mediaLinkInline><image xlink:href="fdfa2699-b557-43b6-8a48-47d4f7938efe"></image></mediaLinkInline>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc982bd7-420f-4232-89ad-29b2de918b0e">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <para>
+            <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+C.</para>
+        </listItem>
+        <listItem>
+          <para>Select the upper-left cell of the paste area.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click the arrow below <ui>Paste</ui> <mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>, and then click <ui>Paste Special</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>Select the <ui>Skip blanks</ui> check box.</para>
+        </listItem>
+      </list>
+      
+    </content>
+    <sections />
+  </section>
+  <section expanded="true">
+    <title>Move or copy just the contents of a cell</title>
+    <content>
+      <list class="ordered">
+        <listItem>
+          <para>Double-click the cell that contains the data that you want to move or copy.</para>
+          <para>
+            <embeddedLabel>Note</embeddedLabel> By default, you can edit and select cell data directly in the cell by double-clicking it, but you can also edit and select cell data in the <token>TE000127058</token>.</para>
+        </listItem>
+        <listItem>
+          <para>In the cell, select the characters that you want to move or copy.</para>
+          <para>
+            <legacyBold>How to select characters in a cell</legacyBold>
+          </para>
+          <table border="1">
+            <thead>
+              <tr>
+                <TD>
+                  <para>
+                    <legacyBold>To select the contents of a cell</legacyBold>
+                  </para>
+                </TD>
+                <TD>
+                  <para>
+                    <legacyBold>Do this</legacyBold>
+                  </para>
+                </TD>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <TD>
+                  <para>In the cell</para>
+                </TD>
+                <TD>
+                  <para>Double-click the cell, and then drag across the contents of the cell that you want to select.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>In the formula bar</para>
+                  <para>
+                    <mediaLinkInline>
+                      <image xlink:href="ac1f2295-d1b6-447e-9ad3-cad958fd1fcb">
+                      </image>
+                    </mediaLinkInline>
+                  </para>
+                </TD>
+                <TD>
+                  <para>Click the cell, and then drag across the contents of the cell that you want to select in the formula bar.</para>
+                </TD>
+              </tr>
+              <tr>
+                <TD>
+                  <para>By using the keyboard</para>
+                </TD>
+                <TD>
+                  <para>Press F2 to edit the cell, use the arrow keys to position the cursor, and then press Shift+Arrow key to select the contents.</para>
+                </TD>
+              </tr>
+            </tbody>
+          </table>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, do one of the following:</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc982bd7-420f-4232-89ad-29b2de918b0e">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <list class="bullet">
+            <listItem>
+              <para>To move the selection, click <ui>Cut</ui> <mediaLinkInline><image xlink:href="5264357d-5d76-45d5-b7ea-40a879ebdfef"></image></mediaLinkInline>. </para>
+              <para>
+                <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+X.</para>
+            </listItem>
+            <listItem>
+              <para>To copy the selection, click <ui>Copy</ui> <mediaLinkInline><image xlink:href="fdfa2699-b557-43b6-8a48-47d4f7938efe"></image></mediaLinkInline>.</para>
+              <para>
+                <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+C.</para>
+            </listItem>
+          </list>
+        </listItem>
+        <listItem>
+          <para>In the cell, click where you want to paste the characters, or double-click another cell to move or copy the data.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click <ui>Paste</ui> <mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>.</para>
+          <para>
+            <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+V.</para>
+        </listItem>
+        <listItem>
+          <para>Press ENTER.</para>
+          <alert class="note">
+            <para>When you double-click a cell or press F2 to edit the active cell, the arrow keys work only within that cell. To use the arrow keys to move to another cell, first press Enter to complete your editing changes to the active cell.</para>
+          </alert>
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Copy cell values, cell formats, or formulas only</title>
+    <content>
+      <para>When you paste copied data, you can do any of the following:</para>
+      <list class="bullet">
+        <listItem>
+          <para>Paste only the cell formatting, such as font color or fill color (and not the contents of the cells).</para>
+        </listItem>
+        <listItem>
+          <para>Convert any formulas in the cell to the calculated values without overwriting the existing formatting.</para>
+        </listItem>
+        <listItem>
+          <para>Paste only the formulas (and not the calculated values).</para>
+        </listItem>
+        <listItem>
+          <para>Select the cell or range of cells that contains the values, cell formats, or formulas that you want to copy.</para>
+          <para><link xlink:href="803d65eb-6a3e-4534-8c6f-ff12d1c4139e#_tocHowSelectCellsOrRanges">How to select cells or ranges</link>
+          </para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click <ui>Copy</ui> <mediaLinkInline><image xlink:href="fdfa2699-b557-43b6-8a48-47d4f7938efe"></image></mediaLinkInline>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc982bd7-420f-4232-89ad-29b2de918b0e">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <para>
+            <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+C.</para>
+        </listItem>
+        <listItem>
+          <para>Select the upper-left cell of the paste area or the cell where you want to paste the value, cell format, or formula.</para>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click the arrow below <ui>Paste</ui> <mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>, and then do one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>To paste values only, click <ui>Values</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>To paste cell formats only, click <ui>Formatting</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>To paste formulas only, click <ui>Formulas</ui>.</para>
+              <alert class="note">
+      <para>If the copied formulas contain relative cell references, Excel adjusts the references (and the relative parts of mixed cell references) in the duplicate formulas. For example, suppose that cell B8 contains the formula =SUM(B1:B7). If you copy the formula to cell C8, the duplicate formula refers to the corresponding cells in that column: =SUM(C1:C7). If the copied formulas contain absolute cell references, the references in the duplicate formulas are not changed. If you do not get the results that you want, you can also change the references in the original formulas to either relative or absolute cell references and then recopy the cells.</para>
+    </alert>
+            </listItem>
+          </list>
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  <section expanded="true">
+    <title>Copy cell width settings</title>
+    <content>
+      <para>When you paste copied data, the pasted data uses the column width settings of the target cells. To correct the column widths so that they match the source cells, follow these steps.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Select the cells that you want to move or copy. </para>
+          <para>
+            <link xlink:href="803d65eb-6a3e-4534-8c6f-ff12d1c4139e#_tocHowSelectCellsOrRanges">How to select cells or ranges</link>
+          </para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, do one of the following:</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="fc982bd7-420f-4232-89ad-29b2de918b0e">
+              </image>
+            </mediaLinkInline>
+          </para>
+          <list class="bullet">
+            <listItem>
+              <para>To move cells, click <ui>Cut</ui> <mediaLinkInline><image xlink:href="5264357d-5d76-45d5-b7ea-40a879ebdfef"></image></mediaLinkInline>.</para>
+              <para>
+                <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+X.</para>
+            </listItem>
+            <listItem>
+              <para>To copy cells, click <ui>Copy</ui> <mediaLinkInline><image xlink:href="fdfa2699-b557-43b6-8a48-47d4f7938efe"></image></mediaLinkInline>.</para>
+              <para>
+                <embeddedLabel>Keyboard shortcut</embeddedLabel>  You can also press Ctrl+C.</para>
+            </listItem>
+          </list>
+        </listItem>
+        <listItem>
+          <para>Select the upper-left cell of the paste area.</para>
+          <alert class="tip">
+      <para>To move or copy a selection to a different worksheet or workbook, click another worksheet tab or switch to another workbook, and then select the upper-left cell of the paste area.</para>
+    </alert>
+        </listItem>
+        <listItem>
+          <para>On the <ui>Home</ui> tab, in the <ui>Clipboard</ui> group, click the arrow under <ui>Paste</ui> <mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>, and then click <ui>Keep Source Column Widths</ui>.</para>
+        </listItem>
+      </list>
+      
+    </content>
+    
+  </section>
+  <section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section><relatedTopics />
+</developerConceptualDocument></topic>

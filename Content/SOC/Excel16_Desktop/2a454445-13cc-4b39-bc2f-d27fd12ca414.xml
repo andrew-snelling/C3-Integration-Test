@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="2a454445-13cc-4b39-bc2f-d27fd12ca414" revisionNumber="18"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>When using the Office family of products, should you use Excel or should you use Access to manage your tabular data? A companion article, <link xlink:href="09576147-47d1-4c6f-9312-e825227fcaea">Using Access or Excel to manage your data</link>, discusses the benefits of each product and what they bring to the table. But why choose between one or another? If you store your data in Access and connect to it from Excel, you gain the benefits of both. Here are ten reasons why using  Excel and Access together makes lots of sense. </para>
+    
+  </introduction>
+  
+  <section address="bm0" expanded="true">
+    <title>Reason 1: Access is designed for all kinds of users</title>
+    <content>
+      <para>Even though Excel is not a database, it is widely used to store data, and it is often used to solve simple database problems. However, Excel is a flat file database, not a relational database. When simple tables need to evolve into multiple tables of related data, Access is the first choice for information workers to quickly create a database application. Access has always been a great "data landing pad" for gathering and consolidating disparate data throughout the enterprise, much of which lives inside Excel workbooks. Once your data is in Access, you can add more tables and join them, create queries (or views of your data), structure the data and define data types to help ensure data integrity, share and update data among many users, and create powerful reports and forms.</para>
+      <para>Unlike Excel's simple spreadsheet layout, Access is organized differently with several interrelated objects that might seem daunting at first. But you don't have to be an expert to use Access. Access is designed for all kinds of users, and you can take it only as far as you need to go.</para>
+      <para>Peel back Access a layer at a time.</para>
+      <para><mediaLinkInline>
+<image xlink:href="b68904bc-1269-4285-a783-d0fa4dd41b54" />
+</mediaLinkInline></para>
+      <para>1. Use Access in three ways: as an occasional user, a power user, or a developer.</para>
+      <para>2. Tables, queries, forms, and reports build upon each other and make up the heart of a database application.</para>
+      <para>3. Occasional users have wizards, property builders, the Office Fluent user-interface, and Excel-like features to quickly get a job done.</para>
+      <para>4. Power users have macros, the property pane, expressions, and database design tools to delve deeper and do more.</para>
+      <para>5. Developers can work with modules and develop VBA code to create custom database solutions and deploy runtime applications.</para>
+      
+      
+    </content>
+    <sections>
+      
+    </sections>
+  </section>
+  <section address="bm1" expanded="true">
+    <title>Reason 2: Copying an Excel worksheet to an Access datasheet</title>
+    <content>
+      <para><mediaLinkInline>
+          <image xlink:href="19903be5-87d6-46fb-a945-e66112397e28">
+          </image>
+        </mediaLinkInline></para><para>
+        A good way to get started is to copy data from Excel into Access. You can create an Access table and display it in datasheet view, which closely resembles an Excel worksheet. You can do common table creation tasks, such as defining a data type, a field name, or a new field, right in the datasheet view. For example, if you enter a date in a blank field, Access sets the Date/Time data type for that field. If you enter text such as a name, Access applies the Text data type to the field. If you want to move a field, just click and drag it.</para>
+      <para>When you copy data from Excel and paste it into Access, you don't even need to create a table first, or open a table in datasheet view. Access automatically asks you if your data has headers, makes good guesses at using the correct data type, and creates an Access table. It couldn't be simpler.</para>
+    <para>For more information, see <link xlink:href="d0cfef2d-1ffb-4300-8ab3-7bcef4b4ef6d">Open a blank datasheet</link>.</para></content>
+    
+  </section>
+  <section address="bm2" expanded="true">
+    <title>Reason 3: Sharing data by linking to an Excel worksheet from Access</title>
+    <content>
+      <para><mediaLinkInline>
+          <image xlink:href="c4c8652a-d7bf-45fb-a64a-683372cc5e45">
+          </image>
+        </mediaLinkInline></para><para>
+        One of the easiest ways to derive the benefits of both Excel and Access is to link an Excel worksheet to an Access table. Use an Access link when you plan to keep the data in Excel, but also regularly leverage some of the many Access features, such as reporting and querying. You link data from Access, and not from Excel.</para>
+      <para>Access supports two fundamentally different ways of creating database tables. Users can create new native tables to store the data in an Access database, or they can create links to existing data outside the Access database. Data in linked tables appear and behave in many ways just like native tables. The Linked Table Manager Wizard helps you track, locate, and update the Excel worksheet or other data source if it moves and the link breaks.</para>
+      <para>When you link to an Excel worksheet or a named range, Access creates a new table that is linked to the Excel data. If you want to add, edit, or delete data, you make the changes in Excel, and refresh (or re-query) the data in the Access table. However, you cannot edit the contents of the table in Access. With your data linked to Excel, you can create reports, queries, and read-only forms in Access.</para>
+    <para>For more information, see <link xlink:href="a1952878-7c58-47b1-893d-e084913cc958">Import or link to data in an Excel workbook</link>.</para></content>
+    
+  </section>
+  <section address="bm3" expanded="true">
+    <title>Reason 4: Moving data by importing Excel data into Access</title>
+    <content>
+      <para><mediaLinkInline>
+          <image xlink:href="046510d9-522d-499a-80fd-bad10f6edd98">
+          </image>
+        </mediaLinkInline></para><para>
+        If you decide to cut the data cord, you can move the data to Excel by importing the data into Access. Note that the word <legacyItalic>import</legacyItalic> has two different meanings between Excel and Access. In Excel, when you import (or connect), you make a permanent connection to data that can be refreshed. In Access, when you import, you bring data into Access once, but without a permanent data connection. When you import data, Access stores the data in a new or existing table without altering the data in Excel. In Access, you can import any or all of the worksheets in an Excel workbook in one operation.</para>
+      <para>The Import Wizard walks you through the import steps and helps you make important decisions about whether to change data types and add headers. If you encounter errors when importing the data, Access alerts you and saves the errors in a table so that you can quickly find and correct them. For example, there may be an alphanumeric postal code buried deep down in a column you thought was all numeric, or a duplicate ID was detected for a primary key field. You can either make the changes in the Excel workbook and re-import the data, or make the changes in the new Access table. When you complete the operation, you can save the steps that you used and even create an Outlook task to remind you when to do the import operation on a regular basis. </para>
+      <para>Once the data is imported, it is now native to Access, and you can use datasheets and forms to add, edit, and delete the data. After you import the data, you can decide whether to delete the data from Excel. It's usually a good idea to have only one location for updating the data.</para>
+      <alert class="note">
+        <para>Importing data from Excel to Access does not import formulas, only the results of those formulas.</para>
+      </alert>
+    <para>For more information, see:</para><list class="bullet"><listItem><para><link xlink:href="a1952878-7c58-47b1-893d-e084913cc958">Import or link to data in an Excel workbook</link></para></listItem><listItem><para><link xlink:href="6b94e183-2b10-4333-a31a-001fe75321b5">Save the details of an import or export operation as a specification</link></para></listItem><listItem><para><link xlink:href="34b181e4-1564-4428-bf5c-a222e83f2a68">Schedule an import or export operation</link></para></listItem><listItem><para><link xlink:href="6969e099-4573-40f0-a1e0-f3042bddb640">Run a saved import or export operation</link></para></listItem><listItem><para><link xlink:href="50051b9c-cecf-4b3d-b5a5-cf68bbe981a5">Manage Data Tasks</link></para></listItem></list></content>
+    
+  </section>
+  <section address="bm4" expanded="true">
+    <title>Reason 5: Connecting to Access data from Excel</title>
+    <content>
+      <para><mediaLinkInline>
+          <image xlink:href="42ede83d-11bc-42a5-990e-0356607340de">
+          </image>
+        </mediaLinkInline></para><para>
+        You can also reconnect Access data to Excel. To do this, create a connection in Excel, often stored in an Office Data Connection file (.odc), to the Access database and retrieve all of the data from a table or query. After you connect to the data, you can also automatically refresh (or update) your Excel workbooks from the original Access database whenever the database is updated with new information.</para>
+      
+    <para>For more information, see:</para><list class="bullet"><listItem><para><link xlink:href="90C35A40-BCC3-46D9-AA7F-4106F78850B4">Move data from Excel to Access</link></para></listItem><listItem><para><link xlink:href="c0ad7aec-ff1a-4e48-9c21-dc18a102433f">Overview of connecting (importing) data</link></para></listItem></list></content>
+    
+  </section>
+  <section address="bm5" expanded="true">
+    <title>Reason 6: Using Access reports with Excel data</title>
+    <content>
+      <para><mediaLinkInline>
+          <image xlink:href="634735ce-0cbb-4d8e-b858-89cb993af58c">
+          </image>
+        </mediaLinkInline></para><para>
+        Once your data is in Access, you can take advantage of the marvelous array of report creation and customization tools. Want to create a report with just a few clicks? Use the Report Wizard. Want to design and modify the report layout in real time with live data, move and resize blocks of data, add and remove fields, and instantly see the changes as you build it? Use the Layout view. Want to interact with the report to search, filter, and sort live data? Use the Report view. Want to add command buttons, page numbers, pictures, hyperlinks, and professional-looking styles all on your own? Use the many control wizards and galleries in the <ui>Controls</ui> and <ui>Layout</ui> groups on the <ui>Design</ui> tab of the Ribbon. By using Access, you can easily create simple reports, group and summary reports, mailing labels, graphical reports, and sub-reports.</para>
+      <para>Once the report is created, use Access to electronically distribute the report. For example, you can send the report by using an email message, or save the report in different formats, such as an Access snapshot or a PDF file, to add it to a web page or SharePoint site.</para>
+    <para>For more information, see:</para><list class="bullet"><listItem><para><link xlink:href="876a6d27-59aa-467a-8240-ee6e01597291">Guide to designing reports</link></para></listItem><listItem><para><link xlink:href="408e92a8-11a4-418d-a378-7f1d99c25304">Create a simple report</link></para></listItem><listItem><para><link xlink:href="2837aea7-0ee5-4c81-9f0f-5cf324c2c3bd">Modify a report</link></para></listItem><listItem><para><link xlink:href="f23301a1-3e0a-4243-9002-4a23ac0fdbf3">Create a grouped or summary report</link></para></listItem><listItem><para><link xlink:href="5f9d6e4e-4e92-4e10-8cc7-47d6a5f5e5ba">Distribute a report electronically</link></para></listItem></list></content>
+    
+  </section>
+  <section address="bm6" expanded="true">
+    <title>Reason 7: Using Access forms with Excel data</title>
+    <content>
+      <para><mediaLinkInline>
+          <image xlink:href="0efc7af0-3a91-43e3-99fc-55c3c954d929">
+          </image>
+        </mediaLinkInline></para><para>
+        Once your data is in Access, you can take advantage of the many form creation and customization tools. Want to create a form with just a few clicks? Use the Form Wizard. Want to design and modify the form layout in real time with live data, move and resize blocks of data, add and remove fields, and instantly see the changes as you build it? Use the Layout view. Want to add command buttons, list boxes, combo boxes, option groups, pictures, input masks, charts, hyperlinks, and professional-looking styles all on your own? Use the many control wizards and galleries in the <ui>Controls</ui> and <ui>Layout</ui> groups on the <ui>Design</ui> tab of the Ribbon. By using Access you can easily create simple forms, tabbed forms, continuous forms, popup forms, modal dialog boxes, and subforms.</para>
+      
+      <para>In Access, you can easily create a split form, which displays a synchronized datasheet and form view so that you can get the best of both. Once you create a polished form, it's easy to scroll, filter, and even search the data behind the form by using the standard navigation buttons and search box at the bottom of the form.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="19da38c7-82b9-48a9-a9a6-1fc280476264">
+          </image>
+        </mediaLinkInline>
+      </para>
+    <para>For more information, see:</para><list class="bullet"><listItem><para><link xlink:href="f30f9c46-ca7c-4020-aaa7-f64045fca0fd">Create a form by using the Form tool</link></para></listItem><listItem><para><link xlink:href="e8eb0efb-2fa6-4315-9d4b-86e79a1fbe1e">Create a split form</link></para></listItem><listItem><para><link xlink:href="70abf4a9-0439-4885-9099-b9fa83517603">Create a list of choices by using a list box or combo box</link></para></listItem><listItem><para><link xlink:href="e3ed7711-433a-4931-9cab-b0f71a90c329">Enable users to find a record by selecting a value from a list</link></para></listItem><listItem><para><link xlink:href="e186238d-e4d7-4918-92a0-1236661c6f58">Locate specific records in a database</link></para></listItem></list></content>
+    
+  </section>
+  <section address="bm7" expanded="true">
+    <title>Reason 8: Filtering, sorting, and querying in Access is like Excel </title>
+    <content>
+      <para><mediaLinkInline>
+          <image xlink:href="cffb8dac-c83f-429b-8c21-19c8f752495d">
+          </image>
+        </mediaLinkInline></para><para>
+        Whichever product you use, you filter data to work with a subset of data, and you sort data to order it just the way you want. In Access, Excel users can filter and sort data in a datasheet view without having to re-learn a completely new user interface. The icons, command menus, commands, criteria, and dialog boxes are very similar, whether you are working with text, numbers, dates, or blanks. You can even save the filters and sorts along with the datasheet view.</para>
+      <para>You can create a query in Access, and not even know what SQL stands for. Four query wizards help you create simple queries, find duplicates, locate unmatched records, and create crosstab queries. You don't even have to create a query; simply filter and sort the data the way you want it to look and it's saved with a datasheet. </para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="678d930a-f7d6-424e-a198-08b997ba2c58">
+          </image>
+        </mediaLinkInline>
+      </para>
+    <para>For more information, see:</para><list class="bullet"><listItem><para><link xlink:href="be7cd4e2-ddda-44dc-ad5f-0fd8015008a8">Sort records on text, numeric, or date values</link></para></listItem><listItem><para><link xlink:href="0b41848c-5250-4e6d-b610-2f60eb07ee89">Filter: Limit the number of records in a view</link></para></listItem><listItem><para><link xlink:href="a9739a09-d3ff-4f36-8ac3-5760249fb65c">Introduction to queries</link></para></listItem></list></content>
+    
+  </section>
+  
+  <section address="bm9" expanded="true">
+    <title>Reason 9: Doing a Mail Merge or creating labels</title>
+    <content>
+      <para><mediaLinkInline>
+          <image xlink:href="90665ba3-3796-403f-9cf8-b44f1750d79a">
+          </image>
+        </mediaLinkInline></para><para>
+        Now that your family has grown, your holiday card list suddenly got bigger and you need to keep track of a lot more birthdays and anniversaries. Not a problem. You can use an Access table or query as a mail merge data source, and create a mail merge operation by using the Word Mail Merge Wizard, for letters, cards, email messages, and envelopes. If you just need to create mailing labels, use the Label Wizard in Access to create and print your labels from a report you create. You can even automatically add a bar code corresponding to each customer address.</para>
+    <para>For more information, see:</para><list class="bullet"><listItem><para><link xlink:href="860ef4bc-e793-4004-8a1b-5c8a34c7e89d">Use a table or query as a mail-merge data source</link></para></listItem><listItem><para><link xlink:href="c54318db-a91d-45db-ab2b-1068b6346242">Create mailing labels in Access</link></para></listItem></list></content>
+    
+  </section>
+  <section address="bm10" expanded="true">
+    <title>Reason 10: Combining Excel and Access with SharePoint technologies</title>
+    <content>
+      <para>Both Access and Excel provide commands to connect to data in SharePoint lists. Excel provides a read-only (one-way) connection to linked SharePoint lists; whereas Access lets you read and write (two-way) data in linked SharePoint lists. Access and SharePoint lists work very well together. Access and SharePoint data types — such as rich text, append only (to support tracking revision history in a memo field), attachments, AutoNumber, lookups, and multi-valued fields — make for smooth integration and few, if any, data inconsistencies.</para>
+      <para>Once you link your SharePoint list data into an Access database, you can even take the SharePoint list data offline in a local Access database, work with the data locally, and then reconnect to the SharePoint site to upload any changes. Any conflicting data changes made by other users will be handled by a conflict resolution wizard. The forms and reports you created in Access are based on the same data, but linked to SharePoint lists. </para>
+      <para>Excel provides the following integration points with SharePoint Server.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="a3e731f5-4090-4f05-87a3-8939ab55cb6d">
+          </image>
+        </mediaLinkInline>
+      </para>
+      <para>1. Do a one-time import of Excel worksheet data into a SharePoint list, or export Excel worksheet data to a SharePoint list to create a permanent, one-way data connection.</para>
+      <para>2. Use the permanent, one-way data connection to refresh data in an Excel worksheet from the SharePoint list. </para>
+      <para>3. Publish Excel workbooks in <token>TE000130223</token>, and display and interact with data by using the Excel Web Access Web Part on a Web Part Page. </para>
+      <para>4. Import (connect) data into an Excel workbook from OLAP servers, SQL Server and Access databases, and flat files. </para>
+      <para>Access provides the following integration points with SharePoint Server.</para>
+      
+      <para>1. Do a one-time import or export of data between Access views and a SharePoint list. </para>
+      <para>2. Link data between Access tables and a SharePoint list by creating a permanent two-way connection. (Updated list data can be in seen in an Access table; updated Access table data can be seen in a list.)</para>
+      <para>3. Take list data offline, update in Access, bring back online, synchronize updates, and resolve conflicts. </para>
+      <para>4. Display and edit list data in Access datasheet, form, and report views. </para>
+      
+    <para>For more information, see:</para><list class="bullet"><listItem><para><link xlink:href="2b1468ee-9de2-4c40-bf0a-c7f0638c2068">Blueprint for using data in SharePoint Server</link></para></listItem><listItem><para><link xlink:href="65bf7b03-74bf-445c-959a-24b7a401ddee">Import or link to data in a SharePoint list</link></para></listItem><listItem><para><link xlink:href="974544F9-94BC-4AA8-9159-97282D256DAB">Export an Excel table to a SharePoint list</link></para></listItem></list></content>
+    
+  </section>
+  
+  <section address="bm11" expanded="true">
+    <title>Next Steps: Becoming an Access power user</title>
+    <content>
+      <para>You can create quite sophisticated desktop database applications without ever writing one line of VBA code. Each Access object has an extensive set of properties and events easily accessible from a property sheet to help you customize your solution. Each object has detailed designers that reveal all the features available to you. Additional database templates are available on Office Online. Field and table templates help you create and customize new tables fast. You can design a new database from scratch with built-in database design tools.</para>
+      <para>Access macros use a declarative environment that does not require writing any VBA code, so you don't need to be a developer. Each macro action performs a task, such as opening a form, running a query, finding records, or displaying a message. You can embed macros in any event of a report, form, or control. Most macros have arguments, and you can add conditional logic to them to get them to do what you want. You can even define variables and do error-checking, again without writing VBA code.</para>
+      <para>Design a prototype and run it by the IT department. Create a  solution for your team when they need it ASAP, and do it on a shoestring with a bare-bones staff. Keep track of tickets sold for a company party, track the shelf life of manufacturing materials, or print acceptance tags for parts. Track tasks, issues, and deliverables in team projects. Create a sales pipeline database to monitor prospective sales within a small group of sales professionals.</para>
+      
+    </content>
+    <sections>
+      <section>
+        <title>More information</title>
+        <content>
+          <list class="bullet"><listItem><para><link xlink:href="76af1bb2-b981-4e14-bc0d-1e7b8701d7a6">Make a database easier to use by customizing and controlling the Navigation Pane</link></para></listItem><listItem><para><link xlink:href="ca776634-8de9-4185-82f5-5220a8e2910c">Create a custom field template for the Field Templates pane</link></para></listItem><listItem><para><link xlink:href="eb2159cf-1e30-401a-8084-bd4f9c9ca1f5">Database design basics</link></para></listItem></list>
+          <para>
+            <link xlink:href="2a454445-13cc-4b39-bc2f-d27fd12ca414#__top">Top of Page</link>
+          </para>
+        </content>
+        
+      </section>
+    </sections>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

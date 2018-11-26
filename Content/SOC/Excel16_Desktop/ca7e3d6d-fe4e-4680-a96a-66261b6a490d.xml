@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="ca7e3d6d-fe4e-4680-a96a-66261b6a490d" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>You can change the color of a data series so that it stands out more. You do this in the Layer Pane.</para>
+    <list class="ordered">
+      <listItem>
+        <para>Click <ui>Home</ui> &gt; <ui>Layer Pane</ui>.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="65317674-9161-4cb5-a3b6-6f78b84a8a7c">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>Pick the layer containing the data series you want to change.</para>
+      </listItem>
+      <listItem>
+        <para>Click <ui>Settings</ui>, and click <ui>Layer Options</ui>.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="e3b0fecc-9aac-4b19-a11d-0b856c8a8fe1">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>Under <ui>Color</ui>, click the down arrow in the first box and pick the data series you want to change.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="d0c8a823-0749-4844-845a-fe0f7e817ff0">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>Click the down arrow in the color box and pick a different color.</para>
+        <para address="__goback">
+          <mediaLinkInline>
+            <image xlink:href="8b584316-13d5-4285-952e-d097b52164ad">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+    </list>
+    <alert class="tip">
+      <para> To create your own color, click <ui>More Colors</ui> and then mix your color in the <ui>Color</ui> box.</para>
+    </alert>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

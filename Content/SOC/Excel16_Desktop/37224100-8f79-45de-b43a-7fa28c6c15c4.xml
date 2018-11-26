@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="37224100-8f79-45de-b43a-7fa28c6c15c4" revisionNumber="6"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="bmbacktotop">The Compatibility Checker found one or more formula-related compatibility issues with previous versions of Microsoft Excel.</para><para>Beginning with Excel 2007, by default, the Compatibility Checker checks for issues with previous versions of Excel. If you're only interested in a specific version, clear the check boxes for the other versions.</para><para><mediaLinkInline>
+<image xlink:href="7fd73de5-3077-4bd3-bee5-263dc4279957" />
+</mediaLinkInline></para>
+    <alert class="important"><para address="__goback">
+       If you see issues in the <legacyBold>Significant loss of functionality</legacyBold> list, address them prior to saving the file so that you can prevent permanent loss of data or incorrect functionality.</para>
+    <para>
+      Issues in the <legacyBold>Minor loss of fidelity</legacyBold> list might or might not have to be resolved before you continue saving the workbook—data or functionality is not lost, but the workbook might not look or work exactly the same way when you open it in an earlier version of Excel.</para>
+  </alert><alert class="tip">
+ <para>If you have many issues to investigate, select <ui>Copy to New Sheet</ui>. Use the new <ui>Compatibility Report</ui> sheet to work through each issue.</para>
+</alert></introduction>
+  <section>
+    <title address="___toc___1_t">In this article</title>
+    <content>
+      <list class="nobullet" address="___toc___1_l">
+        <listItem>
+          <para>
+            <link xlink:href="37224100-8f79-45de-b43a-7fa28c6c15c4#BKMK_lossfunc">Issues that cause a significant loss of functionality</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="37224100-8f79-45de-b43a-7fa28c6c15c4#BKMK_LossFidelity">Issues that cause a minor loss of fidelity</link>
+          </para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <section address="BKMK_lossfunc">
+    <title>Issues that cause a significant loss of functionality</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Issue</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Solution</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Some worksheets contain more array formulas that refer to other worksheets than are supported by the selected file format. Some of these array formulas will not be saved and will be converted to #VALUE! errors.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, workbook arrays that refer to other worksheets are limited only by available memory, but in Excel 97-2003, worksheets can only contain up to 65,472 workbook arrays that refer to other worksheets. Workbook arrays beyond the maximum limit will be converted to and display #VALUE! errors.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain array formulas that refer to another worksheet, and then make the necessary changes to avoid #VALUE! errors.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some formulas contain arrays with more elements than are supported by the selected file format. Arrays with more than 256 columns or 65536 rows will not be saved and may produce different results.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2010 and later, you can use array formulas that contain elements for more than 256 columns and 65,536 rows. In Excel 2007, this exceeds the limit for array elements and might return different results.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain array formulas that have more elements than are supported in earlier versions of Excel, and then make the necessary changes.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some formulas contain more values, references, and/or names than are supported by the selected file format. These formulas will not be saved and will be converted to #VALUE! errors.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, the maximum length of formula contents is 8,192 characters, and the maximum internal formula length is 16,384 bytes. In Excel 97-2003, the maximum length of formula contents is 1,024 characters, and the maximum internal formula length is 1,800 bytes. When the combination of formula arguments (including values, references, and/or names) exceeds the maximum limits of Excel 97-2003, the formulas will result in #VALUE! errors when you save the workbook to an earlier Excel file format. </para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the cells that contain formulas that exceed the maximum formula length limits of Excel 97-2003, and then make the necessary changes to avoid #VALUE! errors.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some formulas have more levels of nesting than are supported by the selected file format. Formulas with more than seven levels of nesting will not be saved and will be converted to #VALUE! errors.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, a formula can contain up to 64 levels of nesting, but in Excel 97-2003, the maximum levels of nesting is only 7. </para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the cells that contain formulas with more than 7 levels of nesting, and then make the necessary changes to avoid #VALUE! errors.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some formulas contain functions that have more arguments than are supported by the selected file format. Formulas that have more than 30 arguments per function will not be saved and will be converted to #VALUE! errors.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, a formula can contain up to 255 arguments, but in Excel 97-2003, the maximum limit of arguments in a formula is only 30. </para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the cells that contain formulas with more than 30 arguments, and then make the necessary changes to avoid #VALUE! errors.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some formulas use more operands than are allowed by the selected file format. These formulas will not be saved and will be converted to #VALUE! errors.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, the maximum number of operands that can be used in formulas is 1,024, but in Excel 97-2003, the maximum limit of operands in formulas is only 40.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the cells that contain formulas with more than 40 operands, and then make the necessary changes to avoid #VALUE! errors.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some formulas contain functions with more arguments than are supported by the selected file format. Formulas with more than 29 arguments to a function will not be saved and will be converted to #VALUE! errors.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, a User-Defined Function (UDF) that you create by using Visual Basic for Applications (VBA) can contain up to 60 arguments, but in Excel 97-2003, the number of arguments in UDFs are limited by VBA to only 29. </para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the cells that contain functions that use more than 29 arguments, and then make the necessary changes to avoid #VALUE! errors. You may have to use VBA code to change user-defined functions.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more functions in this workbook are not available in earlier versions of Excel.  When recalculated in earlier versions, these functions will return a #NAME? error instead of their current results.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> Excel 2007 and later provide new and renamed functions. Because these functions are not available in Excel 97-2003, they will return a #NAME? error instead of the expected results when the workbook is opened in the earlier version of Excel.. </para>
+              <para>In some cases, the prefix <literal>_xlfn</literal> is added to the formula, for example, <literal>=_xlfn.IFERROR (1,2)</literal>.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the cells that contain functions that are not available in earlier versions of Excel, and then make the necessary changes to avoid #NAME? errors.</para>
+              <para>Compatibility functions are available for all functions that have been renamed. To avoid errors, you can use those functions instead.</para>
+              <para>New functions can be replaced with appropriate functions that are available in the earlier versions of Excel. You can also remove formulas that use new functions by replacing them with the formula results.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some formulas contain references to tables that are not supported in the selected file format. These references will be converted to cell references.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, you can use structured references to make it much easier and more intuitive to work with table data when you are using formulas that reference a table, either portions of a table, or the entire table. This feature is not supported in Excel 97-2003, and structured references will be converted to cell references.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the cells that contain formulas with structured references to tables so that you can change them to the cell references that you want to use.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some formulas contain references to tables in other workbooks that are not currently open in this instance of Excel. These references will be converted to #REF on save to Excel 97-2003 format because they cannot be converted to sheet references.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, you can use structured references to make it much easier and more intuitive to work with table data when you are using formulas that reference a table, either portions of a table, or the entire table. This feature is not supported in Excel 97-2003, and structured references will be converted to cell references. However, if the structured references point to tables in other workbooks that are not currently open, they will be converted to and displayed as #REF errors. </para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the cells that contain formulas with structured references to tables in other workbooks so that you can change them to avoid #REF errors.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain data validation rules which refer to more than 8192 discontinuous areas of cells. These data validation rules will not be saved. </para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2010 and later, data validation rules can refer to more than 8192 discontinuous areas of cells. In Excel 97-2007, this type of data validation rule is not supported and won't be available.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain data validation rules that refer to more than 8192 discontinuous areas of cells, and then make the necessary changes.</para>
+            </TD>
+          </tr>
+          
+          <tr>
+            <TD>
+              <para>One or more cells in this workbook contain data validation rules which refer to values on other worksheets. These data validation rules will not be supported in earlier versions of Excel.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2010 and later, you can use data validation rules that refer to values on other worksheets. In Excel 97-2007, this type of data validation is not supported and cannot be displayed on the worksheet.</para>
+              <para>However, all data validation rules remain available in the workbook and are applied when the workbook is opened again in Excel 2010 and later, unless the rules were edited in Excel 97-2007.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain data validation rules that refer to values on other worksheets, and then make the necessary changes on the <ui>Settings</ui> tab of the <ui>Data Validation</ui> dialog box (<ui>Data</ui> tab, <ui>Data Tools</ui> group).</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>This workbook contains a Data Consolidation Range with references to cells outside of the row and column limits of the selected file format. Formula references to data in this region will be adjusted and may not display correctly in an earlier version of Excel. </para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, data consolidation ranges can contain formulas that refer to data outside of the row and column limit of the selected file format. In Excel 97-2003, the worksheet size is only 256 columns by 65,536 rows. Formula references to data in cells outside of this column and row limit are adjusted and may not display correctly.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate data consolidation ranges that contain formula references to data outside of the row and column limit of Excel 97-2003, and then make the necessary changes.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>This workbook contains custom descriptions for VBA User Defined Functions. All custom descriptions will be removed.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In of Excel 2010 and later, you can use Visual Basic for Applications (VBA) to create User-Defined Functions (UDFs) with custom descriptions. Custom descriptions are not supported in Excel 97-2007 and will be removed.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> No action is needed because all custom descriptions will be removed.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <para>
+        
+        <link xlink:href="37224100-8f79-45de-b43a-7fa28c6c15c4">Top of Page</link></para>
+    </content>
+    <sections />
+  </section>
+  <section address="BKMK_LossFidelity">
+    <title>Issues that cause a minor loss of fidelity</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Issue</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Solution</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Some array formulas in this workbook refer to an entire column. In earlier versions of Excel, these formulas may be converted to #NUM! errors when they are recalculated.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> Array formulas that refer to an entire column in Excel 2007 and later will be converted to and displayed as #NUM! errors when they are recalculated in Excel 97-2003.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the array formulas that refer to an entire column so that you can make the necessary changes to avoid #NUM errors.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more defined names in this workbook contain formulas that use more than the 255 characters allowed in the selected file format. These formulas will be saved, but will be truncated when edited in earlier versions of Excel.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> When named ranges in formulas exceed the 255 character limit that is supported in Excel 97-2003, the formula will work correctly, but it will be truncated in the <ui>Name</ui> dialog box and cannot be edited.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain named ranges in formulas, and then make the necessary changes so that users can edit the formulas in Excel 97-2003.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Some formulas in this workbook are linked to other workbooks that are closed. When these formulas are recalculated in earlier versions of Excel without opening the linked workbooks, characters beyond the 255-character limit cannot be returned.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> When formulas in a workbook are linked to other workbooks that are closed, they can only display up to 255 characters when they are recalculated in Excel 97-2003. The formula results might be truncated.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> Find the cells that contain formulas that link to other workbooks that are closed so that you can verify the links and make the necessary changes to avoid truncated formula results in Excel 97-2003.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>A Data Validation formula has more than 255 characters.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> When Data Validation formulas exceed the 255 character limit that is supported in Excel 97-2003, the formula will work correctly, but it will be truncated and cannot be edited.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate cells that contain Data Validation formulas, and then use fewer characters in the formula so that users can edit them in Excel 97-2003.</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <para>
+        <link xlink:href="37224100-8f79-45de-b43a-7fa28c6c15c4">Top of Page</link>
+      </para>
+    </content>
+    
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

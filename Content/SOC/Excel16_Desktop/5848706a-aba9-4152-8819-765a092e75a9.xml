@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="5848706a-aba9-4152-8819-765a092e75a9" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top"> 
+	 <para>There are several ways to give your 3D Maps a different look. Two of the quickest are <link xlink:href="8ce6f8d3-f86d-467a-9031-750b3608a832#__change_the_power">changing the theme</link> and <link xlink:href="8ce6f8d3-f86d-467a-9031-750b3608a832#__add_map_labels">showing map labels </link>. You can also <link xlink:href="ca7e3d6d-fe4e-4680-a96a-66261b6a490d">change the color for one or more data series.</link> </para>
+  </introduction>
+  <section address="__change_the_power">
+	 <title /> 
+	 <content>
+		<mediaLink>
+		  <caption>3D Map with the default theme</caption>
+		  <image xlink:href="8977e65f-39c9-4088-b42b-68988ffbec37" /> 
+		</mediaLink>
+		<mediaLink>
+		  <caption>Same 3D Map with the Color Black theme</caption>
+		  <image xlink:href="31a4f38d-30d7-49bb-8c1b-5d07dcce499b" /> 
+		</mediaLink>
+	 </content>
+	 <sections /> 
+  </section>
+  <section>
+	 <title>Change the 3D Maps theme</title>
+	 <content>
+		<para>Click <ui>Home</ui> &gt; <ui>Themes</ui>, and pick the theme you want.</para>
+		<para> <mediaLinkInline>
+<image xlink:href="b6b58b98-2eab-414f-9001-3d965b604627" />
+</mediaLinkInline> </para>
+		<alert class="tip"> 
+		  <para> Some themes contain generic road maps and some contain high fidelity satellite images. Try experimenting with the different themes to achieve specific effects in your 3D Maps.</para>
+		</alert>
+	 </content>
+	  
+  </section>
+  <section address="__add_map_labels">
+	 <title>Show map labels </title>
+	 <content>
+		<para>Click <ui>Home</ui> &gt; <ui>Map Labels</ui>.</para>
+		<para> <mediaLinkInline>
+<image xlink:href="7e2210e7-ba5a-470e-8154-1e4824a1f143" />
+</mediaLinkInline> </para>
+		<alert class="tip"> 
+		  <para> Map labels can be shown or hidden for each scene. If the labels make your 3D Maps look cluttered, try hiding them for that scene.</para>
+		</alert>
+	 </content>
+	  
+  </section>
+  <relatedTopics /> 
+</developerConceptualDocument></topic>

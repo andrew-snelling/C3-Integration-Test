@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f1ca8b08-4f24-4af6-92e5-f4fdb1442748" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<alert class="important">
+			<list class="bullet">
+				<listItem>
+					<para>When you break a link to the source workbook of an external reference, all formulas that use the value in the source workbook are converted to their current values. For example, if you break the link to the external reference =SUM([Budget.xls]Annual!C10:C25), the SUM formula is replaced by the calculated value—whatever that may be. Also, because this action <legacyBold>cannot be undone</legacyBold>, you may want to save a version of the destination workbook as a backup.</para>
+				</listItem>
+				<listItem>
+					<para>If you use an external data range, a parameter in the query may be using data from another workbook. You may want to check for and remove any of these type of links.</para>
+				</listItem>
+			</list>
+		</alert>
+		<para />
+	</introduction>
+	<section>
+		<title>Break a link</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click <ui>Edit Links</ui>.</para>
+					
+					<mediaLink>
+<image xlink:href="8bba507a-50c7-40b9-8996-d7692c2a6cb9" />
+</mediaLink><alert class="note">
+						<para>The <ui>Edit Links</ui> command is unavailable if your file does not contain linked information.</para>
+					</alert>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Source</ui> list, click the link that you want to break.</para>
+					<list class="bullet">
+						<listItem>
+							<para>To select multiple linked objects, hold down the CTRL key, and click each linked object.</para>
+						</listItem>
+						<listItem>
+							<para>To select all links, press Ctrl+A.</para>
+						</listItem>
+					</list>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Break Link</ui>.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Delete the name of a defined link</title>
+		<content>
+			<para>If the link used a defined <token>TE000126969</token>, the name is not automatically removed. You may want to delete the name as well, by following these steps:</para>
+			<list class="ordered">
+				<listItem>
+					<para>On the <ui>Formulas</ui> tab, in the <ui>Defined Names</ui> group, click <ui>Name Manager</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Name Manager</ui> dialog box, click the name that you want to change.</para>
+				</listItem>
+				<listItem>
+					<para>Click the name to select it.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Delete</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>OK</ui>.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section><relatedTopics />
+</developerConceptualDocument></topic>

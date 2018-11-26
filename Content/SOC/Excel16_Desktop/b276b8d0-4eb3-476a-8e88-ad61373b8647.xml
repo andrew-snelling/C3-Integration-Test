@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="b276b8d0-4eb3-476a-8e88-ad61373b8647" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>Use an annotation to highlight a data point and provide context to your visualization.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="31065c9c-9938-4a8d-89b0-80a8d2fc5956">
+        </image>
+      </mediaLinkInline>
+    </para>
+    <list class="ordered">
+      <listItem>
+        <para>Right-click the data point and click <ui>Add Annotation</ui>.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="9bfcec03-5a5f-4113-9045-635325ffc725">
+            </image>
+          </mediaLinkInline>
+        </para>
+        <alert class="tip">
+          <para> To add multiple annotations at once, click the first data point, press and hold Ctrl while clicking the other data points, and then right-click the last data point.</para>
+        </alert>
+      </listItem>
+      <listItem>
+        <para>To use a data field as the title, pick a field from the list box, or click <ui>Custom</ui> to enter your own text in the <ui>Title</ui> box.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="07fa2c02-7924-4ce1-adc1-7a6052445672">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>To add an explanation in the <ui>Description</ui> box, do one of these:</para>
+        <list class="bullet">
+          <listItem>
+            <para>To use a data field, click <ui>Fields</ui>, and check the field that you want in the <ui>Description</ui> box.</para>
+          </listItem>
+          <listItem>
+            <para>To write your own text, click <ui>Custom</ui>, and type the text in the <ui>Description</ui> box.</para>
+          </listItem>
+          <listItem>
+            <para>To use a picture for the description, click <ui>Image</ui>, pick an <ui>Image Size</ui>, and click <ui>Load Image</ui> to insert your picture.</para>
+          </listItem>
+        </list>
+      </listItem>
+      <listItem>
+        <para>If you want, use the formatting options at the top of the box to change the look of your text.</para>
+      </listItem>
+    </list>
+    <alert class="tip">
+      <para> You can see a preview of your annotation in the <ui>Content Preview</ui> box, located to the right of the <ui>Title</ui> and <ui>Description</ui> boxes.</para>
+    </alert>
+    <para>Your annotation is now associated with the selected data point. 3D Maps will automatically adjust the orientation of the annotation so it's always visible. If you want text that displays only when a specific area of the map is shown, <link xlink:href="022ac560-f028-46e7-b306-b4041b93a2af">add a text box </link>instead.</para>
+    <alert class="note">
+      <para> If you change the <ui>Time Settings</ui> options or the chart type, you'll need to recreate the annotations.</para>
+    </alert>
+  </introduction>
+  <relatedTopics><link xlink:href="3c1ebc9f-176b-4ed3-a962-773720bf7543">Customize a data card in 3D Maps</link><link xlink:href="272bc963-6794-4b8d-ae01-c598227d2f9f">Add a text box to a 3D Map</link></relatedTopics>
+</developerConceptualDocument></topic>

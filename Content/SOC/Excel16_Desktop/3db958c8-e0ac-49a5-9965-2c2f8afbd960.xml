@@ -1,0 +1,2890 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="3db958c8-e0ac-49a5-9965-2c2f8afbd960" revisionNumber="7"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para address="bmbacktotop">When you work with two file formats, like .xlsx and .ods, there might be formatting differences, and not all features will be available. You’ll be able to convert data and content, but the way you work with the content might be different depending on which formats you use.</para>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<tabControl>
+				<tabControlItem targetedOfficeVersion="Office 2013, Office 2016, Office 2019, Office 365 Subscription">
+					<tabControlItemTitle>Newer versions</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para />
+						</content>
+						<sections>
+							<section>
+								<title>Switch your default file format</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Click <ui>File</ui> &gt; <ui>Options</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Save</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Under <ui>Save workbooks</ui>, in the <ui>Save files in this format</ui> list, click the file format you want to use by default.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section>
+								<title>What is supported when I save an Excel spreadsheet in the OpenDocument Spreadsheet format?</title>
+								<content>
+									<para>The table below shows which Excel features are fully, partially, or not supported in the OpenDocument Spreadsheet (.ods) format.</para>
+									<list class="bullet">
+										<listItem>
+											<para><embeddedLabel>Supported</embeddedLabel>  Both Excel and the OpenDocument Spreadsheet format support this feature. Content, formatting, and functionality won’t be lost.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Partially Supported</embeddedLabel>  Both Excel and the OpenDocument Spreadsheet format support this feature, but formatting and functionality might be affected. No text or data is lost, but formatting and how you work with text or graphics might be different.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Not Supported</embeddedLabel>  The feature in Excel isn’t supported in the OpenDocument Spreadsheet format. If you plan to save your Excel worksheet in the OpenDocument Spreadsheet format, don’t use this feature or you risk losing content, formatting, and functionality of that part of your worksheet.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Not Applicable</embeddedLabel> The feature was introduced in a later version of Excel for Windows.</para>
+										</listItem>
+									</list>
+									<para>To see information about graphic features, see the <link xlink:href="3db958c8-e0ac-49a5-9965-2c2f8afbd960#BKMK_Graphic">Graphics Elements table</link> at the end of this article.</para>
+									<table border="1">
+										<thead>
+											<tr>
+												<TD>
+													<para><legacyBold>Area</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Subarea</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Level of Support</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Level of Support</legacyBold></para>
+												</TD>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<TD />
+												<TD />
+												<TD>
+													<para><legacyBold>Excel 2013</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Excel 2016</legacyBold></para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formatting</para>
+												</TD>
+												<TD>
+													<para>Row Heights/Column widths</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Appearance should be similar.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Appearance should be similar.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formatting</para>
+												</TD>
+												<TD>
+													<para>Cell</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Hyperlinks</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Supported</para>
+													<para>There might be issues with Hyperlink styles.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>There might be issues with Hyperlink styles.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formatting</para>
+												</TD>
+												<TD>
+													<para>Cell styles</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Dates</para>
+												</TD>
+												<TD>
+													<para>Dates before 1900-01-01</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>If save workbook with dates before 1900-01-01 as .ods, the pre-1900 dates won't save correctly.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>If save workbook with dates before 1900-01-01 as .ods, the pre-1900 dates won't save correctly.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Print</para>
+												</TD>
+												<TD>
+													<para>Print Ranges</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Print</para>
+												</TD>
+												<TD>
+													<para>Repeat Rows/Columns</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Print</para>
+												</TD>
+												<TD>
+													<para>Page breaks</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Print</para>
+												</TD>
+												<TD>
+													<para>Header/Footer</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, Image, First page or Odd/even options are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, Image, First page or Odd/even options are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formulas</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formulas</para>
+												</TD>
+												<TD>
+													<para>Names</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, Local Names, Named expressions, and names to discontinuous ranges are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, Local Names, Named expressions, and names to discontinuous ranges are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formulas</para>
+												</TD>
+												<TD>
+													<para>Regular Expressions (RegEx)</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Use Advanced Filters instead.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Use Advanced Filters instead.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Cell Comments (or Notes)</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Partially Supported</para>
+													<para>Comments with content are round-tripped. Formatting on the comment might not be supported when you save the file in .ods format and open it again in Excel.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Comments with content are round-tripped. Formatting on the comment might not be supported when you save the file in .ods format and open it again in Excel.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Cell Threaded Comments</para>
+												</TD>
+												<TD>
+													<para />
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Threaded Comments will be converted to legacy comments when you save the file in .ods format and open it again in Excel.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Threaded Comments will be converted to legacy comments when you save the file in .ods format and open it again in Excel.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Group &amp; Outline</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>OLE Objects</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Settings</para>
+												</TD>
+												<TD>
+													<para>Window Settings</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Settings</para>
+												</TD>
+												<TD>
+													<para>Sheet/Book settings</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Protection</para>
+												</TD>
+												<TD>
+													<para>Sheet Protection</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, protection without a password is supported. However, files with a password-protected sheet cannot be saved or opened.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, protection without a password is supported. However, files with a password-protected sheet cannot be saved or opened.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Protection</para>
+												</TD>
+												<TD>
+													<para>Information Rights Management (IRM)</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Files with IRM turned on cannot be saved.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Files with IRM turned on cannot be saved.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Protection</para>
+												</TD>
+												<TD>
+													<para>Encryption</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Files with of this type protection cannot be saved.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Files with of this type protection cannot be saved.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Data Validation</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some formula type Data Validation cannot be saved.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some formula type Data Validation cannot be saved.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>External Data</para>
+												</TD>
+												<TD>
+													<para>Web Queries</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>External Data</para>
+												</TD>
+												<TD>
+													<para>QueryTables</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some settings, such as inserted columns, are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some settings, such as inserted columns, are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Tables</para>
+												</TD>
+												<TD>
+													<para>Total Rows</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Tables</para>
+												</TD>
+												<TD>
+													<para>Table Styles</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Sort</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some advanced settings are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some advanced settings are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Subtotal</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, the formulas themselves are supported, but the settings for re-applying are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, the formulas themselves are supported, but the settings for re-applying are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Filter</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Basic filtering is supported, but the Filter features added in Excel 2013 are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Basic filtering is supported, but the Filter features added in Excel 2013 are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>Styles</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>Layout</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some layouts, such as compact axis, are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some layouts, such as compact axis, are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>Calculated fields</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>Grouping</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>IMBI PivotTables</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTables</para>
+												</TD>
+												<TD>
+													<para>OLAP Pivots</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Consolidation</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Shared Workbooks</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Data labels</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Data Labels are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Data Labels are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Data tables</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Trendlines</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Trendlines are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Trendlines are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Error bars</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Error Bars are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Error Bars are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Drop Lines</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Hi-Low lines</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Leader lines on data labels</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Filled Radar Charts</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Legends</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some settings are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some settings are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>PivotCharts</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Chart Sheets</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Pie of Pie or Bar of Pie</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Box and Whisker</para>
+												</TD>
+												<TD>
+													<para>Not Applicable</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Histogram</para>
+												</TD>
+												<TD>
+													<para>Not Applicable</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Pareto chart</para>
+												</TD>
+												<TD>
+													<para>Not Applicable</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Sunburst chart</para>
+												</TD>
+												<TD>
+													<para>Not Applicable</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Treemap chart</para>
+												</TD>
+												<TD>
+													<para>Not Applicable</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Waterfall chart</para>
+												</TD>
+												<TD>
+													<para>Not Applicable</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>OLAP Formulas</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Shapes on charts</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+										</tbody>
+									</table>
+								</content>
+							</section>
+							<section address="BKMK_Graphic">
+								<title>Graphics Elements</title>
+								<content>
+									<para>The table below shows which Excel graphics features are fully, partially, or not supported in the OpenDocument Format (.ods).</para>
+									<list class="bullet">
+										<listItem>
+											<para><embeddedLabel>Supported</embeddedLabel>  The Excel format and the OpenDocument Format support this feature. Graphics using this feature generally appear and behave the same in either format.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Partially Supported</embeddedLabel>  The Excel format and the OpenDocument Format support this feature, but graphics might appear different between the formats. No data is generally lost between the formats, but formatting and how you work with these graphics might be different.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Not Supported</embeddedLabel>  Because of the unique differences of features and implementation between the Excel format and the OpenDocument Format, this feature isn’t supported in OpenDocument Format. If you plan to save your worksheet in an OpenDocument Format, don’t use these features.</para>
+										</listItem>
+									</list>
+									<table border="1">
+										<thead>
+											<tr>
+												<TD>
+													<para><legacyBold>Basic shapes</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Level of support</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Level of support</legacyBold></para>
+												</TD>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<TD />
+												<TD>
+													<para><legacyBold>Excel 2013</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Excel 2016</legacyBold></para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Shapes</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Text boxes</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except for objects inside text boxes. The objects inside the text box are dropped when you open an OpenDocument file.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except for objects inside text boxes. The objects inside the text box are dropped when you open an OpenDocument file.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>WordArt</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>ODF does not support the WordArt options in Excel. As a result, WordArt is converted to a text box on save. The text and base text color are maintained but WordArt effects and formatting are lost.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>ODF does not support the WordArt options in Excel. As a result, WordArt is converted to a text box on save. The text and base text color are maintained but WordArt effects and formatting are lost.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>3D shapes options</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Pictures</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except for the insert and link option that are not supported in ODF.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except for the insert and link option that are not supported in ODF.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>SmartArt diagrams</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Converted to a group of shapes.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Converted to a group of shapes.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>ActiveX controls</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Excel form controls</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Objects in charts</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Converted to a group containing the chart and objects.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Converted to a group containing the chart and objects.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Signature line object</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Camera tool/paste as picture link object</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Ink annotation</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>The ink annotation is converted to an Enhanced Metafile (EMF) image.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>The ink annotation is converted to an Enhanced Metafile (EMF) image.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Group of objects</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Some objects cannot be grouped together in Excel 2013, so the objects are ungrouped when you open the OpenDocument file. This includes a chart, picture, shape, or text box grouped with an OLE object.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Some objects cannot be grouped together in Excel 2016, so the objects are ungrouped when you open the OpenDocument file. This includes a chart, picture, shape, or text box grouped with an OLE object.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Object visibility</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Invisible objects become visible after saving the file in .ods and opening again in Excel 2013.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Invisible objects become visible after saving the file in .ods and opening again in Excel 2016.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Object borders</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Not all border styles are supported. Border styles that are not supported are saved as the default border style (black, solid line).</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Not all border styles are supported. Border styles that are not supported are saved as the default border style (black, solid line).</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Object fills</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except that gradient fills with more than two stops lose all stops after the first two.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except that gradient fills with more than two stops lose all stops after the first two.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Line formatting</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Not all line and line end styles are supported in ODF. Styles that are not supported are saved as the default, black solid line and open arrow type, respectively.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Not all line and line end styles are supported in ODF. Styles that are not supported are saved as the default, black solid line and open arrow type, respectively.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Picture cropping</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Regular cropping of a picture is supported. However, cropping a picture with a shape is not supported.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Regular cropping of a picture is supported. However, cropping a picture with a shape is not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Picture recoloring</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some picture recoloring has the equivalent in ODF, such as black and white. Other picture recoloring does not have an equivalent and is flattened. The picture appears the same but the recoloring can no longer be changed or removed.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some picture recoloring has the equivalent in ODF, such as black and white. Other picture recoloring does not have an equivalent and is flattened. The picture appears the same but the recoloring can no longer be changed or removed.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>3D picture options</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Picture styles</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Borders are partially supported, but might not look the same.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Borders are partially supported, but might not look the same.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Themes</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Hyperlink on shape</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+										</tbody>
+									</table>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOfficeVersion="Office 2007, Office 2010">
+					<tabControlItemTitle>Office 2007 – 2010</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para />
+						</content>
+						<sections>
+							<section>
+								<title>Switch your default file format</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Click the <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af" /></mediaLinkInline> &gt; <ui>Excel Options</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Save</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Under <ui>Save workbooks</ui>, in the <ui>Save files in this format</ui> list, click the file format you want to use by default.</para>
+										</listItem>
+									</list>
+								</content>
+							</section>
+							<section>
+								<title>What is supported when I save an Excel worksheet in the OpenDocument Spreadsheet format?</title>
+								<content>
+									<para>The table below shows which Excel features are fully, partially, or not supported in the OpenDocument Spreadsheet (.ods) format.</para>
+									<list class="bullet">
+										<listItem>
+											<para><embeddedLabel>Supported</embeddedLabel>  Both Excel and the OpenDocument Spreadsheet format support this feature. Content, formatting, and usability won’t be lost.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Partially Supported</embeddedLabel>  Both Excel and the OpenDocument Spreadsheet format support this feature, but formatting and usability might be affected. No text or data is lost, but formatting and how you work with text or graphics might be different.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Not Supported</embeddedLabel>  The feature in Excel isn’t supported in the OpenDocument Spreadsheet format. If you plan to save your Excel worksheet in the OpenDocument Spreadsheet format, don’t use this feature or you risk losing content, formatting, and usability of that part of your worksheet.</para>
+										</listItem>
+									</list>
+									<para>To see information about graphic features, see the <link xlink:href="4311c54f-ee86-4197-bd2d-5ecc35deb138#bm1">Graphic Elements table</link> at the end of this article.</para>
+									<alert class="note">
+										<para>If you are using Microsoft Excel Starter 2010, not all the features listed for Excel 2010 are supported in Excel Starter. For more information about the features available in Excel Starter, see <link xlink:href="0982b3f1-7bca-49a7-a04b-3c09d05941d4">Excel Starter feature support</link>.</para>
+									</alert>
+									<table border="1">
+										<thead>
+											<tr>
+												<TD>
+													<para><legacyBold>Area</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Subarea</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Level of support</legacyBold></para>
+												</TD>
+												<TD>
+													<para />
+												</TD>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<TD />
+												<TD />
+												<TD>
+													<para><legacyBold>Excel 2007</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Excel 2010</legacyBold></para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formatting</para>
+												</TD>
+												<TD>
+													<para>Row Heights/Column widths</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Appearance should be similar.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Appearance should be similar.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formatting</para>
+												</TD>
+												<TD>
+													<para>Cell</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Hyperlinks</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Supported</para>
+													<para>There might be issues with Hyperlink styles.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>There might be issues with Hyperlink styles.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formatting</para>
+												</TD>
+												<TD>
+													<para>Cell styles</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Dates</para>
+												</TD>
+												<TD>
+													<para>Dates before 1900-01-01</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para address="__goback">If save workbook with dates before 1900-01-01 as .ods, the pre-1900 dates won't save correctly.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>If save workbook with dates before 1900-01-01 as .ods, the pre-1900 dates won't save correctly.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Print</para>
+												</TD>
+												<TD>
+													<para>Print Ranges</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Print</para>
+												</TD>
+												<TD>
+													<para>Repeat Rows/Columns</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Print</para>
+												</TD>
+												<TD>
+													<para>Page breaks</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Print</para>
+												</TD>
+												<TD>
+													<para>Header/Footer</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, Image, First page or Odd/even options are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, Image, First page or Odd/even options are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formulas</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formulas</para>
+												</TD>
+												<TD>
+													<para>Names</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, Local Names, Named expressions, and names to discontinuous ranges are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, Local Names, Named expressions, and names to discontinuous ranges are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Cell Comments</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Partially Supported</para>
+													<para>Comments with content are round-tripped. Formatting on the comment might not be supported when you save the file in .ods format and open it again in Excel.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Comments with content are round-tripped. Formatting on the comment might not be supported when you save the file in .ods format and open it again in Excel.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Group &amp; Outline</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>OLE Objects</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Settings</para>
+												</TD>
+												<TD>
+													<para>Window Settings</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Settings</para>
+												</TD>
+												<TD>
+													<para>Sheet/Book settings</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Protection</para>
+												</TD>
+												<TD>
+													<para>Sheet Protection</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, protection without a password is supported. However, files with a password-protected sheet cannot be saved or opened.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, protection without a password is supported. However, files with a password-protected sheet cannot be saved or opened.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Protection</para>
+												</TD>
+												<TD>
+													<para>Information Rights Management (IRM)</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Files with IRM turned on cannot be saved.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Files with IRM turned on cannot be saved.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Protection</para>
+												</TD>
+												<TD>
+													<para>Encryption</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Files with of this type protection cannot be saved.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Files with of this type protection cannot be saved.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Data Validation</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some formula type Data Validation cannot be saved.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some formula type Data Validation cannot be saved.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>External Data</para>
+												</TD>
+												<TD>
+													<para>Web Queries</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>External Data</para>
+												</TD>
+												<TD>
+													<para>QueryTables</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some settings, such as inserted columns, are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some settings, such as inserted columns, are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Tables</para>
+												</TD>
+												<TD>
+													<para>Total Rows</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Tables</para>
+												</TD>
+												<TD>
+													<para>Table Styles</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Sort</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some advanced settings are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some advanced settings are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Subtotal</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, the formulas themselves are supported, but the settings for re-applying are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, the formulas themselves are supported, but the settings for re-applying are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Filter</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Basic filtering is supported, but the Filter features added in Excel 2007 are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Basic filtering is supported, but the Filter features added in Excel 2010 are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>Styles</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>Layout</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some layouts, such as compact axis, are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some layouts, such as compact axis, are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>Calculated fields</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>Grouping</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTable</para>
+												</TD>
+												<TD>
+													<para>IMBI PivotTables</para>
+												</TD>
+												<TD />
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>PivotTables</para>
+												</TD>
+												<TD>
+													<para>OLAP Pivots</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Consolidation</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Share Workbook button (Review tab)</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Data labels</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Data Labels are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Data Labels are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Data tables</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Trendlines</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Trendlines are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Trendlines are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Error bars</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Error Bars are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some Error Bars are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Drop Lines</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Hi-Low lines</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Leader lines on data labels</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Filled Radar Charts</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Legends</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some settings are not supported.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>When you save the file in .ods format and open it again in Excel, some settings are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>PivotCharts</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>charts</para>
+												</TD>
+												<TD>
+													<para>Chart Sheets</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Pie of Pie or Bar of Pie</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>OLAP Formulas</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>charts</para>
+												</TD>
+												<TD>
+													<para>Shapes on charts</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+										</tbody>
+									</table>
+								</content>
+							</section>
+							<section address="bm1">
+								<title>Graphics Elements</title>
+								<content>
+									<para>The table below shows which Excel graphics features are fully, partially, or not supported in the OpenDocument Format (.ods).</para>
+									<list class="bullet">
+										<listItem>
+											<para><embeddedLabel>Supported</embeddedLabel>  The Excel format and the OpenDocument Format support this feature. Graphics using this feature generally appear and behave the same in either format.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Partially Supported</embeddedLabel>  The Excel format and the OpenDocument Format support this feature, but graphics might appear different between the formats. No data is generally lost between the formats, but formatting and how you work with these graphics might be different.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Not Supported</embeddedLabel>  Because of the unique differences of features and implementation between the Excel format and the OpenDocument Format, this feature isn’t supported in OpenDocument Format. If you plan to save your worksheet in an OpenDocument Format, don’t use these features.</para>
+										</listItem>
+									</list>
+									<table border="1">
+										<thead>
+											<tr>
+												<TD>
+													<para><legacyBold>Basic shapes</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Level of support</legacyBold></para>
+												</TD>
+												<TD>
+													<para />
+												</TD>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<TD />
+												<TD>
+													<para><legacyBold>Excel 2007</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Excel 2010</legacyBold></para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Shapes</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Text boxes</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except for objects inside text boxes. The objects inside the text box are dropped when you open an OpenDocument file.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except for objects inside text boxes. The objects inside the text box are dropped when you open an OpenDocument file.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>WordArt</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>ODF does not support the WordArt options in Excel. As a result, WordArt is converted to a text box on save. The text and base text color are maintained but WordArt effects and formatting are lost.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>ODF does not support the WordArt options in Excel. As a result, WordArt is converted to a text box on save. The text and base text color are maintained but WordArt effects and formatting are lost.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>3D shapes options</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Pictures</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except for the insert and link option that are not supported in ODF.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except for the insert and link option that are not supported in ODF.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>SmartArt diagrams</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Converted to a group of shapes.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Converted to a group of shapes.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>ActiveX controls</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Excel form controls</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Objects in charts</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Converted to a group containing the chart and objects.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Converted to a group containing the chart and objects.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Signature line object</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Camera tool/paste as picture link object</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Ink annotation</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>The ink annotation is converted to a freeform shape.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>The ink annotation is converted to an Enhanced Metafile (EMF) image.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Group of objects</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Some objects cannot be grouped together in Excel 2007, so the objects are ungrouped when you open the OpenDocument file. This includes a chart, picture, shape, or text box grouped with an OLE object.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Some objects cannot be grouped together in Excel 2010, so the objects are ungrouped when you open the OpenDocument file. This includes a chart, picture, shape, or text box grouped with an OLE object.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Object visibility</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Invisible objects become visible after saving the file in .ods and opening again in Excel 2007.</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+													<para>Invisible objects become visible after saving the file in .ods and opening again in Excel 2010.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Object borders</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Not all border styles are supported. Border styles that are not supported are saved as the default border style (black, solid line).</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Not all border styles are supported. Border styles that are not supported are saved as the default border style (black, solid line).</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Object fills</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except that gradient fills with more than two stops lose all stops after the first two</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Supported except that gradient fills with more than two stops lose all stops after the first two.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Line formatting</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Not all line and line end styles are supported in ODF. Styles that are not supported are saved as the default, black solid line and open arrow type, respectively.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Not all line and line end styles are supported in ODF. Styles that are not supported are saved as the default, black solid line and open arrow type, respectively.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Picture cropping</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Regular cropping of a picture is supported. However, cropping a picture with a shape is not supported.</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+													<para>Regular cropping of a picture is supported. However, cropping a picture with a shape is not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Picture recoloring</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some picture recoloring has the equivalent in ODF, such as black and white. Other picture recoloring does not have an equivalent and is flattened. The picture appears the same but the recoloring can no longer be changed or removed.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Some picture recoloring has the equivalent in ODF, such as black and white. Other picture recoloring does not have an equivalent and is flattened. The picture appears the same but the recoloring can no longer be changed or removed.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>3D picture options</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Picture styles</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Borders are partially supported, but might not look the same.</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+													<para>Borders are partially supported, but might not look the same.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Themes</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Hyperlink on shape</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+											</tr>
+										</tbody>
+									</table>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOfficeVersion="Office Online">
+					<tabControlItemTitle>Excel Online</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para />
+						</content>
+						<sections>
+							<section>
+								<title>What happens when I edit a spreadsheet in the OpenDocument Spreadsheet format?</title>
+								<content>
+									<para>The table below shows which Excel Online features are fully, partially, or not supported in the OpenDocument Spreadsheet (.ods) format.</para>
+									<list class="bullet">
+										<listItem>
+											<para><embeddedLabel>Supported</embeddedLabel> Both Excel Online and the OpenDocument Spreadsheet format support this feature. Content, formatting, and usability will not be lost.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Partially Supported</embeddedLabel> Both Excel Online and the OpenDocument Spreadsheet format support this feature, but formatting and usability might be affected. No text or data is lost, but formatting and how you work with text or graphics might be different.</para>
+										</listItem>
+										<listItem>
+											<para><embeddedLabel>Not Supported</embeddedLabel> The feature in Excel Online is not supported in the OpenDocument Spreadsheet format. By using the OpenDocument Spreadsheet format you risk losing content, formatting, and usability of that part of your spreadsheet.</para>
+										</listItem>
+										<listItem>
+											<para><legacyBold>Not Applicable</legacyBold> The feature was introduced in a later version of Excel for Windows.</para>
+										</listItem>
+									</list>
+									<para />
+									<table>
+										<thead>
+											<tr>
+												<TD>
+													<para><legacyBold>Area</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Subarea</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Level of Support</legacyBold></para>
+												</TD>
+												<TD>
+													<para><legacyBold>Comments</legacyBold></para>
+												</TD>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<TD>
+													<para>Signature line object</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>The digital signature is removed as soon as you make any edits in the file. Save a copy to edit and the signature is removed from copied file</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formatting</para>
+												</TD>
+												<TD>
+													<para>Row Heights/Column widths</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Appearance should be similar.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formatting</para>
+												</TD>
+												<TD>
+													<para>Cell</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Formatting</para>
+												</TD>
+												<TD>
+													<para>Cell styles</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para />
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Hyperlinks</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para>Hyperlink styles may change.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formulas</para>
+												</TD>
+												<TD />
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Formulas</para>
+												</TD>
+												<TD>
+													<para>Names</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>When you open an .ods format file in Excel Online, Local Names, Named expressions, and names to discontinuous ranges are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Formulas</para>
+												</TD>
+												<TD>
+													<para>Regular Expressions</para>
+												</TD>
+												<TD>
+													<para />
+													<para>Not Supported</para>
+													<para />
+												</TD>
+												<TD>
+													<para>Use Advanced Filters instead.﻿</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Dates</para>
+												</TD>
+												<TD>
+													<para>Dates before 1900-01-01</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para> If save workbook with dates before 1900-01-01 as .ods, the pre-1900 dates won't save correctly.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Group &amp; Outline</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>When you save the file in .ods format and open it again in Excel, the formulas themselves are supported, but the settings for re-applying are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Sort</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>Some advanced settings are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Filter</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>Basic filtering is supported, but more complex filters such as date filters are not supported.<br />
+			 </para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Data Tools</para>
+												</TD>
+												<TD>
+													<para>Subtotal</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>When you save the file in .ods format and open it again in Excel, the formulas themselves are supported, but the settings for re-applying are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Trendlines</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>When you open an .ods format file in Excel Online, some Trendlines are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Legends</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>When you open an .ods format file in Excel Online, some settings are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Error bars</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>When you open an .ods format file in Excel Online, some Error Bars are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Data labels</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>When you open an .ods format file in Excel Online, some Data Labels are not supported.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Data tables</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Drop Lines</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Hi-Low lines</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Leader lines on data labels</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Filled Radar Charts</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>PivotCharts</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Chart Sheets</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Pie of Pie or Bar of Pie</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Box and Whisker</para>
+												</TD>
+												<TD>
+													<para />
+													<para>Not Applicable</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Histogram</para>
+												</TD>
+												<TD>
+													<para />
+													<para>Not Applicable</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Pareto chart</para>
+												</TD>
+												<TD>
+													<para />
+													<para>Not Applicable</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Sunburst chart</para>
+												</TD>
+												<TD>
+													<para />
+													<para>Not Applicable</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Treemap chart</para>
+												</TD>
+												<TD>
+													<para />
+													<para>Not Applicable</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Charts</para>
+												</TD>
+												<TD>
+													<para>Waterfall chart</para>
+												</TD>
+												<TD>
+													<para />
+													<para>Not Applicable</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Collaboration</para>
+												</TD>
+												<TD>
+													<para>Co-Authoring</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD />
+											</tr>
+											<tr>
+												<TD>
+													<para>Cell Comments</para>
+												</TD>
+												<TD>
+													<para />
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>Comments with content are round-tripped. Formatting on the comment might not be supported when you save the file in .ods format and open it again in Excel.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Protection</para>
+												</TD>
+												<TD>
+													<para>Sheet Protection</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>When you save the file in .ods format and open it again in Excel, protection without a password is supported. However, files with a password-protected sheet cannot be saved or opened.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Tables</para>
+												</TD>
+												<TD>
+													<para>Table Styles</para>
+												</TD>
+												<TD>
+													<para>Not Supported</para>
+												</TD>
+												<TD>
+													<para>Table Styles are not saved for files opened in the .ods format.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Tables</para>
+												</TD>
+												<TD>
+													<para>Total Row</para>
+												</TD>
+												<TD>
+													<para>Partially Supported</para>
+												</TD>
+												<TD>
+													<para>Table Rows added to .ods format files in Excel Online are converted to formulas when the file is opened again.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para>Print</para>
+												</TD>
+												<TD>
+													<para>Print Ranges</para>
+												</TD>
+												<TD>
+													<para>Supported</para>
+												</TD>
+												<TD>
+													<para />
+												</TD>
+											</tr>
+										</tbody>
+									</table>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+			</tabControl>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="85680173-064b-4024-b39d-80f17ff2f4e8" revisionNumber="30"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>A histogram is a column chart that shows frequency data.</para>
+		<alert class="note">
+			<para>This topic only talks about creating a histogram. For information on Pareto (sorted histogram) charts, see <link xlink:href="a1512496-6dba-4743-9ab1-df5012972856">Create a Pareto chart</link>.</para>
+		</alert>
+	</introduction>
+	<section>
+		
+		<content>
+			<tabControl controlId="OfficeVersion">
+				<tabControlItem targetedOS="Windows">
+					<tabControlItemTitle>Windows</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<dropdown><dropdownPrompt>Which version/product are you using?</dropdownPrompt>
+								<dropdownItem>
+									<dropdownItemTitle>Excel 2016 and newer versions</dropdownItemTitle>
+									<dropdownItemContent>
+										<content />
+										<sections>
+											<section expanded="true">
+												<title>Create a histogram chart</title>
+												<content>
+													<list class="ordered">
+														<listItem>
+															<para>Select your data.</para>
+															<para>(This is a typical example of data for a histogram.)</para>
+															<mediaLink>
+																<image xlink:href="9c1b7dcb-9986-498a-b153-127c7e37896e" />
+															</mediaLink>
+														</listItem>
+														<listItem>
+															<para>Click <ui>Insert</ui> &gt; <ui> Insert Statistic Chart</ui> &gt; <ui>Histogram</ui>.</para>
+															<para><mediaLinkInline><image xlink:href="f2724c8f-ac73-43c9-a0b2-718be485a399" /></mediaLinkInline></para>
+															<para>You can also create a histogram from the <ui>All Charts</ui> tab in <ui>Recommended Charts</ui>.</para>
+														</listItem>
+													</list>
+													<alert class="tip">
+														<list class="bullet">
+															<listItem>
+																<para>Use the <ui>Design</ui> and <ui>Format</ui> tabs to customize the look of your chart.</para>
+															</listItem>
+															<listItem>
+																<para>If you don't see these tabs, click anywhere in the histogram to add the <ui>Chart Tools</ui> to the ribbon.</para>
+															</listItem>
+														</list>
+													</alert>
+													<mediaLink>
+														<image xlink:href="fd7db992-63b2-4e28-a877-a2ae13d6b7ef" />
+													</mediaLink>
+												</content>
+											</section>
+											<section expanded="true">
+												<title>Configure histogram bins</title>
+												<content>
+													<list class="ordered">
+														<listItem>
+															<para>Right-click the horizontal axis of the chart, click <ui>Format Axis</ui>, and then click <ui> Axis Options</ui>.</para>
+															<mediaLink>
+																<image xlink:href="625d7344-d0be-4f56-b941-ee27f947fb8f" />
+															</mediaLink>
+														</listItem>
+														<listItem>
+															<para>Use the information in the following table to decide which options you want to set in the <ui>Format Axis</ui> task pane.</para>
+															<table border="1">
+																<tbody>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Option</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para><legacyBold>Description</legacyBold></para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>By Category</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Choose this option when the categories (horizontal axis) are text-based instead of numerical. The histogram will group the same categories and sum the values in the value axis.</para>
+																			<alert class="tip">
+																				<para>To count the number of appearances for text strings, add a column and fill it with the value “1”, then plot the histogram and set the bins to <ui>By Category</ui>.</para>
+																			</alert>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Automatic</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>This is the default setting for histograms. The bin width is calculated using <link xlink:href="85680173-064b-4024-b39d-80f17ff2f4e8#BKMK_ScottRefRule">Scott’s normal reference rule</link>.</para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Bin width</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Enter a positive decimal number for the number of data points in each range.</para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Number of bins</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Enter the number of bins for the histogram (including the overflow and underflow bins).</para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Overflow bin</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Select this check box to create a bin for all values above the value in the box to the right. To change the value, enter a different decimal number in the box.</para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Underflow bin</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Select this check box to create a bin for all values below or equal to the value in the box to the right. To change the value, enter a different decimal number in the box.</para>
+																		</TD>
+																	</tr>
+																</tbody>
+															</table>
+															<mediaLink>
+																<image xlink:href="859f6194-795a-4916-866c-c3d5f109444d" />
+															</mediaLink>
+														</listItem>
+													</list>
+													<alert class="tip">
+														<para>To read more about the histogram chart and how it helps you visualize statistical data, see this <externalLink><linkText>blog post on the histogram, Pareto, and box and whisker chart</linkText><linkUri>https://blogs.office.com/2015/08/18/visualize-statistics-with-histogram-pareto-and-box-and-whisker-charts/</linkUri></externalLink> by the Excel team. You may also be interested learning more about <externalLink><linkText>the other new chart types described in this blog post</linkText><linkUri>https://blogs.office.com/2015/07/02/introducing-new-and-modern-chart-types-now-available-in-office-2016-preview/</linkUri></externalLink>.</para>
+													</alert>
+												</content>
+											</section>
+											<section address="BKMK_ScottRefRule" expanded="true">
+												<title>Formulas used to create histograms</title>
+												<content>
+													<para><embeddedLabel>Automatic option (Scott’s normal reference rule)</embeddedLabel></para>
+													<mediaLink>
+														<image xlink:href="25c6c101-4945-4e5a-bfa3-05b845c66e3a" />
+													</mediaLink>
+													<para>Scott’s normal reference rule tries to minimize the bias in variance of the histogram compared with the data set, while assuming normally distributed data.</para>
+													<para><embeddedLabel>Overflow bin option</embeddedLabel></para>
+													<mediaLink>
+														<image xlink:href="6acca524-130d-4e6a-88de-ad3066210ed6" />
+													</mediaLink>
+													<para><embeddedLabel>Underflow bin option</embeddedLabel></para>
+													<mediaLink>
+														<image xlink:href="bd261a41-09b7-4319-b0f1-3dd817d4fc0d" />
+													</mediaLink>
+												</content>
+											</section></sections>
+									</dropdownItemContent>
+								</dropdownItem><dropdownItem>
+									<dropdownItemTitle>Excel 2007 - 2013</dropdownItemTitle>
+									<dropdownItemContent>
+										<content>
+											<list class="ordered">
+												<listItem>
+													<para>Make sure you have loaded the Analysis ToolPak. For more information, see <link xlink:href="6a63e598-cd6d-42e3-9317-6b40ba1a66b4">Load the Analysis ToolPak in Excel</link>.</para>
+												</listItem>
+												<listItem>
+													<para>On a worksheet, type the input data in one column, adding a label in the first cell if you want.</para>
+													<para>Be sure to use quantitative numeric data, like item amounts or test scores. The Histogram tool won’t work with qualitative numeric data, like identification numbers entered as text.</para>
+												</listItem>
+												<listItem>
+													<para>In the next column, type the bin numbers in ascending order, adding a label in the first cell if you want.</para>
+													<para>It’s a good idea to use your own bin numbers because they may be more useful for your analysis. If you don't enter any bin numbers, the Histogram tool will create evenly distributed bin intervals by using the minimum and maximum values in the input range as start and end points.</para>
+												</listItem>
+												<listItem>
+													<para>Click <ui>Data</ui> &gt; <ui>Data Analysis</ui>.</para>
+													<para><mediaLinkInline><image xlink:href="bfb04e63-ebde-4c9a-9405-5a6e4cdd58d8" /></mediaLinkInline></para>
+												</listItem>
+												<listItem>
+													<para>Click <ui>Histogram</ui> &gt; <ui>OK</ui>.</para>
+													<para><mediaLinkInline><image xlink:href="b40e538d-5f9c-4e36-b985-9f00042b78c6" /></mediaLinkInline></para>
+												</listItem>
+												<listItem>
+													<para>Under <ui>Input</ui>, do the following:</para>
+													<list class="ordered">
+														<listItem>
+															<para>In the <ui>Input Range</ui> box, enter the cell reference for the data range that has the input numbers.</para>
+														</listItem>
+														<listItem>
+															<para>In the <ui>Bin Range</ui> box, enter the cell reference for the range that has the bin numbers.</para>
+															<para>If you used column labels on the worksheet, you can include them in the cell references.</para>
+															<alert class="tip">
+																<para>Instead of entering references manually, you can click <mediaLinkInline><image xlink:href="df343c13-ee17-4488-a250-e439ac7dd961" /></mediaLinkInline> to temporarily collapse the dialog box to select the ranges on the worksheet. Clicking the button again expands the dialog box.</para>
+															</alert>
+														</listItem>
+													</list>
+												</listItem>
+												<listItem>
+													<para>If you included column labels in the cell references, check the <ui>Labels</ui> box.</para>
+												</listItem>
+												<listItem>
+													<para>Under <ui>Output options</ui>, choose an output location.</para>
+													<para>You can put the histogram on the same worksheet, a new worksheet in the current workbook, or in a new workbook.</para>
+												</listItem>
+												<listItem>
+													<para>Check one or more of the following boxes:</para>
+													<para><ui>Pareto (sorted histogram)</ui> This shows the data in descending order of frequency.</para>
+													<para><embeddedLabel><ui>Cumulative Percentage</ui> </embeddedLabel> This shows cumulative percentages and adds a cumulative percentage line to the histogram chart.</para>
+													<para><embeddedLabel><ui>Chart Output</ui> </embeddedLabel> This shows an embedded histogram chart.</para>
+												</listItem>
+												<listItem>
+													<para>Click <ui>OK</ui>.</para>
+													<para>If you want to customize your histogram, you can change text labels, and click anywhere in the histogram chart to use the <ui>Chart Elements</ui>, <ui>Chart Styles</ui>, and <ui>Chart Filter</ui> buttons on the right of the chart.</para>
+												</listItem>
+											</list>
+										</content>
+									</dropdownItemContent>
+								</dropdownItem>
+								
+								<dropdownItem>
+									<dropdownItemTitle>Outlook, PowerPoint, Word 2016</dropdownItemTitle>
+									<dropdownItemContent>
+										<content>
+											<para />
+										</content>
+										<sections>
+											<section expanded="true">
+												<title>Create a histogram chart</title>
+												<content>
+													<list class="ordered">
+														<listItem>
+															<para>Select your data.</para>
+															<para>(This is a typical example of data for a histogram.)</para>
+															<mediaLink>
+																<image xlink:href="9c1b7dcb-9986-498a-b153-127c7e37896e" />
+															</mediaLink>
+														</listItem>
+														<listItem>
+															<para>Click <ui>Insert</ui> &gt; <ui>Chart</ui>.</para>
+															<mediaLink>
+																<image xlink:href="4ef78bb3-b97b-4c5e-aefb-81039bac180f" />
+															</mediaLink>
+														</listItem>
+														<listItem>
+															<para>In the <ui>Insert Chart</ui> dialog box, under <ui>All Charts</ui>, click <ui>Histogram</ui> , and click <ui>OK</ui>.</para>
+														</listItem>
+													</list>
+													<alert class="tip">
+														<list class="bullet">
+															<listItem>
+																<para>Use the <ui>Design</ui> and <ui>Format</ui> tabs on the ribbon to customize the look of your chart.</para>
+															</listItem>
+															<listItem>
+																<para>If you don't see these tabs, click anywhere in the histogram to add the <ui>Chart Tools</ui> to the ribbon.</para>
+															</listItem>
+														</list>
+													</alert>
+													<mediaLink>
+														<image xlink:href="fd7db992-63b2-4e28-a877-a2ae13d6b7ef" />
+													</mediaLink>
+												</content>
+											</section>
+											<section expanded="true">
+												<title>Configure histogram bins</title>
+												<content>
+													<list class="ordered">
+														<listItem>
+															<para>Right-click the horizontal axis of the chart, click <ui>Format Axis</ui>, and then click <ui> Axis Options</ui>.</para>
+															<mediaLink>
+																<image xlink:href="625d7344-d0be-4f56-b941-ee27f947fb8f" />
+															</mediaLink>
+														</listItem>
+														<listItem>
+															<para>Use the information in the following table to decide which options you want to set in the <ui>Format Axis</ui> task pane.</para>
+															<table border="1">
+																<tbody>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Option</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para><legacyBold>Description</legacyBold></para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>By Category</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Choose this option when the categories (horizontal axis) are text-based instead of numerical. The histogram will group the same categories and sum the values in the value axis.</para>
+																			<alert class="tip">
+																				<para>To count the number of appearances for text strings, add a column and fill it with the value “1”, then plot the histogram and set the bins to <ui>By Category</ui>.</para>
+																			</alert>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Automatic</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>This is the default setting for histograms.</para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Bin width</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Enter a positive decimal number for the number of data points in each range.</para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Number of bins</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Enter the number of bins for the histogram (including the overflow and underflow bins).</para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Overflow bin</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Select this check box to create a bin for all values above the value in the box to the right. To change the value, enter a different decimal number in the box.</para>
+																		</TD>
+																	</tr>
+																	<tr>
+																		<TD>
+																			<para><legacyBold>Underflow bin</legacyBold></para>
+																		</TD>
+																		<TD>
+																			<para>Select this check box to create a bin for all values below or equal to the value in the box to the right. To change the value, enter a different decimal number in the box.</para>
+																		</TD>
+																	</tr>
+																</tbody>
+															</table>
+															<mediaLink>
+																<image xlink:href="859f6194-795a-4916-866c-c3d5f109444d" />
+															</mediaLink>
+														</listItem>
+													</list>
+													<alert class="tip">
+														<para>To read more about the histogram chart and how it helps you visualize statistical data, see this <externalLink><linkText>blog post on the histogram, Pareto, and box and whisker chart</linkText><linkUri>https://blogs.office.com/2015/08/18/visualize-statistics-with-histogram-pareto-and-box-and-whisker-charts/</linkUri></externalLink> by the Excel team. You may also be interested learning more about <externalLink><linkText>the other new chart types described in this blog post</linkText><linkUri>https://blogs.office.com/2015/07/02/introducing-new-and-modern-chart-types-now-available-in-office-2016-preview/</linkUri></externalLink>.</para>
+													</alert>
+												</content>
+											</section></sections>
+									</dropdownItemContent>
+								</dropdownItem>
+							</dropdown>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOS="Mac">
+					<tabControlItemTitle>macOS</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							
+							<para>Follow these steps to create a histogram in Excel for Mac:</para>
+							<list class="ordered">
+								<listItem>
+									<para>Select the data.</para>
+									<para>(This is a typical example of data for a histogram.)</para>
+									<mediaLink>
+										<image xlink:href="9c1b7dcb-9986-498a-b153-127c7e37896e" />
+									</mediaLink>
+								</listItem>
+								<listItem>
+									<para>On the ribbon, click the <ui>Insert</ui> tab, then click <mediaLinkInline><image xlink:href="d534ad0a-9643-474b-8795-bfbee600db94" /></mediaLinkInline> (<ui>Statistical</ui> icon) and under <ui>Histogram</ui>, select <ui>Histogram</ui>.</para>
+								</listItem>
+							</list>
+							<alert class="tip">
+								<list class="bullet">
+									<listItem>
+										<para>Use the <ui>Chart Design</ui> and <ui>Format</ui> tabs to customize the look of your chart.</para>
+									</listItem>
+									<listItem>
+										<para>If you don't see the <ui>Chart Design</ui> and <ui>Format</ui> tabs, click anywhere in the histogram to add them to the ribbon.</para>
+									</listItem>
+								</list>
+							</alert>
+						<para>To create a histogram in Excel 2011 for Mac, you'll need to download a third-party add-in. See: <externalLink><linkText>I can't find the Analysis Toolpak in Excel 2011 for Mac</linkText><linkUri>https://support.office.com/article/6a63e598-cd6d-42e3-9317-6b40ba1a66b4</linkUri></externalLink> for more details.</para></content>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOS="Windows">
+					<tabControlItemTitle>Online</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<para address="bmbacktotop">In <token>TE000001087</token>, you can view a histogram (a column chart that shows frequency data), but you can’t create it because it requires the Analysis ToolPak, an <token>Excel</token> add-in that isn’t supported in <token>TE000001087</token>.</para>
+							<para>If you have the <token>Excel</token> desktop application, you can use the <ui>Edit in Excel</ui> button to open <token>Excel</token> on your desktop and <link xlink:href="85680173-064b-4024-b39d-80f17ff2f4e8#OfficeVersion=Windows">create the histogram</link>.</para>
+							<para><mediaLinkInline><image xlink:href="eb46ee34-47ba-4eb5-9f21-28d57f84279e" /></mediaLinkInline></para>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOS="iOS">
+					<tabControlItemTitle>iOS</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<list class="ordered">
+								<listItem>
+									<para>Tap to select your data.</para>
+									<mediaLink>
+										<image xlink:href="9c1b7dcb-9986-498a-b153-127c7e37896e" />
+									</mediaLink>
+								</listItem>
+								<listItem>
+									<para>If you're on a phone, tap the edit icon <mediaLinkInline><image xlink:href="f0d8e860-29ae-4d68-a278-3745c4c977b8" /></mediaLinkInline> to show the ribbon. and then tap <ui>Home</ui>.</para>
+								</listItem>
+								<listItem>
+									<para>Tap <ui>Insert</ui> &gt; <ui>Charts</ui> &gt; <ui>Histogram</ui>.</para>
+									<para>If necessary, you can customize the elements of the chart.</para>
+									<tokenBlock>O365Upsell_Excel</tokenBlock>
+								</listItem>
+							</list>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOS="Android">
+					<tabControlItemTitle>Android</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+							<list class="ordered">
+								<listItem>
+									<para>Tap to select your data.</para>
+									<mediaLink>
+										<image xlink:href="9c1b7dcb-9986-498a-b153-127c7e37896e" />
+									</mediaLink>
+								</listItem>
+								<listItem>
+									<para>If you're on a phone, tap the edit icon <mediaLinkInline><image xlink:href="f0d8e860-29ae-4d68-a278-3745c4c977b8" /></mediaLinkInline> to show the ribbon, and then tap <ui>Home</ui>.</para>
+								</listItem>
+								<listItem>
+									<para>Tap <ui>Insert</ui> &gt; <ui>Charts</ui> &gt; <ui>Histogram</ui>.</para>
+								</listItem>
+							</list>
+						</content>
+					</tabControlItemSection>
+				</tabControlItem>
+			</tabControl>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>About histogram data</title>
+		<content>
+			<para>To create a histogram in <token>Excel</token>, you provide two types of data — the data that you want to analyze, and the bin numbers that represent the intervals by which you want to measure the frequency. You must organize the data in two columns on the worksheet. These columns must contain the following data:</para>
+			<list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Input data</embeddedLabel> This is the data that you want to analyze by using the Histogram tool.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Bin numbers</embeddedLabel> These numbers represent the intervals that you want the Histogram tool to use for measuring the input data in the data analysis.</para>
+				</listItem>
+			</list>
+			<para>When you use the Histogram tool, <token>Excel</token> counts the number of data points in each data bin. A data point is included in a particular bin if the number is greater than the lowest bound and equal to or less than the greatest bound for the data bin. If you omit the bin range, <token>Excel</token> creates a set of evenly distributed bins between the minimum and maximum values of the input data.</para>
+			<para>The output of the histogram analysis is displayed on a new worksheet (or in a new workbook) and shows a histogram table and a column chart that reflects the data in the histogram table.</para>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<tokenBlock>Excel_CommunityLinks</tokenBlock>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="bc23ba8e-0c3e-40b1-824f-888c7b0c184f" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="bmbacktotop">The Compatibility Checker found one or more compatibility issues related to graphics, objects, or ActiveX controls.</para>
+    <alert class="important">
+      <para>Before you continue saving the workbook to an earlier file format, you should address <legacyBold>issues that cause a significant loss of functionality</legacyBold> so that you can prevent permanent loss of data or incorrect functionality. </para>
+    </alert>
+    <para>
+      <legacyBold>Issues that cause a minor loss of fidelity</legacyBold> might or might not have to be resolved before you continue saving the workbook—data or functionality is not lost, but the workbook might not look or work exactly the same way when you open it in an earlier version of Microsoft Excel.</para>
+  </introduction>
+  <section>
+    <title address="___toc___1_t">In this article</title>
+    <content>
+      <list class="nobullet" address="___toc___1_l">
+        <listItem>
+          <para>
+            <link xlink:href="1229ea9b-1522-488d-a982-6368bd639687#bm1">Issues that cause a significant loss of functionality</link>
+          </para>
+        </listItem>
+        <listItem>
+          <para>
+            <link xlink:href="1229ea9b-1522-488d-a982-6368bd639687#bm2">Issues that cause a minor loss of fidelity</link>
+          </para>
+        </listItem>
+      </list>
+    </content>
+    <sections />
+  </section>
+  <section address="bm1">
+    <title>Issues that cause a significant loss of functionality</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Issue</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Solution</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>Any effects on this object will be removed. Any text that overflows the boundaries of this graphic will appear clipped.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, you can use special effects, such as transparent shadows that are not supported in Excel 97-2003. The special effects will be removed.</para>
+              <para>Also, in Excel 2007 and later, when you insert text in a shape that is wider than the shape, the text displays across the boundaries of the shape. In Excel 97-2003, this text is truncated. To avoid truncated text, you can adjust the size of the shape for a better fit.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the objects that have special effects applied so that you can remove those effects as needed.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>This object will no longer be editable.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> Embedded objects that are created in Excel 2007 and later cannot be edited in Excel 97-2003.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the objects that contain text that will not be editable, and then make the necessary changes.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>Uninitialized ActiveX controls cannot be transferred to the selected file format.  The controls will be lost if you continue.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> If a workbook contains ActiveX controls that are considered to be Unsafe for Initialization (UFI), they are lost when you save the workbook to an earlier Excel file format. You may want to mark those controls as Safe for Initialization (SFI). </para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> If you open a workbook that contains uninitialized ActiveX controls, and the workbook is set to high security, you must first use the Message Bar to enable them before they can be initialized.</para>
+            </TD>
+          </tr>
+          <tr>
+            <TD>
+              <para>One or more objects in this workbook (such as shapes, WordArt, or text boxes) may allow text to overflow the object boundaries. Earlier versions of Excel do not recognize this option and will hide overflowing text.</para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2010 and later, you can display text boxes on objects (such as shapes) and display the text beyond the boundaries of those objects. In Excel 97-2007, text that overflows the boundaries of an object will not be visible.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the text box that contains text that overflows the boundaries of the shape, make the necessary changes to keep the text within the boundaries, and then turn the option to overflow text off (right-click the shape or text box, click <ui>Format Shape</ui>, click  the <ui>Text Options</ui> category, click the <ui>Textbox</ui> button,  and then select the <ui>Allow text to overflow shape</ui> check box).</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <para>
+        <link xlink:href="1229ea9b-1522-488d-a982-6368bd639687#__top">Top of Page</link>
+      </para>
+    </content>
+    <sections />
+  </section>
+  <section address="bm2">
+    <title>Issues that cause a minor loss of fidelity</title>
+    <content>
+      <table>
+        <thead>
+          <tr>
+            <TD>
+              <para>
+                <legacyBold>Issue</legacyBold>
+              </para>
+            </TD>
+            <TD>
+              <para>
+                <legacyBold>Solution</legacyBold>
+              </para>
+            </TD>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <TD>
+              <para>This workbook contains text boxes with text formatting not available in earlier versions of Excel. The text in the text boxes will appear differently in the earlier versions of Excel. </para>
+            </TD>
+            <TD>
+              <para>
+                <embeddedLabel>What it means</embeddedLabel> In Excel 2007 and later, you can use a text box on objects (such as shapes) that displays more than one column of text. In Excel 97-2003, the text will be displayed but in a different format.</para>
+              <para>
+                <embeddedLabel>What to do</embeddedLabel> In the Compatibility Checker, click <ui>Find</ui> to locate the text box that displays more than one columns of text, and then make the necessary changes to display the text in one column only (right-click the shape, click <ui>Format Shape</ui>, click the <ui>Text Options</ui> category, click the <ui>Textbox</ui> button, and then click the <ui>Columns</ui> button).</para>
+            </TD>
+          </tr>
+        </tbody>
+      </table>
+      <para address="__goback">
+        <link xlink:href="1229ea9b-1522-488d-a982-6368bd639687#__top">Top of Page</link>
+      </para>
+    </content>
+    </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

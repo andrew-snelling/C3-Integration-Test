@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="3e35d639-519a-4799-96bf-d81da6f6d07a" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top"> 
+	 <para>You can change the look of columns and bubbles on your map by changing their shapes.</para>
+	 <mediaLink>
+		<caption>3D Maps with square column shapes</caption>
+		<image xlink:href="cf296fed-f82b-406a-a9be-aa8df2dfced7"> </image></mediaLink>
+	 <mediaLink>
+		<caption>The same 3D Maps with circular column shapes</caption>
+		<image xlink:href="d2b2bc96-4aa4-4f03-bb0b-ab688e90e423"> </image></mediaLink>
+	 <para>Click <ui>Home</ui> &gt; <ui>Shapes</ui>, and pick the shape you want.</para>
+	 <para> <mediaLinkInline>
+<image xlink:href="41278981-a815-4eef-bcf1-69c9e3faddbf" />
+</mediaLinkInline> </para>
+  </introduction>
+  <relatedTopics /> 
+</developerConceptualDocument></topic>

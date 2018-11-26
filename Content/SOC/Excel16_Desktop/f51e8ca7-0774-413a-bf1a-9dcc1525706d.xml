@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f51e8ca7-0774-413a-bf1a-9dcc1525706d" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>Organizations today need to guard against leaking sensitive company information such as financial data or personally identifiable information.  To do this, companies put certain restrictions in place to reduce the risk of sensitive data being mistakenly included in personal documents or emails. The same is true when working in Excel. Many times, the data connected to your spreadsheet is protected by your company.</para>
+  </introduction>
+  <section>
+    <title>
+    </title>
+    <content>
+      <para>If you’ve gotten the following error, the most likely scenario is that you have a personal workbook that is connected to your company’s secured protected data. Both the spreadsheet and the data must be within the secured locations of your company.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="ef0c0c9c-3c4c-464f-a2d4-dd406ad15aab" />
+        </mediaLinkInline>
+      </para>
+      <para>There are two ways to resolve this issue.</para>
+      <list class="bullet">
+        <listItem>
+          <para>Save a copy of the workbook in a work location such as your company’s server, on a SharePoint site, or in OneDrive for Business.</para>
+        </listItem>
+        <listItem>
+          <para>Change the file ownership of your workbook from <ui>Personal</ui> to <ui>Work</ui>.</para>
+        </listItem>
+      </list>
+      <para>
+        <legacyBold>To change the file ownership</legacyBold>
+      </para>
+      <list class="ordered">
+        <listItem>
+          <para>In the File Explorer, right-click on the file, and choose <ui>File ownership</ui>.</para>
+        </listItem>
+        <listItem>
+          <para>Change the ownership from <ui>Personal</ui> to <ui>Work</ui>.</para>
+          <para>
+            <mediaLinkInline>
+              <image xlink:href="a6370345-1a97-455a-b2a6-b55435fa9048" />
+            </mediaLinkInline>
+          </para>
+        </listItem>
+      </list>
+      <para>Now when you refresh the file, or add new connections to company data, your spreadsheet will refresh with errors.</para>
+    </content>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

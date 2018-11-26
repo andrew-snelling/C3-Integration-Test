@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="26aae7bf-0ace-4b99-9a30-280e1169b91a" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>3D Maps shows a column chart by default when you create a map, but you can change that to a bubble chart, where the size of the bubble emphasizes specific data values.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="064d4dbe-d745-4e64-a373-0c7615e08de8">
+        </image>
+      </mediaLinkInline> </para>
+    <list class="ordered">
+      <listItem>
+        <para>Click <ui>Home</ui> &gt; <ui>Layer Pane</ui>.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="65317674-9161-4cb5-a3b6-6f78b84a8a7c">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>On the <ui>Field List</ui> tab, click <ui>Bubble</ui>.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="7f8ad6af-fb55-4bc0-b458-a2b134fc40cf">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+    </list>
+    <alert class="tip">
+      <para> You can also <link xlink:href="0a02c7b7-89b4-45c0-bed1-62b54c46aab5">change the shape of the bubbles</link>.</para>
+    </alert>
+    <para>When different categories are added for the same data points, the bubbles will automatically resize to show the new ratios, in the same way that slices in a pie chart resize when data series are added. The chart legend will also automatically update.</para>
+    <para address="__goback">If there are more categories in a bubble chart, it starts to look like a pie chart, showing each of the categories in a section of the whole pie bubble. To create a pie bubble, add one or more category fields to your bubble chart. In the example below, New York City has five tall buildings, while Chicago only has one. So, there is a bubble for Chicago and a pie for New York City. If you wanted to make Chicago a pie bubble, you would add another building.</para>
+    <para>
+      <mediaLinkInline>
+        <image xlink:href="8307b5a0-0793-4361-a3b4-b5b6e5909293">
+        </image>
+      </mediaLinkInline>
+    </para>
+  </introduction>
+  <relatedTopics />
+</developerConceptualDocument></topic>

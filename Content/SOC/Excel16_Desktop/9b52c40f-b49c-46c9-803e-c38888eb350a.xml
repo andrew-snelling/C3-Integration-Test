@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="9b52c40f-b49c-46c9-803e-c38888eb350a" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction>
+    <para>The names of data series in <token>appOffice_plural</token> are typically linked to the worksheet data that's used for the chart, and changes you make to that data are automatically shown in the chart. If you want to rename an existing data series or change the values without changing the data on the worksheet, do the following:</para>
+  <list class="ordered">
+            <listItem>
+              <para>Right-click the chart with the data series you want to rename, and click <ui>Select Data</ui>.</para>
+            </listItem>
+            
+            <listItem>
+              <para>In the <ui>Select Data Source</ui> dialog box, under <ui>Legend Entries (Series)</ui>, select the data series, and click <ui>Edit</ui>.</para><para><mediaLinkInline>
+<image xlink:href="a9d9f2f2-95a4-45d0-a40e-e5cb2265cab5" />
+</mediaLinkInline></para>
+            </listItem>
+            <listItem>
+              <para>In the <ui>Series name</ui> box, type the name you want to use. </para><para><mediaLinkInline>
+<image xlink:href="7a976dea-d4a5-479f-a85c-8e43de643583" />
+</mediaLinkInline></para><para>The name you type appears in the chart legend, but won't be added to the worksheet.</para>
+            </listItem>
+            <listItem>
+              
+              <para>To change the data range for the data series, in the <ui>Series values</ui> box, type a data range for the data series or enter the values you want. </para><para>The values you type will appear in the chart, but won't be added to the worksheet.</para><alert class="note">
+                <para>An xy (scatter) has a <ui>Series X values</ui> and <ui>Series Y values</ui> box, and a bubble chart has a <ui>Series X values</ui>, <ui>Series Y values</ui>, and <ui>Series bubble sizes</ui> box. You can change the data range for each of those values.</para>
+              </alert>
+              
+            </listItem>
+          </list>
+          
+          </introduction>
+  
+  
+  <relatedTopics><link xlink:href="ad955a6e-c1db-4550-8664-be059e4bca19">Change the data series in a chart</link></relatedTopics>
+</developerConceptualDocument></topic>

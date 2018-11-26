@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="f8fc21a6-08fc-407a-8a91-643fa848729a" revisionNumber="13"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para />
+		<alert class="important">
+			<para><ui>Power View</ui> has been removed from the ribbon in Excel for Windows, however the interactive visual experience provided by Power View is available as part of <externalLink><linkText>Power BI Desktop, </linkText><linkUri>https://powerbi.microsoft.com/desktop</linkUri></externalLink>which you can download for free. You can easily <externalLink><linkText>import existing Power View reports to Power BI</linkText><linkUri>https://docs.microsoft.com/en-us/power-bi/desktop-import-excel-workbooks</linkUri></externalLink>. While Power View is still available, you may need to update <externalLink><linkText>Microsoft Silverlight</linkText><linkUri>https://www.microsoft.com/getsilverlight/Get-Started/Install/Default</linkUri></externalLink>, as it is now turned off by default.  To turn on Power View, follow the steps below.</para>
+		</alert>
+	</introduction>
+	<section address="BKMK_Customize">
+		<title>Enable services</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>On the<ui> File</ui> tab, choose <ui>Options</ui> &gt; <legacyBold>General﻿.</legacyBold></para>
+				</listItem>
+				<listItem>
+					<para>In the <legacyBold>Office intelligent services</legacyBold> section, turn on <legacyBold>Enable services</legacyBold> if it is not already enabled﻿﻿.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>﻿</legacyBold>Exit and restart Excel﻿.﻿</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section address="BKMK_Customize_1">
+		<title>Customize the ribbon</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>On the<ui> File</ui> tab, choose <ui>Options</ui> &gt; <ui>Customize Ribbon</ui>.</para>
+					<mediaLink>
+						<image xlink:href="8c946935-1b1e-4d1a-8f98-d01aec4771fa" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Main Tabs</ui> group, click the tab where you want to add the new group, and click <ui>New Group</ui>.</para>
+					<mediaLink>
+						<image xlink:href="7b26d462-2f2c-4aa8-9d05-a870e6ea95a7" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>Next, select the <ui>Choose commands from </ui>option, click <ui>Commands Not in the Ribbon</ui>, choose <ui>Insert a Power View Report</ui> from the list, and click <ui>Add</ui>. You can use the Up/Down arrows to the right of the Main Tabs group to move the new group if needed.</para>
+					<mediaLink>
+						<image xlink:href="3cdceba1-85ce-4d8d-9cfe-6222c464454e" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>With <ui>New Group (custom)</ui> selected, click the <ui>Rename</ui> button, and in the <ui>Display Name</ui> box enter the name you want for your Power View group, like "MyReports". To finish, click <ui>OK</ui> twice.</para>
+				</listItem>
+			</list>
+			<para><mediaLinkInline><image xlink:href="f8aa3c7b-6b0e-442a-8522-165ab9d2a8ac" /></mediaLinkInline></para>
+		</content>
+	</section>
+	<section address="BKMK_TurnOn">
+		<title>Turn on the Power View add-in</title>
+		<content>
+			<para>The first time you insert a Power View sheet, Excel you'll be prompted to enable <legacyBold>Data Analysis add-ins</legacyBold>, so click <legacyBold>Enable</legacyBold>.</para>
+			<para />
+			<para><mediaLinkInline><image xlink:href="bd3c95e0-1cb1-46e2-9587-20a48e1993c9" /></mediaLinkInline></para>
+			<para>You may also be prompted to <externalLink><linkText>enable Silverlight</linkText><linkUri>https://www.microsoft.com/getsilverlight/Get-Started/Install/Default.aspx</linkUri></externalLink>. If you still receive a prompt after that, you might need to use registry keys to <link xlink:href="55738f12-a01d-420e-a533-7cef1ff6aeb1">unblock Silverlight</link>.</para>
+			<para>If you still have issues after that, you should consider moving to <externalLink><linkText>Power BI Desktop</linkText><linkUri>https://powerbi.microsoft.com/en-us/desktop/</linkUri></externalLink>, as it is a much more feature rich application.</para>
+			<para />
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

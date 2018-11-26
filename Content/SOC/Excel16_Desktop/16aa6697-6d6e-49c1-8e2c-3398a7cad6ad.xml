@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="16aa6697-6d6e-49c1-8e2c-3398a7cad6ad" revisionNumber="4"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>Let's say that you need to add two different time values together to get a total. Or, you need to subtract one time value from another to get the total time spent working on a project.</para>
+		<para>As you'll see in the sections below, Excel makes it easy to add or subtract time.</para>
+	</introduction>
+	<section address="__goback">
+		<title>Add time</title>
+		<content>
+			<para>Suppose that you want to know how many hours and minutes it will take to complete two tasks. You estimate that the first task will take 6 hours and 45 minutes and the second task will take 9 hours and 30 minutes.</para>
+			<para>Here is one way to set this up in the a worksheet.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Enter <literal>6:45 in cell B2</literal>, and enter 9<literal>:30 in cell B3</literal>.</para>
+				</listItem>
+				<listItem>
+					<para>In cell B4, enter <literal>=B2+B3</literal> and then press Enter.</para>
+					<para><mediaLinkInline><image xlink:href="2f0a0aea-ec1f-4ad0-8362-9db4410a0ac7" /></mediaLinkInline></para>
+					<para>The result is 16:15—16 hours and 15 minutes—for the completion the two tasks.</para>
+					<alert class="tip">
+						<para>You can also add up times by using the <ui>AutoSum</ui> function to sum numbers. Select cell B4, and then on the <ui>Home</ui> tab, choose <ui>AutoSum</ui>. The formula will look like this: <literal>=SUM(B2:B3).</literal> Press Enter to get the same result, 16 hours and 15 minutes.</para>
+					</alert>
+				</listItem>
+			</list>
+			<para>Well, that was easy enough, but there’s an extra step if your hours add up to more than 24. You need to apply a special format to the formula result.</para>
+			<para />
+			<para><legacyBold>To add up more than 24 hours:</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>In cell B2 type <literal>12:45</literal>, and in cell B3 type <literal>15:30</literal>.</para>
+				</listItem>
+				<listItem>
+					<para>Type <ui>=B2+B3</ui> in cell B4, and then press Enter.</para>
+					<para><mediaLinkInline><image xlink:href="0b6d48e6-83f6-4016-9e42-2d6a16df25df" /></mediaLinkInline></para>
+					<para>The result is 4:15, which is not what you might expect. This is because the time for Task 2 is in 24-hour time. 15:30 is the same as 3:30.</para>
+				</listItem>
+				<listItem>
+					<para>To display the time as more than 24 hours, select cell B4.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Home</ui> tab, in the <ui>Cells</ui> group, choose <ui>Format</ui>, and then choose <ui>Format Cells</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="1caa34c0-dedd-4586-b85f-fdbc1c3c0e89" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Format Cells</ui> box, choose <ui>Custom</ui> in the <ui>Category</ui> list.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Type</ui> box, at the top of the list of formats, type <legacyBold>[h]:mm;@ </legacyBold>and then choose <ui>OK</ui>.<br />
+	<br />
+	Take note of the colon after <literal>[h]</literal> and a semicolon after <literal>mm</literal>.</para>
+				</listItem>
+			</list>
+			<para>The result is 28 hours and 15 minutes. The format will be in the <ui>Type</ui> list the next time you need it.</para>
+		</content>
+	</section>
+	<section>
+		<title>Subtract time</title>
+		<content>
+			<para>Here's another example: Let's say that you and your friends know both your start and end times at a volunteer project, and want to know how much time you spent in total.</para>
+			<para>Follow these steps to get the elapsed time—which is the difference between two times.</para>
+			<list class="ordered">
+				<listItem>
+					<para>In cell B2, enter the start time and include “<literal>a</literal>” for AM or “<literal>p</literal>” for PM. Then press Enter.</para>
+				</listItem>
+				<listItem>
+					<para>In cell C2, enter the end time, including “<literal>a</literal>” or “<literal>p</literal>” as appropriate, and then press Enter.</para>
+				</listItem>
+				<listItem>
+					<para>Type the other start and end times for your friends, Joy and Leslie.</para>
+				</listItem>
+				<listItem>
+					<para>In cell D2, subtract the end time from the start time by entering the formula <literal>=C2-B2</literal>, and then press Enter.</para>
+					<para><mediaLinkInline><image xlink:href="13164e76-995f-4ffe-9eb1-27172cbaf34b" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Format Cells</ui> box, click <ui>Custom</ui> in the <ui>Category</ui> list.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Type</ui> list, click <ui>h:mm</ui> (for hours and minutes), and then click <ui>OK</ui>.</para>
+					<para>Now we see that Richard worked 3 hours and 45 minutes.</para>
+					<para><mediaLinkInline><image xlink:href="f187c304-30a4-4564-8a70-ab0da9a3ba4d" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>To get the results for Joy and Leslie, copy the formula by selecting cell D2 and dragging to cell D4.</para>
+					<para>The formatting in cell D2 is copied along with the formula.</para>
+				</listItem>
+			</list>
+			<para><legacyBold>To subtract time that’s more than 24 hours:</legacyBold></para>
+			<para>It is necessary to create a formula to subtract the difference between two times that total more than 24 hours.</para>
+			<para>Follow the steps below:</para>
+			<list class="ordered">
+				<listItem>
+					<para>Referring to the above example, select cell B1 and drag to cell B2 so that you can apply the format to both cells at the same time.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Format Cells</ui> box, click <ui>Custom</ui> in the <ui>Category</ui> list.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Type</ui> box, at the top of the list of formats, type <literal>m/d/yyyy h:mm AM/PM</literal>.</para>
+					<para>Notice the empty space at the end of <legacyBold><literal>yyyy</literal></legacyBold> and at the end of <legacyBold><literal>mm</literal></legacyBold>.</para>
+					<para>The new format will be available when you need it in the <ui>Type</ui> list.</para>
+				</listItem>
+				<listItem>
+					<para>In cell B1, type the start date, including month/day/year and time using either “<literal>a</literal>” or “<literal>p</literal>” for AM and PM.<br />
+	<br />
+	<mediaLinkInline><image xlink:href="f43162bb-504a-4130-85ab-42c193a57a7a" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>In cell B2, do the same for the end date.</para>
+				</listItem>
+				<listItem>
+					<para>In cell B3, type the formula <literal>=(B2-B1)*24</literal>.</para>
+					<para />
+				</listItem>
+			</list>
+			<para>The result is 31.5 hours.</para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

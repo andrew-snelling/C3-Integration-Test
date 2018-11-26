@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="4c0b8edc-4fb6-4af0-9374-7a953f48527b" revisionNumber="1"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		
+		<para>You can manually adjust the column width or row height or automatically resize columns and rows to fit the data.</para>
+              <alert class="note">
+                <para>The boundary is the line between cells, columns, and rows. If a column is too narrow to display the data, you will see ### in the cell.</para>
+              </alert><mediaLink>
+      <caption></caption>
+      <image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+      <video videotype="single" videoid="1f9b3690-b367-4fdb-9cdf-1330db04cbab" player="SP_MOD_OfficeCom" />
+    </mediaLink></introduction>
+	
+	<section>
+<title>Resize rows</title><content><list class="ordered">
+                    <listItem>
+                      <para>Select a row or a range of rows.</para>
+                    </listItem>
+                    <listItem>
+                      <para> Select <ui>Format</ui> &gt; <ui>Row Width</ui>. </para>
+                    </listItem>
+                    <listItem>
+                      <para>Type the row width and select <ui>OK</ui>.</para>
+                    </listItem>
+                  </list></content>
+</section><section>
+<title>Resize columns</title><content><list class="ordered">
+                    <listItem>
+                      <para>Select a column or a range of columns.</para>
+                    </listItem>
+                    <listItem>
+                      <para> Select <ui>Format</ui> &gt; <ui>Column Width</ui>. <br /><mediaLinkInline><image xlink:href="386071c5-8324-4f40-a201-26faf0b5ae7e"></image></mediaLinkInline></para>
+                    </listItem>
+                    <listItem>
+                      <para>Type the column width and select <ui>OK</ui>.</para>
+                    </listItem>
+                  </list></content>
+</section><section>
+<title>Automatically resize all columns and rows to fit the data </title><content><list class="ordered">
+                    <listItem>
+                      <para>Select the <ui>Select All</ui> button <mediaLinkInline><image xlink:href="fcdbc796-8b51-4302-b0f3-a9215b56790d"></image></mediaLinkInline> at the top of the worksheet, to select all columns and rows.</para>
+                    </listItem>
+                    <listItem>
+                      <para>Double-click a boundary. All columns or rows resize to fit the data.</para>
+                    </listItem>
+                  </list></content>
+</section><section>
+<title>Need more help?</title>
+            <content>
+                        <tokenBlock>Excel_CommunityLinks</tokenBlock>
+</content>
+</section><relatedTopics><link xlink:href="6F40E6E4-85AF-45E0-B39D-65DD504A3246">Insert or delete cells, rows, and columns</link></relatedTopics>
+</developerConceptualDocument></topic>

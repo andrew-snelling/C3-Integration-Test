@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="272bc963-6794-4b8d-ae01-c598227d2f9f" revisionNumber="2"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para>You can use a text box to add a title or narration to the top of your 3D Map, much like you would add a sticky note to a paper map.</para>
+    <list class="ordered">
+      <listItem>
+        <para>Click <ui>Home</ui> &gt; <ui>Text box</ui>. </para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="b9f36769-9dce-4956-b9bd-27f5b43ed613">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>In the <ui>Title</ui> box, enter the title for your text box.</para>
+      <para>
+      <mediaLinkInline>
+        <image xlink:href="122af261-3150-485a-afeb-969633ee5147">
+        </image>
+      </mediaLinkInline>
+    </para></listItem><listItem>
+        <para>In the <ui>Description</ui> box, add a note or narration.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="f5ced5ba-643e-4c6e-b8f1-8750013907af">
+            </image>
+          </mediaLinkInline>
+        </para>
+      </listItem>
+      <listItem>
+        <para>If you want, use the formatting options at the top of the box to change the look of your text.</para>
+        <alert class="tip">
+          <para> You can see a preview of your text box in the <ui>Content Preview</ui> box, located to the right of the <ui>Title</ui> and <ui>Description</ui> boxes.</para>
+        </alert>
+      </listItem>
+      <listItem>
+        <para>Click <ui>Create</ui>.</para>
+        <para>
+          <mediaLinkInline>
+            <image xlink:href="72fdf3ce-f9e1-444a-8583-4e909e0da293">
+            </image>
+          </mediaLinkInline>
+        </para>
+        <alert class="note">
+          <list class="bullet">
+            <listItem>
+              <para>A text box keeps its position inside a scene when a tour is played. Unlike <link xlink:href="90b59fe9-895a-475d-8ae5-324bb31ec88e">annotations</link>, they’re not bound to a specific data point; instead they are anchored to the nearest quadrant or corner of the 3D Maps window.</para>
+            </listItem>
+            <listItem>
+              <para>You can change the size of the text box and place them in different locations on the map to prevent them from covering your map data.</para>
+            </listItem>
+          </list>
+        </alert>
+      </listItem>
+    </list>
+    
+    
+  </introduction>
+  <relatedTopics><link xlink:href="3c1ebc9f-176b-4ed3-a962-773720bf7543">Customize a data card in 3D Maps</link><link xlink:href="b276b8d0-4eb3-476a-8e88-ad61373b8647">Add an annotation to my 3D Map</link></relatedTopics>
+</developerConceptualDocument></topic>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="458361fb-d4d0-46a1-b489-0477818c71a8" revisionNumber="27"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para />
+	</introduction>
+	<section expanded="true">
+		<title>Get started</title>
+		<content>
+			<para><link xlink:href="5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73">What's New in Excel 2016</link></para>
+			<para><link xlink:href="25f909da-3e76-443d-94f4-6cdf7dedc51e">Excel 2016 Quick Start Guide</link></para>
+			<para><link xlink:href="9bc05390-e94c-46af-a5b3-d7c22f6990bb">Excel training</link></para>
+			<para><link xlink:href="dc775dd1-fa52-430f-9c3c-d998d1735fca">Basic tasks in Excel 2016</link></para>
+			<para><link xlink:href="0E304CA5-ECEF-4808-B90F-FDB42F892E90">Find or replace text and numbers on a worksheet</link></para>
+			<para><link xlink:href="486cd65a-cb26-478a-a937-20e12003e8ec">Change the column width and row height</link></para>
+			<para><link xlink:href="0A03BB38-1A07-458D-9E30-2B54366BC7A4">Format numbers as currency</link></para>
+			<para><link xlink:href="3fb96b4a-ee83-4493-af45-6522324477bd">Video: Use Flash Fill</link></para>
+			<para><link xlink:href="9BAD52FB-410D-470E-B17F-618C605E165B">Video: Use Auto Fill</link></para>
+			<para><link xlink:href="11A5F0E5-38A3-4115-85BC-F4A465F64A8A">Create a simple formula</link></para>
+			<para><link xlink:href="e56d0e8f-a566-4094-8604-5190ae802612">Keyboard shortcuts in Excel</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Troubleshoot Problems</title>
+		<content>
+			<para><link xlink:href="8309381D-33E8-42F6-B889-84EF6DF1D586">How to avoid broken formulas</link></para>
+			<para><link xlink:href="3a8acca5-1d61-4702-80e0-99a36a2822c1">Use error checking to detect errors in formulas</link></para>
+			<para><link xlink:href="8540BD0F-6E97-4483-BCF7-1B49CD50D123">Remove or allow a circular reference</link></para>
+			<para><externalLink><linkText>Excel opens blank when double clicking an icon or file name</linkText><linkUri>https://support.microsoft.com/kb/2994633</linkUri></externalLink></para>
+			<para><externalLink><linkText>Excel problems caused by a Windows 10 DisplayLink driver</linkText><linkUri>https://answers.microsoft.com/en-us/mac/forum/macoffice2016-macoutlook/microsoft-office-for-mac-update-1518-huge-issues/619f928a-7cfb-4ebe-b8ff-84eae58f140a</linkUri></externalLink></para>
+			<para><link xlink:href="af8728b5-ec64-4359-812d-264c6907ea75">More fixes for recent issues</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Worksheet basics</title>
+		<content>
+			<para><link xlink:href="f63c0712-8d46-4afc-92d7-afd67cad0b1d">Create a drop-down list</link></para>
+			<para><link xlink:href="0E304CA5-ECEF-4808-B90F-FDB42F892E90">Find or replace text and numbers on a worksheet</link></para>
+			<para><link xlink:href="30b14928-5550-41f5-97ca-7a3e9c363ed7">Split text into different cells</link></para>
+			<para><link xlink:href="81ba0946-ce78-42ed-b3c3-21340eb164a6">Combine text from two or more cells into one cell</link></para>
+			<para><link xlink:href="C564AE6C-3D9E-4512-8D24-1AD3B21F089A">Merge cells</link></para>
+			<para><link xlink:href="40105F2A-FE79-4477-A171-C5BAD0F0A885">Convert text-formatted numbers</link></para>
+			<para><link xlink:href="2A18CFF5-CCC1-4BCE-95E4-F0D4F3FF4E84">Wrap text in a cell</link></para>
+			<para><link xlink:href="dab2ffc9-020d-4026-8121-67dd25f2508f">Freeze rows and columns</link></para>
+			<para><link xlink:href="3419F2E3-BEAB-4318-AAE5-D0F862209744">Transpose (rotate) data from rows to columns or vice versa</link></para>
+			<para><link xlink:href="e81aa349-b006-4f8a-9806-5af9df0ac664">Create an Excel table in a worksheet</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Save and share files</title>
+		<content>
+			<para><link xlink:href="8d8a52bb-03c3-4933-ab6c-330aabf1e589">Share your Excel 2016 workbook with others</link></para>
+			<para><link xlink:href="6A16C862-4A36-48F9-A300-C2CA0065286E">Save a workbook in another file format</link></para>
+			<para><link xlink:href="169a0336-965b-4430-8554-4e7b5db79947">Save an Excel workbook for compatibility with earlier versions of Excel</link></para>
+			<para><link xlink:href="8ba1f596-6bc9-4e35-99d4-e27a40037789">Save documents online</link></para>
+			<para><link xlink:href="D85416C5-7D77-4FD6-A216-6F4BF7C7C110">Save as PDF</link></para>
+			<para><link xlink:href="49ec5cb7-0f7e-4781-be66-14ae173a7a29">Use a shared workbook to collaborate</link></para>
+			<para><link xlink:href="7E365A4D-3E89-4616-84CA-1931257C1517">Password protect a workbook</link></para>
+			<para><link xlink:href="3179EFDB-1285-4D49-A9C3-F4CA36276DE6">Protect a worksheet with or without a password</link></para>
+			<para><link xlink:href="05084cc3-300d-4c1a-8416-38d3e37d6826">Remove a password from a worksheet or workbook</link></para>
+			<para><link xlink:href="cb7835f6-9c37-4161-bb53-d1c410acaf21">Lock cells to protect them</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Sort and filter</title>
+		<content>
+			<para><link xlink:href="60153F94-D782-47E2-96A8-15CBB7712539">Quick start: Sort data in an Excel worksheet</link></para>
+			<para><link xlink:href="01832226-31B5-4568-8806-38C37DCC180E">Filter data in an Excel table</link></para>
+			<para><link xlink:href="7d87d63e-ebd0-424b-8106-e2ab61133d92">Use AutoFilter to filter your data</link></para>
+			<para><link xlink:href="E41F7107-B92D-44EF-861F-24430830450A">Sort data in a PivotTable</link></para>
+			<para><link xlink:href="659C2CAD-802E-44EE-A614-DDE8443579F8">Show or hide columns and rows</link></para>
+			<para><link xlink:href="CC1ED287-3A97-4E95-B377-DDFAFE79FA8F ">Filter data in a PivotTable</link></para>
+			<para><link xlink:href="cba3d67a-c5cb-406f-9b14-a02205834d72">Sort data using a custom list</link></para>
+			<para><link xlink:href="FFB9FCB0-B9CB-48BF-A15C-8BEC9FD3A472">Video: Sort and filter data</link></para>
+			<para><link xlink:href="62D0B95D-2A90-4610-A6AE-2E545C4A4654">Sort data in a range or table</link></para>
+			<para><link xlink:href="01832226-31B5-4568-8806-38C37DCC180E">Filter data in a range or table</link></para>
+			<para><link xlink:href="9688fa2a-006b-47d9-aa45-51768a4ab636">Count unique values among duplicates</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Formulas</title>
+		<content>
+			<para><link xlink:href="8309381D-33E8-42F6-B889-84EF6DF1D586">How to avoid broken formulas</link></para>
+			<para><link xlink:href="C17488E3-3CBE-4FA8-A6BC-1A6FFA64DB78">Find and fix a circular reference</link></para>
+			<para><link xlink:href="3A8ACCA5-1D61-4702-80E0-99A36A2822C1">Detect errors in formulas</link></para>
+			<para><link xlink:href="4D0F13AC-53B7-422E-AFD2-ABD7FF379C64">Define and use names in formulas</link></para>
+			<para><link xlink:href="C895BC66-CA52-4FCB-8293-3047556CC09D">Create a formula by using a function</link></para>
+			<para><link xlink:href="FED60DFA-1D3F-4E13-9ECB-F1951FF89D7F">Use a formula to apply conditional formatting</link></para>
+			<para><link xlink:href="bc6b94c5-f1e2-40fd-8513-cc8c452d4d89">Guidelines and examples of array formulas</link></para>
+			<para><link xlink:href="DFEC08CD-AE65-4F56-839E-5F0D8D0BACA9">Switch between relative, absolute, and mixed references</link></para>
+			<para><link xlink:href="F7F5AB4E-BF24-4EFC-8FC9-0C1B77A5356F">Display or hide formulas</link></para>
+			<para><link xlink:href="F3EB0FA3-4C18-498A-9235-C66BA8E78149">Create or delete a macro</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Popular functions</title>
+		<content>
+			<para><link xlink:href="0bbc8083-26fe-4963-8ab8-93a18ad188a1">VLOOKUP function</link></para>
+			<para><link xlink:href="c9be5a08-68a3-453c-bd52-ed88f22f2abd">Look up values with VLOOKUP, INDEX, or MATCH in Excel 2016</link></para>
+			<para><link xlink:href="69AED7C9-4E8A-4755-A9BC-AA8BBFF73BE2">IF function</link></para>
+			<para><link xlink:href="043E1C7D-7726-4E80-8F32-07B23E057F89">SUM function</link></para>
+			<para><link xlink:href="E0DE10C6-F885-4E71-ABB4-1F464816DF34">COUNTIF function</link></para>
+			<para><link xlink:href="169B8C99-C05C-4483-A712-1697A653039B">SUMIF function</link></para>
+			<para><link xlink:href="446D94AF-663B-451D-8251-369D5E3864CB">LOOKUP function</link></para>
+			<para><link xlink:href="8F8AE884-2CA8-4F7A-B093-75D702BEA31D">CONCATENATE function</link></para>
+			<para><link xlink:href="E8DFFD45-C762-47D6-BF89-533F4A37673A">MATCH function</link></para>
+			<para><link xlink:href="5F91F4E9-7B42-46D2-9BD1-63F26A86C0EB">Excel functions (by category)</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Data analysis</title>
+		<content>
+			<para><link xlink:href="29FECBCC-D1B9-42C1-9D76-EFF3CE5F7249">Apply data validation to cells</link></para>
+			<para><link xlink:href="9e382e73-7f5e-495a-a8dc-be8225b1bb78">Analyze your data instantly</link></para>
+			<para><link xlink:href="A9A84538-BFE9-40A9-A8E9-F99134456576">Create a PivotTable to analyze worksheet data</link></para>
+			<para><link xlink:href="8A1CC355-B113-41B7-A483-58460332A1AF">Add, change, find, or clear conditional formats in Excel for Windows</link></para>
+			<para><link xlink:href="5CDFB6A3-75FF-48C3-B11F-C15F9563722D">Create conditional formulas to find data or apply formatting</link></para>
+			<para><link xlink:href="6C67CCF0-F4A9-487C-8DEC-BDB5A2CEFAB6">Use the Analysis ToolPak to perform complex data analysis</link></para>
+			<para><link xlink:href="6A63E598-CD6D-42E3-9317-6B40BA1A66B4">Load the Analysis ToolPak</link></para>
+			<para><link xlink:href="5d1a388f-079d-43ac-a7eb-f63e45925040">Define and solve a problem by using Solver</link></para>
+			<para><link xlink:href="be6579cf-a8e3-471a-a459-873614413ce1">Analyze trends in data using sparklines</link></para>
+			<para><link xlink:href="320cb99e-f4a4-417f-b1c3-4f369d6e66c7">Use Goal Seek to find a result by adjusting an input value</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Charts and shapes</title>
+		<content>
+			<para><link xlink:href="cd131b77-79c7-4537-a438-8db20cea84c0">Create a chart</link></para>
+			<para><link xlink:href="85680173-064b-4024-b39d-80f17ff2f4e8">Create a histogram</link></para>
+			<para><link xlink:href="1a5f08ae-ba40-46f2-9ed0-ff84873b7863">Add a pie chart</link></para>
+			<para><link xlink:href="FA59F86C-5852-4B68-A6D4-901A745842AD">Add a trend or moving average line to a chart</link></para>
+			<para><link xlink:href="A6187218-807E-4103-9E0A-27CDB19AFB90">Available chart types</link></para>
+			<para><link xlink:href="0E492BB4-3F91-43B5-803F-DD0998E0EB89">Add shapes</link></para>
+			<para><link xlink:href="1D119E2D-1A5F-45A4-8AD3-BACC7430C0A1">Create a combo chart with a secondary axis</link></para>
+			<para><link xlink:href="6b56a50d-3c3e-4a9e-a527-eea62a387030">Get started with 3D Maps</link></para>
+			<para><link xlink:href="6ea4fdb0-aa40-4fa9-9348-662d8af6ca2c">Learn more about SmartArt graphics</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Print</title>
+		<content>
+			<para><link xlink:href="A372182A-D733-484E-825C-18DDF3EDF009">Add a watermark in Excel</link></para>
+			<para><link xlink:href="CAE2A88C-64A7-42AB-96A4-28D2FC16AD31">Headers and footers in a worksheet</link></para>
+			<para><link xlink:href="1AF561B2-5444-4FC1-B24D-9E4D05B9EBF1">Print a worksheet in landscape or portrait orientation</link></para>
+			<para><link xlink:href="D3550133-F6A1-4C72-AD70-5309A2E8FE8C">Print rows with column headers on top of every page</link></para>
+			<para><link xlink:href="D9484315-5123-48AE-BC58-2E8DCF271252">Create and print mailing labels for an address list in Excel</link></para>
+			<para><link xlink:href="27048AF8-A321-416D-BA1B-E99AE2182A7E">Set a specific print area</link></para>
+			<para><link xlink:href="ad3dc726-beec-4a4c-861f-ed640612bdc2">Insert, move, or delete page breaks in a worksheet </link></para>
+			<para><link xlink:href="b687b0e2-202b-4274-9cb7-f246acab9dd5">Print the top row on every page</link></para>
+			<para><link xlink:href="BCD8F03A-C28D-42A2-9217-AAB0E43AA930">Preview worksheet pages before you print</link></para>
+			<para><link xlink:href="3EF5AACB-4539-4AD5-9945-5ED53772DC4D">Show or hide gridlines</link></para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Customize Excel</title>
+		<content>
+			<para><link xlink:href="AC10F131-B847-428F-B656-D65375FB815E">Add or change the background color of cells</link></para>
+			<para><link xlink:href="C846F997-968E-4DAA-B2D4-42BD2AFEF904">Change a theme and make it the default</link></para>
+			<para><link xlink:href="78f2a361-936b-4c03-8772-09fab54be7f4">Create or delete a custom number format</link></para>
+			<para><link xlink:href="d3a00532-d99c-45d2-928e-5ed6f4006b64">Add or remove add-ins</link></para>
+			<para><link xlink:href="00F24CA7-6021-48D3-9514-A31A460ECB31">Customize the ribbon in Office</link></para>
+			<para><link xlink:href="43FFF1C9-EBC4-4963-BDBD-C2B6B0739E52">Customize the Quick Access Toolbar</link></para>
+			<para><link xlink:href="b70b195a-eaba-4750-87d3-d9723820137e">Customize the list of recently used files</link></para>
+			<para><link xlink:href="88ED77CA-DF34-49E9-9087-3F01AE296E6E">Where are my custom templates?</link></para>
+			<para><link xlink:href="CA36E2DC-1F09-4620-B726-67C00B05040F">Excel specifications and limits</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

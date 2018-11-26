@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="6944378f-a222-4449-93d8-474386b11f20" revisionNumber="13"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>You can quickly total data in an Excel table by enabling the <ui>Total Row</ui> option, and then use one of several functions that are provided in a drop-down list for each table column. The Total Row default selections use <link xlink:href="7B027003-F060-4ADE-9040-E478765B9939">SUBTOTAL functions</link>, which allow you to include or ignore hidden table rows, however you can also use other functions.</para>
+		
+		<mediaLink><caption></caption>
+			<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+			<video channel="" player="SP_MOD_OfficeCom" videoid="bd9b90e0-fc4d-487b-8352-1cca0de2c7f8" videotype="single" />
+		</mediaLink>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Click anywhere inside the table.</para>
+				</listItem>
+				<listItem>
+					<para>Go to <ui>Table Tools</ui> &gt; <ui>Design</ui>, and select the check box for <ui>Total Row</ui>. On a Mac go to <ui>Table</ui> &gt; <ui>Total Row</ui>.</para>
+					<mediaLink>
+						<image xlink:href="8f6bbb48-fbf3-4bc1-a198-10b72a941bea" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>The <ui>Total Row</ui> is inserted at the bottom of your table.</para>
+					<mediaLink>
+						<image xlink:href="e7e3f3ed-db3a-4157-b130-d4bd2d35e37a" />
+					</mediaLink>
+					<alert class="note">
+						<para>If you apply formulas to a total row, then toggle the total row off and on, Excel will remember your formulas. In the previous example we had already applied the SUM function to the total row. When you apply a total row for the first time, the cells will be empty.</para>
+					</alert>
+				</listItem>
+				<listItem>
+					<para>Select the column you want to total, then select an option from the drop-down list. In this case, we applied the SUM function to each column:</para>
+					<mediaLink>
+						<image xlink:href="e3d59126-4d5e-499d-bb38-5a7746dffdc0" />
+					</mediaLink>
+					<para>You'll see that Excel created the following formula: <legacyBold>=SUBTOTAL(109,[Midwest])</legacyBold>. This is a SUBTOTAL function for SUM, and it is also a Structured Reference formula, which is exclusive to Excel tables. Learn more about <link xlink:href="F5ED2452-2337-4F71-BED3-C8AE6D2B276E">Using structured references with Excel tables</link>.</para>
+					<para>You can also apply a different function to the total value, by selecting the <ui>More Functions</ui> option, or writing your own.</para>
+					<alert class="note">
+						<para>If you want to copy a total row formula to an adjacent cell in the total row, drag the formula across using the fill handle. This will update the column references accordingly and display the correct value. If you copy and paste a formula in the total row, it will not update the column references as you copy across, and will result in inaccurate values.</para>
+					</alert>
+				</listItem>
+			</list>
+			
+		</content>
+	</section>
+	
+	
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	
+	<relatedTopics><link xlink:href="6944378f-a222-4449-93d8-474386b11f20">Insert a total row</link><link xlink:href="7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c">Overview of Excel tables</link><link xlink:href="bf0ce08b-d012-42ec-8ecf-a2259c9faf3f">Video: Create an Excel table</link><link xlink:href="e81aa349-b006-4f8a-9806-5af9df0ac664">Create or delete an Excel table</link><link xlink:href="6789619f-c889-495c-99c2-2f971c0e2370">Format an Excel table</link><link xlink:href="4d6585be-4292-444c-b86b-71cb4e5d3e16">Resize a table by adding or removing rows and columns</link><link xlink:href="01832226-31B5-4568-8806-38C37DCC180E">Filter data in a range or table</link><link xlink:href="0B326FF1-1764-4EBE-84EA-786265D41C77">Convert a table to a range</link><link xlink:href="F5ED2452-2337-4F71-BED3-C8AE6D2B276E">Using structured references with Excel tables</link><link xlink:href="173f5b30-b546-4293-87d2-aee638f74e7d">Subtotal and total fields in a PivotTable report</link><link xlink:href="6FDEDE9F-58BD-4629-882D-DDF7307AAA61">Add subtotals in a PivotTable</link><link xlink:href="1e9c9c83-bf17-41c7-b243-c48625a7a6ff">Excel table compatibility issues</link><link xlink:href="974544F9-94BC-4AA8-9159-97282D256DAB">Export an Excel table to SharePoint</link></relatedTopics>
+</developerConceptualDocument></topic>

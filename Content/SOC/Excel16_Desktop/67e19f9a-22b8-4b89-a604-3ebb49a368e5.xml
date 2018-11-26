@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="67e19f9a-22b8-4b89-a604-3ebb49a368e5" revisionNumber="5"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="__toc352094817">For best results with <token>TE104085179</token>, use data in an Excel table or (preferably) a <link xlink:href="87e7a54c-87dc-488e-9410-5c75dbcb0f7b">Data Model you created in Excel</link> or <link xlink:href="fdfcf944-7876-424a-8437-1a6c1043a80b">by using Power Pivot</link>. If the data you want to use in <token>TE104085179</token> is stored on external servers, you can connect to it from Excel and add it to the Data Model.</para>
+    <alert class="note">
+      <para> <token>TE104085179</token> doesn’t support hierarchies (groupings of data fields) that you create in the Data Model.</para>
+    </alert>
+  </introduction>
+  <section address="__toc352094818">
+    <title>Structure your data</title>
+    <content>
+      <para>To prepare your data, <link xlink:href="e81aa349-b006-4f8a-9806-5af9df0ac664">make sure all of the data is in Excel table format</link>, where each row represents a unique record. Your column headings or row headings should contain text instead of actual data so that Power Map will interpret it correctly when it plots the geographic coordinates. Using meaningful labels also makes value and category fields available to you when you design your tour in the Power Map Tour Editor pane.</para>
+      <para>To use a table structure that more accurately represents time and geography inside <token>TE104085179</token>, include all of the data in the table rows and use descriptive text labels in the column headings, like this:</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="3272d5a1-797c-4064-99e6-0a0ae7906524">
+          </image>
+        </mediaLinkInline>
+      </para>
+      <para>Make sure your data isn’t structured like this, where some data, like UFO sightings and the years, aren’t included in the Excel table:</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="ea60953c-07a1-4023-9641-2a14fec41fc2">
+          </image>
+        </mediaLinkInline>
+      </para>
+      <para>Include the following data in your table:</para>
+      <list class="bullet">
+        <listItem>
+          <para>
+            <embeddedLabel>Geographic values</embeddedLabel> <token>TE104085179</token> requires at least one geographic value per row of data. This could be a Latitude/Longitude pair, City, Country/Region, Zip code/Postal code, State/Province, or Address. The accuracy of <token>TE104085179</token> depends on the amount and variety of geographic data you provide and the search results from Bing. For example, because there are 18 cities in the US alone called Columbus, it helps to have a <legacyBold>State</legacyBold> column so the right city can be recognized.</para>
+        </listItem>
+        <listItem>
+          <para>
+            <embeddedLabel>Date or time fields</embeddedLabel> <token>TE104085179</token> requires at least one date or time field per row of data if you want to view your data over time. For best results, place this temporal data in separate columns, and format it as dates or time (Right-click the selected cells &gt; <ui>Format Cells</ui>).</para>
+          
+        </listItem>
+      </list>
+    </content>
+    
+  </section>
+  <section>
+    <title>Connect to external data</title>
+    <content>
+      <para>If you'll be working with large sets of data, it'll probably be stored in an external source, such as a database, data feed, or web site. You'll need to import it into your workbook for Power Map to use it.</para>
+      <para>To connect to external data from Excel (that is, not through PowerPivot), do this:</para>
+      <list class="ordered">
+        <listItem>
+          <para>In Excel, click <ui>Data</ui> &gt; the connection you want in the <ui>Get External Data</ui> group.</para><para>
+        <mediaLinkInline>
+          <image xlink:href="73c8ea10-55a8-45bf-ae6c-13b21214db01">
+          </image>
+        </mediaLinkInline>
+      </para>
+        </listItem>
+      <listItem>
+          <para>Follow the steps in the wizard that starts.</para>
+        </listItem><listItem>
+          <para>On the last step of the wizard, make sure <ui>Add this data to the Data Model</ui> is checked.</para>
+        </listItem></list>
+      
+      
+      <para>To connect to external data from the PowerPivot window, do this:</para>
+      <list class="ordered">
+        <listItem>
+          <para>In Excel, click the <ui>PowerPivot</ui> tab, then click <ui>Manage</ui>.</para>
+        <para>
+        <mediaLinkInline>
+          <image xlink:href="fc549b9d-eaae-4c6a-8f3e-200e2381d2d1">
+          </image>
+        </mediaLinkInline>
+      </para></listItem>
+      <listItem>
+          <para>In the <ui>PowerPivot</ui> window, click <ui>Get External Data</ui>.</para>
+        </listItem><listItem>
+          <para>Choose your data type (such as a SQL Server or other database, a file, or a data feed).</para>
+        </listItem><listItem>
+          <para>Follow the steps in the wizard that starts.</para>
+        </listItem></list>
+      
+      
+      <para>The data is automatically added to the Data Model when you get external data through the PowerPivot window.</para>
+      <alert class="tip">
+        <para>If you have Microsoft Power Query for Excel, you can use it to import your data, and then use the <legacyBold>Query Editor</legacyBold> to shape or transform it. For more information, see <link xlink:href="be4330b3-5356-486c-a168-b68e9e616f5a">Import data from external data sources by using Power Query</link>.</para>
+      </alert>
+      <para address="__goback">To learn more about connecting to external data, see <link xlink:href="be4330b3-5356-486c-a168-b68e9e616f5a">Import data from external data sources</link>.</para>
+    </content>
+    <sections />
+  </section>
+  <section>
+    <title>Use the source data of a PivotTable</title>
+    <content>
+      <para>Data in PivotTable format won’t work well in Power Map because a PivotTable aggregates totals, such as total sales or total instances of sales for regions. It’s best to use the source data of a PivotTable instead, so <token>TE104085179</token> can leverage each individual instance as a point in time, animate it over time, and plot it in the exact spot on the globe.</para>
+      <para>Power Map uses the source data to plot geographic PivotTable aggregations (such as cities across a state, states across a country/region, or countries across a region/continent) on a map that retains the same granular level of detail. The <ui>Regions</ui> chart type lets you show data across geographic regions of different types, such as by country/region, by state, or by postal code.</para>
+    </content>
+    
+  </section>
+  <section>
+    <title>Check the quality of your data</title>
+    <content>
+      <para>When you work with large amounts of data, you might see quality issues, such as typos and inaccurate data. You may want to check the data before you plot it with Power Map—geographic, time, and measures—and then spot check what <token>TE104085179</token> has plotted.</para>
+      <para>In the example shown below, Chicago's population is off by a factor of 10; its data bar is well out of proportion with the data bars for the other very large cities, such as New York and Los Angeles.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="0a5b0527-6beb-4720-b534-788403644c8a">
+          </image>
+        </mediaLinkInline>
+      </para>
+      <para>Fix your data in the source (such as an Excel worksheet table, or a SQL Server database), and then <link xlink:href="8079d748-d529-4565-ba8e-b30323ff0673">refresh your data</link> directly from the <token>TE104085179</token> ribbon by clicking <ui>Home</ui> &gt; <ui>Refresh Data</ui>.</para>
+      <para>
+        <mediaLinkInline>
+          <image xlink:href="6e983036-c608-4f8e-86a8-1a1fedeaa408">
+          </image>
+        </mediaLinkInline>
+      </para>
+    </content>
+    
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

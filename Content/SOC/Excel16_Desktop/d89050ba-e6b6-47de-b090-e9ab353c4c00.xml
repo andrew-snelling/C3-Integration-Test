@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="d89050ba-e6b6-47de-b090-e9ab353c4c00" revisionNumber="18"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top"> 
+	 <para address="bmbacktotop">Column charts are useful for showing data changes over a period of time or for illustrating comparisons among items. In column charts, categories are typically organized along the horizontal axis and values along the vertical axis.</para>
+	 <mediaLink>
+<image xlink:href="36bddd0b-d79f-4746-9385-274b8482c7ad" />
+</mediaLink>
+	 
+  <para>For information on column charts, and when they should be used, see <link xlink:href="a6187218-807e-4103-9e0a-27cdb19afb90">Available chart types in Office</link>.</para></introduction>
+  
+  
+  
+  
+  
+  
+  <section>
+<content><tabControl><tabControlItem targetedOfficeVersion="Office 2010, Office 2013, Office 2016, Office 2019, Office 365 Subscription"><tabControlItemTitle>Excel</tabControlItemTitle><tabControlItemSection><content><para>To create a column chart, follow these steps:</para><list class="ordered"><listItem><para>Enter data in a spreadsheet.</para></listItem><listItem><para>Select the data.</para></listItem><listItem><para>Depending on the Excel version you're using, select one of the following options:</para><list class="bullet"><listItem><para><token>Excel_2016</token>: Click <ui>Insert</ui> &gt; <ui>Insert Column or Bar Chart</ui> icon, and select a column chart option of your choice.</para><mediaLink>
+<image xlink:href="4aefc62f-a563-4860-a7de-d56c40066648" />
+</mediaLink></listItem><listItem><para><token>Excel_2013</token>: Click <ui>Insert</ui> &gt; <ui>Insert Column Chart</ui> icon, and select a column chart option of your choice.</para><mediaLink>
+<image xlink:href="0d2436bf-eb7c-46ab-8049-a15b9ef53061" />
+</mediaLink></listItem><listItem><para><token>TE000130080</token> and <token>TE000130082</token>: Click <ui>Insert</ui> &gt; <ui>Column</ui>, and select a column chart option of your choice.</para></listItem></list><para>You can optionally format the chart a little further. See the list below for a few options:</para><alert class="note">
+      <para>Make sure you click on the chart first before applying a formatting option.</para>
+    </alert><list class="bullet"><listItem><para>To apply a different chart layout, click <ui>Design</ui> &gt; <ui>Charts Layout</ui>, and select a layout.</para></listItem><listItem><para>To apply a different chart style, click <ui>Design</ui> &gt; <ui>Chart Styles</ui>, and pick a style.</para></listItem><listItem><para>To apply a different shape style, click <ui>Format</ui> &gt; <ui>Shape Styles</ui>, and pick a style.</para><alert class="note">
+      <para>A chart style is different from a shape style. A shape style is a formatting option that applies to the chart’s border only, whereas the chart style is a formatting option that applies to the entire chart.</para>
+    </alert></listItem><listItem><para>	To apply different shape effects, click <ui>Format</ui> &gt; <ui>Shape Effects</ui>, and pick an option such as <ui>Bevel</ui> or <ui>Glow</ui>, and then a sub option. </para></listItem><listItem><para>To apply a theme, click <ui>Page Layout</ui> &gt; <ui>Themes</ui>, and select a theme.</para></listItem><listItem><para>To apply a formatting option to a specific component of a chart (such as <legacyItalic>Vertical (Value) Axis</legacyItalic>, <legacyItalic>Horizontal (Category) Axis</legacyItalic>, <legacyItalic>Chart Area</legacyItalic>, to name a few), click <ui>Format</ui> &gt; pick a component in the <ui>Chart Elements</ui> dropdown box, click <ui>Format Selection</ui>, and make any necessary changes. Repeat the step for each component you want to modify.</para><mediaLink>
+<image xlink:href="ed0c6d8b-234b-4dfa-9b3a-6e6d70cc71ca" />
+</mediaLink><alert class="note">
+      <para>If you are comfortable working in charts, you can also select and right-click on a specific area on the chart and select a formatting option.</para>
+    </alert><mediaLink>
+<image xlink:href="8eda86c0-8d69-4f5a-a894-b052b4e51ae1" />
+</mediaLink></listItem></list></listItem></list></content></tabControlItemSection></tabControlItem><tabControlItem targetedOfficeVersion="Office 2010, Office 2013, Office 2016, Office 2019, Office 365 Subscription"><tabControlItemTitle>Outlook</tabControlItemTitle><tabControlItemSection><content><para>To create a column chart, follow these steps:</para><list class="ordered"><listItem><para>In your email message, click <ui>Insert</ui> &gt; <ui>Chart</ui>. </para></listItem><listItem><para>In the <ui>Insert Chart</ui> dialog box, click <ui>Column</ui>, and pick a column chart option of your choice, and click <ui>OK</ui>.</para><para>Excel opens in a split window and displays sample data on a worksheet.</para></listItem><listItem><para>Replace the sample data with your own data.</para><alert class="note">
+      <para>If your chart is not reflecting data from the worksheet, make sure to drag the vertical lines all the way down to the last row in the table.</para>
+    </alert><mediaLink>
+<image xlink:href="1d558a68-99f5-4483-b018-77d2701277eb" />
+</mediaLink></listItem><listItem><para>Optionally, save the worksheet by following these steps:</para><list class="ordered"><listItem><para>	Click the <ui>Edit Data in Microsoft Excel</ui> icon on the Quick Access Toolbar. </para><mediaLink>
+<image xlink:href="fbddd45e-7a4d-48ac-9652-f3b60cd79772" />
+</mediaLink><para>The worksheet opens in Excel.</para></listItem><listItem><para>Save the worksheet.</para><alert class="tip">
+      <para>To reopen the worksheet, click <ui>Design</ui> &gt; <ui>Edit Data</ui>, and select an option.</para>
+    </alert></listItem></list><para>You can optionally format the chart a little further. See the list below for a few options:</para><alert class="note">
+      <para>Make sure you click on the chart first before applying a formatting option.</para>
+    </alert><list class="bullet"><listItem><para>To apply a different chart layout, click <ui>Design</ui> &gt; <ui>Charts Layout</ui>, and select a layout.</para></listItem><listItem><para>To apply a different chart style, click <ui>Design</ui> &gt; <ui>Chart Styles</ui>, and pick a style.</para></listItem><listItem><para>To apply a different shape style, click <ui>Format</ui> &gt; <ui>Shape Styles</ui>, and pick a style.</para><alert class="note">
+      <para>A chart style is different from a shape style. A shape style is a formatting option that applies to the chart’s border only, whereas the chart style is a formatting option that applies to the entire chart.</para>
+    </alert></listItem><listItem><para>	To apply different shape effects, click <ui>Format</ui> &gt; <ui>Shape Effects</ui>, and pick an option such as <ui>Bevel</ui> or <ui>Glow</ui>, and then a sub option. </para></listItem><listItem><para>To apply a formatting option to a specific component of a chart (such as <legacyItalic>Vertical (Value) Axis</legacyItalic>, <legacyItalic>Horizontal (Category) Axis</legacyItalic>, <legacyItalic>Chart Area</legacyItalic>, to name a few), click <ui>Format</ui> &gt; pick a component in the <ui>Chart Elements</ui> dropdown box, click <ui>Format Selection</ui>, and make any necessary changes. Repeat the step for each component you want to modify.</para><mediaLink>
+<image xlink:href="ed0c6d8b-234b-4dfa-9b3a-6e6d70cc71ca" />
+</mediaLink><alert class="note">
+      <para>If you are comfortable working in charts, you can also select and right-click on a specific area on the chart and select a formatting option.</para>
+    </alert><mediaLink>
+<image xlink:href="5d452362-d766-463c-90e8-cb1084c5d525" />
+</mediaLink></listItem></list></listItem></list></content></tabControlItemSection></tabControlItem></tabControl></content>
+</section><section>
+	<title>Did you know?</title><content><para>If you don't have an Office 365 subscription or the latest Office version, you can try it now:</para><mediaLink><image xlink:href="66bd0628-8473-4750-b528-03b57eb3d85d"><externalLink><linkText /><linkUri>https://products.office.com/en-us/excel</linkUri></externalLink></image></mediaLink></content>
+</section><relatedTopics><link xlink:href="0baf399e-dd61-4e18-8a73-b3fd5d5680c2">Create a chart from start to finish</link><link xlink:href="62f4219f-db4b-4754-aca8-4743f6190f0d">Create a box and whisker chart (floating chart)</link></relatedTopics> 
+</developerConceptualDocument></topic>

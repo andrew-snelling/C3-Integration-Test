@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="579e1958-f7f6-41ae-ba0c-c83cc6e40878" revisionNumber="3"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top"> 
+	 <para> When you want to display a list of values that users can choose from, add a list box to your worksheet.</para>
+	 <para><mediaLinkInline> <image xlink:href="eb926a15-280d-486f-b150-4915524dabf4" /> </mediaLinkInline> </para>
+  </introduction>
+  <section>
+	 <title>Add a list box to a worksheet</title><content>
+		<list class="ordered" address="BKMK_DisplayDeveloperTab">
+		  <listItem> 
+			 <para>Create a list of items that you want to displayed in your list box like in this picture.</para>
+			 <mediaLink>
+				<image xlink:href="ccd1f49f-b0e4-48f2-bcfa-9ba89867aaf5" /> 
+			 </mediaLink></listItem>
+		  <listItem>
+			 <para>Click <ui>Developer</ui> &gt; <ui>Insert</ui>.</para>
+			 <alert class="note"> 
+				<para>If the <ui>Developer</ui> tab isn't visible, click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Customize Ribbon</ui>. In the <ui>Main Tabs</ui> list, check the <ui>Developer</ui> box, and then click <ui>OK</ui>.</para>
+			 </alert>
+		  </listItem>
+		  <listItem> 
+			 <para> Under <ui>Form Controls</ui>, click <ui>List box (Form Control)</ui>.</para>
+			 <mediaLink>
+				<image xlink:href="ab752c6c-7f23-4c8d-b5ae-f3ce649af7de" /> 
+			 </mediaLink></listItem>
+		  <listItem> 
+			 <para>Click the cell where you want to create the list box. </para>
+		  </listItem>
+		  <listItem> 
+			 <para> Click <ui> Properties</ui> &gt; <ui>Control</ui> and set the required properties:</para>
+			 <para><mediaLinkInline> <image xlink:href="8f98e872-0e65-41e4-9762-c23da2a0048a" /> </mediaLinkInline></para>
+			 <list class="bullet">
+				<listItem>
+				  <para>In the <ui>Input range</ui> box, type the range of cells containing the values list.</para>
+				  <alert class="note"> 
+					 <para>If you want more items displayed in the list box, you can change the font size of text in the list.</para>
+				  </alert>
+				</listItem>
+				<listItem> 
+				  <para>In the <ui>Cell link</ui> box, type a cell reference. </para>
+				  <alert class="tip"> 
+					 <para>The cell you choose will have a number associated with the item selected in your list box, and you can use that number in a formula to return the actual item from the input range.</para>
+				  </alert>
+				</listItem>
+				<listItem>
+				  <para>Under <ui>Selection type</ui>, pick a <ui>Single</ui> and click <ui>OK</ui>.</para>
+				  <alert class="note"> 
+					 <para> If you want to use <ui>Multi</ui> or <ui>Extend</ui>, consider using an ActiveX list box control. </para>
+				  </alert>
+				</listItem>
+			 </list></listItem>
+		</list>
+	 </content>
+	 
+  </section>
+  <section>
+<title>Add a combo box to a worksheet</title><content><para>You can make data entry easier by letting users choose a value from a combo box. A combo box combines a text box with a list box to create a drop-down list. </para>
+	 <mediaLink>
+		<image xlink:href="402a0f4e-b26a-450e-ae42-1c3058bfe62e" /> 
+	 </mediaLink>
+	 <para>You can add a Form Control or an ActiveX Control combo box. If you want to create a combo box that enables the user to edit the text in the text box, consider using the ActiveX Combo Box. The ActiveX Control combo box is more versatile because, you can change font properties to make the text easier to read on a zoomed worksheet and use programming to make it appear in cells that contain a data validation list. </para>
+	 </content>
+</section><section>
+	 <content>
+		<list class="ordered">
+		  <listItem> 
+			 <para>Pick a column that you can hide on the worksheet and create a list by typing one value per cell.</para>
+			 <para><mediaLinkInline> <image xlink:href="ccd1f49f-b0e4-48f2-bcfa-9ba89867aaf5" /> </mediaLinkInline></para>
+			 <alert class="note"> 
+				<para>You can also create the list on another worksheet in the same workbook.</para>
+			 </alert>
+		  </listItem>
+		  <listItem> 
+			 <para> Click <ui>Developer</ui> &gt; <ui>Insert</ui>. </para>
+			 <alert class="note"> 
+				<para>If the <ui>Developer</ui> tab isn't visible, click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Customize Ribbon</ui>. In the <ui>Main Tabs</ui> list, check the <ui>Developer</ui> box, and then click <ui>OK</ui>.</para>
+			 </alert>
+		  </listItem>
+		  <listItem> 
+			 <para>Pick the type of combo box you want to add: </para>
+			 <list class="bullet">
+				<listItem> 
+				  <para>Under <ui>Form Controls</ui>, click <ui> Combo box (Form Control)</ui>.</para>
+				  <para>Or</para>
+				</listItem>
+				<listItem> 
+				  <para>Under <ui>ActiveX Controls</ui>, click <ui>Combo Box (ActiveX Control)</ui>.</para>
+				  <para> <mediaLinkInline> <image xlink:href="dee9730b-84f0-4fb3-9374-6dd78b953b16" /> </mediaLinkInline> </para>
+				</listItem>
+			 </list></listItem>
+		  <listItem> 
+			 <para>Click the cell where you want to add the combo box and drag to draw it. </para>
+		  </listItem>
+		</list>
+		<alert class="tip"> 
+		  <list class="bullet"><listItem><para>To resize the box, point to one of the resize handles, and drag the edge of the control until it reaches the height or width you want. </para></listItem><listItem><para>To move a combo box to another worksheet location, select the box and drag it to another location.</para></listItem></list>
+		  
+		</alert>
+	 </content>
+  </section><section>
+	 <title>Format a Form Control combo box</title>
+	 <content>
+		<list class="ordered">
+		  <listItem> 
+			 <para>Right-click the combo box and pick <ui>Format Control</ui>. </para>
+		  </listItem>
+		  <listItem> 
+			 <para>Click <ui>Control</ui> and set the following options: </para>
+			 <para><mediaLinkInline> <image xlink:href="2d7e8175-a042-41fc-ac04-cf00a6b0f4ea" /> </mediaLinkInline></para>
+			 <list class="bullet">
+				<listItem> 
+				  <para> <ui>Input range</ui>: Type the range of cells containing the list of items.</para>
+				</listItem>
+				<listItem> 
+				  <para><ui>Cell link</ui>: The combo box can be linked to a cell where the item number is displayed when you select an item from the list. Type the cell number where you want the item number displayed. </para>
+				  <para>For example, cell C1 displays 3 when the item <ui>Sorbet</ui> is selected, because it's the third item in our list.</para>
+				  <para> <mediaLinkInline> <image xlink:href="ba7b2681-5297-42cb-906e-854c5206c4bd" /> </mediaLinkInline></para>
+				  <alert class="tip"> 
+					 <para> You can use the INDEX function to show an item name instead of a number. In our example, the combo box is linked to cell B1 and the cell range for the list is A1:A2. If the following formula, is typed into cell C1: <legacyBold>=INDEX(A1:A5,B1)</legacyBold>, when we select the item "Sorbet" is displayed in C1. </para>
+				  </alert>
+				  <mediaLink>
+					 <image xlink:href="ed16e253-e1d3-4180-bfb0-26b3c8a12e66" /> 
+				  </mediaLink></listItem>
+				<listItem> 
+				  <para> <ui>Drop-down lines</ui>: The number of lines you want displayed when the down arrow is clicked. For example, if your list has 10 items and you don't want to scroll you can change the default number to 10. If you type a number that's less than the number of items in your list, a scroll bar is displayed.</para>
+				  <mediaLink>
+					 <image xlink:href="3bcdac54-6aef-409a-9101-cd107c91293f" /> 
+				  </mediaLink>
+				</listItem>
+				
+			 </list></listItem>
+		  <listItem> 
+			 <para>Click <ui>OK</ui>.</para>
+		  </listItem>
+		</list>
+	 </content>
+  </section><section>
+	 <title>Format an ActiveX combo box</title>
+	 <content>
+		<para></para>
+		<list class="ordered">
+		  <listItem> 
+			 <para>Click <ui>Developer</ui> &gt; <ui>Design Mode</ui>.</para>
+		  </listItem>
+		  <listItem> 
+			 <para>Right-click the combo box and pick <ui>Properties</ui>, click <ui>Alphabetic</ui>, and change any property setting that you want. </para>
+			 <para>Here's how to set properties for the combo box in this picture: </para>
+			 <para><mediaLinkInline> <image xlink:href="b8525617-909c-4049-aa03-10ad34bbb1f7" /> </mediaLinkInline></para>
+			 <para><mediaLinkInline> <image xlink:href="d3a353e9-e5b0-453f-9f4e-0248178969d3" /> </mediaLinkInline></para>
+			 <table border="1"><thead><tr><TD> 
+			 <para>To set this property </para>
+			 </TD><TD> 
+			 <para>Do this</para>
+			 </TD></tr></thead><tbody><tr><TD> 
+			 <para>Fill color </para>
+			 </TD><TD> 
+			 <para>Click <ui>BackColor</ui> &gt; the down arrow &gt; <ui>Pallet</ui>, and then pick a color.</para>
+			 <mediaLink>
+				<image xlink:href="1b4245bd-8d0a-45ab-b2ad-b0c5369dc34d" /> 
+			 </mediaLink></TD></tr><tr><TD> 
+			 <para>Font type, style or size </para>
+			 </TD><TD> 
+			 <para>Click <ui>Font</ui> &gt; the<ui>...</ui> button and pick font type, size, or style.</para>
+			 <mediaLink>
+				<image xlink:href="d236ecb0-e1e0-4c84-91ea-24a080898744" /> 
+			 </mediaLink></TD></tr><tr><TD> 
+			 <para>Font color </para>
+			 </TD><TD> 
+			 <para>Click <ui>ForeColor</ui> &gt; the down arrow &gt; <ui>Pallet</ui>, and then pick a color.</para>
+			 </TD></tr><tr><TD> 
+			 <para>Link a cell to display selected list value.</para>
+			 </TD><TD> 
+			 <para>Click <ui>LinkedCell</ui></para>
+			 </TD></tr><tr><TD> 
+			 <para>Link Combo Box to a list</para>
+			 </TD><TD> 
+			 <para>Click the box next to <ui>ListFillRange</ui> and type the cell range for the list.</para>
+			 </TD></tr><tr><TD> 
+			 <para>Change the number of list items displayed</para>
+			 </TD><TD> 
+			 <para>Click the <ui>ListRows</ui> box and type the number of items to be displayed.</para>
+			 </TD></tr></tbody></table></listItem>
+		  <listItem> 
+			 <para>Close the <ui>Property</ui> box and click <ui>Designer Mode</ui>. </para>
+		  </listItem>
+		  <listItem> 
+			 <para>After you complete the formatting, you can right-click the column that has the list and pick <ui>Hide</ui>.</para>
+		  </listItem>
+		</list>
+	 </content>
+  </section><section>
+<title>Need more help?</title>
+	<content>
+		<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.
+	</para>
+</content>
+</section><relatedTopics><link xlink:href="D101804A-0F84-43AD-8CB2-E19277B8E3FB">Overview of forms, form controls, and ActiveX controls on a worksheet</link><link xlink:href="9F201E46-8F6B-4A9D-A320-F44B28088CB0">Add a check box or option button (Form controls)
+</link></relatedTopics> 
+</developerConceptualDocument></topic>

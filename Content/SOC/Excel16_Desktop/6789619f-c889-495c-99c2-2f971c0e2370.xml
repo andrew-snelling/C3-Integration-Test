@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="6789619f-c889-495c-99c2-2f971c0e2370" revisionNumber="8"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para address="bmbacktotop">Excel provides numerous predefined table styles that you can use to quickly format a table. If the predefined table styles don't meet your needs, you can create and apply a custom table style. Although you can delete only custom table styles, you can remove any predefined table style so that it is no longer applied to a table.</para>
+		<mediaLink>
+			<image xlink:href="3dd2b79b-9160-403d-9967-af893d17b580" />
+		</mediaLink>
+		<para>You can further adjust the table formatting by choosing Quick Styles options for table elements, such as <ui>Header </ui>and <ui>Total Rows</ui>, <ui>First</ui> and <ui>Last Columns</ui>, <ui>Banded Rows</ui> and <ui>Columns</ui>, as well as <ui>Auto Filtering</ui>.</para>
+		<alert class="note">
+			<para>The screen shots in this article were taken in Excel 2016. If you have a different version your view might be slightly different, but unless otherwise noted, the functionality is the same.</para>
+		</alert>
+	</introduction>
+	<section address="bmpredefinedtablestyle">
+		<title>Choose a table style</title>
+		<content>
+			<para>When you have a data range that is not formatted as a table, Excel will automatically convert it to a table when you select a table style. You can also change the format for an existing table by selecting a different format.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Select any cell within the table, or range of cells you want to format as a table.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Home</ui> tab, click <ui>Format as Table</ui>.</para>
+					<para><mediaLinkInline><image xlink:href="42b93401-f0d0-43a5-b119-1d7457dd11c4" /></mediaLinkInline></para>
+				</listItem>
+				<listItem>
+					<para>Click the table style that you want to use.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<list class="bullet">
+					<listItem>
+						<para><legacyBold>Auto Preview</legacyBold> - Excel will automatically format your data range or table with a preview of any style you select, but will only apply that style if you press Enter or click with the mouse to confirm it. You can scroll through the table formats with the mouse or your keyboard's arrow keys.</para>
+					</listItem>
+					<listItem>
+						<para>When you use <ui>Format as Table</ui>, Excel automatically converts your data range to a table. If you don't want to work with your data in a table, you can convert the table back to a regular range while keeping the table style formatting that you applied. For more information, see <link xlink:href="0b326ff1-1764-4ebe-84ea-786265d41c77">Convert an Excel table to a range of data</link>.</para>
+					</listItem>
+				</list>
+			</alert>
+		</content>
+	</section>
+	<section address="bmcreatecustomtablestyle" expanded="true">
+		<title>Create or delete a custom table style</title>
+		<content>
+			<alert class="important">
+				<list class="bullet">
+					<listItem>
+						<para>Once created, custom table styles are available from the Table Styles gallery under the Custom section.</para>
+					</listItem>
+					<listItem>
+						<para>Custom table styles are only stored in the current workbook, and are not available in other workbooks.</para>
+					</listItem>
+				</list>
+			</alert>
+			<para><legacyBold>Create a custom table style</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Select any cell in the table you want to use to create a custom style.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Home</ui> tab, click <ui>Format as Table</ui>, or expand the <ui>Table Styles</ui> gallery from the <ui>Table Tools</ui> &gt; <ui>Design</ui> tab (the <ui>Table</ui> tab on a Mac).</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>New Table Style</ui>, which will launch the <ui>New Table Style</ui> dialog.</para>
+					<mediaLink>
+						<image xlink:href="886a4e34-ecdd-4313-8e5d-e923effb087f" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Name</ui> box, type a name for the new table style.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Table Element</ui> box, do one of the following:</para>
+					<list class="bullet">
+						<listItem>
+							<para>To format an element, click the element, then click <ui>Format</ui>, and then select the formatting options you want from the <ui>Font</ui>, <ui>Border</ui> or <ui>Fill</ui> tabs.</para>
+						</listItem>
+						<listItem>
+							<para>To remove existing formatting from an element, click the element, and then click <ui>Clear</ui>.</para>
+						</listItem>
+					</list>
+				</listItem>
+				<listItem>
+					<para>Under <ui>Preview</ui>, you can see how the formatting changes that you made affect the table.</para>
+				</listItem>
+				<listItem>
+					<para>To use the new table style as the default table style in the current workbook, select the <ui>Set as default table style for this document</ui> check box.</para>
+				</listItem>
+			</list>
+			<para><legacyBold>Delete a custom table style</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Select any cell in the table from which you want to delete the custom table style.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Home</ui> tab, click <ui>Format as Table</ui>, or expand the <ui>Table Styles</ui> gallery from the <ui>Table Tools</ui> &gt; <ui>Design</ui> tab (the <ui>Table</ui> tab on a Mac).</para>
+				</listItem>
+				<listItem>
+					<para>Under <ui>Custom</ui>, right-click the table style that you want to delete, and then click <ui>Delete</ui> on the shortcut menu.</para>
+					<alert class="note">
+						<para>All tables in the current workbook that are using that table style will be displayed in the default table format.</para>
+					</alert>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section address="bmcleardeletetablestyle" expanded="true">
+		<title>Remove a table style</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Select any cell in the table from which you want to remove the current table style.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Home</ui> tab, click <ui>Format as Table</ui>, or expand the <ui>Table Styles</ui> gallery from the <ui>Table Tools</ui> &gt; <ui>Design</ui> tab (the <ui>Table</ui> tab on a Mac).</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Clear</ui>.</para>
+					<para>The table will be displayed in the default table format.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<para>Removing a table style does not remove the table. If you don't want to work with your data in a table, you can convert the table to a regular range. For more information, see <link xlink:href="0b326ff1-1764-4ebe-84ea-786265d41c77">Convert an Excel table to a range of data</link>.</para>
+			</alert>
+		</content>
+	</section>
+	<section address="bmsetquickstyleoptions" expanded="true">
+		<title>Choose table style options to format the table elements</title>
+		<content>
+			<para>There are several table style options that can be toggled on and off. To apply any of these options:</para>
+			<list class="ordered">
+				<listItem>
+					<para>Select any cell in the table.</para>
+				</listItem>
+				<listItem>
+					<para>Go to <ui>Table Tools</ui> &gt; <ui>Design</ui>, or the <ui>Table </ui>tab on a Mac, and in the <ui>Table Style Options</ui> group, check or uncheck any of the following:</para>
+					<para><mediaLinkInline><image xlink:href="3187035b-d26f-40df-b373-9438041dbd22" /></mediaLinkInline></para>
+					<list class="bullet">
+						<listItem>
+							<para><ui>Header Row</ui> - Apply or remove formatting from the first row in the table.</para>
+						</listItem>
+						<listItem>
+							<para><ui>Total Row</ui> - Quickly add <link xlink:href="7B027003-F060-4ADE-9040-E478765B9939">SUBTOTAL functions</link> like SUM, AVERAGE, COUNT, MIN/MAX to your table from a drop-down selection. SUBTOTAL functions allow you to include or ignore hidden rows in calculations.</para>
+						</listItem>
+						<listItem>
+							<para><ui>First Column</ui> - Apply or remove formatting from the first column in the table.</para>
+						</listItem>
+						<listItem>
+							<para><ui>Last Column</ui> - Apply or remove formatting from the last column in the table.</para>
+						</listItem>
+						<listItem>
+							<para><ui>Banded Rows</ui> - Display odd and even rows with alternating shading for ease of reading.</para>
+						</listItem>
+						<listItem>
+							<para><ui>Banded Columns</ui> - Display odd and even columns with alternating shading for ease of reading.</para>
+						</listItem>
+						<listItem>
+							<para><ui>Filter Button</ui> - Toggle <link xlink:href="01832226-31b5-4568-8806-38c37dcc180e">AutoFilter</link> on and off.</para>
+						</listItem>
+					</list>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section>
+		<title>Need more help?</title>
+		<content>
+			<para>You can always ask an expert in the <externalLink><linkText>Excel Tech Community</linkText><linkUri>https://techcommunity.microsoft.com/t5/Excel/ct-p/Excel_Cat</linkUri></externalLink>, get support in the <externalLink><linkText>Answers community</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=827514</linkUri></externalLink>, or suggest a new feature or improvement on <externalLink><linkText>Excel User Voice</linkText><linkUri>https://excel.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c">Overview of Excel tables</link></para>
+			<para><link xlink:href="bf0ce08b-d012-42ec-8ecf-a2259c9faf3f">Video: Create an Excel table</link></para>
+			<para><link xlink:href="6944378F-A222-4449-93D8-474386B11F20">Total the data in an Excel table</link></para>
+			<para><link xlink:href="4d6585be-4292-444c-b86b-71cb4e5d3e16">Resize a table by adding or removing rows and columns</link></para>
+			<para><link xlink:href="1e9c9c83-bf17-41c7-b243-c48625a7a6ff">Excel table compatibility issues</link></para>
+			<para><link xlink:href="974544F9-94BC-4AA8-9159-97282D256DAB">Export an Excel table to SharePoint</link></para>
+			<para><link xlink:href="0B326FF1-1764-4EBE-84EA-786265D41C77">Convert an Excel table to a range</link></para>
+			<para><link xlink:href="01832226-31B5-4568-8806-38C37DCC180E">Filter data in a range or table</link></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

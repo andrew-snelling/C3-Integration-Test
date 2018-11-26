@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="e76a38b0-e2e1-400b-9f2f-c87b9b18c092" revisionNumber="9"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para address="bmbacktotop">You can refresh the data connected to an external <token>TE000127043</token> in an Excel workbook. This data source can be a cell range, Excel table, PivotTable report, PivotChart report, text file, or Web query. Each time you refresh the data, you see the most recent version of the information in the data source, including any changes that were made to the data.</para>
+		<alert class="security note">
+			<para>Connections to external data may be currently disabled on your computer. To refresh the data when you open a workbook, you must enable the data connections by using the Trust Center bar, or you must place the workbook in a trusted location.</para>
+		</alert>
+		<para>For more information, see <link xlink:href="7ee1cdc2-483e-4cbb-bcb3-4e7c67147fb4">Add, remove, or modify a trusted location for your files</link>, <link xlink:href="87b3d5a3-b68c-4023-87c4-7cc78a44d7ed">Add, remove, or view a trusted publisher</link>, and <link xlink:href="d672876e-20d3-4ad3-a178-343d044e05c8">View my options and settings in the Trust Center</link>.</para>
+	</introduction>
+	<section expanded="true">
+		<title>Refresh data from a Microsoft Query, the Data Connection Wizard, or Web query</title>
+		<content>
+			<para>Do one of the following:</para>
+			<list class="bullet">
+				<listItem>
+					<para>To refresh a specific data connection in the workbook, click a cell in the external data range. On the <ui>Data</ui> tab, in the <ui>Connections</ui> group, click the arrow next to <ui>Refresh All</ui>, and then click <ui>Refresh</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>To refresh all data connections in the workbook, click <ui>Refresh All</ui> on the <ui>Data</ui> tab, in the <ui>Connections</ui> group.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<para>If you have more than one workbook open, you must repeat the operation in each workbook.</para>
+			</alert>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Refresh data from an imported text file</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Select the worksheet that contains the imported text file.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Connections </ui>group, click the arrow next to <ui>Refresh</ui>, and then click <ui>Refresh</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>In the <ui>Import Text File</ui> dialog box, select your text file, and then click <ui>Import</ui>.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Refresh an offline cube file</title>
+		<content>
+			<para>Refreshing an <token>TE000127070</token>, which re-creates the file by using the most recent data from the server cube, can be time consuming and require a lot of temporary disk space. Start the process at a time when you do not need immediate access to other files, and make sure that you have adequate disk space to save the file again.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Click the PivotTable report that is based on the offline cube file.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Connections </ui>group, click the arrow next to <ui>Refresh</ui>, and then click <ui>Refresh</ui>.</para>
+					<para>
+        <mediaLinkInline><image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a" /></mediaLinkInline>
+      </para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Refresh data in an imported XML file</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>On the worksheet, click a mapped cell to select the XML map that you want to refresh.</para>
+				</listItem>
+				<listItem>
+					<para>If the <ui>Developer</ui> tab is not available, display it. For instructions, see <link xlink:href="E1192344-5E56-4D45-931B-E5FD9BEA2D45">Show the Developer tab</link>.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Developer</ui> tab, in the <ui>XML</ui> group, click <ui>Refresh Data</ui>.</para>
+					<para>
+        <mediaLinkInline><image xlink:href="b0126db2-1762-47d2-b28d-d0b5a4704f2b" /></mediaLinkInline>
+      </para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Automatically refresh data when a workbook is opened</title>
+		<content>
+			<para>You can refresh an external data range automatically when you open the workbook. Optionally, you can save the workbook without saving the external data so that the file size of the workbook is reduced.</para>
+			<list class="ordered">
+				<listItem>
+					<para>Click a cell in the external data range.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Connections </ui>group, click the arrow next to <ui>Refresh</ui>, and then click <ui>Connection Properties</ui>.</para>
+					<para>
+        <mediaLinkInline><image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a" /></mediaLinkInline>
+      </para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Usage</ui> tab.</para>
+				</listItem>
+				<listItem>
+					<para>Under <ui>Refresh control</ui>, select the <ui>Refresh data when opening the file</ui> check box.</para>
+				</listItem>
+				<listItem>
+					<para>If you want to save the workbook with the query definition but without the external data, select the <ui>Remove data from the external data range before saving the workbook</ui> check box.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<para>To refresh the data when the workbook is opened for a PivotTable report, you can also select the <ui>Refresh data when opening the file</ui> check box. This check box is under the <ui>PivotTable Data</ui> section on the <ui>Data</ui> tab of the <ui>PivotTable Options</ui> dialog box.</para>
+			</alert>
+			<para>For more information, see <link xlink:href="27c02eb7-27de-4b3f-9677-c48e3fe7637b">PivotTable options</link>.</para>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Automatically refresh data at regular intervals</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>Click a cell in the external data range.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Connections </ui>group, click the arrow next to <ui>Refresh</ui>, and then click <ui>Connection Properties</ui>.</para>
+					<para>
+        <mediaLinkInline><image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a" /></mediaLinkInline>
+      </para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Usage</ui> tab.</para>
+				</listItem>
+				<listItem>
+					<para>Select the <ui>Refresh every</ui> check box, and then enter the number of minutes between each refresh operation.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Require a password to refresh an external data range</title>
+		<content>
+			<para>Stored passwords are not encrypted and are not recommended. If your data source requires a <token>TE000127075</token> to connect to it, you can require that users enter the password before they can refresh the external data range. The following procedure does not apply to data that is retrieved from a text file (.txt) or a Web query (.iqy).</para>
+			<alert class="important">
+				<para>Use strong passwords that combine uppercase and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Passwords should be 8 or more characters in length. A pass phrase that uses 14 or more characters is better. It is critical that you remember your password. If you forget your password, Microsoft cannot retrieve it. Store the passwords that you write down in a secure place away from the information that they help protect.</para>
+			</alert>
+			<list class="ordered">
+				<listItem>
+					<para>Click a cell in the external data range.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Connections </ui>group, click the arrow next to <ui>Refresh</ui>, and then click <ui>Connection Properties</ui>.</para>
+					<para>
+        <mediaLinkInline><image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a" /></mediaLinkInline>
+      </para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Definition</ui> tab.</para>
+				</listItem>
+				<listItem>
+					<para>Clear the <ui>Save password</ui> check box.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<para>Excel prompts you for the password only the first time that the external data range is refreshed in each Excel session. The next time that you start Excel, you will be prompted for the password again if you open the workbook that contains the query and then attempt a refresh operation.</para>
+			</alert>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Run a query in the background or while you wait</title>
+		<content>
+			<para>Running a query in the background enables you to use Excel while the query runs.</para>
+			<alert class="note">
+				<para>You cannot run an OLAP query in the background.</para>
+			</alert>
+			<list class="ordered">
+				<listItem>
+					<para>Click a cell in the external data range.</para>
+				</listItem>
+				<listItem>
+					<para>On the <ui>Data</ui> tab, in the <ui>Connections </ui>group, click the arrow next to <ui>Refresh</ui>, and then click <ui>Connection Properties</ui>.</para>
+					<para>
+        <mediaLinkInline><image xlink:href="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a" /></mediaLinkInline>
+      </para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>Usage</ui> tab.</para>
+				</listItem>
+				<listItem>
+					<para>Select the <ui>Enable background refresh</ui> check box to run the query in the background. Clear this check box to run the query while you wait.</para>
+				</listItem>
+			</list>
+			<alert class="note">
+				<para>While you are recording a <token>TE000127347</token> that includes a query, Excel does not run the query in the background. To change the recorded macro so that the query runs in the background, edit the macro in the <token>TE000127669</token>. Change the refresh method for the <legacyBold>QueryTable</legacyBold> object from <legacyBold>BackgroundQuery := False</legacyBold> to <legacyBold>BackgroundQuery := True</legacyBold>. For information about editing macros, see Visual Basic for Applications Help.</para>
+			</alert>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Check the status of a refresh operation or cancel a refresh</title>
+		<content>
+			<para>Do one or more of the following:</para>
+			<list class="bullet">
+				<listItem>
+					<para>
+        <embeddedLabel>Check the status of a query</embeddedLabel> A spinning icon appears on the <token>TE000127590</token> to indicate that the query is running. Double-click the <ui>Background Refresh</ui> <mediaLinkInline><image xlink:href="5a06f875-ef3e-4368-a3de-dfbb612c25b5" /></mediaLinkInline>  icon to check the status of the query.</para>
+				</listItem>
+				<listItem>
+					<para>
+        <embeddedLabel>Stop a background refresh</embeddedLabel> To stop a query that is running in the background, double-click the <ui>Background Refresh</ui> <mediaLinkInline><image xlink:href="5a06f875-ef3e-4368-a3de-dfbb612c25b5" /></mediaLinkInline>  icon on the status bar to display the <ui>External Data Refresh Status</ui> dialog box, and then click <ui>Stop Refresh</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>
+        <embeddedLabel>Stop a query</embeddedLabel> To stop a query from running when <ui>Enable background refresh</ui> is turned off, press ESC.</para>
+				</listItem>
+			</list>
+			<para>
+    <link xlink:href="e76a38b0-e2e1-400b-9f2f-c87b9b18c092#__top">Top of Page</link>
+  </para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>
