@@ -1,6 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="ca7e3d6d-fe4e-4680-a96a-66261b6a490d" assetTypeId="CompanionFile">
-  <topic id="ca7e3d6d-fe4e-4680-a96a-66261b6a490d">
+  <topic id="ca7e3d6d-fe4e-4680-a96a-66261b6a490d" revisionNumber="1" createDate="2014-05-16T21:36:00.000">
     <title>Change the color of a data series in 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2014-02-25T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Customize the color schemes for your audience or make your Power Map stand out by changing the colors for one or more points or series of data.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA104115471</attribute>
+    <attribute name="OCMS Version">0.16</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA104115471</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">ca7e3d6d-fe4e-4680-a96a-66261b6a490d</attribute>
+  </attributes>
+  <art>
+    <item id="e3b0fecc-9aac-4b19-a11d-0b856c8a8fe1">
+      <image file="Art\e3b0fecc-9aac-4b19-a11d-0b856c8a8fe1\e3b0fecc-9aac-4b19-a11d-0b856c8a8fe1.png" metadataAssetGuid="e3b0fecc-9aac-4b19-a11d-0b856c8a8fe1">
+        <title>pm15settingslayeroptions</title>
+        <altText>Settings icon on the Layer Options tab</altText>
+      </image>
+    </item>
+    <item id="65317674-9161-4cb5-a3b6-6f78b84a8a7c">
+      <image file="Art\65317674-9161-4cb5-a3b6-6f78b84a8a7c\65317674-9161-4cb5-a3b6-6f78b84a8a7c.png" metadataAssetGuid="65317674-9161-4cb5-a3b6-6f78b84a8a7c">
+        <title>pm15layerpane</title>
+        <altText>Layer Pane button on the Power Map Home tab</altText>
+      </image>
+    </item>
+    <item id="8b584316-13d5-4285-952e-d097b52164ad">
+      <image file="Art\8b584316-13d5-4285-952e-d097b52164ad\8b584316-13d5-4285-952e-d097b52164ad.png" metadataAssetGuid="8b584316-13d5-4285-952e-d097b52164ad">
+        <title>pm15layerpane_colormorecolors</title>
+        <altText>Color downdown on the Settigns Layer Options tab</altText>
+      </image>
+    </item>
+    <item id="d0c8a823-0749-4844-845a-fe0f7e817ff0">
+      <image file="Art\d0c8a823-0749-4844-845a-fe0f7e817ff0\d0c8a823-0749-4844-845a-fe0f7e817ff0.png" metadataAssetGuid="d0c8a823-0749-4844-845a-fe0f7e817ff0">
+        <title>pm15layerpane_color</title>
+        <altText>Data Series list box for the Color drop down</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

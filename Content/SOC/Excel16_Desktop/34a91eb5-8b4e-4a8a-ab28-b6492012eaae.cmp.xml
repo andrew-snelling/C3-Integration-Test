@@ -1,6 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="34a91eb5-8b4e-4a8a-ab28-b6492012eaae" assetTypeId="CompanionFile">
-  <topic id="34a91eb5-8b4e-4a8a-ab28-b6492012eaae">
+  <topic id="34a91eb5-8b4e-4a8a-ab28-b6492012eaae" revisionNumber="5" createDate="2014-05-16T20:42:00.000">
     <title>Scale a worksheet</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_SHARE</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_SHARE_PRINT</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">In Excel, you can scale a worksheet for printing by shrinking or enlarging its size to better fit the printed pages. You can also scale a worksheet to fit the paper width of printed pages, or specify the number of pages that you want to use for the printed worksheet.</attribute>
+    <attribute name="Context Sensitive ID">21121</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5201821</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HP010243019</attribute>
+    <attribute name="OCMS Version">9.0</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">21121</attribute>
+    <attribute name="search.contextid">xlmain11.chm5201821</attribute>
+    <attribute name="Search.OCMSasset">HP010243019</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">34a91eb5-8b4e-4a8a-ab28-b6492012eaae</attribute>
+  </attributes>
+  <art>
+    <item id="d1ffe631-c008-4f80-835e-48102ab5cf7d">
+      <image file="Art\d1ffe631-c008-4f80-835e-48102ab5cf7d\d1ffe631-c008-4f80-835e-48102ab5cf7d.gif" metadataAssetGuid="d1ffe631-c008-4f80-835e-48102ab5cf7d">
+        <title>dialogboxlauncher</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="91077429-e081-41c4-9379-b9141043dd6a">
+      <image file="Art\91077429-e081-41c4-9379-b9141043dd6a\91077429-e081-41c4-9379-b9141043dd6a.png" metadataAssetGuid="91077429-e081-41c4-9379-b9141043dd6a">
+        <title>Excel2016_ScaleToFit</title>
+        <altText>Scale to Fit</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

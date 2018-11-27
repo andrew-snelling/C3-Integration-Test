@@ -1,6 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="cd131b77-79c7-4537-a438-8db20cea84c0" assetTypeId="CompanionFile">
-  <topic id="cd131b77-79c7-4537-a438-8db20cea84c0">
+  <topic id="cd131b77-79c7-4537-a438-8db20cea84c0" revisionNumber="13" createDate="2015-05-20T22:23:00.000">
     <title>Create a chart with recommended charts</title>
   </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_ANALYZE_DATA</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_ANALYZE_DATA_CHARTS</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use Recommended Charts to create a chart in Excel  that's recommended for your data.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2213605</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">cd131b77-79c7-4537-a438-8db20cea84c0</attribute>
+  </attributes>
+  <art>
+    <item id="7c57eaf2-ab9a-4301-ae9c-1c183605eed4">
+      <image file="Art\7c57eaf2-ab9a-4301-ae9c-1c183605eed4\7c57eaf2-ab9a-4301-ae9c-1c183605eed4.jpg" metadataAssetGuid="7c57eaf2-ab9a-4301-ae9c-1c183605eed4">
+        <title>o15_xl_insertchartdb-1</title>
+        <altText>Recommended Charts tab in the Insert Chart dialog box</altText>
+      </image>
+    </item>
+    <item id="23eadb2e-90a9-4c1a-b3f8-80059188aa37">
+      <image file="Art\23eadb2e-90a9-4c1a-b3f8-80059188aa37\23eadb2e-90a9-4c1a-b3f8-80059188aa37.jpg" metadataAssetGuid="23eadb2e-90a9-4c1a-b3f8-80059188aa37">
+        <title>o15_xl_insert_charts-1</title>
+        <altText>Charts group on the Insert tab</altText>
+      </image>
+    </item>
+    <item id="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+      <image file="Art\fd7db992-63b2-4e28-a877-a2ae13d6b7ef\fd7db992-63b2-4e28-a877-a2ae13d6b7ef.jpg" metadataAssetGuid="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+        <title>o15_xl_charttools_design_format</title>
+        <altText>Design and Format tabs for the Chart Tools</altText>
+      </image>
+    </item>
+    <item id="a77a73e8-2ee2-4a44-9e38-a6998c87e4c4">
+      <image file="Art\a77a73e8-2ee2-4a44-9e38-a6998c87e4c4\a77a73e8-2ee2-4a44-9e38-a6998c87e4c4.jpg" metadataAssetGuid="a77a73e8-2ee2-4a44-9e38-a6998c87e4c4">
+        <title>o15_xl_stackedcolumnchart-1</title>
+        <altText>Recommended stacked column chart</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

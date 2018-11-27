@@ -1,6 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="bf5b9e8c-f8b0-427b-8a68-85a916b4a79d" assetTypeId="CompanionFile">
-  <topic id="bf5b9e8c-f8b0-427b-8a68-85a916b4a79d">
+  <topic id="bf5b9e8c-f8b0-427b-8a68-85a916b4a79d" revisionNumber="2" createDate="2015-08-27T13:08:00.000">
     <title>Continuously play a 3D Maps tour</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Showcase your 3D Maps tour by continuously replaying it in Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511342</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">bf5b9e8c-f8b0-427b-8a68-85a916b4a79d</attribute>
+  </attributes>
+  <art>
+    <item id="28858004-1bef-4725-92a1-1dc58769e32f">
+      <image file="Art\28858004-1bef-4725-92a1-1dc58769e32f\28858004-1bef-4725-92a1-1dc58769e32f.png" metadataAssetGuid="28858004-1bef-4725-92a1-1dc58769e32f">
+        <title>O16_3DMaps_PlayTour</title>
+        <altText>3D Maps Play Tour option</altText>
+      </image>
+    </item>
+    <item id="eb03279f-d887-446a-b520-27037e1fb2a3">
+      <image file="Art\eb03279f-d887-446a-b520-27037e1fb2a3\eb03279f-d887-446a-b520-27037e1fb2a3.png" metadataAssetGuid="eb03279f-d887-446a-b520-27037e1fb2a3">
+        <title>o15_xl_PowerMap_btn_TurnRepeatOn</title>
+        <altText>Turn repeat on</altText>
+      </image>
+    </item>
+    <item id="235063ab-0ebf-4eac-a74d-2f058f70c628">
+      <image file="Art\235063ab-0ebf-4eac-a74d-2f058f70c628\235063ab-0ebf-4eac-a74d-2f058f70c628.png" metadataAssetGuid="235063ab-0ebf-4eac-a74d-2f058f70c628">
+        <title>o15_xl_PowerMap_btn_More</title>
+        <altText>More button</altText>
+      </image>
+    </item>
+    <item id="0986e974-59f3-4c38-b5a1-79eebcca60df">
+      <image file="Art\0986e974-59f3-4c38-b5a1-79eebcca60df\0986e974-59f3-4c38-b5a1-79eebcca60df.png" metadataAssetGuid="0986e974-59f3-4c38-b5a1-79eebcca60df">
+        <title>o15_xl_PowerMap_kiosk_mode</title>
+        <altText>Power Map tour set to replay</altText>
+      </image>
+    </item>
+    <item id="9f0567d1-bc00-4bcd-854d-80a5c6a81972">
+      <image file="Art\9f0567d1-bc00-4bcd-854d-80a5c6a81972\9f0567d1-bc00-4bcd-854d-80a5c6a81972.png" metadataAssetGuid="9f0567d1-bc00-4bcd-854d-80a5c6a81972">
+        <title>o15_xl_PowerMap_btn_TurnRepeatOff</title>
+        <altText>Turn repeat off</altText>
+      </image>
+    </item>
+    <item id="fadae7d5-9e63-4d30-be54-e26e241d4d1e">
+      <image file="Art\fadae7d5-9e63-4d30-be54-e26e241d4d1e\fadae7d5-9e63-4d30-be54-e26e241d4d1e.png" metadataAssetGuid="fadae7d5-9e63-4d30-be54-e26e241d4d1e">
+        <title>o15_xl_PowerMap_btn_AutoRefresh</title>
+        <altText>Automatic refresh</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

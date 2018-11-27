@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="f9d20709-a06f-413e-a6ce-fa77f1f4c21d" assetTypeId="CompanionFile">
-  <topic id="f9d20709-a06f-413e-a6ce-fa77f1f4c21d">
+  <topic id="f9d20709-a06f-413e-a6ce-fa77f1f4c21d" revisionNumber="-1" createDate="">
     <title>Date and Time</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.assetid">f9d20709-a06f-413e-a6ce-fa77f1f4c21d</attribute>
+  </attributes>
 </metadata>

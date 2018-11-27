@@ -1,6 +1,137 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="8de1ece4-ff21-4d37-acd7-546f5527f185" assetTypeId="CompanionFile">
-  <topic id="8de1ece4-ff21-4d37-acd7-546f5527f185">
+  <topic id="8de1ece4-ff21-4d37-acd7-546f5527f185" revisionNumber="18" createDate="2015-06-16T19:01:00.000">
     <title>Create a waterfall chart</title>
   </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_ANALYZE_DATA</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_ANALYZE_DATA_CHARTS</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use the waterfall chart to quickly see positive and negative values impacting a subtotal or total value. Waterfall charts are often used to visualize financial statements, and are sometimes called bridge charts.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Office 365</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2255139</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZOL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZOL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZPP190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZPP900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.appverid">ZWD190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZWD900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">8de1ece4-ff21-4d37-acd7-546f5527f185</attribute>
+  </attributes>
+  <art>
+    <item id="bca0035d-769d-4b02-8cab-03a4bef3e239">
+      <image file="Art\bca0035d-769d-4b02-8cab-03a4bef3e239\bca0035d-769d-4b02-8cab-03a4bef3e239.png" metadataAssetGuid="bca0035d-769d-4b02-8cab-03a4bef3e239">
+        <title>XLWin16FormatDataPTConnectorLines</title>
+        <altText>Format Data Point task pane with the Show Connector Lines box unchecked in Office 2016</altText>
+      </image>
+    </item>
+    <item id="06964e96-4b4f-4b21-9188-4f953a929371">
+      <image file="Art\06964e96-4b4f-4b21-9188-4f953a929371\06964e96-4b4f-4b21-9188-4f953a929371.png" metadataAssetGuid="06964e96-4b4f-4b21-9188-4f953a929371">
+        <title>Xl16WinWaterfallData</title>
+        <altText>Data used to create the example waterfall chart</altText>
+      </image>
+    </item>
+    <item id="6bf78a0e-223c-4ab1-a4d5-5f68a62e018b">
+      <image file="Art\6bf78a0e-223c-4ab1-a4d5-5f68a62e018b\6bf78a0e-223c-4ab1-a4d5-5f68a62e018b.png" metadataAssetGuid="6bf78a0e-223c-4ab1-a4d5-5f68a62e018b">
+        <title>Excel2016Mac_Icn_WaterfallChart</title>
+        <altText>Waterfall chart icon</altText>
+      </image>
+    </item>
+    <item id="fe924f0b-bdff-4cb8-bb45-7680e33715d2">
+      <image file="Art\fe924f0b-bdff-4cb8-bb45-7680e33715d2\fe924f0b-bdff-4cb8-bb45-7680e33715d2.png" metadataAssetGuid="fe924f0b-bdff-4cb8-bb45-7680e33715d2">
+        <title>WaterfallChartExample</title>
+        <altText>Image of a Waterfall chart in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+      <image file="Art\fd7db992-63b2-4e28-a877-a2ae13d6b7ef\fd7db992-63b2-4e28-a877-a2ae13d6b7ef.jpg" metadataAssetGuid="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+        <title>o15_xl_charttools_design_format</title>
+        <altText>Design and Format tabs for the Chart Tools</altText>
+      </image>
+    </item>
+    <item id="d91f619c-ec0e-4b1c-a5ea-b999a6d35d28">
+      <image file="Art\d91f619c-ec0e-4b1c-a5ea-b999a6d35d28\d91f619c-ec0e-4b1c-a5ea-b999a6d35d28.png" metadataAssetGuid="d91f619c-ec0e-4b1c-a5ea-b999a6d35d28">
+        <title>XL16WinWaterfallChart</title>
+        <altText>Art showing  ribbon commands to insert a Waterfall chart</altText>
+      </image>
+    </item>
+    <item id="19ba949c-4d56-4803-9bb1-dbc2f97bee9b">
+      <image file="Art\19ba949c-4d56-4803-9bb1-dbc2f97bee9b\19ba949c-4d56-4803-9bb1-dbc2f97bee9b.png" metadataAssetGuid="19ba949c-4d56-4803-9bb1-dbc2f97bee9b">
+        <title>XlWin16FormatDataPtSetTotal</title>
+        <altText>Format Data Point task pane with the Set as total option checked in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="370c8f7d-8f0e-4558-8522-f783a802b24b">
+      <image file="Art\370c8f7d-8f0e-4558-8522-f783a802b24b\370c8f7d-8f0e-4558-8522-f783a802b24b.png" metadataAssetGuid="370c8f7d-8f0e-4558-8522-f783a802b24b">
+        <title>Excel2016Mac_WaterfallChart</title>
+        <altText>Waterfall chart on the ribbon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

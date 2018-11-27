@@ -1,6 +1,116 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="1985a408-6fc3-4e87-ac9e-673e0e1f485e" assetTypeId="CompanionFile">
-  <topic id="1985a408-6fc3-4e87-ac9e-673e0e1f485e">
+  <topic id="1985a408-6fc3-4e87-ac9e-673e0e1f485e" revisionNumber="26" createDate="2015-11-30T16:14:00.000">
     <title>Compare the different versions of Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Compare the different kinds of Excel apps across different platforms. </attribute>
+    <attribute name="Context Sensitive Help Access">For universal_rtm_201506_compareversions: Click the OZ button (the light bulb on far right, above the ribbon) &gt; Choose “Compare Excel Versions”
+</attribute>
+    <attribute name="Context Sensitive ID">universal_rtm_201506_compareversions</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Android phones</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Android tablets</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Mobile</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Online</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">universal_rtm_201506_compareversions</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">XLA160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Android phones</attribute>
+    <attribute name="search.skuid">XLA160</attribute>
+    <attribute name="search.appverid">XCA150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for Android tablets</attribute>
+    <attribute name="search.skuid">XCA150</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EWT160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel Mobile</attribute>
+    <attribute name="search.skuid">EWT160</attribute>
+    <attribute name="search.appverid">WAE150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel Online</attribute>
+    <attribute name="search.skuid">WAE150</attribute>
+    <attribute name="search.assetid">1985a408-6fc3-4e87-ac9e-673e0e1f485e</attribute>
+  </attributes>
+  <art>
+    <item id="5ece32db-5f75-466e-b9ed-3958fb2fa5c2">
+      <image file="Art\5ece32db-5f75-466e-b9ed-3958fb2fa5c2\5ece32db-5f75-466e-b9ed-3958fb2fa5c2.png" metadataAssetGuid="5ece32db-5f75-466e-b9ed-3958fb2fa5c2">
+        <title>Compare Excel Versions Desktop Icon</title>
+        <altText>Desktop computer icon</altText>
+      </image>
+    </item>
+    <item id="a7c8645e-d5c1-4e30-9908-6185f83602e2">
+      <image file="Art\a7c8645e-d5c1-4e30-9908-6185f83602e2\a7c8645e-d5c1-4e30-9908-6185f83602e2.png" metadataAssetGuid="a7c8645e-d5c1-4e30-9908-6185f83602e2">
+        <title>Tablet and phone icon</title>
+        <altText>Tablet and phone icons</altText>
+      </image>
+    </item>
+    <item id="faaa6542-6874-4f3f-b41c-9189cac78b2f">
+      <image file="Art\faaa6542-6874-4f3f-b41c-9189cac78b2f\faaa6542-6874-4f3f-b41c-9189cac78b2f.png" metadataAssetGuid="faaa6542-6874-4f3f-b41c-9189cac78b2f">
+        <title>Excel Compare Web icon</title>
+        <altText>Web icon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="ce6b1d5c-4602-4dae-b487-91ec0268e75d" assetTypeId="CompanionFile">
-  <topic id="ce6b1d5c-4602-4dae-b487-91ec0268e75d">
+  <topic id="ce6b1d5c-4602-4dae-b487-91ec0268e75d" revisionNumber="2" createDate="2015-08-27T17:54:00.000">
     <title>Visualize your data in 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Change the look and feel of your data on the map by changing what data is shown and switching to other chart types in 3D Maps for Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511362</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">ce6b1d5c-4602-4dae-b487-91ec0268e75d</attribute>
+  </attributes>
+  <art>
+    <item id="6c59c340-bab3-46c5-ba38-073e2bed7eca">
+      <image file="Art\6c59c340-bab3-46c5-ba38-073e2bed7eca\6c59c340-bab3-46c5-ba38-073e2bed7eca.png" metadataAssetGuid="6c59c340-bab3-46c5-ba38-073e2bed7eca">
+        <title>pm_hometaskpane_ribbon</title>
+        <altText>Task Pane button on the Home tab</altText>
+      </image>
+    </item>
+    <item id="f49e350a-82b5-40b3-ad99-0da5c91f5bdf">
+      <image file="Art\f49e350a-82b5-40b3-ad99-0da5c91f5bdf\f49e350a-82b5-40b3-ad99-0da5c91f5bdf.png" metadataAssetGuid="f49e350a-82b5-40b3-ad99-0da5c91f5bdf">
+        <title>pm_columnchart</title>
+        <altText>Column chart in Power Map</altText>
+      </image>
+    </item>
+    <item id="89884b58-61bc-4cf6-b4da-40955064c500">
+      <image file="Art\89884b58-61bc-4cf6-b4da-40955064c500\89884b58-61bc-4cf6-b4da-40955064c500.png" metadataAssetGuid="89884b58-61bc-4cf6-b4da-40955064c500">
+        <title>pm_typelist_charttypes</title>
+        <altText>Chart types in the Type box</altText>
+      </image>
+    </item>
+    <item id="f3268a30-b63e-48f3-a618-8a0c4e2f751d">
+      <image file="Art\f3268a30-b63e-48f3-a618-8a0c4e2f751d\f3268a30-b63e-48f3-a618-8a0c4e2f751d.png" metadataAssetGuid="f3268a30-b63e-48f3-a618-8a0c4e2f751d">
+        <title>pm_taskpane_AddLocationField</title>
+        <altText>Add Location on Layer Pane</altText>
+      </image>
+    </item>
+    <item id="e1350f5f-92c0-4d06-a1d5-b6e1a3aa5f8a">
+      <image file="Art\e1350f5f-92c0-4d06-a1d5-b6e1a3aa5f8a\e1350f5f-92c0-4d06-a1d5-b6e1a3aa5f8a.png" metadataAssetGuid="e1350f5f-92c0-4d06-a1d5-b6e1a3aa5f8a">
+        <title>pm_regionchart</title>
+        <altText>Region chart in Power Map</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

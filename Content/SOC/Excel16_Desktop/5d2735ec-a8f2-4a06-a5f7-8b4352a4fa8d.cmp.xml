@@ -1,6 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="5d2735ec-a8f2-4a06-a5f7-8b4352a4fa8d" assetTypeId="CompanionFile">
-  <topic id="5d2735ec-a8f2-4a06-a5f7-8b4352a4fa8d">
+  <topic id="5d2735ec-a8f2-4a06-a5f7-8b4352a4fa8d" revisionNumber="6" createDate="2016-02-01T21:15:00.000">
     <title>Inconsistent calculated column formula</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">EU_UI_Elements</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive Help Access">For 864586: This is the Mac CSH ID for th esame scenario in Windows.</attribute>
+    <attribute name="Context Sensitive Help Access">FOR xlmain11.chm3071763 - create a table with a calculated column. Edit one of the formulas in a cell. Hover over green triangle in upper left of cell and in contextual menu, choose Help on this error.</attribute>
+    <attribute name="Context Sensitive Help Access">MAC - FWLink 864586</attribute>
+    <attribute name="Context Sensitive ID">864586</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm3071763</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Starter 2010</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">864586</attribute>
+    <attribute name="search.contextid">xlmain11.chm3071763</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EXE140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel Starter</attribute>
+    <attribute name="search.skuid">EXE140</attribute>
+    <attribute name="search.assetid">5d2735ec-a8f2-4a06-a5f7-8b4352a4fa8d</attribute>
+  </attributes>
+  <art>
+    <item id="8b423e26-fab7-4633-a7f0-43442ca758e1">
+      <image file="Art\8b423e26-fab7-4633-a7f0-43442ca758e1\8b423e26-fab7-4633-a7f0-43442ca758e1.gif" metadataAssetGuid="8b423e26-fab7-4633-a7f0-43442ca758e1">
+        <title>undops</title>
+        <altText>Undo button</altText>
+      </image>
+    </item>
+    <item id="a184d344-1b40-444f-a8c6-4571e12f01f6">
+      <image file="Art\a184d344-1b40-444f-a8c6-4571e12f01f6\a184d344-1b40-444f-a8c6-4571e12f01f6.png" metadataAssetGuid="a184d344-1b40-444f-a8c6-4571e12f01f6">
+        <title>Excel_TableCalculatedColumn_08</title>
+        <altText>Inconsistent formula error notification in an Excel table</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

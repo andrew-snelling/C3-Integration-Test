@@ -1,6 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="81ba0946-ce78-42ed-b3c3-21340eb164a6" assetTypeId="CompanionFile">
-  <topic id="81ba0946-ce78-42ed-b3c3-21340eb164a6">
+  <topic id="81ba0946-ce78-42ed-b3c3-21340eb164a6" revisionNumber="11" createDate="2015-07-06T21:27:00.000">
     <title>Combine text from two or more cells into one cell</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">TRN_Products</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">In Excel, you can combine or merge text from two or more cells, as well as columns and rows,into one cell. If you have a lot of rows of data where you want to combine text, you can simply start typing the combined text in an adjacent column and Excel will fill in the rest for you.</attribute>
+    <attribute name="Context Sensitive ID">11OfficeErrorMessages10314</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Training</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Mobile</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Online</attribute>
+    <attribute name="LeftNav_ArticleType">Article</attribute>
+    <attribute name="OCMS Asset ID">HA010248390</attribute>
+    <attribute name="OCMS Asset ID">HA102749047</attribute>
+    <attribute name="OCMS Asset ID">HA104106933</attribute>
+    <attribute name="OCMS Asset ID">HA104106937</attribute>
+    <attribute name="OCMS Asset ID">HP010062739</attribute>
+    <attribute name="OCMS Asset ID">HP010342284</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Fusion_Formulas &amp; functions</attribute>
+    <attribute name="Set_Free_Tag">TTS</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Training</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">11OfficeErrorMessages10314</attribute>
+    <attribute name="Search.OCMSasset">HA010248390</attribute>
+    <attribute name="Search.OCMSasset">HA102749047</attribute>
+    <attribute name="Search.OCMSasset">HA104106933</attribute>
+    <attribute name="Search.OCMSasset">HA104106937</attribute>
+    <attribute name="Search.OCMSasset">HP010062739</attribute>
+    <attribute name="Search.OCMSasset">HP010342284</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL140</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EWT160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel Mobile</attribute>
+    <attribute name="search.skuid">EWT160</attribute>
+    <attribute name="search.appverid">WAE150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel Online</attribute>
+    <attribute name="search.skuid">WAE150</attribute>
+    <attribute name="search.assetid">81ba0946-ce78-42ed-b3c3-21340eb164a6</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

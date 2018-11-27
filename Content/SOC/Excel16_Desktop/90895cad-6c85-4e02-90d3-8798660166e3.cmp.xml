@@ -1,6 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="90895cad-6c85-4e02-90d3-8798660166e3" assetTypeId="CompanionFile">
-  <topic id="90895cad-6c85-4e02-90d3-8798660166e3">
+  <topic id="90895cad-6c85-4e02-90d3-8798660166e3" revisionNumber="5" createDate="2014-10-27T23:37:00.000">
     <title>Guidelines for organizing and formatting data on a worksheet</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm131443</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm196956</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm196981</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5200544</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="OCMS Asset ID">HP001216363</attribute>
+    <attribute name="OCMS Version">8.0</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">xlmain11.chm131443</attribute>
+    <attribute name="search.contextid">xlmain11.chm196956</attribute>
+    <attribute name="search.contextid">xlmain11.chm196981</attribute>
+    <attribute name="search.contextid">xlmain11.chm5200544</attribute>
+    <attribute name="Search.OCMSasset">HP001216363</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">90895cad-6c85-4e02-90d3-8798660166e3</attribute>
+  </attributes>
 </metadata>

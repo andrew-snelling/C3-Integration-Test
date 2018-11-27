@@ -1,6 +1,99 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="37224100-8f79-45de-b43a-7fa28c6c15c4" assetTypeId="CompanionFile">
-  <topic id="37224100-8f79-45de-b43a-7fa28c6c15c4">
+  <topic id="37224100-8f79-45de-b43a-7fa28c6c15c4" revisionNumber="6" createDate="2015-06-09T19:38:00.000">
     <title>Formula compatibility issues in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn how to resolve formula compatibility problems when you save an Excel 2016 file in earlier file formats.</attribute>
+    <attribute name="Context Sensitive Help Access">xlmain11.chm102429 REPRO: One or more cells in this workbook contain data validation rules which refer to values on other worksheets. These data validation rules will not be supported in earlier versions of Excel. (File attached to bug 2253481). In the Backstage, choose Check for Issues &gt; Check Compatibility. click the help link next to this messge.
+Delete attributes?</attribute>
+    <attribute name="Context Sensitive ID">104602</attribute>
+    <attribute name="Context Sensitive ID">22736</attribute>
+    <attribute name="Context Sensitive ID">34504</attribute>
+    <attribute name="Context Sensitive ID">94824</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm102429</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm112646</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm125763</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm139343</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm157214</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm16205</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm164874</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm185662</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm189447</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm23542</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm23713</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm34925</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm37647</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm47541</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="OCMS Asset ID">HA010172664</attribute>
+    <attribute name="OCMS Asset ID">HA010342541</attribute>
+    <attribute name="OCMS Asset ID">HA102919745</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">104602</attribute>
+    <attribute name="search.contextid">22736</attribute>
+    <attribute name="search.contextid">34504</attribute>
+    <attribute name="search.contextid">94824</attribute>
+    <attribute name="search.contextid">xlmain11.chm102429</attribute>
+    <attribute name="search.contextid">xlmain11.chm112646</attribute>
+    <attribute name="search.contextid">xlmain11.chm125763</attribute>
+    <attribute name="search.contextid">xlmain11.chm139343</attribute>
+    <attribute name="search.contextid">xlmain11.chm157214</attribute>
+    <attribute name="search.contextid">xlmain11.chm16205</attribute>
+    <attribute name="search.contextid">xlmain11.chm164874</attribute>
+    <attribute name="search.contextid">xlmain11.chm185662</attribute>
+    <attribute name="search.contextid">xlmain11.chm189447</attribute>
+    <attribute name="search.contextid">xlmain11.chm23542</attribute>
+    <attribute name="search.contextid">xlmain11.chm23713</attribute>
+    <attribute name="search.contextid">xlmain11.chm34925</attribute>
+    <attribute name="search.contextid">xlmain11.chm37647</attribute>
+    <attribute name="search.contextid">xlmain11.chm47541</attribute>
+    <attribute name="Search.OCMSasset">HA010172664</attribute>
+    <attribute name="Search.OCMSasset">HA010342541</attribute>
+    <attribute name="Search.OCMSasset">HA102919745</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">37224100-8f79-45de-b43a-7fa28c6c15c4</attribute>
+  </attributes>
+  <art>
+    <item id="7fd73de5-3077-4bd3-bee5-263dc4279957">
+      <image file="Art\7fd73de5-3077-4bd3-bee5-263dc4279957\7fd73de5-3077-4bd3-bee5-263dc4279957.png" metadataAssetGuid="7fd73de5-3077-4bd3-bee5-263dc4279957">
+        <title>Excel_CompatibilityChecker_Versions</title>
+        <altText>Excel Compatibility Checker dialog</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

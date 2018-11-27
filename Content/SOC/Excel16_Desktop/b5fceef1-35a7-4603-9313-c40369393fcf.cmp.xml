@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="b5fceef1-35a7-4603-9313-c40369393fcf" assetTypeId="CompanionFile">
-  <topic id="b5fceef1-35a7-4603-9313-c40369393fcf">
+  <topic id="b5fceef1-35a7-4603-9313-c40369393fcf" revisionNumber="-1" createDate="">
     <title>3D Map</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.assetid">b5fceef1-35a7-4603-9313-c40369393fcf</attribute>
+  </attributes>
 </metadata>

@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="ced52aaf-d3f3-4751-8fff-2280db7a5bd6" assetTypeId="CompanionFile">
-  <topic id="ced52aaf-d3f3-4751-8fff-2280db7a5bd6">
+  <topic id="ced52aaf-d3f3-4751-8fff-2280db7a5bd6" revisionNumber="-1" createDate="">
     <title>What's new assets</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.assetid">ced52aaf-d3f3-4751-8fff-2280db7a5bd6</attribute>
+  </attributes>
 </metadata>

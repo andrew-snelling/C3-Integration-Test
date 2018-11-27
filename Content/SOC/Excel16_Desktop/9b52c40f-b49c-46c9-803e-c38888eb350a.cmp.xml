@@ -1,6 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="9b52c40f-b49c-46c9-803e-c38888eb350a" assetTypeId="CompanionFile">
-  <topic id="9b52c40f-b49c-46c9-803e-c38888eb350a">
+  <topic id="9b52c40f-b49c-46c9-803e-c38888eb350a" revisionNumber="4" createDate="2015-08-25T21:02:00.000">
     <title>Rename a data series</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can rename data series in a chart without changing the data on the worksheet.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZPP150</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD150</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">9b52c40f-b49c-46c9-803e-c38888eb350a</attribute>
+  </attributes>
+  <art>
+    <item id="7a976dea-d4a5-479f-a85c-8e43de643583">
+      <image file="Art\7a976dea-d4a5-479f-a85c-8e43de643583\7a976dea-d4a5-479f-a85c-8e43de643583.png" metadataAssetGuid="7a976dea-d4a5-479f-a85c-8e43de643583">
+        <title>xl_EditSeriesDB</title>
+        <altText>Edit Series dialog box</altText>
+      </image>
+    </item>
+    <item id="a9d9f2f2-95a4-45d0-a40e-e5cb2265cab5">
+      <image file="Art\a9d9f2f2-95a4-45d0-a40e-e5cb2265cab5\a9d9f2f2-95a4-45d0-a40e-e5cb2265cab5.png" metadataAssetGuid="a9d9f2f2-95a4-45d0-a40e-e5cb2265cab5">
+        <title>xl_SelectDataSourceDB</title>
+        <altText>Select Data Source dialog box</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

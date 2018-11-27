@@ -1,6 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="881c63c6-37c5-4ca2-b616-59e18d75b4de" assetTypeId="CompanionFile">
-  <topic id="881c63c6-37c5-4ca2-b616-59e18d75b4de">
+  <topic id="881c63c6-37c5-4ca2-b616-59e18d75b4de" revisionNumber="11" createDate="2015-08-20T22:04:00.000">
     <title>Get &amp; Transform in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive Help Access">FOR "Need to import data?" Teaching UI callout &gt; Learn more &gt; Goes to https://aka.ms/juzqc0 (Used when data tab was redesigned in early 2017)</attribute>
+    <attribute name="Context Sensitive Help Access">FOR 165307 - In the Data tab, hover over Get Data &gt; click Tell me more</attribute>
+    <attribute name="Context Sensitive Help Access">FOR 75928 - In the Data tab, Get &amp; Transform group hover over New Query and click Tell Me More link</attribute>
+    <attribute name="Context Sensitive ID">165307</attribute>
+    <attribute name="Context Sensitive ID">75928</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">ExcelPowerQueryUpdates</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2500340</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">165307</attribute>
+    <attribute name="search.contextid">75928</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">881c63c6-37c5-4ca2-b616-59e18d75b4de</attribute>
+  </attributes>
+  <art>
+    <item id="e5c63e6e-3205-4803-8b4a-6e469a211089">
+      <image file="Art\e5c63e6e-3205-4803-8b4a-6e469a211089\e5c63e6e-3205-4803-8b4a-6e469a211089.png" metadataAssetGuid="e5c63e6e-3205-4803-8b4a-6e469a211089">
+        <title>PowerQuery_PQ_FlowDiagram</title>
+        <altText>Power Query common steps</altText>
+      </image>
+    </item>
+    <item id="de35440d-012b-4ed8-9a63-ed4ca673f7a1">
+      <image file="Art\de35440d-012b-4ed8-9a63-ed4ca673f7a1\de35440d-012b-4ed8-9a63-ed4ca673f7a1.png" metadataAssetGuid="de35440d-012b-4ed8-9a63-ed4ca673f7a1">
+        <title>Excel_G&amp;T_FromDatabase</title>
+        <altText>Get &amp; Transform From Database options</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

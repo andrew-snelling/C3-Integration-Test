@@ -1,7 +1,232 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="3a8acca5-1d61-4702-80e0-99a36a2822c1" assetTypeId="CompanionFile">
-  <topic id="3a8acca5-1d61-4702-80e0-99a36a2822c1">
+  <topic id="3a8acca5-1d61-4702-80e0-99a36a2822c1" revisionNumber="14" createDate="2015-07-22T21:33:00.000">
     <title>Detect errors in formulas</title>
     <tableOfContentsTitle>Detect errors in formulas</tableOfContentsTitle>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can use error checking to detect errors in formulas. The rules don't guarantee error-free worksheets, but they can help find common mistakes. Errors can include: Cells containing formulas that result in an error, inconsistent calculated column formula in tables, cells containing years represented as 2 digits, numbers formatted as text or preceded by an apostrophe, formulas inconsistent with other formulas in the region, formulas which omit cells in a region, unlocked cells containing formulas, formulas referring to empty cells, and data entered in a table is invalid.</attribute>
+    <attribute name="Context Sensitive Help Access">For 616400: This is for Mac. You need to turn on the Error checking option to check for empty cells. Then create a formula that adds a cell with an empty value. Click the green triangle OOUI and then click help for thsi error.</attribute>
+    <attribute name="Context Sensitive Help Access">FOR xlmain11.chm3071759 - Use the example from the COUNTIF topic, or https://office.visualstudio.com/DefaultCollection/MAX/Office%20and%20O365%20Content/_workitems?id=563633</attribute>
+    <attribute name="Context Sensitive ID">616398</attribute>
+    <attribute name="Context Sensitive ID">616400</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm3071759</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm3071761</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Starter 2010</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">616398</attribute>
+    <attribute name="search.contextid">616400</attribute>
+    <attribute name="search.contextid">xlmain11.chm3071759</attribute>
+    <attribute name="search.contextid">xlmain11.chm3071761</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL140</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EXE140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel Starter</attribute>
+    <attribute name="search.skuid">EXE140</attribute>
+    <attribute name="search.assetid">3a8acca5-1d61-4702-80e0-99a36a2822c1</attribute>
+  </attributes>
+  <art>
+    <item id="62a54461-68cc-447a-8b00-0304045293a8">
+      <image file="Art\62a54461-68cc-447a-8b00-0304045293a8\62a54461-68cc-447a-8b00-0304045293a8.png" metadataAssetGuid="62a54461-68cc-447a-8b00-0304045293a8">
+        <title>Excel_AddWatch2</title>
+        <altText>In Add Watch, enter the cell range to watch</altText>
+      </image>
+    </item>
+    <item id="c3a7cda8-6f27-4813-94c1-071480a63f49">
+      <image file="Art\c3a7cda8-6f27-4813-94c1-071480a63f49\c3a7cda8-6f27-4813-94c1-071480a63f49.png" metadataAssetGuid="c3a7cda8-6f27-4813-94c1-071480a63f49">
+        <title>Excel_Detecterror_IFworkaround</title>
+        <altText>Error handling function such as IF can be used to cover errors</altText>
+      </image>
+    </item>
+    <item id="17c10934-24af-4ac2-afff-129b38360c11">
+      <image file="Art\17c10934-24af-4ac2-afff-129b38360c11\17c10934-24af-4ac2-afff-129b38360c11.gif" metadataAssetGuid="17c10934-24af-4ac2-afff-129b38360c11">
+        <title>formerr</title>
+        <altText>Cell with a formula error</altText>
+      </image>
+    </item>
+    <item id="49042674-8248-4e9e-8a81-13af1afb90ac">
+      <image file="Art\49042674-8248-4e9e-8a81-13af1afb90ac\49042674-8248-4e9e-8a81-13af1afb90ac.png" metadataAssetGuid="49042674-8248-4e9e-8a81-13af1afb90ac">
+        <title>Excel Community Forum</title>
+        <altText>Link to the Excel Community Forum</altText>
+      </image>
+    </item>
+    <item id="faa8153c-bf85-4eb2-a958-17786a7e7af5">
+      <image file="Art\faa8153c-bf85-4eb2-a958-17786a7e7af5\faa8153c-bf85-4eb2-a958-17786a7e7af5.png" metadataAssetGuid="faa8153c-bf85-4eb2-a958-17786a7e7af5">
+        <title>Excel_Detecterror_InconsistentFormula</title>
+        <altText>Excel displays an error when a formula does not match the pattern of adjacent formulas</altText>
+      </image>
+    </item>
+    <item id="67fba400-b363-405e-afea-29254a00a299">
+      <image file="Art\67fba400-b363-405e-afea-29254a00a299\67fba400-b363-405e-afea-29254a00a299.png" metadataAssetGuid="67fba400-b363-405e-afea-29254a00a299">
+        <title>Excel_GoToSpecial</title>
+        <altText>Go To Special dialog box</altText>
+      </image>
+    </item>
+    <item id="82967f5c-40ab-4382-9b83-2b8c33202022">
+      <image file="Art\82967f5c-40ab-4382-9b83-2b8c33202022\82967f5c-40ab-4382-9b83-2b8c33202022.png" metadataAssetGuid="82967f5c-40ab-4382-9b83-2b8c33202022">
+        <title>Excel_Detecterror_FormulaOmittingCells</title>
+        <altText>Excel displays an error when a formula skips cells in a range</altText>
+      </image>
+    </item>
+    <item id="d7738e76-060b-40cd-a60b-389371c80526">
+      <image file="Art\d7738e76-060b-40cd-a60b-389371c80526\d7738e76-060b-40cd-a60b-389371c80526.png" metadataAssetGuid="d7738e76-060b-40cd-a60b-389371c80526">
+        <title>Excel_Detecterror_#error</title>
+        <altText># error</altText>
+      </image>
+    </item>
+    <item id="8b423e26-fab7-4633-a7f0-43442ca758e1">
+      <image file="Art\8b423e26-fab7-4633-a7f0-43442ca758e1\8b423e26-fab7-4633-a7f0-43442ca758e1.gif" metadataAssetGuid="8b423e26-fab7-4633-a7f0-43442ca758e1">
+        <title>undops</title>
+        <altText>Undo button</altText>
+      </image>
+    </item>
+    <item id="b8e3cbc3-e489-4ba6-9005-6359b0458921">
+      <image file="Art\b8e3cbc3-e489-4ba6-9005-6359b0458921\b8e3cbc3-e489-4ba6-9005-6359b0458921.png" metadataAssetGuid="b8e3cbc3-e489-4ba6-9005-6359b0458921">
+        <title>Excel16_icn_ErrorChecking</title>
+        <altText>Error Checking icon</altText>
+      </image>
+    </item>
+    <item id="2e0350a7-2ca6-43f9-9fa9-72af1328723f">
+      <image file="Art\2e0350a7-2ca6-43f9-9fa9-72af1328723f\2e0350a7-2ca6-43f9-9fa9-72af1328723f.png" metadataAssetGuid="2e0350a7-2ca6-43f9-9fa9-72af1328723f">
+        <title>Excel_deletewatch</title>
+        <altText>Delete Watch</altText>
+      </image>
+    </item>
+    <item id="2123b2a6-1d94-4b5b-8bd4-7bb1e5341bf9">
+      <image file="Art\2123b2a6-1d94-4b5b-8bd4-7bb1e5341bf9\2123b2a6-1d94-4b5b-8bd4-7bb1e5341bf9.png" metadataAssetGuid="2123b2a6-1d94-4b5b-8bd4-7bb1e5341bf9">
+        <title>Excel_Detecterror_NAMEerror</title>
+        <altText>Excel displays #NAME? error when a function name has a typo</altText>
+      </image>
+    </item>
+    <item id="14034721-1ed0-4ddf-9717-86958387ee17">
+      <image file="Art\14034721-1ed0-4ddf-9717-86958387ee17\14034721-1ed0-4ddf-9717-86958387ee17.png" metadataAssetGuid="14034721-1ed0-4ddf-9717-86958387ee17">
+        <title>Excel_WatchWindow</title>
+        <altText>Watch Window enables to easily monitor formulas used in a worksheet</altText>
+      </image>
+    </item>
+    <item id="2c612d9e-3aae-48d1-a5c6-927fe5a04b4b">
+      <image file="Art\2c612d9e-3aae-48d1-a5c6-927fe5a04b4b\2c612d9e-3aae-48d1-a5c6-927fe5a04b4b.png" metadataAssetGuid="2c612d9e-3aae-48d1-a5c6-927fe5a04b4b">
+        <title>Excel_Detecterror_NAerror</title>
+        <altText>#N/A error</altText>
+      </image>
+    </item>
+    <item id="067be5ca-8fa2-4b5c-9351-9d4b52672fef">
+      <image file="Art\067be5ca-8fa2-4b5c-9351-9d4b52672fef\067be5ca-8fa2-4b5c-9351-9d4b52672fef.png" metadataAssetGuid="067be5ca-8fa2-4b5c-9351-9d4b52672fef">
+        <title>Excel_AddWatch1</title>
+        <altText>Click Add Watch to add a watch in your spreadsheet</altText>
+      </image>
+    </item>
+    <item id="e69fa32b-85f9-425a-9d0c-aba556bfd7b0">
+      <image file="Art\e69fa32b-85f9-425a-9d0c-aba556bfd7b0\e69fa32b-85f9-425a-9d0c-aba556bfd7b0.png" metadataAssetGuid="e69fa32b-85f9-425a-9d0c-aba556bfd7b0">
+        <title>Excel_Detecterror_ErrorChecking</title>
+        <altText>Error Checking</altText>
+      </image>
+    </item>
+    <item id="9b4b1c73-8a77-4489-839d-ac4afed5548f">
+      <image file="Art\9b4b1c73-8a77-4489-839d-ac4afed5548f\9b4b1c73-8a77-4489-839d-ac4afed5548f.png" metadataAssetGuid="9b4b1c73-8a77-4489-839d-ac4afed5548f">
+        <title>Excel_EvaluateFormula</title>
+        <altText>Evaluate Formula helps you to see how different parts of a nested formula are evaluated</altText>
+      </image>
+    </item>
+    <item id="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+      <image file="Art\f22ae713-addb-400d-bc0f-b7a62f2d61af\f22ae713-addb-400d-bc0f-b7a62f2d61af.gif" metadataAssetGuid="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+        <title>o12filemenubutton</title>
+        <altText>Office button image</altText>
+      </image>
+    </item>
+    <item id="f0beedbe-641b-4d9f-be78-cf22a131fec2">
+      <image file="Art\f0beedbe-641b-4d9f-be78-cf22a131fec2\f0beedbe-641b-4d9f-be78-cf22a131fec2.png" metadataAssetGuid="f0beedbe-641b-4d9f-be78-cf22a131fec2">
+        <title>Excel_Detecterror_moveErrorCheckingbelowFormulaBar</title>
+        <altText>Move the Error Checking box below the Formula Bar</altText>
+      </image>
+    </item>
+    <item id="a310183d-5dd5-4d7c-90d3-d21161d89584">
+      <image file="Art\a310183d-5dd5-4d7c-90d3-d21161d89584\a310183d-5dd5-4d7c-90d3-d21161d89584.png" metadataAssetGuid="a310183d-5dd5-4d7c-90d3-d21161d89584">
+        <title>Excel_Detecterror_SUMfunction</title>
+        <altText>SUM function</altText>
+      </image>
+    </item>
+    <item id="0c0657d7-2951-431d-9e3f-d3dcc074e09b">
+      <image file="Art\0c0657d7-2951-431d-9e3f-d3dcc074e09b\0c0657d7-2951-431d-9e3f-d3dcc074e09b.gif" metadataAssetGuid="0c0657d7-2951-431d-9e3f-d3dcc074e09b">
+        <title>formula_o12</title>
+        <altText>Parts of a formula</altText>
+      </image>
+    </item>
+    <item id="21e9d637-b56c-49c4-a8b8-e095b64aceda">
+      <image file="Art\21e9d637-b56c-49c4-a8b8-e095b64aceda\21e9d637-b56c-49c4-a8b8-e095b64aceda.png" metadataAssetGuid="21e9d637-b56c-49c4-a8b8-e095b64aceda">
+        <title>Excel_Detecterror_VALUEerror</title>
+        <altText>#VALUE! error</altText>
+      </image>
+    </item>
+    <item id="5fe1eafc-21a1-48d5-98cf-e646fbe6cd0c">
+      <image file="Art\5fe1eafc-21a1-48d5-98cf-e646fbe6cd0c\5fe1eafc-21a1-48d5-98cf-e646fbe6cd0c.png" metadataAssetGuid="5fe1eafc-21a1-48d5-98cf-e646fbe6cd0c">
+        <title>Excel_Detecterror_REFerror</title>
+        <altText>Excel displays the #REF! error when a cell reference is not valid</altText>
+      </image>
+    </item>
+    <item id="5044978c-431d-4111-927a-f6f2c59ba598">
+      <image file="Art\5044978c-431d-4111-927a-f6f2c59ba598\5044978c-431d-4111-927a-f6f2c59ba598.png" metadataAssetGuid="5044978c-431d-4111-927a-f6f2c59ba598">
+        <title>Excel_Detecterror_FormulaEmptyCells</title>
+        <altText>Excel displays an error when a formula refers to empty cells</altText>
+      </image>
+    </item>
+    <item id="64a0121f-923e-4b50-a199-fafa296d0ed6">
+      <image file="Art\64a0121f-923e-4b50-a199-fafa296d0ed6\64a0121f-923e-4b50-a199-fafa296d0ed6.png" metadataAssetGuid="64a0121f-923e-4b50-a199-fafa296d0ed6">
+        <title>Excel_Detecterror_NULLerror</title>
+        <altText>#NULL! error</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

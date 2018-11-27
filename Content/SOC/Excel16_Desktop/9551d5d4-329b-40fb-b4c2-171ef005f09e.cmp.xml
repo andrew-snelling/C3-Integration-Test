@@ -1,6 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="9551d5d4-329b-40fb-b4c2-171ef005f09e" assetTypeId="CompanionFile">
-  <topic id="9551d5d4-329b-40fb-b4c2-171ef005f09e">
+  <topic id="9551d5d4-329b-40fb-b4c2-171ef005f09e" revisionNumber="4" createDate="2015-07-13T21:49:00.000">
     <title>Publish a workbook to a SharePoint library in Excel for Windows</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can publish a workbook to a Microsoft SharePoint library so that people can view or edit it in a web browser without needing Excel installed on their computers. Publishing is essentially the same as saving, but with some built-in options that let you control what people can see when they open the workbook in a browser.</attribute>
+    <attribute name="Context Sensitive ID">148415</attribute>
+    <attribute name="Context Sensitive ID">66705</attribute>
+    <attribute name="Context Sensitive ID">7103</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">148415</attribute>
+    <attribute name="search.contextid">66705</attribute>
+    <attribute name="search.contextid">7103</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">9551d5d4-329b-40fb-b4c2-171ef005f09e</attribute>
+  </attributes>
+  <art>
+    <item id="5f908317-a8b1-447c-9e02-1f7124256fd6">
+      <image file="Art\5f908317-a8b1-447c-9e02-1f7124256fd6\5f908317-a8b1-447c-9e02-1f7124256fd6.png" metadataAssetGuid="5f908317-a8b1-447c-9e02-1f7124256fd6">
+        <title>O16_XL_SharePoint_Publish_SaveAs</title>
+        <altText>In the Save As dialog box, click Browser View Options</altText>
+      </image>
+    </item>
+    <item id="42f1b010-2b34-466a-9869-220b77b14f29">
+      <image file="Art\42f1b010-2b34-466a-9869-220b77b14f29\42f1b010-2b34-466a-9869-220b77b14f29.png" metadataAssetGuid="42f1b010-2b34-466a-9869-220b77b14f29">
+        <title>O16_XL_SharePoint_Publish_Browse</title>
+        <altText>Click a SharePoint folder or click Browse</altText>
+      </image>
+    </item>
+    <item id="646ae73c-0fcb-4578-ab7c-8f87ab53d791">
+      <image file="Art\646ae73c-0fcb-4578-ab7c-8f87ab53d791\646ae73c-0fcb-4578-ab7c-8f87ab53d791.png" metadataAssetGuid="646ae73c-0fcb-4578-ab7c-8f87ab53d791">
+        <title>o15_xl_publish_parameter</title>
+        <altText>Entering a parameter in the pane uses it in cell D2</altText>
+      </image>
+    </item>
+    <item id="2d4d8a6a-94a8-4b90-9d37-97fbe81f13a4">
+      <image file="Art\2d4d8a6a-94a8-4b90-9d37-97fbe81f13a4\2d4d8a6a-94a8-4b90-9d37-97fbe81f13a4.png" metadataAssetGuid="2d4d8a6a-94a8-4b90-9d37-97fbe81f13a4">
+        <title>xlweb_editinexcelwebapp</title>
+        <altText>Edit in Excel Online on the Edit Workbook menu</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

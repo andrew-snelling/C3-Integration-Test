@@ -1,6 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="029f9370-e2e3-4639-9c23-b46b1b8d5230" assetTypeId="CompanionFile">
-  <topic id="029f9370-e2e3-4639-9c23-b46b1b8d5230">
+  <topic id="029f9370-e2e3-4639-9c23-b46b1b8d5230" revisionNumber="20" createDate="2015-09-10T19:51:00.000">
     <title>Top help topics</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">ClientHome</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Navigation</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="loc.priority">1-Priority (5-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Navigation</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.assetid">029f9370-e2e3-4639-9c23-b46b1b8d5230</attribute>
+  </attributes>
 </metadata>

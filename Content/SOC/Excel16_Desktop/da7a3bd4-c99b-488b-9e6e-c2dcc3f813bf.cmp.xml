@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="da7a3bd4-c99b-488b-9e6e-c2dcc3f813bf" assetTypeId="CompanionFile">
-  <topic id="da7a3bd4-c99b-488b-9e6e-c2dcc3f813bf">
+  <topic id="da7a3bd4-c99b-488b-9e6e-c2dcc3f813bf" revisionNumber="-1" createDate="">
     <title>Worksheets</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">da7a3bd4-c99b-488b-9e6e-c2dcc3f813bf</attribute>
+  </attributes>
 </metadata>

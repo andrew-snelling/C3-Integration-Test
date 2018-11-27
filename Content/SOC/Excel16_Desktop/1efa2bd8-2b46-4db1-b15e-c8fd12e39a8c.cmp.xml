@@ -1,6 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="1efa2bd8-2b46-4db1-b15e-c8fd12e39a8c" assetTypeId="CompanionFile">
-  <topic id="1efa2bd8-2b46-4db1-b15e-c8fd12e39a8c">
+  <topic id="1efa2bd8-2b46-4db1-b15e-c8fd12e39a8c" revisionNumber="12" createDate="2015-07-07T22:04:00.000">
     <title>Change axis labels in a chart in Office</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Change the text and format of category axis labels and the number format of value axis labels in your chart (graph in Office 2016 for Windows. You can also set other options in the Format Axis task pane.
+</attribute>
+    <attribute name="Context Sensitive ID">131769</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">131769</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">1efa2bd8-2b46-4db1-b15e-c8fd12e39a8c</attribute>
+  </attributes>
+  <art>
+    <item id="e02cecc8-7934-4113-86ae-296e9d1a53b6">
+      <image file="Art\e02cecc8-7934-4113-86ae-296e9d1a53b6\e02cecc8-7934-4113-86ae-296e9d1a53b6.png" metadataAssetGuid="e02cecc8-7934-4113-86ae-296e9d1a53b6">
+        <title>xl_15_value_axis_format_number_options</title>
+        <altText>Format Number options for value axis</altText>
+      </image>
+    </item>
+    <item id="ba65d0c6-ed9d-405a-a491-29edcc81d740">
+      <image file="Art\ba65d0c6-ed9d-405a-a491-29edcc81d740\ba65d0c6-ed9d-405a-a491-29edcc81d740.jpg" metadataAssetGuid="ba65d0c6-ed9d-405a-a491-29edcc81d740">
+        <title>o15_xl_formataxis_number</title>
+        <altText>Number option in the Format Axis pane</altText>
+      </image>
+    </item>
+    <item id="d2b12249-f197-4787-bec4-572991e9deed">
+      <image file="Art\d2b12249-f197-4787-bec4-572991e9deed\d2b12249-f197-4787-bec4-572991e9deed.png" metadataAssetGuid="d2b12249-f197-4787-bec4-572991e9deed">
+        <title>o15_xl_select_data_from_category_axis</title>
+        <altText>Right-click the category axis and Select Data</altText>
+      </image>
+    </item>
+    <item id="952d0e16-8398-4b91-bb06-5b19bed1d655">
+      <image file="Art\952d0e16-8398-4b91-bb06-5b19bed1d655\952d0e16-8398-4b91-bb06-5b19bed1d655.jpg" metadataAssetGuid="952d0e16-8398-4b91-bb06-5b19bed1d655">
+        <title>o15_xl_columnchartwithaxislabels</title>
+        <altText>Clustered column chart with axis labels</altText>
+      </image>
+    </item>
+    <item id="d9ee058c-a601-48e1-86a1-630f06ba799c">
+      <image file="Art\d9ee058c-a601-48e1-86a1-630f06ba799c\d9ee058c-a601-48e1-86a1-630f06ba799c.png" metadataAssetGuid="d9ee058c-a601-48e1-86a1-630f06ba799c">
+        <title>xl_15_change_axis_labels_in_source_data</title>
+        <altText>Axis labels and their source cells in the spreadsheet</altText>
+      </image>
+    </item>
+    <item id="1f24f9e6-9bb2-4ae0-8109-edb9817e83ee">
+      <image file="Art\1f24f9e6-9bb2-4ae0-8109-edb9817e83ee\1f24f9e6-9bb2-4ae0-8109-edb9817e83ee.png" metadataAssetGuid="1f24f9e6-9bb2-4ae0-8109-edb9817e83ee">
+        <title>xl_15_change_axis_labels_in_chart_only</title>
+        <altText>Changing labels in the chart only</altText>
+      </image>
+    </item>
+    <item id="0335b59e-83c3-4455-871f-f291f6e79c69">
+      <image file="Art\0335b59e-83c3-4455-871f-f291f6e79c69\0335b59e-83c3-4455-871f-f291f6e79c69.png" metadataAssetGuid="0335b59e-83c3-4455-871f-f291f6e79c69">
+        <title>o15_xl_formatcategorytext</title>
+        <altText>Screenshot of options available from shortcut menu after selection of category axis labels, including highlighted option of Font.</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

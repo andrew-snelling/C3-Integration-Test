@@ -1,6 +1,147 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="2a454445-13cc-4b39-bc2f-d27fd12ca414" assetTypeId="CompanionFile">
-  <topic id="2a454445-13cc-4b39-bc2f-d27fd12ca414">
+  <topic id="2a454445-13cc-4b39-bc2f-d27fd12ca414" revisionNumber="18" createDate="2014-05-16T20:38:00.000">
     <title>Top 10 reasons to use Access with Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can use Access and Excel to manage your tabular data.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Access 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Access 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Access 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Access 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010264081</attribute>
+    <attribute name="OCMS Version">10.0</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA010264081</attribute>
+    <attribute name="search.appverid">ZAC120</attribute>
+    <attribute name="search.applicationSuite">Access</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZAC140</attribute>
+    <attribute name="search.applicationSuite">Access</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZAC150</attribute>
+    <attribute name="search.applicationSuite">Access</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZAC160</attribute>
+    <attribute name="search.applicationSuite">Access</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Access</attribute>
+    <attribute name="search.skuid">ZAC160</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">2a454445-13cc-4b39-bc2f-d27fd12ca414</attribute>
+  </attributes>
+  <art>
+    <item id="42ede83d-11bc-42a5-990e-0356607340de">
+      <image file="Art\42ede83d-11bc-42a5-990e-0356607340de\42ede83d-11bc-42a5-990e-0356607340de.jpg" metadataAssetGuid="42ede83d-11bc-42a5-990e-0356607340de">
+        <title>e2aconnect</title>
+        <altText>connect to access data from excel</altText>
+      </image>
+    </item>
+    <item id="678d930a-f7d6-424e-a198-08b997ba2c58">
+      <image file="Art\678d930a-f7d6-424e-a198-08b997ba2c58\678d930a-f7d6-424e-a198-08b997ba2c58.gif" metadataAssetGuid="678d930a-f7d6-424e-a198-08b997ba2c58">
+        <title>country_region</title>
+        <altText>CountryRegion criteria</altText>
+      </image>
+    </item>
+    <item id="cffb8dac-c83f-429b-8c21-19c8f752495d">
+      <image file="Art\cffb8dac-c83f-429b-8c21-19c8f752495d\cffb8dac-c83f-429b-8c21-19c8f752495d.gif" metadataAssetGuid="cffb8dac-c83f-429b-8c21-19c8f752495d">
+        <title>autofilter</title>
+        <altText>AutoFilter</altText>
+      </image>
+    </item>
+    <item id="19da38c7-82b9-48a9-a9a6-1fc280476264">
+      <image file="Art\19da38c7-82b9-48a9-a9a6-1fc280476264\19da38c7-82b9-48a9-a9a6-1fc280476264.gif" metadataAssetGuid="19da38c7-82b9-48a9-a9a6-1fc280476264">
+        <title>splitform</title>
+        <altText>Split form</altText>
+      </image>
+    </item>
+    <item id="0efc7af0-3a91-43e3-99fc-55c3c954d929">
+      <image file="Art\0efc7af0-3a91-43e3-99fc-55c3c954d929\0efc7af0-3a91-43e3-99fc-55c3c954d929.jpg" metadataAssetGuid="0efc7af0-3a91-43e3-99fc-55c3c954d929">
+        <title>sampleform</title>
+        <altText>sample form</altText>
+      </image>
+    </item>
+    <item id="c4c8652a-d7bf-45fb-a64a-683372cc5e45">
+      <image file="Art\c4c8652a-d7bf-45fb-a64a-683372cc5e45\c4c8652a-d7bf-45fb-a64a-683372cc5e45.jpg" metadataAssetGuid="c4c8652a-d7bf-45fb-a64a-683372cc5e45">
+        <title>e2alink</title>
+        <altText>link excel data to access</altText>
+      </image>
+    </item>
+    <item id="a3e731f5-4090-4f05-87a3-8939ab55cb6d">
+      <image file="Art\a3e731f5-4090-4f05-87a3-8939ab55cb6d\a3e731f5-4090-4f05-87a3-8939ab55cb6d.png" metadataAssetGuid="a3e731f5-4090-4f05-87a3-8939ab55cb6d">
+        <title>datablueprint3excel</title>
+        <altText>Data-focused integration points of Excel</altText>
+      </image>
+    </item>
+    <item id="634735ce-0cbb-4d8e-b858-89cb993af58c">
+      <image file="Art\634735ce-0cbb-4d8e-b858-89cb993af58c\634735ce-0cbb-4d8e-b858-89cb993af58c.gif" metadataAssetGuid="634735ce-0cbb-4d8e-b858-89cb993af58c">
+        <title>employeereporttabular</title>
+        <altText>Employees report in a tabular layout</altText>
+      </image>
+    </item>
+    <item id="90665ba3-3796-403f-9cf8-b44f1750d79a">
+      <image file="Art\90665ba3-3796-403f-9cf8-b44f1750d79a\90665ba3-3796-403f-9cf8-b44f1750d79a.gif" metadataAssetGuid="90665ba3-3796-403f-9cf8-b44f1750d79a">
+        <title>labelwizardfirstpage</title>
+        <altText>First page of label wizard</altText>
+      </image>
+    </item>
+    <item id="046510d9-522d-499a-80fd-bad10f6edd98">
+      <image file="Art\046510d9-522d-499a-80fd-bad10f6edd98\046510d9-522d-499a-80fd-bad10f6edd98.jpg" metadataAssetGuid="046510d9-522d-499a-80fd-bad10f6edd98">
+        <title>e2aimport</title>
+        <altText>import data from excel to access</altText>
+      </image>
+    </item>
+    <item id="b68904bc-1269-4285-a783-d0fa4dd41b54">
+      <image file="Art\b68904bc-1269-4285-a783-d0fa4dd41b54\b68904bc-1269-4285-a783-d0fa4dd41b54.png" metadataAssetGuid="b68904bc-1269-4285-a783-d0fa4dd41b54">
+        <title>Access_LayersStack</title>
+        <altText>Access layers</altText>
+      </image>
+    </item>
+    <item id="19903be5-87d6-46fb-a945-e66112397e28">
+      <image file="Art\19903be5-87d6-46fb-a945-e66112397e28\19903be5-87d6-46fb-a945-e66112397e28.jpg" metadataAssetGuid="19903be5-87d6-46fb-a945-e66112397e28">
+        <title>e2acopy</title>
+        <altText>copy excel data to access</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

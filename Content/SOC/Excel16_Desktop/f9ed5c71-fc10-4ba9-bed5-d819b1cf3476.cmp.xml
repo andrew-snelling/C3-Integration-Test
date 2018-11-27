@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="f9ed5c71-fc10-4ba9-bed5-d819b1cf3476" assetTypeId="CompanionFile">
-  <topic id="f9ed5c71-fc10-4ba9-bed5-d819b1cf3476">
+  <topic id="f9ed5c71-fc10-4ba9-bed5-d819b1cf3476" revisionNumber="-1" createDate="">
     <title>Templates</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">f9ed5c71-fc10-4ba9-bed5-d819b1cf3476</attribute>
+  </attributes>
 </metadata>

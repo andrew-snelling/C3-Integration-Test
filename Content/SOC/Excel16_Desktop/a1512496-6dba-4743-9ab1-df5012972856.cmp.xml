@@ -1,6 +1,150 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="a1512496-6dba-4743-9ab1-df5012972856" assetTypeId="CompanionFile">
-  <topic id="a1512496-6dba-4743-9ab1-df5012972856">
+  <topic id="a1512496-6dba-4743-9ab1-df5012972856" revisionNumber="19" createDate="2015-06-03T00:51:00.000">
     <title>Create a Pareto chart</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Create a Pareto graph in Office 2016  to display data sorted into frequencies for further analysis. Pareto charts are especially effective in analyzing data with many causes and are often used in quality control.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">a1512496-6dba-4743-9ab1-df5012972856</attribute>
+  </attributes>
+  <art>
+    <item id="25c6c101-4945-4e5a-bfa3-05b845c66e3a">
+      <image file="Art\25c6c101-4945-4e5a-bfa3-05b845c66e3a\25c6c101-4945-4e5a-bfa3-05b845c66e3a.png" metadataAssetGuid="25c6c101-4945-4e5a-bfa3-05b845c66e3a">
+        <title>ScottReferenceRule</title>
+        <altText>Formula for Automatic option</altText>
+      </image>
+    </item>
+    <item id="495fbf4c-bffb-476c-9f35-22f996c4cfd5">
+      <image file="Art\495fbf4c-bffb-476c-9f35-22f996c4cfd5\495fbf4c-bffb-476c-9f35-22f996c4cfd5.png" metadataAssetGuid="495fbf4c-bffb-476c-9f35-22f996c4cfd5">
+        <title>XL16WinParetoData</title>
+        <altText>Data used to create the example pareto chart</altText>
+      </image>
+    </item>
+    <item id="bd261a41-09b7-4319-b0f1-3dd817d4fc0d">
+      <image file="Art\bd261a41-09b7-4319-b0f1-3dd817d4fc0d\bd261a41-09b7-4319-b0f1-3dd817d4fc0d.png" metadataAssetGuid="bd261a41-09b7-4319-b0f1-3dd817d4fc0d">
+        <title>Excel 16 Underflow formula</title>
+        <altText>Formula for Underflow bin option</altText>
+      </image>
+    </item>
+    <item id="82e4f9cc-4de0-4934-bff5-3e042ac65430">
+      <image file="Art\82e4f9cc-4de0-4934-bff5-3e042ac65430\82e4f9cc-4de0-4934-bff5-3e042ac65430.png" metadataAssetGuid="82e4f9cc-4de0-4934-bff5-3e042ac65430">
+        <title>XL16DesktopWinPareto</title>
+        <altText>Art showing the Pareto chart accessed from the Insert tab</altText>
+      </image>
+    </item>
+    <item id="d5436121-4026-4a6e-a2c0-880707fe0a05">
+      <image file="Art\d5436121-4026-4a6e-a2c0-880707fe0a05\d5436121-4026-4a6e-a2c0-880707fe0a05.png" metadataAssetGuid="d5436121-4026-4a6e-a2c0-880707fe0a05">
+        <title>XL16WinParetoChartEx</title>
+        <altText>Example of a Pareto chart</altText>
+      </image>
+    </item>
+    <item id="01d8f796-f34f-48b3-9845-9c05755a5203">
+      <image file="Art\01d8f796-f34f-48b3-9845-9c05755a5203\01d8f796-f34f-48b3-9845-9c05755a5203.png" metadataAssetGuid="01d8f796-f34f-48b3-9845-9c05755a5203">
+        <title>Excel2016Mac_ParetoChart</title>
+        <altText>Pareto chart on the ribbon</altText>
+      </image>
+    </item>
+    <item id="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+      <image file="Art\fd7db992-63b2-4e28-a877-a2ae13d6b7ef\fd7db992-63b2-4e28-a877-a2ae13d6b7ef.jpg" metadataAssetGuid="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+        <title>o15_xl_charttools_design_format</title>
+        <altText>Design and Format tabs for the Chart Tools</altText>
+      </image>
+    </item>
+    <item id="6acca524-130d-4e6a-88de-ad3066210ed6">
+      <image file="Art\6acca524-130d-4e6a-88de-ad3066210ed6\6acca524-130d-4e6a-88de-ad3066210ed6.png" metadataAssetGuid="6acca524-130d-4e6a-88de-ad3066210ed6">
+        <title>Excel 16 Overflow formula</title>
+        <altText>Formula for Overflow bin option</altText>
+      </image>
+    </item>
+    <item id="d534ad0a-9643-474b-8795-bfbee600db94">
+      <image file="Art\d534ad0a-9643-474b-8795-bfbee600db94\d534ad0a-9643-474b-8795-bfbee600db94.png" metadataAssetGuid="d534ad0a-9643-474b-8795-bfbee600db94">
+        <title>Excel2016Mac_Icn_StatisticalChart</title>
+        <altText>Statistical chart icon</altText>
+      </image>
+    </item>
+    <item id="859f6194-795a-4916-866c-c3d5f109444d">
+      <image file="Art\859f6194-795a-4916-866c-c3d5f109444d\859f6194-795a-4916-866c-c3d5f109444d.png" metadataAssetGuid="859f6194-795a-4916-866c-c3d5f109444d">
+        <title>Format Axis task pane</title>
+        <altText>Format Axis task pane</altText>
+      </image>
+    </item>
+    <item id="625d7344-d0be-4f56-b941-ee27f947fb8f">
+      <image file="Art\625d7344-d0be-4f56-b941-ee27f947fb8f\625d7344-d0be-4f56-b941-ee27f947fb8f.png" metadataAssetGuid="625d7344-d0be-4f56-b941-ee27f947fb8f">
+        <title>Format Axis command on shortcut menu</title>
+        <altText>Format Axis command on shortcut menu</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

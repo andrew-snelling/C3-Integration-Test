@@ -1,6 +1,95 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="169a0336-965b-4430-8554-4e7b5db79947" assetTypeId="CompanionFile">
-  <topic id="169a0336-965b-4430-8554-4e7b5db79947">
+  <topic id="169a0336-965b-4430-8554-4e7b5db79947" revisionNumber="5" createDate="2015-06-09T21:28:00.000">
     <title>Save an Excel workbook for compatibility with earlier versions of Excel</title>
   </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_GET_STARTED</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_GET_STARTED_BASICS</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Check for compatibility before saving an Excel file to share with people using older versions of Excel.</attribute>
+    <attribute name="Context Sensitive ID">46407</attribute>
+    <attribute name="Context Sensitive ID">66705</attribute>
+    <attribute name="Context Sensitive ID">67749</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Starter 2010</attribute>
+    <attribute name="OCMS Asset ID">HA103980613</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">46407</attribute>
+    <attribute name="search.contextid">66705</attribute>
+    <attribute name="search.contextid">67749</attribute>
+    <attribute name="Search.OCMSasset">HA103980613</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EXE140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel Starter</attribute>
+    <attribute name="search.skuid">EXE140</attribute>
+    <attribute name="search.assetid">169a0336-965b-4430-8554-4e7b5db79947</attribute>
+  </attributes>
+  <art>
+    <item id="0f4a5045-b656-4250-b18a-0792b831f2f7">
+      <image file="Art\0f4a5045-b656-4250-b18a-0792b831f2f7\0f4a5045-b656-4250-b18a-0792b831f2f7.png" metadataAssetGuid="0f4a5045-b656-4250-b18a-0792b831f2f7">
+        <title>o15_xl_fileexport_changefiletype</title>
+        <altText>Change File Type on the Export tab</altText>
+      </image>
+    </item>
+    <item id="9ffc4a66-680a-4ebd-8f2e-5d19079e285d">
+      <image file="Art\9ffc4a66-680a-4ebd-8f2e-5d19079e285d\9ffc4a66-680a-4ebd-8f2e-5d19079e285d.png" metadataAssetGuid="9ffc4a66-680a-4ebd-8f2e-5d19079e285d">
+        <title>o15_xl_xlsfileformat</title>
+        <altText>Excel 97-2003 Workbook format</altText>
+      </image>
+    </item>
+    <item id="4cbdb328-f9d9-4256-9c4f-75da04ace878">
+      <image file="Art\4cbdb328-f9d9-4256-9c4f-75da04ace878\4cbdb328-f9d9-4256-9c4f-75da04ace878.png" metadataAssetGuid="4cbdb328-f9d9-4256-9c4f-75da04ace878">
+        <title>Excel 16 Compatibility Checker</title>
+        <altText>Compatibility Checker showing minor loss of fidelity issues</altText>
+      </image>
+    </item>
+    <item id="d6616a80-ad83-4d68-a0fc-8e2bf7cad4c5">
+      <image file="Art\d6616a80-ad83-4d68-a0fc-8e2bf7cad4c5\d6616a80-ad83-4d68-a0fc-8e2bf7cad4c5.png" metadataAssetGuid="d6616a80-ad83-4d68-a0fc-8e2bf7cad4c5">
+        <title>Excel 16 Compatibility Check on Save</title>
+        <altText>Compatiblity Checker, showing versions to check</altText>
+      </image>
+    </item>
+    <item id="7ce642d5-3204-43c7-85f1-b2f45432c893">
+      <image file="Art\7ce642d5-3204-43c7-85f1-b2f45432c893\7ce642d5-3204-43c7-85f1-b2f45432c893.png" metadataAssetGuid="7ce642d5-3204-43c7-85f1-b2f45432c893">
+        <title>o15_xl_checkcompatibility</title>
+        <altText>Check Compatibility</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

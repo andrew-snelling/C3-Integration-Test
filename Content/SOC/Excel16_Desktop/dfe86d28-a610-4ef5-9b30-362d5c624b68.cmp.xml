@@ -1,6 +1,138 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="dfe86d28-a610-4ef5-9b30-362d5c624b68" assetTypeId="CompanionFile">
-  <topic id="dfe86d28-a610-4ef5-9b30-362d5c624b68">
+  <topic id="dfe86d28-a610-4ef5-9b30-362d5c624b68" revisionNumber="19" createDate="2015-06-22T23:55:00.000">
     <title>Create a treemap chart in Office</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use the Treemap chart, introduced in Office 2016 for Windows to quickly see a hierarchial representation of your data. Treemap charts are often used to quickly identify patterns in lots of data points.
+ </attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">dfe86d28-a610-4ef5-9b30-362d5c624b68</attribute>
+  </attributes>
+  <art>
+    <item id="66bd0628-8473-4750-b528-03b57eb3d85d">
+      <image file="Art\66bd0628-8473-4750-b528-03b57eb3d85d\66bd0628-8473-4750-b528-03b57eb3d85d.png" metadataAssetGuid="66bd0628-8473-4750-b528-03b57eb3d85d">
+        <title>btn_TryO365</title>
+        <altText>Try Office 365 or the latest version of Excel</altText>
+      </image>
+    </item>
+    <item id="2522a587-3985-4238-a95a-0898b082e343">
+      <image file="Art\2522a587-3985-4238-a95a-0898b082e343\2522a587-3985-4238-a95a-0898b082e343.png" metadataAssetGuid="2522a587-3985-4238-a95a-0898b082e343">
+        <title>XL16WinTreemap</title>
+        <altText>Treemap chart on option on the Insert tab in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="e22228f7-0e94-47f1-870c-4fa60afb3444">
+      <image file="Art\e22228f7-0e94-47f1-870c-4fa60afb3444\e22228f7-0e94-47f1-870c-4fa60afb3444.png" metadataAssetGuid="e22228f7-0e94-47f1-870c-4fa60afb3444">
+        <title>Excel2016Mac_Icn_HierarchyChart</title>
+        <altText>Hierarchy chart icon</altText>
+      </image>
+    </item>
+    <item id="b4d1d67f-aebc-46e6-81e1-5c81d472cdf2">
+      <image file="Art\b4d1d67f-aebc-46e6-81e1-5c81d472cdf2\b4d1d67f-aebc-46e6-81e1-5c81d472cdf2.png" metadataAssetGuid="b4d1d67f-aebc-46e6-81e1-5c81d472cdf2">
+        <title>XL16WinTreemapDataLabelPaneBanner</title>
+        <altText>Format Data Label task pane showing the options for a Treemap chart</altText>
+      </image>
+    </item>
+    <item id="f824897d-7b9f-459d-9d3c-668fcc58a0a4">
+      <image file="Art\f824897d-7b9f-459d-9d3c-668fcc58a0a4\f824897d-7b9f-459d-9d3c-668fcc58a0a4.png" metadataAssetGuid="f824897d-7b9f-459d-9d3c-668fcc58a0a4">
+        <title>Excel2016Mac_TreemapChart</title>
+        <altText>Treemap chart on the ribbon</altText>
+      </image>
+    </item>
+    <item id="2435927b-1b26-401e-810c-76386561a1cf">
+      <image file="Art\2435927b-1b26-401e-810c-76386561a1cf\2435927b-1b26-401e-810c-76386561a1cf.png" metadataAssetGuid="2435927b-1b26-401e-810c-76386561a1cf">
+        <title>XL16WinTreemapData</title>
+        <altText>Data used to create the example treemap chart</altText>
+      </image>
+    </item>
+    <item id="b3bfff05-380e-4dd9-b49b-7a2bfd128870">
+      <image file="Art\b3bfff05-380e-4dd9-b49b-7a2bfd128870\b3bfff05-380e-4dd9-b49b-7a2bfd128870.png" metadataAssetGuid="b3bfff05-380e-4dd9-b49b-7a2bfd128870">
+        <title>XL16WinTreemapChartExample</title>
+        <altText>Example of a Treemap Chart in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="30c5473b-b589-4832-8d65-844bcb5602a4">
+      <image file="Art\30c5473b-b589-4832-8d65-844bcb5602a4\30c5473b-b589-4832-8d65-844bcb5602a4.png" metadataAssetGuid="30c5473b-b589-4832-8d65-844bcb5602a4">
+        <title>XL16WinTreemapParentDataLabel</title>
+        <altText>Picture of the Treemap top level category displayed in a banner</altText>
+      </image>
+    </item>
+    <item id="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+      <image file="Art\fd7db992-63b2-4e28-a877-a2ae13d6b7ef\fd7db992-63b2-4e28-a877-a2ae13d6b7ef.jpg" metadataAssetGuid="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+        <title>o15_xl_charttools_design_format</title>
+        <altText>Design and Format tabs for the Chart Tools</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

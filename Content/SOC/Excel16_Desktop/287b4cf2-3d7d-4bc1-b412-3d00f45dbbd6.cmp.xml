@@ -1,6 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="287b4cf2-3d7d-4bc1-b412-3d00f45dbbd6" assetTypeId="CompanionFile">
-  <topic id="287b4cf2-3d7d-4bc1-b412-3d00f45dbbd6">
+  <topic id="287b4cf2-3d7d-4bc1-b412-3d00f45dbbd6" revisionNumber="17" createDate="2018-03-23T21:28:00.000">
     <title>Get geographic location data</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can get geographic-based data in Excel by using the Geography linked data type. This article explains how. </attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">ExcelProjectYellow</attribute>
+    <attribute name="Set_Free_Tag">yellow</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">287b4cf2-3d7d-4bc1-b412-3d00f45dbbd6</attribute>
+  </attributes>
+  <art>
+    <item id="f19a7e7b-9c50-452a-9e24-43b60c3ba800">
+      <image file="Art\f19a7e7b-9c50-452a-9e24-43b60c3ba800\f19a7e7b-9c50-452a-9e24-43b60c3ba800.png" metadataAssetGuid="f19a7e7b-9c50-452a-9e24-43b60c3ba800">
+        <title>Excel Yellow Stock Icon</title>
+        <altText>Linked record icon for Stock</altText>
+      </image>
+    </item>
+    <item id="1ab74b83-6e3b-4432-aa67-5b7562134ed9">
+      <image file="Art\1ab74b83-6e3b-4432-aa67-5b7562134ed9\1ab74b83-6e3b-4432-aa67-5b7562134ed9.png" metadataAssetGuid="1ab74b83-6e3b-4432-aa67-5b7562134ed9">
+        <title>Excel Yellow Add Column Button</title>
+        <altText>Add Column button</altText>
+      </image>
+    </item>
+    <item id="7c73a931-efd4-4f68-bdb6-b964bf6c7e55">
+      <image file="Art\7c73a931-efd4-4f68-bdb6-b964bf6c7e55\7c73a931-efd4-4f68-bdb6-b964bf6c7e55.png" metadataAssetGuid="7c73a931-efd4-4f68-bdb6-b964bf6c7e55">
+        <title>Excel Yellow Geo Icon</title>
+        <altText>Linked record icon for Geography</altText>
+      </image>
+    </item>
+    <item id="09a25441-4fdc-4399-bf7f-f1a7062beb30">
+      <image file="Art\09a25441-4fdc-4399-bf7f-f1a7062beb30\09a25441-4fdc-4399-bf7f-f1a7062beb30.png" metadataAssetGuid="09a25441-4fdc-4399-bf7f-f1a7062beb30">
+        <title>Excel Yellow Question Mark Icon</title>
+        <altText>Question mark icon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

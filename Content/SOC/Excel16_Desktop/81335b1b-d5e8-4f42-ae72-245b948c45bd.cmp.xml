@@ -1,6 +1,233 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="81335b1b-d5e8-4f42-ae72-245b948c45bd" assetTypeId="CompanionFile">
-  <topic id="81335b1b-d5e8-4f42-ae72-245b948c45bd">
+  <topic id="81335b1b-d5e8-4f42-ae72-245b948c45bd" revisionNumber="16" createDate="2014-05-16T21:08:00.000">
     <title>Ways to count values in a worksheet</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use the status bar for simple counting in Excel, or use functions to count cells that contain data, are blank, or meet specific conditions or multiple criteria.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010287849</attribute>
+    <attribute name="OCMS Asset ID">HA010351132</attribute>
+    <attribute name="OCMS Version">11.3</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA010287849</attribute>
+    <attribute name="Search.OCMSasset">HA010351132</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL140</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">81335b1b-d5e8-4f42-ae72-245b948c45bd</attribute>
+  </attributes>
+  <art>
+    <item id="a88fb6e8-b458-4ae3-8356-03de4ba2ba3e">
+      <image file="Art\a88fb6e8-b458-4ae3-8356-03de4ba2ba3e\a88fb6e8-b458-4ae3-8356-03de4ba2ba3e.png" metadataAssetGuid="a88fb6e8-b458-4ae3-8356-03de4ba2ba3e">
+        <title>Excel2016_SUMandIFExample_1</title>
+        <altText>Example 1: SUM and IF nested in a formula</altText>
+      </image>
+    </item>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="8ef94725-c46a-4879-b069-295eb501fe06">
+      <image file="Art\8ef94725-c46a-4879-b069-295eb501fe06\8ef94725-c46a-4879-b069-295eb501fe06.png" metadataAssetGuid="8ef94725-c46a-4879-b069-295eb501fe06">
+        <title>Excel2016_SUBTOTAL_FunctionExample</title>
+        <altText>SUBTOTAL example</altText>
+      </image>
+    </item>
+    <item id="f1ae864d-203c-4e96-8a90-2a72e7b96c51">
+      <image file="Art\f1ae864d-203c-4e96-8a90-2a72e7b96c51\f1ae864d-203c-4e96-8a90-2a72e7b96c51.png" metadataAssetGuid="f1ae864d-203c-4e96-8a90-2a72e7b96c51">
+        <title>Excel2016_COUNTA_example</title>
+        <altText>An example of COUNTA</altText>
+      </image>
+    </item>
+    <item id="05f3ad27-fadf-43bf-86ea-2ba4ed0100ec">
+      <image file="Art\05f3ad27-fadf-43bf-86ea-2ba4ed0100ec\05f3ad27-fadf-43bf-86ea-2ba4ed0100ec.png" metadataAssetGuid="05f3ad27-fadf-43bf-86ea-2ba4ed0100ec">
+        <title>Excel2016_COUNTIFS_example</title>
+        <altText>COUNTIFS example</altText>
+      </image>
+    </item>
+    <item id="cfb7be38-c85f-4936-980d-31c30e525b45">
+      <image file="Art\cfb7be38-c85f-4936-980d-31c30e525b45\cfb7be38-c85f-4936-980d-31c30e525b45.png" metadataAssetGuid="cfb7be38-c85f-4936-980d-31c30e525b45">
+        <title>Excel2016_COUNTandIF_examples</title>
+        <altText>Examples of nested COUNT and IF functions</altText>
+      </image>
+    </item>
+    <item id="b87f6aaa-4821-407a-bf92-40f540e38382">
+      <image file="Art\b87f6aaa-4821-407a-bf92-40f540e38382\b87f6aaa-4821-407a-bf92-40f540e38382.png" metadataAssetGuid="b87f6aaa-4821-407a-bf92-40f540e38382">
+        <title>Excel2016_Subtotal_DataTab</title>
+        <altText>Click Subtotal in the Data tab to add a subtotal row in your Excel Data</altText>
+      </image>
+    </item>
+    <item id="529e9b45-40a5-4b08-83ad-4b1fa4cae9ee">
+      <image file="Art\529e9b45-40a5-4b08-83ad-4b1fa4cae9ee\529e9b45-40a5-4b08-83ad-4b1fa4cae9ee.png" metadataAssetGuid="529e9b45-40a5-4b08-83ad-4b1fa4cae9ee">
+        <title>Excel2016_NestedFormulaToCountWords</title>
+        <altText>Example of a nested formula to count words</altText>
+      </image>
+    </item>
+    <item id="005905d7-9db7-46be-a8fd-4ecc884a3b33">
+      <image file="Art\005905d7-9db7-46be-a8fd-4ecc884a3b33\005905d7-9db7-46be-a8fd-4ecc884a3b33.png" metadataAssetGuid="005905d7-9db7-46be-a8fd-4ecc884a3b33">
+        <title>Excel2016_CopyColumnsToAnotherLocation</title>
+        <altText>A column copied from another location</altText>
+      </image>
+    </item>
+    <item id="78354c8a-7f86-4bd9-95e8-528eddf8320e">
+      <image file="Art\78354c8a-7f86-4bd9-95e8-528eddf8320e\78354c8a-7f86-4bd9-95e8-528eddf8320e.png" metadataAssetGuid="78354c8a-7f86-4bd9-95e8-528eddf8320e">
+        <title>Excel2016_COUNT_example</title>
+        <altText>An example of COUNT function</altText>
+      </image>
+    </item>
+    <item id="eeb795b4-f198-4e4c-87fa-59be17779d3b">
+      <image file="Art\eeb795b4-f198-4e4c-87fa-59be17779d3b\eeb795b4-f198-4e4c-87fa-59be17779d3b.png" metadataAssetGuid="eeb795b4-f198-4e4c-87fa-59be17779d3b">
+        <title>Excel2016_COUNTBLANK_example</title>
+        <altText>An example of COUNTBLANK</altText>
+      </image>
+    </item>
+    <item id="8a2b9de2-1b44-4bb4-8fee-753047cf7040">
+      <image file="Art\8a2b9de2-1b44-4bb4-8fee-753047cf7040\8a2b9de2-1b44-4bb4-8fee-753047cf7040.png" metadataAssetGuid="8a2b9de2-1b44-4bb4-8fee-753047cf7040">
+        <title>Excel2016_AutoSum_CountNumbers</title>
+        <altText>Count Numbers</altText>
+      </image>
+    </item>
+    <item id="adbb3a3f-f3c4-4ef1-8440-79275e36b063">
+      <image file="Art\adbb3a3f-f3c4-4ef1-8440-79275e36b063\adbb3a3f-f3c4-4ef1-8440-79275e36b063.png" metadataAssetGuid="adbb3a3f-f3c4-4ef1-8440-79275e36b063">
+        <title>Excel2016_SUMandIFExample_3</title>
+        <altText>Example 3: SUM and IF nested in a formula</altText>
+      </image>
+    </item>
+    <item id="333751a5-5327-4dff-9f88-83b1dc177bee">
+      <image file="Art\333751a5-5327-4dff-9f88-83b1dc177bee\333751a5-5327-4dff-9f88-83b1dc177bee.png" metadataAssetGuid="333751a5-5327-4dff-9f88-83b1dc177bee">
+        <title>Excel2016_AdvancedFilter</title>
+        <altText>Advanced Filter</altText>
+      </image>
+    </item>
+    <item id="ad9ca955-bfef-4625-94e0-9bceb76e072b">
+      <image file="Art\ad9ca955-bfef-4625-94e0-9bceb76e072b\ad9ca955-bfef-4625-94e0-9bceb76e072b.png" metadataAssetGuid="ad9ca955-bfef-4625-94e0-9bceb76e072b">
+        <title>Excel2016_DCOUNTA_example</title>
+        <altText>An example of DCOUNTA function</altText>
+      </image>
+    </item>
+    <item id="a9c85fdc-847b-4dca-85dd-a3d48bb5ca97">
+      <image file="Art\a9c85fdc-847b-4dca-85dd-a3d48bb5ca97\a9c85fdc-847b-4dca-85dd-a3d48bb5ca97.png" metadataAssetGuid="a9c85fdc-847b-4dca-85dd-a3d48bb5ca97">
+        <title>Excel2016_RowsAndColumns</title>
+        <altText>Example of ROWS and COLUMNS function to count the number of cells in a range</altText>
+      </image>
+    </item>
+    <item id="7f7bfbae-27da-4d18-b6fd-a4f645833bf5">
+      <image file="Art\7f7bfbae-27da-4d18-b6fd-a4f645833bf5\7f7bfbae-27da-4d18-b6fd-a4f645833bf5.png" metadataAssetGuid="7f7bfbae-27da-4d18-b6fd-a4f645833bf5">
+        <title>Excel2016_SampleDataforPivotTable</title>
+        <altText>Sample data for PivotTable</altText>
+      </image>
+    </item>
+    <item id="e3f0d0ac-39f7-4060-b1d8-ad35b77e1297">
+      <image file="Art\e3f0d0ac-39f7-4060-b1d8-ad35b77e1297\e3f0d0ac-39f7-4060-b1d8-ad35b77e1297.png" metadataAssetGuid="e3f0d0ac-39f7-4060-b1d8-ad35b77e1297">
+        <title>Excel2016_FinalPivotTable</title>
+        <altText>PivotTable</altText>
+      </image>
+    </item>
+    <item id="fd31de74-ea32-47f6-b25f-afb695d3b86b">
+      <image file="Art\fd31de74-ea32-47f6-b25f-afb695d3b86b\fd31de74-ea32-47f6-b25f-afb695d3b86b.png" metadataAssetGuid="fd31de74-ea32-47f6-b25f-afb695d3b86b">
+        <title>Excel2016_SUMandIFExample_2</title>
+        <altText>Example 2: SUM and IF nested in a formula</altText>
+      </image>
+    </item>
+    <item id="314f2d55-e8b8-4417-9d4b-b3908c1ebd0c">
+      <image file="Art\314f2d55-e8b8-4417-9d4b-b3908c1ebd0c\314f2d55-e8b8-4417-9d4b-b3908c1ebd0c.gif" metadataAssetGuid="314f2d55-e8b8-4417-9d4b-b3908c1ebd0c">
+        <title>mac_cmd</title>
+        <altText>COMMAND</altText>
+      </image>
+    </item>
+    <item id="b26a59b4-d927-459f-86c3-b620f845c134">
+      <image file="Art\b26a59b4-d927-459f-86c3-b620f845c134\b26a59b4-d927-459f-86c3-b620f845c134.png" metadataAssetGuid="b26a59b4-d927-459f-86c3-b620f845c134">
+        <title>Excel2016_ValueFieldSettings_Count</title>
+        <altText>Value Field Settings dialog box</altText>
+      </image>
+    </item>
+    <item id="2cba5374-039c-402f-aaff-bba597a346ff">
+      <image file="Art\2cba5374-039c-402f-aaff-bba597a346ff\2cba5374-039c-402f-aaff-bba597a346ff.png" metadataAssetGuid="2cba5374-039c-402f-aaff-bba597a346ff">
+        <title>PivotTable Fields</title>
+        <altText>PivotTable Fields</altText>
+      </image>
+    </item>
+    <item id="76d9a8fe-5d87-47cd-a69e-d919e4f2d9c7">
+      <image file="Art\76d9a8fe-5d87-47cd-a69e-d919e4f2d9c7\76d9a8fe-5d87-47cd-a69e-d919e4f2d9c7.png" metadataAssetGuid="76d9a8fe-5d87-47cd-a69e-d919e4f2d9c7">
+        <title>Excel_PivotTable_FieldList2</title>
+        <altText>Example of a PivotTable and how the Fields correlate to the Fields list.</altText>
+      </image>
+    </item>
+    <item id="73ee9786-f690-4522-9ade-e50cfa247c16">
+      <image file="Art\73ee9786-f690-4522-9ade-e50cfa247c16\73ee9786-f690-4522-9ade-e50cfa247c16.png" metadataAssetGuid="73ee9786-f690-4522-9ade-e50cfa247c16">
+        <title>Excel2016_DCOUNT_SampleData</title>
+        <altText>Sample data for DCOUNT</altText>
+      </image>
+    </item>
+    <item id="5ce57e54-ec3e-4a84-9506-e94f15458250">
+      <image file="Art\5ce57e54-ec3e-4a84-9506-e94f15458250\5ce57e54-ec3e-4a84-9506-e94f15458250.png" metadataAssetGuid="5ce57e54-ec3e-4a84-9506-e94f15458250">
+        <title>Excel2016_statusbar</title>
+        <altText>Status bar</altText>
+      </image>
+    </item>
+    <item id="62fb31d2-e506-4b5d-9b23-f8b49a48f259">
+      <image file="Art\62fb31d2-e506-4b5d-9b23-f8b49a48f259\62fb31d2-e506-4b5d-9b23-f8b49a48f259.png" metadataAssetGuid="62fb31d2-e506-4b5d-9b23-f8b49a48f259">
+        <title>Excel2016_COUNTIF_examples</title>
+        <altText>COUNTIF examples</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

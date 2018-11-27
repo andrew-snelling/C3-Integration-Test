@@ -1,6 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="612926fc-d53b-46b4-872c-e24772f078ca" assetTypeId="CompanionFile">
-  <topic id="612926fc-d53b-46b4-872c-e24772f078ca">
+  <topic id="612926fc-d53b-46b4-872c-e24772f078ca" revisionNumber="15" createDate="2014-10-27T23:37:00.000">
     <title>Load the Solver Add-in in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">The Solver Add-in is an add-in program in Excel. Solver is not available for Excel on mobile devices.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Android phones</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Android tablets</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Mobile</attribute>
+    <attribute name="OCMS Asset ID">HA010285261</attribute>
+    <attribute name="OCMS Asset ID">HP010021570</attribute>
+    <attribute name="OCMS Version">12.1</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA010285261</attribute>
+    <attribute name="Search.OCMSasset">HP010021570</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">XLA160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Android phones</attribute>
+    <attribute name="search.skuid">XLA160</attribute>
+    <attribute name="search.appverid">XCA150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for Android tablets</attribute>
+    <attribute name="search.skuid">XCA150</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">MXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL140</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EWT160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel Mobile</attribute>
+    <attribute name="search.skuid">EWT160</attribute>
+    <attribute name="search.assetid">612926fc-d53b-46b4-872c-e24772f078ca</attribute>
+  </attributes>
+  <art>
+    <item id="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+      <image file="Art\f22ae713-addb-400d-bc0f-b7a62f2d61af\f22ae713-addb-400d-bc0f-b7a62f2d61af.gif" metadataAssetGuid="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+        <title>o12filemenubutton</title>
+        <altText>Office button image</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

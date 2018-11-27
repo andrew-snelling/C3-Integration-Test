@@ -1,6 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="fa12411f-e283-4e9c-bd7a-88389cee22ca" assetTypeId="CompanionFile">
-  <topic id="fa12411f-e283-4e9c-bd7a-88389cee22ca">
+  <topic id="fa12411f-e283-4e9c-bd7a-88389cee22ca" revisionNumber="3" createDate="2018-03-20T15:05:00.000">
     <title>Get a stock quote in Excel 2007</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.assetid">fa12411f-e283-4e9c-bd7a-88389cee22ca</attribute>
+  </attributes>
+  <art>
+    <item id="6713dba8-0f70-4e6b-ad5f-5d57ce75a51d">
+      <image file="Art\6713dba8-0f70-4e6b-ad5f-5d57ce75a51d\6713dba8-0f70-4e6b-ad5f-5d57ce75a51d.gif" metadataAssetGuid="6713dba8-0f70-4e6b-ad5f-5d57ce75a51d">
+        <title>smarttag2</title>
+        <altText>Smart Tag Actions</altText>
+      </image>
+    </item>
+    <item id="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+      <image file="Art\f22ae713-addb-400d-bc0f-b7a62f2d61af\f22ae713-addb-400d-bc0f-b7a62f2d61af.gif" metadataAssetGuid="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+        <title>o12filemenubutton</title>
+        <altText>Office button image</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

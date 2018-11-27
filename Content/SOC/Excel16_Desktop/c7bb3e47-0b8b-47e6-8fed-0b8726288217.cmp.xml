@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="c7bb3e47-0b8b-47e6-8fed-0b8726288217" assetTypeId="CompanionFile">
-  <topic id="c7bb3e47-0b8b-47e6-8fed-0b8726288217">
+  <topic id="c7bb3e47-0b8b-47e6-8fed-0b8726288217" revisionNumber="2" createDate="">
     <title>Data types in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">ExcelProjectYellow</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.assetid">c7bb3e47-0b8b-47e6-8fed-0b8726288217</attribute>
+  </attributes>
 </metadata>

@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="751b1aa3-01cb-467a-a343-752bd997ff06" assetTypeId="CompanionFile">
-  <topic id="751b1aa3-01cb-467a-a343-752bd997ff06">
+  <topic id="751b1aa3-01cb-467a-a343-752bd997ff06" revisionNumber="-1" createDate="">
     <title>Excel 2016 Landing Page</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.assetid">751b1aa3-01cb-467a-a343-752bd997ff06</attribute>
+  </attributes>
 </metadata>

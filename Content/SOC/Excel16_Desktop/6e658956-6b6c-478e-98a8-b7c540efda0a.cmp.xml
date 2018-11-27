@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="6e658956-6b6c-478e-98a8-b7c540efda0a" assetTypeId="CompanionFile">
-  <topic id="6e658956-6b6c-478e-98a8-b7c540efda0a">
+  <topic id="6e658956-6b6c-478e-98a8-b7c540efda0a" revisionNumber="-1" createDate="">
     <title>Formatting Data</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">6e658956-6b6c-478e-98a8-b7c540efda0a</attribute>
+  </attributes>
 </metadata>

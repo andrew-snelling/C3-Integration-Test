@@ -1,6 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="6b56a50d-3c3e-4a9e-a527-eea62a387030" assetTypeId="CompanionFile">
-  <topic id="6b56a50d-3c3e-4a9e-a527-eea62a387030">
+  <topic id="6b56a50d-3c3e-4a9e-a527-eea62a387030" revisionNumber="5" createDate="2015-08-27T22:10:00.000">
     <title>Get started with 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Get started with 3D Maps in Excel 2016 for Windows and create your first map, using your own data or one of our sample data sets.</attribute>
+    <attribute name="Context Sensitive ID">115344</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zzpub_RM">acmedxpub</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511353</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">115344</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">6b56a50d-3c3e-4a9e-a527-eea62a387030</attribute>
+  </attributes>
+  <art>
+    <item id="1f00521a-e0a4-4a67-b6c6-5d78972fb966">
+      <image file="Art\1f00521a-e0a4-4a67-b6c6-5d78972fb966\1f00521a-e0a4-4a67-b6c6-5d78972fb966.png" metadataAssetGuid="1f00521a-e0a4-4a67-b6c6-5d78972fb966">
+        <title>pm_powermapglobe</title>
+        <altText>Power Map data on a 3-D globe</altText>
+      </image>
+    </item>
+    <item id="3e551401-73a4-4f2f-9393-6da13a9b538d">
+      <image file="Art\3e551401-73a4-4f2f-9393-6da13a9b538d\3e551401-73a4-4f2f-9393-6da13a9b538d.png" metadataAssetGuid="3e551401-73a4-4f2f-9393-6da13a9b538d">
+        <title>pm_dotsonmap</title>
+        <altText>Dots are shown on the globe</altText>
+      </image>
+    </item>
+    <item id="3e5ec772-073f-4da8-ae65-90bfac663d22">
+      <image file="Art\3e5ec772-073f-4da8-ae65-90bfac663d22\3e5ec772-073f-4da8-ae65-90bfac663d22.png" metadataAssetGuid="3e5ec772-073f-4da8-ae65-90bfac663d22">
+        <title>o16_3DMaps_ZIPforPostalCode</title>
+        <altText>ZIP code recognized as Postal Code</altText>
+      </image>
+    </item>
+    <item id="351cfd51-c01e-4a1f-852c-f86b4383502b">
+      <image file="Art\351cfd51-c01e-4a1f-852c-f86b4383502b\351cfd51-c01e-4a1f-852c-f86b4383502b.png" metadataAssetGuid="351cfd51-c01e-4a1f-852c-f86b4383502b">
+        <title>o16_3dMaps_InsertOnRibbon</title>
+        <altText>Insert 3D Maps command on Ribbon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,207 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="85680173-064b-4024-b39d-80f17ff2f4e8" assetTypeId="CompanionFile">
-  <topic id="85680173-064b-4024-b39d-80f17ff2f4e8">
+  <topic id="85680173-064b-4024-b39d-80f17ff2f4e8" revisionNumber="30" createDate="2015-05-20T22:47:00.000">
     <title>Create a histogram in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_ANALYZE_DATA</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_ANALYZE_DATA_CHARTS</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn how to create a histogram in Excel. A histogram uses two columns of data to create a histogram: one for data to analyze and one for bin numbers that are the intervals by which you want to measure the frequency.</attribute>
+    <attribute name="Context Sensitive ID">xladdin.chm1790</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Online</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010238252</attribute>
+    <attribute name="OCMS Asset ID">HA010342785</attribute>
+    <attribute name="OCMS Asset ID">HA102809713</attribute>
+    <attribute name="OCMS Asset ID">HA104133242</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2196347</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">xladdin.chm1790</attribute>
+    <attribute name="Search.OCMSasset">HA010238252</attribute>
+    <attribute name="Search.OCMSasset">HA010342785</attribute>
+    <attribute name="Search.OCMSasset">HA102809713</attribute>
+    <attribute name="Search.OCMSasset">HA104133242</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">WAE150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel Online</attribute>
+    <attribute name="search.skuid">WAE150</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">85680173-064b-4024-b39d-80f17ff2f4e8</attribute>
+  </attributes>
+  <art>
+    <item id="25c6c101-4945-4e5a-bfa3-05b845c66e3a">
+      <image file="Art\25c6c101-4945-4e5a-bfa3-05b845c66e3a\25c6c101-4945-4e5a-bfa3-05b845c66e3a.png" metadataAssetGuid="25c6c101-4945-4e5a-bfa3-05b845c66e3a">
+        <title>ScottReferenceRule</title>
+        <altText>Formula for Automatic option</altText>
+      </image>
+    </item>
+    <item id="9c1b7dcb-9986-498a-b153-127c7e37896e">
+      <image file="Art\9c1b7dcb-9986-498a-b153-127c7e37896e\9c1b7dcb-9986-498a-b153-127c7e37896e.png" metadataAssetGuid="9c1b7dcb-9986-498a-b153-127c7e37896e">
+        <title>XL16WinHistogramData</title>
+        <altText>Data used to create the sample histogram above</altText>
+      </image>
+    </item>
+    <item id="eb46ee34-47ba-4eb5-9f21-28d57f84279e">
+      <image file="Art\eb46ee34-47ba-4eb5-9f21-28d57f84279e\eb46ee34-47ba-4eb5-9f21-28d57f84279e.png" metadataAssetGuid="eb46ee34-47ba-4eb5-9f21-28d57f84279e">
+        <title>xlweb_openinexcel</title>
+        <altText>Button to Edit in Excel</altText>
+      </image>
+    </item>
+    <item id="f0d8e860-29ae-4d68-a278-3745c4c977b8">
+      <image file="Art\f0d8e860-29ae-4d68-a278-3745c4c977b8\f0d8e860-29ae-4d68-a278-3745c4c977b8.png" metadataAssetGuid="f0d8e860-29ae-4d68-a278-3745c4c977b8">
+        <title>iphone_excel_edit_icon</title>
+        <altText>Edit icon</altText>
+      </image>
+    </item>
+    <item id="bd261a41-09b7-4319-b0f1-3dd817d4fc0d">
+      <image file="Art\bd261a41-09b7-4319-b0f1-3dd817d4fc0d\bd261a41-09b7-4319-b0f1-3dd817d4fc0d.png" metadataAssetGuid="bd261a41-09b7-4319-b0f1-3dd817d4fc0d">
+        <title>Excel 16 Underflow formula</title>
+        <altText>Formula for Underflow bin option</altText>
+      </image>
+    </item>
+    <item id="bfb04e63-ebde-4c9a-9405-5a6e4cdd58d8">
+      <image file="Art\bfb04e63-ebde-4c9a-9405-5a6e4cdd58d8\bfb04e63-ebde-4c9a-9405-5a6e4cdd58d8.jpg" metadataAssetGuid="bfb04e63-ebde-4c9a-9405-5a6e4cdd58d8">
+        <title>o15_xl_data_dataanalysis</title>
+        <altText>Data Analysis and Solver</altText>
+      </image>
+    </item>
+    <item id="f2724c8f-ac73-43c9-a0b2-718be485a399">
+      <image file="Art\f2724c8f-ac73-43c9-a0b2-718be485a399\f2724c8f-ac73-43c9-a0b2-718be485a399.png" metadataAssetGuid="f2724c8f-ac73-43c9-a0b2-718be485a399">
+        <title>Statistical charts Histogram</title>
+        <altText>Histogram command reached from the Insert Statistic Chart button</altText>
+      </image>
+    </item>
+    <item id="4ef78bb3-b97b-4c5e-aefb-81039bac180f">
+      <image file="Art\4ef78bb3-b97b-4c5e-aefb-81039bac180f\4ef78bb3-b97b-4c5e-aefb-81039bac180f.png" metadataAssetGuid="4ef78bb3-b97b-4c5e-aefb-81039bac180f">
+        <title>ogv15wordinsertchart</title>
+        <altText>Chart button in the Illustrations group on the Insert tab in Word</altText>
+      </image>
+    </item>
+    <item id="b40e538d-5f9c-4e36-b985-9f00042b78c6">
+      <image file="Art\b40e538d-5f9c-4e36-b985-9f00042b78c6\b40e538d-5f9c-4e36-b985-9f00042b78c6.jpg" metadataAssetGuid="b40e538d-5f9c-4e36-b985-9f00042b78c6">
+        <title>o15_xl_dataanalysisdb</title>
+        <altText>Data Analysis dialog box</altText>
+      </image>
+    </item>
+    <item id="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+      <image file="Art\fd7db992-63b2-4e28-a877-a2ae13d6b7ef\fd7db992-63b2-4e28-a877-a2ae13d6b7ef.jpg" metadataAssetGuid="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+        <title>o15_xl_charttools_design_format</title>
+        <altText>Design and Format tabs for the Chart Tools</altText>
+      </image>
+    </item>
+    <item id="6acca524-130d-4e6a-88de-ad3066210ed6">
+      <image file="Art\6acca524-130d-4e6a-88de-ad3066210ed6\6acca524-130d-4e6a-88de-ad3066210ed6.png" metadataAssetGuid="6acca524-130d-4e6a-88de-ad3066210ed6">
+        <title>Excel 16 Overflow formula</title>
+        <altText>Formula for Overflow bin option</altText>
+      </image>
+    </item>
+    <item id="d534ad0a-9643-474b-8795-bfbee600db94">
+      <image file="Art\d534ad0a-9643-474b-8795-bfbee600db94\d534ad0a-9643-474b-8795-bfbee600db94.png" metadataAssetGuid="d534ad0a-9643-474b-8795-bfbee600db94">
+        <title>Excel2016Mac_Icn_StatisticalChart</title>
+        <altText>Statistical chart icon</altText>
+      </image>
+    </item>
+    <item id="859f6194-795a-4916-866c-c3d5f109444d">
+      <image file="Art\859f6194-795a-4916-866c-c3d5f109444d\859f6194-795a-4916-866c-c3d5f109444d.png" metadataAssetGuid="859f6194-795a-4916-866c-c3d5f109444d">
+        <title>Format Axis task pane</title>
+        <altText>Format Axis task pane</altText>
+      </image>
+    </item>
+    <item id="df343c13-ee17-4488-a250-e439ac7dd961">
+      <image file="Art\df343c13-ee17-4488-a250-e439ac7dd961\df343c13-ee17-4488-a250-e439ac7dd961.gif" metadataAssetGuid="df343c13-ee17-4488-a250-e439ac7dd961">
+        <title>xl12_collapsebtn</title>
+        <altText>Collapse button</altText>
+      </image>
+    </item>
+    <item id="625d7344-d0be-4f56-b941-ee27f947fb8f">
+      <image file="Art\625d7344-d0be-4f56-b941-ee27f947fb8f\625d7344-d0be-4f56-b941-ee27f947fb8f.png" metadataAssetGuid="625d7344-d0be-4f56-b941-ee27f947fb8f">
+        <title>Format Axis command on shortcut menu</title>
+        <altText>Format Axis command on shortcut menu</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

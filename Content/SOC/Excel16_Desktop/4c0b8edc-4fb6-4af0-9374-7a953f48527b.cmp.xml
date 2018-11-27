@@ -1,6 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="4c0b8edc-4fb6-4af0-9374-7a953f48527b" assetTypeId="CompanionFile">
-  <topic id="4c0b8edc-4fb6-4af0-9374-7a953f48527b">
+  <topic id="4c0b8edc-4fb6-4af0-9374-7a953f48527b" revisionNumber="1" createDate="2018-08-27T16:53:00.000">
     <title>Resize a table, column, or row</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">TRN_Products</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.ContentType">Training</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.Lifecycle">Adopt and Use</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Novice (100)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="LeftNav_ArticleType">Article</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Fusion_Cells</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">Training</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">4c0b8edc-4fb6-4af0-9374-7a953f48527b</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="386071c5-8324-4f40-a201-26faf0b5ae7e">
+      <image file="Art\386071c5-8324-4f40-a201-26faf0b5ae7e\386071c5-8324-4f40-a201-26faf0b5ae7e.png" metadataAssetGuid="386071c5-8324-4f40-a201-26faf0b5ae7e">
+        <title>Outlook2016-Try IT-Select column</title>
+        <altText>Select column</altText>
+      </image>
+    </item>
+    <item id="fcdbc796-8b51-4302-b0f3-a9215b56790d">
+      <image file="Art\fcdbc796-8b51-4302-b0f3-a9215b56790d\fcdbc796-8b51-4302-b0f3-a9215b56790d.png" metadataAssetGuid="fcdbc796-8b51-4302-b0f3-a9215b56790d">
+        <title>Outlook2016-Try IT-Select All</title>
+        <altText>Select All</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

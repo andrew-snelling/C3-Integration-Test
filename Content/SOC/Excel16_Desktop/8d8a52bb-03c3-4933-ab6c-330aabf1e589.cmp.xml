@@ -1,6 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="8d8a52bb-03c3-4933-ab6c-330aabf1e589" assetTypeId="CompanionFile">
-  <topic id="8d8a52bb-03c3-4933-ab6c-330aabf1e589">
+  <topic id="8d8a52bb-03c3-4933-ab6c-330aabf1e589" revisionNumber="20" createDate="2015-09-17T21:58:00.000">
     <title>Share your Excel workbook with others</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">TRN_Products</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn how to use the new simplified sharing feature in Excel. Now it's easier to share your spreadsheet with others on SharePoint, OneDrive, or OneDrive for Business.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Training</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.Lifecycle">Adopt and Use</attribute>
+    <attribute name="DCSext.OperatingSystems">multiple</attribute>
+    <attribute name="DCSext.Platforms">Desktop</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="LeftNav_ArticleType">Article</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Fusion_Share &amp; coauthor</attribute>
+    <attribute name="Set_Free_Tag">xlcoauth</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2252957</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">f548bb62-f227-4ea1-b62a-d6182c7d10e1</attribute>
+    <attribute name="search.operatingSystem">multiple</attribute>
+    <attribute name="search.contenttype">Training</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.platform">Desktop</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">8d8a52bb-03c3-4933-ab6c-330aabf1e589</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

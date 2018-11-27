@@ -1,6 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="3c9f5011-1cf8-4e50-a5bc-1ec9942c4ab6" assetTypeId="CompanionFile">
-  <topic id="3c9f5011-1cf8-4e50-a5bc-1ec9942c4ab6">
+  <topic id="3c9f5011-1cf8-4e50-a5bc-1ec9942c4ab6" revisionNumber="3" createDate="2016-12-13T23:10:00.000">
     <title>Excel opens to a blank screen</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Is Excel 2016 opening a blank window when double-clicking an .xlsx file? Try these solutions.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_SupportBridge">Consumer</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">3c9f5011-1cf8-4e50-a5bc-1ec9942c4ab6</attribute>
+  </attributes>
+  <art>
+    <item id="530ba587-edf9-4143-9723-40864cbe5d20">
+      <image file="Art\530ba587-edf9-4143-9723-40864cbe5d20\530ba587-edf9-4143-9723-40864cbe5d20.png" metadataAssetGuid="530ba587-edf9-4143-9723-40864cbe5d20">
+        <title>Excel 2016 Blank Screen Problem</title>
+        <altText>Blank Excel window with buttons unavailable; No workbook open.</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

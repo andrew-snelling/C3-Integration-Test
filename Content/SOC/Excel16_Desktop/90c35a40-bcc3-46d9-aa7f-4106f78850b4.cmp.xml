@@ -1,6 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="90c35a40-bcc3-46d9-aa7f-4106f78850b4" assetTypeId="CompanionFile">
-  <topic id="90c35a40-bcc3-46d9-aa7f-4106f78850b4">
+  <topic id="90c35a40-bcc3-46d9-aa7f-4106f78850b4" revisionNumber="17" createDate="2014-05-16T21:14:00.000">
     <title>Move data from Excel to Access</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2010-01-27T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn how to move your data from Excel to Access and convert your data to relational tables.</attribute>
+    <attribute name="Context Sensitive ID">110327
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010096300</attribute>
+    <attribute name="OCMS Asset ID">HA010335712</attribute>
+    <attribute name="OCMS Asset ID">HA010342499</attribute>
+    <attribute name="OCMS Asset ID">HA010342703</attribute>
+    <attribute name="OCMS Version">0.11</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">110327
+</attribute>
+    <attribute name="Search.OCMSasset">HA010096300</attribute>
+    <attribute name="Search.OCMSasset">HA010335712</attribute>
+    <attribute name="Search.OCMSasset">HA010342499</attribute>
+    <attribute name="Search.OCMSasset">HA010342703</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">90c35a40-bcc3-46d9-aa7f-4106f78850b4</attribute>
+  </attributes>
+  <art>
+    <item id="9acaebad-ba2e-448b-89d3-223e9e00898b">
+      <image file="Art\9acaebad-ba2e-448b-89d3-223e9e00898b\9acaebad-ba2e-448b-89d3-223e9e00898b.jpg" metadataAssetGuid="9acaebad-ba2e-448b-89d3-223e9e00898b">
+        <title>normtableanalwiz</title>
+        <altText>the table analyzer wizard</altText>
+      </image>
+    </item>
+    <item id="d4deb7a2-9f35-4886-9692-fe9fea4c40fb">
+      <image file="Art\d4deb7a2-9f35-4886-9692-fe9fea4c40fb\d4deb7a2-9f35-4886-9692-fe9fea4c40fb.jpg" metadataAssetGuid="d4deb7a2-9f35-4886-9692-fe9fea4c40fb">
+        <title>norm3basicsteps</title>
+        <altText>three basic steps</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

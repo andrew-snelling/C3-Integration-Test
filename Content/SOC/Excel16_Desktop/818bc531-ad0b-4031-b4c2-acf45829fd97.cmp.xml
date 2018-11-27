@@ -1,6 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="818bc531-ad0b-4031-b4c2-acf45829fd97" assetTypeId="CompanionFile">
-  <topic id="818bc531-ad0b-4031-b4c2-acf45829fd97">
+  <topic id="818bc531-ad0b-4031-b4c2-acf45829fd97" revisionNumber="1" createDate="2015-08-26T20:38:00.000">
     <title>Quickly go to a specific 3D Maps location</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use the Find Location button to quickly go to any location on your 3D Maps tour, including locations and regions not in your data set.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511357</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">818bc531-ad0b-4031-b4c2-acf45829fd97</attribute>
+  </attributes>
+  <art>
+    <item id="0a393e73-b9a1-4d11-ac53-7007e7347e8c">
+      <image file="Art\0a393e73-b9a1-4d11-ac53-7007e7347e8c\0a393e73-b9a1-4d11-ac53-7007e7347e8c.png" metadataAssetGuid="0a393e73-b9a1-4d11-ac53-7007e7347e8c">
+        <title>pm15findlocdb</title>
+        <altText>Find Location dialog</altText>
+      </image>
+    </item>
+    <item id="b7989faa-9ac7-4f61-8515-f4d3113778a7">
+      <image file="Art\b7989faa-9ac7-4f61-8515-f4d3113778a7\b7989faa-9ac7-4f61-8515-f4d3113778a7.png" metadataAssetGuid="b7989faa-9ac7-4f61-8515-f4d3113778a7">
+        <title>pm15findlocationbutton</title>
+        <altText>Find Location button on the Power Map Home tab</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

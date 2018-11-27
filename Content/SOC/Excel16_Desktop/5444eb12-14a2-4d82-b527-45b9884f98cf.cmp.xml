@@ -1,6 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="5444eb12-14a2-4d82-b527-45b9884f98cf" assetTypeId="CompanionFile">
-  <topic id="5444eb12-14a2-4d82-b527-45b9884f98cf">
+  <topic id="5444eb12-14a2-4d82-b527-45b9884f98cf" revisionNumber="5" createDate="2015-08-27T18:54:00.000">
     <title>What you can do with Spreadsheet Inquire in Excel for Windows</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use Spreadsheet Inquire to compare versions of a workbook, analyze a workbook for problems or inconsistencies, or see links between workbooks or worksheets. If Microsoft Office 365 or Office Professional Plus 2013 is installed on your computer, the Spreadsheet Inquire add-in is available in Excel. You can use the commands on the Inquire tab to do all these tasks and more.</attribute>
+    <attribute name="Context Sensitive ID">InquireHelp001</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">InquireHelp001</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">5444eb12-14a2-4d82-b527-45b9884f98cf</attribute>
+  </attributes>
+  <art>
+    <item id="55d7876e-1ee8-46c1-93f8-30a55d6bf0a2">
+      <image file="Art\55d7876e-1ee8-46c1-93f8-30a55d6bf0a2\55d7876e-1ee8-46c1-93f8-30a55d6bf0a2.jpg" metadataAssetGuid="55d7876e-1ee8-46c1-93f8-30a55d6bf0a2">
+        <title>ol15_xl_inquire_wksheet_rels</title>
+        <altText>Worksheet Relationship Diagram</altText>
+      </image>
+    </item>
+    <item id="7a3f0697-f294-404a-a742-582fd13661f1">
+      <image file="Art\7a3f0697-f294-404a-a742-582fd13661f1\7a3f0697-f294-404a-a742-582fd13661f1.jpg" metadataAssetGuid="7a3f0697-f294-404a-a742-582fd13661f1">
+        <title>o15_xl_r_inquire_cell_rel</title>
+        <altText>Cell Relationship Diagram</altText>
+      </image>
+    </item>
+    <item id="cc5a038e-156a-4e9b-bab7-64d7313abdda">
+      <image file="Art\cc5a038e-156a-4e9b-bab7-64d7313abdda\cc5a038e-156a-4e9b-bab7-64d7313abdda.jpg" metadataAssetGuid="cc5a038e-156a-4e9b-bab7-64d7313abdda">
+        <title>o15_xl_inquire_wb_analysis_report</title>
+        <altText>Workbook Analysis report</altText>
+      </image>
+    </item>
+    <item id="9149c7e8-6f0c-438d-9a49-75016a5fb629">
+      <image file="Art\9149c7e8-6f0c-438d-9a49-75016a5fb629\9149c7e8-6f0c-438d-9a49-75016a5fb629.jpg" metadataAssetGuid="9149c7e8-6f0c-438d-9a49-75016a5fb629">
+        <title>o15_ssc_results</title>
+        <altText>Comparison results</altText>
+      </image>
+    </item>
+    <item id="7f16c2df-743a-4c17-a464-7b5de49cf0d5">
+      <image file="Art\7f16c2df-743a-4c17-a464-7b5de49cf0d5\7f16c2df-743a-4c17-a464-7b5de49cf0d5.jpg" metadataAssetGuid="7f16c2df-743a-4c17-a464-7b5de49cf0d5">
+        <title>ol15_xl_inquire_wkbk_rels</title>
+        <altText>Workbook Relationship Diagram</altText>
+      </image>
+    </item>
+    <item id="73e4f55b-9d0b-428c-a4a1-8b47649f04fd">
+      <image file="Art\73e4f55b-9d0b-428c-a4a1-8b47649f04fd\73e4f55b-9d0b-428c-a4a1-8b47649f04fd.jpg" metadataAssetGuid="73e4f55b-9d0b-428c-a4a1-8b47649f04fd">
+        <title>o15_xl_Inquire_ribbon</title>
+        <altText>Inquire tab in Excel</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

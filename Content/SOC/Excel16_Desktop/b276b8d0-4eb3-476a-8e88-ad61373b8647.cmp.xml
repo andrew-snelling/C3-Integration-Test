@@ -1,6 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="b276b8d0-4eb3-476a-8e88-ad61373b8647" assetTypeId="CompanionFile">
-  <topic id="b276b8d0-4eb3-476a-8e88-ad61373b8647">
+  <topic id="b276b8d0-4eb3-476a-8e88-ad61373b8647" revisionNumber="2" createDate="2015-08-26T20:20:00.000">
     <title>Add an annotation to my 3D Map</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Highlight aspects of your 3D Map with text tied to specific data points that moves as you change the orientation of your 3D Map.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">b276b8d0-4eb3-476a-8e88-ad61373b8647</attribute>
+  </attributes>
+  <art>
+    <item id="9bfcec03-5a5f-4113-9045-635325ffc725">
+      <image file="Art\9bfcec03-5a5f-4113-9045-635325ffc725\9bfcec03-5a5f-4113-9045-635325ffc725.png" metadataAssetGuid="9bfcec03-5a5f-4113-9045-635325ffc725">
+        <title>pmaddannotation</title>
+        <altText>Add Annotation command on the shortcut menu</altText>
+      </image>
+    </item>
+    <item id="07fa2c02-7924-4ce1-adc1-7a6052445672">
+      <image file="Art\07fa2c02-7924-4ce1-adc1-7a6052445672\07fa2c02-7924-4ce1-adc1-7a6052445672.png" metadataAssetGuid="07fa2c02-7924-4ce1-adc1-7a6052445672">
+        <title>pmaddannotationdialog</title>
+        <altText>Add Annotation dialog</altText>
+      </image>
+    </item>
+    <item id="31065c9c-9938-4a8d-89b0-80a8d2fc5956">
+      <image file="Art\31065c9c-9938-4a8d-89b0-80a8d2fc5956\31065c9c-9938-4a8d-89b0-80a8d2fc5956.png" metadataAssetGuid="31065c9c-9938-4a8d-89b0-80a8d2fc5956">
+        <title>pmannotationonmap</title>
+        <altText>Zip Code annotation on a PowerMap</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

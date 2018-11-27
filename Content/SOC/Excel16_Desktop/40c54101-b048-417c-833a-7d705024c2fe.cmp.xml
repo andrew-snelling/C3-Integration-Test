@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="40c54101-b048-417c-833a-7d705024c2fe" assetTypeId="CompanionFile">
-  <topic id="40c54101-b048-417c-833a-7d705024c2fe">
+  <topic id="40c54101-b048-417c-833a-7d705024c2fe" revisionNumber="-1" createDate="">
     <title>Enter and Edit Data</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">40c54101-b048-417c-833a-7d705024c2fe</attribute>
+  </attributes>
 </metadata>

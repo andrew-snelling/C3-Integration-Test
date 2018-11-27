@@ -1,6 +1,161 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="5032720c-d36b-4bb9-b204-c0f3a4a215c5" assetTypeId="CompanionFile">
-  <topic id="5032720c-d36b-4bb9-b204-c0f3a4a215c5">
+  <topic id="5032720c-d36b-4bb9-b204-c0f3a4a215c5" revisionNumber="11" createDate="2015-07-21T16:16:00.000">
     <title>Add and format a chart legend</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Steps for adding and changing the look of a chart legend in Office 2016 for Windows, including customizing the border, the background of the chart legend, and changing and resizing the font used in a chart legend.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Mac 2011</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform Tab</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL140</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZOL150</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPP150</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">MPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint for Mac</attribute>
+    <attribute name="search.skuid">MPP160</attribute>
+    <attribute name="search.appverid">MPP140</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">PowerPoint for Mac</attribute>
+    <attribute name="search.skuid">MPP140</attribute>
+    <attribute name="search.appverid">ZWD150</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.appverid">MWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word for Mac</attribute>
+    <attribute name="search.skuid">MWD160</attribute>
+    <attribute name="search.appverid">MWD140</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Word for Mac</attribute>
+    <attribute name="search.skuid">MWD140</attribute>
+    <attribute name="search.assetid">5032720c-d36b-4bb9-b204-c0f3a4a215c5</attribute>
+  </attributes>
+  <art>
+    <item id="6d872784-9c25-4438-bf93-208c71970800">
+      <image file="Art\6d872784-9c25-4438-bf93-208c71970800\6d872784-9c25-4438-bf93-208c71970800.png" metadataAssetGuid="6d872784-9c25-4438-bf93-208c71970800">
+        <title>XL16WinFormatFontDB</title>
+        <altText>Font dialog box in Excel</altText>
+      </image>
+    </item>
+    <item id="67fa39c6-4888-4dd6-bda9-435b4a43dc96">
+      <image file="Art\67fa39c6-4888-4dd6-bda9-435b4a43dc96\67fa39c6-4888-4dd6-bda9-435b4a43dc96.png" metadataAssetGuid="67fa39c6-4888-4dd6-bda9-435b4a43dc96">
+        <title>XL16FormatLegendDelete</title>
+        <altText>Delete command on the Format Legend Font shortcut menu in Excel</altText>
+      </image>
+    </item>
+    <item id="9281faa3-e8d2-4c10-920f-905356300458">
+      <image file="Art\9281faa3-e8d2-4c10-920f-905356300458\9281faa3-e8d2-4c10-920f-905356300458.png" metadataAssetGuid="9281faa3-e8d2-4c10-920f-905356300458">
+        <title>XL16FormatLegendEffect</title>
+        <altText>Format Legend Effects task pane</altText>
+      </image>
+    </item>
+    <item id="872631d6-ba23-42e7-81c2-cc5de5695834">
+      <image file="Art\872631d6-ba23-42e7-81c2-cc5de5695834\872631d6-ba23-42e7-81c2-cc5de5695834.gif" metadataAssetGuid="872631d6-ba23-42e7-81c2-cc5de5695834">
+        <title>mac_pod_cr_chartlayout_labels</title>
+        <altText>Chart Layout tab, Labels group</altText>
+      </image>
+    </item>
+    <item id="158c0417-0e11-4c1c-9270-df6372f3bdf5">
+      <image file="Art\158c0417-0e11-4c1c-9270-df6372f3bdf5\158c0417-0e11-4c1c-9270-df6372f3bdf5.png" metadataAssetGuid="158c0417-0e11-4c1c-9270-df6372f3bdf5">
+        <title>XL16WinFormatLegendTaskPane</title>
+        <altText>Format Legend border task pane</altText>
+      </image>
+    </item>
+    <item id="626dda4e-57b4-416e-bc66-e7479e005a0a">
+      <image file="Art\626dda4e-57b4-416e-bc66-e7479e005a0a\626dda4e-57b4-416e-bc66-e7479e005a0a.jpg" metadataAssetGuid="626dda4e-57b4-416e-bc66-e7479e005a0a">
+        <title>o15_xl_chartelementsbtn</title>
+        <altText>Chart Elements button</altText>
+      </image>
+    </item>
+    <item id="38dfea4c-0d1e-474c-864d-e9bb4ab88e24">
+      <image file="Art\38dfea4c-0d1e-474c-864d-e9bb4ab88e24\38dfea4c-0d1e-474c-864d-e9bb4ab88e24.png" metadataAssetGuid="38dfea4c-0d1e-474c-864d-e9bb4ab88e24">
+        <title>XL16FormatLegendClosedArrow</title>
+        <altText>Chart Elements &gt; Legend in Excel</altText>
+      </image>
+    </item>
+    <item id="2bf9bdc1-9519-4135-b7b4-f8f3c9c8294b">
+      <image file="Art\2bf9bdc1-9519-4135-b7b4-f8f3c9c8294b\2bf9bdc1-9519-4135-b7b4-f8f3c9c8294b.png" metadataAssetGuid="2bf9bdc1-9519-4135-b7b4-f8f3c9c8294b">
+        <title>XL16WinFormatLegendFont</title>
+        <altText>Font command on the shortcut menu used to change the chart legend font</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

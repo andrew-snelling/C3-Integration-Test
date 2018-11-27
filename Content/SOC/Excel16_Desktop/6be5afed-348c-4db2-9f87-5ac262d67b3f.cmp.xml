@@ -1,6 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="6be5afed-348c-4db2-9f87-5ac262d67b3f" assetTypeId="CompanionFile">
-  <topic id="6be5afed-348c-4db2-9f87-5ac262d67b3f">
+  <topic id="6be5afed-348c-4db2-9f87-5ac262d67b3f" revisionNumber="8" createDate="2015-08-03T22:41:00.000">
     <title>Turn off time grouping in PivotTables in Excel for Windows</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Add a DWORD key to your registry to deactivate the auto group functionality in PivotTables and PivotCharts. Use registry edit at your own risk as incorrectly making changes may require you to reinstall Windows.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">6be5afed-348c-4db2-9f87-5ac262d67b3f</attribute>
+  </attributes>
+  <art>
+    <item id="1587a3df-55b4-4602-b747-4c4cd9e47fd7">
+      <image file="Art\1587a3df-55b4-4602-b747-4c4cd9e47fd7\1587a3df-55b4-4602-b747-4c4cd9e47fd7.png" metadataAssetGuid="1587a3df-55b4-4602-b747-4c4cd9e47fd7">
+        <title>Time Grouping in Pivot Tables - Ex3</title>
+        <altText>Regedit dialog - HKEY_CURRENT_USER &gt; Microsoft &gt; Office &gt; Excel</altText>
+      </image>
+    </item>
+    <item id="e4b93759-3706-4c66-b1b6-56607181747c">
+      <image file="Art\e4b93759-3706-4c66-b1b6-56607181747c\e4b93759-3706-4c66-b1b6-56607181747c.png" metadataAssetGuid="e4b93759-3706-4c66-b1b6-56607181747c">
+        <title>Time Grouping in Pivot Tables - Ex5</title>
+        <altText>Regedit &gt; Name new DWORD value &gt; DateAutoGroupingDisabled</altText>
+      </image>
+    </item>
+    <item id="92915570-8704-4af4-88bf-67f54a743d08">
+      <image file="Art\92915570-8704-4af4-88bf-67f54a743d08\92915570-8704-4af4-88bf-67f54a743d08.png" metadataAssetGuid="92915570-8704-4af4-88bf-67f54a743d08">
+        <title>Time Grouping in Pivot Tables - Ex1</title>
+        <altText>Windows Start menu - Regedit.exe</altText>
+      </image>
+    </item>
+    <item id="750a1d20-56e5-4d4e-a862-731c7dfe1249">
+      <image file="Art\750a1d20-56e5-4d4e-a862-731c7dfe1249\750a1d20-56e5-4d4e-a862-731c7dfe1249.png" metadataAssetGuid="750a1d20-56e5-4d4e-a862-731c7dfe1249">
+        <title>Time Grouping in Pivot Tables - Ex2</title>
+        <altText>User Account Control request to execute Regedit.exe</altText>
+      </image>
+    </item>
+    <item id="2562e51b-306c-4255-8b86-b84f9d2d9d6f">
+      <image file="Art\2562e51b-306c-4255-8b86-b84f9d2d9d6f\2562e51b-306c-4255-8b86-b84f9d2d9d6f.png" metadataAssetGuid="2562e51b-306c-4255-8b86-b84f9d2d9d6f">
+        <title>Time Grouping in Pivot Tables - Ex4</title>
+        <altText>Regedit &gt; Edit &gt; New &gt; DWORD (32-bit) value</altText>
+      </image>
+    </item>
+    <item id="aa3172ce-5455-41b2-809d-c8790c5386bb">
+      <image file="Art\aa3172ce-5455-41b2-809d-c8790c5386bb\aa3172ce-5455-41b2-809d-c8790c5386bb.png" metadataAssetGuid="aa3172ce-5455-41b2-809d-c8790c5386bb">
+        <title>Time Grouping in Pivot Tables - Ex6</title>
+        <altText>Regedit &gt; DWORD &gt; Change Value data to 1 from 0</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

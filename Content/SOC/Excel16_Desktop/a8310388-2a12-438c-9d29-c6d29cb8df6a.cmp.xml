@@ -1,6 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="a8310388-2a12-438c-9d29-c6d29cb8df6a" assetTypeId="CompanionFile">
-  <topic id="a8310388-2a12-438c-9d29-c6d29cb8df6a">
+  <topic id="a8310388-2a12-438c-9d29-c6d29cb8df6a" revisionNumber="7" createDate="2015-08-20T22:04:00.000">
     <title>Getting Started with Get &amp; Transform in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_ANALYZE_DATA</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_ANALYZE_DATA_IMPORT</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="Set_Free_Tag">ExcelPowerQueryUpdates</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2500342</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">a8310388-2a12-438c-9d29-c6d29cb8df6a</attribute>
+  </attributes>
+  <art>
+    <item id="a98fa51e-7d64-4052-8acd-3a259b8d0091">
+      <image file="Art\a98fa51e-7d64-4052-8acd-3a259b8d0091\a98fa51e-7d64-4052-8acd-3a259b8d0091.png" metadataAssetGuid="a98fa51e-7d64-4052-8acd-3a259b8d0091">
+        <title>Excel_G&amp;T_NorthwindAdvancedEditor</title>
+        <altText>Power Query Advanced Editor pane with M language editing</altText>
+      </image>
+    </item>
+    <item id="c8b439dd-badc-45e0-ae24-5453c354c29f">
+      <image file="Art\c8b439dd-badc-45e0-ae24-5453c354c29f\c8b439dd-badc-45e0-ae24-5453c354c29f.png" metadataAssetGuid="c8b439dd-badc-45e0-ae24-5453c354c29f">
+        <title>Excel_G&amp;T_Northwind_QueryEditor</title>
+        <altText>Power Query Editor pane</altText>
+      </image>
+    </item>
+    <item id="e5c63e6e-3205-4803-8b4a-6e469a211089">
+      <image file="Art\e5c63e6e-3205-4803-8b4a-6e469a211089\e5c63e6e-3205-4803-8b4a-6e469a211089.png" metadataAssetGuid="e5c63e6e-3205-4803-8b4a-6e469a211089">
+        <title>PowerQuery_PQ_FlowDiagram</title>
+        <altText>Power Query common steps</altText>
+      </image>
+    </item>
+    <item id="83db71ff-ae8a-40dc-97f0-b40649c4eecb">
+      <image file="Art\83db71ff-ae8a-40dc-97f0-b40649c4eecb\83db71ff-ae8a-40dc-97f0-b40649c4eecb.png" metadataAssetGuid="83db71ff-ae8a-40dc-97f0-b40649c4eecb">
+        <title>Excel_G&amp;T_NorthwindNavigator</title>
+        <altText>Get &amp; Transform &gt; Power Query Navigation pane</altText>
+      </image>
+    </item>
+    <item id="86aab661-de65-45a2-aa87-c698c794b7ce">
+      <image file="Art\86aab661-de65-45a2-aa87-c698c794b7ce\86aab661-de65-45a2-aa87-c698c794b7ce.png" metadataAssetGuid="86aab661-de65-45a2-aa87-c698c794b7ce">
+        <title>Excel_G&amp;T_QueryConnection</title>
+        <altText>Power Query Queries and Connections pane</altText>
+      </image>
+    </item>
+    <item id="de35440d-012b-4ed8-9a63-ed4ca673f7a1">
+      <image file="Art\de35440d-012b-4ed8-9a63-ed4ca673f7a1\de35440d-012b-4ed8-9a63-ed4ca673f7a1.png" metadataAssetGuid="de35440d-012b-4ed8-9a63-ed4ca673f7a1">
+        <title>Excel_G&amp;T_FromDatabase</title>
+        <altText>Get &amp; Transform From Database options</altText>
+      </image>
+    </item>
+    <item id="7c8b1820-b3e1-4343-bbf6-f45f55c782e7">
+      <image file="Art\7c8b1820-b3e1-4343-bbf6-f45f55c782e7\7c8b1820-b3e1-4343-bbf6-f45f55c782e7.png" metadataAssetGuid="7c8b1820-b3e1-4343-bbf6-f45f55c782e7">
+        <title>Excel_G&amp;T_ExportTo</title>
+        <altText>Power Query &gt; Export to options</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

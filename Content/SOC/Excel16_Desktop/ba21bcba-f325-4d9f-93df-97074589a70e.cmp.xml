@@ -1,6 +1,125 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="ba21bcba-f325-4d9f-93df-97074589a70e" assetTypeId="CompanionFile">
-  <topic id="ba21bcba-f325-4d9f-93df-97074589a70e">
+  <topic id="ba21bcba-f325-4d9f-93df-97074589a70e" revisionNumber="15" createDate="2016-01-20T21:09:00.000">
     <title>Create a funnel chart</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">How to make a funnel chart in Excel. Funnel charts can represent sales pipelines, sales funnels, and website conversions.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Android phones</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Android tablets</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Mobile</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">UpgradeSubscribe</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">XLA160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Android phones</attribute>
+    <attribute name="search.skuid">XLA160</attribute>
+    <attribute name="search.appverid">XCA150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for Android tablets</attribute>
+    <attribute name="search.skuid">XCA150</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EWT160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel Mobile</attribute>
+    <attribute name="search.skuid">EWT160</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">ba21bcba-f325-4d9f-93df-97074589a70e</attribute>
+  </attributes>
+  <art>
+    <item id="972f3492-4573-485e-91df-0c51aa84ed99">
+      <image file="Art\972f3492-4573-485e-91df-0c51aa84ed99\972f3492-4573-485e-91df-0c51aa84ed99.png" metadataAssetGuid="972f3492-4573-485e-91df-0c51aa84ed99">
+        <title>Funnel chart example</title>
+        <altText>Funnel chart showing sales pipeline; stages listed in the first column, values in the second</altText>
+      </image>
+    </item>
+    <item id="6bf78a0e-223c-4ab1-a4d5-5f68a62e018b">
+      <image file="Art\6bf78a0e-223c-4ab1-a4d5-5f68a62e018b\6bf78a0e-223c-4ab1-a4d5-5f68a62e018b.png" metadataAssetGuid="6bf78a0e-223c-4ab1-a4d5-5f68a62e018b">
+        <title>Excel2016Mac_Icn_WaterfallChart</title>
+        <altText>Waterfall chart icon</altText>
+      </image>
+    </item>
+    <item id="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+      <image file="Art\fd7db992-63b2-4e28-a877-a2ae13d6b7ef\fd7db992-63b2-4e28-a877-a2ae13d6b7ef.jpg" metadataAssetGuid="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+        <title>o15_xl_charttools_design_format</title>
+        <altText>Design and Format tabs for the Chart Tools</altText>
+      </image>
+    </item>
+    <item id="b15ba29d-7c8c-47a7-922e-c666157f0263">
+      <image file="Art\b15ba29d-7c8c-47a7-922e-c666157f0263\b15ba29d-7c8c-47a7-922e-c666157f0263.png" metadataAssetGuid="b15ba29d-7c8c-47a7-922e-c666157f0263">
+        <title>Insert a funnel chart</title>
+        <altText>Insert menu, Insert Waterfall or Stock chart button, Funnel chart</altText>
+      </image>
+    </item>
+    <item id="63c765ee-fd17-4209-80dd-efc5da84d4fa">
+      <image file="Art\63c765ee-fd17-4209-80dd-efc5da84d4fa\63c765ee-fd17-4209-80dd-efc5da84d4fa.png" metadataAssetGuid="63c765ee-fd17-4209-80dd-efc5da84d4fa">
+        <title>Edit data in Microsoft Excel button</title>
+        <altText>Edit data in Microsoft Excel button</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

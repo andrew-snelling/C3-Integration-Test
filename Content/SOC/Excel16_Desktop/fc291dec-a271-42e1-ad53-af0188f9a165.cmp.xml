@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="fc291dec-a271-42e1-ad53-af0188f9a165" assetTypeId="CompanionFile">
-  <topic id="fc291dec-a271-42e1-ad53-af0188f9a165">
+  <topic id="fc291dec-a271-42e1-ad53-af0188f9a165" revisionNumber="5" createDate="">
     <title>Project Yellow</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">fc291dec-a271-42e1-ad53-af0188f9a165</attribute>
+  </attributes>
 </metadata>

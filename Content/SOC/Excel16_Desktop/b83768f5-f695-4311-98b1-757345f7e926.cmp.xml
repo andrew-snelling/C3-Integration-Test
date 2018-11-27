@@ -1,6 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="b83768f5-f695-4311-98b1-757345f7e926" assetTypeId="CompanionFile">
-  <topic id="b83768f5-f695-4311-98b1-757345f7e926">
+  <topic id="b83768f5-f695-4311-98b1-757345f7e926" revisionNumber="3" createDate="2014-10-27T23:37:00.000">
     <title>Add or subtract dates</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-11-06T00:00:00.000</attribute>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_FORMULAS</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_FORMULAS_MORE</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Add or subtract days, months, or years from a date by using a formula or date functions in Excel.</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm3056112</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="OCMS Asset ID">HA102749063</attribute>
+    <attribute name="OCMS Asset ID">HP010070465</attribute>
+    <attribute name="OCMS Asset ID">HP010342155</attribute>
+    <attribute name="OCMS Version">3.15</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">xlmain11.chm3056112</attribute>
+    <attribute name="Search.OCMSasset">HA102749063</attribute>
+    <attribute name="Search.OCMSasset">HP010070465</attribute>
+    <attribute name="Search.OCMSasset">HP010342155</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">b83768f5-f695-4311-98b1-757345f7e926</attribute>
+  </attributes>
+  <art>
+    <item id="db32c8ac-82a6-49f3-9623-2312f22e65da">
+      <image file="Art\db32c8ac-82a6-49f3-9623-2312f22e65da\db32c8ac-82a6-49f3-9623-2312f22e65da.gif" metadataAssetGuid="db32c8ac-82a6-49f3-9623-2312f22e65da">
+        <title>callout3-2</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="e1f21a9a-8aca-441d-bd52-30afbd7990f7">
+      <image file="Art\e1f21a9a-8aca-441d-bd52-30afbd7990f7\e1f21a9a-8aca-441d-bd52-30afbd7990f7.gif" metadataAssetGuid="e1f21a9a-8aca-441d-bd52-30afbd7990f7">
+        <title>callout2-3</title>
+        <altText>Callout 2</altText>
+      </image>
+    </item>
+    <item id="9a5cef04-9170-42e6-983a-6ea927480a2f">
+      <image file="Art\9a5cef04-9170-42e6-983a-6ea927480a2f\9a5cef04-9170-42e6-983a-6ea927480a2f.gif" metadataAssetGuid="9a5cef04-9170-42e6-983a-6ea927480a2f">
+        <title>callout4-2</title>
+        <altText>Callout 4</altText>
+      </image>
+    </item>
+    <item id="bb951e2a-9ccf-4e9e-b985-7e1edfc9ad1f">
+      <image file="Art\bb951e2a-9ccf-4e9e-b985-7e1edfc9ad1f\bb951e2a-9ccf-4e9e-b985-7e1edfc9ad1f.gif" metadataAssetGuid="bb951e2a-9ccf-4e9e-b985-7e1edfc9ad1f">
+        <title>excelexampleselection</title>
+        <altText>selecting an example from help in Excel 2013 for Windows</altText>
+      </image>
+    </item>
+    <item id="dea75f1a-e0ce-4d21-bbe5-a59afb4cf038">
+      <image file="Art\dea75f1a-e0ce-4d21-bbe5-a59afb4cf038\dea75f1a-e0ce-4d21-bbe5-a59afb4cf038.gif" metadataAssetGuid="dea75f1a-e0ce-4d21-bbe5-a59afb4cf038">
+        <title>callout1-3</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="b44ee088-ad49-46bb-80eb-c7aca5dab77d">
+      <image file="Art\b44ee088-ad49-46bb-80eb-c7aca5dab77d\b44ee088-ad49-46bb-80eb-c7aca5dab77d.gif" metadataAssetGuid="b44ee088-ad49-46bb-80eb-c7aca5dab77d">
+        <title>adddate</title>
+        <altText>Formula to add dates</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

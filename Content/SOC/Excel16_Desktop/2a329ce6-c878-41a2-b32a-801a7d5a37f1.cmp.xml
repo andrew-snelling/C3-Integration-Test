@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="2a329ce6-c878-41a2-b32a-801a7d5a37f1" assetTypeId="CompanionFile">
-  <topic id="2a329ce6-c878-41a2-b32a-801a7d5a37f1">
+  <topic id="2a329ce6-c878-41a2-b32a-801a7d5a37f1" revisionNumber="-1" createDate="">
     <title>Protect</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">2a329ce6-c878-41a2-b32a-801a7d5a37f1</attribute>
+  </attributes>
 </metadata>

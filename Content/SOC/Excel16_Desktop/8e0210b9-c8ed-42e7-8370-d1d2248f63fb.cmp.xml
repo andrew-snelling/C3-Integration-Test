@@ -1,6 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="8e0210b9-c8ed-42e7-8370-d1d2248f63fb" assetTypeId="CompanionFile">
-  <topic id="8e0210b9-c8ed-42e7-8370-d1d2248f63fb">
+  <topic id="8e0210b9-c8ed-42e7-8370-d1d2248f63fb" revisionNumber="4" createDate="2014-10-08T02:14:00.000">
     <title>Move data labels</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can move data labels by changing their placement or by dragging them to the location you want</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Online</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">WAE150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel Online</attribute>
+    <attribute name="search.skuid">WAE150</attribute>
+    <attribute name="search.appverid">ZOL150</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZPP150</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD150</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">8e0210b9-c8ed-42e7-8370-d1d2248f63fb</attribute>
+  </attributes>
+  <art>
+    <item id="f28cf4e3-05f2-41af-9208-0bffd461770e">
+      <image file="Art\f28cf4e3-05f2-41af-9208-0bffd461770e\f28cf4e3-05f2-41af-9208-0bffd461770e.jpg" metadataAssetGuid="f28cf4e3-05f2-41af-9208-0bffd461770e">
+        <title>OGV15PiePercentLabels</title>
+        <altText>Pie chart with data labels formatted as percentages</altText>
+      </image>
+    </item>
+    <item id="16b7c48b-25e0-4191-ab71-292af23b3ee1">
+      <image file="Art\16b7c48b-25e0-4191-ab71-292af23b3ee1\16b7c48b-25e0-4191-ab71-292af23b3ee1.jpg" metadataAssetGuid="16b7c48b-25e0-4191-ab71-292af23b3ee1">
+        <title>OGV15DataCalloutPie</title>
+        <altText>Pie chart with data callouts</altText>
+      </image>
+    </item>
+    <item id="dbf76893-afe0-413a-84eb-386715cca299">
+      <image file="Art\dbf76893-afe0-413a-84eb-386715cca299\dbf76893-afe0-413a-84eb-386715cca299.JPG" metadataAssetGuid="dbf76893-afe0-413a-84eb-386715cca299">
+        <title>OGV15DataLabels</title>
+        <altText>Data label options under Chart Elements</altText>
+      </image>
+    </item>
+    <item id="626dda4e-57b4-416e-bc66-e7479e005a0a">
+      <image file="Art\626dda4e-57b4-416e-bc66-e7479e005a0a\626dda4e-57b4-416e-bc66-e7479e005a0a.jpg" metadataAssetGuid="626dda4e-57b4-416e-bc66-e7479e005a0a">
+        <title>o15_xl_chartelementsbtn</title>
+        <altText>Chart Elements button</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

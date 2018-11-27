@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="32edc125-e77b-42a9-8dd3-f35029ec52b2" assetTypeId="CompanionFile">
-  <topic id="32edc125-e77b-42a9-8dd3-f35029ec52b2">
+  <topic id="32edc125-e77b-42a9-8dd3-f35029ec52b2" revisionNumber="-1" createDate="">
     <title>CSH ONLY TOPICS</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.assetid">32edc125-e77b-42a9-8dd3-f35029ec52b2</attribute>
+  </attributes>
 </metadata>

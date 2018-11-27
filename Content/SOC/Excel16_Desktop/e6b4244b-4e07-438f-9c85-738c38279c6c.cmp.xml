@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="e6b4244b-4e07-438f-9c85-738c38279c6c" assetTypeId="CompanionFile">
-  <topic id="e6b4244b-4e07-438f-9c85-738c38279c6c">
+  <topic id="e6b4244b-4e07-438f-9c85-738c38279c6c" revisionNumber="7" createDate="2018-03-16T15:08:00.000">
     <title>Data type compatibility issues in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">If you save a file as an older Excel file format, special data types will not be saved. </attribute>
+    <attribute name="Context Sensitive Help Access">For xlmain11.chm162408 - Have an Excel spreadsheet with a Data type (Type the word 'Seattle' &gt; select the cell and choose Data &gt; Data types &gt; Geography. Save the file in the .xls format. Compatibility checker comes up. Click the help link in the box (not the title bar)</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm162408</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">xlmain11.chm162408</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">e6b4244b-4e07-438f-9c85-738c38279c6c</attribute>
+  </attributes>
 </metadata>

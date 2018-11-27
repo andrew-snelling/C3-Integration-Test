@@ -1,6 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="26aae7bf-0ace-4b99-9a30-280e1169b91a" assetTypeId="CompanionFile">
-  <topic id="26aae7bf-0ace-4b99-9a30-280e1169b91a">
+  <topic id="26aae7bf-0ace-4b99-9a30-280e1169b91a" revisionNumber="1" createDate="2015-08-27T12:40:00.000">
     <title>Change to a bubble chart in 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Change the default column chart in 3D Maps to a bubble chart, where bubbles can be used to highlight data in Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511341</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">26aae7bf-0ace-4b99-9a30-280e1169b91a</attribute>
+  </attributes>
+  <art>
+    <item id="064d4dbe-d745-4e64-a373-0c7615e08de8">
+      <image file="Art\064d4dbe-d745-4e64-a373-0c7615e08de8\064d4dbe-d745-4e64-a373-0c7615e08de8.png" metadataAssetGuid="064d4dbe-d745-4e64-a373-0c7615e08de8">
+        <title>pm15bubblechart</title>
+        <altText>Example of a bubble chart</altText>
+      </image>
+    </item>
+    <item id="65317674-9161-4cb5-a3b6-6f78b84a8a7c">
+      <image file="Art\65317674-9161-4cb5-a3b6-6f78b84a8a7c\65317674-9161-4cb5-a3b6-6f78b84a8a7c.png" metadataAssetGuid="65317674-9161-4cb5-a3b6-6f78b84a8a7c">
+        <title>pm15layerpane</title>
+        <altText>Layer Pane button on the Power Map Home tab</altText>
+      </image>
+    </item>
+    <item id="7f8ad6af-fb55-4bc0-b458-a2b134fc40cf">
+      <image file="Art\7f8ad6af-fb55-4bc0-b458-a2b134fc40cf\7f8ad6af-fb55-4bc0-b458-a2b134fc40cf.png" metadataAssetGuid="7f8ad6af-fb55-4bc0-b458-a2b134fc40cf">
+        <title>pm15bubbleicon</title>
+        <altText>Bubble icon on the Field List tab</altText>
+      </image>
+    </item>
+    <item id="8307b5a0-0793-4361-a3b4-b5b6e5909293">
+      <image file="Art\8307b5a0-0793-4361-a3b4-b5b6e5909293\8307b5a0-0793-4361-a3b4-b5b6e5909293.png" metadataAssetGuid="8307b5a0-0793-4361-a3b4-b5b6e5909293">
+        <title>pm15piechartbubble</title>
+        <altText>Bubble chart showing a pie chart for New York City and a bubble for Chicago</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

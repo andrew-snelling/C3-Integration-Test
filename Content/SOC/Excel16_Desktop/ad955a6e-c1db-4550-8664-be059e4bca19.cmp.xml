@@ -1,6 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="ad955a6e-c1db-4550-8664-be059e4bca19" assetTypeId="CompanionFile">
-  <topic id="ad955a6e-c1db-4550-8664-be059e4bca19">
+  <topic id="ad955a6e-c1db-4550-8664-be059e4bca19" revisionNumber="5" createDate="2015-07-14T00:14:00.000">
     <title>Change the data series in a chart</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use chart filters to show and hide data series or categories, and use the Select Data Source box to further change and rearrange the data that's shown in your chart in Officw 2016 for Windows.
+</attribute>
+    <attribute name="Context Sensitive Help Access">for 174639 - Click on any chart &gt; On the Chart Tools Design tab, click Select Data &gt; Click the (?) in the title bar.</attribute>
+    <attribute name="Context Sensitive ID">174639</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2256001</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">174639</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">ad955a6e-c1db-4550-8664-be059e4bca19</attribute>
+  </attributes>
+  <art>
+    <item id="5ee781bb-fd18-4779-a830-3c8f5a509a2e">
+      <image file="Art\5ee781bb-fd18-4779-a830-3c8f5a509a2e\5ee781bb-fd18-4779-a830-3c8f5a509a2e.jpg" metadataAssetGuid="5ee781bb-fd18-4779-a830-3c8f5a509a2e">
+        <title>o15_xl_MoveDown_btn</title>
+        <altText>Move Down button</altText>
+      </image>
+    </item>
+    <item id="10f690a6-9fa3-42d2-8832-4f11e045a6e5">
+      <image file="Art\10f690a6-9fa3-42d2-8832-4f11e045a6e5\10f690a6-9fa3-42d2-8832-4f11e045a6e5.jpg" metadataAssetGuid="10f690a6-9fa3-42d2-8832-4f11e045a6e5">
+        <title>o15_xl_SelectDataSourceDB</title>
+        <altText>Select Data Source dialog box</altText>
+      </image>
+    </item>
+    <item id="2fe73798-eb5f-4c75-8263-6752f775e9a7">
+      <image file="Art\2fe73798-eb5f-4c75-8263-6752f775e9a7\2fe73798-eb5f-4c75-8263-6752f775e9a7.jpg" metadataAssetGuid="2fe73798-eb5f-4c75-8263-6752f775e9a7">
+        <title>o15_xl_MoveUp_btn</title>
+        <altText>Move Up button</altText>
+      </image>
+    </item>
+    <item id="41665126-4eba-44ce-8d86-6923a8cfa2ae">
+      <image file="Art\41665126-4eba-44ce-8d86-6923a8cfa2ae\41665126-4eba-44ce-8d86-6923a8cfa2ae.jpg" metadataAssetGuid="41665126-4eba-44ce-8d86-6923a8cfa2ae">
+        <title>o15_xl_ChartFilters_ValuesTab</title>
+        <altText>Values tab in the Chart Filters gallery</altText>
+      </image>
+    </item>
+    <item id="81382e84-761c-4729-b7ff-c19bfa3715b0">
+      <image file="Art\81382e84-761c-4729-b7ff-c19bfa3715b0\81382e84-761c-4729-b7ff-c19bfa3715b0.jpg" metadataAssetGuid="81382e84-761c-4729-b7ff-c19bfa3715b0">
+        <title>o15_xl_chartfiltersbtn</title>
+        <altText>Chart Filters button</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

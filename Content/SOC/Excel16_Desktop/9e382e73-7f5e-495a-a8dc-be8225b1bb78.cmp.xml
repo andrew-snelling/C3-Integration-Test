@@ -1,6 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="9e382e73-7f5e-495a-a8dc-be8225b1bb78" assetTypeId="CompanionFile">
-  <topic id="9e382e73-7f5e-495a-a8dc-be8225b1bb78">
+  <topic id="9e382e73-7f5e-495a-a8dc-be8225b1bb78" revisionNumber="9" createDate="2015-08-18T18:35:00.000">
     <title>Analyze your data instantly</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">TRN_Products</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn about data analysis at your fingertips. Quickly create a chart to visualize your data, add sparklines to show data trends, create a PivotTable for in-depth data analysis, apply conditional formatting for visual cues, and more in Excel.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Training</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.Lifecycle">Adopt and Use</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="LeftNav_ArticleType">Article</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Fusion_Charts</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Training</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">9e382e73-7f5e-495a-a8dc-be8225b1bb78</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="ac16c29a-f52f-4cf5-98b5-6def889eaa83">
+      <image file="Art\ac16c29a-f52f-4cf5-98b5-6def889eaa83\ac16c29a-f52f-4cf5-98b5-6def889eaa83.png" metadataAssetGuid="ac16c29a-f52f-4cf5-98b5-6def889eaa83">
+        <title>Excel2016-TryIt-Charts</title>
+        <altText>Charts</altText>
+      </image>
+    </item>
+    <item id="32b5ef2b-115c-4e2e-80a5-f2219e4e46fc">
+      <image file="Art\32b5ef2b-115c-4e2e-80a5-f2219e4e46fc\32b5ef2b-115c-4e2e-80a5-f2219e4e46fc.png" metadataAssetGuid="32b5ef2b-115c-4e2e-80a5-f2219e4e46fc">
+        <title>Excel2016-TryIy-QuickAnalist</title>
+        <altText>Quick Analysis</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

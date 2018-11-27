@@ -1,6 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="2f0c62f5-af64-49cd-aec6-de018647cae3" assetTypeId="CompanionFile">
-  <topic id="2f0c62f5-af64-49cd-aec6-de018647cae3">
+  <topic id="2f0c62f5-af64-49cd-aec6-de018647cae3" revisionNumber="4" createDate="2016-09-13T21:53:00.000">
     <title>Add a check box, option, or Toggle button (ActiveX controls)</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">2f0c62f5-af64-49cd-aec6-de018647cae3</attribute>
+  </attributes>
+  <art>
+    <item id="da322b91-19a8-4d2b-bc3e-1ef245f3b4f9">
+      <image file="Art\da322b91-19a8-4d2b-bc3e-1ef245f3b4f9\da322b91-19a8-4d2b-bc3e-1ef245f3b4f9.gif" metadataAssetGuid="da322b91-19a8-4d2b-bc3e-1ef245f3b4f9">
+        <title>1848</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="db396c97-9b23-4616-a7d2-48d186436c43">
+      <image file="Art\db396c97-9b23-4616-a7d2-48d186436c43\db396c97-9b23-4616-a7d2-48d186436c43.gif" metadataAssetGuid="db396c97-9b23-4616-a7d2-48d186436c43">
+        <title>activextoggle</title>
+        <altText>Example of an ActiveX toggle button control</altText>
+      </image>
+    </item>
+    <item id="42752256-790d-40be-aff0-7a591229b039">
+      <image file="Art\42752256-790d-40be-aff0-7a591229b039\42752256-790d-40be-aff0-7a591229b039.gif" metadataAssetGuid="42752256-790d-40be-aff0-7a591229b039">
+        <title>1855</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="2a2b67e6-08bb-46c9-8861-aef4f7bb21d7">
+      <image file="Art\2a2b67e6-08bb-46c9-8861-aef4f7bb21d7\2a2b67e6-08bb-46c9-8861-aef4f7bb21d7.gif" metadataAssetGuid="2a2b67e6-08bb-46c9-8861-aef4f7bb21d7">
+        <title>1852</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+      <image file="Art\f22ae713-addb-400d-bc0f-b7a62f2d61af\f22ae713-addb-400d-bc0f-b7a62f2d61af.gif" metadataAssetGuid="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+        <title>o12filemenubutton</title>
+        <altText>Office button image</altText>
+      </image>
+    </item>
+    <item id="20de9aeb-5cc2-4793-8f34-c9388815ee13">
+      <image file="Art\20de9aeb-5cc2-4793-8f34-c9388815ee13\20de9aeb-5cc2-4793-8f34-c9388815ee13.gif" metadataAssetGuid="20de9aeb-5cc2-4793-8f34-c9388815ee13">
+        <title>activexoptionbutton</title>
+        <altText>Example of an ActiveX option button control</altText>
+      </image>
+    </item>
+    <item id="a8a90bad-7550-4c77-b22f-fa21d46d6664">
+      <image file="Art\a8a90bad-7550-4c77-b22f-fa21d46d6664\a8a90bad-7550-4c77-b22f-fa21d46d6664.gif" metadataAssetGuid="a8a90bad-7550-4c77-b22f-fa21d46d6664">
+        <title>activexcheckbox</title>
+        <altText>Example of an ActiveX check box control</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

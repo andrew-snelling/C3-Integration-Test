@@ -1,6 +1,143 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="579e1958-f7f6-41ae-ba0c-c83cc6e40878" assetTypeId="CompanionFile">
-  <topic id="579e1958-f7f6-41ae-ba0c-c83cc6e40878">
+  <topic id="579e1958-f7f6-41ae-ba0c-c83cc6e40878" revisionNumber="3" createDate="2015-07-13T17:11:00.000">
     <title>Add a list box or combo box to a worksheet in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Add a list box to your Excel worksheet from which users can choose a value. Make data entry easier by letting users choose a value from a combo box. A combo box combines a text box with a list box to create a drop-down list. You can add a Form Control or an ActiveX Control combo box. </attribute>
+    <attribute name="Context Sensitive ID">21160</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HP010236681</attribute>
+    <attribute name="OCMS Asset ID">HP010342141</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">21160</attribute>
+    <attribute name="Search.OCMSasset">HP010236681</attribute>
+    <attribute name="Search.OCMSasset">HP010342141</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">579e1958-f7f6-41ae-ba0c-c83cc6e40878</attribute>
+  </attributes>
+  <art>
+    <item id="d3a353e9-e5b0-453f-9f4e-0248178969d3">
+      <image file="Art\d3a353e9-e5b0-453f-9f4e-0248178969d3\d3a353e9-e5b0-453f-9f4e-0248178969d3.png" metadataAssetGuid="d3a353e9-e5b0-453f-9f4e-0248178969d3">
+        <title>O15_xl_ActiveXComboBoxProperties</title>
+        <altText>Property settings for ActiveX combo box.</altText>
+      </image>
+    </item>
+    <item id="b8525617-909c-4049-aa03-10ad34bbb1f7">
+      <image file="Art\b8525617-909c-4049-aa03-10ad34bbb1f7\b8525617-909c-4049-aa03-10ad34bbb1f7.png" metadataAssetGuid="b8525617-909c-4049-aa03-10ad34bbb1f7">
+        <title>O15_xl_SampleComboBox</title>
+        <altText>Example of a combo box.</altText>
+      </image>
+    </item>
+    <item id="402a0f4e-b26a-450e-ae42-1c3058bfe62e">
+      <image file="Art\402a0f4e-b26a-450e-ae42-1c3058bfe62e\402a0f4e-b26a-450e-ae42-1c3058bfe62e.jpg" metadataAssetGuid="402a0f4e-b26a-450e-ae42-1c3058bfe62e">
+        <title>O15_xl_ComboBox</title>
+        <altText>Combo box</altText>
+      </image>
+    </item>
+    <item id="d236ecb0-e1e0-4c84-91ea-24a080898744">
+      <image file="Art\d236ecb0-e1e0-4c84-91ea-24a080898744\d236ecb0-e1e0-4c84-91ea-24a080898744.jpg" metadataAssetGuid="d236ecb0-e1e0-4c84-91ea-24a080898744">
+        <title>O15_xl_ComboBoxFontProperty</title>
+        <altText>Setting for fonts in text box</altText>
+      </image>
+    </item>
+    <item id="ed16e253-e1d3-4180-bfb0-26b3c8a12e66">
+      <image file="Art\ed16e253-e1d3-4180-bfb0-26b3c8a12e66\ed16e253-e1d3-4180-bfb0-26b3c8a12e66.png" metadataAssetGuid="ed16e253-e1d3-4180-bfb0-26b3c8a12e66">
+        <title>O15_xl_ComboBoxFormula</title>
+        <altText>Enter formula to show item from linked cell</altText>
+      </image>
+    </item>
+    <item id="eb926a15-280d-486f-b150-4915524dabf4">
+      <image file="Art\eb926a15-280d-486f-b150-4915524dabf4\eb926a15-280d-486f-b150-4915524dabf4.png" metadataAssetGuid="eb926a15-280d-486f-b150-4915524dabf4">
+        <title>O15_ListBox</title>
+        <altText>Sample list box</altText>
+      </image>
+    </item>
+    <item id="dee9730b-84f0-4fb3-9374-6dd78b953b16">
+      <image file="Art\dee9730b-84f0-4fb3-9374-6dd78b953b16\dee9730b-84f0-4fb3-9374-6dd78b953b16.png" metadataAssetGuid="dee9730b-84f0-4fb3-9374-6dd78b953b16">
+        <title>O15_xl_ComboBoxes_Insert</title>
+        <altText>Insert combo box</altText>
+      </image>
+    </item>
+    <item id="ba7b2681-5297-42cb-906e-854c5206c4bd">
+      <image file="Art\ba7b2681-5297-42cb-906e-854c5206c4bd\ba7b2681-5297-42cb-906e-854c5206c4bd.png" metadataAssetGuid="ba7b2681-5297-42cb-906e-854c5206c4bd">
+        <title>O15_XL_ComboBoxCellLink</title>
+        <altText>Linked cell shows item number when item is selected.</altText>
+      </image>
+    </item>
+    <item id="ccd1f49f-b0e4-48f2-bcfa-9ba89867aaf5">
+      <image file="Art\ccd1f49f-b0e4-48f2-bcfa-9ba89867aaf5\ccd1f49f-b0e4-48f2-bcfa-9ba89867aaf5.png" metadataAssetGuid="ccd1f49f-b0e4-48f2-bcfa-9ba89867aaf5">
+        <title>O15_xl_ListforComboBox</title>
+        <altText>value list for use in combo box</altText>
+      </image>
+    </item>
+    <item id="1b4245bd-8d0a-45ab-b2ad-b0c5369dc34d">
+      <image file="Art\1b4245bd-8d0a-45ab-b2ad-b0c5369dc34d\1b4245bd-8d0a-45ab-b2ad-b0c5369dc34d.png" metadataAssetGuid="1b4245bd-8d0a-45ab-b2ad-b0c5369dc34d">
+        <title>O15_xl_ComboBox_BackColor</title>
+        <altText>Color fill property for a combo box.</altText>
+      </image>
+    </item>
+    <item id="8f98e872-0e65-41e4-9762-c23da2a0048a">
+      <image file="Art\8f98e872-0e65-41e4-9762-c23da2a0048a\8f98e872-0e65-41e4-9762-c23da2a0048a.png" metadataAssetGuid="8f98e872-0e65-41e4-9762-c23da2a0048a">
+        <title>O15_xl_ListBoxFormatControl</title>
+        <altText>Proprties for the list box control.</altText>
+      </image>
+    </item>
+    <item id="3bcdac54-6aef-409a-9101-cd107c91293f">
+      <image file="Art\3bcdac54-6aef-409a-9101-cd107c91293f\3bcdac54-6aef-409a-9101-cd107c91293f.png" metadataAssetGuid="3bcdac54-6aef-409a-9101-cd107c91293f">
+        <title>O15_xl_ComboBoxScrollBar</title>
+        <altText>Scroll bar is displayed.</altText>
+      </image>
+    </item>
+    <item id="2d7e8175-a042-41fc-ac04-cf00a6b0f4ea">
+      <image file="Art\2d7e8175-a042-41fc-ac04-cf00a6b0f4ea\2d7e8175-a042-41fc-ac04-cf00a6b0f4ea.png" metadataAssetGuid="2d7e8175-a042-41fc-ac04-cf00a6b0f4ea">
+        <title>O15_xl_ComboBoxFormatControl</title>
+        <altText>Format control dialog box</altText>
+      </image>
+    </item>
+    <item id="ab752c6c-7f23-4c8d-b5ae-f3ce649af7de">
+      <image file="Art\ab752c6c-7f23-4c8d-b5ae-f3ce649af7de\ab752c6c-7f23-4c8d-b5ae-f3ce649af7de.png" metadataAssetGuid="ab752c6c-7f23-4c8d-b5ae-f3ce649af7de">
+        <title>O15_xl_ListBoxFormControl</title>
+        <altText>the list box form control button</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de" assetTypeId="CompanionFile">
-  <topic id="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de">
+  <topic id="a8f5977c-8f1a-4ce7-a45d-58cd2c7516de" revisionNumber="2" createDate="2014-10-27T23:37:00.000">
     <title>Hide or show worksheets or workbooks</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-11-06T00:00:00.000</attribute>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_DATA_ENTRY</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_DATA_ENTRY_LAYOUT</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn to hide (or unhide) worksheet tabs or workbooks in Excel 2010. Worksheet names appear on the tabs along the bottom of a workbook.</attribute>
+    <attribute name="Context Sensitive Help Access">FOR 20968 - View tab, Windows group, Hide a workbook. From the View tab, Windows group, choose Unhide. Click ? in title.</attribute>
+    <attribute name="Context Sensitive Help Access">FOR 21094 - Right click a sheet tab and choose Hide. On the Home Tab, click Format and choose Unhide sheet. In the Unhide dialog, click ? in the title bar.</attribute>
+    <attribute name="Context Sensitive ID">20968</attribute>
+    <attribute name="Context Sensitive ID">21094</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5199782</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="OCMS Asset ID">HP010342577</attribute>
+    <attribute name="OCMS Version">5.12</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">20968</attribute>
+    <attribute name="search.contextid">21094</attribute>
+    <attribute name="search.contextid">xlmain11.chm5199782</attribute>
+    <attribute name="Search.OCMSasset">HP010342577</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">a8f5977c-8f1a-4ce7-a45d-58cd2c7516de</attribute>
+  </attributes>
+  <art>
+    <item id="1ec35422-2686-44f8-b1a7-69f626e8bf56">
+      <image file="Art\1ec35422-2686-44f8-b1a7-69f626e8bf56\1ec35422-2686-44f8-b1a7-69f626e8bf56.gif" metadataAssetGuid="1ec35422-2686-44f8-b1a7-69f626e8bf56">
+        <title>xlactivesheettab</title>
+        <altText>Active sheet tab</altText>
+      </image>
+    </item>
+    <item id="debbe7d6-3c68-42fa-8667-79e48ad22fd6">
+      <image file="Art\debbe7d6-3c68-42fa-8667-79e48ad22fd6\debbe7d6-3c68-42fa-8667-79e48ad22fd6.gif" metadataAssetGuid="debbe7d6-3c68-42fa-8667-79e48ad22fd6">
+        <title>xl_view_window_unhideactive</title>
+        <altText>Excel Ribbon Image</altText>
+      </image>
+    </item>
+    <item id="88b7e837-5fc0-4596-9159-b6eda61cfb04">
+      <image file="Art\88b7e837-5fc0-4596-9159-b6eda61cfb04\88b7e837-5fc0-4596-9159-b6eda61cfb04.gif" metadataAssetGuid="88b7e837-5fc0-4596-9159-b6eda61cfb04">
+        <title>xl_home_cells</title>
+        <altText>The Cells group on the Home tab</altText>
+      </image>
+    </item>
+    <item id="596d8590-7336-4a2d-91a7-be4d307b75a9">
+      <image file="Art\596d8590-7336-4a2d-91a7-be4d307b75a9\596d8590-7336-4a2d-91a7-be4d307b75a9.gif" metadataAssetGuid="596d8590-7336-4a2d-91a7-be4d307b75a9">
+        <title>xl_view_window</title>
+        <altText>The Window group on the View tab</altText>
+      </image>
+    </item>
+    <item id="2c48027c-1a1d-4030-8346-cc713048b7b7">
+      <image file="Art\2c48027c-1a1d-4030-8346-cc713048b7b7\2c48027c-1a1d-4030-8346-cc713048b7b7.gif" metadataAssetGuid="2c48027c-1a1d-4030-8346-cc713048b7b7">
+        <title>xltabscrollingbtn</title>
+        <altText>Tab scrolling buttons</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

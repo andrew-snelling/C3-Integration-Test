@@ -1,6 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="06eaa9b3-0ba5-42b8-bd8f-f13bdf00a13c" assetTypeId="CompanionFile">
-  <topic id="06eaa9b3-0ba5-42b8-bd8f-f13bdf00a13c">
+  <topic id="06eaa9b3-0ba5-42b8-bd8f-f13bdf00a13c" revisionNumber="6" createDate="2015-07-27T21:24:00.000">
     <title>Collaboration compatibility issues</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">The Compatibility Checker found one or more collaboration-related compatibility issues. Save the workbook in the Excel 97-2003 file format.</attribute>
+    <attribute name="Context Sensitive ID">126965</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010172669</attribute>
+    <attribute name="OCMS Asset ID">HA010342276</attribute>
+    <attribute name="OCMS Asset ID">HA102919741</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">126965</attribute>
+    <attribute name="Search.OCMSasset">HA010172669</attribute>
+    <attribute name="Search.OCMSasset">HA010342276</attribute>
+    <attribute name="Search.OCMSasset">HA102919741</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">06eaa9b3-0ba5-42b8-bd8f-f13bdf00a13c</attribute>
+  </attributes>
+  <art>
+    <item id="66bd0628-8473-4750-b528-03b57eb3d85d">
+      <image file="Art\66bd0628-8473-4750-b528-03b57eb3d85d\66bd0628-8473-4750-b528-03b57eb3d85d.png" metadataAssetGuid="66bd0628-8473-4750-b528-03b57eb3d85d">
+        <title>btn_TryO365</title>
+        <altText>Try Office 365 or the latest version of Excel</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

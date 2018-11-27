@@ -1,6 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="c684ac24-7590-42b8-b7e4-c47be39857b4" assetTypeId="CompanionFile">
-  <topic id="c684ac24-7590-42b8-b7e4-c47be39857b4">
+  <topic id="c684ac24-7590-42b8-b7e4-c47be39857b4" revisionNumber="97" createDate="">
     <title>DRAFT - DON'T PUBLISH - What's new in Excel 2016 for Windows</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.assetid">c684ac24-7590-42b8-b7e4-c47be39857b4</attribute>
+  </attributes>
+  <art>
+    <item id="e35e614e-8373-44cb-b2a1-17ce4b42a68f">
+      <image file="Art\e35e614e-8373-44cb-b2a1-17ce4b42a68f\e35e614e-8373-44cb-b2a1-17ce4b42a68f.png" metadataAssetGuid="e35e614e-8373-44cb-b2a1-17ce4b42a68f">
+        <title>WN_icon_Excel_36x24</title>
+        <altText>Excel</altText>
+      </image>
+    </item>
+    <item id="320284a9-02b8-4d0f-b214-2a1ef64003cf">
+      <image file="Art\320284a9-02b8-4d0f-b214-2a1ef64003cf\320284a9-02b8-4d0f-b214-2a1ef64003cf.png" metadataAssetGuid="320284a9-02b8-4d0f-b214-2a1ef64003cf">
+        <title>WN_Win32_XL_SpeedyLookup_365x195</title>
+        <altText>Monitor showing a worksheet with a speedometer in the lower right corner</altText>
+      </image>
+    </item>
+    <item id="ee3f69bb-81c9-47bc-b46c-325010f54d54">
+      <image file="Art\ee3f69bb-81c9-47bc-b46c-325010f54d54\ee3f69bb-81c9-47bc-b46c-325010f54d54.png" metadataAssetGuid="ee3f69bb-81c9-47bc-b46c-325010f54d54">
+        <title>WN_FPO_270x135</title>
+        <altText>For placeholder only 270x135</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

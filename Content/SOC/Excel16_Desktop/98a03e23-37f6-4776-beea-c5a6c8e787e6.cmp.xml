@@ -1,6 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="98a03e23-37f6-4776-beea-c5a6c8e787e6" assetTypeId="CompanionFile">
-  <topic id="98a03e23-37f6-4776-beea-c5a6c8e787e6">
+  <topic id="98a03e23-37f6-4776-beea-c5a6c8e787e6" revisionNumber="10" createDate="2018-03-15T20:23:00.000">
     <title>About our data sources</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive Help Access">For 96247 - Put MSFT in a cell. Choose Data &gt; Linked Records &gt; Stocks. A gray message bar appears below the ribbon saying "Information is delayed..." Click that link and the help pane opens with this topic about our data sources.</attribute>
+    <attribute name="Context Sensitive Help Access">For XLWAEndUser_DataTypeFinanceSources and DataTypeFinaceSources: Same repro steps as 96247, but in Excel Online</attribute>
+    <attribute name="Context Sensitive ID">96247</attribute>
+    <attribute name="Context Sensitive ID">DataTypeFinanceSources</attribute>
+    <attribute name="Context Sensitive ID">XLWAEndUser_DataTypeFinanceSources</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Reference</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Online</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">ExcelProjectYellow</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">Reference</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">96247</attribute>
+    <attribute name="search.contextid">DataTypeFinanceSources</attribute>
+    <attribute name="search.contextid">XLWAEndUser_DataTypeFinanceSources</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">WAE150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel Online</attribute>
+    <attribute name="search.skuid">WAE150</attribute>
+    <attribute name="search.assetid">98a03e23-37f6-4776-beea-c5a6c8e787e6</attribute>
+  </attributes>
 </metadata>

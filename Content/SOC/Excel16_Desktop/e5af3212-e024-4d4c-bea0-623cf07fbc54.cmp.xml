@@ -1,6 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="e5af3212-e024-4d4c-bea0-623cf07fbc54" assetTypeId="CompanionFile">
-  <topic id="e5af3212-e024-4d4c-bea0-623cf07fbc54">
+  <topic id="e5af3212-e024-4d4c-bea0-623cf07fbc54" revisionNumber="30" createDate="2014-10-27T23:37:00.000">
     <title>Get a stock quote</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">To get a stock quote, you need to add a linked record for a company or fund. Then you can use another column to extract the price. This article explains how.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="OCMS Version">7.0</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">ExcelProjectYellow</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">e5af3212-e024-4d4c-bea0-623cf07fbc54</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="f19a7e7b-9c50-452a-9e24-43b60c3ba800">
+      <image file="Art\f19a7e7b-9c50-452a-9e24-43b60c3ba800\f19a7e7b-9c50-452a-9e24-43b60c3ba800.png" metadataAssetGuid="f19a7e7b-9c50-452a-9e24-43b60c3ba800">
+        <title>Excel Yellow Stock Icon</title>
+        <altText>Linked record icon for Stock</altText>
+      </image>
+    </item>
+    <item id="1ab74b83-6e3b-4432-aa67-5b7562134ed9">
+      <image file="Art\1ab74b83-6e3b-4432-aa67-5b7562134ed9\1ab74b83-6e3b-4432-aa67-5b7562134ed9.png" metadataAssetGuid="1ab74b83-6e3b-4432-aa67-5b7562134ed9">
+        <title>Excel Yellow Add Column Button</title>
+        <altText>Add Column button</altText>
+      </image>
+    </item>
+    <item id="09a25441-4fdc-4399-bf7f-f1a7062beb30">
+      <image file="Art\09a25441-4fdc-4399-bf7f-f1a7062beb30\09a25441-4fdc-4399-bf7f-f1a7062beb30.png" metadataAssetGuid="09a25441-4fdc-4399-bf7f-f1a7062beb30">
+        <title>Excel Yellow Question Mark Icon</title>
+        <altText>Question mark icon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

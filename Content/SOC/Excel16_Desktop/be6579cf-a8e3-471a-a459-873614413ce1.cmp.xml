@@ -1,6 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="be6579cf-a8e3-471a-a459-873614413ce1" assetTypeId="CompanionFile">
-  <topic id="be6579cf-a8e3-471a-a459-873614413ce1">
+  <topic id="be6579cf-a8e3-471a-a459-873614413ce1" revisionNumber="2" createDate="2015-07-15T22:20:00.000">
     <title>Analyze trends in data using sparklines</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Sparklines are tiny charts inside single worksheet cells that 
+can be used to visually represent and show a trend in your 
+data. Sparklines can draw attention to important items such as 
+seasonal changes or economic cycles and highlight the maximum 
+and minimum values in a different color. Showing trends in 
+your worksheet data can be useful, especially when you’re 
+sharing your data with other people. </attribute>
+    <attribute name="Context Sensitive ID">139490</attribute>
+    <attribute name="Context Sensitive ID">182806</attribute>
+    <attribute name="Context Sensitive ID">57630</attribute>
+    <attribute name="Context Sensitive ID">80853</attribute>
+    <attribute name="Context Sensitive ID">89545</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">139490</attribute>
+    <attribute name="search.contextid">182806</attribute>
+    <attribute name="search.contextid">57630</attribute>
+    <attribute name="search.contextid">80853</attribute>
+    <attribute name="search.contextid">89545</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">be6579cf-a8e3-471a-a459-873614413ce1</attribute>
+  </attributes>
+  <art>
+    <item id="09da6ac6-38e0-49fa-bdeb-0fe14e0e25ef">
+      <image file="Art\09da6ac6-38e0-49fa-bdeb-0fe14e0e25ef\09da6ac6-38e0-49fa-bdeb-0fe14e0e25ef.jpg" metadataAssetGuid="09da6ac6-38e0-49fa-bdeb-0fe14e0e25ef">
+        <title>o15_xl_sparklinetools</title>
+        <altText>Sparkline Tools on the ribbon</altText>
+      </image>
+    </item>
+    <item id="558cd95b-356a-4a26-9b9b-11c9352e75b4">
+      <image file="Art\558cd95b-356a-4a26-9b9b-11c9352e75b4\558cd95b-356a-4a26-9b9b-11c9352e75b4.png" metadataAssetGuid="558cd95b-356a-4a26-9b9b-11c9352e75b4">
+        <title>o15_xl_sparklinessample</title>
+        <altText>Worksheet with sparklines</altText>
+      </image>
+    </item>
+    <item id="a9db12a2-620e-4f2f-a250-2ba69672e8be">
+      <image file="Art\a9db12a2-620e-4f2f-a250-2ba69672e8be\a9db12a2-620e-4f2f-a250-2ba69672e8be.gif" metadataAssetGuid="a9db12a2-620e-4f2f-a250-2ba69672e8be">
+        <title>expanddb</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="8ed1df4b-c6b0-40ee-be72-77b8ec3e9784">
+      <image file="Art\8ed1df4b-c6b0-40ee-be72-77b8ec3e9784\8ed1df4b-c6b0-40ee-be72-77b8ec3e9784.png" metadataAssetGuid="8ed1df4b-c6b0-40ee-be72-77b8ec3e9784">
+        <title>o15_xl_sparklinetools_group_axisbtn</title>
+        <altText>Axis button on the Design tab of the Sparkline Tools</altText>
+      </image>
+    </item>
+    <item id="87d1ebd2-7751-4276-ad82-7d299075f5db">
+      <image file="Art\87d1ebd2-7751-4276-ad82-7d299075f5db\87d1ebd2-7751-4276-ad82-7d299075f5db.png" metadataAssetGuid="87d1ebd2-7751-4276-ad82-7d299075f5db">
+        <title>o15_xl_sparklinetools_designshow</title>
+        <altText>Show group on the Design tab of the Sparkline Tools</altText>
+      </image>
+    </item>
+    <item id="329c5ee3-1892-4055-acb7-86a76c0609bb">
+      <image file="Art\329c5ee3-1892-4055-acb7-86a76c0609bb\329c5ee3-1892-4055-acb7-86a76c0609bb.png" metadataAssetGuid="329c5ee3-1892-4055-acb7-86a76c0609bb">
+        <title>o15_xl_sparklinetools_designstyles</title>
+        <altText>Styles on the Design tab of the Sparkline Tools</altText>
+      </image>
+    </item>
+    <item id="cd1cff50-fc90-4268-a264-97f9a4fa882a">
+      <image file="Art\cd1cff50-fc90-4268-a264-97f9a4fa882a\cd1cff50-fc90-4268-a264-97f9a4fa882a.gif" metadataAssetGuid="cd1cff50-fc90-4268-a264-97f9a4fa882a">
+        <title>minmaxdb</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="97911963-9a1f-4ab6-be22-dc68685a3dbf">
+      <image file="Art\97911963-9a1f-4ab6-be22-dc68685a3dbf\97911963-9a1f-4ab6-be22-dc68685a3dbf.jpg" metadataAssetGuid="97911963-9a1f-4ab6-be22-dc68685a3dbf">
+        <title>o15_xl_insertsparklines</title>
+        <altText>Sparkline commands on the Insert tab</altText>
+      </image>
+    </item>
+    <item id="c2ca0da8-50ea-440d-a8d2-dee22369720e">
+      <image file="Art\c2ca0da8-50ea-440d-a8d2-dee22369720e\c2ca0da8-50ea-440d-a8d2-dee22369720e.jpg" metadataAssetGuid="c2ca0da8-50ea-440d-a8d2-dee22369720e">
+        <title>o15_xl_createsparklinesdb</title>
+        <altText>Create Sparklines dialog box</altText>
+      </image>
+    </item>
+    <item id="e5c8d72c-2b42-4ef6-9794-edf4d025668c">
+      <image file="Art\e5c8d72c-2b42-4ef6-9794-edf4d025668c\e5c8d72c-2b42-4ef6-9794-edf4d025668c.png" metadataAssetGuid="e5c8d72c-2b42-4ef6-9794-edf4d025668c">
+        <title>o15_xl_sparklinetools_designsparkline</title>
+        <altText>Edit Data button in the Sparkline group</altText>
+      </image>
+    </item>
+    <item id="201e0b9c-5a86-4945-b8b9-fb6424322417">
+      <image file="Art\201e0b9c-5a86-4945-b8b9-fb6424322417\201e0b9c-5a86-4945-b8b9-fb6424322417.jpg" metadataAssetGuid="201e0b9c-5a86-4945-b8b9-fb6424322417">
+        <title>xl_sparkline_cell_text_new</title>
+        <altText>A cell containing a sparkline and text</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

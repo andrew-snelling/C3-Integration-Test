@@ -1,6 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="ce722bf9-0b4a-49a5-94ba-438fde18fc2b" assetTypeId="CompanionFile">
-  <topic id="ce722bf9-0b4a-49a5-94ba-438fde18fc2b">
+  <topic id="ce722bf9-0b4a-49a5-94ba-438fde18fc2b" revisionNumber="3" createDate="2014-10-27T23:37:00.000">
     <title>Create, apply, or delete a custom view</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-11-06T00:00:00.000</attribute>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_DATA_ENTRY</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_DATA_ENTRY_LAYOUT</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive Help Access">FOR 21269 - Go to the View tab. In Workbook Views section (on the left), click Custom Views. Click the ? mark in the popup box</attribute>
+    <attribute name="Context Sensitive ID">21269</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5199633</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="OCMS Asset ID">HP010342377</attribute>
+    <attribute name="OCMS Version">7.5</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">21269</attribute>
+    <attribute name="search.contextid">xlmain11.chm5199633</attribute>
+    <attribute name="Search.OCMSasset">HP010342377</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">ce722bf9-0b4a-49a5-94ba-438fde18fc2b</attribute>
+  </attributes>
+  <art>
+    <item id="43e20b4e-5bd3-4b48-a791-1b55f5f946aa">
+      <image file="Art\43e20b4e-5bd3-4b48-a791-1b55f5f946aa\43e20b4e-5bd3-4b48-a791-1b55f5f946aa.gif" metadataAssetGuid="43e20b4e-5bd3-4b48-a791-1b55f5f946aa">
+        <title>xl_view_workbook_views</title>
+        <altText>Excel Ribbon Image</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

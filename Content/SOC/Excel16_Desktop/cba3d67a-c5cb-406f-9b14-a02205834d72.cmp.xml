@@ -1,6 +1,95 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="cba3d67a-c5cb-406f-9b14-a02205834d72" assetTypeId="CompanionFile">
-  <topic id="cba3d67a-c5cb-406f-9b14-a02205834d72">
+  <topic id="cba3d67a-c5cb-406f-9b14-a02205834d72" revisionNumber="9" createDate="2015-08-08T01:00:00.000">
     <title>Sort data using a custom list</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Sort a list by days of the week or months of the year or sort by priorities in Excel 2016 for Windows. Or you can create your own custom list for items that don't sort well alphabetically.
+</attribute>
+    <attribute name="Context Sensitive ID">21151</attribute>
+    <attribute name="Context Sensitive ID">59768</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="loc.priority">1-Priority (5-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">KPI_Excel_SortData</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">21151</attribute>
+    <attribute name="search.contextid">59768</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">cba3d67a-c5cb-406f-9b14-a02205834d72</attribute>
+  </attributes>
+  <art>
+    <item id="3fbfc5b3-b45c-4963-9181-19da36129be2">
+      <image file="Art\3fbfc5b3-b45c-4963-9181-19da36129be2\3fbfc5b3-b45c-4963-9181-19da36129be2.jpg" metadataAssetGuid="3fbfc5b3-b45c-4963-9181-19da36129be2">
+        <title>sort</title>
+        <altText>Sort button</altText>
+      </image>
+    </item>
+    <item id="7e30c431-787a-4f9f-9fe2-1a8e1319ec65">
+      <image file="Art\7e30c431-787a-4f9f-9fe2-1a8e1319ec65\7e30c431-787a-4f9f-9fe2-1a8e1319ec65.jpg" metadataAssetGuid="7e30c431-787a-4f9f-9fe2-1a8e1319ec65">
+        <title>sort_by_delivery</title>
+        <altText>Sort by the delivery column</altText>
+      </image>
+    </item>
+    <item id="6b097f9b-8c91-4cc6-8859-98c7ea8b8e92">
+      <image file="Art\6b097f9b-8c91-4cc6-8859-98c7ea8b8e92\6b097f9b-8c91-4cc6-8859-98c7ea8b8e92.png" metadataAssetGuid="6b097f9b-8c91-4cc6-8859-98c7ea8b8e92">
+        <title>Excel2016_Options_EditCustomLists</title>
+        <altText>Edit Custom Lists</altText>
+      </image>
+    </item>
+    <item id="86c4b26d-b861-48f5-ae69-aaf7f11e75f5">
+      <image file="Art\86c4b26d-b861-48f5-ae69-aaf7f11e75f5\86c4b26d-b861-48f5-ae69-aaf7f11e75f5.jpg" metadataAssetGuid="86c4b26d-b861-48f5-ae69-aaf7f11e75f5">
+        <title>custom_lists_box_user_list</title>
+        <altText>Import a custom list</altText>
+      </image>
+    </item>
+    <item id="d13e3d4c-7132-4b4a-8b86-b0dd8a443128">
+      <image file="Art\d13e3d4c-7132-4b4a-8b86-b0dd8a443128\d13e3d4c-7132-4b4a-8b86-b0dd8a443128.jpg" metadataAssetGuid="d13e3d4c-7132-4b4a-8b86-b0dd8a443128">
+        <title>custom_lists_box</title>
+        <altText>Custom lists dialog box</altText>
+      </image>
+    </item>
+    <item id="d36015d4-e10e-4217-a638-cfa16d249cd4">
+      <image file="Art\d36015d4-e10e-4217-a638-cfa16d249cd4\d36015d4-e10e-4217-a638-cfa16d249cd4.jpg" metadataAssetGuid="d36015d4-e10e-4217-a638-cfa16d249cd4">
+        <title>custom_user_list</title>
+        <altText>Custom list example</altText>
+      </image>
+    </item>
+    <item id="81ba7b34-5e12-4294-8b69-ecc182b194a1">
+      <image file="Art\81ba7b34-5e12-4294-8b69-ecc182b194a1\81ba7b34-5e12-4294-8b69-ecc182b194a1.jpg" metadataAssetGuid="81ba7b34-5e12-4294-8b69-ecc182b194a1">
+        <title>sort_by_custom</title>
+        <altText>Sort dialog box</altText>
+      </image>
+    </item>
+    <item id="39a98d17-af54-4167-9c43-f23ae411d881">
+      <image file="Art\39a98d17-af54-4167-9c43-f23ae411d881\39a98d17-af54-4167-9c43-f23ae411d881.jpg" metadataAssetGuid="39a98d17-af54-4167-9c43-f23ae411d881">
+        <title>sample_sort_table</title>
+        <altText>Sample table</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

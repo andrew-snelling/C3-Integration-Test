@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="ed4f7c15-794c-493e-a2e4-22747b9ffcfd" assetTypeId="CompanionFile">
-  <topic id="ed4f7c15-794c-493e-a2e4-22747b9ffcfd">
+  <topic id="ed4f7c15-794c-493e-a2e4-22747b9ffcfd" revisionNumber="-1" createDate="">
     <title>Printing</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">ed4f7c15-794c-493e-a2e4-22747b9ffcfd</attribute>
+  </attributes>
 </metadata>

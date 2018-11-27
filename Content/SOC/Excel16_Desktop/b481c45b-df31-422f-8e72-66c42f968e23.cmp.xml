@@ -1,6 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="b481c45b-df31-422f-8e72-66c42f968e23" assetTypeId="CompanionFile">
-  <topic id="b481c45b-df31-422f-8e72-66c42f968e23">
+  <topic id="b481c45b-df31-422f-8e72-66c42f968e23" revisionNumber="1" createDate="2015-08-27T19:37:00.000">
     <title>Specify 3D Maps scene options</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Add transitions, duration controls, and effects to add movement, such as rotation or zooms to your 3D Maps tour in Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Reference</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511360</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Reference</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">b481c45b-df31-422f-8e72-66c42f968e23</attribute>
+  </attributes>
+  <art>
+    <item id="08fe77bd-43e5-419b-8e6c-40d7723f8a90">
+      <image file="Art\08fe77bd-43e5-419b-8e6c-40d7723f8a90\08fe77bd-43e5-419b-8e6c-40d7723f8a90.png" metadataAssetGuid="08fe77bd-43e5-419b-8e6c-40d7723f8a90">
+        <title>O16_3DMaps_SceneOptions_TransitionDuration</title>
+        <altText>Control for Transition Duration</altText>
+      </image>
+    </item>
+    <item id="f36877a5-610f-4942-a93e-7e7b99a0e703">
+      <image file="Art\f36877a5-610f-4942-a93e-7e7b99a0e703\f36877a5-610f-4942-a93e-7e7b99a0e703.png" metadataAssetGuid="f36877a5-610f-4942-a93e-7e7b99a0e703">
+        <title>O16_3DMaps_SceneOptions_Effect</title>
+        <altText>Selection box for Effects</altText>
+      </image>
+    </item>
+    <item id="22ff4a73-05c5-4a54-9cec-a8b601427e04">
+      <image file="Art\22ff4a73-05c5-4a54-9cec-a8b601427e04\22ff4a73-05c5-4a54-9cec-a8b601427e04.png" metadataAssetGuid="22ff4a73-05c5-4a54-9cec-a8b601427e04">
+        <title>O16_3DMaps_SceneOptions_SceneDuration</title>
+        <altText>Control for Scene Duration</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

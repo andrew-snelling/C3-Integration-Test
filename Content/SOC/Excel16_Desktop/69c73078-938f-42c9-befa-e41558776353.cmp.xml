@@ -1,6 +1,71 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="69c73078-938f-42c9-befa-e41558776353" assetTypeId="CompanionFile">
-  <topic id="69c73078-938f-42c9-befa-e41558776353">
+  <topic id="69c73078-938f-42c9-befa-e41558776353" revisionNumber="7" createDate="2015-09-23T01:08:00.000">
     <title>Show or hide subtotals and totals in a PivotTable in Excel for Windows</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Show or hide subtotals and grand totals in a PivotTable (pivot table) to add or remove them, and calculate them with or without filtered items in Excel 2016 for Windows.
+</attribute>
+    <attribute name="Context Sensitive ID">64075</attribute>
+    <attribute name="Context Sensitive ID">88312</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5203798</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">64075</attribute>
+    <attribute name="search.contextid">88312</attribute>
+    <attribute name="search.contextid">xlmain11.chm5203798</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">69c73078-938f-42c9-befa-e41558776353</attribute>
+  </attributes>
+  <art>
+    <item id="60e79cae-4d51-47af-8b78-6cb01e8f4c56">
+      <image file="Art\60e79cae-4d51-47af-8b78-6cb01e8f4c56\60e79cae-4d51-47af-8b78-6cb01e8f4c56.jpg" metadataAssetGuid="60e79cae-4d51-47af-8b78-6cb01e8f4c56">
+        <title>o15_xl_pivottabletools_designlayout_grandtotalsbtn</title>
+        <altText>Grand Totals button on the Design tab</altText>
+      </image>
+    </item>
+    <item id="4cf4667f-b8b2-491e-82b5-728af8d6ab46">
+      <image file="Art\4cf4667f-b8b2-491e-82b5-728af8d6ab46\4cf4667f-b8b2-491e-82b5-728af8d6ab46.jpg" metadataAssetGuid="4cf4667f-b8b2-491e-82b5-728af8d6ab46">
+        <title>o15_xl_pivottabletools_designlayout_subtotalsbtn</title>
+        <altText>Subtotals button on the Design tab</altText>
+      </image>
+    </item>
+    <item id="3f1e2861-fc79-4012-9ba0-d82a99ccd831">
+      <image file="Art\3f1e2861-fc79-4012-9ba0-d82a99ccd831\3f1e2861-fc79-4012-9ba0-d82a99ccd831.png" metadataAssetGuid="3f1e2861-fc79-4012-9ba0-d82a99ccd831">
+        <title>XL16WinPivotTableTools</title>
+        <altText>PivotTable Tools ribbon with Analyze and Design tabs</altText>
+      </image>
+    </item>
+    <item id="8f77cb5e-5463-4781-94e2-de01cc041f33">
+      <image file="Art\8f77cb5e-5463-4781-94e2-de01cc041f33\8f77cb5e-5463-4781-94e2-de01cc041f33.png" metadataAssetGuid="8f77cb5e-5463-4781-94e2-de01cc041f33">
+        <title>o15_xl_pivottable_grand_subtotals</title>
+        <altText>PivotTable Grand Totals and Subtotals</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

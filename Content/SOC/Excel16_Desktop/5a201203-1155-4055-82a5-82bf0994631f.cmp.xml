@@ -1,6 +1,169 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="5a201203-1155-4055-82a5-82bf0994631f" assetTypeId="CompanionFile">
-  <topic id="5a201203-1155-4055-82a5-82bf0994631f">
+  <topic id="5a201203-1155-4055-82a5-82bf0994631f" revisionNumber="38" createDate="2018-09-13T18:09:00.000">
     <title>What's new in Excel 2019 for Windows</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">CSS_Apps</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.assetid">5a201203-1155-4055-82a5-82bf0994631f</attribute>
+  </attributes>
+  <art>
+    <item id="b57dfdb4-592e-4821-9113-0bdcb24f1259">
+      <image file="Art\b57dfdb4-592e-4821-9113-0bdcb24f1259\b57dfdb4-592e-4821-9113-0bdcb24f1259.png" metadataAssetGuid="b57dfdb4-592e-4821-9113-0bdcb24f1259">
+        <title>PP_03_16_Ex2</title>
+        <altText>Power Pivot - Enhanced Edit Relationship dialog</altText>
+      </image>
+    </item>
+    <item id="972f3492-4573-485e-91df-0c51aa84ed99">
+      <image file="Art\972f3492-4573-485e-91df-0c51aa84ed99\972f3492-4573-485e-91df-0c51aa84ed99.png" metadataAssetGuid="972f3492-4573-485e-91df-0c51aa84ed99">
+        <title>Funnel chart example</title>
+        <altText>Funnel chart showing sales pipeline; stages listed in the first column, values in the second</altText>
+      </image>
+    </item>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="a9077de0-7396-47fa-ad14-1b9024cac562">
+      <image file="Art\a9077de0-7396-47fa-ad14-1b9024cac562\a9077de0-7396-47fa-ad14-1b9024cac562.png" metadataAssetGuid="a9077de0-7396-47fa-ad14-1b9024cac562">
+        <title>WN_Win32_Shared_Translator_365x195</title>
+        <altText>Translator button, and one word in English and its translation in French</altText>
+      </image>
+    </item>
+    <item id="540b1cee-c291-4d6b-80fc-1d7e1450f954">
+      <image file="Art\540b1cee-c291-4d6b-80fc-1d7e1450f954\540b1cee-c291-4d6b-80fc-1d7e1450f954.png" metadataAssetGuid="540b1cee-c291-4d6b-80fc-1d7e1450f954">
+        <title>WN_Win32_Shared_EnableSVGFilters_365x195</title>
+        <altText>Slide with examples of SVG filters</altText>
+      </image>
+    </item>
+    <item id="b2eeff9b-a0e4-4113-96b9-2804ceae3c50">
+      <image file="Art\b2eeff9b-a0e4-4113-96b9-2804ceae3c50\b2eeff9b-a0e4-4113-96b9-2804ceae3c50.png" metadataAssetGuid="b2eeff9b-a0e4-4113-96b9-2804ceae3c50">
+        <title>Excel_PQ_Import_GetData</title>
+        <altText>Data &gt; Get &amp; Transform &gt; Get Data options</altText>
+      </image>
+    </item>
+    <item id="4c83671d-995d-40ce-8aec-2cb11fb4b0fc">
+      <image file="Art\4c83671d-995d-40ce-8aec-2cb11fb4b0fc\4c83671d-995d-40ce-8aec-2cb11fb4b0fc.png" metadataAssetGuid="4c83671d-995d-40ce-8aec-2cb11fb4b0fc">
+        <title>WN_O365_ExcelTraining</title>
+        <altText>Excel 2016 Training</altText>
+      </image>
+    </item>
+    <item id="3c61fedf-3380-4871-8c33-2f916423fcb5">
+      <image file="Art\3c61fedf-3380-4871-8c33-2f916423fcb5\3c61fedf-3380-4871-8c33-2f916423fcb5.png" metadataAssetGuid="3c61fedf-3380-4871-8c33-2f916423fcb5">
+        <title>XL16WinPivotTableImprovements</title>
+        <altText>PivotTable with callouts showing the new features in Excel 2016</altText>
+      </image>
+    </item>
+    <item id="4a15d835-fbc0-42c1-a006-3cb7bb78f09c">
+      <image file="Art\4a15d835-fbc0-42c1-a006-3cb7bb78f09c\4a15d835-fbc0-42c1-a006-3cb7bb78f09c.png" metadataAssetGuid="4a15d835-fbc0-42c1-a006-3cb7bb78f09c">
+        <title>WN_Win32_InsertRecentLinks</title>
+        <altText>Insert recent links</altText>
+      </image>
+    </item>
+    <item id="37620d3c-641e-4f45-a492-45955752aeaa">
+      <image file="Art\37620d3c-641e-4f45-a492-45955752aeaa\37620d3c-641e-4f45-a492-45955752aeaa.png" metadataAssetGuid="37620d3c-641e-4f45-a492-45955752aeaa">
+        <title>WN_Excel_InkEffects</title>
+        <altText>Pen dropdown showing Ink Effects</altText>
+      </image>
+    </item>
+    <item id="55f99e64-f3dd-48ec-be06-5c783a75fb1f">
+      <image file="Art\55f99e64-f3dd-48ec-be06-5c783a75fb1f\55f99e64-f3dd-48ec-be06-5c783a75fb1f.png" metadataAssetGuid="55f99e64-f3dd-48ec-be06-5c783a75fb1f">
+        <title>WN_Win32_Shared_AccessibilityChecker_365x195</title>
+        <altText>Computer screen with document on the left and Accessibility visual with a check mark on the right</altText>
+      </image>
+    </item>
+    <item id="7b69b6e4-5bbf-4656-94e8-810e8f6ecd43">
+      <image file="Art\7b69b6e4-5bbf-4656-94e8-810e8f6ecd43\7b69b6e4-5bbf-4656-94e8-810e8f6ecd43.png" metadataAssetGuid="7b69b6e4-5bbf-4656-94e8-810e8f6ecd43">
+        <title>PQ_ColumnExample_01</title>
+        <altText>Power Query combine columns with example option on teh Add Column tab</altText>
+      </image>
+    </item>
+    <item id="7fb15e22-cca7-43e1-b813-8d82282a1ca5">
+      <image file="Art\7fb15e22-cca7-43e1-b813-8d82282a1ca5\7fb15e22-cca7-43e1-b813-8d82282a1ca5.png" metadataAssetGuid="7fb15e22-cca7-43e1-b813-8d82282a1ca5">
+        <title>XL16WinEquation</title>
+        <altText>Equation button on the Excel 2016 ribbon</altText>
+      </image>
+    </item>
+    <item id="e954d263-c5ff-4eb3-937b-9e1782abf16f">
+      <image file="Art\e954d263-c5ff-4eb3-937b-9e1782abf16f\e954d263-c5ff-4eb3-937b-9e1782abf16f.png" metadataAssetGuid="e954d263-c5ff-4eb3-937b-9e1782abf16f">
+        <title>WN_Excel_3D_Rotate</title>
+        <altText>3D model showing rotation handles</altText>
+      </image>
+    </item>
+    <item id="de2e3f0c-fbae-4a92-8e8a-a641b4db8d60">
+      <image file="Art\de2e3f0c-fbae-4a92-8e8a-a641b4db8d60\de2e3f0c-fbae-4a92-8e8a-a641b4db8d60.png" metadataAssetGuid="de2e3f0c-fbae-4a92-8e8a-a641b4db8d60">
+        <title>Excel_MapChart_Value</title>
+        <altText>Excel MapChart with Value data</altText>
+      </image>
+    </item>
+    <item id="f592b03f-8c28-4f48-b1be-a9d47a21bafd">
+      <image file="Art\f592b03f-8c28-4f48-b1be-a9d47a21bafd\f592b03f-8c28-4f48-b1be-a9d47a21bafd.png" metadataAssetGuid="f592b03f-8c28-4f48-b1be-a9d47a21bafd">
+        <title>XL16WinMultiSelectSlicer</title>
+        <altText>Slicer choices with the multi-select button highlighted</altText>
+      </image>
+    </item>
+    <item id="432ed621-7b8c-4495-a8df-c14db8ff3055">
+      <image file="Art\432ed621-7b8c-4495-a8df-c14db8ff3055\432ed621-7b8c-4495-a8df-c14db8ff3055.png" metadataAssetGuid="432ed621-7b8c-4495-a8df-c14db8ff3055">
+        <title>Ink-LassoSelect</title>
+        <altText>The Lasso Select button on the Draw tab in PowerPoint</altText>
+      </image>
+    </item>
+    <item id="825fc0cc-0ad7-4657-ac96-cb0ca208e303">
+      <image file="Art\825fc0cc-0ad7-4657-ac96-cb0ca208e303\825fc0cc-0ad7-4657-ac96-cb0ca208e303.png" metadataAssetGuid="825fc0cc-0ad7-4657-ac96-cb0ca208e303">
+        <title>WN_Excel_SuperSubScript</title>
+        <altText>Quick Access Toolbar showing superscript and subscript commands</altText>
+      </image>
+    </item>
+    <item id="f3bd02f5-463c-4449-aaf1-d2c5aa382f65">
+      <image file="Art\f3bd02f5-463c-4449-aaf1-d2c5aa382f65\f3bd02f5-463c-4449-aaf1-d2c5aa382f65.png" metadataAssetGuid="f3bd02f5-463c-4449-aaf1-d2c5aa382f65">
+        <title>PowerPoint16_inkmath</title>
+        <altText>Show ink equation pane in PowerPoint</altText>
+      </image>
+    </item>
+    <item id="cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8">
+      <image file="Art\cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8\cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8.jpg" metadataAssetGuid="cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8">
+        <title>XLHOME_Learning_Tips</title>
+        <altText>A laptop showing Excel</altText>
+      </image>
+    </item>
+    <item id="8194b5ac-f87d-43c2-8a39-ead50dfb0030">
+      <image file="Art\8194b5ac-f87d-43c2-8a39-ead50dfb0030\8194b5ac-f87d-43c2-8a39-ead50dfb0030.png" metadataAssetGuid="8194b5ac-f87d-43c2-8a39-ead50dfb0030">
+        <title>WN_Win32_PenGallery</title>
+        <altText>Pen gallery</altText>
+      </image>
+    </item>
+    <item id="66e4d070-2180-4afe-a37f-f133b660d1ab">
+      <image file="Art\66e4d070-2180-4afe-a37f-f133b660d1ab\66e4d070-2180-4afe-a37f-f133b660d1ab.png" metadataAssetGuid="66e4d070-2180-4afe-a37f-f133b660d1ab">
+        <title>WN_iOS_Shared_DigitalPencil_32x32</title>
+        <altText>Blue pencil</altText>
+      </image>
+    </item>
+    <item id="9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3">
+      <image file="Art\9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3\9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3.png" metadataAssetGuid="9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3">
+        <title>OfficeTraining_Excel_QuickStart</title>
+        <altText>Excel 2016 Quick Start</altText>
+      </image>
+    </item>
+    <item id="defa0b60-939a-4e63-8cc5-ff64ef2983b2">
+      <image file="Art\defa0b60-939a-4e63-8cc5-ff64ef2983b2\defa0b60-939a-4e63-8cc5-ff64ef2983b2.png" metadataAssetGuid="defa0b60-939a-4e63-8cc5-ff64ef2983b2">
+        <title>WN_Excel_EaseOfAccess</title>
+        <altText>Partial view of Excel's Ease of Access Settings</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

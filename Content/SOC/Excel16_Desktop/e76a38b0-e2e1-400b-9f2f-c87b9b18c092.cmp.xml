@@ -1,6 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="e76a38b0-e2e1-400b-9f2f-c87b9b18c092" assetTypeId="CompanionFile">
-  <topic id="e76a38b0-e2e1-400b-9f2f-c87b9b18c092">
+  <topic id="e76a38b0-e2e1-400b-9f2f-c87b9b18c092" revisionNumber="9" createDate="2014-10-27T23:37:00.000">
     <title>Refresh connected (imported) data</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">A cell range, Excel table, PivotTable report, PivotChart report, text file, and Web query can all be connected to an external data source. You can refresh the data in order to update data from this external data source.</attribute>
+    <attribute name="Context Sensitive ID">199707</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5030483</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5070014</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5201974</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5201977</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5247912</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="OCMS Asset ID">HP010087045</attribute>
+    <attribute name="OCMS Version">9.1</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">199707</attribute>
+    <attribute name="search.contextid">xlmain11.chm5030483</attribute>
+    <attribute name="search.contextid">xlmain11.chm5070014</attribute>
+    <attribute name="search.contextid">xlmain11.chm5201974</attribute>
+    <attribute name="search.contextid">xlmain11.chm5201977</attribute>
+    <attribute name="search.contextid">xlmain11.chm5247912</attribute>
+    <attribute name="Search.OCMSasset">HP010087045</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">e76a38b0-e2e1-400b-9f2f-c87b9b18c092</attribute>
+  </attributes>
+  <art>
+    <item id="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+      <image file="Art\fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a\fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a.gif" metadataAssetGuid="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+        <title>xl_data_manage_connections</title>
+        <altText>Excel Ribbon Image</altText>
+      </image>
+    </item>
+    <item id="b0126db2-1762-47d2-b28d-d0b5a4704f2b">
+      <image file="Art\b0126db2-1762-47d2-b28d-d0b5a4704f2b\b0126db2-1762-47d2-b28d-d0b5a4704f2b.gif" metadataAssetGuid="b0126db2-1762-47d2-b28d-d0b5a4704f2b">
+        <title>xl_dev_xml</title>
+        <altText>XML group in Ribbon</altText>
+      </image>
+    </item>
+    <item id="5a06f875-ef3e-4368-a3de-dfbb612c25b5">
+      <image file="Art\5a06f875-ef3e-4368-a3de-dfbb612c25b5\5a06f875-ef3e-4368-a3de-dfbb612c25b5.gif" metadataAssetGuid="5a06f875-ef3e-4368-a3de-dfbb612c25b5">
+        <title>world</title>
+        <altText>Refresh indicator</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

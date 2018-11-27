@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="0f16e4f9-ef4e-4e60-a0fb-fa8fa9b94897" assetTypeId="CompanionFile">
-  <topic id="0f16e4f9-ef4e-4e60-a0fb-fa8fa9b94897">
+  <topic id="0f16e4f9-ef4e-4e60-a0fb-fa8fa9b94897" revisionNumber="4" createDate="2018-09-17T19:40:00.000">
     <title>Test assets hidden from search</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">0f16e4f9-ef4e-4e60-a0fb-fa8fa9b94897</attribute>
+  </attributes>
 </metadata>

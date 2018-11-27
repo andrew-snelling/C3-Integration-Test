@@ -1,6 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="0a5b2924-81bc-46ed-85a9-5a2109d2d69c" assetTypeId="CompanionFile">
-  <topic id="0a5b2924-81bc-46ed-85a9-5a2109d2d69c">
+  <topic id="0a5b2924-81bc-46ed-85a9-5a2109d2d69c" revisionNumber="4" createDate="2017-03-28T21:03:00.000">
     <title>Manage your email account with the Email Insights template for Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="loc.priority">4-No Localization</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">0a5b2924-81bc-46ed-85a9-5a2109d2d69c</attribute>
+  </attributes>
+  <art>
+    <item id="a1d362aa-e814-4dcf-942f-0671a9e9d527">
+      <image file="Art\a1d362aa-e814-4dcf-942f-0671a9e9d527\a1d362aa-e814-4dcf-942f-0671a9e9d527.png" metadataAssetGuid="a1d362aa-e814-4dcf-942f-0671a9e9d527">
+        <title>Excel2016_EmailInsights_FirstThingsFirst</title>
+        <altText>First Things First</altText>
+      </image>
+    </item>
+    <item id="03c85a77-4310-413e-8091-0a8d8df5423d">
+      <image file="Art\03c85a77-4310-413e-8091-0a8d8df5423d\03c85a77-4310-413e-8091-0a8d8df5423d.png" metadataAssetGuid="03c85a77-4310-413e-8091-0a8d8df5423d">
+        <title>Excel2016_EmailInsights_Dashboard_WithCallouts</title>
+        <altText>Dashboard with callouts</altText>
+      </image>
+    </item>
+    <item id="c5939b49-755f-42da-9cce-5e49f2c72beb">
+      <image file="Art\c5939b49-755f-42da-9cce-5e49f2c72beb\c5939b49-755f-42da-9cce-5e49f2c72beb.png" metadataAssetGuid="c5939b49-755f-42da-9cce-5e49f2c72beb">
+        <title>Excel2016_EmailInsights_ConnectToExchange</title>
+        <altText>Connect to Exchange</altText>
+      </image>
+    </item>
+    <item id="38cf4d71-9b82-4445-9d01-7316e82bcdeb">
+      <image file="Art\38cf4d71-9b82-4445-9d01-7316e82bcdeb\38cf4d71-9b82-4445-9d01-7316e82bcdeb.png" metadataAssetGuid="38cf4d71-9b82-4445-9d01-7316e82bcdeb">
+        <title>Excel2016_EmailInsights_PrivacyLevels</title>
+        <altText>Privacy levels dialog box</altText>
+      </image>
+    </item>
+    <item id="b44164af-ecc2-45eb-9b5d-85a52eb62b59">
+      <image file="Art\b44164af-ecc2-45eb-9b5d-85a52eb62b59\b44164af-ecc2-45eb-9b5d-85a52eb62b59.png" metadataAssetGuid="b44164af-ecc2-45eb-9b5d-85a52eb62b59">
+        <title>Excel2016_EmailInsights_Dashboard</title>
+        <altText>Dashboard</altText>
+      </image>
+    </item>
+    <item id="10d36c49-ce47-4871-8923-907840669c08">
+      <image file="Art\10d36c49-ce47-4871-8923-907840669c08\10d36c49-ce47-4871-8923-907840669c08.png" metadataAssetGuid="10d36c49-ce47-4871-8923-907840669c08">
+        <title>Excel2016_EmailInsights</title>
+        <altText>Email Insights</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

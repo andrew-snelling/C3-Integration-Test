@@ -1,6 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="3a9aec95-1042-45dc-ae4e-a6fa494db2f9" assetTypeId="CompanionFile">
-  <topic id="3a9aec95-1042-45dc-ae4e-a6fa494db2f9">
+  <topic id="3a9aec95-1042-45dc-ae4e-a6fa494db2f9" revisionNumber="8" createDate="2015-09-03T22:16:00.000">
     <title>Search in a PivotTable field list in Excel for Windows</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use the new built-in search functionlity in Excel 2016 for Windows to quickly search for a field in the PivotTable Fields pane. This is very handy if you have a long list of fields that you have to scroll to see.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">3a9aec95-1042-45dc-ae4e-a6fa494db2f9</attribute>
+  </attributes>
+  <art>
+    <item id="c6114f44-ffd2-482b-adeb-a6f261e0179f">
+      <image file="Art\c6114f44-ffd2-482b-adeb-a6f261e0179f\c6114f44-ffd2-482b-adeb-a6f261e0179f.png" metadataAssetGuid="c6114f44-ffd2-482b-adeb-a6f261e0179f">
+        <title>XL16WinPivotTableSearch</title>
+        <altText>Search box in the PivotTable field box</altText>
+      </image>
+    </item>
+    <item id="dc36699b-dc82-44ce-a608-efed92de000d">
+      <image file="Art\dc36699b-dc82-44ce-a608-efed92de000d\dc36699b-dc82-44ce-a608-efed92de000d.png" metadataAssetGuid="dc36699b-dc82-44ce-a608-efed92de000d">
+        <title>XL16WinPivotTableSearch2</title>
+        <altText>PivotTable Field pane showing the results of a search</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

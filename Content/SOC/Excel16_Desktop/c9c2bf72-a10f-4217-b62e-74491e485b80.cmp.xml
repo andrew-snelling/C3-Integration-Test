@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="c9c2bf72-a10f-4217-b62e-74491e485b80" assetTypeId="CompanionFile">
-  <topic id="c9c2bf72-a10f-4217-b62e-74491e485b80">
+  <topic id="c9c2bf72-a10f-4217-b62e-74491e485b80" revisionNumber="-1" createDate="">
     <title>Excel Options</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">c9c2bf72-a10f-4217-b62e-74491e485b80</attribute>
+  </attributes>
 </metadata>

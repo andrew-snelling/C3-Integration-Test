@@ -1,6 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="c3cd6ade-7845-4b75-ba2e-fb9daad0567d" assetTypeId="CompanionFile">
-  <topic id="c3cd6ade-7845-4b75-ba2e-fb9daad0567d">
+  <topic id="c3cd6ade-7845-4b75-ba2e-fb9daad0567d" revisionNumber="5" createDate="2015-07-15T21:42:00.000">
     <title>Export XML data from Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.assetid">c3cd6ade-7845-4b75-ba2e-fb9daad0567d</attribute>
+  </attributes>
+  <art>
+    <item id="7f5a7f7e-1706-49e5-85ab-108fe74a96e2">
+      <image file="Art\7f5a7f7e-1706-49e5-85ab-108fe74a96e2\7f5a7f7e-1706-49e5-85ab-108fe74a96e2.png" metadataAssetGuid="7f5a7f7e-1706-49e5-85ab-108fe74a96e2">
+        <title>xl_Developer_XML_ribbon</title>
+        <altText>XML commands on the Developer tab</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

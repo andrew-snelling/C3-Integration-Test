@@ -1,6 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="a732ef13-4f84-414d-9ed2-e97911115a44" assetTypeId="CompanionFile">
-  <topic id="a732ef13-4f84-414d-9ed2-e97911115a44">
+  <topic id="a732ef13-4f84-414d-9ed2-e97911115a44" revisionNumber="4" createDate="2015-08-26T19:58:00.000">
     <title>Get and prep your data for 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Connect to data to pull it into Excel 2016 for Windows and prepare it for use in 3D Maps tour.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511352</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">a732ef13-4f84-414d-9ed2-e97911115a44</attribute>
+  </attributes>
+  <art>
+    <item id="3272d5a1-797c-4064-99e6-0a0ae7906524">
+      <image file="Art\3272d5a1-797c-4064-99e6-0a0ae7906524\3272d5a1-797c-4064-99e6-0a0ae7906524.png" metadataAssetGuid="3272d5a1-797c-4064-99e6-0a0ae7906524">
+        <title>pm_ufosightings_correcttableformat</title>
+        <altText>Example of correct table format</altText>
+      </image>
+    </item>
+    <item id="73c8ea10-55a8-45bf-ae6c-13b21214db01">
+      <image file="Art\73c8ea10-55a8-45bf-ae6c-13b21214db01\73c8ea10-55a8-45bf-ae6c-13b21214db01.png" metadataAssetGuid="73c8ea10-55a8-45bf-ae6c-13b21214db01">
+        <title>o15_xl_r_data</title>
+        <altText>Get External Data group on Data tab</altText>
+      </image>
+    </item>
+    <item id="6e983036-c608-4f8e-86a8-1a1fedeaa408">
+      <image file="Art\6e983036-c608-4f8e-86a8-1a1fedeaa408\6e983036-c608-4f8e-86a8-1a1fedeaa408.png" metadataAssetGuid="6e983036-c608-4f8e-86a8-1a1fedeaa408">
+        <title>pm_homerefreshdata_ribbon</title>
+        <altText>Refresh Data on the Home tab</altText>
+      </image>
+    </item>
+    <item id="fc549b9d-eaae-4c6a-8f3e-200e2381d2d1">
+      <image file="Art\fc549b9d-eaae-4c6a-8f3e-200e2381d2d1\fc549b9d-eaae-4c6a-8f3e-200e2381d2d1.png" metadataAssetGuid="fc549b9d-eaae-4c6a-8f3e-200e2381d2d1">
+        <title>o15_xl_pm_powerpivot_tab_manage_btn</title>
+        <altText>PowerPivot tab and Manage button</altText>
+      </image>
+    </item>
+    <item id="ea60953c-07a1-4023-9641-2a14fec41fc2">
+      <image file="Art\ea60953c-07a1-4023-9641-2a14fec41fc2\ea60953c-07a1-4023-9641-2a14fec41fc2.png" metadataAssetGuid="ea60953c-07a1-4023-9641-2a14fec41fc2">
+        <title>pm_ufosightings</title>
+        <altText>Example of incorrect table format</altText>
+      </image>
+    </item>
+    <item id="0a5b0527-6beb-4720-b534-788403644c8a">
+      <image file="Art\0a5b0527-6beb-4720-b534-788403644c8a\0a5b0527-6beb-4720-b534-788403644c8a.png" metadataAssetGuid="0a5b0527-6beb-4720-b534-788403644c8a">
+        <title>o15_xl_powermap_out_of_proportion</title>
+        <altText>A population bar out of proportion to other bars</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata fileAssetGuid="486cd65a-cb26-478a-a937-20e12003e8ec" assetTypeId="CompanionFile">
+  <topic id="486cd65a-cb26-478a-a937-20e12003e8ec" revisionNumber="2" createDate="2015-07-06T21:06:00.000">
+    <title>Change the column width and row height</title>
+  </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can set a column to a specific width, change a column's width to automatically fit the content, match the width of another column, and change the default width for all columns in a worksheet. You can adjust rows in the same manner.</attribute>
+    <attribute name="Context Sensitive ID">20926</attribute>
+    <attribute name="Context Sensitive ID">20958</attribute>
+    <attribute name="Context Sensitive ID">21173</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5198813</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">20926</attribute>
+    <attribute name="search.contextid">20958</attribute>
+    <attribute name="search.contextid">21173</attribute>
+    <attribute name="search.contextid">xlmain11.chm5198813</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.assetid">486cd65a-cb26-478a-a937-20e12003e8ec</attribute>
+  </attributes>
+  <art>
+    <item id="54fb03a4-7c7c-4a49-b61c-1476d248efce">
+      <image file="Art\54fb03a4-7c7c-4a49-b61c-1476d248efce\54fb03a4-7c7c-4a49-b61c-1476d248efce.png" metadataAssetGuid="54fb03a4-7c7c-4a49-b61c-1476d248efce">
+        <title>o15_excel_hometab_cellsgroup_format</title>
+        <altText>On the Home tab, click Format</altText>
+      </image>
+    </item>
+    <item id="ad4280a0-96b3-43d3-831e-454e8adbcf0c">
+      <image file="Art\ad4280a0-96b3-43d3-831e-454e8adbcf0c\ad4280a0-96b3-43d3-831e-454e8adbcf0c.gif" metadataAssetGuid="ad4280a0-96b3-43d3-831e-454e8adbcf0c">
+        <title>adjrowht</title>
+        <altText>Row boundary being dragged</altText>
+      </image>
+    </item>
+    <item id="5d7e99ac-074d-4163-b5fe-8812c35f8fd4">
+      <image file="Art\5d7e99ac-074d-4163-b5fe-8812c35f8fd4\5d7e99ac-074d-4163-b5fe-8812c35f8fd4.jpg" metadataAssetGuid="5d7e99ac-074d-4163-b5fe-8812c35f8fd4">
+        <title>xl_14_pastespecial_keepsourcecolumnwidths</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="e1923c8a-5049-4350-8869-9fe67160a919">
+      <image file="Art\e1923c8a-5049-4350-8869-9fe67160a919\e1923c8a-5049-4350-8869-9fe67160a919.png" metadataAssetGuid="e1923c8a-5049-4350-8869-9fe67160a919">
+        <title>o15_excel_hometab_clipboardgroup_copy</title>
+        <altText>On the Home tab, click Copy</altText>
+      </image>
+    </item>
+    <item id="724445f1-71c1-49d0-b314-afbfe3a25eb3">
+      <image file="Art\724445f1-71c1-49d0-b314-afbfe3a25eb3\724445f1-71c1-49d0-b314-afbfe3a25eb3.png" metadataAssetGuid="724445f1-71c1-49d0-b314-afbfe3a25eb3">
+        <title>o15_excel_clicksheettab</title>
+        <altText>Click the Sheet tab</altText>
+      </image>
+    </item>
+    <item id="ea56304c-89ba-4f55-934b-c529351268fa">
+      <image file="Art\ea56304c-89ba-4f55-934b-c529351268fa\ea56304c-89ba-4f55-934b-c529351268fa.gif" metadataAssetGuid="ea56304c-89ba-4f55-934b-c529351268fa">
+        <title>adjcolwt</title>
+        <altText>Column boundary being dragged</altText>
+      </image>
+    </item>
+    <item id="dd0a5905-2332-42ce-a761-e4dcd5c24b23">
+      <image file="Art\dd0a5905-2332-42ce-a761-e4dcd5c24b23\dd0a5905-2332-42ce-a761-e4dcd5c24b23.png" metadataAssetGuid="dd0a5905-2332-42ce-a761-e4dcd5c24b23">
+        <title>o15_excel_selectallbutton</title>
+        <altText>Select All button</altText>
+      </image>
+    </item>
+  </art>
+</metadata>

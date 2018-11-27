@@ -1,6 +1,119 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="62f4219f-db4b-4754-aca8-4743f6190f0d" assetTypeId="CompanionFile">
-  <topic id="62f4219f-db4b-4754-aca8-4743f6190f0d">
+  <topic id="62f4219f-db4b-4754-aca8-4743f6190f0d" revisionNumber="15" createDate="2015-06-17T17:55:00.000">
     <title>Create a box and whisker chart</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use the new box and whisker chart in Office 2016 to quickly see a graphical representation of the distribution of numerical data through their quartiles. Box and whisker charts are often used in statistical analysis.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">62f4219f-db4b-4754-aca8-4743f6190f0d</attribute>
+  </attributes>
+  <art>
+    <item id="ee0b1589-88b2-4619-91a1-0a35d20a091a">
+      <image file="Art\ee0b1589-88b2-4619-91a1-0a35d20a091a\ee0b1589-88b2-4619-91a1-0a35d20a091a.png" metadataAssetGuid="ee0b1589-88b2-4619-91a1-0a35d20a091a">
+        <title>XL16WinBoxWhiskerChart</title>
+        <altText>Box and Whisker Chart type on the Insert tab in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="96be2fcc-a80d-486c-8575-0ccad1fe0ca8">
+      <image file="Art\96be2fcc-a80d-486c-8575-0ccad1fe0ca8\96be2fcc-a80d-486c-8575-0ccad1fe0ca8.png" metadataAssetGuid="96be2fcc-a80d-486c-8575-0ccad1fe0ca8">
+        <title>XL16WinBoxWhiskerChartExample</title>
+        <altText>Sample box and whisker chart</altText>
+      </image>
+    </item>
+    <item id="9c3ce7ea-8042-4d8d-b808-72d8df22286e">
+      <image file="Art\9c3ce7ea-8042-4d8d-b808-72d8df22286e\9c3ce7ea-8042-4d8d-b808-72d8df22286e.png" metadataAssetGuid="9c3ce7ea-8042-4d8d-b808-72d8df22286e">
+        <title>XlWiinBoxWhisker</title>
+        <altText>Picture of data snipped used to create the example box and whisker chart</altText>
+      </image>
+    </item>
+    <item id="2c8828a3-fb5f-4bbd-bdc1-9972fbc2b09d">
+      <image file="Art\2c8828a3-fb5f-4bbd-bdc1-9972fbc2b09d\2c8828a3-fb5f-4bbd-bdc1-9972fbc2b09d.png" metadataAssetGuid="2c8828a3-fb5f-4bbd-bdc1-9972fbc2b09d">
+        <title>XL16WinBoxWhiskerFormatDataSeries</title>
+        <altText>Format Data Series task pane showing Box and Whisker chart options in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+      <image file="Art\fd7db992-63b2-4e28-a877-a2ae13d6b7ef\fd7db992-63b2-4e28-a877-a2ae13d6b7ef.jpg" metadataAssetGuid="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+        <title>o15_xl_charttools_design_format</title>
+        <altText>Design and Format tabs for the Chart Tools</altText>
+      </image>
+    </item>
+    <item id="d534ad0a-9643-474b-8795-bfbee600db94">
+      <image file="Art\d534ad0a-9643-474b-8795-bfbee600db94\d534ad0a-9643-474b-8795-bfbee600db94.png" metadataAssetGuid="d534ad0a-9643-474b-8795-bfbee600db94">
+        <title>Excel2016Mac_Icn_StatisticalChart</title>
+        <altText>Statistical chart icon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

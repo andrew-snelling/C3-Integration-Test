@@ -1,6 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="0091ae04-dfcb-44fc-ad47-3b16844e8173" assetTypeId="CompanionFile">
-  <topic id="0091ae04-dfcb-44fc-ad47-3b16844e8173">
+  <topic id="0091ae04-dfcb-44fc-ad47-3b16844e8173" revisionNumber="7" createDate="2014-05-16T20:25:00.000">
     <title>Manage external data ranges and their properties</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-11-06T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010217959</attribute>
+    <attribute name="OCMS Asset ID">HA010342675</attribute>
+    <attribute name="OCMS Version">9.1</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA010217959</attribute>
+    <attribute name="Search.OCMSasset">HA010342675</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">0091ae04-dfcb-44fc-ad47-3b16844e8173</attribute>
+  </attributes>
+  <art>
+    <item id="b8081bbe-8a31-46f3-ad1f-066843493573">
+      <image file="Art\b8081bbe-8a31-46f3-ad1f-066843493573\b8081bbe-8a31-46f3-ad1f-066843493573.gif" metadataAssetGuid="b8081bbe-8a31-46f3-ad1f-066843493573">
+        <title>0459</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="5ac565cd-c570-4d54-adc6-27ec062e1c13">
+      <image file="Art\5ac565cd-c570-4d54-adc6-27ec062e1c13\5ac565cd-c570-4d54-adc6-27ec062e1c13.gif" metadataAssetGuid="5ac565cd-c570-4d54-adc6-27ec062e1c13">
+        <title>properties</title>
+        <altText>properties</altText>
+      </image>
+    </item>
+    <item id="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+      <image file="Art\fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a\fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a.gif" metadataAssetGuid="fc2a37fd-4b5d-49e3-9a05-60ca9ef8158a">
+        <title>xl_data_manage_connections</title>
+        <altText>Excel Ribbon Image</altText>
+      </image>
+    </item>
+    <item id="0d0e40b2-a3d5-470a-94f6-9fdecdb81d37">
+      <image file="Art\0d0e40b2-a3d5-470a-94f6-9fdecdb81d37\0d0e40b2-a3d5-470a-94f6-9fdecdb81d37.gif" metadataAssetGuid="0d0e40b2-a3d5-470a-94f6-9fdecdb81d37">
+        <title>xl_home_clipboard</title>
+        <altText>The Clipboard group on the Home tab</altText>
+      </image>
+    </item>
+    <item id="bf61fe96-288e-45cb-af8b-a9cb90bec782">
+      <image file="Art\bf61fe96-288e-45cb-af8b-a9cb90bec782\bf61fe96-288e-45cb-af8b-a9cb90bec782.gif" metadataAssetGuid="bf61fe96-288e-45cb-af8b-a9cb90bec782">
+        <title>xl_formulas_named_cells</title>
+        <altText>The Defined Names group on the Formulas tab</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

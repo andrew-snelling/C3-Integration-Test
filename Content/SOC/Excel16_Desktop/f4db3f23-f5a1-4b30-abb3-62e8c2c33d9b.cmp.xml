@@ -1,6 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="f4db3f23-f5a1-4b30-abb3-62e8c2c33d9b" assetTypeId="CompanionFile">
-  <topic id="f4db3f23-f5a1-4b30-abb3-62e8c2c33d9b">
+  <topic id="f4db3f23-f5a1-4b30-abb3-62e8c2c33d9b" revisionNumber="8" createDate="2015-07-13T20:31:00.000">
     <title>Change the color or style of a chart in Office</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Change the look of a chart, using color or Chart Styles, on in Office 2016 for Windows. Use Live Preview to see what the changes look like before accepting them.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">f4db3f23-f5a1-4b30-abb3-62e8c2c33d9b</attribute>
+  </attributes>
+  <art>
+    <item id="92d1a689-26f4-4d47-b2af-452bec230c52">
+      <image file="Art\92d1a689-26f4-4d47-b2af-452bec230c52\92d1a689-26f4-4d47-b2af-452bec230c52.gif" metadataAssetGuid="92d1a689-26f4-4d47-b2af-452bec230c52">
+        <title>OGV15ChartStyle</title>
+        <altText>Customize the Look of Your Chart Style pane</altText>
+      </image>
+    </item>
+    <item id="e7e3d8e9-2be2-4478-9d98-8655f3d4afe8">
+      <image file="Art\e7e3d8e9-2be2-4478-9d98-8655f3d4afe8\e7e3d8e9-2be2-4478-9d98-8655f3d4afe8.gif" metadataAssetGuid="e7e3d8e9-2be2-4478-9d98-8655f3d4afe8">
+        <title>OGV15ColorsButtonPageLayoutTab</title>
+        <altText>Color button in Theme group on Page Layout tab</altText>
+      </image>
+    </item>
+    <item id="87d7f9ff-e94f-4732-b198-8b2907946d79">
+      <image file="Art\87d7f9ff-e94f-4732-b198-8b2907946d79\87d7f9ff-e94f-4732-b198-8b2907946d79.gif" metadataAssetGuid="87d7f9ff-e94f-4732-b198-8b2907946d79">
+        <title>ogv15chatrstylebutton</title>
+        <altText>Customize the Look of Your Chart button</altText>
+      </image>
+    </item>
+    <item id="27349917-8884-44a1-9c5c-921481956496">
+      <image file="Art\27349917-8884-44a1-9c5c-921481956496\27349917-8884-44a1-9c5c-921481956496.gif" metadataAssetGuid="27349917-8884-44a1-9c5c-921481956496">
+        <title>OGV15ChartStyleColorgif</title>
+        <altText>Color tab in Customize the Look of Your Chart pane</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

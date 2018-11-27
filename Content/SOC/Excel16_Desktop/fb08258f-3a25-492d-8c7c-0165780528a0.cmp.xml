@@ -1,6 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="fb08258f-3a25-492d-8c7c-0165780528a0" assetTypeId="CompanionFile">
-  <topic id="fb08258f-3a25-492d-8c7c-0165780528a0">
+  <topic id="fb08258f-3a25-492d-8c7c-0165780528a0" revisionNumber="1" createDate="2015-08-26T20:47:00.000">
     <title>Refresh or add 3D Maps data</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">When the data you use for your map changes, you can refresh it manually in 3D Maps for Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511358</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">fb08258f-3a25-492d-8c7c-0165780528a0</attribute>
+  </attributes>
+  <art>
+    <item id="6e983036-c608-4f8e-86a8-1a1fedeaa408">
+      <image file="Art\6e983036-c608-4f8e-86a8-1a1fedeaa408\6e983036-c608-4f8e-86a8-1a1fedeaa408.png" metadataAssetGuid="6e983036-c608-4f8e-86a8-1a1fedeaa408">
+        <title>pm_homerefreshdata_ribbon</title>
+        <altText>Refresh Data on the Home tab</altText>
+      </image>
+    </item>
+    <item id="f178b858-aa99-4ef3-95fe-74a3c1ea7c13">
+      <image file="Art\f178b858-aa99-4ef3-95fe-74a3c1ea7c13\f178b858-aa99-4ef3-95fe-74a3c1ea7c13.png" metadataAssetGuid="f178b858-aa99-4ef3-95fe-74a3c1ea7c13">
+        <title>pm_insertmap_addselecteddatatopowermap</title>
+        <altText>Add Selected Data to Power Map command</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

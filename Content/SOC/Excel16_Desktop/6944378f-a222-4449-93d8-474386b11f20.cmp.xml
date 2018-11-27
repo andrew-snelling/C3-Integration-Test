@@ -1,6 +1,107 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="6944378f-a222-4449-93d8-474386b11f20" assetTypeId="CompanionFile">
-  <topic id="6944378f-a222-4449-93d8-474386b11f20">
+  <topic id="6944378f-a222-4449-93d8-474386b11f20" revisionNumber="13" createDate="2014-05-16T20:59:00.000">
     <title>Total the data in an Excel table</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">TRN_Products</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Discover how to insert a Total row by using Table Tools in Excel.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Training</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.Lifecycle">Adopt and Use</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="LeftNav_ArticleType">Article</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="OCMS Asset ID">HA010013768</attribute>
+    <attribute name="OCMS Asset ID">HA102928097</attribute>
+    <attribute name="OCMS Version">12.0</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Fusion_Tables</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Training</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA010013768</attribute>
+    <attribute name="Search.OCMSasset">HA102928097</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL140</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">6944378f-a222-4449-93d8-474386b11f20</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="8f6bbb48-fbf3-4bc1-a198-10b72a941bea">
+      <image file="Art\8f6bbb48-fbf3-4bc1-a198-10b72a941bea\8f6bbb48-fbf3-4bc1-a198-10b72a941bea.png" metadataAssetGuid="8f6bbb48-fbf3-4bc1-a198-10b72a941bea">
+        <title>Excel2016_TotalRow</title>
+        <altText>Total Row option in Design tab</altText>
+      </image>
+    </item>
+    <item id="e3d59126-4d5e-499d-bb38-5a7746dffdc0">
+      <image file="Art\e3d59126-4d5e-499d-bb38-5a7746dffdc0\e3d59126-4d5e-499d-bb38-5a7746dffdc0.png" metadataAssetGuid="e3d59126-4d5e-499d-bb38-5a7746dffdc0">
+        <title>Excel_Table_Subtotal</title>
+        <altText>Example of selecting a Total Row formula from the Total Row formula drop-down list</altText>
+      </image>
+    </item>
+    <item id="e7e3f3ed-db3a-4157-b130-d4bd2d35e37a">
+      <image file="Art\e7e3f3ed-db3a-4157-b130-d4bd2d35e37a\e7e3f3ed-db3a-4157-b130-d4bd2d35e37a.png" metadataAssetGuid="e7e3f3ed-db3a-4157-b130-d4bd2d35e37a">
+        <title>Excel_Table_TotalRow</title>
+        <altText>Excel table with the Total Row turned on</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

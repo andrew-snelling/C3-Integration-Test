@@ -1,6 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="3c1ebc9f-176b-4ed3-a962-773720bf7543" assetTypeId="CompanionFile">
-  <topic id="3c1ebc9f-176b-4ed3-a962-773720bf7543">
+  <topic id="3c1ebc9f-176b-4ed3-a962-773720bf7543" revisionNumber="3" createDate="2015-08-27T14:17:00.000">
     <title>Customize a data card in 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Change the data card to show the details you want in 3D Maps for Excel 2016 for Windows Add or remove data fields, change the way those fields are aggregated or organized, include a title (such as a location name), or rename the field headers. </attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511347</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">3c1ebc9f-176b-4ed3-a962-773720bf7543</attribute>
+  </attributes>
+  <art>
+    <item id="7d2e858b-610d-4c15-b970-1e4f0679dde6">
+      <image file="Art\7d2e858b-610d-4c15-b970-1e4f0679dde6\7d2e858b-610d-4c15-b970-1e4f0679dde6.png" metadataAssetGuid="7d2e858b-610d-4c15-b970-1e4f0679dde6">
+        <title>pm_Fieldname_AggregateButton</title>
+        <altText>Aggregate button</altText>
+      </image>
+    </item>
+    <item id="08f4b384-b097-43ad-9080-1f6b9be89018">
+      <image file="Art\08f4b384-b097-43ad-9080-1f6b9be89018\08f4b384-b097-43ad-9080-1f6b9be89018.png" metadataAssetGuid="08f4b384-b097-43ad-9080-1f6b9be89018">
+        <title>pm_Fieldname_Buttons</title>
+        <altText>Field name buttons</altText>
+      </image>
+    </item>
+    <item id="b27e3cf3-d5f9-47aa-b6b3-26c5e0916152">
+      <image file="Art\b27e3cf3-d5f9-47aa-b6b3-26c5e0916152\b27e3cf3-d5f9-47aa-b6b3-26c5e0916152.png" metadataAssetGuid="b27e3cf3-d5f9-47aa-b6b3-26c5e0916152">
+        <title>pm_DataCard_TemplateOptions</title>
+        <altText>Template options in the data card</altText>
+      </image>
+    </item>
+    <item id="1c9129cc-a3cf-45e0-92a0-2bf49500a35b">
+      <image file="Art\1c9129cc-a3cf-45e0-92a0-2bf49500a35b\1c9129cc-a3cf-45e0-92a0-2bf49500a35b.png" metadataAssetGuid="1c9129cc-a3cf-45e0-92a0-2bf49500a35b">
+        <title>pm_Fieldname_DeleteButton</title>
+        <altText>Delete button</altText>
+      </image>
+    </item>
+    <item id="b543f4a1-b6ab-4438-b82c-9e787d6d07d1">
+      <image file="Art\b543f4a1-b6ab-4438-b82c-9e787d6d07d1\b543f4a1-b6ab-4438-b82c-9e787d6d07d1.png" metadataAssetGuid="b543f4a1-b6ab-4438-b82c-9e787d6d07d1">
+        <title>pm_DataCard</title>
+        <altText>Data card showing data point details</altText>
+      </image>
+    </item>
+    <item id="e694672a-cb53-40ca-a830-bccc10572a70">
+      <image file="Art\e694672a-cb53-40ca-a830-bccc10572a70\e694672a-cb53-40ca-a830-bccc10572a70.png" metadataAssetGuid="e694672a-cb53-40ca-a830-bccc10572a70">
+        <title>pm_CustomizeDataCard_DB</title>
+        <altText>Customize Data Card dialog box</altText>
+      </image>
+    </item>
+    <item id="43a31d16-b92a-45d0-9799-c4b2ed5389c6">
+      <image file="Art\43a31d16-b92a-45d0-9799-c4b2ed5389c6\43a31d16-b92a-45d0-9799-c4b2ed5389c6.png" metadataAssetGuid="43a31d16-b92a-45d0-9799-c4b2ed5389c6">
+        <title>pm_Fieldname_PencilButton</title>
+        <altText>Edit button</altText>
+      </image>
+    </item>
+    <item id="a9f9fd0e-3767-400e-90f4-c8f274a56712">
+      <image file="Art\a9f9fd0e-3767-400e-90f4-c8f274a56712\a9f9fd0e-3767-400e-90f4-c8f274a56712.png" metadataAssetGuid="a9f9fd0e-3767-400e-90f4-c8f274a56712">
+        <title>pm_DataCardOptions_Icon</title>
+        <altText>Data card options icon</altText>
+      </image>
+    </item>
+    <item id="84d05275-49ca-445e-8c68-f96fede5d995">
+      <image file="Art\84d05275-49ca-445e-8c68-f96fede5d995\84d05275-49ca-445e-8c68-f96fede5d995.png" metadataAssetGuid="84d05275-49ca-445e-8c68-f96fede5d995">
+        <title>pm_CustomizeDataCard_AddFieldIcon</title>
+        <altText>Add Field icon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

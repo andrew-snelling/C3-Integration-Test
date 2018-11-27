@@ -1,6 +1,110 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="dff4743d-72e4-49d5-a917-19d437efae88" assetTypeId="CompanionFile">
-  <topic id="dff4743d-72e4-49d5-a917-19d437efae88">
+  <topic id="dff4743d-72e4-49d5-a917-19d437efae88" revisionNumber="5" createDate="2014-05-16T21:42:00.000">
     <title>Using Solver for capital budgeting</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-11-23T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010285265</attribute>
+    <attribute name="OCMS Version">0.9</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA010285265</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL140</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">dff4743d-72e4-49d5-a917-19d437efae88</attribute>
+  </attributes>
+  <art>
+    <item id="fecec8c5-17fc-4bb1-8e63-3ff189926fa4">
+      <image file="Art\fecec8c5-17fc-4bb1-8e63-3ff189926fa4\fecec8c5-17fc-4bb1-8e63-3ff189926fa4.jpg" metadataAssetGuid="fecec8c5-17fc-4bb1-8e63-3ff189926fa4">
+        <title>f30ed06</title>
+        <altText>Book image</altText>
+      </image>
+    </item>
+    <item id="363f1a80-d304-40d6-9bf4-7ede555cf8b0">
+      <image file="Art\363f1a80-d304-40d6-9bf4-7ede555cf8b0\363f1a80-d304-40d6-9bf4-7ede555cf8b0.jpg" metadataAssetGuid="363f1a80-d304-40d6-9bf4-7ede555cf8b0">
+        <title>f30ed05</title>
+        <altText>Book image</altText>
+      </image>
+    </item>
+    <item id="e43d5da0-a403-4dcb-85c3-a4f558e304b8">
+      <image file="Art\e43d5da0-a403-4dcb-85c3-a4f558e304b8\e43d5da0-a403-4dcb-85c3-a4f558e304b8.jpg" metadataAssetGuid="e43d5da0-a403-4dcb-85c3-a4f558e304b8">
+        <title>f30ed03</title>
+        <altText>Book image</altText>
+      </image>
+    </item>
+    <item id="d8ab720e-b2b3-41c5-b2aa-ac2d4541f717">
+      <image file="Art\d8ab720e-b2b3-41c5-b2aa-ac2d4541f717\d8ab720e-b2b3-41c5-b2aa-ac2d4541f717.jpg" metadataAssetGuid="d8ab720e-b2b3-41c5-b2aa-ac2d4541f717">
+        <title>f30ed01</title>
+        <altText>Book image</altText>
+      </image>
+    </item>
+    <item id="4133705f-c4f4-4300-9d96-efee2e4b9e70">
+      <image file="Art\4133705f-c4f4-4300-9d96-efee2e4b9e70\4133705f-c4f4-4300-9d96-efee2e4b9e70.jpg" metadataAssetGuid="4133705f-c4f4-4300-9d96-efee2e4b9e70">
+        <title>f30ed02</title>
+        <altText>Book image</altText>
+      </image>
+    </item>
+    <item id="01e25bd3-4745-43d5-9b66-f8ed2b738f6d">
+      <image file="Art\01e25bd3-4745-43d5-9b66-f8ed2b738f6d\01e25bd3-4745-43d5-9b66-f8ed2b738f6d.jpg" metadataAssetGuid="01e25bd3-4745-43d5-9b66-f8ed2b738f6d">
+        <title>f30ed04</title>
+        <altText>Book image</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

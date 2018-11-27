@@ -1,6 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="854c9555-49c8-4755-9eaf-b74e99b4f3b2" assetTypeId="CompanionFile">
-  <topic id="854c9555-49c8-4755-9eaf-b74e99b4f3b2">
+  <topic id="854c9555-49c8-4755-9eaf-b74e99b4f3b2" revisionNumber="3" createDate="2015-08-27T13:44:00.000">
     <title>Create a custom map in 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use your own map to plot data in Excel 2016 for Windows. For example, substitute districts in a state or a plot shots on a court or sports field.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">854c9555-49c8-4755-9eaf-b74e99b4f3b2</attribute>
+  </attributes>
+  <art>
+    <item id="5ee1712b-47b9-4f21-a804-114446e9ea8b">
+      <image file="Art\5ee1712b-47b9-4f21-a804-114446e9ea8b\5ee1712b-47b9-4f21-a804-114446e9ea8b.png" metadataAssetGuid="5ee1712b-47b9-4f21-a804-114446e9ea8b">
+        <title>xl_CustomMap_Picture</title>
+        <altText>Picture of a custom map</altText>
+      </image>
+    </item>
+    <item id="00bbf1b9-6254-4c90-a795-15e38d2b54a8">
+      <image file="Art\00bbf1b9-6254-4c90-a795-15e38d2b54a8\00bbf1b9-6254-4c90-a795-15e38d2b54a8.png" metadataAssetGuid="00bbf1b9-6254-4c90-a795-15e38d2b54a8">
+        <title>xl_CustomMapOptions_DB</title>
+        <altText>Custom map options dialog box</altText>
+      </image>
+    </item>
+    <item id="9fc05b22-ea17-4870-9364-7485aabf60d6">
+      <image file="Art\9fc05b22-ea17-4870-9364-7485aabf60d6\9fc05b22-ea17-4870-9364-7485aabf60d6.png" metadataAssetGuid="9fc05b22-ea17-4870-9364-7485aabf60d6">
+        <title>O16_XL_3DMapRibbon</title>
+        <altText>Excel 3D Map option</altText>
+      </image>
+    </item>
+    <item id="31a0938a-b9d9-463d-a899-7e7765ebc764">
+      <image file="Art\31a0938a-b9d9-463d-a899-7e7765ebc764\31a0938a-b9d9-463d-a899-7e7765ebc764.png" metadataAssetGuid="31a0938a-b9d9-463d-a899-7e7765ebc764">
+        <title>xl_PictureBtn</title>
+        <altText>Picture button</altText>
+      </image>
+    </item>
+    <item id="64db6959-b96d-4562-9421-a5dee5add0b1">
+      <image file="Art\64db6959-b96d-4562-9421-a5dee5add0b1\64db6959-b96d-4562-9421-a5dee5add0b1.png" metadataAssetGuid="64db6959-b96d-4562-9421-a5dee5add0b1">
+        <title>xl_pm_HomeNewScene</title>
+        <altText>New Scene button on the Home tab</altText>
+      </image>
+    </item>
+    <item id="3b4c245e-a24e-4807-8ddf-c4df75512bfe">
+      <image file="Art\3b4c245e-a24e-4807-8ddf-c4df75512bfe\3b4c245e-a24e-4807-8ddf-c4df75512bfe.png" metadataAssetGuid="3b4c245e-a24e-4807-8ddf-c4df75512bfe">
+        <title>xl_PowerMap_NewTour</title>
+        <altText>New Tour button in the Map gallery</altText>
+      </image>
+    </item>
+    <item id="0d864bdf-ac6e-4bbe-aada-f041deb4ed52">
+      <image file="Art\0d864bdf-ac6e-4bbe-aada-f041deb4ed52\0d864bdf-ac6e-4bbe-aada-f041deb4ed52.png" metadataAssetGuid="0d864bdf-ac6e-4bbe-aada-f041deb4ed52">
+        <title>xl_NewCustomMap_InGallery</title>
+        <altText>New custom map button in the new scene gallery</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

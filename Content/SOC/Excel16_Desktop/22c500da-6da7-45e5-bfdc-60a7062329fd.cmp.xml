@@ -1,6 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="22c500da-6da7-45e5-bfdc-60a7062329fd" assetTypeId="CompanionFile">
-  <topic id="22c500da-6da7-45e5-bfdc-60a7062329fd">
+  <topic id="22c500da-6da7-45e5-bfdc-60a7062329fd" revisionNumber="28" createDate="2015-04-29T21:12:00.000">
     <title>Create a forecast in Excel for Windows</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use your existing data in Excel 2016 to predict and chart future values much faster and easier than using the various Forecast functions with one click. This article also contains information on the parameters used in the calculations and how to adjust them.
+</attribute>
+    <attribute name="Context Sensitive ID">192803</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">Uncategorized</attribute>
+    <attribute name="DCSext.Platforms">Desktop</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2091684</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">d9f0bd93-f460-4899-82fa-23457071873c</attribute>
+    <attribute name="search.operatingSystem">Uncategorized</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.platform">Desktop</attribute>
+    <attribute name="search.contextid">192803</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">22c500da-6da7-45e5-bfdc-60a7062329fd</attribute>
+  </attributes>
+  <art>
+    <item id="bf52dcc4-3a1e-4db3-bf2c-2f796d01f01e">
+      <image file="Art\bf52dcc4-3a1e-4db3-bf2c-2f796d01f01e\bf52dcc4-3a1e-4db3-bf2c-2f796d01f01e.png" metadataAssetGuid="bf52dcc4-3a1e-4db3-bf2c-2f796d01f01e">
+        <title>ForecastSbeetXL16</title>
+        <altText>Part of a spreadsheet showing the table of forecasted numbers and a forecast chart</altText>
+      </image>
+    </item>
+    <item id="1f8ebf53-95b1-43d3-a73d-c20b4d3a5aa8">
+      <image file="Art\1f8ebf53-95b1-43d3-a73d-c20b4d3a5aa8\1f8ebf53-95b1-43d3-a73d-c20b4d3a5aa8.png" metadataAssetGuid="1f8ebf53-95b1-43d3-a73d-c20b4d3a5aa8">
+        <title>Create Forecast Worksheet DB</title>
+        <altText>Screenshot of Create Forecast Worksheet dialog box with Options collapsed</altText>
+      </image>
+    </item>
+    <item id="729d4098-b4cb-4b0c-a5e1-d046a3093db9">
+      <image file="Art\729d4098-b4cb-4b0c-a5e1-d046a3093db9\729d4098-b4cb-4b0c-a5e1-d046a3093db9.png" metadataAssetGuid="729d4098-b4cb-4b0c-a5e1-d046a3093db9">
+        <title>ForecastSheetButton2016</title>
+        <altText>Forecast Sheet button on the Data tab</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

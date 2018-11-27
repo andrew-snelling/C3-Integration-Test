@@ -1,6 +1,139 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="803d65eb-6a3e-4534-8c6f-ff12d1c4139e" assetTypeId="CompanionFile">
-  <topic id="803d65eb-6a3e-4534-8c6f-ff12d1c4139e">
+  <topic id="803d65eb-6a3e-4534-8c6f-ff12d1c4139e" revisionNumber="12" createDate="2014-10-27T23:37:00.000">
     <title>Move or copy cells and cell contents</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">Quick_video</attribute>
+    <attribute name="Collections">TRN_Products</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive ID">22357</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5201473</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Training</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.Lifecycle">Adopt and Use</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Novice (100)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Starter 2010</attribute>
+    <attribute name="LeftNav_ArticleType">Article</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="OCMS Asset ID">HA102748999</attribute>
+    <attribute name="OCMS Asset ID">HP001216413</attribute>
+    <attribute name="OCMS Asset ID">HP010342707</attribute>
+    <attribute name="OCMS Version">2.7</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Fusion_Cells</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">Training</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">22357</attribute>
+    <attribute name="search.contextid">xlmain11.chm5201473</attribute>
+    <attribute name="Search.OCMSasset">HA102748999</attribute>
+    <attribute name="Search.OCMSasset">HP001216413</attribute>
+    <attribute name="Search.OCMSasset">HP010342707</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EXE140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel Starter</attribute>
+    <attribute name="search.skuid">EXE140</attribute>
+    <attribute name="search.assetid">803d65eb-6a3e-4534-8c6f-ff12d1c4139e</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="fc982bd7-420f-4232-89ad-29b2de918b0e">
+      <image file="Art\fc982bd7-420f-4232-89ad-29b2de918b0e\fc982bd7-420f-4232-89ad-29b2de918b0e.gif" metadataAssetGuid="fc982bd7-420f-4232-89ad-29b2de918b0e">
+        <title>o14_xl_home_iso_clipboard</title>
+        <altText>Excel Ribbon Image</altText>
+      </image>
+    </item>
+    <item id="5264357d-5d76-45d5-b7ea-40a879ebdfef">
+      <image file="Art\5264357d-5d76-45d5-b7ea-40a879ebdfef\5264357d-5d76-45d5-b7ea-40a879ebdfef.gif" metadataAssetGuid="5264357d-5d76-45d5-b7ea-40a879ebdfef">
+        <title>cutps</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="fdfa2699-b557-43b6-8a48-47d4f7938efe">
+      <image file="Art\fdfa2699-b557-43b6-8a48-47d4f7938efe\fdfa2699-b557-43b6-8a48-47d4f7938efe.gif" metadataAssetGuid="fdfa2699-b557-43b6-8a48-47d4f7938efe">
+        <title>copyps</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="773d3e90-bbd3-4883-94fa-5e03d961c37b">
+      <image file="Art\773d3e90-bbd3-4883-94fa-5e03d961c37b\773d3e90-bbd3-4883-94fa-5e03d961c37b.gif" metadataAssetGuid="773d3e90-bbd3-4883-94fa-5e03d961c37b">
+        <title>o14_xl_home_iso_editing</title>
+        <altText>Excel  Ribbon Image</altText>
+      </image>
+    </item>
+    <item id="03bb25cb-7522-43bc-814b-6f3a6887c723">
+      <image file="Art\03bb25cb-7522-43bc-814b-6f3a6887c723\03bb25cb-7522-43bc-814b-6f3a6887c723.gif" metadataAssetGuid="03bb25cb-7522-43bc-814b-6f3a6887c723">
+        <title>copypointer</title>
+        <altText>Excel Copy Pointer</altText>
+      </image>
+    </item>
+    <item id="8aa0ed92-4d42-443c-9e0d-901eb0408e69">
+      <image file="Art\8aa0ed92-4d42-443c-9e0d-901eb0408e69\8aa0ed92-4d42-443c-9e0d-901eb0408e69.gif" metadataAssetGuid="8aa0ed92-4d42-443c-9e0d-901eb0408e69">
+        <title>pasteps</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="7cb6a126-5752-4271-b00e-9ce77d8d95a2">
+      <image file="Art\7cb6a126-5752-4271-b00e-9ce77d8d95a2\7cb6a126-5752-4271-b00e-9ce77d8d95a2.png" metadataAssetGuid="7cb6a126-5752-4271-b00e-9ce77d8d95a2">
+        <title>Outlook2016-Try IT-Paste</title>
+        <altText>Paste</altText>
+      </image>
+    </item>
+    <item id="391c04d4-cdf8-4d30-b69a-9d33ef9305cc">
+      <image file="Art\391c04d4-cdf8-4d30-b69a-9d33ef9305cc\391c04d4-cdf8-4d30-b69a-9d33ef9305cc.png" metadataAssetGuid="391c04d4-cdf8-4d30-b69a-9d33ef9305cc">
+        <title>Outlook2016-Try IT-Cut</title>
+        <altText>Cut</altText>
+      </image>
+    </item>
+    <item id="6ed20a8c-374c-4e13-b5cc-bd9de0c51e72">
+      <image file="Art\6ed20a8c-374c-4e13-b5cc-bd9de0c51e72\6ed20a8c-374c-4e13-b5cc-bd9de0c51e72.png" metadataAssetGuid="6ed20a8c-374c-4e13-b5cc-bd9de0c51e72">
+        <title>Outlook2016-Try IT-move pointer</title>
+        <altText>move pointer</altText>
+      </image>
+    </item>
+    <item id="ac1f2295-d1b6-447e-9ad3-cad958fd1fcb">
+      <image file="Art\ac1f2295-d1b6-447e-9ad3-cad958fd1fcb\ac1f2295-d1b6-447e-9ad3-cad958fd1fcb.gif" metadataAssetGuid="ac1f2295-d1b6-447e-9ad3-cad958fd1fcb">
+        <title>formbar</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="9094b44f-3464-413b-ac50-df2eddc9dec3">
+      <image file="Art\9094b44f-3464-413b-ac50-df2eddc9dec3\9094b44f-3464-413b-ac50-df2eddc9dec3.gif" metadataAssetGuid="9094b44f-3464-413b-ac50-df2eddc9dec3">
+        <title>movepointer-1</title>
+        <altText>Excel Move Pointer</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

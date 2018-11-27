@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="5f04179d-d7c9-4378-ae6f-2f8fdc47a68e" assetTypeId="CompanionFile">
-  <topic id="5f04179d-d7c9-4378-ae6f-2f8fdc47a68e">
+  <topic id="5f04179d-d7c9-4378-ae6f-2f8fdc47a68e" revisionNumber="-1" createDate="">
     <title>Forms and ActiveX</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">5f04179d-d7c9-4378-ae6f-2f8fdc47a68e</attribute>
+  </attributes>
 </metadata>

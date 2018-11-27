@@ -1,6 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="16aa6697-6d6e-49c1-8e2c-3398a7cad6ad" assetTypeId="CompanionFile">
-  <topic id="16aa6697-6d6e-49c1-8e2c-3398a7cad6ad">
+  <topic id="16aa6697-6d6e-49c1-8e2c-3398a7cad6ad" revisionNumber="4" createDate="2015-07-17T19:58:00.000">
     <title>Add or subtract time</title>
   </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_FORMULAS</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_FORMULAS_MORE</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Excel can calculate how many hours and minutes (the amount of 
+time) it will take to complete two tasks. It can also take the 
+start and end times for a task and calculate the elapsed time, 
+which is the difference between the two times. </attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm3056109</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA102809662</attribute>
+    <attribute name="OCMS Asset ID">HP010070466</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">xlmain11.chm3056109</attribute>
+    <attribute name="Search.OCMSasset">HA102809662</attribute>
+    <attribute name="Search.OCMSasset">HP010070466</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">16aa6697-6d6e-49c1-8e2c-3398a7cad6ad</attribute>
+  </attributes>
+  <art>
+    <item id="13164e76-995f-4ffe-9eb1-27172cbaf34b">
+      <image file="Art\13164e76-995f-4ffe-9eb1-27172cbaf34b\13164e76-995f-4ffe-9eb1-27172cbaf34b.jpg" metadataAssetGuid="13164e76-995f-4ffe-9eb1-27172cbaf34b">
+        <title>xl_15_subtract_time</title>
+        <altText>One time subtracted from another to get elapsed time</altText>
+      </image>
+    </item>
+    <item id="0b6d48e6-83f6-4016-9e42-2d6a16df25df">
+      <image file="Art\0b6d48e6-83f6-4016-9e42-2d6a16df25df\0b6d48e6-83f6-4016-9e42-2d6a16df25df.jpg" metadataAssetGuid="0b6d48e6-83f6-4016-9e42-2d6a16df25df">
+        <title>xl_15add_time_over_24</title>
+        <altText>Time added up that's over 24 hours total an unexepcted result of 4:15</altText>
+      </image>
+    </item>
+    <item id="f43162bb-504a-4130-85ab-42c193a57a7a">
+      <image file="Art\f43162bb-504a-4130-85ab-42c193a57a7a\f43162bb-504a-4130-85ab-42c193a57a7a.jpg" metadataAssetGuid="f43162bb-504a-4130-85ab-42c193a57a7a">
+        <title>xl_15_subtract_time_over_24</title>
+        <altText>Elapsed time over 24 hours</altText>
+      </image>
+    </item>
+    <item id="2f0a0aea-ec1f-4ad0-8362-9db4410a0ac7">
+      <image file="Art\2f0a0aea-ec1f-4ad0-8362-9db4410a0ac7\2f0a0aea-ec1f-4ad0-8362-9db4410a0ac7.jpg" metadataAssetGuid="2f0a0aea-ec1f-4ad0-8362-9db4410a0ac7">
+        <title>xl_15_add_time</title>
+        <altText>Time for two tasks added up</altText>
+      </image>
+    </item>
+    <item id="f187c304-30a4-4564-8a70-ab0da9a3ba4d">
+      <image file="Art\f187c304-30a4-4564-8a70-ab0da9a3ba4d\f187c304-30a4-4564-8a70-ab0da9a3ba4d.jpg" metadataAssetGuid="f187c304-30a4-4564-8a70-ab0da9a3ba4d">
+        <title>xl_subtract_time2</title>
+        <altText>Elpased times listed in column D</altText>
+      </image>
+    </item>
+    <item id="1caa34c0-dedd-4586-b85f-fdbc1c3c0e89">
+      <image file="Art\1caa34c0-dedd-4586-b85f-fdbc1c3c0e89\1caa34c0-dedd-4586-b85f-fdbc1c3c0e89.jpg" metadataAssetGuid="1caa34c0-dedd-4586-b85f-fdbc1c3c0e89">
+        <title>xl_15_home_format_formatcells</title>
+        <altText>On the Home tab, Format button, and the Format cells button on the menu</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

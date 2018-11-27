@@ -1,6 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="1524175f-777a-48fc-8fc7-c8514b984440" assetTypeId="CompanionFile">
-  <topic id="1524175f-777a-48fc-8fc7-c8514b984440">
+  <topic id="1524175f-777a-48fc-8fc7-c8514b984440" revisionNumber="5" createDate="2015-08-11T18:13:00.000">
     <title>Refresh an external data connection in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can connect your Excel workbook to an external data source, such as a SQL Server database, an OLAP cube, or even another Excel workbook. This connection can appear in your workbook as a table, PivotTable report, or PivotChart. You can keep the data in your workbook up to date by refreshing the link to its source. Each time you refresh the connection, you see the most recent data, including anything that's new or has been deleted.</attribute>
+    <attribute name="Context Sensitive ID">199707</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5030483</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5070014</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5201974</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5201977</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5247912</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010105474</attribute>
+    <attribute name="OCMS Asset ID">HP010087045</attribute>
+    <attribute name="OCMS Asset ID">HP010342826</attribute>
+    <attribute name="OCMS Version">9.1</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">199707</attribute>
+    <attribute name="search.contextid">xlmain11.chm5030483</attribute>
+    <attribute name="search.contextid">xlmain11.chm5070014</attribute>
+    <attribute name="search.contextid">xlmain11.chm5201974</attribute>
+    <attribute name="search.contextid">xlmain11.chm5201977</attribute>
+    <attribute name="search.contextid">xlmain11.chm5247912</attribute>
+    <attribute name="Search.OCMSasset">HA010105474</attribute>
+    <attribute name="Search.OCMSasset">HP010087045</attribute>
+    <attribute name="Search.OCMSasset">HP010342826</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">1524175f-777a-48fc-8fc7-c8514b984440</attribute>
+  </attributes>
+  <art>
+    <item id="7c977623-880b-4159-a3ed-183051446905">
+      <image file="Art\7c977623-880b-4159-a3ed-183051446905\7c977623-880b-4159-a3ed-183051446905.jpg" metadataAssetGuid="7c977623-880b-4159-a3ed-183051446905">
+        <title>o15_xl_dev_xml_grp</title>
+        <altText>XML Refresh Data</altText>
+      </image>
+    </item>
+    <item id="eb718c0f-e633-4a84-bda1-413a915f4526">
+      <image file="Art\eb718c0f-e633-4a84-bda1-413a915f4526\eb718c0f-e633-4a84-bda1-413a915f4526.jpg" metadataAssetGuid="eb718c0f-e633-4a84-bda1-413a915f4526">
+        <title>o15_xl_data_conn_refreshall_connprops</title>
+        <altText>Connection Properties</altText>
+      </image>
+    </item>
+    <item id="ef4cc12d-00f3-4941-b425-9ce47734a679">
+      <image file="Art\ef4cc12d-00f3-4941-b425-9ce47734a679\ef4cc12d-00f3-4941-b425-9ce47734a679.jpg" metadataAssetGuid="ef4cc12d-00f3-4941-b425-9ce47734a679">
+        <title>o15_xl_data_conn_grp</title>
+        <altText>Data Connections</altText>
+      </image>
+    </item>
+    <item id="074d0e22-3240-4387-9143-cd600d4089cd">
+      <image file="Art\074d0e22-3240-4387-9143-cd600d4089cd\074d0e22-3240-4387-9143-cd600d4089cd.jpg" metadataAssetGuid="074d0e22-3240-4387-9143-cd600d4089cd">
+        <title>o15_xl_data_conn_refresh</title>
+        <altText>Refresh Data Connection</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

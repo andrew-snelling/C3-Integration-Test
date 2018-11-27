@@ -1,6 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="4a8e4338-d6cb-4f31-a2db-201824b40c63" assetTypeId="CompanionFile">
-  <topic id="4a8e4338-d6cb-4f31-a2db-201824b40c63">
+  <topic id="4a8e4338-d6cb-4f31-a2db-201824b40c63" revisionNumber="2" createDate="2015-08-27T15:14:00.000">
     <title>Filter data in a 3D Maps tour</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">See a subset of data in your 3D Maps tour in Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511350</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">4a8e4338-d6cb-4f31-a2db-201824b40c63</attribute>
+  </attributes>
+  <art>
+    <item id="d7d14abb-704f-4ec0-a486-03954545f7a9">
+      <image file="Art\d7d14abb-704f-4ec0-a486-03954545f7a9\d7d14abb-704f-4ec0-a486-03954545f7a9.png" metadataAssetGuid="d7d14abb-704f-4ec0-a486-03954545f7a9">
+        <title>o15_xl_PowerMap_filter_all_3</title>
+        <altText>Filters for numbers, text values, and dates</altText>
+      </image>
+    </item>
+    <item id="35f4bd9d-55aa-4754-a588-09377ce56dd2">
+      <image file="Art\35f4bd9d-55aa-4754-a588-09377ce56dd2\35f4bd9d-55aa-4754-a588-09377ce56dd2.png" metadataAssetGuid="35f4bd9d-55aa-4754-a588-09377ce56dd2">
+        <title>o15_xl_PowerMap_AddFilters</title>
+        <altText>Add Filters</altText>
+      </image>
+    </item>
+    <item id="15acaf28-626f-449b-ac1f-a3aed87f37b3">
+      <image file="Art\15acaf28-626f-449b-ac1f-a3aed87f37b3\15acaf28-626f-449b-ac1f-a3aed87f37b3.png" metadataAssetGuid="15acaf28-626f-449b-ac1f-a3aed87f37b3">
+        <title>o15_xl_pm_iterator</title>
+        <altText>Switch between List or Text filter and Advanced filter</altText>
+      </image>
+    </item>
+    <item id="e23704f5-c66a-40ef-80f5-bbd9d0a138be">
+      <image file="Art\e23704f5-c66a-40ef-80f5-bbd9d0a138be\e23704f5-c66a-40ef-80f5-bbd9d0a138be.png" metadataAssetGuid="e23704f5-c66a-40ef-80f5-bbd9d0a138be">
+        <title>o15_xl_PowerMap_btn_Filter</title>
+        <altText>Filter button</altText>
+      </image>
+    </item>
+    <item id="e9b11701-783b-4c46-a48e-bef820300f30">
+      <image file="Art\e9b11701-783b-4c46-a48e-bef820300f30\e9b11701-783b-4c46-a48e-bef820300f30.png" metadataAssetGuid="e9b11701-783b-4c46-a48e-bef820300f30">
+        <title>o15_xl_PowerMap_AddFilters_choices</title>
+        <altText>Choose fields to filter</altText>
+      </image>
+    </item>
+    <item id="f5b97434-e9a5-4cc9-bdfe-fac0a13be2bb">
+      <image file="Art\f5b97434-e9a5-4cc9-bdfe-fac0a13be2bb\f5b97434-e9a5-4cc9-bdfe-fac0a13be2bb.png" metadataAssetGuid="f5b97434-e9a5-4cc9-bdfe-fac0a13be2bb">
+        <title>o15_xl_PowerMap_TourPane_filters_applied</title>
+        <altText>Tour with two filters set</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="4a579c45-7326-4168-b556-df8b5685175b" assetTypeId="CompanionFile">
-  <topic id="4a579c45-7326-4168-b556-df8b5685175b">
+  <topic id="4a579c45-7326-4168-b556-df8b5685175b" revisionNumber="22" createDate="2018-03-20T15:05:00.000">
     <title>FIELDVALUE function</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">The FIELDVALUE function can be used inside other formulas to extract field data from linked records. This article explains how. </attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm60661</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">ExcelProjectYellow</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">xlmain11.chm60661</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">4a579c45-7326-4168-b556-df8b5685175b</attribute>
+  </attributes>
+  <art>
+    <item id="98621e17-f56f-4a64-af01-9bb3a827465c">
+      <image file="Art\98621e17-f56f-4a64-af01-9bb3a827465c\98621e17-f56f-4a64-af01-9bb3a827465c.png" metadataAssetGuid="98621e17-f56f-4a64-af01-9bb3a827465c">
+        <title>Retrieve a company stock price, and ignore errors with =IFERROR(FIELDVALUE($A2,B$1),"")_c3m_2018227141339</title>
+        <altText>Retrieve a company stock price, and ignore errors with =IFERROR(FIELDVALUE($A2,B$1),"")</altText>
+        <localizedText>Localized text not available</localizedText>
+      </image>
+    </item>
+    <item id="962927bb-8a0f-4b3d-93ad-b8132e5fc6e8">
+      <image file="Art\962927bb-8a0f-4b3d-93ad-b8132e5fc6e8\962927bb-8a0f-4b3d-93ad-b8132e5fc6e8.png" metadataAssetGuid="962927bb-8a0f-4b3d-93ad-b8132e5fc6e8">
+        <title>Retrieve a company stock price with =FIELDVALUE(A2,"Price")_c3m_2018227141047</title>
+        <altText>Retrieve a company stock price with =FIELDVALUE(A2,"Price")</altText>
+        <localizedText>Localized text not available</localizedText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="922632e9-66fe-4f2b-823e-d2e855834f6f" assetTypeId="CompanionFile">
-  <topic id="922632e9-66fe-4f2b-823e-d2e855834f6f">
+  <topic id="922632e9-66fe-4f2b-823e-d2e855834f6f" revisionNumber="1" createDate="2015-08-27T16:32:00.000">
     <title>Create a top or bottom 100 chart  in 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Make values easier to see on your 3D Maps by switching to a 2-D chart showing the top 100 or bottom 100 values in Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511364</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">922632e9-66fe-4f2b-823e-d2e855834f6f</attribute>
+  </attributes>
+  <art>
+    <item id="4a5038c6-5971-4c45-9f53-bf27173b4b1d">
+      <image file="Art\4a5038c6-5971-4c45-9f53-bf27173b4b1d\4a5038c6-5971-4c45-9f53-bf27173b4b1d.png" metadataAssetGuid="4a5038c6-5971-4c45-9f53-bf27173b4b1d">
+        <title>pm152dchart</title>
+        <altText>2D Chart button on the Power Map Home tab</altText>
+      </image>
+    </item>
+    <item id="8de915c9-6c4c-4582-aaed-e9c5ffd2bdd9">
+      <image file="Art\8de915c9-6c4c-4582-aaed-e9c5ffd2bdd9\8de915c9-6c4c-4582-aaed-e9c5ffd2bdd9.png" metadataAssetGuid="8de915c9-6c4c-4582-aaed-e9c5ffd2bdd9">
+        <title>pm15top100</title>
+        <altText>Top 100 Chart</altText>
+      </image>
+    </item>
+    <item id="fe5b7b65-c69b-4ffa-bd5a-ee954b179586">
+      <image file="Art\fe5b7b65-c69b-4ffa-bd5a-ee954b179586\fe5b7b65-c69b-4ffa-bd5a-ee954b179586.png" metadataAssetGuid="fe5b7b65-c69b-4ffa-bd5a-ee954b179586">
+        <title>pm15switchtopbottom</title>
+        <altText>Link to switch between top and bottom 100 chart</altText>
+      </image>
+    </item>
+    <item id="ec55ea99-db80-405c-bfa5-fd6d205933d1">
+      <image file="Art\ec55ea99-db80-405c-bfa5-fd6d205933d1\ec55ea99-db80-405c-bfa5-fd6d205933d1.png" metadataAssetGuid="ec55ea99-db80-405c-bfa5-fd6d205933d1">
+        <title>pm15top100changechart</title>
+        <altText>Change chart option on Top 100 chart</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="f51e8ca7-0774-413a-bf1a-9dcc1525706d" assetTypeId="CompanionFile">
-  <topic id="f51e8ca7-0774-413a-bf1a-9dcc1525706d">
+  <topic id="f51e8ca7-0774-413a-bf1a-9dcc1525706d" revisionNumber="3" createDate="2016-10-28T14:59:00.000">
     <title>How to manage files connected to protected data</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">EU_UI_Elements</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive Help Access">For 65538: Have a personal workbook that's connected to EDP data and try to refresh. Error dialog. ? in title bar.</attribute>
+    <attribute name="Context Sensitive ID">65538</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">65538</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">f51e8ca7-0774-413a-bf1a-9dcc1525706d</attribute>
+  </attributes>
+  <art>
+    <item id="a6370345-1a97-455a-b2a6-b55435fa9048">
+      <image file="Art\a6370345-1a97-455a-b2a6-b55435fa9048\a6370345-1a97-455a-b2a6-b55435fa9048.png" metadataAssetGuid="a6370345-1a97-455a-b2a6-b55435fa9048">
+        <title>XL16_EDPFileOwnershipPersonalWork</title>
+        <altText>Contextual menu showing how to change file ownership from Personal to Work</altText>
+      </image>
+    </item>
+    <item id="ef0c0c9c-3c4c-464f-a2d4-dd406ad15aab">
+      <image file="Art\ef0c0c9c-3c4c-464f-a2d4-dd406ad15aab\ef0c0c9c-3c4c-464f-a2d4-dd406ad15aab.png" metadataAssetGuid="ef0c0c9c-3c4c-464f-a2d4-dd406ad15aab">
+        <title>XL16_EDPErrorDialog</title>
+        <altText>Error dialog received when personal workbook is connected to protected data.</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

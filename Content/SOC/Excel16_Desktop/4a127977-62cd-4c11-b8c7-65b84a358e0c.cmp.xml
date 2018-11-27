@@ -1,6 +1,120 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="4a127977-62cd-4c11-b8c7-65b84a358e0c" assetTypeId="CompanionFile">
-  <topic id="4a127977-62cd-4c11-b8c7-65b84a358e0c">
+  <topic id="4a127977-62cd-4c11-b8c7-65b84a358e0c" revisionNumber="11" createDate="2015-06-23T22:24:00.000">
     <title>Create a sunburst chart in Office</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use the sunburst chart, introduced in Office 2016 for Windows to quickly see a hierarchial representation of your data. Sunburst charts are also known as ring charts.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">4a127977-62cd-4c11-b8c7-65b84a358e0c</attribute>
+  </attributes>
+  <art>
+    <item id="e22228f7-0e94-47f1-870c-4fa60afb3444">
+      <image file="Art\e22228f7-0e94-47f1-870c-4fa60afb3444\e22228f7-0e94-47f1-870c-4fa60afb3444.png" metadataAssetGuid="e22228f7-0e94-47f1-870c-4fa60afb3444">
+        <title>Excel2016Mac_Icn_HierarchyChart</title>
+        <altText>Hierarchy chart icon</altText>
+      </image>
+    </item>
+    <item id="b2aa45d9-18f3-420a-ac2c-92baaf3511d1">
+      <image file="Art\b2aa45d9-18f3-420a-ac2c-92baaf3511d1\b2aa45d9-18f3-420a-ac2c-92baaf3511d1.png" metadataAssetGuid="b2aa45d9-18f3-420a-ac2c-92baaf3511d1">
+        <title>XL16WinSuncurstData</title>
+        <altText>Data used to create the example sunburst chart</altText>
+      </image>
+    </item>
+    <item id="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+      <image file="Art\fd7db992-63b2-4e28-a877-a2ae13d6b7ef\fd7db992-63b2-4e28-a877-a2ae13d6b7ef.jpg" metadataAssetGuid="fd7db992-63b2-4e28-a877-a2ae13d6b7ef">
+        <title>o15_xl_charttools_design_format</title>
+        <altText>Design and Format tabs for the Chart Tools</altText>
+      </image>
+    </item>
+    <item id="eb234cf8-1004-49bc-bfee-a50602ac492a">
+      <image file="Art\eb234cf8-1004-49bc-bfee-a50602ac492a\eb234cf8-1004-49bc-bfee-a50602ac492a.png" metadataAssetGuid="eb234cf8-1004-49bc-bfee-a50602ac492a">
+        <title>XL16WinSunburstChart</title>
+        <altText>Picture of a Sunburst Chart in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="388b7b8e-13d8-4712-a5e3-e46d3fdf4505">
+      <image file="Art\388b7b8e-13d8-4712-a5e3-e46d3fdf4505\388b7b8e-13d8-4712-a5e3-e46d3fdf4505.png" metadataAssetGuid="388b7b8e-13d8-4712-a5e3-e46d3fdf4505">
+        <title>XL16WinSunburst</title>
+        <altText>Sunburst chart type on the Insert tab in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="026518a4-5bf7-4a7b-921f-e49d1d87da6f">
+      <image file="Art\026518a4-5bf7-4a7b-921f-e49d1d87da6f\026518a4-5bf7-4a7b-921f-e49d1d87da6f.png" metadataAssetGuid="026518a4-5bf7-4a7b-921f-e49d1d87da6f">
+        <title>Excel2016Mac_SunburstChart</title>
+        <altText>Sunburst chart on the ribbon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

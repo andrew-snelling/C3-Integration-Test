@@ -1,6 +1,117 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="3db958c8-e0ac-49a5-9965-2c2f8afbd960" assetTypeId="CompanionFile">
-  <topic id="3db958c8-e0ac-49a5-9965-2c2f8afbd960">
+  <topic id="3db958c8-e0ac-49a5-9965-2c2f8afbd960" revisionNumber="8" createDate="2015-06-04T18:22:00.000">
     <title>Differences between the OpenDocument Spreadsheet (.ods) format and the Excel for Windows (.xlsx) format</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">When you work with file formats .xlsx and .ods in Excel, there might be formatting differences, and not all features will be available.</attribute>
+    <attribute name="Context Sensitive Help Access">2140894 Unknown repo. From bug:  Location unkonwn; SessExp has lots of searches for regular expressions and calculation settings. </attribute>
+    <attribute name="Context Sensitive Help Access">For 183538: Repro in Mac.</attribute>
+    <attribute name="Context Sensitive ID">183538</attribute>
+    <attribute name="Context Sensitive ID">191589</attribute>
+    <attribute name="Context Sensitive ID">ExcelODF</attribute>
+    <attribute name="Context Sensitive ID">WSSEndUser_ExcelODF</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm183538</attribute>
+    <attribute name="Context Sensitive ID">XLWAEndUser_ExcelODF</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Reference</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Online</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Online 16</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Starter 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Web App</attribute>
+    <attribute name="DCSext.RelatedProducts">Office 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">SharePoint Server 2013 Enterprise</attribute>
+    <attribute name="OCMS Asset ID">HA010355787</attribute>
+    <attribute name="OCMS Asset ID">HA102253037</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Reference</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">183538</attribute>
+    <attribute name="search.contextid">191589</attribute>
+    <attribute name="search.contextid">ExcelODF</attribute>
+    <attribute name="search.contextid">WSSEndUser_ExcelODF</attribute>
+    <attribute name="search.contextid">xlmain11.chm183538</attribute>
+    <attribute name="search.contextid">XLWAEndUser_ExcelODF</attribute>
+    <attribute name="Search.OCMSasset">HA010355787</attribute>
+    <attribute name="Search.OCMSasset">HA102253037</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">WAE150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel Online</attribute>
+    <attribute name="search.skuid">WAE150</attribute>
+    <attribute name="search.appverid">WAE160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel Online</attribute>
+    <attribute name="search.skuid">WAE160</attribute>
+    <attribute name="search.appverid">EXE140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel Starter</attribute>
+    <attribute name="search.skuid">EXE140</attribute>
+    <attribute name="search.appverid">WAE140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel Web App</attribute>
+    <attribute name="search.skuid">WAE140</attribute>
+    <attribute name="search.appverid">OFF140</attribute>
+    <attribute name="search.applicationSuite">Office</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">OSU150</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">SharePoint Server</attribute>
+    <attribute name="search.skuid">OSU150</attribute>
+    <attribute name="search.assetid">3db958c8-e0ac-49a5-9965-2c2f8afbd960</attribute>
+  </attributes>
+  <art>
+    <item id="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+      <image file="Art\f22ae713-addb-400d-bc0f-b7a62f2d61af\f22ae713-addb-400d-bc0f-b7a62f2d61af.gif" metadataAssetGuid="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+        <title>o12filemenubutton</title>
+        <altText>Office button image</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

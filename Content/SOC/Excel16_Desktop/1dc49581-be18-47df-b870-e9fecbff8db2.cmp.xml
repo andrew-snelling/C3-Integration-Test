@@ -1,6 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="1dc49581-be18-47df-b870-e9fecbff8db2" assetTypeId="CompanionFile">
-  <topic id="1dc49581-be18-47df-b870-e9fecbff8db2">
+  <topic id="1dc49581-be18-47df-b870-e9fecbff8db2" revisionNumber="2" createDate="2015-08-26T18:30:00.000">
     <title>Add a 3D Maps legend</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Know what you're looking at by adding a legend, resizing it, and moving it to the location you want.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511331</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">1dc49581-be18-47df-b870-e9fecbff8db2</attribute>
+  </attributes>
+  <art>
+    <item id="ed0a7b59-7b16-4c89-a60f-4f09ce1de12f">
+      <image file="Art\ed0a7b59-7b16-4c89-a60f-4f09ce1de12f\ed0a7b59-7b16-4c89-a60f-4f09ce1de12f.png" metadataAssetGuid="ed0a7b59-7b16-4c89-a60f-4f09ce1de12f">
+        <title>pm_legendsizinghandles</title>
+        <altText>Legend showing sizing handles</altText>
+      </image>
+    </item>
+    <item id="637ef42e-f1b2-461e-9bfa-5632c1b8dd45">
+      <image file="Art\637ef42e-f1b2-461e-9bfa-5632c1b8dd45\637ef42e-f1b2-461e-9bfa-5632c1b8dd45.png" metadataAssetGuid="637ef42e-f1b2-461e-9bfa-5632c1b8dd45">
+        <title>pm_mapwithlegend</title>
+        <altText>Map with a legend</altText>
+      </image>
+    </item>
+    <item id="1eb1301e-6dd3-4e7e-b2ff-d5fa17abbfaf">
+      <image file="Art\1eb1301e-6dd3-4e7e-b2ff-d5fa17abbfaf\1eb1301e-6dd3-4e7e-b2ff-d5fa17abbfaf.png" metadataAssetGuid="1eb1301e-6dd3-4e7e-b2ff-d5fa17abbfaf">
+        <title>pm_homelegend_ribbon</title>
+        <altText>Legend button on the Home tab</altText>
+      </image>
+    </item>
+    <item id="744560b7-ec65-446d-a920-e1832dfca38d">
+      <image file="Art\744560b7-ec65-446d-a920-e1832dfca38d\744560b7-ec65-446d-a920-e1832dfca38d.png" metadataAssetGuid="744560b7-ec65-446d-a920-e1832dfca38d">
+        <title>pm_movelegend</title>
+        <altText>Legend bar</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

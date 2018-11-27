@@ -1,6 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="412bfa2e-9242-4c34-a0e4-b7b36e28d04d" assetTypeId="CompanionFile">
-  <topic id="412bfa2e-9242-4c34-a0e4-b7b36e28d04d">
+  <topic id="412bfa2e-9242-4c34-a0e4-b7b36e28d04d" revisionNumber="7" createDate="2015-09-02T22:21:00.000">
     <title>Why do I get an "Unprotected Formula" message in Excel?</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Sometimes, you might see a green triangle in the upper-left corner of a cell that contains a formula. Find out what this means and how to prevent this in Excel 2016 for Windows.
+</attribute>
+    <attribute name="Context Sensitive Help Access">For 616399: This is for Macs with OOUI for unprotected formula cells.</attribute>
+    <attribute name="Context Sensitive ID">616399</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm3071760</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">616399</attribute>
+    <attribute name="search.contextid">xlmain11.chm3071760</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">412bfa2e-9242-4c34-a0e4-b7b36e28d04d</attribute>
+  </attributes>
+  <art>
+    <item id="5475457f-8ef4-4e95-8d8f-a1318af7007e">
+      <image file="Art\5475457f-8ef4-4e95-8d8f-a1318af7007e\5475457f-8ef4-4e95-8d8f-a1318af7007e.gif" metadataAssetGuid="5475457f-8ef4-4e95-8d8f-a1318af7007e">
+        <title>errorps</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

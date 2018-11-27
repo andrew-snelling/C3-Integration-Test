@@ -1,6 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="fbd74f45-6acc-4647-8dcf-1c48689c6cfa" assetTypeId="CompanionFile">
-  <topic id="fbd74f45-6acc-4647-8dcf-1c48689c6cfa">
+  <topic id="fbd74f45-6acc-4647-8dcf-1c48689c6cfa" revisionNumber="16" createDate="">
     <title>DRAFT - DON'T PUBLISH - SCRAPS 2019</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">fbd74f45-6acc-4647-8dcf-1c48689c6cfa</attribute>
+  </attributes>
+  <art>
+    <item id="972f3492-4573-485e-91df-0c51aa84ed99">
+      <image file="Art\972f3492-4573-485e-91df-0c51aa84ed99\972f3492-4573-485e-91df-0c51aa84ed99.png" metadataAssetGuid="972f3492-4573-485e-91df-0c51aa84ed99">
+        <title>Funnel chart example</title>
+        <altText>Funnel chart showing sales pipeline; stages listed in the first column, values in the second</altText>
+      </image>
+    </item>
+    <item id="96be2fcc-a80d-486c-8575-0ccad1fe0ca8">
+      <image file="Art\96be2fcc-a80d-486c-8575-0ccad1fe0ca8\96be2fcc-a80d-486c-8575-0ccad1fe0ca8.png" metadataAssetGuid="96be2fcc-a80d-486c-8575-0ccad1fe0ca8">
+        <title>XL16WinBoxWhiskerChartExample</title>
+        <altText>Sample box and whisker chart</altText>
+      </image>
+    </item>
+    <item id="b2eeff9b-a0e4-4113-96b9-2804ceae3c50">
+      <image file="Art\b2eeff9b-a0e4-4113-96b9-2804ceae3c50\b2eeff9b-a0e4-4113-96b9-2804ceae3c50.png" metadataAssetGuid="b2eeff9b-a0e4-4113-96b9-2804ceae3c50">
+        <title>Excel_PQ_Import_GetData</title>
+        <altText>Data &gt; Get &amp; Transform &gt; Get Data options</altText>
+      </image>
+    </item>
+    <item id="bf52dcc4-3a1e-4db3-bf2c-2f796d01f01e">
+      <image file="Art\bf52dcc4-3a1e-4db3-bf2c-2f796d01f01e\bf52dcc4-3a1e-4db3-bf2c-2f796d01f01e.png" metadataAssetGuid="bf52dcc4-3a1e-4db3-bf2c-2f796d01f01e">
+        <title>ForecastSbeetXL16</title>
+        <altText>Part of a spreadsheet showing the table of forecasted numbers and a forecast chart</altText>
+      </image>
+    </item>
+    <item id="6ebd7d45-d818-433f-94bf-34d1e19f92ce">
+      <image file="Art\6ebd7d45-d818-433f-94bf-34d1e19f92ce\6ebd7d45-d818-433f-94bf-34d1e19f92ce.png" metadataAssetGuid="6ebd7d45-d818-433f-94bf-34d1e19f92ce">
+        <title>Excel 2016 Stock Chart</title>
+        <altText>Stock chart</altText>
+      </image>
+    </item>
+    <item id="0986e974-59f3-4c38-b5a1-79eebcca60df">
+      <image file="Art\0986e974-59f3-4c38-b5a1-79eebcca60df\0986e974-59f3-4c38-b5a1-79eebcca60df.png" metadataAssetGuid="0986e974-59f3-4c38-b5a1-79eebcca60df">
+        <title>o15_xl_PowerMap_kiosk_mode</title>
+        <altText>Power Map tour set to replay</altText>
+      </image>
+    </item>
+    <item id="b3bfff05-380e-4dd9-b49b-7a2bfd128870">
+      <image file="Art\b3bfff05-380e-4dd9-b49b-7a2bfd128870\b3bfff05-380e-4dd9-b49b-7a2bfd128870.png" metadataAssetGuid="b3bfff05-380e-4dd9-b49b-7a2bfd128870">
+        <title>XL16WinTreemapChartExample</title>
+        <altText>Example of a Treemap Chart in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="7b69b6e4-5bbf-4656-94e8-810e8f6ecd43">
+      <image file="Art\7b69b6e4-5bbf-4656-94e8-810e8f6ecd43\7b69b6e4-5bbf-4656-94e8-810e8f6ecd43.png" metadataAssetGuid="7b69b6e4-5bbf-4656-94e8-810e8f6ecd43">
+        <title>PQ_ColumnExample_01</title>
+        <altText>Power Query combine columns with example option on teh Add Column tab</altText>
+      </image>
+    </item>
+    <item id="d5436121-4026-4a6e-a2c0-880707fe0a05">
+      <image file="Art\d5436121-4026-4a6e-a2c0-880707fe0a05\d5436121-4026-4a6e-a2c0-880707fe0a05.png" metadataAssetGuid="d5436121-4026-4a6e-a2c0-880707fe0a05">
+        <title>XL16WinParetoChartEx</title>
+        <altText>Example of a Pareto chart</altText>
+      </image>
+    </item>
+    <item id="eb234cf8-1004-49bc-bfee-a50602ac492a">
+      <image file="Art\eb234cf8-1004-49bc-bfee-a50602ac492a\eb234cf8-1004-49bc-bfee-a50602ac492a.png" metadataAssetGuid="eb234cf8-1004-49bc-bfee-a50602ac492a">
+        <title>XL16WinSunburstChart</title>
+        <altText>Picture of a Sunburst Chart in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="de2e3f0c-fbae-4a92-8e8a-a641b4db8d60">
+      <image file="Art\de2e3f0c-fbae-4a92-8e8a-a641b4db8d60\de2e3f0c-fbae-4a92-8e8a-a641b4db8d60.png" metadataAssetGuid="de2e3f0c-fbae-4a92-8e8a-a641b4db8d60">
+        <title>Excel_MapChart_Value</title>
+        <altText>Excel MapChart with Value data</altText>
+      </image>
+    </item>
+    <item id="18dac70a-c51a-48c0-83cd-baa9ab38e683">
+      <image file="Art\18dac70a-c51a-48c0-83cd-baa9ab38e683\18dac70a-c51a-48c0-83cd-baa9ab38e683.png" metadataAssetGuid="18dac70a-c51a-48c0-83cd-baa9ab38e683">
+        <title>XL16WinWaterfallChartGraph</title>
+        <altText>Example of a Waterfall chart</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

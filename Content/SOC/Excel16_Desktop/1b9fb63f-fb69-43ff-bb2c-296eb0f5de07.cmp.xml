@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="1b9fb63f-fb69-43ff-bb2c-296eb0f5de07" assetTypeId="CompanionFile">
-  <topic id="1b9fb63f-fb69-43ff-bb2c-296eb0f5de07">
+  <topic id="1b9fb63f-fb69-43ff-bb2c-296eb0f5de07" revisionNumber="2" createDate="2018-02-14T19:52:00.000">
     <title>Placeholder</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.assetid">1b9fb63f-fb69-43ff-bb2c-296eb0f5de07</attribute>
+  </attributes>
 </metadata>

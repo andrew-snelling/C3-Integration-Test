@@ -1,6 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="254bbf9a-1ce1-459f-914a-4902e8ca9217" assetTypeId="CompanionFile">
-  <topic id="254bbf9a-1ce1-459f-914a-4902e8ca9217">
+  <topic id="254bbf9a-1ce1-459f-914a-4902e8ca9217" revisionNumber="15" createDate="2014-10-08T02:14:00.000">
     <title>Save a chart as a picture</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Save a chart to a separate picture file that you can embed or add into another program that supports common picture formats, such as .jpg, .gif, or .png.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">Uncategorized</attribute>
+    <attribute name="DCSext.Platforms">Desktop</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">1486709</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">d9f0bd93-f460-4899-82fa-23457071873c</attribute>
+    <attribute name="search.operatingSystem">Uncategorized</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.platform">Desktop</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZPP150</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD150</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">254bbf9a-1ce1-459f-914a-4902e8ca9217</attribute>
+  </attributes>
+  <art>
+    <item id="8654a1fe-f6bc-492a-9f72-1865a8fa06a1">
+      <image file="Art\8654a1fe-f6bc-492a-9f72-1865a8fa06a1\8654a1fe-f6bc-492a-9f72-1865a8fa06a1.png" metadataAssetGuid="8654a1fe-f6bc-492a-9f72-1865a8fa06a1">
+        <title>Paste Special DB</title>
+        <altText>Top part of Paste Special dialog box</altText>
+      </image>
+    </item>
+    <item id="feafda70-1b74-4165-86aa-76037b418e29">
+      <image file="Art\feafda70-1b74-4165-86aa-76037b418e29\feafda70-1b74-4165-86aa-76037b418e29.png" metadataAssetGuid="feafda70-1b74-4165-86aa-76037b418e29">
+        <title>PowerPointSavePict</title>
+        <altText>Chart with right-click shortcut menu open and Save as Picture command highlighted</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="e336776e-458d-422d-b1e5-0a574f36f0d0" assetTypeId="CompanionFile">
-  <topic id="e336776e-458d-422d-b1e5-0a574f36f0d0">
+  <topic id="e336776e-458d-422d-b1e5-0a574f36f0d0" revisionNumber="-1" createDate="">
     <title>Formulas</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">e336776e-458d-422d-b1e5-0a574f36f0d0</attribute>
+  </attributes>
 </metadata>

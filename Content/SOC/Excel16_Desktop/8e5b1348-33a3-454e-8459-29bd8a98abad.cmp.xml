@@ -1,6 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="8e5b1348-33a3-454e-8459-29bd8a98abad" assetTypeId="CompanionFile">
-  <topic id="8e5b1348-33a3-454e-8459-29bd8a98abad">
+  <topic id="8e5b1348-33a3-454e-8459-29bd8a98abad" revisionNumber="2" createDate="2015-08-27T17:08:00.000">
     <title>Change the size of shapes in 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Make the proportions of data visualizations in 3D Maps look right by adjusting their height and thickness in Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Office_shape_topics</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511363</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">8e5b1348-33a3-454e-8459-29bd8a98abad</attribute>
+  </attributes>
+  <art>
+    <item id="1082c4b3-2723-415d-91f6-141b9a07723c">
+      <image file="Art\1082c4b3-2723-415d-91f6-141b9a07723c\1082c4b3-2723-415d-91f6-141b9a07723c.png" metadataAssetGuid="1082c4b3-2723-415d-91f6-141b9a07723c">
+        <title>O16_3DMaps_SizeSlider</title>
+        <altText>Slider control for adjusting shape size</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

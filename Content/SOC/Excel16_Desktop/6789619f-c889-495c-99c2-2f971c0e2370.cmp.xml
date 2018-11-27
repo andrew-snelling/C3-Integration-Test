@@ -1,6 +1,106 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="6789619f-c889-495c-99c2-2f971c0e2370" assetTypeId="CompanionFile">
-  <topic id="6789619f-c889-495c-99c2-2f971c0e2370">
+  <topic id="6789619f-c889-495c-99c2-2f971c0e2370" revisionNumber="8" createDate="2014-05-16T20:58:00.000">
     <title>Format an Excel table</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_ANALYZE_DATA</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_ANALYZE_DATA_TABLES</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Format an Excel table by applying different table styles or colors.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010013769</attribute>
+    <attribute name="OCMS Asset ID">HA102809791</attribute>
+    <attribute name="OCMS Asset ID">HA102927705</attribute>
+    <attribute name="OCMS Version">13.0</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA010013769</attribute>
+    <attribute name="Search.OCMSasset">HA102809791</attribute>
+    <attribute name="Search.OCMSasset">HA102927705</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL140</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">6789619f-c889-495c-99c2-2f971c0e2370</attribute>
+  </attributes>
+  <art>
+    <item id="42b93401-f0d0-43a5-b119-1d7457dd11c4">
+      <image file="Art\42b93401-f0d0-43a5-b119-1d7457dd11c4\42b93401-f0d0-43a5-b119-1d7457dd11c4.png" metadataAssetGuid="42b93401-f0d0-43a5-b119-1d7457dd11c4">
+        <title>Excel_Table_Format</title>
+        <altText>Excel Style Gallery selections for Format as Table</altText>
+      </image>
+    </item>
+    <item id="3187035b-d26f-40df-b373-9438041dbd22">
+      <image file="Art\3187035b-d26f-40df-b373-9438041dbd22\3187035b-d26f-40df-b373-9438041dbd22.png" metadataAssetGuid="3187035b-d26f-40df-b373-9438041dbd22">
+        <title>Excel_TableTools</title>
+        <altText>Image of the Table Tools option on the Ribbon when a table cell is selected</altText>
+      </image>
+    </item>
+    <item id="3dd2b79b-9160-403d-9967-af893d17b580">
+      <image file="Art\3dd2b79b-9160-403d-9967-af893d17b580\3dd2b79b-9160-403d-9967-af893d17b580.png" metadataAssetGuid="3dd2b79b-9160-403d-9967-af893d17b580">
+        <title>Excel_TableOverview</title>
+        <altText>Example of data formatted as an Excel table</altText>
+      </image>
+    </item>
+    <item id="886a4e34-ecdd-4313-8e5d-e923effb087f">
+      <image file="Art\886a4e34-ecdd-4313-8e5d-e923effb087f\886a4e34-ecdd-4313-8e5d-e923effb087f.png" metadataAssetGuid="886a4e34-ecdd-4313-8e5d-e923effb087f">
+        <title>Excel_Table_NewStyle</title>
+        <altText>New Table Style dialog options for applying custom styles to a table</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

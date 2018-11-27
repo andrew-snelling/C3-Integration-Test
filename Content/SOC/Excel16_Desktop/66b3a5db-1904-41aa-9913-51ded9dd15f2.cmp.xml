@@ -1,7 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="66b3a5db-1904-41aa-9913-51ded9dd15f2" assetTypeId="CompanionFile">
-  <topic id="66b3a5db-1904-41aa-9913-51ded9dd15f2">
+  <topic id="66b3a5db-1904-41aa-9913-51ded9dd15f2" revisionNumber="13" createDate="2018-03-20T15:05:00.000">
     <title>#FIELD! error</title>
     <tableOfContentsTitle>#FIELD! error</tableOfContentsTitle>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">The FIELD! error occurs when you are trying to reference data from another column. This article will show you specific reasons why it occurs and what you can do about it. </attribute>
+    <attribute name="Context Sensitive Help Access">Type MSFT in cell A1. On the Data tab, click Stock to convert to a yellow rich value. Now in B1, type =A1.foo and enter.</attribute>
+    <attribute name="Context Sensitive ID">110853</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">ExcelProjectYellow</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">110853</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">66b3a5db-1904-41aa-9913-51ded9dd15f2</attribute>
+  </attributes>
+  <art>
+    <item id="ca800b7c-040f-4638-abcc-0c1a2a709578">
+      <image file="Art\ca800b7c-040f-4638-abcc-0c1a2a709578\ca800b7c-040f-4638-abcc-0c1a2a709578.png" metadataAssetGuid="ca800b7c-040f-4638-abcc-0c1a2a709578">
+        <title>Ignore a #FIELD! error_c3m_2018227135241</title>
+        <altText>Ignore a #FIELD! error</altText>
+        <localizedText>Localized text not available</localizedText>
+      </image>
+    </item>
+  </art>
 </metadata>

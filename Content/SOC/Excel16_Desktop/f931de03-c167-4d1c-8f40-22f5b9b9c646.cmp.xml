@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="f931de03-c167-4d1c-8f40-22f5b9b9c646" assetTypeId="CompanionFile">
-  <topic id="f931de03-c167-4d1c-8f40-22f5b9b9c646">
+  <topic id="f931de03-c167-4d1c-8f40-22f5b9b9c646" revisionNumber="5" createDate="2018-01-27T00:12:00.000">
     <title>Apply data validation to cells [F1 optimizely test]</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.assetid">f931de03-c167-4d1c-8f40-22f5b9b9c646</attribute>
+  </attributes>
 </metadata>

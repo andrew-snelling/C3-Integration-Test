@@ -1,6 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="5fca57b7-8c52-4e09-979a-631085113862" assetTypeId="CompanionFile">
-  <topic id="5fca57b7-8c52-4e09-979a-631085113862">
+  <topic id="5fca57b7-8c52-4e09-979a-631085113862" revisionNumber="9" createDate="2014-10-21T17:46:00.000">
     <title>Select data for a chart</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">7/17/2012 7:00:00 AM</attribute>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_ANALYZE_DATA</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_ANALYZE_DATA_CHARTS</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn best ways to select a range of data to create a chart, and how that data needs to be arranged for specific charts.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="OCMS Asset ID">HA102809318</attribute>
+    <attribute name="OCMS Version">1.20</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA102809318</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">5fca57b7-8c52-4e09-979a-631085113862</attribute>
+  </attributes>
+  <art>
+    <item id="6ebd7d45-d818-433f-94bf-34d1e19f92ce">
+      <image file="Art\6ebd7d45-d818-433f-94bf-34d1e19f92ce\6ebd7d45-d818-433f-94bf-34d1e19f92ce.png" metadataAssetGuid="6ebd7d45-d818-433f-94bf-34d1e19f92ce">
+        <title>Excel 2016 Stock Chart</title>
+        <altText>Stock chart</altText>
+      </image>
+    </item>
+    <item id="12318b63-5c57-43e7-9e6b-61db8768bdac">
+      <image file="Art\12318b63-5c57-43e7-9e6b-61db8768bdac\12318b63-5c57-43e7-9e6b-61db8768bdac.png" metadataAssetGuid="12318b63-5c57-43e7-9e6b-61db8768bdac">
+        <title>Excel 2016 Bar Chart</title>
+        <altText>Column chart</altText>
+      </image>
+    </item>
+    <item id="0196ca5a-ea1a-468c-bbeb-642eb0e64634">
+      <image file="Art\0196ca5a-ea1a-468c-bbeb-642eb0e64634\0196ca5a-ea1a-468c-bbeb-642eb0e64634.png" metadataAssetGuid="0196ca5a-ea1a-468c-bbeb-642eb0e64634">
+        <title>Excel 2016 Area Chart</title>
+        <altText>Area chart</altText>
+      </image>
+    </item>
+    <item id="f0de1f8c-978f-41c1-b6e3-7003a9dea304">
+      <image file="Art\f0de1f8c-978f-41c1-b6e3-7003a9dea304\f0de1f8c-978f-41c1-b6e3-7003a9dea304.png" metadataAssetGuid="f0de1f8c-978f-41c1-b6e3-7003a9dea304">
+        <title>Excel 2016 Scatter Chart</title>
+        <altText>Scatter chart</altText>
+      </image>
+    </item>
+    <item id="3739c489-7f9e-46fa-9144-a3b6d0205c8f">
+      <image file="Art\3739c489-7f9e-46fa-9144-a3b6d0205c8f\3739c489-7f9e-46fa-9144-a3b6d0205c8f.png" metadataAssetGuid="3739c489-7f9e-46fa-9144-a3b6d0205c8f">
+        <title>Excel 2016 Doughnut Chart</title>
+        <altText>Dougnut chart</altText>
+      </image>
+    </item>
+    <item id="83fb7ec3-b7e9-4bf4-8688-b1ad6833480e">
+      <image file="Art\83fb7ec3-b7e9-4bf4-8688-b1ad6833480e\83fb7ec3-b7e9-4bf4-8688-b1ad6833480e.png" metadataAssetGuid="83fb7ec3-b7e9-4bf4-8688-b1ad6833480e">
+        <title>Excel 2016 Pie Chart</title>
+        <altText>Pie chart</altText>
+      </image>
+    </item>
+    <item id="949b2a89-d5fb-4f18-a106-f8453c3ba623">
+      <image file="Art\949b2a89-d5fb-4f18-a106-f8453c3ba623\949b2a89-d5fb-4f18-a106-f8453c3ba623.png" metadataAssetGuid="949b2a89-d5fb-4f18-a106-f8453c3ba623">
+        <title>Excel 2016 Bubble Chart</title>
+        <altText>Bubble chart</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

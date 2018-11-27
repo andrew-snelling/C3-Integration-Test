@@ -1,6 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="68de05ef-2d0f-4c4f-b7af-f4431376bb4f" assetTypeId="CompanionFile">
-  <topic id="68de05ef-2d0f-4c4f-b7af-f4431376bb4f">
+  <topic id="68de05ef-2d0f-4c4f-b7af-f4431376bb4f" revisionNumber="1" createDate="2015-08-27T15:01:00.000">
     <title>Export a 3D Maps tour as a video</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Create an audio/video file of your 3D Maps tour so people can view it.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511349</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">68de05ef-2d0f-4c4f-b7af-f4431376bb4f</attribute>
+  </attributes>
+  <art>
+    <item id="28858004-1bef-4725-92a1-1dc58769e32f">
+      <image file="Art\28858004-1bef-4725-92a1-1dc58769e32f\28858004-1bef-4725-92a1-1dc58769e32f.png" metadataAssetGuid="28858004-1bef-4725-92a1-1dc58769e32f">
+        <title>O16_3DMaps_PlayTour</title>
+        <altText>3D Maps Play Tour option</altText>
+      </image>
+    </item>
+    <item id="d671be33-b423-44f8-85df-bb16c074355d">
+      <image file="Art\d671be33-b423-44f8-85df-bb16c074355d\d671be33-b423-44f8-85df-bb16c074355d.png" metadataAssetGuid="d671be33-b423-44f8-85df-bb16c074355d">
+        <title>o15_xl_powermap_create_video_dialog_1</title>
+        <altText>Create Video dialog box</altText>
+      </image>
+    </item>
+    <item id="dc3fa7e1-950d-48e0-a607-cf33803b5ba3">
+      <image file="Art\dc3fa7e1-950d-48e0-a607-cf33803b5ba3\dc3fa7e1-950d-48e0-a607-cf33803b5ba3.png" metadataAssetGuid="dc3fa7e1-950d-48e0-a607-cf33803b5ba3">
+        <title>o15_xl_pm_soundtrackoptions_db</title>
+        <altText>Soundtrack Options dialog box</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

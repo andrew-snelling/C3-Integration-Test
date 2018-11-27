@@ -1,6 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="baf54a2c-25b0-4c80-83be-1a4182081377" assetTypeId="CompanionFile">
-  <topic id="baf54a2c-25b0-4c80-83be-1a4182081377">
+  <topic id="baf54a2c-25b0-4c80-83be-1a4182081377" revisionNumber="1" createDate="2014-10-27T23:37:00.000">
     <title>Paste Special when copying from programs other than Excel</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive Help Access">For 21271 - Open a word doc and create a table - Create a table in the word doc - Highlight and copy the table - Open Excel, right click on a cell, select Paste Special - In the dialog that opens up, click the question mark in the title bar</attribute>
+    <attribute name="Context Sensitive ID">21271</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm1048364</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm21171</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm553714098</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="OCMS Asset ID">HP001230226</attribute>
+    <attribute name="OCMS Version">7.0</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">21271</attribute>
+    <attribute name="search.contextid">xlmain11.chm1048364</attribute>
+    <attribute name="search.contextid">xlmain11.chm21171</attribute>
+    <attribute name="search.contextid">xlmain11.chm553714098</attribute>
+    <attribute name="Search.OCMSasset">HP001230226</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">baf54a2c-25b0-4c80-83be-1a4182081377</attribute>
+  </attributes>
 </metadata>

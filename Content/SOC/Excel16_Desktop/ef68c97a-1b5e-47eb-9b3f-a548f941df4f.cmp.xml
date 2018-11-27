@@ -1,6 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="ef68c97a-1b5e-47eb-9b3f-a548f941df4f" assetTypeId="CompanionFile">
-  <topic id="ef68c97a-1b5e-47eb-9b3f-a548f941df4f">
+  <topic id="ef68c97a-1b5e-47eb-9b3f-a548f941df4f" revisionNumber="3" createDate="2015-07-21T19:46:00.000">
     <title>Conditional formatting compatibility issues</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Before you continue saving the workbook to an earlier file format, you should address issues that cause a significant loss of functionality so that you can prevent permanent loss of data or incorrect functionality. Issues that cause a minor loss of fidelity might or might not have to be resolved before you continue saving the workbook.</attribute>
+    <attribute name="Context Sensitive ID">157824</attribute>
+    <attribute name="Context Sensitive ID">163562</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm11170</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm120880</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm122986</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm130090</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm186047</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm194482</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm194482</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm29889</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm44593</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5890</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm72168</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm85339</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm93115</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm99237</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm99237</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm99353</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010172665</attribute>
+    <attribute name="OCMS Asset ID">HA010342289</attribute>
+    <attribute name="OCMS Asset ID">HA102919742</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">157824</attribute>
+    <attribute name="search.contextid">163562</attribute>
+    <attribute name="search.contextid">xlmain11.chm11170</attribute>
+    <attribute name="search.contextid">xlmain11.chm120880</attribute>
+    <attribute name="search.contextid">xlmain11.chm122986</attribute>
+    <attribute name="search.contextid">xlmain11.chm130090</attribute>
+    <attribute name="search.contextid">xlmain11.chm186047</attribute>
+    <attribute name="search.contextid">xlmain11.chm194482</attribute>
+    <attribute name="search.contextid">xlmain11.chm194482</attribute>
+    <attribute name="search.contextid">xlmain11.chm29889</attribute>
+    <attribute name="search.contextid">xlmain11.chm44593</attribute>
+    <attribute name="search.contextid">xlmain11.chm5890</attribute>
+    <attribute name="search.contextid">xlmain11.chm72168</attribute>
+    <attribute name="search.contextid">xlmain11.chm85339</attribute>
+    <attribute name="search.contextid">xlmain11.chm93115</attribute>
+    <attribute name="search.contextid">xlmain11.chm99237</attribute>
+    <attribute name="search.contextid">xlmain11.chm99237</attribute>
+    <attribute name="search.contextid">xlmain11.chm99353</attribute>
+    <attribute name="Search.OCMSasset">HA010172665</attribute>
+    <attribute name="Search.OCMSasset">HA010342289</attribute>
+    <attribute name="Search.OCMSasset">HA102919742</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">ef68c97a-1b5e-47eb-9b3f-a548f941df4f</attribute>
+  </attributes>
 </metadata>

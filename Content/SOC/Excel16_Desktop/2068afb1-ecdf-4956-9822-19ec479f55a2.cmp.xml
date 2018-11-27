@@ -1,6 +1,126 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="2068afb1-ecdf-4956-9822-19ec479f55a2" assetTypeId="CompanionFile">
-  <topic id="2068afb1-ecdf-4956-9822-19ec479f55a2">
+  <topic id="2068afb1-ecdf-4956-9822-19ec479f55a2" revisionNumber="7" createDate="2014-10-27T23:37:00.000">
     <title>Switch between various sets of values by using scenarios</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive Help Access">21056 - Data tab --&gt; what-if analysis --&gt; scenario manager --&gt;?</attribute>
+    <attribute name="Context Sensitive Help Access">REPRO for 21168 - Add a couple of scenarios and get back to the scenaro manager. Choose Merge... and click the ? in the dialog.</attribute>
+    <attribute name="Context Sensitive ID">21056</attribute>
+    <attribute name="Context Sensitive ID">21057</attribute>
+    <attribute name="Context Sensitive ID">21168</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5203889</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="OCMS Asset ID">HP010072669</attribute>
+    <attribute name="OCMS Version">7.0</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">21056</attribute>
+    <attribute name="search.contextid">21057</attribute>
+    <attribute name="search.contextid">21168</attribute>
+    <attribute name="search.contextid">xlmain11.chm5203889</attribute>
+    <attribute name="Search.OCMSasset">HP010072669</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">2068afb1-ecdf-4956-9822-19ec479f55a2</attribute>
+  </attributes>
+  <art>
+    <item id="a8023cfa-3435-4308-b761-1f180fd83433">
+      <image file="Art\a8023cfa-3435-4308-b761-1f180fd83433\a8023cfa-3435-4308-b761-1f180fd83433.png" metadataAssetGuid="a8023cfa-3435-4308-b761-1f180fd83433">
+        <title>Scenarios - Ex8</title>
+        <altText>Scenario Summary dialog</altText>
+      </image>
+    </item>
+    <item id="75ba4ea1-5494-47b5-bc8a-23d4e9182588">
+      <image file="Art\75ba4ea1-5494-47b5-bc8a-23d4e9182588\75ba4ea1-5494-47b5-bc8a-23d4e9182588.png" metadataAssetGuid="75ba4ea1-5494-47b5-bc8a-23d4e9182588">
+        <title>Scenarios - Ex2</title>
+        <altText>Get to the Scenario Manager from Data &gt; Forecast ? What-If Analysis</altText>
+      </image>
+    </item>
+    <item id="2a27fe32-6c58-456f-84ec-2e4e4cf7a096">
+      <image file="Art\2a27fe32-6c58-456f-84ec-2e4e4cf7a096\2a27fe32-6c58-456f-84ec-2e4e4cf7a096.png" metadataAssetGuid="2a27fe32-6c58-456f-84ec-2e4e4cf7a096">
+        <title>Scenarios - Ex1</title>
+        <altText>Scenario - Setting up a Scenario with Changing and Result cells</altText>
+      </image>
+    </item>
+    <item id="c5e7ca56-6a2e-4954-87fe-45ba3d6d49dd">
+      <image file="Art\c5e7ca56-6a2e-4954-87fe-45ba3d6d49dd\c5e7ca56-6a2e-4954-87fe-45ba3d6d49dd.png" metadataAssetGuid="c5e7ca56-6a2e-4954-87fe-45ba3d6d49dd">
+        <title>Scenarios - Ex7</title>
+        <altText>Merge Scenarios dialog</altText>
+      </image>
+    </item>
+    <item id="59ac5a3b-e76f-40c9-bbb6-734e8d708682">
+      <image file="Art\59ac5a3b-e76f-40c9-bbb6-734e8d708682\59ac5a3b-e76f-40c9-bbb6-734e8d708682.png" metadataAssetGuid="59ac5a3b-e76f-40c9-bbb6-734e8d708682">
+        <title>Scenarios - Ex3</title>
+        <altText>Scenario Manger wizard</altText>
+      </image>
+    </item>
+    <item id="e21f155c-99c4-4e3e-9803-948fdbca4f33">
+      <image file="Art\e21f155c-99c4-4e3e-9803-948fdbca4f33\e21f155c-99c4-4e3e-9803-948fdbca4f33.png" metadataAssetGuid="e21f155c-99c4-4e3e-9803-948fdbca4f33">
+        <title>Scenarios - Ex4</title>
+        <altText>Set up a Worst Case Scenario</altText>
+      </image>
+    </item>
+    <item id="bc286294-2b55-4b89-b31e-bae08d706068">
+      <image file="Art\bc286294-2b55-4b89-b31e-bae08d706068\bc286294-2b55-4b89-b31e-bae08d706068.png" metadataAssetGuid="bc286294-2b55-4b89-b31e-bae08d706068">
+        <title>Scenarios - Ex6</title>
+        <altText>Best Case Scenario</altText>
+      </image>
+    </item>
+    <item id="b0c991f3-b740-457d-8012-be7306adfbb7">
+      <image file="Art\b0c991f3-b740-457d-8012-be7306adfbb7\b0c991f3-b740-457d-8012-be7306adfbb7.png" metadataAssetGuid="b0c991f3-b740-457d-8012-be7306adfbb7">
+        <title>Scenarios - Ex11</title>
+        <altText>Scenario PivotTable report</altText>
+      </image>
+    </item>
+    <item id="1b4cc464-6126-43cb-9344-c06a9ffda436">
+      <image file="Art\1b4cc464-6126-43cb-9344-c06a9ffda436\1b4cc464-6126-43cb-9344-c06a9ffda436.png" metadataAssetGuid="1b4cc464-6126-43cb-9344-c06a9ffda436">
+        <title>Scenarios - Ex10</title>
+        <altText>Scenario summary with Named Ranges</altText>
+      </image>
+    </item>
+    <item id="97ca3aaf-b401-4386-826f-cc3822d2ebf5">
+      <image file="Art\97ca3aaf-b401-4386-826f-cc3822d2ebf5\97ca3aaf-b401-4386-826f-cc3822d2ebf5.png" metadataAssetGuid="97ca3aaf-b401-4386-826f-cc3822d2ebf5">
+        <title>Scenarios - Ex9</title>
+        <altText>Scenario summary with cell references</altText>
+      </image>
+    </item>
+    <item id="69a1e98c-2edd-4239-99e6-ccb162300899">
+      <image file="Art\69a1e98c-2edd-4239-99e6-ccb162300899\69a1e98c-2edd-4239-99e6-ccb162300899.png" metadataAssetGuid="69a1e98c-2edd-4239-99e6-ccb162300899">
+        <title>Scenarios - Ex5</title>
+        <altText>Switch between Scenarios</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

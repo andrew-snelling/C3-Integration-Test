@@ -1,6 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="150fc205-990a-4763-82f1-6c259303fe05" assetTypeId="CompanionFile">
-  <topic id="150fc205-990a-4763-82f1-6c259303fe05">
+  <topic id="150fc205-990a-4763-82f1-6c259303fe05" revisionNumber="13" createDate="2017-07-25T16:06:00.000">
     <title>What happened to shared workbooks?</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Wondering where the Shared Workbook buttons went in Excel 2016? This article will explain what happened and how to get them back. </attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="Set_Free_Tag">xlcoauth</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">150fc205-990a-4763-82f1-6c259303fe05</attribute>
+  </attributes>
+  <art>
+    <item id="c71bc89f-5437-44b9-b3c1-112b763f5b28">
+      <image file="Art\c71bc89f-5437-44b9-b3c1-112b763f5b28\c71bc89f-5437-44b9-b3c1-112b763f5b28.png" metadataAssetGuid="c71bc89f-5437-44b9-b3c1-112b763f5b28">
+        <title>Excel Coauthoring Protect and Share button</title>
+        <altText>Protect and Share Button</altText>
+      </image>
+    </item>
+    <item id="a37724a4-c2e0-4121-870f-2b45664bcc3f">
+      <image file="Art\a37724a4-c2e0-4121-870f-2b45664bcc3f\a37724a4-c2e0-4121-870f-2b45664bcc3f.png" metadataAssetGuid="a37724a4-c2e0-4121-870f-2b45664bcc3f">
+        <title>Excel Share Workbook button</title>
+        <altText>Share Workbook</altText>
+      </image>
+    </item>
+    <item id="b9591447-f4e9-481d-b506-6e3214e9b418">
+      <image file="Art\b9591447-f4e9-481d-b506-6e3214e9b418\b9591447-f4e9-481d-b506-6e3214e9b418.png" metadataAssetGuid="b9591447-f4e9-481d-b506-6e3214e9b418">
+        <title>Excel Coauthoring Compare and Merge button</title>
+        <altText>Compare and Merge button</altText>
+      </image>
+    </item>
+    <item id="c349509c-7eeb-41a2-a9da-faa713a10a09">
+      <image file="Art\c349509c-7eeb-41a2-a9da-faa713a10a09\c349509c-7eeb-41a2-a9da-faa713a10a09.png" metadataAssetGuid="c349509c-7eeb-41a2-a9da-faa713a10a09">
+        <title>Excel Track Changes button</title>
+        <altText>Track Changes button</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

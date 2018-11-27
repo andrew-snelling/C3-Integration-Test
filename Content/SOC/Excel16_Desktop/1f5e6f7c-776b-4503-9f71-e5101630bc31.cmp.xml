@@ -1,6 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="1f5e6f7c-776b-4503-9f71-e5101630bc31" assetTypeId="CompanionFile">
-  <topic id="1f5e6f7c-776b-4503-9f71-e5101630bc31">
+  <topic id="1f5e6f7c-776b-4503-9f71-e5101630bc31" revisionNumber="4" createDate="2015-08-31T20:57:00.000">
     <title>Add or move a scene in 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">A Microsoft 3D Map tour can show a time-based relationship between geographic locations and their associated data—such as population numbers, temperature highs or lows, or flight arrival delays. When you start 3D Map from a workbook that doesn’t already contain a tour, a new tour with a single scene is automatically created. Tours and scenes are the basic way to save the 3D Map visualizations of your data.  Use additional scenes in a 3D Maps tour to show other data sets or focus on different data points in Excel 106 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511335</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">1f5e6f7c-776b-4503-9f71-e5101630bc31</attribute>
+  </attributes>
+  <art>
+    <item id="42db74bf-f543-4ae9-abd7-6b687e7c0611">
+      <image file="Art\42db74bf-f543-4ae9-abd7-6b687e7c0611\42db74bf-f543-4ae9-abd7-6b687e7c0611.JPG" metadataAssetGuid="42db74bf-f543-4ae9-abd7-6b687e7c0611">
+        <title>Add scene in Excel 2016 for Windows</title>
+        <altText>Add scene</altText>
+      </image>
+    </item>
+    <item id="5bb0ad0b-6223-489b-9680-eb7874ddf455">
+      <image file="Art\5bb0ad0b-6223-489b-9680-eb7874ddf455\5bb0ad0b-6223-489b-9680-eb7874ddf455.png" metadataAssetGuid="5bb0ad0b-6223-489b-9680-eb7874ddf455">
+        <title>o15_xl_powermap_tour_pane_gear_icon</title>
+        <altText>Use the gear icon in a tour scene to set options</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

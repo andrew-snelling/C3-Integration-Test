@@ -1,6 +1,103 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="61a33056-9935-484f-8ac8-f1a89e210877" assetTypeId="CompanionFile">
-  <topic id="61a33056-9935-484f-8ac8-f1a89e210877">
+  <topic id="61a33056-9935-484f-8ac8-f1a89e210877" revisionNumber="60" createDate="2018-03-16T17:29:00.000">
     <title>Excel data types: Stocks and geography</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Get stock prices and geographic-based data using the Stocks and Geography data types. These two data types are new, and they are considered linked data types. This articles explains how to insert them.</attribute>
+    <attribute name="Context Sensitive Help Access">113098 -&gt; enter three stock tickers in three vertically orientated cells and the in app teaching callouts will appear</attribute>
+    <attribute name="Context Sensitive ID">113098</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">ExcelProjectYellow</attribute>
+    <attribute name="Set_Free_Tag">WhatsNewLearnMore</attribute>
+    <attribute name="Set_Free_Tag">yellow</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">113098</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">61a33056-9935-484f-8ac8-f1a89e210877</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="5c9e5a54-ddca-4e6b-b6f3-2ced995ffab6">
+      <image file="Art\5c9e5a54-ddca-4e6b-b6f3-2ced995ffab6\5c9e5a54-ddca-4e6b-b6f3-2ced995ffab6.png" metadataAssetGuid="5c9e5a54-ddca-4e6b-b6f3-2ced995ffab6">
+        <title>Excel Yellow Extract from Card</title>
+        <altText>Cursor resting over population field in card, and Extract button</altText>
+      </image>
+    </item>
+    <item id="3bd93428-5ca5-4300-a196-2dd04936abb9">
+      <image file="Art\3bd93428-5ca5-4300-a196-2dd04936abb9\3bd93428-5ca5-4300-a196-2dd04936abb9.png" metadataAssetGuid="3bd93428-5ca5-4300-a196-2dd04936abb9">
+        <title>Excel Yellow Data Types Geo Hero</title>
+        <altText>Column A contains icons and country names, Column B contains Population values, and Column C contains Gasonline Prices</altText>
+      </image>
+    </item>
+    <item id="f19a7e7b-9c50-452a-9e24-43b60c3ba800">
+      <image file="Art\f19a7e7b-9c50-452a-9e24-43b60c3ba800\f19a7e7b-9c50-452a-9e24-43b60c3ba800.png" metadataAssetGuid="f19a7e7b-9c50-452a-9e24-43b60c3ba800">
+        <title>Excel Yellow Stock Icon</title>
+        <altText>Linked record icon for Stock</altText>
+      </image>
+    </item>
+    <item id="ad5d401f-589a-45c1-9178-5a9f71a19f71">
+      <image file="Art\ad5d401f-589a-45c1-9178-5a9f71a19f71\ad5d401f-589a-45c1-9178-5a9f71a19f71.png" metadataAssetGuid="ad5d401f-589a-45c1-9178-5a9f71a19f71">
+        <title>Excel Yellow Card Hero</title>
+        <altText>Cell with linked record for France; cursor clicking icon; card revealed</altText>
+      </image>
+    </item>
+    <item id="1ab74b83-6e3b-4432-aa67-5b7562134ed9">
+      <image file="Art\1ab74b83-6e3b-4432-aa67-5b7562134ed9\1ab74b83-6e3b-4432-aa67-5b7562134ed9.png" metadataAssetGuid="1ab74b83-6e3b-4432-aa67-5b7562134ed9">
+        <title>Excel Yellow Add Column Button</title>
+        <altText>Add Column button</altText>
+      </image>
+    </item>
+    <item id="7a72c25b-b96d-4a1f-bd5d-610adf39bb41">
+      <image file="Art\7a72c25b-b96d-4a1f-bd5d-610adf39bb41\7a72c25b-b96d-4a1f-bd5d-610adf39bb41.png" metadataAssetGuid="7a72c25b-b96d-4a1f-bd5d-610adf39bb41">
+        <title>Excel Yellow Hero Formula Example</title>
+        <altText>Cell A2 contains "France"; Cell B2 contains =A2. and formula autocomplete menu appears with fields from linked record</altText>
+      </image>
+    </item>
+    <item id="758743e7-a2ca-42db-9f43-a45b05b1b077">
+      <image file="Art\758743e7-a2ca-42db-9f43-a45b05b1b077\758743e7-a2ca-42db-9f43-a45b05b1b077.png" metadataAssetGuid="758743e7-a2ca-42db-9f43-a45b05b1b077">
+        <title>Excel Yellow Data Types Stocks Hero</title>
+        <altText>Column A contains company names and icons, Column B contains Price values, and Column C contains Change values</altText>
+      </image>
+    </item>
+    <item id="7c73a931-efd4-4f68-bdb6-b964bf6c7e55">
+      <image file="Art\7c73a931-efd4-4f68-bdb6-b964bf6c7e55\7c73a931-efd4-4f68-bdb6-b964bf6c7e55.png" metadataAssetGuid="7c73a931-efd4-4f68-bdb6-b964bf6c7e55">
+        <title>Excel Yellow Geo Icon</title>
+        <altText>Linked record icon for Geography</altText>
+      </image>
+    </item>
+    <item id="5d764960-1f25-46f3-bd8a-bd672feae26c">
+      <image file="Art\5d764960-1f25-46f3-bd8a-bd672feae26c\5d764960-1f25-46f3-bd8a-bd672feae26c.png" metadataAssetGuid="5d764960-1f25-46f3-bd8a-bd672feae26c">
+        <title>Excel Yellow Sort Filter</title>
+        <altText>Filter menu, Display Value menu, fields from linked data type listed</altText>
+      </image>
+    </item>
+    <item id="7e2f9e10-d311-4a4e-8eae-d27ba89a2525">
+      <image file="Art\7e2f9e10-d311-4a4e-8eae-d27ba89a2525\7e2f9e10-d311-4a4e-8eae-d27ba89a2525.png" metadataAssetGuid="7e2f9e10-d311-4a4e-8eae-d27ba89a2525">
+        <title>Excel Yellow Extract button</title>
+        <altText>Extract button</altText>
+      </image>
+    </item>
+    <item id="09a25441-4fdc-4399-bf7f-f1a7062beb30">
+      <image file="Art\09a25441-4fdc-4399-bf7f-f1a7062beb30\09a25441-4fdc-4399-bf7f-f1a7062beb30.png" metadataAssetGuid="09a25441-4fdc-4399-bf7f-f1a7062beb30">
+        <title>Excel Yellow Question Mark Icon</title>
+        <altText>Question mark icon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

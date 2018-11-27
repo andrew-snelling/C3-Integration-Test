@@ -1,6 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="f8fc21a6-08fc-407a-8a91-643fa848729a" assetTypeId="CompanionFile">
-  <topic id="f8fc21a6-08fc-407a-8a91-643fa848729a">
+  <topic id="f8fc21a6-08fc-407a-8a91-643fa848729a" revisionNumber="13" createDate="2015-08-05T21:47:00.000">
     <title>Turn on Power View in Excel for Windows</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Wondering where the Power View button went? Want to get it back? It's been removed from the Insert tab, but you can follow the steps in this article to add it back.
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">not applied</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">f8fc21a6-08fc-407a-8a91-643fa848729a</attribute>
+  </attributes>
+  <art>
+    <item id="f8aa3c7b-6b0e-442a-8522-165ab9d2a8ac">
+      <image file="Art\f8aa3c7b-6b0e-442a-8522-165ab9d2a8ac\f8aa3c7b-6b0e-442a-8522-165ab9d2a8ac.png" metadataAssetGuid="f8aa3c7b-6b0e-442a-8522-165ab9d2a8ac">
+        <title>XL16WinPowerViewRename</title>
+        <altText>Rename button in Customize Ribbon dialog</altText>
+      </image>
+    </item>
+    <item id="bd3c95e0-1cb1-46e2-9587-20a48e1993c9">
+      <image file="Art\bd3c95e0-1cb1-46e2-9587-20a48e1993c9\bd3c95e0-1cb1-46e2-9587-20a48e1993c9.png" metadataAssetGuid="bd3c95e0-1cb1-46e2-9587-20a48e1993c9">
+        <title>XL16WinPivotViewEnableDialog</title>
+        <altText>Custom Pivot View button and dialog turning on the add-in in Excel</altText>
+      </image>
+    </item>
+    <item id="3cdceba1-85ce-4d8d-9cfe-6222c464454e">
+      <image file="Art\3cdceba1-85ce-4d8d-9cfe-6222c464454e\3cdceba1-85ce-4d8d-9cfe-6222c464454e.png" metadataAssetGuid="3cdceba1-85ce-4d8d-9cfe-6222c464454e">
+        <title>XL16WinCmdsNotRibbon</title>
+        <altText>Customize the ribbons box in Excel</altText>
+      </image>
+    </item>
+    <item id="7b26d462-2f2c-4aa8-9d05-a870e6ea95a7">
+      <image file="Art\7b26d462-2f2c-4aa8-9d05-a870e6ea95a7\7b26d462-2f2c-4aa8-9d05-a870e6ea95a7.png" metadataAssetGuid="7b26d462-2f2c-4aa8-9d05-a870e6ea95a7">
+        <title>XL16WinPowrerViewNewGrouo</title>
+        <altText>New Gtroup button in the Customizr Ribbon Excel options</altText>
+      </image>
+    </item>
+    <item id="8c946935-1b1e-4d1a-8f98-d01aec4771fa">
+      <image file="Art\8c946935-1b1e-4d1a-8f98-d01aec4771fa\8c946935-1b1e-4d1a-8f98-d01aec4771fa.png" metadataAssetGuid="8c946935-1b1e-4d1a-8f98-d01aec4771fa">
+        <title>XL16WinPowerViewCustRibbon</title>
+        <altText>File &gt; Options &gt; Customize ribbon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

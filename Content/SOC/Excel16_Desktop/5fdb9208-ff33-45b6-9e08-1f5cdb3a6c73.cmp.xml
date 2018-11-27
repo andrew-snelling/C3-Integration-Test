@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73" assetTypeId="CompanionFile">
-  <topic id="5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73">
+  <topic id="5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73" revisionNumber="218" createDate="2015-08-28T23:13:00.000">
     <title>What's new in Excel for Office 365</title>
     <keyword index="K">Charts</keyword>
     <keyword index="K">Data visualization</keyword>
@@ -11,4 +11,194 @@
     <keyword index="K">Power Query</keyword>
     <keyword index="K">PowerBI</keyword>
   </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_GET_STARTED</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_GET_STARTED_BASICS</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Here are some of the top new and improved features for Excel 2016 for Windows.
+
+</attribute>
+    <attribute name="Context Sensitive Help Access">FWLink 698515 from the Win32 What's New panel.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="loc.priority">1-Priority (5-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="Set_Free_Tag">CSS_Apps</attribute>
+    <attribute name="Set_Free_Tag">WhatsNewPane</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_SupportBridge">Consumer</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="e35e614e-8373-44cb-b2a1-17ce4b42a68f">
+      <image file="Art\e35e614e-8373-44cb-b2a1-17ce4b42a68f\e35e614e-8373-44cb-b2a1-17ce4b42a68f.png" metadataAssetGuid="e35e614e-8373-44cb-b2a1-17ce4b42a68f">
+        <title>WN_icon_Excel_36x24</title>
+        <altText>Excel</altText>
+      </image>
+    </item>
+    <item id="a9077de0-7396-47fa-ad14-1b9024cac562">
+      <image file="Art\a9077de0-7396-47fa-ad14-1b9024cac562\a9077de0-7396-47fa-ad14-1b9024cac562.png" metadataAssetGuid="a9077de0-7396-47fa-ad14-1b9024cac562">
+        <title>WN_Win32_Shared_Translator_365x195</title>
+        <altText>Translator button, and one word in English and its translation in French</altText>
+      </image>
+    </item>
+    <item id="540b1cee-c291-4d6b-80fc-1d7e1450f954">
+      <image file="Art\540b1cee-c291-4d6b-80fc-1d7e1450f954\540b1cee-c291-4d6b-80fc-1d7e1450f954.png" metadataAssetGuid="540b1cee-c291-4d6b-80fc-1d7e1450f954">
+        <title>WN_Win32_Shared_EnableSVGFilters_365x195</title>
+        <altText>Slide with examples of SVG filters</altText>
+      </image>
+    </item>
+    <item id="1cb28aa7-c62e-487d-a11d-236adbd7374e">
+      <image file="Art\1cb28aa7-c62e-487d-a11d-236adbd7374e\1cb28aa7-c62e-487d-a11d-236adbd7374e.png" metadataAssetGuid="1cb28aa7-c62e-487d-a11d-236adbd7374e">
+        <title>Excel Coauthoring Presence icons</title>
+        <altText>People icons, When others are co-authoring, they'll show up here</altText>
+      </image>
+    </item>
+    <item id="320284a9-02b8-4d0f-b214-2a1ef64003cf">
+      <image file="Art\320284a9-02b8-4d0f-b214-2a1ef64003cf\320284a9-02b8-4d0f-b214-2a1ef64003cf.png" metadataAssetGuid="320284a9-02b8-4d0f-b214-2a1ef64003cf">
+        <title>WN_Win32_XL_SpeedyLookup_365x195</title>
+        <altText>Monitor showing a worksheet with a speedometer in the lower right corner</altText>
+      </image>
+    </item>
+    <item id="4c83671d-995d-40ce-8aec-2cb11fb4b0fc">
+      <image file="Art\4c83671d-995d-40ce-8aec-2cb11fb4b0fc\4c83671d-995d-40ce-8aec-2cb11fb4b0fc.png" metadataAssetGuid="4c83671d-995d-40ce-8aec-2cb11fb4b0fc">
+        <title>WN_O365_ExcelTraining</title>
+        <altText>Excel 2016 Training</altText>
+      </image>
+    </item>
+    <item id="e3a39be5-b7af-4223-acb8-32ee273700c9">
+      <image file="Art\e3a39be5-b7af-4223-acb8-32ee273700c9\e3a39be5-b7af-4223-acb8-32ee273700c9.png" metadataAssetGuid="e3a39be5-b7af-4223-acb8-32ee273700c9">
+        <title>WN_Win32_Shared_PictureTransparency_365x195</title>
+        <altText>Slide with transparency options on the Format tab</altText>
+      </image>
+    </item>
+    <item id="d81edb36-a194-414c-b82d-340d1f2b4e35">
+      <image file="Art\d81edb36-a194-414c-b82d-340d1f2b4e35\d81edb36-a194-414c-b82d-340d1f2b4e35.png" metadataAssetGuid="d81edb36-a194-414c-b82d-340d1f2b4e35">
+        <title>WN_Win32_Excel_StockQuotes</title>
+        <altText>Data tab showing Stocks and Geography data types</altText>
+      </image>
+    </item>
+    <item id="a1844727-4e7f-4968-9382-3c9084a6fc4d">
+      <image file="Art\a1844727-4e7f-4968-9382-3c9084a6fc4d\a1844727-4e7f-4968-9382-3c9084a6fc4d.png" metadataAssetGuid="a1844727-4e7f-4968-9382-3c9084a6fc4d">
+        <title>WN_Win32_XL_Ideas_365x195</title>
+        <altText>Worksheet on the left and Ideas pane on the right</altText>
+      </image>
+    </item>
+    <item id="7647fb71-1863-493c-889b-3eebe18adb24">
+      <image file="Art\7647fb71-1863-493c-889b-3eebe18adb24\7647fb71-1863-493c-889b-3eebe18adb24.png" metadataAssetGuid="7647fb71-1863-493c-889b-3eebe18adb24">
+        <title>WN_Win32_Shared_UIRefresh_365x195</title>
+        <altText>Updated visuals on the ribbon for Word, Excel, PowerPoint, and Outlook</altText>
+      </image>
+    </item>
+    <item id="37620d3c-641e-4f45-a492-45955752aeaa">
+      <image file="Art\37620d3c-641e-4f45-a492-45955752aeaa\37620d3c-641e-4f45-a492-45955752aeaa.png" metadataAssetGuid="37620d3c-641e-4f45-a492-45955752aeaa">
+        <title>WN_Excel_InkEffects</title>
+        <altText>Pen dropdown showing Ink Effects</altText>
+      </image>
+    </item>
+    <item id="55f99e64-f3dd-48ec-be06-5c783a75fb1f">
+      <image file="Art\55f99e64-f3dd-48ec-be06-5c783a75fb1f\55f99e64-f3dd-48ec-be06-5c783a75fb1f.png" metadataAssetGuid="55f99e64-f3dd-48ec-be06-5c783a75fb1f">
+        <title>WN_Win32_Shared_AccessibilityChecker_365x195</title>
+        <altText>Computer screen with document on the left and Accessibility visual with a check mark on the right</altText>
+      </image>
+    </item>
+    <item id="eb237e1e-0d84-424a-904c-6e5963c10854">
+      <image file="Art\eb237e1e-0d84-424a-904c-6e5963c10854\eb237e1e-0d84-424a-904c-6e5963c10854.png" metadataAssetGuid="eb237e1e-0d84-424a-904c-6e5963c10854">
+        <title>WN_Excel_Autosave</title>
+        <altText>Title bar in Excel showing AutoSave toggle</altText>
+      </image>
+    </item>
+    <item id="2f201cf7-ca05-4617-a753-853ec1cd6771">
+      <image file="Art\2f201cf7-ca05-4617-a753-853ec1cd6771\2f201cf7-ca05-4617-a753-853ec1cd6771.png" metadataAssetGuid="2f201cf7-ca05-4617-a753-853ec1cd6771">
+        <title>WN_Win32_XL_Intelligence_365x195</title>
+        <altText>Excel and worksheet icons with lightbulb</altText>
+      </image>
+    </item>
+    <item id="719e00d6-d826-4d13-af78-876439fb612c">
+      <image file="Art\719e00d6-d826-4d13-af78-876439fb612c\719e00d6-d826-4d13-af78-876439fb612c.png" metadataAssetGuid="719e00d6-d826-4d13-af78-876439fb612c">
+        <title>WN_icon_InsiderCommunity</title>
+        <altText>Answers Community - Office Insider Forum</altText>
+      </image>
+    </item>
+    <item id="e954d263-c5ff-4eb3-937b-9e1782abf16f">
+      <image file="Art\e954d263-c5ff-4eb3-937b-9e1782abf16f\e954d263-c5ff-4eb3-937b-9e1782abf16f.png" metadataAssetGuid="e954d263-c5ff-4eb3-937b-9e1782abf16f">
+        <title>WN_Excel_3D_Rotate</title>
+        <altText>3D model showing rotation handles</altText>
+      </image>
+    </item>
+    <item id="955a8523-75ef-48c5-885f-ab4b7fcc0c88">
+      <image file="Art\955a8523-75ef-48c5-885f-ab4b7fcc0c88\955a8523-75ef-48c5-885f-ab4b7fcc0c88.png" metadataAssetGuid="955a8523-75ef-48c5-885f-ab4b7fcc0c88">
+        <title>WN_Mac_Shared_ChatWithCoAuthors_365x195</title>
+        <altText>Word document with chat window</altText>
+      </image>
+    </item>
+    <item id="6d4f3a8b-b3d6-445d-82be-ae22b975697e">
+      <image file="Art\6d4f3a8b-b3d6-445d-82be-ae22b975697e\6d4f3a8b-b3d6-445d-82be-ae22b975697e.png" metadataAssetGuid="6d4f3a8b-b3d6-445d-82be-ae22b975697e">
+        <title>WN_Win32_Shared_OTC_365x195</title>
+        <altText>Home page of the Office Training Center with icons for the different Office apps and tiles for available content types</altText>
+      </image>
+    </item>
+    <item id="825fc0cc-0ad7-4657-ac96-cb0ca208e303">
+      <image file="Art\825fc0cc-0ad7-4657-ac96-cb0ca208e303\825fc0cc-0ad7-4657-ac96-cb0ca208e303.png" metadataAssetGuid="825fc0cc-0ad7-4657-ac96-cb0ca208e303">
+        <title>WN_Excel_SuperSubScript</title>
+        <altText>Quick Access Toolbar showing superscript and subscript commands</altText>
+      </image>
+    </item>
+    <item id="cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8">
+      <image file="Art\cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8\cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8.jpg" metadataAssetGuid="cdb2b050-ab51-4ef7-9316-dd0c7de1fdd8">
+        <title>XLHOME_Learning_Tips</title>
+        <altText>A laptop showing Excel</altText>
+      </image>
+    </item>
+    <item id="8194b5ac-f87d-43c2-8a39-ead50dfb0030">
+      <image file="Art\8194b5ac-f87d-43c2-8a39-ead50dfb0030\8194b5ac-f87d-43c2-8a39-ead50dfb0030.png" metadataAssetGuid="8194b5ac-f87d-43c2-8a39-ead50dfb0030">
+        <title>WN_Win32_PenGallery</title>
+        <altText>Pen gallery</altText>
+      </image>
+    </item>
+    <item id="2faeb12e-fbdb-45b6-8593-ed63f3584104">
+      <image file="Art\2faeb12e-fbdb-45b6-8593-ed63f3584104\2faeb12e-fbdb-45b6-8593-ed63f3584104.png" metadataAssetGuid="2faeb12e-fbdb-45b6-8593-ed63f3584104">
+        <title>WN_icon_InsiderTwitter</title>
+        <altText>Office Insider Twitter</altText>
+      </image>
+    </item>
+    <item id="66e4d070-2180-4afe-a37f-f133b660d1ab">
+      <image file="Art\66e4d070-2180-4afe-a37f-f133b660d1ab\66e4d070-2180-4afe-a37f-f133b660d1ab.png" metadataAssetGuid="66e4d070-2180-4afe-a37f-f133b660d1ab">
+        <title>WN_iOS_Shared_DigitalPencil_32x32</title>
+        <altText>Blue pencil</altText>
+      </image>
+    </item>
+    <item id="9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3">
+      <image file="Art\9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3\9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3.png" metadataAssetGuid="9b7755e2-5fd0-4de7-b5b7-f51a6fd9e9f3">
+        <title>OfficeTraining_Excel_QuickStart</title>
+        <altText>Excel 2016 Quick Start</altText>
+      </image>
+    </item>
+    <item id="defa0b60-939a-4e63-8cc5-ff64ef2983b2">
+      <image file="Art\defa0b60-939a-4e63-8cc5-ff64ef2983b2\defa0b60-939a-4e63-8cc5-ff64ef2983b2.png" metadataAssetGuid="defa0b60-939a-4e63-8cc5-ff64ef2983b2">
+        <title>WN_Excel_EaseOfAccess</title>
+        <altText>Partial view of Excel's Ease of Access Settings</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,110 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="7edbeb88-99ca-403f-a394-7e957d3d3f40" assetTypeId="CompanionFile">
-  <topic id="7edbeb88-99ca-403f-a394-7e957d3d3f40">
+  <topic id="7edbeb88-99ca-403f-a394-7e957d3d3f40" revisionNumber="2" createDate="2015-10-31T00:08:00.000">
     <title>Manage Your Calendar with the Calendar Insights template for Excel 2016</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2557816</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.assetid">7edbeb88-99ca-403f-a394-7e957d3d3f40</attribute>
+  </attributes>
+  <art>
+    <item id="62fff60e-88e5-42b5-a54d-2155c4ed6278">
+      <image file="Art\62fff60e-88e5-42b5-a54d-2155c4ed6278\62fff60e-88e5-42b5-a54d-2155c4ed6278.png" metadataAssetGuid="62fff60e-88e5-42b5-a54d-2155c4ed6278">
+        <title>Excel_Templates_CalendarInsights_6</title>
+        <altText>Calendar Insights areas</altText>
+      </image>
+    </item>
+    <item id="ea50828c-b72f-46b3-879c-2aff51c169c2">
+      <image file="Art\ea50828c-b72f-46b3-879c-2aff51c169c2\ea50828c-b72f-46b3-879c-2aff51c169c2.png" metadataAssetGuid="ea50828c-b72f-46b3-879c-2aff51c169c2">
+        <title>Excel_Templates_CalendarInsights_1</title>
+        <altText>Calendar Insights template</altText>
+      </image>
+    </item>
+    <item id="75fd4e35-8108-4afa-b2b6-38a53f152bbe">
+      <image file="Art\75fd4e35-8108-4afa-b2b6-38a53f152bbe\75fd4e35-8108-4afa-b2b6-38a53f152bbe.png" metadataAssetGuid="75fd4e35-8108-4afa-b2b6-38a53f152bbe">
+        <title>Excel_Templates_CalendarInsights_13</title>
+        <altText>Get Data from Exchange</altText>
+      </image>
+    </item>
+    <item id="7a91bd3a-50a6-4d38-8e84-44b16f73b5bb">
+      <image file="Art\7a91bd3a-50a6-4d38-8e84-44b16f73b5bb\7a91bd3a-50a6-4d38-8e84-44b16f73b5bb.png" metadataAssetGuid="7a91bd3a-50a6-4d38-8e84-44b16f73b5bb">
+        <title>Excel_Templates_CalendarInsights_12</title>
+        <altText>Learn More worksheet</altText>
+      </image>
+    </item>
+    <item id="13e28dab-68bc-4f30-95dd-46d65078910f">
+      <image file="Art\13e28dab-68bc-4f30-95dd-46d65078910f\13e28dab-68bc-4f30-95dd-46d65078910f.png" metadataAssetGuid="13e28dab-68bc-4f30-95dd-46d65078910f">
+        <title>Excel_Templates_CalendarInsights_3</title>
+        <altText>Exchange credentials</altText>
+      </image>
+    </item>
+    <item id="8f191251-a7c9-4116-84d6-56c48ca30de8">
+      <image file="Art\8f191251-a7c9-4116-84d6-56c48ca30de8\8f191251-a7c9-4116-84d6-56c48ca30de8.png" metadataAssetGuid="8f191251-a7c9-4116-84d6-56c48ca30de8">
+        <title>Excel_Templates_CalendarInsights_2</title>
+        <altText>Import your calendar</altText>
+      </image>
+    </item>
+    <item id="937b8add-654d-4b39-a518-88fc24c99f30">
+      <image file="Art\937b8add-654d-4b39-a518-88fc24c99f30\937b8add-654d-4b39-a518-88fc24c99f30.png" metadataAssetGuid="937b8add-654d-4b39-a518-88fc24c99f30">
+        <title>Excel_Templates_CalendarInsights_11</title>
+        <altText>Meetings Data sheet</altText>
+      </image>
+    </item>
+    <item id="3165a242-6191-4437-9626-90e0e7190ab0">
+      <image file="Art\3165a242-6191-4437-9626-90e0e7190ab0\3165a242-6191-4437-9626-90e0e7190ab0.png" metadataAssetGuid="3165a242-6191-4437-9626-90e0e7190ab0">
+        <title>Excel_Templates_CalendarInsights_9</title>
+        <altText>Unhide selections</altText>
+      </image>
+    </item>
+    <item id="e93c14a6-a285-462a-98e9-b27d1117bfa4">
+      <image file="Art\e93c14a6-a285-462a-98e9-b27d1117bfa4\e93c14a6-a285-462a-98e9-b27d1117bfa4.png" metadataAssetGuid="e93c14a6-a285-462a-98e9-b27d1117bfa4">
+        <title>Excel_Templates_CalendarInsights_7</title>
+        <altText>time filter</altText>
+      </image>
+    </item>
+    <item id="f664f6d5-9e4c-496d-b141-bb32fb829e05">
+      <image file="Art\f664f6d5-9e4c-496d-b141-bb32fb829e05\f664f6d5-9e4c-496d-b141-bb32fb829e05.png" metadataAssetGuid="f664f6d5-9e4c-496d-b141-bb32fb829e05">
+        <title>Excel_Templates_CalendarInsights_4</title>
+        <altText>Meeting Insights sheet populated</altText>
+      </image>
+    </item>
+    <item id="1c1e0ec9-5ac3-4402-8b31-e1c44b70c605">
+      <image file="Art\1c1e0ec9-5ac3-4402-8b31-e1c44b70c605\1c1e0ec9-5ac3-4402-8b31-e1c44b70c605.png" metadataAssetGuid="1c1e0ec9-5ac3-4402-8b31-e1c44b70c605">
+        <title>Excel_Templates_CalendarInsights_8</title>
+        <altText>unhide worksheet</altText>
+      </image>
+    </item>
+    <item id="271e232c-da6f-4461-85d7-ebaa5944166d">
+      <image file="Art\271e232c-da6f-4461-85d7-ebaa5944166d\271e232c-da6f-4461-85d7-ebaa5944166d.png" metadataAssetGuid="271e232c-da6f-4461-85d7-ebaa5944166d">
+        <title>Excel_Templates_CalendarInsights_5</title>
+        <altText>Save as Macro-enabled workbook</altText>
+      </image>
+    </item>
+    <item id="08fae806-865b-4924-9ca4-ff356ae9794c">
+      <image file="Art\08fae806-865b-4924-9ca4-ff356ae9794c\08fae806-865b-4924-9ca4-ff356ae9794c.png" metadataAssetGuid="08fae806-865b-4924-9ca4-ff356ae9794c">
+        <title>Excel_Templates_CalendarInsights_10</title>
+        <altText>customize work patterns in Parameters worksheet</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

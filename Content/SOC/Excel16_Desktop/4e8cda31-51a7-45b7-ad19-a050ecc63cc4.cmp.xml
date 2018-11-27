@@ -1,6 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="4e8cda31-51a7-45b7-ad19-a050ecc63cc4" assetTypeId="CompanionFile">
-  <topic id="4e8cda31-51a7-45b7-ad19-a050ecc63cc4">
+  <topic id="4e8cda31-51a7-45b7-ad19-a050ecc63cc4" revisionNumber="5" createDate="2015-07-02T00:05:00.000">
     <title>Enable Flash Fill in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_DATA_ENTRY</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_DATA_ENTRY_ENTER_DATA</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Have Excel fill your data when it detects a pattern. For example, the months of the year, the  days in a month, or a sequence of numbers. 
+</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">4e8cda31-51a7-45b7-ad19-a050ecc63cc4</attribute>
+  </attributes>
+  <art>
+    <item id="8d4bb5da-5817-4575-b24d-751b502a5211">
+      <image file="Art\8d4bb5da-5817-4575-b24d-751b502a5211\8d4bb5da-5817-4575-b24d-751b502a5211.png" metadataAssetGuid="8d4bb5da-5817-4575-b24d-751b502a5211">
+        <title>o15_xl_enableflashfill</title>
+        <altText>Option to enable Flash Fill if it was turned off</altText>
+      </image>
+    </item>
+    <item id="f0368a80-9bf0-4cc7-902b-b764687d82ae">
+      <image file="Art\f0368a80-9bf0-4cc7-902b-b764687d82ae\f0368a80-9bf0-4cc7-902b-b764687d82ae.png" metadataAssetGuid="f0368a80-9bf0-4cc7-902b-b764687d82ae">
+        <title>o15_xl_flashfill</title>
+        <altText>Flash fill option on the ribbon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

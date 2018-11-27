@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="b2f07398-0ee7-45e9-81a6-589bc46fddf8" assetTypeId="CompanionFile">
-  <topic id="b2f07398-0ee7-45e9-81a6-589bc46fddf8">
+  <topic id="b2f07398-0ee7-45e9-81a6-589bc46fddf8" revisionNumber="-1" createDate="">
     <title>Add-ins</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">b2f07398-0ee7-45e9-81a6-589bc46fddf8</attribute>
+  </attributes>
 </metadata>

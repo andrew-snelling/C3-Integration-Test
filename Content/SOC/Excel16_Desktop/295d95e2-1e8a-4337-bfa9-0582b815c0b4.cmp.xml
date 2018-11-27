@@ -1,6 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="295d95e2-1e8a-4337-bfa9-0582b815c0b4" assetTypeId="CompanionFile">
-  <topic id="295d95e2-1e8a-4337-bfa9-0582b815c0b4">
+  <topic id="295d95e2-1e8a-4337-bfa9-0582b815c0b4" revisionNumber="13" createDate="2018-03-20T15:05:00.000">
     <title>How to write formulas that reference data types</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can write formulas that refer to linked records. You can use the dot operator (.) to target specific fields. This article explains how.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">ExcelProjectYellow</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">295d95e2-1e8a-4337-bfa9-0582b815c0b4</attribute>
+  </attributes>
+  <art>
+    <item id="7412b44c-1f3e-4dd5-b305-35397059ca09">
+      <image file="Art\7412b44c-1f3e-4dd5-b305-35397059ca09\7412b44c-1f3e-4dd5-b305-35397059ca09.png" metadataAssetGuid="7412b44c-1f3e-4dd5-b305-35397059ca09">
+        <title>Linked records with Company name, Price and Change._c3m_2018215161642</title>
+        <altText>Linked records with Company name, Price and Change.</altText>
+        <localizedText>Localized text not available</localizedText>
+      </image>
+    </item>
+    <item id="7b20e3e8-b5b7-4734-9745-588fa174d38f">
+      <image file="Art\7b20e3e8-b5b7-4734-9745-588fa174d38f\7b20e3e8-b5b7-4734-9745-588fa174d38f.png" metadataAssetGuid="7b20e3e8-b5b7-4734-9745-588fa174d38f">
+        <title>Linked datat type for Stocks_c3m_2018223154148</title>
+        <altText>Linked datat type for Stocks</altText>
+        <localizedText>Localized text not available</localizedText>
+      </image>
+    </item>
+  </art>
 </metadata>

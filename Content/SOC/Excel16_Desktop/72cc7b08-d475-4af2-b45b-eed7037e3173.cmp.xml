@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="72cc7b08-d475-4af2-b45b-eed7037e3173" assetTypeId="CompanionFile">
-  <topic id="72cc7b08-d475-4af2-b45b-eed7037e3173">
+  <topic id="72cc7b08-d475-4af2-b45b-eed7037e3173" revisionNumber="-1" createDate="">
     <title>Sort and Filter</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="search.assetid">72cc7b08-d475-4af2-b45b-eed7037e3173</attribute>
+  </attributes>
 </metadata>

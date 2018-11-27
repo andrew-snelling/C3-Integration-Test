@@ -1,6 +1,189 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="dc775dd1-fa52-430f-9c3c-d998d1735fca" assetTypeId="CompanionFile">
-  <topic id="dc775dd1-fa52-430f-9c3c-d998d1735fca">
+  <topic id="dc775dd1-fa52-430f-9c3c-d998d1735fca" revisionNumber="9" createDate="2015-07-22T18:40:00.000">
     <title>Basic tasks in Excel</title>
   </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">EXCEL_GET_STARTED</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_GET_STARTED_BASICS</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Get started with basic tasks in Excel such as opening a workbook, entering and formatting data, calculating data, and trying some quick analysis features..</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010370218</attribute>
+    <attribute name="OCMS Asset ID">HA101829993</attribute>
+    <attribute name="OCMS Asset ID">HA102813812</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA010370218</attribute>
+    <attribute name="Search.OCMSasset">HA101829993</attribute>
+    <attribute name="Search.OCMSasset">HA102813812</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">dc775dd1-fa52-430f-9c3c-d998d1735fca</attribute>
+  </attributes>
+  <art>
+    <item id="befd7d86-5c02-4a6a-a340-09f51c6c1582">
+      <image file="Art\befd7d86-5c02-4a6a-a340-09f51c6c1582\befd7d86-5c02-4a6a-a340-09f51c6c1582.jpg" metadataAssetGuid="befd7d86-5c02-4a6a-a340-09f51c6c1582">
+        <title>o15_xl_sortfiltergallery_sorting</title>
+        <altText>Sorting commands in the Sort and Filter gallery</altText>
+      </image>
+    </item>
+    <item id="a505361e-d9af-49b3-a511-0af6c3c987ae">
+      <image file="Art\a505361e-d9af-49b3-a511-0af6c3c987ae\a505361e-d9af-49b3-a511-0af6c3c987ae.jpg" metadataAssetGuid="a505361e-d9af-49b3-a511-0af6c3c987ae">
+        <title>o15_xl_quickanalysis_totalsgallery</title>
+        <altText>Quick Analysis Totals gallery</altText>
+      </image>
+    </item>
+    <item id="74a58824-2e40-473b-a207-162b2dc22733">
+      <image file="Art\74a58824-2e40-473b-a207-162b2dc22733\74a58824-2e40-473b-a207-162b2dc22733.gif" metadataAssetGuid="74a58824-2e40-473b-a207-162b2dc22733">
+        <title>drpdwnfilterarrow</title>
+        <altText>Filter drop-down arrow</altText>
+      </image>
+    </item>
+    <item id="cee9aa13-742d-4724-be63-1b0fbbaac80a">
+      <image file="Art\cee9aa13-742d-4724-be63-1b0fbbaac80a\cee9aa13-742d-4724-be63-1b0fbbaac80a.gif" metadataAssetGuid="cee9aa13-742d-4724-be63-1b0fbbaac80a">
+        <title>sortdesc</title>
+        <altText>Z to A command in Excel that sorts Z to A or largest number to smallest</altText>
+      </image>
+    </item>
+    <item id="7c840989-312d-480f-9b29-328d38c83ec8">
+      <image file="Art\7c840989-312d-480f-9b29-328d38c83ec8\7c840989-312d-480f-9b29-328d38c83ec8.jpg" metadataAssetGuid="7c840989-312d-480f-9b29-328d38c83ec8">
+        <title>o15_xl_sortfiltergallery_selectall</title>
+        <altText>Select All box in the Sort and Filter gallery</altText>
+      </image>
+    </item>
+    <item id="4bc74dc1-3af4-4d39-a298-3a86a6eea68b">
+      <image file="Art\4bc74dc1-3af4-4d39-a298-3a86a6eea68b\4bc74dc1-3af4-4d39-a298-3a86a6eea68b.jpg" metadataAssetGuid="4bc74dc1-3af4-4d39-a298-3a86a6eea68b">
+        <title>o15_xl_quickanalysisbtn</title>
+        <altText>Quick Analysis button</altText>
+      </image>
+    </item>
+    <item id="5c2f665e-50f0-439a-8272-3f9b1fd9d53f">
+      <image file="Art\5c2f665e-50f0-439a-8272-3f9b1fd9d53f\5c2f665e-50f0-439a-8272-3f9b1fd9d53f.jpg" metadataAssetGuid="5c2f665e-50f0-439a-8272-3f9b1fd9d53f">
+        <title>o15_xl_blankworkbook</title>
+        <altText>New blank workbook</altText>
+      </image>
+    </item>
+    <item id="7a285bcc-9a5b-468e-893a-4367b1682a0f">
+      <image file="Art\7a285bcc-9a5b-468e-893a-4367b1682a0f\7a285bcc-9a5b-468e-893a-4367b1682a0f.jpg" metadataAssetGuid="7a285bcc-9a5b-468e-893a-4367b1682a0f">
+        <title>o15_xl_quickanalysis_formattinggallery</title>
+        <altText>Quick Analysis Formatting gallery</altText>
+      </image>
+    </item>
+    <item id="b69d2b7f-9d78-485d-8e4a-4f29d7fab0b8">
+      <image file="Art\b69d2b7f-9d78-485d-8e4a-4f29d7fab0b8\b69d2b7f-9d78-485d-8e4a-4f29d7fab0b8.jpg" metadataAssetGuid="b69d2b7f-9d78-485d-8e4a-4f29d7fab0b8">
+        <title>o15_xl_homenumber_generalarrow</title>
+        <altText>Format Number box on the Home tab</altText>
+      </image>
+    </item>
+    <item id="25ebae39-c75d-4328-b517-5baa66e801f0">
+      <image file="Art\25ebae39-c75d-4328-b517-5baa66e801f0\25ebae39-c75d-4328-b517-5baa66e801f0.gif" metadataAssetGuid="25ebae39-c75d-4328-b517-5baa66e801f0">
+        <title>fillcolorsplitdropdownps</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="c77a761b-9c68-40c7-adc8-5e47a61bf61a">
+      <image file="Art\c77a761b-9c68-40c7-adc8-5e47a61bf61a\c77a761b-9c68-40c7-adc8-5e47a61bf61a.jpg" metadataAssetGuid="c77a761b-9c68-40c7-adc8-5e47a61bf61a">
+        <title>xl_15_ediitinggroup_autosum</title>
+        <altText>AutoSum on the Home tab</altText>
+      </image>
+    </item>
+    <item id="2dcd100f-0800-4925-8a87-762229b294a2">
+      <image file="Art\2dcd100f-0800-4925-8a87-762229b294a2\2dcd100f-0800-4925-8a87-762229b294a2.jpg" metadataAssetGuid="2dcd100f-0800-4925-8a87-762229b294a2">
+        <title>xl_14_r_sortfilter</title>
+        <altText>The Sort and Filter group on the Data tab</altText>
+      </image>
+    </item>
+    <item id="5e309ad0-397c-42d2-91aa-78963fd6304f">
+      <image file="Art\5e309ad0-397c-42d2-91aa-78963fd6304f\5e309ad0-397c-42d2-91aa-78963fd6304f.jpg" metadataAssetGuid="5e309ad0-397c-42d2-91aa-78963fd6304f">
+        <title>o15_xl_quickanalysis_chartsgallery</title>
+        <altText>Quick Analysis Charts gallery</altText>
+      </image>
+    </item>
+    <item id="f9f4c16f-6656-4d31-a7ff-7a5597d1be54">
+      <image file="Art\f9f4c16f-6656-4d31-a7ff-7a5597d1be54\f9f4c16f-6656-4d31-a7ff-7a5597d1be54.jpg" metadataAssetGuid="f9f4c16f-6656-4d31-a7ff-7a5597d1be54">
+        <title>o15_xl_numberformatgallery</title>
+        <altText>Number format gallery</altText>
+      </image>
+    </item>
+    <item id="392b535f-990e-4f17-9d5d-be021cf1eacd">
+      <image file="Art\392b535f-990e-4f17-9d5d-be021cf1eacd\392b535f-990e-4f17-9d5d-be021cf1eacd.jpg" metadataAssetGuid="392b535f-990e-4f17-9d5d-be021cf1eacd">
+        <title>o15_xl_datawithcolorscalecf</title>
+        <altText>Data with a color scale conditional format</altText>
+      </image>
+    </item>
+    <item id="17572b22-6591-4872-bb42-beb3a44dde0e">
+      <image file="Art\17572b22-6591-4872-bb42-beb3a44dde0e\17572b22-6591-4872-bb42-beb3a44dde0e.jpg" metadataAssetGuid="17572b22-6591-4872-bb42-beb3a44dde0e">
+        <title>o15_xl_quickanalysislens</title>
+        <altText>Selected data with Quick Analysis Lens button visible</altText>
+      </image>
+    </item>
+    <item id="d981d3b2-e2d7-4d47-999b-d1f2d1ee00c7">
+      <image file="Art\d981d3b2-e2d7-4d47-999b-d1f2d1ee00c7\d981d3b2-e2d7-4d47-999b-d1f2d1ee00c7.jpg" metadataAssetGuid="d981d3b2-e2d7-4d47-999b-d1f2d1ee00c7">
+        <title>o15_xl_printpreview_nextpreviousbtns</title>
+        <altText>Next and Previous buttons in the Print Preview pane</altText>
+      </image>
+    </item>
+    <item id="76cc0f75-3c55-4e72-827c-d5f844b75c32">
+      <image file="Art\76cc0f75-3c55-4e72-827c-d5f844b75c32\76cc0f75-3c55-4e72-827c-d5f844b75c32.jpg" metadataAssetGuid="76cc0f75-3c55-4e72-827c-d5f844b75c32">
+        <title>o15_xl_quickanalysis_tablesgallery</title>
+        <altText>Quick Analysis Tables gallery</altText>
+      </image>
+    </item>
+    <item id="e8b8f919-45f9-4371-ac49-e908cc7fad86">
+      <image file="Art\e8b8f919-45f9-4371-ac49-e908cc7fad86\e8b8f919-45f9-4371-ac49-e908cc7fad86.gif" metadataAssetGuid="e8b8f919-45f9-4371-ac49-e908cc7fad86">
+        <title>o14_xl_home_iso_font</title>
+        <altText>Excel  Ribbon Image</altText>
+      </image>
+    </item>
+    <item id="d569b32d-d9c4-4676-b46e-ee17543dd843">
+      <image file="Art\d569b32d-d9c4-4676-b46e-ee17543dd843\d569b32d-d9c4-4676-b46e-ee17543dd843.jpg" metadataAssetGuid="d569b32d-d9c4-4676-b46e-ee17543dd843">
+        <title>o15_xl_button_quickanalysislens</title>
+        <altText>button image</altText>
+      </image>
+    </item>
+    <item id="2427d5eb-f6b6-4aa7-97bf-f80c65bcecbe">
+      <image file="Art\2427d5eb-f6b6-4aa7-97bf-f80c65bcecbe\2427d5eb-f6b6-4aa7-97bf-f80c65bcecbe.jpg" metadataAssetGuid="2427d5eb-f6b6-4aa7-97bf-f80c65bcecbe">
+        <title>o15_xl_qat_savebtn</title>
+        <altText>Save button on the Quick Access Toolbar</altText>
+      </image>
+    </item>
+    <item id="82e575eb-0061-4c0b-8699-fb95a5b1c2e8">
+      <image file="Art\82e575eb-0061-4c0b-8699-fb95a5b1c2e8\82e575eb-0061-4c0b-8699-fb95a5b1c2e8.gif" metadataAssetGuid="82e575eb-0061-4c0b-8699-fb95a5b1c2e8">
+        <title>sortasc</title>
+        <altText>A to Z command in Excel that sorts A to Z or smallest number to largest</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

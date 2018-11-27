@@ -1,6 +1,198 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="0a0ebbed-10e7-444b-b16b-6f0c090f8ec7" assetTypeId="CompanionFile">
-  <topic id="0a0ebbed-10e7-444b-b16b-6f0c090f8ec7">
+  <topic id="0a0ebbed-10e7-444b-b16b-6f0c090f8ec7" revisionNumber="5" createDate="2014-05-16T20:28:00.000">
     <title>Zoom in or out of a document, presentation, or worksheet</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn how to use the zoom controls in Word, Excel, PowerPoint, and Outlook.</attribute>
+    <attribute name="Context Sensitive Help Access">683</attribute>
+    <attribute name="Context Sensitive Help Access">View &gt; Zoom &gt; ?</attribute>
+    <attribute name="Context Sensitive ID">20928</attribute>
+    <attribute name="Context Sensitive ID">29956</attribute>
+    <attribute name="Context Sensitive ID">683</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010102272</attribute>
+    <attribute name="OCMS Version">8.4</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Version Tab</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">20928</attribute>
+    <attribute name="search.contextid">29956</attribute>
+    <attribute name="search.contextid">683</attribute>
+    <attribute name="Search.OCMSasset">HA010102272</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZOL120</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZOL140</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZOL150</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZPP120</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZPP140</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZPP150</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZWD120</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZWD140</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZWD150</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.assetid">0a0ebbed-10e7-444b-b16b-6f0c090f8ec7</attribute>
+  </attributes>
+  <art>
+    <item id="d3d661ce-078b-4573-bd66-196cec1c6c88">
+      <image file="Art\d3d661ce-078b-4573-bd66-196cec1c6c88\d3d661ce-078b-4573-bd66-196cec1c6c88.gif" metadataAssetGuid="d3d661ce-078b-4573-bd66-196cec1c6c88">
+        <title>wd_view_zoom</title>
+        <altText>Word Ribbon Image</altText>
+      </image>
+    </item>
+    <item id="42c47a5c-9871-4a09-9259-3731fa6f15e4">
+      <image file="Art\42c47a5c-9871-4a09-9259-3731fa6f15e4\42c47a5c-9871-4a09-9259-3731fa6f15e4.png" metadataAssetGuid="42c47a5c-9871-4a09-9259-3731fa6f15e4">
+        <title>PPT14_zoomslider</title>
+        <altText>PowerPoint zoom slider</altText>
+      </image>
+    </item>
+    <item id="f2e487a1-bfcf-415a-a41f-43149a2bb18d">
+      <image file="Art\f2e487a1-bfcf-415a-a41f-43149a2bb18d\f2e487a1-bfcf-415a-a41f-43149a2bb18d.png" metadataAssetGuid="f2e487a1-bfcf-415a-a41f-43149a2bb18d">
+        <title>W16_zoomslider</title>
+        <altText>Zoom slider</altText>
+      </image>
+    </item>
+    <item id="863c47f6-51bd-4877-b2fa-43fd9c35474f">
+      <image file="Art\863c47f6-51bd-4877-b2fa-43fd9c35474f\863c47f6-51bd-4877-b2fa-43fd9c35474f.gif" metadataAssetGuid="863c47f6-51bd-4877-b2fa-43fd9c35474f">
+        <title>xl_view_zoom</title>
+        <altText>Outlook Ribbon Image</altText>
+      </image>
+    </item>
+    <item id="ee8b4579-8cea-4657-8fc0-5596d7873b33">
+      <image file="Art\ee8b4579-8cea-4657-8fc0-5596d7873b33\ee8b4579-8cea-4657-8fc0-5596d7873b33.png" metadataAssetGuid="ee8b4579-8cea-4657-8fc0-5596d7873b33">
+        <title>PPT16_zoomslider</title>
+        <altText>Zoom slider</altText>
+      </image>
+    </item>
+    <item id="2849afdc-a096-4b5e-9554-560f478f3280">
+      <image file="Art\2849afdc-a096-4b5e-9554-560f478f3280\2849afdc-a096-4b5e-9554-560f478f3280.png" metadataAssetGuid="2849afdc-a096-4b5e-9554-560f478f3280">
+        <title>W16_zoomgroup</title>
+        <altText>Zoom group on the View tab</altText>
+      </image>
+    </item>
+    <item id="110c067d-7393-403c-b5d1-7b9f1ce107ba">
+      <image file="Art\110c067d-7393-403c-b5d1-7b9f1ce107ba\110c067d-7393-403c-b5d1-7b9f1ce107ba.gif" metadataAssetGuid="110c067d-7393-403c-b5d1-7b9f1ce107ba">
+        <title>pp_view_zoom</title>
+        <altText>PowerPoint Ribbon Image</altText>
+      </image>
+    </item>
+    <item id="3eaf2845-e5eb-4ece-a079-b10565244834">
+      <image file="Art\3eaf2845-e5eb-4ece-a079-b10565244834\3eaf2845-e5eb-4ece-a079-b10565244834.png" metadataAssetGuid="3eaf2845-e5eb-4ece-a079-b10565244834">
+        <title>XL16_zoomgroup</title>
+        <altText>Zoom group on View tab</altText>
+      </image>
+    </item>
+    <item id="8d2ddfe3-daf1-4ac0-8855-b14cdbd3ad03">
+      <image file="Art\8d2ddfe3-daf1-4ac0-8855-b14cdbd3ad03\8d2ddfe3-daf1-4ac0-8855-b14cdbd3ad03.gif" metadataAssetGuid="8d2ddfe3-daf1-4ac0-8855-b14cdbd3ad03">
+        <title>zoomslider</title>
+        <altText>Zoom slider</altText>
+      </image>
+    </item>
+    <item id="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+      <image file="Art\f22ae713-addb-400d-bc0f-b7a62f2d61af\f22ae713-addb-400d-bc0f-b7a62f2d61af.gif" metadataAssetGuid="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+        <title>o12filemenubutton</title>
+        <altText>Office button image</altText>
+      </image>
+    </item>
+    <item id="c02bf36e-a150-443b-b336-d3134a5d5358">
+      <image file="Art\c02bf36e-a150-443b-b336-d3134a5d5358\c02bf36e-a150-443b-b336-d3134a5d5358.png" metadataAssetGuid="c02bf36e-a150-443b-b336-d3134a5d5358">
+        <title>OL14_Zoombutton</title>
+        <altText>Zoom on Outlook messages</altText>
+      </image>
+    </item>
+    <item id="a769b5eb-2711-4aec-973a-d49bc5d7e884">
+      <image file="Art\a769b5eb-2711-4aec-973a-d49bc5d7e884\a769b5eb-2711-4aec-973a-d49bc5d7e884.jpg" metadataAssetGuid="a769b5eb-2711-4aec-973a-d49bc5d7e884">
+        <title>ol14_zoomslider</title>
+        <altText>View zoom control</altText>
+      </image>
+    </item>
+    <item id="9c77e00b-09eb-46c0-9ba6-da099400bed5">
+      <image file="Art\9c77e00b-09eb-46c0-9ba6-da099400bed5\9c77e00b-09eb-46c0-9ba6-da099400bed5.png" metadataAssetGuid="9c77e00b-09eb-46c0-9ba6-da099400bed5">
+        <title>PPT16_zoomgroup</title>
+        <altText>Zoom group on View tab</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

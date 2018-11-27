@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="2fba3e2e-8d29-409c-8deb-0e8ef2dc3982" assetTypeId="CompanionFile">
-  <topic id="2fba3e2e-8d29-409c-8deb-0e8ef2dc3982">
+  <topic id="2fba3e2e-8d29-409c-8deb-0e8ef2dc3982" revisionNumber="-1" createDate="">
     <title>Excel 2016 SOC Landing Page</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.assetid">2fba3e2e-8d29-409c-8deb-0e8ef2dc3982</attribute>
+  </attributes>
 </metadata>

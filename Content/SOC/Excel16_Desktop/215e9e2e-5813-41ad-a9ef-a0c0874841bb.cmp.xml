@@ -1,6 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="215e9e2e-5813-41ad-a9ef-a0c0874841bb" assetTypeId="CompanionFile">
-  <topic id="215e9e2e-5813-41ad-a9ef-a0c0874841bb">
+  <topic id="215e9e2e-5813-41ad-a9ef-a0c0874841bb" revisionNumber="3" createDate="2015-09-23T19:07:00.000">
     <title>Learn how to use the My Cashflow template with Excel 2016</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Robots">Nofollow</attribute>
+    <attribute name="Robots">Noindex</attribute>
+    <attribute name="Robots">Noodp</attribute>
+    <attribute name="Robots">Noydir</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2557809</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.assetid">215e9e2e-5813-41ad-a9ef-a0c0874841bb</attribute>
+  </attributes>
+  <art>
+    <item id="e6d82004-e3e9-4933-9b85-2df7bae6b016">
+      <image file="Art\e6d82004-e3e9-4933-9b85-2df7bae6b016\e6d82004-e3e9-4933-9b85-2df7bae6b016.png" metadataAssetGuid="e6d82004-e3e9-4933-9b85-2df7bae6b016">
+        <title>Excel_Templates_MyCashflow_5b</title>
+        <altText>New data changes April's cashflow</altText>
+      </image>
+    </item>
+    <item id="055847fb-0709-4a4c-a7e5-497ff1737ac6">
+      <image file="Art\055847fb-0709-4a4c-a7e5-497ff1737ac6\055847fb-0709-4a4c-a7e5-497ff1737ac6.png" metadataAssetGuid="055847fb-0709-4a4c-a7e5-497ff1737ac6">
+        <title>Excel_Templates_MyCashflow_1</title>
+        <altText>the My Cashflow template</altText>
+      </image>
+    </item>
+    <item id="748fce98-1834-4265-b50d-6b7a9726844c">
+      <image file="Art\748fce98-1834-4265-b50d-6b7a9726844c\748fce98-1834-4265-b50d-6b7a9726844c.png" metadataAssetGuid="748fce98-1834-4265-b50d-6b7a9726844c">
+        <title>Excel_Templates_MyCashflow_7</title>
+        <altText>Manage Data Model in the Data ribbon tab</altText>
+      </image>
+    </item>
+    <item id="fa025fa9-1921-427d-b273-6c9395743135">
+      <image file="Art\fa025fa9-1921-427d-b273-6c9395743135\fa025fa9-1921-427d-b273-6c9395743135.png" metadataAssetGuid="fa025fa9-1921-427d-b273-6c9395743135">
+        <title>Excel_Templates_MyCashflow_8</title>
+        <altText>Power Pivot measures</altText>
+      </image>
+    </item>
+    <item id="501257bc-f511-40eb-9278-7a8de9f2940a">
+      <image file="Art\501257bc-f511-40eb-9278-7a8de9f2940a\501257bc-f511-40eb-9278-7a8de9f2940a.png" metadataAssetGuid="501257bc-f511-40eb-9278-7a8de9f2940a">
+        <title>Excel_Templates_MyCashflow_3</title>
+        <altText>The year slicer for My Cashflow</altText>
+      </image>
+    </item>
+    <item id="367f719f-a929-48bb-bd70-7ea8191f008a">
+      <image file="Art\367f719f-a929-48bb-bd70-7ea8191f008a\367f719f-a929-48bb-bd70-7ea8191f008a.png" metadataAssetGuid="367f719f-a929-48bb-bd70-7ea8191f008a">
+        <title>Excel_Templates_MyCashflow_4</title>
+        <altText>Entering sample data</altText>
+      </image>
+    </item>
+    <item id="de5e9e8f-2dc1-441c-a7dc-82f7302a7ede">
+      <image file="Art\de5e9e8f-2dc1-441c-a7dc-82f7302a7ede\de5e9e8f-2dc1-441c-a7dc-82f7302a7ede.png" metadataAssetGuid="de5e9e8f-2dc1-441c-a7dc-82f7302a7ede">
+        <title>Excel_Templates_MyCashflow_6</title>
+        <altText>The Excel Options window</altText>
+      </image>
+    </item>
+    <item id="b3d6e9e4-1917-43a3-825b-8e9988c519de">
+      <image file="Art\b3d6e9e4-1917-43a3-825b-8e9988c519de\b3d6e9e4-1917-43a3-825b-8e9988c519de.png" metadataAssetGuid="b3d6e9e4-1917-43a3-825b-8e9988c519de">
+        <title>Excel_Templates_MyCashflow_2</title>
+        <altText>My Cashflow - let's get started</altText>
+      </image>
+    </item>
+    <item id="a4e6c259-3d42-44c2-a0c7-9dccb1480a28">
+      <image file="Art\a4e6c259-3d42-44c2-a0c7-9dccb1480a28\a4e6c259-3d42-44c2-a0c7-9dccb1480a28.png" metadataAssetGuid="a4e6c259-3d42-44c2-a0c7-9dccb1480a28">
+        <title>Excel_Templates_MyCashflow_5</title>
+        <altText>Enter sample data to the My Cashflow template</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

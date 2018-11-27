@@ -1,6 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="57d9a7ff-3a78-4a12-adb3-0d951ef0925c" assetTypeId="CompanionFile">
-  <topic id="57d9a7ff-3a78-4a12-adb3-0d951ef0925c">
+  <topic id="57d9a7ff-3a78-4a12-adb3-0d951ef0925c" revisionNumber="2" createDate="2015-08-27T14:49:00.000">
     <title>Explore your data in a 3D Maps tour</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Create a 3D Maos tour to show a time-based relationship between geographic locations and their associated data in Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511348</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">57d9a7ff-3a78-4a12-adb3-0d951ef0925c</attribute>
+  </attributes>
+  <art>
+    <item id="4c580a36-d25e-4de9-916c-45494fe25b72">
+      <image file="Art\4c580a36-d25e-4de9-916c-45494fe25b72\4c580a36-d25e-4de9-916c-45494fe25b72.png" metadataAssetGuid="4c580a36-d25e-4de9-916c-45494fe25b72">
+        <title>o15_xl_powermap_launchpowermap_dialog</title>
+        <altText>Launch Power Map</altText>
+      </image>
+    </item>
+    <item id="f89d7342-ac55-4c36-93b2-6a204297eeae">
+      <image file="Art\f89d7342-ac55-4c36-93b2-6a204297eeae\f89d7342-ac55-4c36-93b2-6a204297eeae.png" metadataAssetGuid="f89d7342-ac55-4c36-93b2-6a204297eeae">
+        <title>o15_xl_powermap_tour_playback</title>
+        <altText>Tour in fullscreen playback mode</altText>
+      </image>
+    </item>
+    <item id="325a235c-0061-4186-88c0-b568f95f8640">
+      <image file="Art\325a235c-0061-4186-88c0-b568f95f8640\325a235c-0061-4186-88c0-b568f95f8640.png" metadataAssetGuid="325a235c-0061-4186-88c0-b568f95f8640">
+        <title>o15_xl_powermap_tour_pane</title>
+        <altText>Tour Editor task pane</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,123 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="7152aa8b-b791-414c-a3bb-3024e46fb104" assetTypeId="CompanionFile">
-  <topic id="7152aa8b-b791-414c-a3bb-3024e46fb104">
+  <topic id="7152aa8b-b791-414c-a3bb-3024e46fb104" revisionNumber="88" createDate="2017-03-20T15:24:00.000">
     <title>Collaborate on Excel workbooks at the same time with co-authoring</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">TRN_Products</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">You can open an Excel workbook and collaborate with others at the same time using co-authoring. This article will explain how.</attribute>
+    <attribute name="Context Sensitive Help Access">Review tab &gt; Share Workbook button in subscription versions of Excel</attribute>
+    <attribute name="Context Sensitive ID">56049</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Training</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Android phones</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Android tablets</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPad</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for iPhone</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Windows Phone 10</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Mobile</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Online</attribute>
+    <attribute name="LeftNav_ArticleType">Article</attribute>
+    <attribute name="loc.priority">3-Normal (15-day)</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="Set_Free_Tag">Fusion_Share &amp; coauthor</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="Set_Free_Tag">xlcoauth</attribute>
+    <attribute name="zzpub_RM">acmedxpub</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_SupportBridge">Consumer</attribute>
+    <attribute name="search.contenttype">Training</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">56049</attribute>
+    <attribute name="search.appverid">XLA160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Android phones</attribute>
+    <attribute name="search.skuid">XLA160</attribute>
+    <attribute name="search.appverid">XCA150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for Android tablets</attribute>
+    <attribute name="search.skuid">XCA150</attribute>
+    <attribute name="search.appverid">XCL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel for iPad</attribute>
+    <attribute name="search.skuid">XCL150</attribute>
+    <attribute name="search.appverid">XIP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for iPhone</attribute>
+    <attribute name="search.skuid">XIP160</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EWP160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Windows Phone</attribute>
+    <attribute name="search.skuid">EWP160</attribute>
+    <attribute name="search.appverid">EWT160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel Mobile</attribute>
+    <attribute name="search.skuid">EWT160</attribute>
+    <attribute name="search.appverid">WAE150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel Online</attribute>
+    <attribute name="search.skuid">WAE150</attribute>
+    <attribute name="search.assetid">7152aa8b-b791-414c-a3bb-3024e46fb104</attribute>
+  </attributes>
+  <art>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="1cb28aa7-c62e-487d-a11d-236adbd7374e">
+      <image file="Art\1cb28aa7-c62e-487d-a11d-236adbd7374e\1cb28aa7-c62e-487d-a11d-236adbd7374e.png" metadataAssetGuid="1cb28aa7-c62e-487d-a11d-236adbd7374e">
+        <title>Excel Coauthoring Presence icons</title>
+        <altText>People icons, When others are co-authoring, they'll show up here</altText>
+      </image>
+    </item>
+    <item id="599bffb8-524a-4dc7-b02d-62829b2d5c8e">
+      <image file="Art\599bffb8-524a-4dc7-b02d-62829b2d5c8e\599bffb8-524a-4dc7-b02d-62829b2d5c8e.png" metadataAssetGuid="599bffb8-524a-4dc7-b02d-62829b2d5c8e">
+        <title>Excel coauthoring iOS File button</title>
+        <altText>File button</altText>
+      </image>
+    </item>
+    <item id="b2e3093b-b6f5-4403-89f3-ae54e3462ff6">
+      <image file="Art\b2e3093b-b6f5-4403-89f3-ae54e3462ff6\b2e3093b-b6f5-4403-89f3-ae54e3462ff6.png" metadataAssetGuid="b2e3093b-b6f5-4403-89f3-ae54e3462ff6">
+        <title>Excel coauthoring Android gear button</title>
+        <altText>Gear button</altText>
+      </image>
+    </item>
+    <item id="a209c5df-b9af-45de-bffd-d0ef124d4148">
+      <image file="Art\a209c5df-b9af-45de-bffd-d0ef124d4148\a209c5df-b9af-45de-bffd-d0ef124d4148.png" metadataAssetGuid="a209c5df-b9af-45de-bffd-d0ef124d4148">
+        <title>Excel coauthoring iOS Share button mid coauth</title>
+        <altText>Share button while co-authoring</altText>
+      </image>
+    </item>
+    <item id="2b54480a-dad4-4387-911f-dafc7cf9f8b5">
+      <image file="Art\2b54480a-dad4-4387-911f-dafc7cf9f8b5\2b54480a-dad4-4387-911f-dafc7cf9f8b5.png" metadataAssetGuid="2b54480a-dad4-4387-911f-dafc7cf9f8b5">
+        <title>Excel coauthoring iOS Share button</title>
+        <altText>Share button</altText>
+      </image>
+    </item>
+    <item id="d218d945-8506-4325-b027-e9af2954e892">
+      <image file="Art\d218d945-8506-4325-b027-e9af2954e892\d218d945-8506-4325-b027-e9af2954e892.png" metadataAssetGuid="d218d945-8506-4325-b027-e9af2954e892">
+        <title>Excel Coauthoring Share icon Excel Mobile Tablet</title>
+        <altText>Share icon</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

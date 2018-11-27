@@ -1,6 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="5848706a-aba9-4152-8819-765a092e75a9" assetTypeId="CompanionFile">
-  <topic id="5848706a-aba9-4152-8819-765a092e75a9">
+  <topic id="5848706a-aba9-4152-8819-765a092e75a9" revisionNumber="1" createDate="2015-08-27T11:34:00.000">
     <title>Change the look of your 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Change the theme applied to your 3D Maps or add map labels to give your map more impact or a different look in Excel 2016 for Windows.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511339</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">5848706a-aba9-4152-8819-765a092e75a9</attribute>
+  </attributes>
+  <art>
+    <item id="7e2210e7-ba5a-470e-8154-1e4824a1f143">
+      <image file="Art\7e2210e7-ba5a-470e-8154-1e4824a1f143\7e2210e7-ba5a-470e-8154-1e4824a1f143.png" metadataAssetGuid="7e2210e7-ba5a-470e-8154-1e4824a1f143">
+        <title>O16_3DMaps_MapLabels</title>
+        <altText>3D Maps Map Labels option</altText>
+      </image>
+    </item>
+    <item id="b6b58b98-2eab-414f-9001-3d965b604627">
+      <image file="Art\b6b58b98-2eab-414f-9001-3d965b604627\b6b58b98-2eab-414f-9001-3d965b604627.png" metadataAssetGuid="b6b58b98-2eab-414f-9001-3d965b604627">
+        <title>O16_3DMaps_Themes</title>
+        <altText>3D Maps Themes option</altText>
+      </image>
+    </item>
+    <item id="31a4f38d-30d7-49bb-8c1b-5d07dcce499b">
+      <image file="Art\31a4f38d-30d7-49bb-8c1b-5d07dcce499b\31a4f38d-30d7-49bb-8c1b-5d07dcce499b.png" metadataAssetGuid="31a4f38d-30d7-49bb-8c1b-5d07dcce499b">
+        <title>pm15blacktheme</title>
+        <altText>Power Map with the Color Black theme</altText>
+      </image>
+    </item>
+    <item id="8977e65f-39c9-4088-b42b-68988ffbec37">
+      <image file="Art\8977e65f-39c9-4088-b42b-68988ffbec37\8977e65f-39c9-4088-b42b-68988ffbec37.png" metadataAssetGuid="8977e65f-39c9-4088-b42b-68988ffbec37">
+        <title>pm!5defaulttheme</title>
+        <altText>Power Map with the default theme</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

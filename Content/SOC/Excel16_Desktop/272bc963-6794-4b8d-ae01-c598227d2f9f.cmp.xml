@@ -1,6 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="272bc963-6794-4b8d-ae01-c598227d2f9f" assetTypeId="CompanionFile">
-  <topic id="272bc963-6794-4b8d-ae01-c598227d2f9f">
+  <topic id="272bc963-6794-4b8d-ae01-c598227d2f9f" revisionNumber="2" createDate="2015-08-26T19:02:00.000">
     <title>Add a text box to 3D Maps</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Emphasize key parts of your 3D Map by adding a text box. Text boxes are anchored to the nearest corner of the 3D Maps window.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_officeMainBugID">2511333</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">272bc963-6794-4b8d-ae01-c598227d2f9f</attribute>
+  </attributes>
+  <art>
+    <item id="b9f36769-9dce-4956-b9bd-27f5b43ed613">
+      <image file="Art\b9f36769-9dce-4956-b9bd-27f5b43ed613\b9f36769-9dce-4956-b9bd-27f5b43ed613.png" metadataAssetGuid="b9f36769-9dce-4956-b9bd-27f5b43ed613">
+        <title>pmtextboxbutton</title>
+        <altText>Text box button on the Power Map Home tab</altText>
+      </image>
+    </item>
+    <item id="72fdf3ce-f9e1-444a-8583-4e909e0da293">
+      <image file="Art\72fdf3ce-f9e1-444a-8583-4e909e0da293\72fdf3ce-f9e1-444a-8583-4e909e0da293.png" metadataAssetGuid="72fdf3ce-f9e1-444a-8583-4e909e0da293">
+        <title>pmcreatetextbox</title>
+        <altText>Create button found in the Add text box</altText>
+      </image>
+    </item>
+    <item id="f5ced5ba-643e-4c6e-b8f1-8750013907af">
+      <image file="Art\f5ced5ba-643e-4c6e-b8f1-8750013907af\f5ced5ba-643e-4c6e-b8f1-8750013907af.png" metadataAssetGuid="f5ced5ba-643e-4c6e-b8f1-8750013907af">
+        <title>pmtextboxdialogdescription</title>
+        <altText>Text box dialog with Description highlighted</altText>
+      </image>
+    </item>
+    <item id="122af261-3150-485a-afeb-969633ee5147">
+      <image file="Art\122af261-3150-485a-afeb-969633ee5147\122af261-3150-485a-afeb-969633ee5147.png" metadataAssetGuid="122af261-3150-485a-afeb-969633ee5147">
+        <title>pmtextboxtitle</title>
+        <altText>Text box dialog with Title highlighted</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

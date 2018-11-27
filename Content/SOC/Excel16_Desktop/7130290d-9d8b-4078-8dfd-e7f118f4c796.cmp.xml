@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="7130290d-9d8b-4078-8dfd-e7f118f4c796" assetTypeId="CompanionFile">
-  <topic id="7130290d-9d8b-4078-8dfd-e7f118f4c796">
+  <topic id="7130290d-9d8b-4078-8dfd-e7f118f4c796" revisionNumber="-1" createDate="">
     <title>PivotTable</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.assetid">7130290d-9d8b-4078-8dfd-e7f118f4c796</attribute>
+  </attributes>
 </metadata>

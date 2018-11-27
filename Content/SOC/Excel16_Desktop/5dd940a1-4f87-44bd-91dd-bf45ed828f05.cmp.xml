@@ -1,6 +1,99 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="5dd940a1-4f87-44bd-91dd-bf45ed828f05" assetTypeId="CompanionFile">
-  <topic id="5dd940a1-4f87-44bd-91dd-bf45ed828f05">
+  <topic id="5dd940a1-4f87-44bd-91dd-bf45ed828f05" revisionNumber="31" createDate="2016-02-01T21:14:00.000">
     <title>Fix an inconsistent formula</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">EU_UI_Elements</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Context Sensitive Help Access">MAC FWLINK: 616288</attribute>
+    <attribute name="Context Sensitive Help Access">xlmain11.chm3071758 - - Create a list of numbers
+- In the next column put some sort of formula next to each number (something like =A1+2)   - Change one of the formulas to something different  - Right click the formula tip in that cell and then select "Help with error"</attribute>
+    <attribute name="Context Sensitive ID">616288</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm3071758</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">Troubleshooting</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel Starter 2010</attribute>
+    <attribute name="OCMS Asset ID">HA102927556</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform Tab</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">Troubleshooting</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">616288</attribute>
+    <attribute name="search.contextid">xlmain11.chm3071758</attribute>
+    <attribute name="Search.OCMSasset">HA102927556</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">EXE140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel Starter</attribute>
+    <attribute name="search.skuid">EXE140</attribute>
+    <attribute name="search.assetid">5dd940a1-4f87-44bd-91dd-bf45ed828f05</attribute>
+  </attributes>
+  <art>
+    <item id="661269c6-6692-4189-a92c-4db72d969323">
+      <image file="Art\661269c6-6692-4189-a92c-4db72d969323\661269c6-6692-4189-a92c-4db72d969323.gif" metadataAssetGuid="661269c6-6692-4189-a92c-4db72d969323">
+        <title>mac_6024</title>
+        <altText>Inconsistent formula warning button</altText>
+      </image>
+    </item>
+    <item id="d83a8455-b95c-4446-bebb-683f7b7fb85e">
+      <image file="Art\d83a8455-b95c-4446-bebb-683f7b7fb85e\d83a8455-b95c-4446-bebb-683f7b7fb85e.gif" metadataAssetGuid="d83a8455-b95c-4446-bebb-683f7b7fb85e">
+        <title>mac_inconsistent_formula</title>
+        <altText>Inconsistent formula in C4	mac_inconsistent_formula</altText>
+      </image>
+    </item>
+    <item id="0f4079d9-447b-4da1-85b0-b0f4d463ab92">
+      <image file="Art\0f4079d9-447b-4da1-85b0-b0f4d463ab92\0f4079d9-447b-4da1-85b0-b0f4d463ab92.png" metadataAssetGuid="0f4079d9-447b-4da1-85b0-b0f4d463ab92">
+        <title>Excel Convert Error Button</title>
+        <altText>Excel Error Alert button</altText>
+      </image>
+    </item>
+    <item id="314f2d55-e8b8-4417-9d4b-b3908c1ebd0c">
+      <image file="Art\314f2d55-e8b8-4417-9d4b-b3908c1ebd0c\314f2d55-e8b8-4417-9d4b-b3908c1ebd0c.gif" metadataAssetGuid="314f2d55-e8b8-4417-9d4b-b3908c1ebd0c">
+        <title>mac_cmd</title>
+        <altText>COMMAND</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

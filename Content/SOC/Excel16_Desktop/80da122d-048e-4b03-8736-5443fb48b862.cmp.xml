@@ -1,6 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="80da122d-048e-4b03-8736-5443fb48b862" assetTypeId="CompanionFile">
-  <topic id="80da122d-048e-4b03-8736-5443fb48b862">
+  <topic id="80da122d-048e-4b03-8736-5443fb48b862" revisionNumber="4" createDate="2015-08-27T15:50:00.000">
     <title>Geocode your 3D Maps data</title>
   </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Set up your data in Excel 2016 for Windows so you can create a 3D Maps tour.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">80da122d-048e-4b03-8736-5443fb48b862</attribute>
+  </attributes>
+  <art>
+    <item id="dedb015e-585d-4c46-a762-5006ce3cfb56">
+      <image file="Art\dedb015e-585d-4c46-a762-5006ce3cfb56\dedb015e-585d-4c46-a762-5006ce3cfb56.png" metadataAssetGuid="dedb015e-585d-4c46-a762-5006ce3cfb56">
+        <title>pm_mapbystate</title>
+        <altText>Power Map showing data by state</altText>
+      </image>
+    </item>
+    <item id="ce044884-eeb7-4627-aa87-5ed71ea00ec6">
+      <image file="Art\ce044884-eeb7-4627-aa87-5ed71ea00ec6\ce044884-eeb7-4627-aa87-5ed71ea00ec6.png" metadataAssetGuid="ce044884-eeb7-4627-aa87-5ed71ea00ec6">
+        <title>pm_lattitudelongitude</title>
+        <altText>Lattitude and Longitude data</altText>
+      </image>
+    </item>
+    <item id="29f984e2-56ee-451f-8204-63a1c3a252cd">
+      <image file="Art\29f984e2-56ee-451f-8204-63a1c3a252cd\29f984e2-56ee-451f-8204-63a1c3a252cd.png" metadataAssetGuid="29f984e2-56ee-451f-8204-63a1c3a252cd">
+        <title>pm_mapbystreet</title>
+        <altText>Power Map showing data by street</altText>
+      </image>
+    </item>
+    <item id="07541fd7-fa9c-42db-91fc-b9d6213dd2d9">
+      <image file="Art\07541fd7-fa9c-42db-91fc-b9d6213dd2d9\07541fd7-fa9c-42db-91fc-b9d6213dd2d9.png" metadataAssetGuid="07541fd7-fa9c-42db-91fc-b9d6213dd2d9">
+        <title>pm_powermapstatusinbingbar</title>
+        <altText>Power Map status on the Bing Bar</altText>
+      </image>
+    </item>
+  </art>
 </metadata>

@@ -1,6 +1,118 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata fileAssetGuid="49b833c0-873b-48d8-8bf2-c1c59a628534" assetTypeId="CompanionFile">
-  <topic id="49b833c0-873b-48d8-8bf2-c1c59a628534">
+  <topic id="49b833c0-873b-48d8-8bf2-c1c59a628534" revisionNumber="27" createDate="2014-10-27T23:37:00.000">
     <title>About the shared workbook feature</title>
   </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">11/20/2009 12:00:00 AM</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">EXCEL_SHARE_FILES</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Shared Workbooks is an older feature that has been replaced by co-authoring. This article explains the older feature, but we recommend using co-authoring instead.</attribute>
+    <attribute name="Context Sensitive Help Access">for 21267: Review ribbon
+Share Workbook
+Advanced tab
+Help
+</attribute>
+    <attribute name="Context Sensitive Help Access">for 22256: Create a workbook and turn on Sharing (Review&gt;Share Workbook). 
+Save it, but keep it open. 
+Open the workbook on another computer (or find a buddy). 
+Make a change and save it. 
+You'll see this message on the original workbook when you save it. 
+
+</attribute>
+    <attribute name="Context Sensitive Help Access">for 7802: Open a network (OneDrive for Business works fine) workbook. 
+On another computer (I used the Azure apps), open the same workbook. Click Read Only and Notify. 
+Make changes in both. 
+Save the first one. Close it. 
+On the second instance, see File Changed message. Text is 
+	File Changed 
+	You have made changes to 'coauthortest.xlse. 
+	Another user has also made changes. What would you like to do? 
+	Click Discard to discard your changes and edit the latest version. 
+	x 
+	Click Save as to save your changes to a different file and open the latest version. 
+	Discard 
+	Cancel 
+</attribute>
+    <attribute name="Context Sensitive ID">110687</attribute>
+    <attribute name="Context Sensitive ID">21266</attribute>
+    <attribute name="Context Sensitive ID">21267</attribute>
+    <attribute name="Context Sensitive ID">21318</attribute>
+    <attribute name="Context Sensitive ID">22256</attribute>
+    <attribute name="Context Sensitive ID">7802</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm131513</attribute>
+    <attribute name="Context Sensitive ID">xlmain11.chm5202595</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">EXCEL</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="OCMS Asset ID">HA102748977</attribute>
+    <attribute name="OCMS Asset ID">HP010096833</attribute>
+    <attribute name="OCMS Asset ID">HP010342985</attribute>
+    <attribute name="OCMS Version">14.0</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform</attribute>
+    <attribute name="Set_Free_Tag">xlcoauth</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">110687</attribute>
+    <attribute name="search.contextid">21266</attribute>
+    <attribute name="search.contextid">21267</attribute>
+    <attribute name="search.contextid">21318</attribute>
+    <attribute name="search.contextid">22256</attribute>
+    <attribute name="search.contextid">7802</attribute>
+    <attribute name="search.contextid">xlmain11.chm131513</attribute>
+    <attribute name="search.contextid">xlmain11.chm5202595</attribute>
+    <attribute name="Search.OCMSasset">HA102748977</attribute>
+    <attribute name="Search.OCMSasset">HP010096833</attribute>
+    <attribute name="Search.OCMSasset">HP010342985</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">49b833c0-873b-48d8-8bf2-c1c59a628534</attribute>
+  </attributes>
+  <art>
+    <item id="66bd0628-8473-4750-b528-03b57eb3d85d">
+      <image file="Art\66bd0628-8473-4750-b528-03b57eb3d85d\66bd0628-8473-4750-b528-03b57eb3d85d.png" metadataAssetGuid="66bd0628-8473-4750-b528-03b57eb3d85d">
+        <title>btn_TryO365</title>
+        <altText>Try Office 365 or the latest version of Excel</altText>
+      </image>
+    </item>
+  </art>
 </metadata>
