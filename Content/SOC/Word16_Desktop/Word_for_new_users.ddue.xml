@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="cace0fd8-eed9-4aa2-b3c6-07d39895886c" revisionNumber="8"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		<para>This article presents basic concepts in Microsoft Word to help new users get started in creating sophisticated, professional-looking documents.</para>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<tabControl>
+				<tabControlItem targetedOfficeVersion="Office 2013, Office 2016, Office 2019, Office 365 Subscription">
+					<tabControlItemTitle>Newer versions</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+						</content>
+						<sections>
+							<section expanded="true">
+								<title>Start and quit Word</title>
+								<content>
+									<list class="ordered">
+										<listItem>
+											<para>Click the Start button <mediaLinkInline><image xlink:href="32f0401f-f495-46d7-964b-75d1a02ba6ca" /></mediaLinkInline> or press the Windows key on your keyboard to display the <legacyBold>Start</legacyBold> menu.</para>
+										</listItem>
+										<listItem>
+											<para>In the list of applications, find Word and click it. The startup screen appears and Word starts.</para>
+											<alert class="tip">
+												<para>The first time you start Word, the <ui>Microsoft Software License Agreement</ui> might appear.</para>
+											</alert>
+										</listItem>
+									</list>
+									<para>To quit Word, click the <ui>x</ui> button <mediaLinkInline>
+<image xlink:href="f9331f70-22cd-435a-8cb8-44d27e613c31" />
+</mediaLinkInline> in the upper-right corner of your screen.</para>
+									<para>If you made any changes since you last saved the document, a message box appears asking if you want to save changes. To save the changes, click <ui>Yes</ui>. To quit without saving the changes, click <ui>No</ui>. If you clicked the <ui>x</ui> button by mistake, click <ui>Cancel</ui>.</para>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>A tour of the Word user interface</title>
+								<content>
+									<para><mediaLinkInline>
+<image xlink:href="4e876d78-eba5-4ceb-a84a-4e7f733289d6" />
+</mediaLinkInline></para>
+									<para><embeddedLabel>1</embeddedLabel> Title Bar: Displays the file name of the document that is being edited and the name of the software you are using. It also includes the standard Minimize, Restore, and Close buttons.</para>
+									<para><embeddedLabel>2</embeddedLabel> Quick Access Toolbar: Commands that are frequently used, such as <ui>Save</ui>, <ui>Undo</ui>, and <ui>Redo</ui> are located here. At the end of the Quick Access Toolbar is a pull-down menu where you can add other commonly used or commonly needed commands.</para>
+									<para><embeddedLabel>3</embeddedLabel> File Tab: Click this button to find commands that act on the document itself rather than the content of the document, such as <ui>New</ui>, <ui>Open</ui>, <ui>Save as</ui>, <ui>Print</ui>, and <ui>Close</ui>.</para>
+									<para><embeddedLabel>4</embeddedLabel> Ribbon: Commands needed for your work are located here. The appearance of the Ribbon will change depending on the size of your monitor. Word will compress the ribbon by changing the arrangement of the controls to accommodate smaller monitors.</para>
+									<para><embeddedLabel>5</embeddedLabel> Edit Window: Shows the contents of the document you are editing.</para>
+									<para><embeddedLabel>6</embeddedLabel> Scroll Bar: Lets you change the display position of the document you are editing.</para>
+									<para><embeddedLabel>7</embeddedLabel> Status Bar: Displays information about the document you are editing.</para>
+									
+									<para><embeddedLabel>8</embeddedLabel> Zoom slide control: Lets you change the zoom settings of the document you are editing.</para>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Save and open a document</title>
+								<content>
+									<para>In Word, you must save your document so you can quit the program without losing your work. When you save the document, it is stored as a file on your computer or in a network location. Later, you can open the file, change it, and print it.</para>
+									<para>To save a document, do the following:</para>
+									<list class="ordered">
+										<listItem>
+											<para>Click the <ui>Save </ui>button in the Quick Access toolbar. The <ui>Save As</ui> window appears.</para>
+										</listItem>
+										<listItem>
+											<para>Choose a location where you want to save the document and enter a file name in the <ui>File name</ui> box. To change the file name, type in a new file name.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Save</ui>.</para>
+										</listItem>
+									</list>
+									<para>You can open a Word document to resume your work. To open a document, do the following:</para>
+									<list class="ordered">
+										<listItem>
+											<para>Open File Explorer, and click <ui>Documents</ui>. A list of documents appears.</para>
+										</listItem>
+										<listItem>
+											<para>If the document you want to work on is on the list, click the file name to open the document. If the document isn't on the list, navigate to the location where you stored your file, and double-click the file. The Word startup screen appears, and then the document is displayed.</para>
+										</listItem>
+									</list>
+									<alert class="tip">
+										<para>You can also open a document from within Word by clicking the <ui>File</ui> tab and then clicking <ui>Open</ui>. To open a document you saved recently, click <ui>Recent</ui>.</para>
+									</alert>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Edit and format text</title>
+								<content>
+									<para>Before you edit or format text, you must first select the text. Follow the steps below to select text.</para>
+									<list class="ordered">
+										<listItem>
+											<para>Place the curser at the beginning of the text you’d like to edit or format and then press the left mouse button.</para>
+										</listItem>
+										<listItem>
+											<para>While holding down the left mouse button, move it to the right (called “dragging”) to select the text. A background color is added in the location of the selected text to indicate the selection range.</para>
+										</listItem>
+									</list>
+									<para>You can find most text formatting tools by clicking the <ui>Home</ui> tab and then choosing from the <ui>Font</ui> group.</para>
+									<para><mediaLinkInline><image xlink:href="b80be7f8-e354-4f12-84f3-5987d4dacb3f" /></mediaLinkInline></para>
+									<para><embeddedLabel>1</embeddedLabel> This is the <ui>Home</ui> tab.</para>
+									<para><embeddedLabel>2</embeddedLabel> This is the <ui>Font</ui> group on the <ui>Home</ui> tab.</para>
+									<para><embeddedLabel>3</embeddedLabel> This is the Bold button. See the table below for the names and functions of all the buttons in the <ui>Font</ui> group.</para>
+									<table>
+										<thead>
+											<tr>
+												<TD>
+													<para>Button</para>
+												</TD>
+												<TD>
+													<para>Name</para>
+												</TD>
+												<TD>
+													<para>Function</para>
+												</TD>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="5c95a2d1-e208-4a51-946d-b73bebe5bc2e" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Font</para>
+												</TD>
+												<TD>
+													<para>Changes the font.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="9aa50225-e313-4068-a73c-3fee6a2c03a5" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Font Size</para>
+												</TD>
+												<TD>
+													<para>Changes the size of the text.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="9a9d042c-507a-4ddb-89fa-c2578e4cce94" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Grow Font</para>
+												</TD>
+												<TD>
+													<para>Increases the text size.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="65688a39-2a62-4000-8d6a-5d5295a216e8" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Shrink Font</para>
+												</TD>
+												<TD>
+													<para>Decreases the text size.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="8152f9b0-b073-46e5-b012-bdbc5af50fd6" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Change Case</para>
+												</TD>
+												<TD>
+													<para>Change all the selected text to uppercase, lowercase, or other common capitalizations.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="74208996-048f-4ec7-be54-4fb1e5f7b18a" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Clear Formatting</para>
+												</TD>
+												<TD>
+													<para>Clears all formatting for the selected text, leaving only the plain text.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="5cb51f26-d500-4c4a-bf41-b8664a09766a" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Bold</para>
+												</TD>
+												<TD>
+													<para>Makes the selected text bold.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="8632e7e8-ceff-4c77-97a9-ee54097aa881" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Italic</para>
+												</TD>
+												<TD>
+													<para>Italicizes the selected text.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="a4b705dc-baa6-463e-b86a-c7ddd1c0ac6e" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Underline</para>
+												</TD>
+												<TD>
+													<para>Draws a line under the selected text. Click the dropdown arrow to select the type of underline.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="eb57a24e-0dd6-4de4-ac14-a68ce991ed5e" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Strikethrough</para>
+												</TD>
+												<TD>
+													<para>Draws a line through the middle of selected text.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="e471ddd8-e5ae-4a7a-9f99-084e7218c0e0" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Subscript</para>
+												</TD>
+												<TD>
+													<para>Creates subscript characters.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="bd297564-4e3b-4691-b2f3-06329ff2e256" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Superscript</para>
+												</TD>
+												<TD>
+													<para>Creates superscript characters.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="5b30dae1-12e6-45f4-bb66-dec4306ca561" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Text Effects</para>
+												</TD>
+												<TD>
+													<para>Apply a visual effect to selected text, such as shadow, glow, or reflection.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="9f3e1200-2b41-4225-abbb-6a6218699bfd" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Text Highlight Color</para>
+												</TD>
+												<TD>
+													<para>Makes text look like it was marked with a highlighter pen.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="e5c77bcb-15cc-45a4-b379-9907fec779ec" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Font Color</para>
+												</TD>
+												<TD>
+													<para>Changes the text color.</para>
+												</TD>
+											</tr>
+										</tbody>
+									</table>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Use styles</title>
+								<content>
+									<para>Styles allow you to quickly format major elements in your document, such as headings, titles, and subtitles. Follow the steps below to apply styles to the text in your document.</para>
+									<list class="ordered">
+										<listItem>
+											<para>Highlight the text you want to change.</para>
+										</listItem>
+										<listItem>
+											<para>On the <ui>Home</ui> tab in the <ui>Styles</ui> group, pause the pointer over any style to see a live preview directly in your document. To see the complete list of styles, click the <ui>More</ui> arrow to open the <ui>Styles</ui> pane.</para>
+										</listItem>
+										<listItem>
+											<para>To apply the style that’s most appropriate for your text, just click it.</para>
+										</listItem>
+									</list>
+									<para>When you’re done applying styles to the individual elements, Word lets you use a style set to change the look of your whole document all at once.</para>
+									<list class="ordered">
+										<listItem>
+											<para>On the <ui>Design</ui> tab, in the <ui>Document Formatting</ui> group, choose one of the predefined style sets, such as <ui>Basic</ui> or <ui>Casual</ui>. Pause the pointer over any style set to see a live preview directly in your document. To see more predefined style sets, click the down arrow on the right side of the <ui>Document Formatting</ui> group.</para>
+										</listItem>
+										<listItem>
+											<para>To apply the style set that’s most appropriate for your text, just click it.</para>
+										</listItem>
+									</list>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Modify line spacing in a document</title>
+								<content>
+									<para>With Word, you can easily change the spacing between lines and paragraphs in your document.</para>
+									<list class="ordered">
+										<listItem>
+											<para>On the <ui>Design</ui> tab, click <ui>Paragraph Spacing</ui> to see a drop-down list of paragraph spacing options. Pause the pointer over any paragraph spacing style to see a live preview directly in your document.</para>
+										</listItem>
+										<listItem>
+											<para>When you find the look you want, click it.</para>
+										</listItem>
+									</list>
+									<alert class="tip">
+										<para>To define your own paragraph spacing, choose <ui>Custom Paragraph Spacing</ui>.</para>
+									</alert>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section expanded="true">
+								<title>Preview and print</title>
+								<content>
+									<para>It’s easy to preview what the layout of your document will look like when printed without actually printing.</para>
+									<list class="ordered">
+										<listItem>
+											<para>Click the <ui>File</ui> tab.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Print</ui> to see a preview of your document.</para>
+										</listItem>
+										<listItem>
+											<para>Review the <ui>Settings</ui> for any properties you might want to change.</para>
+										</listItem>
+										<listItem>
+											<para>When the properties for your printer and document appear the way that you want them to, click <ui>Print.</ui></para>
+										</listItem>
+									</list>
+									
+									<mediaLink><caption></caption>
+										<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+										<video channel="ALTENUS_MS_OFFICE" player="ocvideo" videoid="a4e5b2f1-65af-4b77-b669-5c4789f2357b" videotype="single" />
+									</mediaLink>
+									<para />
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+				<tabControlItem targetedOfficeVersion="Office 2010">
+					<tabControlItemTitle>Office 2010</tabControlItemTitle>
+					<tabControlItemSection>
+						<content>
+							
+						</content>
+						<sections>
+							<section address="__toc252541092" expanded="true">
+								<title>Start and quit Word</title>
+								<content>
+									<para>To use Word, look for the Word icon in the Start menu and click it.</para>
+									<list class="ordered">
+										<listItem>
+											<para>Click the <legacyBold>Start button</legacyBold> <mediaLinkInline><image xlink:href="817e00c0-0788-4f9c-8362-1d0aad718266" /></mediaLinkInline> to display the <legacyBold>Start</legacyBold> menu.</para>
+										</listItem>
+										<listItem>
+											<para>Point to <ui>All Programs</ui>, <ui>Microsoft Office</ui>, and then click<token>TE000130258</token>.</para>
+										</listItem>
+										<listItem>
+											<para>The startup screen appears, and Word starts.</para>
+										</listItem>
+									</list>
+									<alert class="tip">
+										<para>The first time you start Word, the <ui>Microsoft Software License Agreement</ui> might appear.</para>
+									</alert>
+									<para>To quit, choose the <ui>Exit</ui> command on the <ui>File</ui> tab.</para>
+									<list class="ordered">
+										<listItem>
+											<para>Click the <ui>File</ui> tab.</para>
+										</listItem>
+										<listItem>
+											<para>Choose <ui>Exit</ui>.</para>
+										</listItem>
+									</list>
+									<para>If you made any changes since you last saved the document, a message box appears asking if you want to save changes. To save the changes, click <ui>Yes</ui>. To quit without saving the changes, click <ui>No</ui>. If you clicked the <ui>Exit</ui> button by mistake, click <ui>Cancel</ui>.</para>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section address="__toc252541093" expanded="true">
+								<title>A tour of the Word user interface</title>
+								<content>
+									<para><mediaLinkInline><image xlink:href="3e4c0b86-b444-4d7d-b04d-f113879206e9" /></mediaLinkInline></para>
+									<para><embeddedLabel>1</embeddedLabel> Title Bar: Displays the file name of the document that is being edited and the name of the software you are using. It also includes the standard Minimize, Restore, and Close buttons.</para>
+									<para><embeddedLabel>2</embeddedLabel> Quick Access Toolbar: Commands that are frequently used, such as <ui>Save</ui>, <ui>Undo</ui>, and <ui>Redo</ui> are located here. At the end of the Quick Access Toolbar is a pull-down menu where you can add other commonly used or commonly needed commands.</para>
+									<para><embeddedLabel>3</embeddedLabel> File Tab: Click this button to find commands that act on the document itself rather than the content of the document, such as <ui>New</ui>, <ui>Open</ui>, <ui>Save as</ui>, <ui>Print</ui>, and <ui>Close</ui>.</para>
+									<para><embeddedLabel>4</embeddedLabel> Ribbon: Commands needed for your work are located here. The appearance of the Ribbon will change depending on the size of your monitor. Word will compress the ribbon by changing the arrangement of the controls to accommodate smaller monitors.</para>
+									<para><embeddedLabel>5</embeddedLabel> Edit Window: Shows the contents of the document you are editing.</para>
+									<para><embeddedLabel>6</embeddedLabel> Scroll Bar: Lets you change the display position of the document you are editing.</para>
+									<para><embeddedLabel>7</embeddedLabel> Status Bar: Displays information about the document you are editing.</para>
+									<para><embeddedLabel>8</embeddedLabel> View Buttons: Lets you change the display mode of the document you are editing to fit your needs.</para>
+									<para><embeddedLabel>9</embeddedLabel> Zoom slide control: Lets you change the zoom settings of the document you are editing.</para>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section address="__toc252541094" expanded="true">
+								<title>Save and open a document</title>
+								<content>
+									<para>In Word, you must save your document so you can quit the program without losing your work. When you save the document, it is stored as a file on your computer. Later, you can open the file, change it, and print it.</para>
+									<para>To save a document, do the following:</para>
+									<list class="ordered">
+										<listItem>
+											<para>Click the <ui>Save </ui>button in the Quick Access toolbar.</para>
+										</listItem>
+										<listItem>
+											<para>Specify the location where you want to save the document in the <ui>Save in</ui> box. The first time you save your document, the first line of text in the document is pre-filled in as the file name in the <ui>File name</ui> box. To change the file name, type in a new file name.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Save</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>The document is saved as a file. The file name in the Title Bar changes to reflect the saved file name.</para>
+										</listItem>
+									</list>
+									<para>You can open a Word document to resume your work. To open a document, do the following:</para>
+									<list class="ordered">
+										<listItem>
+											<para>Click the Start button, and then click <ui>Documents</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Navigate to the location where you stored your file, and double-click the file. The Word startup screen appears, and then the document is displayed.</para>
+										</listItem>
+									</list>
+									<alert class="tip">
+										<para>You can also open a document from within Word by clicking the <ui>File</ui> tab and then clicking <ui>Open</ui>. To open a document you saved recently, click on Recent</para>
+									</alert>
+									<para>.</para>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section address="__toc252541095" expanded="true">
+								<title>Edit and format text</title>
+								<content>
+									<para>Before you edit or format text, you must first select the text. Follow the steps below to select text.</para>
+									<list class="ordered">
+										<listItem>
+											<para>Place the curser at the beginning of the text you’d like to edit or format and then press the left mouse button.</para>
+										</listItem>
+										<listItem>
+											<para>While holding down the left mouse button, move it to the right (called “dragging”) to select the text. A background color is added in the location of the selected text to indicate the selection range.</para>
+										</listItem>
+									</list>
+									<para>Most text formatting tools are found by clicking the <ui>Home</ui> tab and then choosing from the <ui>Font</ui> group.</para>
+									<para><mediaLinkInline><image xlink:href="b80be7f8-e354-4f12-84f3-5987d4dacb3f" /></mediaLinkInline></para>
+									<para><embeddedLabel>1</embeddedLabel> This is the <ui>Home</ui> tab.</para>
+									<para><embeddedLabel>2</embeddedLabel> This is the <ui>Font</ui> group on the <ui>Home</ui> tab.</para>
+									<para><embeddedLabel>3</embeddedLabel> This is the Bold button. See the table below for the names and functions of all the buttons in the <ui>Font</ui> group.</para>
+									<table>
+										<thead>
+											<tr>
+												<TD>
+													<para>Button</para>
+												</TD>
+												<TD>
+													<para>Name</para>
+												</TD>
+												<TD>
+													<para>Function</para>
+												</TD>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="5c95a2d1-e208-4a51-946d-b73bebe5bc2e" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Font</para>
+												</TD>
+												<TD>
+													<para>Changes the font.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="9aa50225-e313-4068-a73c-3fee6a2c03a5" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Font Size</para>
+												</TD>
+												<TD>
+													<para>Changes the size of the text.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="9a9d042c-507a-4ddb-89fa-c2578e4cce94" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Grow Font</para>
+												</TD>
+												<TD>
+													<para>Increases the text size.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="65688a39-2a62-4000-8d6a-5d5295a216e8" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Shrink Font</para>
+												</TD>
+												<TD>
+													<para>Decreases the text size.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="8152f9b0-b073-46e5-b012-bdbc5af50fd6" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Change Case</para>
+												</TD>
+												<TD>
+													<para>Change all the selected text to uppercase, lowercase, or other common capitalizations.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="74208996-048f-4ec7-be54-4fb1e5f7b18a" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Clear Formatting</para>
+												</TD>
+												<TD>
+													<para>Clears all formatting for the selected text, leaving only the plain text.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="5cb51f26-d500-4c4a-bf41-b8664a09766a" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Bold</para>
+												</TD>
+												<TD>
+													<para>Makes the selected text bold.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="8632e7e8-ceff-4c77-97a9-ee54097aa881" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Italic</para>
+												</TD>
+												<TD>
+													<para>Italicizes the selected text.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="a4b705dc-baa6-463e-b86a-c7ddd1c0ac6e" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Underline</para>
+												</TD>
+												<TD>
+													<para>Draws a line under the selected text. Click the dropdown arrow to select the type of underline.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="eb57a24e-0dd6-4de4-ac14-a68ce991ed5e" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Strikethrough</para>
+												</TD>
+												<TD>
+													<para>Draws a line through the middle of selected text.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="e471ddd8-e5ae-4a7a-9f99-084e7218c0e0" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Subscript</para>
+												</TD>
+												<TD>
+													<para>Creates subscript characters.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="bd297564-4e3b-4691-b2f3-06329ff2e256" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Superscript</para>
+												</TD>
+												<TD>
+													<para>Creates superscript characters.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="5b30dae1-12e6-45f4-bb66-dec4306ca561" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Text Effects</para>
+												</TD>
+												<TD>
+													<para>Apply a visual effect to selected text, such as shadow, glow, or reflection.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="9f3e1200-2b41-4225-abbb-6a6218699bfd" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Text Highlight Color</para>
+												</TD>
+												<TD>
+													<para>Makes text look like it was marked with a highlighter pen.</para>
+												</TD>
+											</tr>
+											<tr>
+												<TD>
+													<para><mediaLinkInline><image xlink:href="e5c77bcb-15cc-45a4-b379-9907fec779ec" /></mediaLinkInline></para>
+												</TD>
+												<TD>
+													<para>Font Color</para>
+												</TD>
+												<TD>
+													<para>Changes the text color.</para>
+												</TD>
+											</tr>
+										</tbody>
+									</table>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section address="__toc252541096" expanded="true">
+								<title>Use styles</title>
+								<content>
+									<para>Styles allow you to quickly format major elements in your document, such as headings, titles, and subtitles. Follow the steps below to apply styles to the text in your document.</para>
+									<list class="ordered">
+										<listItem>
+											<para>Highlight the text you want to change.</para>
+										</listItem>
+										<listItem>
+											<para>On the <ui>Home</ui> tab in the <ui>Styles</ui> group, pause the pointer over any style to see a live preview directly in your document.</para>
+										</listItem>
+										<listItem>
+											<para>To apply the style that’s most appropriate for your text, just click it.</para>
+										</listItem>
+									</list>
+									<para>When you’re done applying styles to the individual elements, <token>TE000130261</token> lets you change the look of your whole document all at once.</para>
+									<list class="ordered">
+										<listItem>
+											<para>On the <ui>Home</ui> tab, in the <ui>Styles</ui> group, click <ui>Change Styles</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Point to <ui>Style Set</ui> to find predefined style sets. Pause the pointer over any style set to see a live preview directly in your document.</para>
+										</listItem>
+										<listItem>
+											<para>When you find the look you want, click it.</para>
+										</listItem>
+									</list>
+									
+									<mediaLink><caption></caption>
+										<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+										<video channel="ALTENUS_MS_OFFICE" player="ocvideo" videoid="f2efad10-6a88-4c94-832d-be2f7ac48c58" videotype="single" />
+									</mediaLink>
+									<para />
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section address="__toc254705943" expanded="true">
+								<title>Modify line spacing in a document</title>
+								<content>
+									<para>With <token>TE000130261</token>, you can easily change the spacing between lines and paragraphs in your document.</para>
+									<list class="ordered">
+										<listItem>
+											<para>On the <ui>Home</ui> tab, in the <ui>Styles</ui> group, click <ui>Change Styles</ui>.</para>
+										</listItem>
+										<listItem>
+											<para>Point to <ui>Paragraph Spacing</ui> to find a selection of built-in paragraph spacing styles. Pause the pointer over any paragraph spacing style to see a live preview directly in your document.</para>
+										</listItem>
+										<listItem>
+											<para>When you find the look you want, click it.</para>
+										</listItem>
+									</list>
+									<alert class="tip">
+										<para>To define your own paragraph spacing, choose <ui>Custom Paragraph Spacing</ui>.</para>
+									</alert>
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section>
+							<section address="__toc252541098" expanded="true">
+								<title>Preview and print</title>
+								<content>
+									<para>It’s easy to preview what the layout of your document will look like when printed without actually printing.</para>
+									<list class="ordered">
+										<listItem>
+											<para>Click the <ui>File</ui> tab.</para>
+										</listItem>
+										<listItem>
+											<para>Click <ui>Print</ui> to see a preview of your document.</para>
+										</listItem>
+										<listItem>
+											<para>Review the <ui>Settings</ui> for any properties you might want to change.</para>
+										</listItem>
+										<listItem>
+											<para>When the properties for your printer and document appear the way that you want them to, click <ui>Print.</ui></para>
+										</listItem>
+									</list>
+									
+									<mediaLink><caption></caption>
+										<image xlink:href="4873755a-8b1e-497e-bc54-101d1e75d3e7" />
+										<video channel="ALTENUS_MS_OFFICE" player="ocvideo" videoid="a4e5b2f1-65af-4b77-b669-5c4789f2357b" videotype="single" />
+									</mediaLink>
+									<para />
+									<para><link xlink:href="cace0fd8-eed9-4aa2-b3c6-07d39895886c#__top">Top of Page</link></para>
+								</content>
+							</section></sections>
+					</tabControlItemSection>
+				</tabControlItem>
+			</tabControl>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

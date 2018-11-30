@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata fileAssetGuid="20156a41-520e-48a6-8680-fb9ce15bf3d6" assetTypeId="CompanionFile">
+  <topic id="20156a41-520e-48a6-8680-fb9ce15bf3d6" revisionNumber="24" createDate="2014-05-16T20:34:00.000">
+    <title>Control the formatting when you paste text</title>
+  </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Use the Paste Options button to control how text appears when you paste it into a document in Word.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">WORD</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010215708</attribute>
+    <attribute name="OCMS Asset ID">HA010215710</attribute>
+    <attribute name="OCMS Version">11.3</attribute>
+    <attribute name="ProjectFileAssetType">DocSchema</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA010215708</attribute>
+    <attribute name="Search.OCMSasset">HA010215710</attribute>
+    <attribute name="search.appverid">ZWD120</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZWD140</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZWD150</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.appverid">ZWD190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZWD900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">20156a41-520e-48a6-8680-fb9ce15bf3d6</attribute>
+  </attributes>
+  <art>
+    <item id="78970272-617c-4537-8879-559099a41ce6">
+      <image file="Art\78970272-617c-4537-8879-559099a41ce6\78970272-617c-4537-8879-559099a41ce6.gif" metadataAssetGuid="78970272-617c-4537-8879-559099a41ce6">
+        <title>wd_hometab_paragraph</title>
+        <altText>Word Ribbon image</altText>
+      </image>
+    </item>
+    <item id="8aa0ed92-4d42-443c-9e0d-901eb0408e69">
+      <image file="Art\8aa0ed92-4d42-443c-9e0d-901eb0408e69\8aa0ed92-4d42-443c-9e0d-901eb0408e69.gif" metadataAssetGuid="8aa0ed92-4d42-443c-9e0d-901eb0408e69">
+        <title>pasteps</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+      <image file="Art\f22ae713-addb-400d-bc0f-b7a62f2d61af\f22ae713-addb-400d-bc0f-b7a62f2d61af.gif" metadataAssetGuid="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+        <title>o12filemenubutton</title>
+        <altText>Office button image</altText>
+      </image>
+    </item>
+  </art>
+</metadata>

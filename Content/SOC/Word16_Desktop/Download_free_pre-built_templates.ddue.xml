@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="29f2a18d-29a6-4a07-998b-cfe5ff7ffbbb" revisionNumber="16"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<para>You can download free, pre-built document templates with useful and creative themes from Office when you click <ui>File</ui> &gt; <ui>New</ui> in your Office app.</para>
+		<para><mediaLinkInline><image xlink:href="81d70714-c460-4db3-95bd-b0304cab4813" /></mediaLinkInline></para>
+		<alert class="note">
+			<para>In Office 2007, click the <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af" /></mediaLinkInline>, and then select <ui>New</ui>.</para>
+		</alert>
+		<para>Templates can include calendars, business cards, letters, cards, brochures, newsletters, resumes, and much more. You can use any template you download as-is, or you can customize it to meet your needs.</para>
+	</introduction>
+	<section>
+		<title />
+		<content>
+			<para>When you select a template you'll be presented with a dialog box that shows you a larger view of the template. To download and use it, click the <ui>Create </ui>button and a new file will be created for you, using that template, all ready for you to customize with your information.</para>
+			<para><mediaLinkInline><image xlink:href="4ef45bbc-6de3-4ef9-9b34-8a762fa825dc" /></mediaLinkInline></para>
+			<para>If you're looking to print on Avery labels you may find this article helpful: <link xlink:href="4c1c1aba-fefe-4e66-ad14-5f3b910a85dc">Print on Avery Labels with Microsoft Word.</link></para>
+			<alert class="tip">
+				<para>Looking for a large collection of great templates for Microsoft Office? Check out <externalLink><linkText>https://templates.office.com</linkText><linkUri>https://templates.office.com</linkUri></externalLink>!</para>
+			</alert>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>

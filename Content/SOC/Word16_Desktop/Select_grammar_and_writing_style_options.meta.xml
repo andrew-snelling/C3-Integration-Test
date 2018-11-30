@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata fileAssetGuid="ecd60e9f-6b2e-4070-b30c-42efa6cff55a" assetTypeId="CompanionFile">
+  <topic id="ecd60e9f-6b2e-4070-b30c-42efa6cff55a" revisionNumber="31" createDate="2015-07-07T00:55:00.000">
+    <title>Select grammar and writing style options</title>
+  </topic>
+  <attributes>
+    <attribute name="BreadcrumbPrimaryCategoryId">WORD_TEXT</attribute>
+    <attribute name="BreadcrumbSecondaryCategoryId">WORD_SPELL_CHECK</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">How to find and change the settings used to check for grammatical and spelling errors in your documents and mail, and descriptions of the rules that determine which possible errors are detected.  </attribute>
+    <attribute name="Context Sensitive ID">482</attribute>
+    <attribute name="Context Sensitive ID">8033</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.Product">WORD</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Office 365 for Mac</attribute>
+    <attribute name="ProjectFileAssetType">DocSchema</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Breadcrumb</attribute>
+    <attribute name="Set_Free_Tag">LP_Breadcrumb</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">482</attribute>
+    <attribute name="search.contextid">8033</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZOL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZOL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.appverid">MWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word for Mac</attribute>
+    <attribute name="search.skuid">MWD160</attribute>
+    <attribute name="search.appverid">ZWD190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MWD190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZWD900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MWD900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">ecd60e9f-6b2e-4070-b30c-42efa6cff55a</attribute>
+  </attributes>
+  <art>
+    <item id="6197b263-4dbb-4c7e-b61f-3424ac34a832">
+      <image file="Art\6197b263-4dbb-4c7e-b61f-3424ac34a832\6197b263-4dbb-4c7e-b61f-3424ac34a832.png" metadataAssetGuid="6197b263-4dbb-4c7e-b61f-3424ac34a832">
+        <title>Word16_Editor_GrammarSettings</title>
+        <altText>Grammar &amp; More Dialog</altText>
+      </image>
+    </item>
+    <item id="71516c63-f963-4e03-8a30-9f7df1d36f4b">
+      <image file="Art\71516c63-f963-4e03-8a30-9f7df1d36f4b\71516c63-f963-4e03-8a30-9f7df1d36f4b.png" metadataAssetGuid="71516c63-f963-4e03-8a30-9f7df1d36f4b">
+        <title>WordforMac Grammar Settings dialog</title>
+        <altText>In Grammar Settings, select the categories of issues that Word checks for.</altText>
+      </image>
+    </item>
+    <item id="6fd46ce1-dd26-48d1-8c8d-aebdc622ff0f">
+      <image file="Art\6fd46ce1-dd26-48d1-8c8d-aebdc622ff0f\6fd46ce1-dd26-48d1-8c8d-aebdc622ff0f.png" metadataAssetGuid="6fd46ce1-dd26-48d1-8c8d-aebdc622ff0f">
+        <title>WordforMac Word Preferences Spelling &amp; Grammar highlighted</title>
+        <altText>Click Spelling &amp; Grammar to change settings for checking spelling and grammar.</altText>
+      </image>
+    </item>
+  </art>
+</metadata>

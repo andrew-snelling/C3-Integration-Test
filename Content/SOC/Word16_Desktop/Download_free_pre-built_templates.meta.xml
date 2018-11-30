@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata fileAssetGuid="29f2a18d-29a6-4a07-998b-cfe5ff7ffbbb" assetTypeId="CompanionFile">
+  <topic id="29f2a18d-29a6-4a07-998b-cfe5ff7ffbbb" revisionNumber="16" createDate="2014-05-16T20:38:00.000">
+    <title>Download free, pre-built templates</title>
+  </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Download useful templates such as calendars, business cards, letters, cards, brochures, newsletters, resumes, and more from office.com (Microsoft Office Word, Excel, and PowerPoint).</attribute>
+    <attribute name="Context Sensitive ID">131634</attribute>
+    <attribute name="Context Sensitive ID">144814</attribute>
+    <attribute name="Context Sensitive ID">16650</attribute>
+    <attribute name="Context Sensitive ID">182977</attribute>
+    <attribute name="Context Sensitive ID">74853</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">How To</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">WORD</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Access 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Access 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Access 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">InfoPath 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">InfoPath 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Project 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Project 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Project Professional 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Publisher 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Publisher 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Publisher 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Visio 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Visio 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Visio Professional 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA010250103</attribute>
+    <attribute name="OCMS Asset ID">HA010266264</attribute>
+    <attribute name="OCMS Asset ID">HA010354246</attribute>
+    <attribute name="OCMS Asset ID">HA101976901</attribute>
+    <attribute name="OCMS Asset ID">HA102840145</attribute>
+    <attribute name="OCMS Version">11.0</attribute>
+    <attribute name="ProjectFileAssetType">DocSchema</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">How To</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">131634</attribute>
+    <attribute name="search.contextid">144814</attribute>
+    <attribute name="search.contextid">16650</attribute>
+    <attribute name="search.contextid">182977</attribute>
+    <attribute name="search.contextid">74853</attribute>
+    <attribute name="Search.OCMSasset">HA010250103</attribute>
+    <attribute name="Search.OCMSasset">HA010266264</attribute>
+    <attribute name="Search.OCMSasset">HA010354246</attribute>
+    <attribute name="Search.OCMSasset">HA101976901</attribute>
+    <attribute name="Search.OCMSasset">HA102840145</attribute>
+    <attribute name="search.appverid">ZAC140</attribute>
+    <attribute name="search.applicationSuite">Access</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZAC150</attribute>
+    <attribute name="search.applicationSuite">Access</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZAC160</attribute>
+    <attribute name="search.applicationSuite">Access</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Access</attribute>
+    <attribute name="search.skuid">ZAC160</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">ZIP140</attribute>
+    <attribute name="search.applicationSuite">InfoPath</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZPI150</attribute>
+    <attribute name="search.applicationSuite">InfoPath</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPP120</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZPP140</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZPP150</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">ZPJ140</attribute>
+    <attribute name="search.applicationSuite">Project</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZPJ160</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Project Professional</attribute>
+    <attribute name="search.skuid">ZPJ160</attribute>
+    <attribute name="search.appverid">ZPB140</attribute>
+    <attribute name="search.applicationSuite">Publisher</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZPB150</attribute>
+    <attribute name="search.applicationSuite">Publisher</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPB160</attribute>
+    <attribute name="search.applicationSuite">Publisher</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Publisher</attribute>
+    <attribute name="search.skuid">ZPB160</attribute>
+    <attribute name="search.appverid">ZVO140</attribute>
+    <attribute name="search.applicationSuite">Visio</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">VOS150</attribute>
+    <attribute name="search.applicationSuite">Visio</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZVO160</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.appverid">ZWD120</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZWD140</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZWD150</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.appverid">ZWD190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZWD900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">29f2a18d-29a6-4a07-998b-cfe5ff7ffbbb</attribute>
+  </attributes>
+  <art>
+    <item id="4ef45bbc-6de3-4ef9-9b34-8a762fa825dc">
+      <image file="Art\4ef45bbc-6de3-4ef9-9b34-8a762fa825dc\4ef45bbc-6de3-4ef9-9b34-8a762fa825dc.png" metadataAssetGuid="4ef45bbc-6de3-4ef9-9b34-8a762fa825dc">
+        <title>Word 2016 Create from template button</title>
+        <altText>The Create button</altText>
+      </image>
+    </item>
+    <item id="81d70714-c460-4db3-95bd-b0304cab4813">
+      <image file="Art\81d70714-c460-4db3-95bd-b0304cab4813\81d70714-c460-4db3-95bd-b0304cab4813.png" metadataAssetGuid="81d70714-c460-4db3-95bd-b0304cab4813">
+        <title>Word_File_New_Template</title>
+        <altText>File &gt; New</altText>
+      </image>
+    </item>
+    <item id="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+      <image file="Art\f22ae713-addb-400d-bc0f-b7a62f2d61af\f22ae713-addb-400d-bc0f-b7a62f2d61af.gif" metadataAssetGuid="f22ae713-addb-400d-bc0f-b7a62f2d61af">
+        <title>o12filemenubutton</title>
+        <altText>Office button image</altText>
+      </image>
+    </item>
+  </art>
+</metadata>

@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="20156a41-520e-48a6-8680-fb9ce15bf3d6" revisionNumber="24"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <introduction address="__top">
+    <para address="bmbacktotop">When you cut or copy text and then paste it into your document, do you want the text to look the way it did originally, or do you want it to look like the surrounding text in its new location? Sometimes you may want one option, but in another situation you may want the other.</para>
+    <para>For example, if you insert a quotation from a Web page into your document, you may want the quotation to appear exactly as it does on the Web page. On the other hand, if you copy text from one of your own documents to another, you may prefer that the copied text look like the text in the destination document.</para>
+    <para>In Word, you can choose either of these options each time that you paste text. If you typically want one of the options, you can set it as the default for pasted text. This article explains how.</para>
+  </introduction>
+  
+  <section address="TurnOnPaste" expanded="true">
+<title>Turn on the Paste Options button</title><content><para>The <ui>Paste Options</ui> button is turned on by default. If you don't see the button, it might be turned off. Follow these steps to turn it on.</para><list class="ordered"><listItem>
+              <para>In Word 2010, 2013, or 2016, click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Advanced</ui>.</para>
+            <para>In Word 2007, click the <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af"></image></mediaLinkInline>, and then click <ui>Word Options</ui> &gt; <ui>Advanced</ui>.</para></listItem>
+            <listItem>
+              <para>In the <ui>Cut, copy, and paste</ui> section, select the <ui>Show Paste Options button when content is pasted</ui> check box.</para>
+            </listItem>
+            
+            <listItem>
+              <para>Click <ui>OK</ui>.</para>
+            </listItem>
+            </list></content>
+</section><section address="bm1" expanded="true">
+    <title>Preserve the look of the original text</title>
+    <content>
+      <para>The text that you move or copy can have a font or other kind of formatting applied to it, such as bold or italic, that differs from the document where you are pasting the text. For example, you can move or copy text that is bold, 10-point Times New Roman, and paste it next to text that is regular, 11-point Calibri. If you want the pasted text to be in Times New Roman instead of Calibri, you can preserve its look.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Select the text that you want to move or copy, and then press CTRL+X to move the text, or press CTRL+C to copy the text.</para>
+        </listItem>
+        <listItem>
+          <para>Click where you want to paste the text, and then press CTRL+V.</para>
+        </listItem>
+        <listItem>
+          <para>Click the <ui>Paste Options</ui> button<mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>, which appears after you paste the text.</para>
+          <para>If you don't see a <ui>Paste Options</ui> button, press CTRL+Z to undo the paste, and then turn on the option for displaying it. For procedures, go to <link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#TurnOnPaste">Turn on the Paste Options button</link>.</para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>Click <ui>Keep Source Formatting</ui>.</para>
+          <alert class="note">
+            <para>If you paste items from a bulleted or numbered list into a document that contains a bulleted or numbered list, you might not see <ui>Keep Source Formatting</ui> when you click the <ui>Paste Options</ui> button. For more information on pasting lists, see <link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#bm3">Paste items from a bulleted or numbered list</link> in this article.</para>
+          </alert>
+        </listItem>
+      </list>
+      
+      
+      
+      
+    </content>
+    
+  </section>
+<section address="stylediff" expanded="true">
+<title>Preserve the look of the original text when styles are different</title><content><para>If you paste a portion of a paragraph from another Word document, and styles such as Normal, Heading 1, and so on are defined differently in each document, the <ui>Paste Options</ui> button can display <ui>Keep Source Formatting</ui> as selected, yet the pasted text will not look like the text in the original document. This is because the format of the text in the original document is governed by its paragraph style. If you want to preserve its original formatting, do the following:</para><list class="ordered">
+        <listItem>
+          <para>When you cut or copy the original text, be sure to include the paragraph mark (¶).</para>
+          
+          <para>To display the paragraph mark, click <ui>Show/Hide ¶</ui> in the <ui>Paragraph</ui> group on the <ui>Home</ui> tab.</para><para>
+            <mediaLinkInline>
+              <image xlink:href="78970272-617c-4537-8879-559099a41ce6">
+              </image>
+            </mediaLinkInline>
+          </para>
+        </listItem>
+        <listItem>
+          <para>Paste the text.</para>
+        </listItem>
+        <listItem>
+          <para>Click the <ui>Paste Options</ui> button<mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>, which appears after you paste the text.</para>
+          <para>If you don't see a <ui>Paste Options</ui> button, press CTRL+Z to undo the paste, and then turn on the option for displaying it. For procedures, go to <link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#TurnOnPaste">Turn on the Paste Options button</link>.</para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>Delete any unwanted text that precedes the end of the paragraph.</para>
+        </listItem>
+      </list></content>
+</section><section address="bm2" expanded="true">
+    <title>Change formatting to match the look of the surrounding text</title>
+    <content>
+      <para>The text that you move or copy can have a font or other kind of formatting applied to it (such as bold or italic) that differs from the document where you are pasting the text. For example, you can move or copy text that is bold, 10-point Times New Roman, and paste it next to text that is regular, 11-point Calibri. If you want the pasted text to be in Calibri to match the surrounding text, follow these steps.</para>
+      <list class="ordered">
+        <listItem>
+          <para>Select the text that you want to move or copy, and then press CTRL+X to move the text, or press CTRL+C to copy the text.</para>
+        </listItem>
+        <listItem>
+          <para>Click where you want to paste the text, and then press CTRL+V.</para>
+        </listItem>
+        <listItem>
+          <para>Click the <ui>Paste Options</ui> button<mediaLinkInline><image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></image></mediaLinkInline>, which appears after you paste the text.</para>
+          <para>If you don't see a <ui>Paste Options</ui> button, press CTRL+Z to undo the paste, and then turn on the option for displaying it. For procedures, go to <link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#TurnOnPaste">Turn on the Paste Options button</link>.</para>
+          
+          
+        </listItem>
+        <listItem>
+          <para>Do one of the following:</para>
+          <list class="bullet">
+            <listItem>
+              <para>If the text that you are pasting includes portions of formatting that you want to preserve, such as bold or italicized words, click <ui>Match Destination Formatting</ui>.</para>
+            </listItem>
+            <listItem>
+              <para>If you want to remove all of the original formatting from the text that you are pasting, click <ui>Keep Text Only</ui>.</para>
+            </listItem>
+          </list>
+        </listItem>
+      </list>
+      <para>Note that if your selection includes content that is not text, the <ui>Keep Text Only</ui> option discards the content or converts it to text. For example, if you use the <ui>Keep Text Only</ui> option when you paste content that includes pictures and a table, the pictures are omitted from the pasted content, and the table is converted to a series of paragraphs.</para>
+      <para><legacyBold>If your selection includes a bulleted or numbered list</legacyBold></para><para>The <ui>Keep Text Only</ui> option may discard the bullets or numbering, depending on the default setting for pasting text in Word. To preserve the bullet and number characters, you can convert the bulleted or numbered list formatting to paragraphs that begin with bullet or number characters.</para><list class="ordered">
+            <listItem><para>In Word 2010, 2013, or 2016, click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Advanced</ui>.</para><para>In Word 2007, click the <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af"></image></mediaLinkInline>, and then click <ui>Word Options</ui>.</para></listItem>
+            <listItem>
+              <para>Scroll down to the <ui>Cut, copy, and paste</ui> section.</para>
+            </listItem>
+            <listItem>
+              <para>Select the <ui>Keep bullets and numbers when pasting text with Keep Text Only option</ui> check box.</para>
+            </listItem>
+          </list>
+      
+    </content>
+    
+  </section>
+  <section address="bm3" expanded="true">
+    <title>Paste items from a bulleted or numbered list</title>
+    <content>
+      <para>If you paste items from a bulleted or numbered list into a document that contains a bulleted or numbered list, you can paste the items as part of an existing list and continue the numbering sequence, or you can paste the items as a new list.</para>
+    <para>For more information, click the following headings.</para></content>
+    <sections>
+      <maml:section expanded="true" xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+        <maml:title>Paste numbered items so that they continue a numbering sequence</maml:title>
+        <maml:content>
+          <maml:list class="ordered">
+            <maml:listItem>
+              <maml:para>Select the list items that you want to move or copy, and then press CTRL+X to move the items, or press CTRL+C to copy the items.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>Click where you want to paste the items, and then press CTRL+V.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+          <maml:para>Click the <maml:ui>Paste Options</maml:ui> button <maml:mediaLinkInline><maml:image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></maml:image></maml:mediaLinkInline>, which appears after you paste the text.</maml:para>
+          <maml:para>If you don't see a <maml:ui>Paste Options</maml:ui> button, press CTRL+Z to undo the paste, and then turn on the option for displaying it. For procedures, go to <maml:link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#TurnOnPaste">Turn on the Paste Options button</maml:link>.</maml:para>
+          
+          
+        </maml:listItem>
+            <maml:listItem>
+              <maml:para>Click <maml:ui>Merge With Existing List</maml:ui>.</maml:para>
+            </maml:listItem>
+          </maml:list>
+        </maml:content>
+        
+      </maml:section>
+      <maml:section expanded="true" xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+        <maml:title>Paste numbered items so that they retain their own numbering sequence</maml:title>
+        <maml:content>
+          <maml:list class="ordered">
+            <maml:listItem>
+              <maml:para>Select the list items that you want to move or copy, and then press CTRL+X to move the items, or press CTRL+C to copy the items.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>Click where you want to paste the items, and then press CTRL+V.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+          <maml:para>Click the <maml:ui>Paste Options</maml:ui> button <maml:mediaLinkInline><maml:image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></maml:image></maml:mediaLinkInline>, which appears after you paste the text.</maml:para>
+          <maml:para>If you don't see a <maml:ui>Paste Options</maml:ui> button, press CTRL+Z to undo the paste, and then turn on the option for displaying it. For procedures, go to <maml:link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#TurnOnPaste">Turn on the Paste Options button</maml:link>.</maml:para>
+          
+          
+        </maml:listItem>
+            <maml:listItem>
+              <maml:para>Click <maml:ui>Paste as a New List</maml:ui> or <maml:ui>Paste List Without Merging</maml:ui>.</maml:para>
+              
+              
+              
+            </maml:listItem>
+          </maml:list>
+        <maml:para>
+                <maml:legacyBold>I want to paste numbered items in a numbered list so that the items I paste are numbered separately from the surrounding list.</maml:legacyBold>
+              </maml:para><maml:para>For example, if you want the items that you paste to be numbered 1-3, as subitems of number 2 in an existing list, do the following:</maml:para><maml:list class="ordered">
+                <maml:listItem>
+                  <maml:para>Click in front of the item or paragraph that follows item 2, and then press CTRL+V.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>Click <maml:ui>Paste Options</maml:ui> <maml:mediaLinkInline><maml:image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></maml:image></maml:mediaLinkInline>, and then click <maml:ui>Paste List Without Merging</maml:ui>.</maml:para>
+                  <maml:alert class="note">
+                    <maml:para>If you are pasting from one list to another in the same document and you use the <maml:ui>Paste List Without Merging</maml:ui> command, you may need to restart the numbering of one of your lists. To restart numbering, right-click the item that you want to be first, and then click <maml:ui>Restart at 1</maml:ui> on the shortcut menu.</maml:para>
+                  </maml:alert>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>Select the numbered items that you pasted, and then, in the <maml:ui>Paragraph</maml:ui> group on the <maml:ui>Home </maml:ui>tab, click <maml:ui>Increase Indent</maml:ui>.</maml:para>
+                  <maml:para>
+                    <maml:mediaLinkInline>
+                      <maml:image xlink:href="78970272-617c-4537-8879-559099a41ce6">
+                      </maml:image>
+                    </maml:mediaLinkInline>
+                  </maml:para>
+                </maml:listItem>
+              </maml:list></maml:content>
+        
+      </maml:section>
+      <maml:section expanded="true" xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+        <maml:title>Paste bulleted items into a numbered list</maml:title>
+        <maml:content>
+          <maml:list class="ordered">
+            <maml:listItem>
+              <maml:para>Select the list items that you want to move or copy, and then press CTRL+X to move the items, or press CTRL+C to copy the items.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>Click where you want to paste the items, and then press CTRL+V.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+          <maml:para>Click the <maml:ui>Paste Options</maml:ui> button <maml:mediaLinkInline><maml:image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></maml:image></maml:mediaLinkInline>, which appears after you paste the text.</maml:para>
+          <maml:para>If you don't see a <maml:ui>Paste Options</maml:ui> button, press CTRL+Z to undo the paste, and then turn on the option for displaying it. For procedures, go to <maml:link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#TurnOnPaste">Turn on the Paste Options button</maml:link>.</maml:para>
+          
+          
+        </maml:listItem>
+            <maml:listItem>
+              <maml:para>If you want the bulleted items to be converted to numbered items in the list, click <maml:ui>Merge With Existing List</maml:ui>. If you want the bulleted items to be a bulleted list within the numbered list, click <maml:ui>Paste List Without Merging</maml:ui>.</maml:para>
+              
+              
+              
+            </maml:listItem>
+          </maml:list>
+        <maml:para>
+                <maml:legacyBold>I want to paste bulleted items so that they create a bulleted list as part of an item in a numbered list.</maml:legacyBold>
+              </maml:para><maml:para>For example, if you want the items that you paste to be bulleted subitems of number 2 in an existing list, do the following:</maml:para><maml:list class="ordered">
+                <maml:listItem>
+                  <maml:para>Select the list items that you want to paste as subitems in your numbered list, and then press CTRL+X to move the items, or press CTRL+C to copy the items.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>Click in front of the item or paragraph that follows item 2, and then press CTRL+V.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>Click <maml:ui>Paste Options</maml:ui> <maml:mediaLinkInline><maml:image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></maml:image></maml:mediaLinkInline>, and then click <maml:ui>Paste List Without Merging</maml:ui>.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>If you need to indent the bulleted items that you pasted, select the items, and then in the <maml:ui>Paragraph</maml:ui> group on the <maml:ui>Home </maml:ui>tab, click <maml:ui>Increase Indent</maml:ui>.</maml:para>
+                  <maml:para>
+                    <maml:mediaLinkInline>
+                      <maml:image xlink:href="78970272-617c-4537-8879-559099a41ce6">
+                      </maml:image>
+                    </maml:mediaLinkInline>
+                  </maml:para>
+                </maml:listItem>
+              </maml:list></maml:content>
+        
+      </maml:section>
+      <maml:section expanded="true" xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+        <maml:title>Paste numbered items into a bulleted list</maml:title>
+        <maml:content>
+          <maml:list class="ordered">
+            <maml:listItem>
+              <maml:para>Select the list items that you want to move or copy, and then press CTRL+X to move the items, or press CTRL+C to copy the items.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>Click where you want to paste the items, and then press CTRL+V.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+          <maml:para>Click the <maml:ui>Paste Options</maml:ui> button <maml:mediaLinkInline><maml:image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></maml:image></maml:mediaLinkInline>, which appears after you paste the text.</maml:para>
+          <maml:para>If you don't see a <maml:ui>Paste Options</maml:ui> button, press CTRL+Z to undo the paste, and then turn on the option for displaying it. For procedures, go to <maml:link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#TurnOnPaste">Turn on the Paste Options button</maml:link>.</maml:para>
+          
+          
+        </maml:listItem>
+            <maml:listItem>
+              <maml:para>If you want the numbered items to be converted to bulleted items in the list, click <maml:ui>Merge With Existing List</maml:ui>. If you want the numbered items to be a numbered list within the bulleted list, click <maml:ui>Paste List Without Merging</maml:ui>.</maml:para>
+              
+              
+              
+            </maml:listItem>
+          </maml:list>
+          <maml:para>
+                <maml:legacyBold>I want to paste numbered items in a bulleted list so that they create a numbered list as part of an item in that bulleted list.</maml:legacyBold>
+              </maml:para><maml:para>For example, if you want the items that you paste to be numbered 1–3, as subitems of a bulleted item in an existing list, do the following:</maml:para><maml:list class="ordered">
+                <maml:listItem>
+                  <maml:para>Position the cursor in front of the item or paragraph that follows the item where you want to create the new numbered list, and then press CTRL+V.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>Click <maml:ui>Paste Options</maml:ui> <maml:mediaLinkInline><maml:image xlink:href="8aa0ed92-4d42-443c-9e0d-901eb0408e69"></maml:image></maml:mediaLinkInline>, and then click <maml:ui>Paste List Without Merging</maml:ui>.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>Right-click the item that you want to be first in the new list, and then click <maml:ui>Restart at 1</maml:ui> on the shortcut menu.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>Select the numbered items that you pasted, and then, in the <maml:ui>Paragraph</maml:ui> group of the <maml:ui>Home </maml:ui>tab, click <maml:ui>Increase Indent</maml:ui>.</maml:para>
+                  <maml:para>
+                    <maml:mediaLinkInline>
+                      <maml:image xlink:href="78970272-617c-4537-8879-559099a41ce6">
+                      </maml:image>
+                    </maml:mediaLinkInline>
+                  </maml:para>
+                </maml:listItem>
+              </maml:list>
+        </maml:content>
+        
+      </maml:section>
+    </sections>
+  </section>
+  <section address="bm4" expanded="true">
+    <title>Set Word defaults for pasting text</title>
+    <content>
+      <para>If you commonly use one paste option, you can configure Word so that it automatically uses that paste option. That way, you don't need to specify which option to use every time that you paste text. You can override the default behavior whenever you paste text by choosing a different option on the <ui>Paste Options</ui> menu.</para>
+      <list class="ordered">
+        <listItem>
+              <para>In Word 2010, 2013, or 2016, click <ui>File</ui> &gt; <ui>Options</ui> &gt; <ui>Advanced</ui>.</para>
+            <para>In Word 2007, click the <ui>Microsoft Office Button</ui> <mediaLinkInline><image xlink:href="f22ae713-addb-400d-bc0f-b7a62f2d61af"></image></mediaLinkInline>, and then click <ui>Word Options</ui> &gt; <ui>Advanced</ui>.</para></listItem>
+        <listItem>
+          <para>Scroll down to the <ui>Cut, copy, and paste</ui> section.</para>
+        </listItem>
+        <listItem>
+          <para>Click the boxes to select the settings that you want.</para>
+          <list class="bullet">
+            <listItem>
+              <para><ui>Pasting within the same document</ui>
+                
+              </para>
+            </listItem>
+            <listItem>
+              <para>
+                <ui>Pasting between documents</ui>
+              </para>
+            </listItem>
+            <listItem>
+              <para>
+                <ui>Pasting between documents when style definitions conflict</ui>
+              </para>
+            </listItem>
+            <listItem>
+              <para>
+                <ui>Pasting from other programs</ui>
+              </para>
+              
+            </listItem>
+          </list>
+        <para>For more information about these options, see <link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#bm5">Options for pasting within and between documents, and from other programs</link>.</para></listItem>
+        <listItem>
+          <para>To use settings for the smart cut-and-paste option, select the <ui>Use smart cut and paste</ui> check box, click <ui>Settings</ui>, and then select the settings that you want. For more information, see <link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#smart">Set options for smart cut-and-paste</link>.</para>
+        </listItem>
+        <listItem>
+          <para>Click <ui>OK</ui>.</para>
+        </listItem>
+      </list>
+    </content>
+    <maml:sections xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <maml:section address="bm5" expanded="false">
+        <maml:title>Options for pasting within and between documents, and from other programs</maml:title>
+        <maml:content>
+          <maml:para>Because formatting can be stored in the style definitions of paragraphs, you can fine-tune the way Word pastes text from various sources.</maml:para>
+        <maml:para><maml:legacyBold address="Paste1">Pasting within the same document</maml:legacyBold></maml:para><maml:para>When you paste content into the same document from which you copied the content, you can specify the following default behavior.</maml:para>
+              <maml:list class="bullet">
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Keep Source Formatting (Default)</maml:ui>
+                    </maml:embeddedLabel>  This option retains character styles and direct formatting that were applied to the copied text. Direct formatting includes characteristics such as font size, italics, or other formatting that is not included in the paragraph style.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Match Destination Formatting</maml:ui>
+                    </maml:embeddedLabel> This option discards most of the formatting that was applied directly to the copied text, but it retains formatting that is considered emphasis, such as bold and italic, when it is applied to only a portion of the selection. The text takes on the style characteristics of the paragraph where it is pasted. The text also takes on any direct formatting or character style properties of text that immediately precedes the cursor when the text is pasted.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Keep Text Only</maml:ui>
+                    </maml:embeddedLabel> This option discards all formatting and nontext elements such as pictures or tables. The text takes on the style characteristics of the paragraph where it is pasted and takes on any direct formatting or character style properties of text that immediately precedes the cursor when the text is pasted. Graphical elements are discarded, and tables are converted to a series of paragraphs.</maml:para>
+                </maml:listItem>
+              </maml:list><maml:para><maml:legacyBold>Pasting between documents</maml:legacyBold></maml:para><maml:para>When you paste content that was copied from another document in Word, you can specify the following default behavior.</maml:para>
+              <maml:list class="bullet">
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Keep Source Formatting (Default)</maml:ui>
+                    </maml:embeddedLabel> This option retains formatting that was applied to the copied text. Any style definition that is associated with the copied text is copied to the destination document.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Match Destination Formatting</maml:ui>
+                    </maml:embeddedLabel> This option discards most formatting that was applied directly to the copied text, but it retains formatting that is considered emphasis, such as bold and italic, when it is applied to only a portion of the selection. The text takes on the style characteristics of the paragraph where it is pasted. The text also takes on any direct formatting or character style properties of text that immediately precedes the cursor when the text is pasted.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Keep Text Only</maml:ui>
+                    </maml:embeddedLabel> This option discards all formatting and nontext elements such as pictures or tables. The text takes on the style characteristics of the paragraph where it is pasted and takes on any direct formatting or character style properties of text that immediately precedes the cursor when the text is pasted. Graphical elements are discarded, and tables are converted to a series of paragraphs.</maml:para>
+                </maml:listItem>
+              </maml:list><maml:para><maml:legacyBold>Pasting between documents when style definitions conflict</maml:legacyBold></maml:para><maml:para>When you paste content that was copied from another document in Word, and the style that is assigned to the copied text is defined differently in the document where the text is being pasted, you can specify the following default behavior.</maml:para>
+              <maml:list class="bullet">
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Keep Source Formatting</maml:ui>
+                    </maml:embeddedLabel> This option retains the look of the copied text by assigning the Normal style to the pasted text and applying direct formatting. Direct formatting includes characteristics such as font size, italics, or other formatting to mimic the style definition of the copied text.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Use Destination Styles (Default)</maml:ui>
+                    </maml:embeddedLabel> This option retains the style name that is associated with the copied text, but it uses the style definition of the document where the text is being pasted. For example, you copy Heading 1 text from one document to another. In one document, Heading 1 is defined as Arial bold, 14-point, and in the document where you are pasting the text, Heading 1 is defined as Cambria bold, 16-point. When you use the <maml:ui>Use Destination Styles</maml:ui> option, the pasted text uses Heading 1 style, Cambria bold, 16-point.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Match Destination Formatting</maml:ui>
+                    </maml:embeddedLabel> This option discards the style definition and most formatting that was applied directly to the copied text, but it retains formatting that is considered emphasis, such as bold and italic, when it is applied to only a portion of the selection. The text takes on the style definition in the document where the text is being pasted.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Keep Text Only</maml:ui>
+                    </maml:embeddedLabel> This option discards all formatting and nontext elements such as pictures or tables. The text takes on the style characteristics of the paragraph where it is pasted and takes on any direct formatting or character style properties of text that immediately precedes the cursor when the text is pasted. Graphical elements are discarded, and tables are converted to a series of paragraphs.</maml:para>
+                </maml:listItem>
+              </maml:list><maml:para><maml:legacyBold>Pasting from other programs</maml:legacyBold></maml:para><maml:para>When you paste content that was copied from another program, you can specify the following default behavior.</maml:para>
+              <maml:list class="bullet">
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Keep Source Formatting (Default)</maml:ui>
+                    </maml:embeddedLabel> This option retains the formatting of the copied text.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Match Destination Formatting</maml:ui>
+                    </maml:embeddedLabel> This option discards most formatting that was applied directly to the copied text, but it retains formatting that is considered emphasis, such as bold and italic, when it is applied to only a portion of the selection. The text takes on the style characteristics of the paragraph where it is pasted. The text also takes on any direct formatting characteristics of text that immediately precedes the cursor when the text is pasted.</maml:para>
+                </maml:listItem>
+                <maml:listItem>
+                  <maml:para>
+                    <maml:embeddedLabel>
+                      <maml:ui>Keep Text Only</maml:ui>
+                    </maml:embeddedLabel> This option discards all formatting and nontext elements such as pictures or tables. The text takes on the style characteristics of the paragraph where it is pasted and takes on any direct formatting or character style properties of text that immediately precedes the cursor when the text is pasted. Graphical elements are discarded, and tables are converted to a series of paragraphs.</maml:para>
+                </maml:listItem>
+              </maml:list>
+              <maml:para address="bm6">
+                <maml:link xlink:href="20156a41-520e-48a6-8680-fb9ce15bf3d6#bm4">Back to Set Word defaults for pasting text</maml:link>
+              </maml:para></maml:content>
+        
+      </maml:section>
+      <maml:section expanded="true" address="smart">
+        <maml:title>Set options for smart cut-and-paste</maml:title>
+        <maml:content>
+          <maml:para>The smart cut-and-paste option helps you to automatically adjust formatting as you paste text.</maml:para>
+          <maml:para>In the <maml:ui>Settings</maml:ui> dialog box, specify default behavior when merging, cutting, and pasting text. You can override default behavior by using the <maml:ui>Paste Options</maml:ui> button that appears when you paste content from the Clipboard into your document. This button is available only when the <maml:ui>Use smart cut and paste</maml:ui> option is turned on.</maml:para>
+          <maml:list class="bullet">
+            <maml:listItem>
+              <maml:para>
+                <maml:embeddedLabel>
+                  <maml:ui>Use default options for</maml:ui>
+                </maml:embeddedLabel> Click an item in the list to preselect a configuration of options in the dialog box. To select your own configuration of options, click <maml:ui>Custom</maml:ui> in this list.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>
+                <maml:embeddedLabel>
+                  <maml:ui>Adjust sentence and word spacing automatically</maml:ui>
+                </maml:embeddedLabel> Select this option to remove extra spaces when deleting text or add necessary spaces when pasting text from the clipboard.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>
+                <maml:embeddedLabel>
+                  <maml:ui>Adjust paragraph spacing on paste</maml:ui>
+                </maml:embeddedLabel> Select this option to prevent creating empty paragraphs and to prevent inconsistent paragraph spacing.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>
+                <maml:embeddedLabel>
+                  <maml:ui>Adjust table formatting and alignment on paste</maml:ui>
+                </maml:embeddedLabel> Select this option to control the formatting and alignment of tables. When this option is turned on, single cells are pasted as text, table portions are pasted as rows into an existing table (rather than as a nested table), and tables added to an existing table are adjusted to match the existing table.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>
+                <maml:embeddedLabel>
+                  <maml:ui>Smart style behavior</maml:ui>
+                </maml:embeddedLabel> Selecting this option has no effect. To fine-tune the behavior of styles when pasting content, use the <maml:ui>Pasting</maml:ui> options in the <maml:ui>Cut, copy, and paste</maml:ui> section of the <maml:ui>Advanced</maml:ui> options.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>
+                <maml:embeddedLabel>
+                  <maml:ui>Merge formatting when pasting from Microsoft Office PowerPoint</maml:ui>
+                </maml:embeddedLabel> Select this option to control the results when you paste content from a PowerPoint presentation. When this option is turned on, the formatting of the surrounding text or table is applied to the pasted text; the most recently used bullet, number, or list style is applied to the pasted list; and the look of items such as tables, hyperlinks, images, OLE objects, and shapes is preserved from the source in PowerPoint.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>
+                <maml:embeddedLabel>
+                  <maml:ui>Adjust formatting when pasting from Microsoft Office Excel</maml:ui>
+                </maml:embeddedLabel> Select this option to control the results when pasting data from Excel. When this option is turned on, pasted data is placed in a table, and charts are pasted as pictures rather than as Word objects.</maml:para>
+            </maml:listItem>
+            <maml:listItem>
+              <maml:para>
+                <maml:embeddedLabel>
+                  <maml:ui>Merge pasted lists with surrounding lists</maml:ui>
+                </maml:embeddedLabel> Select this option to format list items to conform to the surrounding list when you are pasting the items into a list.</maml:para>
+            </maml:listItem>
+          </maml:list>
+          
+        </maml:content>
+        
+      </maml:section>
+    </maml:sections>
+  </section>
+  <relatedTopics />
+</developerConceptualDocument></topic>

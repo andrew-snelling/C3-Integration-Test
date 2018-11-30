@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="ecd60e9f-6b2e-4070-b30c-42efa6cff55a" revisionNumber="31"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<tabControl><tabControlItem><tabControlItemTitle>Windows</tabControlItemTitle><tabControlItemSection><content><para address="bmbacktotop">This article explains the grammar and writing style options that you can choose in the <ui> Grammar Settings</ui> dialog box in newer versions of Word and Outlook.</para>
+		<alert class="note">
+			<para>February 2017: New Grammar options are available only to subscription users. In addition, if you have an <externalLink><linkText>Office 365 Subscription</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink> and have Version 1609 (Build 7369.2024) or later installed, you can use Grammar &amp; more to flag writing and style issues. To see and use Grammar &amp; more, your proofing language must be set to English. In the upcoming months, we’ll add support for additional proofing languages.</para>
+		</alert>
+		<para>For information on grammar and style settings for earlier versions of Office, see <link xlink:href="d6f9c3e0-2d88-4e6d-ab1e-24296e706fd5">Select grammar and writing style options in Office 2013 and earlier</link>.</para>
+		<alert class="note">
+			<para>If you are choosing options for text that's written in a language other than your language version of Word and Outlook, the options might vary.</para>
+		</alert></content><sections><section>
+<title>Display the Grammar Settings dialog box</title><content><para><legacyBold>Outlook</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Create or open an item.</para>
+				</listItem>
+				<listItem>
+					<para>Click the <ui>File</ui> tab, and then click <ui>Options</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Mail</ui>, and then click <ui>Editor Options</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Proofing</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Under <ui>When correcting spelling in Outlook</ui>, select<ui>Settings</ui>.</para>
+					<para>The Writing style menu has two options <ui>Grammar</ui> and <ui>Grammar &amp; more</ui>. You can choose either option depending on which settings you want apply to your email.</para>
+					<alert class="tip">
+						<para>By default the editor proofing options are set to <legacyBold>Grammar &amp; more</legacyBold> and have Wordiness and Nominalizations style options selected.</para>
+					</alert>
+				</listItem>
+			</list>
+			<para><legacyBold>Word</legacyBold></para>
+			<list class="ordered">
+				<listItem>
+					<para>Click the <ui>File</ui> tab, and then click <ui>Options</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Click <ui>Proofing</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>Under <ui>When correcting spelling and grammar in Word</ui>, click <ui>Settings</ui>.</para>
+					<para>The Writing style menu has two options <ui>Grammar</ui> and <ui>Grammar &amp; more</ui>. You can choose either option depending on which settings you want apply to your document.</para>
+					<alert class="tip">
+						<para>By default the editor proofing options are set to <legacyBold>Grammar &amp; more</legacyBold> and have Wordiness and Nominalizations style options selected.</para>
+					</alert>
+					<mediaLink>
+						<image xlink:href="6197b263-4dbb-4c7e-b61f-3424ac34a832" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>Choose <ui>Grammar &amp; more </ui>option from the drop down if you'd like to have suggestions for style</para>
+					<para>Scroll down to see all of the options available, and select or clear any rules that you want the grammar checker to flag or ignore. Any changes that you make to these settings apply to all the documents or items that you edit, not just the current document you are working in.</para>
+					<alert class="tip">
+						<para>If you want to go back to the default editor proofing settings, choose <ui>Reset All</ui></para>
+					</alert>
+				</listItem>
+			</list></content>
+</section><section>
+<title>Spacing</title><content><list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Missing space before punctuation</embeddedLabel> Highlights the absence of a space expected before a punctuation mark. The set of punctuation marks for this option varies by language. When one space is expected before a particular punctuation mark, but none is found, this rule suggests adding a space. Example: <legacyItalic>They were(about to leave) </legacyItalic>would be corrected to <legacyItalic>They were (about to leave). </legacyItalic>The set of punctuation marks for this option varies by language.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Unexpected space before punctuation</embeddedLabel> Highlights the occurrence of an unexpected space before a punctuation mark. The set of punctuation marks for this option varies by language. When no spaces are expected after a particular punctuation mark, but one is found, this rule suggests removing it. Example: <legacyItalic>Mary , still wondering about the photos</legacyItalic> would be corrected to <legacyItalic>Mary, still wondering about the photos</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Unexpected space before and missing space after punctuation</embeddedLabel> Highlights the occurrence of an unexpected space before a punctuation mark and the absence of a space expected before a punctuation mark. When there is an unexpected space before a punctuation mark and a missing space after it, this rule suggests removing the unexpected space and suggests inserting the missing space. Example: <legacyItalic>Mary ,still wondering about the photos</legacyItalic> would be corrected to <legacyItalic>Mary, still wondering about the photos</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Missing space after punctuation</embeddedLabel> Highlights the absence of a space expected after a punctuation mark. The set of punctuation marks for this option varies by language. When a space is expected after a particular punctuation mark, but none is found, this rule suggests adding a space. Example: <legacyItalic>He was up all night,and asleep all day</legacyItalic> would be corrected to <legacyItalic>He was up all night, and asleep all day</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Unexpected space after punctuation</embeddedLabel> Highlights the occurrence of an unexpected space after a punctuation mark. The set of punctuation marks for this option varies by language. When no spaces are expected after a particular punctuation mark, but one is found, this rule suggests removing it. <legacyItalic>Example: There are ( brackets)</legacyItalic> would be corrected to <legacyItalic>There are (brackets)</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Unexpected space between words</embeddedLabel> Highlights the occurrence of an unexpected space between words This rule detects two spaces between words of a sentence, or between punctuation and words within a sentence. Example: <legacyItalic>The final  date is November 18th </legacyItalic> would be corrected to <legacyItalic>The final date is November 18th</legacyItalic>.</para>
+				</listItem>
+			</list></content>
+</section><section>
+<title>Punctuation</title><content><list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Punctuation marks in succession </embeddedLabel> The rule will detect two or more successive punctuation marks that are either identical or different. Example: <legacyItalic>Mary,, still wondering about the photos</legacyItalic> would be corrected to <legacyItalic>Mary, still wondering about the photos. </legacyItalic>The set of punctuation marks for this option varies by language.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Comma Splice</legacyBold> Targets the use of a semicolon instead of a comma in two related but independent clauses that are not joined by a coordinating conjunction such as "and" or "but". Example: <legacyItalic>They don't have a discussion board, the website isn't big enough for one yet</legacyItalic> would be corrected to <legacyItalic>They don't have a discussion board; the website isn't big enough for one yet</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Comma Use</embeddedLabel> Targets a missing comma in front of an independent clause if the sentence begins with a conjunction "if" Example: <legacyItalic>If you're like me you've already seen this movie </legacyItalic>would be corrected to <legacyItalic> If you're like me, you've already seen this movie</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Comma Missing After Introductory Phrases </embeddedLabel> Targets a missing comma after short introductory phrases such as "however" or "for example" before an independent clause that follows. Example: <legacyItalic>First of all we must make sure the power is off</legacyItalic> would be corrected to <legacyItalic>First of all, we must make sure the power is off</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Comma After Greetings</legacyBold> targets missing commas after a greeting phrase. Example: Dear Sir or Madam I read your letter, and I like your suggestions. would be corrected to Dear Sir or Madam, I read your letter, and I like your suggestions.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Comma Before Quotations</legacyBold> targets missing commas before quotations. If you are quoting a selection longer than a single word, insert a comma in front of the quoted text. Example: He arrived and announced "The party will be tomorrow night." would be corrected to He arrived and announced, "The party will be tomorrow night."</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Date Formatting</legacyBold> targets incorrectly formatted date expressions. Dates should be written with commas separating the day of the week from the month, and the day from the year. A comma should not be placed between the month and year. Example: I went to Paris on June 4 1986. would be corrected to I went to Paris on June 4, 1986. Example: The new policy comes into effect in October, 2016. would be corrected to The new policy comes into effect in October 2016.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Comma with Conjunction</legacyBold> targets a redundant comma when a dependent clause with a coordinating conjunction follows the main clause. Example: <legacyItalic>The dog went to the park, and learned how to play fetch</legacyItalic> would be corrected to <legacyItalic>"The dog went to the park, and learned how to play fetch."</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Missing Comma</legacyBold> targets a missing comma when an independent clause is followed by a coordinating conjunction and another independent clause. Example: <legacyItalic>The goats ate the grass but the herder had nothing to eat.</legacyItalic> would be corrected to "<legacyItalic>The goats ate the grass, but the herder had nothing to eat".</legacyItalic></para>
+				</listItem>
+			</list></content>
+</section><section>
+<title>Grammar</title><content><list class="bullet">
+				<listItem>
+					<para><legacyBold>Academic Degrees </legacyBold>targets the incorrect use of academic degrees. When discussing a type of degree, it should be lowercase. Bachelor’s and master’s degree types should be possessive. Note that doctorate is a degree type, while Doctor is used in a degree name. Example: <legacyItalic>She earned her doctorate of philosophy. </legacyItalic>is corrected to "S<legacyItalic>he earned her Doctor of Philosophy"</legacyItalic> Example: <legacyItalic>She earned a Bachelors degree </legacyItalic>will be corrected to<legacyItalic> "She earned a bachelor’s"</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Adjective Used Instead of Adverb</embeddedLabel> targets the use of “real” vs. “really”. “Real” is used to modify a noun, “really” to modify a verb. Example: <legacyItalic>He is driving real carefully</legacyItalic> would be corrected to <legacyItalic>He is driving really carefully</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Agreement with Noun Phrases </embeddedLabel> targets number agreement within noun phrases to make sure the words within a single noun phrase agree in number (singular or plural). Example: <legacyItalic>I would like to buy this apples</legacyItalic> would be corrected to <legacyItalic>I would like to buy these apples</legacyItalic> or <legacyItalic>I would like to buy this apple</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Capitalization</embeddedLabel> targets words with incorrect capitalization. Articles, short prepositions, and conjunctions that should be in lower case within titles. The first word in title is capitalized. Example: <legacyItalic>"Of Mice And Men" is a novel </legacyItalic>would be corrected to <legacyItalic>"Of Mice and Men" is a novel</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Capitalization of March and May</embeddedLabel> targets incorrectly lowercased words “May” and “March” when they are used as month names instead of verbs. The months "March" and "May" should always be capitalized. The verbs "march" and "may" are not capitalized. Example: <legacyItalic>Camping in may can be an enjoyable experience.</legacyItalic> would be corrected to <legacyItalic>Camping in May can be an enjoyable experience.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Commonly Confused Words</embeddedLabel> targets words that require special attention because they sound similar and may have related meanings. They often represent different parts of speech (word classes) and have different spellings. It also targets the incorrect use of “of” rather than "have" in constructions with modal auxiliaries. Use "have" rather than "of" in constructions with modal auxiliaries such as could, can't, may, and will (i.e., verbs that express likelihood, ability, permission, obligation). Example: <legacyItalic>Could you please advice me? </legacyItalic>would be corrected to <legacyItalic>Could you please advise me? </legacyItalic><legacyItalic>I could of known that. </legacyItalic> would be corrected to <legacyItalic>I could have known that.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Commonly Confused Phrases</embeddedLabel> targets words that are commonly used in combination with each other. You may have used a different preposition, helping verb, or other word than expected. Example: <legacyItalic>I do not see TV.</legacyItalic> would be corrected to <legacyItalic>I do not watch TV.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Comparative Use</embeddedLabel> targets the use of "more" and "most" with adjectives without comparatives. Don't use comparatives like more, most, less, or least with comparative adjectives. Example: <legacyItalic>This is more bigger than I thought</legacyItalic> would be corrected to <legacyItalic>This is bigger than I thought.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Hyphenation</embeddedLabel> suggests a hyphen to link modifying words if a noun modifier consists of more than one word. Example: <legacyItalic>Our five year old son is learning to read</legacyItalic> would be corrected to <legacyItalic>Our five-year-old son is learning to read</legacyItalic>. This rule also covers numerals "twenty-one" through "ninety-nine".</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Incorrect Auxiliary</embeddedLabel> targets auxiliaries (be, have) followed by incorrect verb forms. Make sure that the auxiliary you use is the correct one for the following verb. Example: <legacyItalic>We are not taken them to the movies before.</legacyItalic> would be corrected to <legacyItalic>We have not taken them to the movies before.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Incorrect Inflection</embeddedLabel> targets the incorrect use of two gerunds in a row. Some gerunds should be followed by past participles or infinitive verbs, instead.</para>
+					<para>Example: <legacyItalic>Having misunderstanding the directions, she failed the test.</legacyItalic> is corrected to <legacyItalic>Having misunderstood the directions, she failed the test.</legacyItalic> Also targets expressions that require the use of "to" as an infinitive marker and a specific verb form. Example: <legacyItalic>I would like to accepting the invitation</legacyItalic>. is corrected to <legacyItalic>I would like to accept the invitation</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Incorrect Verb Form after Auxiliary</embeddedLabel> Targets an incorrect verb form after an auxiliary verb. Use the correct verb form after an auxiliary verb (verbs that describe a person, number, mood, tense, etc). Example: <legacyItalic>They had ate by the time she arrived</legacyItalic> would be corrected to <legacyItalic>They had eaten by the time she arrived. </legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Indefinite Article</embeddedLabel> Targets the use of "a" before a word beginning with a consonant sound and "an" before a word beginning with a vowel sound. Example: <legacyItalic>We waited for at least a hour </legacyItalic>would be corrected to <legacyItalic>We waited for at least an hour</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Possessives and Plural Forms</embeddedLabel> Targets the incorrect use of Possessive and Plural forms. Possessive nouns require an apostrophe. The possessive pronoun "its" does not; the form "it's" is always a contraction of “it is” (or “it has”). Example: <legacyItalic>As long as its doing it's job, we're happy</legacyItalic> would be corrected to <legacyItalic>As long as it's doing its job, we're happy.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Question Mark Missing</embeddedLabel> Targets a missing question mark at the end of an interrogative sentence. Write a question mark at the end of any sentence that asks a question (interrogative sentence). Example: <legacyItalic> How many cats does he have.</legacyItalic> would be corrected to <legacyItalic>How many cats does he have?</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Subject Verb Agreement</embeddedLabel> targets number agreement between subject and verb. The subject and verb should agree in number. They should either both be singular, or both be plural. Example: <legacyItalic>The teacher want to see him </legacyItalic>would be corrected to <legacyItalic>The teacher wants to see him. </legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Too Many Determiners</embeddedLabel> targets certain determiners (articles, possessive pronouns, and demonstratives) that shouldn't be combined. Example: <legacyItalic>I gave her a the carrot w</legacyItalic>ould be corrected to <legacyItalic>I gave her a carrot.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Use of Plain Verb Form</embeddedLabel> targets the use of an incorrect gerund or infinitive verb form, which depends on the verb it follows. An infinitive (to + verb) is used for an action that follows the main verb. A gerund (verb + -ing) is used after a preposition or for an action that occurs at the same time as the main verb. Example:<legacyItalic> I would like invite you.</legacyItalic> is corrected to <legacyItalic> I would like to invite you.</legacyItalic> Example:<legacyItalic> I do not mind rename the dog.</legacyItalic> is corrected to <legacyItalic> I do not mind renaming the dog.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Use of the Word "Lack"</embeddedLabel> targets the incorrect use of the work "lack". As a noun, it is usually followed by the preposition "of" (e.g. "a lack of sleep"). As a verb, "lack" should not be followed by any preposition. Example: The country was <legacyItalic>lacking of </legacyItalic>qualified medical staff is corrected to The country was <legacyItalic>lacking</legacyItalic> qualified medical staff.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Use of Will and Would</embeddedLabel> targets the incorrect use of the auxiliaries “will” and “would”. Future tense sentences usually employ an auxiliary verb, except when referring to an imagined or desired situation (subjunctive phrase). Example: I request that you<legacyItalic> will join</legacyItalic> me is corrected to I request that you<legacyItalic> join</legacyItalic> me.</para>
+				</listItem>
+			</list></content>
+</section><section>
+<title>Clarity and Conciseness</title><content><list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Complex words </embeddedLabel> Targets complex and abstract words, and suggests using a simpler word to present a clear message and a more approachable tone. Example: The <legacyItalic>magnitude</legacyItalic> of the problem is far beyond the scope of humanitarian aid. <legacyItalic>Magnitude </legacyItalic>would be corrected to size.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Double Negation</embeddedLabel> Targets the ambiguous use of negations. The use of two negative words may be interpreted as indicating a positive. To avoid confusion, do not use double negation. Example: I did <legacyItalic>not see nothing</legacyItalic>. It is corrected to I did <legacyItalic>not see anything.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Jargon</embeddedLabel> Targets jargon, technical terminology, or abbreviations which may confuse readers. Consider using more common language that is likely to be understood by everyone. Example: The company hired a well-known <legacyItalic>headhunting</legacyItalic> firm. <legacyItalic>Headhunting</legacyItalic> is corrected to <legacyItalic>recruiting</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Nominalizations</embeddedLabel> Targets phrases relying on many nouns which need extra words to introduce them. Consider using a single verb instead of nouns, where possible. Example: The trade union is <legacyItalic>holding negotiations</legacyItalic> with the employers. Here <legacyItalic>holding negotiations</legacyItalic> is corrected to negotiating.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Passive voice with Known Actor</embeddedLabel> Targets passive voice sentences with a known actor, i.e. a known subject. Use active voice whenever possible to be more concise and avoid possible confusion. Example: <legacyItalic>The dog was seen by the man.</legacyItalic> This will be corrected to <legacyItalic>The man saw the dog.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Passive Voice with Unknown Actor</embeddedLabel> Targets passive voice sentences with an unknown actor, i.e. an unknown subject. Use active voice whenever possible to be more concise and avoid possible confusion. (In most cases this rule won’t be able to offer a correction suggestion because the subject is unknown.) Example: The house <legacyItalic>was built</legacyItalic> on a hill. This will show [No Suggestion available]</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Wordiness</embeddedLabel> Targets redundant and needless words. Eliminating redundant or unnecessary words often improves readability.  Example: Her backpack was<legacyItalic> large in size.</legacyItalic><legacyItalic> Large in size </legacyItalic>is corrected to <legacyItalic>large</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Words Expressing Uncertainty</embeddedLabel> Targets words that express uncertainty or lessen the impact of a statement. Example: They <legacyItalic>largely decorated</legacyItalic> the kitchen with old bottles. The phrase largely decorated is replaced by <legacyItalic>decorated</legacyItalic> only.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Words in Split infinitives (more than one)</embeddedLabel> Targets multiple adverbs between "to" and a verb. Using multiple adverbs between "to" and a verb in can create an awkward or unclear sentence. Example: He tried to <legacyItalic>firmly but politely decline the offer</legacyItalic>. This is corrected to <legacyItalic>decline the offer firmly but politely.</legacyItalic></para>
+				</listItem>
+			</list></content>
+</section><section>
+<title>Inclusive Language</title><content><list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Gender-Specific Language</embeddedLabel> Targets gendered language which may be perceived as excluding, dismissive, or stereotyping. Consider using gender-inclusive language. Example: We need more <legacyItalic>policemen</legacyItalic> to maintain public safety. <legacyItalic>Policemen</legacyItalic> is corrected to <legacyItalic>police officers.</legacyItalic></para>
+				</listItem>
+			</list></content>
+</section><section>
+<title>Vocabulary Choice</title><content><list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Clichés</embeddedLabel> Targets overused and predictable words or phrases and suggests to replace them with an alternative phrase. Example: Institutions seem caught <legacyItalic>between a rock and a hard place.</legacyItalic>The phrase<legacyItalic> between a rock and a hard place</legacyItalic> would be corrected to <legacyItalic>in a difficult situation</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Vague Adjectives</legacyBold> Targets overused adjectives and suggest replacing them with more specific ones which can convey your message more descriptively. Example: <legacyItalic>Do not drive in bad conditions!</legacyItalic> will be changed to <legacyItalic>Do not drive in harsh conditions.</legacyItalic></para>
+				</listItem>
+			</list></content>
+</section><section>
+<title>Formal Language</title><content><list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Contractions</embeddedLabel> Targets contractions (e.g., let's, we've, can't) which should be avoided in formal writing, such as in legal documents. Example: The animal <legacyItalic>won't</legacyItalic> be authorized to be out of the bag during the flight. <legacyItalic>Won't</legacyItalic> will be corrected to will not.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Informal Language</embeddedLabel> Targets informal words and phrases which are more appropriate for familiar, conversational settings. Please consider using more formal language. Example: Our atmosphere includes <legacyItalic>comfy</legacyItalic> massage chairs. Here <legacyItalic>comfy</legacyItalic> is corrected to <legacyItalic>comfortable.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Slang</embeddedLabel> Targets regional expressions or slang terms which may not be understood by a general audience, and should therefore be avoided in formal writing. Consider using more standard expressions. Example: My cat <legacyItalic>barfed</legacyItalic> all over my homework last night. <legacyItalic>Barfed</legacyItalic> is corrected to <legacyItalic>vomited.</legacyItalic></para>
+				</listItem>
+			</list></content>
+</section><section>
+<title>Punctuation Conventions</title><content><list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Oxford Comma</embeddedLabel> Targets a missing comma after the second-to-last item in a list. When listing items, you can avoid confusion by using a comma before the second-to-last item. Whether you choose to use the Oxford comma or not, always be consistent.</para>
+					<para>Example: The red, <legacyItalic>yellow and</legacyItalic> green peppers are fresh. Here a comma is added after yellow.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Punctuation Required with Quotes</embeddedLabel> Targets inconsistent use of quotation marks with punctuation marks. Quotation marks can be placed inside or outside of punctuation marks. Place quotes in the same manner throughout your text to improve readability. Example for punctuation inside quotes: He told me, “I don't like scary <legacyItalic>movies”.</legacyItalic> This is corrected to <legacyItalic>movies.”</legacyItalic> Example for punctuation outside quotes: The woman said, “I just got home from <legacyItalic>vacation.”</legacyItalic> This is corrected to <legacyItalic>vacation”.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Spaces Between Sentences</embeddedLabel> Targets inconsistent use of spaces between sentences. Use the same number of spaces between sentences to improve readability. Choose either one or two spaces, then be consistent. Example for one space between sentences: We <legacyItalic>came. We </legacyItalic><legacyItalic>saw. We </legacyItalic>conquered. We came. We saw. We conquered. The space between the sentences is adjusted to one.</para>
+				</listItem>
+			</list></content>
+</section><section address="__toc260387026" expanded="true">
+		<title>Restore the original rule settings</title>
+		<content>
+			<para>To restore the settings to their default states, in the Grammar Settings dialog box, click <ui>Reset All</ui>.</para>
+		</content>
+	</section>
+	<section>
+		<title />
+		<content>
+			<para>If you have feedback or suggestions about the editor proofing features, please post them <externalLink><linkText>here</linkText><linkUri>https://word.uservoice.com/</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<section>
+		<title>See also</title>
+		<content>
+			<para><link xlink:href="d6f9c3e0-2d88-4e6d-ab1e-24296e706fd5">Select grammar and writing style options in Office 2013 and earlier</link></para>
+			<para><link xlink:href="d6346e89-09d1-460e-bf42-b2c3f9161125">Choose how spell check and grammar check work in Word 2016 for Mac</link></para>
+			<para><link xlink:href="5cdeced7-d81d-47de-9096-efd0ee909227">Check spelling and grammar in Office 2010 and later</link></para>
+			<para><link xlink:href="cab319e8-17df-4b08-8c6b-b868dd2228d1">Check spelling and grammar in Office 2007</link></para>
+			<para><link xlink:href="05cae673-16e9-4917-9346-6d01a2b9d8ef">Check spelling and grammar in Office 2016 for Mac</link></para>
+		</content>
+	</section></sections></tabControlItemSection></tabControlItem><tabControlItem><tabControlItemTitle>Mac</tabControlItemTitle><tabControlItemSection><content><para>This article explains the grammar and writing style options that you can choose in Word 2016 for Mac.</para>
+		<alert class="note">
+			<para>When accessing the <ui>Word</ui> &gt; <ui>Preferences</ui> &gt; <ui>Spelling &amp; Grammar</ui>&gt; <ui>Writing Style</ui> menu option, <ui>Grammar &amp; Style</ui> is missing. <ui>Grammar &amp; Style</ui> option is replaced by <ui>Grammar &amp; more</ui>. The style options and Grammar &amp; more settings are available only if you have<externalLink><linkText>Office 365 Subscription</linkText><linkUri>https://products.office.com/en-us/buy/compare-microsoft-office-products</linkUri></externalLink></para>
+		</alert>
+		<para>For general information about checking spelling and grammar, see <link xlink:href="05cae673-16e9-4917-9346-6d01a2b9d8ef">Check spelling and grammar in Office 2016 for Mac</link>, and for information about setting spelling, grammar, and AutoCorrect options, see <link xlink:href="d6346e89-09d1-460e-bf42-b2c3f9161125">Choose how spell check and grammar check work in Word 2016 for Mac</link>.</para>
+		<alert class="note">
+			<para>If you are choosing options for text that's written in a language other than your language version of Word, the options might vary.</para>
+		</alert></content><sections><section address="__display_the_grammar" expanded="true">
+		<title>Open the spelling and grammar settings</title>
+		<content>
+			<list class="ordered">
+				<listItem>
+					<para>On the <ui>Word</ui> menu, click <ui>Preferences</ui>.</para>
+				</listItem>
+				<listItem>
+					<para>In <ui>Word Preferences</ui>, click <ui>Spelling &amp; Grammar</ui>.</para>
+					<mediaLink>
+						<image xlink:href="6fd46ce1-dd26-48d1-8c8d-aebdc622ff0f" />
+					</mediaLink>
+				</listItem>
+				<listItem>
+					<para>The <ui>Writing style</ui> has two options <ui>Grammar</ui> and <ui>Grammar &amp; more</ui>. You can choose either option depending on which settings you want apply to your document.</para>
+					<alert class="tip">
+						<para>By default the writing style option is set to <legacyBold>Grammar &amp; more</legacyBold> and have Wordiness and Nominalizations style options selected.</para>
+					</alert>
+				</listItem>
+				<listItem>
+					<para>Choose <ui>Settings</ui>.</para>
+					<para>Word displays the <ui>Grammar Settings</ui> dialog box, where you can select or clear the categories of issues that Word checks for.</para>
+					<mediaLink>
+						<image xlink:href="71516c63-f963-4e03-8a30-9f7df1d36f4b" />
+					</mediaLink>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Spacing</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Missing space before punctuation</embeddedLabel> Highlights the absence of a space expected before a punctuation mark. The set of punctuation marks for this option varies by language. When one space is expected before a particular punctuation mark, but none is found, this rule suggests adding a space. Example: <legacyItalic>They were(about to leave) </legacyItalic>would be corrected to <legacyItalic>They were (about to leave). </legacyItalic>The set of punctuation marks for this option varies by language.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Unexpected space before punctuation</embeddedLabel> Highlights the occurrence of an unexpected space before a punctuation mark. The set of punctuation marks for this option varies by language. When no spaces are expected before a particular punctuation mark, but one is found, this rule suggests removing it. Example: <legacyItalic>Mary , still wondering about the photos</legacyItalic> would be corrected to <legacyItalic>Mary, still wondering about the photos</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Unexpected space before and missing space after punctuation</legacyBold>    Highlights the occurrence of an unexpected space before a punctuation mark and the absence of a space expected before a punctuation mark. When there is an unexpected space before a punctuation mark and a missing space after it, this rule suggests removing the unexpected space and suggests inserting the missing space. Example: Mary ,still wondering about the photos would be corrected to Mary, still wondering about the photos.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Missing space after punctuation</embeddedLabel> Highlights the absence of a space expected after a punctuation mark. The set of punctuation marks for this option varies by language. When a space is expected after a particular punctuation mark, but none is found, this rule suggests adding a space. Example: <legacyItalic>He was up all night,and asleep all day</legacyItalic> would be corrected to <legacyItalic>He was up all night, and asleep all day</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Unexpected space after punctuation</embeddedLabel> Highlights the occurrence of an unexpected space after a punctuation mark. The set of punctuation marks for this option varies by language. When no spaces are expected after a particular punctuation mark, but one is found, this rule suggests removing it. <legacyItalic>Example: There are ( brackets)</legacyItalic> would be corrected to <legacyItalic>There are (brackets)</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Unexpected space between words</embeddedLabel> Highlights the occurrence of an unexpected space between words This rule detects two spaces between words of a sentence, or between punctuation and words within a sentence. Example: <legacyItalic>The final  date is November 18th </legacyItalic> would be corrected to <legacyItalic>The final date is November 18th</legacyItalic>.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Punctuation</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Punctuation marks in succession</embeddedLabel> The rule will detect two or more successive punctuation marks that are either identical or different. Example: <legacyItalic>Mary,, still wondering about the photos</legacyItalic> would be corrected to <legacyItalic>Mary, still wondering about the photos. </legacyItalic>The set of punctuation marks for this option varies by language.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Comma Splice</legacyBold> Targets the use of a semicolon instead of a comma in two related but independent clauses that are not joined by a coordinating conjunction such as "and" or "but". Example: <legacyItalic>They don't have a discussion board, the website isn't big enough for one yet</legacyItalic> would be corrected to <legacyItalic>They don't have a discussion board; the website isn't big enough for one yet</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Comma Use</embeddedLabel> Targets a missing comma in front of an independent clause if the sentence begins with a conjunction "if" Example: <legacyItalic>If you're like me you've already seen this movie </legacyItalic>would be corrected to <legacyItalic> If you're like me, you've already seen this movie</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Comma After Introductory Phrase </embeddedLabel> Targets a missing comma after short introductory phrases such as "however" or "for example" before an independent clause that follows. Example: <legacyItalic>First of all we must make sure the power is off</legacyItalic> would be corrected to <legacyItalic>First of all, we must make sure the power is off</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Comma After Greetings</legacyBold>  targets missing commas after a greeting phrase. Example: Dear Sir or Madam I read your letter, and I like your suggestions. would be corrected to Dear Sir or Madam, I read your letter, and I like your suggestions.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Comma Before Quotations</legacyBold> targets missing commas after quotations. If you are quoting a selection longer than a single word, insert a comma in front of the quoted text. Example: He arrived and announced <legacyItalic>"The party will be tomorrow night."</legacyItalic> would be corrected to He arrived and announced, <legacyItalic>"The party will be tomorrow night."</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Date Formatting </legacyBold>targets incorrectly formatted date expressions. Dates should be written with commas separating the day of the week from the month, and the day from the year. A comma should not be placed between the month and year. Example: I went to Paris on June 4 1986. would be corrected to I went to Paris on June 4, 1986. Example: The new policy comes into effect in October, 2016. would be corrected to The new policy comes into effect in October 2016.</para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Comma with Conjunction</legacyBold> targets a redundant comma when a dependent clause with a coordinating conjunction follows the main clause. Example:<legacyItalic> The dog went to the park, and learned how to play fetch </legacyItalic>would be corrected to <legacyItalic>"The dog went to the park, and learned how to play fetch."</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Missing Comma</legacyBold> targets a missing comma when an independent clause is followed by a coordinating conjunction and another independent clause. Example: <legacyItalic>The goats ate the grass but the herder had nothing to eat.</legacyItalic> would be corrected to <legacyItalic>"<legacyItalic>The goats ate the grass, but the herder had nothing to eat"</legacyItalic></legacyItalic>.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Grammar</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><legacyBold>Academic Degrees</legacyBold> targets the incorrect use of academic degrees. When discussing a type of degree, it should be lowercase. Bachelor’s and master’s degree types should be possessive. Note that doctorate is a degree type, while Doctor is used in a degree name. Example: She earned her doctorate of philosophy. is corrected to <legacyItalic>"She earned her Doctor of Philosophy"</legacyItalic> Example: She earned a Bachelors degree will be corrected to <legacyItalic>"She earned a bachelor’s".</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Adjective Used Instead of Adverb</embeddedLabel> targets the use of “real” vs. “really”. “Real” is used to modify a noun, “really” to modify a verb. Example: <legacyItalic>He is driving real carefully</legacyItalic> would be corrected to <legacyItalic>He is driving really carefully</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Agreement with Noun Phrases </embeddedLabel> targets number agreement within noun phrases to make sure the words within a single noun phrase agree in number (singular or plural). Example: <legacyItalic>I would like to buy this apples</legacyItalic> could be corrected to <legacyItalic>I would like to buy these apples</legacyItalic> or <legacyItalic>I would like to buy this apple</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Capitalization</embeddedLabel> targets words with incorrect capitalization. Articles, short prepositions, and conjunctions that should be in lower case within titles. The first word in title is capitalized. Example: <legacyItalic>"Of Mice And Men" is a novel </legacyItalic>would be corrected to <legacyItalic>"Of Mice and Men" is a novel</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Commonly Confused Words</embeddedLabel> targets words that require special attention because they sound similar and may have related meanings. They often represent different parts of speech (word classes) and have different spellings. It also targets the incorrect use of “of” rather than "have" in constructions with modal auxiliaries. Use "have" rather than "of" in constructions with modal auxiliaries such as could, can't, may, and will (i.e., verbs that express likelihood, ability, permission, obligation). Example: <legacyItalic>Could you please advice me? </legacyItalic>would be corrected to <legacyItalic>Could you please advise me? </legacyItalic><legacyItalic>I could of known that. </legacyItalic> would be corrected to <legacyItalic>I could have known that.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Comparative Use</embeddedLabel> targets the use of "more" and "most" with adjectives without comparatives. Don't use comparatives like more, most, less, or least with comparative adjectives. Example: <legacyItalic>This is more bigger than I thought</legacyItalic> would be corrected to <legacyItalic>This is bigger than I thought.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Hyphenation</embeddedLabel> suggests a hyphen to link modifying words if a noun modifier consists of more than one word. Example: <legacyItalic>Our five year old son is learning to read</legacyItalic> would be corrected to <legacyItalic>Our five-year-old son is learning to read.</legacyItalic> This rule also covers numerals "twenty-one" through "ninety-nine".</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Incorrect Verb Form after Auxiliary</embeddedLabel> Targets an incorrect verb form after an auxiliary verb. Use teh correct verb form after an auxiliary verb (verbs that describe a person, number, mood, tense, etc). Example: <legacyItalic>They had ate by the time she arrived</legacyItalic> would be corrected to <legacyItalic>They had eaten by the time she arrived. </legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Indefinite Article</embeddedLabel> Targets the use of "a" before a word beginning with a consonant sound and "an" before a word beginning with a vowel sound. Example: <legacyItalic>We waited for at least a hour </legacyItalic>would be corrected to <legacyItalic>We waited for at least an hour</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Possessives and Plural Forms</embeddedLabel> Targets the incorrect use of Possessive and Plural forms. Possessive nouns require an apostrophe. The possessive pronoun "its" does not; the form "it's" is always a contraction of “it is” (or “it has”). Example: <legacyItalic>As long as its doing its job, we're happy</legacyItalic> would be corrected to <legacyItalic>As long as its doing it’s job, we're happy.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Question Mark Missing</embeddedLabel> Targets a missing question mark at the end of an interrogative sentence. Write a question mark at the end of any sentence that asks a question (interrogative sentence). Example: <legacyItalic> How many cats does he have.</legacyItalic> would be corrected to <legacyItalic>How many cats does he have?</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Subject Verb Agreement</embeddedLabel> targets number agreement between subject and verb. The subject and verb should agree in number. They should either both be singular, or both be plural. Example: <legacyItalic>The teacher want to see him </legacyItalic>would be corrected to <legacyItalic>The teacher wants to see him. </legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Too Many Determiners</embeddedLabel> targets certain determiners (articles, possessive pronouns, and demonstratives) that shouldn't be combined. Example: <legacyItalic>I gave her a the carrot w</legacyItalic>ould be corrected to <legacyItalic>I gave her a carrot.</legacyItalic></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Clarity and Conciseness</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Complex words </embeddedLabel> Targets complex and abstract words, and suggests using a simpler word to present a clear message and a more approachable tone. Example: The <legacyItalic>magnitude</legacyItalic> of the problem is far beyond the scope of humanitarian aid. <legacyItalic>Magnitude </legacyItalic>would be corrected to size.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Double Negation</embeddedLabel> Targets the ambiguous use of negations. The use of two negative words may be interpreted as indicating a positive. To avoid confusion, do not use double negation. Example: I did <legacyItalic>not see nothing</legacyItalic>. It is corrected to I did <legacyItalic>not see anything.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Jargon</embeddedLabel> Targets jargon, technical terminology, or abbreviations which may confuse readers. Consider using more common language that is likely to be understood by everyone. Example: The company hired a well-known <legacyItalic>headhunting</legacyItalic> firm. <legacyItalic>Headhunting</legacyItalic> is corrected to <legacyItalic>recruiting</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Nominalizations</embeddedLabel> Targets phrases relying on many nouns which need extra words to introduce them. Consider using a single verb instead of nouns, where possible. Example: The trade union is <legacyItalic>holding negotiations</legacyItalic> with the employers. Here <legacyItalic>holding negotiations</legacyItalic> is corrected to negotiating.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Passive voice with Known Actor</embeddedLabel> Targets passive voice sentences with a known actor, i.e. a known subject. Use active voice whenever possible to be more concise and avoid possible confusion. Example: <legacyItalic>The dog was seen by the man.</legacyItalic> This will be corrected to <legacyItalic>The man saw the dog.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Passive Voice with Unknown Actor</embeddedLabel> Targets passive voice sentences with an unknown actor, i.e. an unknown subject. Use active voice whenever possible to be more concise and avoid possible confusion. (In most cases this rule won’t be able to offer a correction suggestion because the subject is unknown.) Example: The house <legacyItalic>was built</legacyItalic> on a hill. This will show [No Suggestion available]</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Wordiness</embeddedLabel> Targets redundant and needless words. Eliminating redundant or unnecessary words often improves readability.  Example: Her backpack was<legacyItalic> large in size.</legacyItalic><legacyItalic> Large in size </legacyItalic>is corrected to <legacyItalic>large</legacyItalic>.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Words Expressing Uncertainty</embeddedLabel> Targets words that express uncertainty or lessen the impact of a statement. Example: They <legacyItalic>largely decorated</legacyItalic> the kitchen with old bottles. The phrase largely decorated is replaced by <legacyItalic>decorated</legacyItalic> only.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Words in Split infinitives (more than one)</embeddedLabel> Targets multiple adverbs between "to" and a verb. Using multiple adverbs between "to" and a verb in can create an awkward or unclear sentence. Example: He tried to <legacyItalic>firmly but politely decline the offer</legacyItalic>. This is corrected to <legacyItalic>decline the offer firmly but politely.</legacyItalic></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Inclusive Language</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Gender-Specific Language</embeddedLabel> Targets gendered language which may be perceived as excluding, dismissive, or stereotyping. Consider using gender-inclusive language. Example: We need more <legacyItalic>policemen</legacyItalic> to maintain public safety. <legacyItalic>Policemen</legacyItalic> is corrected to <legacyItalic>police officers.</legacyItalic></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Vocabulary Choice</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Clichés</embeddedLabel> Targets overused and predictable words or phrases and suggests to replace them with an alternative phrase. Example: Institutions seem caught <legacyItalic>between a rock and a hard place.</legacyItalic>The phrase<legacyItalic> between a rock and a hard place</legacyItalic> would be corrected to <legacyItalic>in a difficult situat</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><legacyBold>Vague Adjectives</legacyBold> Targets overused adjectives and suggest replacing them with more specific ones which can convey your message more descriptively. Example: "<legacyItalic>Do not drive in bad conditions!" will be changed to </legacyItalic>"Do not drive in harsh conditions"</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Formal Language</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Contractions</embeddedLabel> Targets contractions (e.g., let's, we've, can't) which should be avoided in formal writing, such as in legal documents. Example: The animal <legacyItalic>won't</legacyItalic> be authorized to be out of the bag during the flight. <legacyItalic>Won't</legacyItalic> will be corrected to will not.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Informal Language</embeddedLabel> Targets informal words and phrases which are more appropriate for familiar, conversational settings. Please consider using more formal language. Example: Our atmosphere includes <legacyItalic>comfy</legacyItalic> massage chairs. Here <legacyItalic>comfy</legacyItalic> is corrected to <legacyItalic>comfortable.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Slang</embeddedLabel> Targets regional expressions or slang terms which may not be understood by a general audience, and should therefore be avoided in formal writing. Consider using more standard expressions. Example: My cat <legacyItalic>barfed</legacyItalic> all over my homework last night. <legacyItalic>Barfed</legacyItalic> is corrected to <legacyItalic>vomited.</legacyItalic></para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Punctuation Conventions</title>
+		<content>
+			<list class="bullet">
+				<listItem>
+					<para><embeddedLabel>Oxford Comma</embeddedLabel> Targets a missing comma after the second-to-last item in a list. When listing items, you can avoid confusion by using a comma before the second-to-last item. Whether you choose to use the Oxford comma or not, always be consistent.</para>
+					<para>Example: The red, <legacyItalic>yellow and</legacyItalic> green peppers are fresh. Here a comma is added after yellow.</para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Punctuation Required with Quotes</embeddedLabel> Targets inconsistent use of quotation marks with punctuation marks. Quotation marks can be placed inside or outside of punctuation marks. Place quotes in the same manner throughout your text to improve readability. Example for punctuation inside quotes: He told me, “I don't like scary <legacyItalic>movies”.</legacyItalic> This is corrected to <legacyItalic>movies.”</legacyItalic> Example for punctuation outside quotes: The woman said, “I just got home from <legacyItalic>vacation.”</legacyItalic> This is corrected to <legacyItalic>vacation”.</legacyItalic></para>
+				</listItem>
+				<listItem>
+					<para><embeddedLabel>Spaces Between Sentences</embeddedLabel> Targets inconsistent use of spaces between sentences. Use the same number of spaces between sentences to improve readability. Choose either one or two spaces, then be consistent. Example for one space between sentences: We <legacyItalic>came. We </legacyItalic><legacyItalic>saw. We </legacyItalic>conquered. We came. We saw. We conquered. The space between the sentences is adjusted to one.</para>
+				</listItem>
+			</list>
+		</content>
+	</section>
+	<section expanded="true">
+		<title>Restore the original rule settings</title>
+		<content>
+			<para>To restore the settings to their default states, in the Grammar Settings dialog box, click <ui>Reset All</ui>.</para>
+		</content>
+	</section>
+	<section>
+		<title />
+		<content>
+			<para>If you have feedback or suggestions about spelling and grammar features, please <externalLink><linkText>post them here</linkText><linkUri>https://word.uservoice.com/forums/304942-word-for-mac</linkUri></externalLink>.</para>
+		</content>
+	</section>
+	<section>
+		<title>See also</title>
+		<content>
+			<para><link xlink:href="05cae673-16e9-4917-9346-6d01a2b9d8ef">Check spelling and grammar in Office for Mac</link></para>
+			<para><link xlink:href="d6346e89-09d1-460e-bf42-b2c3f9161125">Choose how spell check and grammar check work in Word for Mac</link></para>
+		</content>
+	</section></sections></tabControlItemSection></tabControlItem></tabControl>
+	</introduction>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<relatedTopics />
+</developerConceptualDocument></topic>

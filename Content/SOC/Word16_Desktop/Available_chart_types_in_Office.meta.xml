@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata fileAssetGuid="a6187218-807e-4103-9e0a-27cdb19afb90" assetTypeId="CompanionFile">
+  <topic id="a6187218-807e-4103-9e0a-27cdb19afb90" revisionNumber="21" createDate="2014-05-16T21:23:00.000">
+    <title>Available chart types in Office</title>
+  </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-01-01T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">This article describes the variety of chart types available in Excel and other Office programs. Chart types include column, line, pie, bar, area, scatter, stock, surface, radar, treemap, sunburst, histogram, box, whister, and waterfall. </attribute>
+    <attribute name="Context Sensitive ID">3109</attribute>
+    <attribute name="Context Sensitive ID">3119</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">WORD</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Excel for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Outlook 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">PowerPoint for Office 365 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2007</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2019 for Mac</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Mac 2011</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Office 365</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Office 365 for Mac</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="DCSext.Subject">forms</attribute>
+    <attribute name="OCMS Asset ID">HA001233737</attribute>
+    <attribute name="OCMS Asset ID">HA001233750</attribute>
+    <attribute name="OCMS Asset ID">HA001233751</attribute>
+    <attribute name="OCMS Asset ID">HA010218664
+</attribute>
+    <attribute name="OCMS Asset ID">HA010218671</attribute>
+    <attribute name="OCMS Asset ID">HA010218672</attribute>
+    <attribute name="OCMS Asset ID">HA010342187
+</attribute>
+    <attribute name="OCMS Asset ID">HA102809710
+</attribute>
+    <attribute name="OCMS Asset ID">HA102927256</attribute>
+    <attribute name="OCMS Version">13.4</attribute>
+    <attribute name="ProjectFileAssetType">DocSchema</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Platform Tab</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="search.contextid">3109</attribute>
+    <attribute name="search.contextid">3119</attribute>
+    <attribute name="Search.OCMSasset">HA001233737</attribute>
+    <attribute name="Search.OCMSasset">HA001233750</attribute>
+    <attribute name="Search.OCMSasset">HA001233751</attribute>
+    <attribute name="Search.OCMSasset">HA010218664
+</attribute>
+    <attribute name="Search.OCMSasset">HA010218671</attribute>
+    <attribute name="Search.OCMSasset">HA010218672</attribute>
+    <attribute name="Search.OCMSasset">HA010342187
+</attribute>
+    <attribute name="Search.OCMSasset">HA102809710
+</attribute>
+    <attribute name="Search.OCMSasset">HA102927256</attribute>
+    <attribute name="search.appverid">ZXL120</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZXL150</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.appverid">ZXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel</attribute>
+    <attribute name="search.skuid">ZXL160</attribute>
+    <attribute name="search.appverid">MXL160</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL160</attribute>
+    <attribute name="search.appverid">ZXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MXL140</attribute>
+    <attribute name="search.applicationSuite">Excel</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Excel for Mac</attribute>
+    <attribute name="search.skuid">MXL140</attribute>
+    <attribute name="search.appverid">ZXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MXL900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZOL120</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZOL140</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZOL150</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZOL160</attribute>
+    <attribute name="search.applicationSuite">Outlook</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Outlook</attribute>
+    <attribute name="search.skuid">ZOL160</attribute>
+    <attribute name="search.appverid">ZPP120</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZPP140</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZPP150</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint</attribute>
+    <attribute name="search.skuid">ZPP160</attribute>
+    <attribute name="search.appverid">MPP160</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">PowerPoint for Mac</attribute>
+    <attribute name="search.skuid">MPP160</attribute>
+    <attribute name="search.appverid">ZPP190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MPP190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MPP140</attribute>
+    <attribute name="search.applicationSuite">PowerPoint</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">PowerPoint for Mac</attribute>
+    <attribute name="search.skuid">MPP140</attribute>
+    <attribute name="search.appverid">ZPP900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MPP900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">ZWD120</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">12</attribute>
+    <attribute name="search.appverid">ZWD140</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZWD150</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.appverid">MWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word for Mac</attribute>
+    <attribute name="search.skuid">MWD160</attribute>
+    <attribute name="search.appverid">ZWD190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MWD190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">MWD140</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.sku">Word for Mac</attribute>
+    <attribute name="search.skuid">MWD140</attribute>
+    <attribute name="search.appverid">ZWD900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.appverid">MWD900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">a6187218-807e-4103-9e0a-27cdb19afb90</attribute>
+  </attributes>
+  <art>
+    <item id="368df473-087a-4282-ab72-05ed9e8aa8a7">
+      <image file="Art\368df473-087a-4282-ab72-05ed9e8aa8a7\368df473-087a-4282-ab72-05ed9e8aa8a7.png" metadataAssetGuid="368df473-087a-4282-ab72-05ed9e8aa8a7">
+        <title>o15_xl_stock_o-h-l-c-chart</title>
+        <altText>Open-high-low-close stock chart</altText>
+      </image>
+    </item>
+    <item id="e78150ce-29db-424f-8294-061f207639a3">
+      <image file="Art\e78150ce-29db-424f-8294-061f207639a3\e78150ce-29db-424f-8294-061f207639a3.jpg" metadataAssetGuid="e78150ce-29db-424f-8294-061f207639a3">
+        <title>o15_xl_availablecharts_stock</title>
+        <altText>Stock chart</altText>
+      </image>
+    </item>
+    <item id="bb7a150f-5723-4da6-b7d5-084f680f9b41">
+      <image file="Art\bb7a150f-5723-4da6-b7d5-084f680f9b41\bb7a150f-5723-4da6-b7d5-084f680f9b41.png" metadataAssetGuid="bb7a150f-5723-4da6-b7d5-084f680f9b41">
+        <title>o15_xl_100_pct_stacked_column_charts</title>
+        <altText>100% stacked column and 3-D 100% stacked column charts</altText>
+      </image>
+    </item>
+    <item id="972f3492-4573-485e-91df-0c51aa84ed99">
+      <image file="Art\972f3492-4573-485e-91df-0c51aa84ed99\972f3492-4573-485e-91df-0c51aa84ed99.png" metadataAssetGuid="972f3492-4573-485e-91df-0c51aa84ed99">
+        <title>Funnel chart example</title>
+        <altText>Funnel chart showing sales pipeline; stages listed in the first column, values in the second</altText>
+      </image>
+    </item>
+    <item id="96be2fcc-a80d-486c-8575-0ccad1fe0ca8">
+      <image file="Art\96be2fcc-a80d-486c-8575-0ccad1fe0ca8\96be2fcc-a80d-486c-8575-0ccad1fe0ca8.png" metadataAssetGuid="96be2fcc-a80d-486c-8575-0ccad1fe0ca8">
+        <title>XL16WinBoxWhiskerChartExample</title>
+        <altText>Sample box and whisker chart</altText>
+      </image>
+    </item>
+    <item id="431f6796-b16e-467e-86e1-0dcc78ceef2b">
+      <image file="Art\431f6796-b16e-467e-86e1-0dcc78ceef2b\431f6796-b16e-467e-86e1-0dcc78ceef2b.png" metadataAssetGuid="431f6796-b16e-467e-86e1-0dcc78ceef2b">
+        <title>o15_xl_pie_3d_pie_charts</title>
+        <altText>Pie and 3-D pie charts</altText>
+      </image>
+    </item>
+    <item id="cf7fd302-34c3-42c3-b4a4-0e7c88c36ff4">
+      <image file="Art\cf7fd302-34c3-42c3-b4a4-0e7c88c36ff4\cf7fd302-34c3-42c3-b4a4-0e7c88c36ff4.png" metadataAssetGuid="cf7fd302-34c3-42c3-b4a4-0e7c88c36ff4">
+        <title>o15_xl_3d_line_chart</title>
+        <altText>3-D line chart</altText>
+      </image>
+    </item>
+    <item id="c848c6a2-31b1-4425-8ab0-1361fd8c5131">
+      <image file="Art\c848c6a2-31b1-4425-8ab0-1361fd8c5131\c848c6a2-31b1-4425-8ab0-1361fd8c5131.png" metadataAssetGuid="c848c6a2-31b1-4425-8ab0-1361fd8c5131">
+        <title>o15_xl_changecharttype</title>
+        <altText>Change Chart Type</altText>
+      </image>
+    </item>
+    <item id="fbea3f6b-4192-441c-af99-163b38dea33a">
+      <image file="Art\fbea3f6b-4192-441c-af99-163b38dea33a\fbea3f6b-4192-441c-af99-163b38dea33a.png" metadataAssetGuid="fbea3f6b-4192-441c-af99-163b38dea33a">
+        <title>o15_xl_stacked_line_charts</title>
+        <altText>Stacked line and stacked line with markers charts</altText>
+      </image>
+    </item>
+    <item id="582b425c-d748-4fa0-978d-182984175b98">
+      <image file="Art\582b425c-d748-4fa0-978d-182984175b98\582b425c-d748-4fa0-978d-182984175b98.png" metadataAssetGuid="582b425c-d748-4fa0-978d-182984175b98">
+        <title>o15_xl_3d_column_chart</title>
+        <altText>3-D column chart</altText>
+      </image>
+    </item>
+    <item id="d025dc22-ce19-4cb1-a3fb-196929098445">
+      <image file="Art\d025dc22-ce19-4cb1-a3fb-196929098445\d025dc22-ce19-4cb1-a3fb-196929098445.png" metadataAssetGuid="d025dc22-ce19-4cb1-a3fb-196929098445">
+        <title>o15_xl_stock_v-h-l-c-chart</title>
+        <altText>Volume-high-low-close stock chart</altText>
+      </image>
+    </item>
+    <item id="d5feedfb-03fb-4e15-82f7-1c1eb9ef3bc2">
+      <image file="Art\d5feedfb-03fb-4e15-82f7-1c1eb9ef3bc2\d5feedfb-03fb-4e15-82f7-1c1eb9ef3bc2.png" metadataAssetGuid="d5feedfb-03fb-4e15-82f7-1c1eb9ef3bc2">
+        <title>o15_xl_surface_wireframe_3-d</title>
+        <altText>Wireframe 3-D surface chart</altText>
+      </image>
+    </item>
+    <item id="60e5a798-0afc-4df6-a6d3-1d0891d3aa83">
+      <image file="Art\60e5a798-0afc-4df6-a6d3-1d0891d3aa83\60e5a798-0afc-4df6-a6d3-1d0891d3aa83.png" metadataAssetGuid="60e5a798-0afc-4df6-a6d3-1d0891d3aa83">
+        <title>o15_xl_pieofpie_barofpie_charts</title>
+        <altText>Pie of pie and bar of pie charts</altText>
+      </image>
+    </item>
+    <item id="8d9684e4-b404-4f85-bdd8-1f22da14e74b">
+      <image file="Art\8d9684e4-b404-4f85-bdd8-1f22da14e74b\8d9684e4-b404-4f85-bdd8-1f22da14e74b.png" metadataAssetGuid="8d9684e4-b404-4f85-bdd8-1f22da14e74b">
+        <title>o15_xl_clustered_bar_charts</title>
+        <altText>Clustered bar and 3-D clustered bar charts</altText>
+      </image>
+    </item>
+    <item id="63c58ba3-52a3-4c36-875a-21bb1a656610">
+      <image file="Art\63c58ba3-52a3-4c36-875a-21bb1a656610\63c58ba3-52a3-4c36-875a-21bb1a656610.png" metadataAssetGuid="63c58ba3-52a3-4c36-875a-21bb1a656610">
+        <title>o15_xl_scatter_smooth_lines_charts</title>
+        <altText>Scatter with smooth lines and markers and scatter with smooth lines charts</altText>
+      </image>
+    </item>
+    <item id="b8b46901-513b-4068-bdaa-256ea9b13e97">
+      <image file="Art\b8b46901-513b-4068-bdaa-256ea9b13e97\b8b46901-513b-4068-bdaa-256ea9b13e97.jpg" metadataAssetGuid="b8b46901-513b-4068-bdaa-256ea9b13e97">
+        <title>o15_xl_availablecharts_bar</title>
+        <altText>Bar chart</altText>
+      </image>
+    </item>
+    <item id="36bddd0b-d79f-4746-9385-274b8482c7ad">
+      <image file="Art\36bddd0b-d79f-4746-9385-274b8482c7ad\36bddd0b-d79f-4746-9385-274b8482c7ad.jpg" metadataAssetGuid="36bddd0b-d79f-4746-9385-274b8482c7ad">
+        <title>o15_xl_availablecharts_column</title>
+        <altText>Clustered column chart</altText>
+      </image>
+    </item>
+    <item id="1192dc5c-bdd6-4580-a0cd-2bfefe4c965c">
+      <image file="Art\1192dc5c-bdd6-4580-a0cd-2bfefe4c965c\1192dc5c-bdd6-4580-a0cd-2bfefe4c965c.png" metadataAssetGuid="1192dc5c-bdd6-4580-a0cd-2bfefe4c965c">
+        <title>o15_xl_stock_h-l-c-chart</title>
+        <altText>High-low-close stock chart</altText>
+      </image>
+    </item>
+    <item id="d5e3cc55-be4d-4e66-b70f-2c96f676c078">
+      <image file="Art\d5e3cc55-be4d-4e66-b70f-2c96f676c078\d5e3cc55-be4d-4e66-b70f-2c96f676c078.png" metadataAssetGuid="d5e3cc55-be4d-4e66-b70f-2c96f676c078">
+        <title>o15_xl_surface_wireframe_contour</title>
+        <altText>Wireframe contour chart</altText>
+      </image>
+    </item>
+    <item id="faf11b56-689e-4488-afe3-3093d459fc8f">
+      <image file="Art\faf11b56-689e-4488-afe3-3093d459fc8f\faf11b56-689e-4488-afe3-3093d459fc8f.png" metadataAssetGuid="faf11b56-689e-4488-afe3-3093d459fc8f">
+        <title>o15_xl_scatter_chart</title>
+        <altText>Scatter chart</altText>
+      </image>
+    </item>
+    <item id="b4efda0f-e3fe-4592-9737-333c38a00512">
+      <image file="Art\b4efda0f-e3fe-4592-9737-333c38a00512\b4efda0f-e3fe-4592-9737-333c38a00512.png" metadataAssetGuid="b4efda0f-e3fe-4592-9737-333c38a00512">
+        <title>o15_xl_radar_charts</title>
+        <altText>Radar and radar with markers charts</altText>
+      </image>
+    </item>
+    <item id="4e08da42-fafd-42b8-9f62-3c91eb5a43fe">
+      <image file="Art\4e08da42-fafd-42b8-9f62-3c91eb5a43fe\4e08da42-fafd-42b8-9f62-3c91eb5a43fe.png" metadataAssetGuid="4e08da42-fafd-42b8-9f62-3c91eb5a43fe">
+        <title>o15_xl_stacked_bar_charts</title>
+        <altText>Stacked bar and 3-D stacked bar charts</altText>
+      </image>
+    </item>
+    <item id="3ff4517b-8046-4bcc-9a05-3dc7b20966c5">
+      <image file="Art\3ff4517b-8046-4bcc-9a05-3dc7b20966c5\3ff4517b-8046-4bcc-9a05-3dc7b20966c5.png" metadataAssetGuid="3ff4517b-8046-4bcc-9a05-3dc7b20966c5">
+        <title>o15_xl_combo_clustered_charts</title>
+        <altText>Clustered column charts</altText>
+      </image>
+    </item>
+    <item id="e14481f1-fa2e-4399-ac8b-48ee137c68a8">
+      <image file="Art\e14481f1-fa2e-4399-ac8b-48ee137c68a8\e14481f1-fa2e-4399-ac8b-48ee137c68a8.png" metadataAssetGuid="e14481f1-fa2e-4399-ac8b-48ee137c68a8">
+        <title>o15_xl_stacked_area_charts</title>
+        <altText>Stacked area and 3-D stacked area charts</altText>
+      </image>
+    </item>
+    <item id="c9883748-9dbe-49fc-a499-51c16b37ea2f">
+      <image file="Art\c9883748-9dbe-49fc-a499-51c16b37ea2f\c9883748-9dbe-49fc-a499-51c16b37ea2f.gif" metadataAssetGuid="c9883748-9dbe-49fc-a499-51c16b37ea2f">
+        <title>mac_chart_bubble</title>
+        <altText>chart bubble</altText>
+      </image>
+    </item>
+    <item id="a54542e0-ffbd-48af-92a7-5c3696fc95d6">
+      <image file="Art\a54542e0-ffbd-48af-92a7-5c3696fc95d6\a54542e0-ffbd-48af-92a7-5c3696fc95d6.png" metadataAssetGuid="a54542e0-ffbd-48af-92a7-5c3696fc95d6">
+        <title>XL16WinHistogramRecoChart</title>
+        <altText>Histogram chart in the Histogram sub-type chart</altText>
+      </image>
+    </item>
+    <item id="4e8a58b9-de89-4881-8591-60e549749dce">
+      <image file="Art\4e8a58b9-de89-4881-8591-60e549749dce\4e8a58b9-de89-4881-8591-60e549749dce.jpg" metadataAssetGuid="4e8a58b9-de89-4881-8591-60e549749dce">
+        <title>o15_xl_availablecharts_pie</title>
+        <altText>Pie chart</altText>
+      </image>
+    </item>
+    <item id="83b7a504-f915-4269-8a1e-7195d7c2592d">
+      <image file="Art\83b7a504-f915-4269-8a1e-7195d7c2592d\83b7a504-f915-4269-8a1e-7195d7c2592d.png" metadataAssetGuid="83b7a504-f915-4269-8a1e-7195d7c2592d">
+        <title>Excel_MapChart_Category</title>
+        <altText>Excel Map Chart by Category</altText>
+      </image>
+    </item>
+    <item id="66040992-fada-4de5-971b-755070c3a1c4">
+      <image file="Art\66040992-fada-4de5-971b-755070c3a1c4\66040992-fada-4de5-971b-755070c3a1c4.gif" metadataAssetGuid="66040992-fada-4de5-971b-755070c3a1c4">
+        <title>mac_chart_pie</title>
+        <altText>chart pie</altText>
+      </image>
+    </item>
+    <item id="b3bfff05-380e-4dd9-b49b-7a2bfd128870">
+      <image file="Art\b3bfff05-380e-4dd9-b49b-7a2bfd128870\b3bfff05-380e-4dd9-b49b-7a2bfd128870.png" metadataAssetGuid="b3bfff05-380e-4dd9-b49b-7a2bfd128870">
+        <title>XL16WinTreemapChartExample</title>
+        <altText>Example of a Treemap Chart in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="126ca7b3-a07e-4ed6-ae70-7c663202c5e8">
+      <image file="Art\126ca7b3-a07e-4ed6-ae70-7c663202c5e8\126ca7b3-a07e-4ed6-ae70-7c663202c5e8.png" metadataAssetGuid="126ca7b3-a07e-4ed6-ae70-7c663202c5e8">
+        <title>o15_xl_100_pct_stacked_bar_charts</title>
+        <altText>100% stacked bar and 3-D 100% stacked bar charts</altText>
+      </image>
+    </item>
+    <item id="84d57d58-36c3-4732-9d3e-863ac9438f46">
+      <image file="Art\84d57d58-36c3-4732-9d3e-863ac9438f46\84d57d58-36c3-4732-9d3e-863ac9438f46.gif" metadataAssetGuid="84d57d58-36c3-4732-9d3e-863ac9438f46">
+        <title>mac_chart_doughnut</title>
+        <altText>chart doughnut</altText>
+      </image>
+    </item>
+    <item id="8a360721-9359-4502-bf81-86ec60f80760">
+      <image file="Art\8a360721-9359-4502-bf81-86ec60f80760\8a360721-9359-4502-bf81-86ec60f80760.gif" metadataAssetGuid="8a360721-9359-4502-bf81-86ec60f80760">
+        <title>mac_chart_scatter</title>
+        <altText>chart scatter</altText>
+      </image>
+    </item>
+    <item id="506fbcbf-c3f1-4a90-adce-8759fa52fddb">
+      <image file="Art\506fbcbf-c3f1-4a90-adce-8759fa52fddb\506fbcbf-c3f1-4a90-adce-8759fa52fddb.jpg" metadataAssetGuid="506fbcbf-c3f1-4a90-adce-8759fa52fddb">
+        <title>o15_xl_availablecharts_line</title>
+        <altText>Line with markers chart</altText>
+      </image>
+    </item>
+    <item id="e71e0726-1cd3-401a-983a-8be362598600">
+      <image file="Art\e71e0726-1cd3-401a-983a-8be362598600\e71e0726-1cd3-401a-983a-8be362598600.jpg" metadataAssetGuid="e71e0726-1cd3-401a-983a-8be362598600">
+        <title>o15_xl_recenthomesales</title>
+        <altText>Combo chart with secondary axis</altText>
+      </image>
+    </item>
+    <item id="2988ee7d-9e5e-4454-abfd-8ed59353879f">
+      <image file="Art\2988ee7d-9e5e-4454-abfd-8ed59353879f\2988ee7d-9e5e-4454-abfd-8ed59353879f.png" metadataAssetGuid="2988ee7d-9e5e-4454-abfd-8ed59353879f">
+        <title>o15_xl_filled_radar_chart</title>
+        <altText>Filled radar chart</altText>
+      </image>
+    </item>
+    <item id="ed196317-bd29-4422-862b-9457caabdbf2">
+      <image file="Art\ed196317-bd29-4422-862b-9457caabdbf2\ed196317-bd29-4422-862b-9457caabdbf2.jpg" metadataAssetGuid="ed196317-bd29-4422-862b-9457caabdbf2">
+        <title>o15_xl_availablecharts_surface</title>
+        <altText>Surface chart</altText>
+      </image>
+    </item>
+    <item id="69ca4821-9f0e-4eb1-9293-975ce728e0c6">
+      <image file="Art\69ca4821-9f0e-4eb1-9293-975ce728e0c6\69ca4821-9f0e-4eb1-9293-975ce728e0c6.png" metadataAssetGuid="69ca4821-9f0e-4eb1-9293-975ce728e0c6">
+        <title>o15_xl_stacked_column_charts</title>
+        <altText>Stacked column and 3-D stacked column charts</altText>
+      </image>
+    </item>
+    <item id="ee298277-571f-4bbe-b0ce-990770b1b5ad">
+      <image file="Art\ee298277-571f-4bbe-b0ce-990770b1b5ad\ee298277-571f-4bbe-b0ce-990770b1b5ad.png" metadataAssetGuid="ee298277-571f-4bbe-b0ce-990770b1b5ad">
+        <title>o15_xl_surface_3-d</title>
+        <altText>3-D surface chart</altText>
+      </image>
+    </item>
+    <item id="0b336b4c-e653-4c27-8878-9986e63b1e99">
+      <image file="Art\0b336b4c-e653-4c27-8878-9986e63b1e99\0b336b4c-e653-4c27-8878-9986e63b1e99.gif" metadataAssetGuid="0b336b4c-e653-4c27-8878-9986e63b1e99">
+        <title>mac_chart_line</title>
+        <altText>chart line</altText>
+      </image>
+    </item>
+    <item id="55bda38a-bed5-46e5-971a-9d0877d65c4a">
+      <image file="Art\55bda38a-bed5-46e5-971a-9d0877d65c4a\55bda38a-bed5-46e5-971a-9d0877d65c4a.gif" metadataAssetGuid="55bda38a-bed5-46e5-971a-9d0877d65c4a">
+        <title>mac_chart_surface</title>
+        <altText>chart surface</altText>
+      </image>
+    </item>
+    <item id="e90222bf-3ce3-48b9-9c3d-9da9974d6059">
+      <image file="Art\e90222bf-3ce3-48b9-9c3d-9da9974d6059\e90222bf-3ce3-48b9-9c3d-9da9974d6059.png" metadataAssetGuid="e90222bf-3ce3-48b9-9c3d-9da9974d6059">
+        <title>o15_xl_scatter_straight_lines_charts</title>
+        <altText>Scatter with straight lines and markers and scatter with straight lines charts</altText>
+      </image>
+    </item>
+    <item id="e4da83f8-fb2b-414f-9a69-9e44905b432d">
+      <image file="Art\e4da83f8-fb2b-414f-9a69-9e44905b432d\e4da83f8-fb2b-414f-9a69-9e44905b432d.png" metadataAssetGuid="e4da83f8-fb2b-414f-9a69-9e44905b432d">
+        <title>Excel for Mac Chart Design right half</title>
+        <altText>Chart design tab right half</altText>
+      </image>
+    </item>
+    <item id="eb234cf8-1004-49bc-bfee-a50602ac492a">
+      <image file="Art\eb234cf8-1004-49bc-bfee-a50602ac492a\eb234cf8-1004-49bc-bfee-a50602ac492a.png" metadataAssetGuid="eb234cf8-1004-49bc-bfee-a50602ac492a">
+        <title>XL16WinSunburstChart</title>
+        <altText>Picture of a Sunburst Chart in Office 2016 for Windows</altText>
+      </image>
+    </item>
+    <item id="de2e3f0c-fbae-4a92-8e8a-a641b4db8d60">
+      <image file="Art\de2e3f0c-fbae-4a92-8e8a-a641b4db8d60\de2e3f0c-fbae-4a92-8e8a-a641b4db8d60.png" metadataAssetGuid="de2e3f0c-fbae-4a92-8e8a-a641b4db8d60">
+        <title>Excel_MapChart_Value</title>
+        <altText>Excel MapChart with Value data</altText>
+      </image>
+    </item>
+    <item id="98815b0a-b60a-40d9-bf1a-b27fa4c4b8a2">
+      <image file="Art\98815b0a-b60a-40d9-bf1a-b27fa4c4b8a2\98815b0a-b60a-40d9-bf1a-b27fa4c4b8a2.png" metadataAssetGuid="98815b0a-b60a-40d9-bf1a-b27fa4c4b8a2">
+        <title>o15_xl_100_pct_stacked_line_charts</title>
+        <altText>100% stacked line and 100% stacked line with markers charts</altText>
+      </image>
+    </item>
+    <item id="855433fa-8d2e-4483-b63e-b55935bb3053">
+      <image file="Art\855433fa-8d2e-4483-b63e-b55935bb3053\855433fa-8d2e-4483-b63e-b55935bb3053.png" metadataAssetGuid="855433fa-8d2e-4483-b63e-b55935bb3053">
+        <title>o15_xl_clustered_column_charts</title>
+        <altText>Clustered column and 3-D clustered column charts</altText>
+      </image>
+    </item>
+    <item id="18dac70a-c51a-48c0-83cd-baa9ab38e683">
+      <image file="Art\18dac70a-c51a-48c0-83cd-baa9ab38e683\18dac70a-c51a-48c0-83cd-baa9ab38e683.png" metadataAssetGuid="18dac70a-c51a-48c0-83cd-baa9ab38e683">
+        <title>XL16WinWaterfallChartGraph</title>
+        <altText>Example of a Waterfall chart</altText>
+      </image>
+    </item>
+    <item id="4f7f220f-cd57-4168-a458-c07e625e60c4">
+      <image file="Art\4f7f220f-cd57-4168-a458-c07e625e60c4\4f7f220f-cd57-4168-a458-c07e625e60c4.png" metadataAssetGuid="4f7f220f-cd57-4168-a458-c07e625e60c4">
+        <title>o15_xl_bubble_charts</title>
+        <altText>Bubble and bubble with 3-D effect charts</altText>
+      </image>
+    </item>
+    <item id="3f290ec4-a87b-407e-b4c6-c1f14e357baf">
+      <image file="Art\3f290ec4-a87b-407e-b4c6-c1f14e357baf\3f290ec4-a87b-407e-b4c6-c1f14e357baf.png" metadataAssetGuid="3f290ec4-a87b-407e-b4c6-c1f14e357baf">
+        <title>o15_xl_stock_v-o-h-l-c-chart</title>
+        <altText>Volume-open-high-low-close stock chart</altText>
+      </image>
+    </item>
+    <item id="d4f09939-b136-48da-9f21-c2e1f23e1a21">
+      <image file="Art\d4f09939-b136-48da-9f21-c2e1f23e1a21\d4f09939-b136-48da-9f21-c2e1f23e1a21.png" metadataAssetGuid="d4f09939-b136-48da-9f21-c2e1f23e1a21">
+        <title>o15_xl_doughnut_chart</title>
+        <altText>Doughnut chart</altText>
+      </image>
+    </item>
+    <item id="0bdb97c5-03af-4b00-9bf9-c3dda9a48256">
+      <image file="Art\0bdb97c5-03af-4b00-9bf9-c3dda9a48256\0bdb97c5-03af-4b00-9bf9-c3dda9a48256.png" metadataAssetGuid="0bdb97c5-03af-4b00-9bf9-c3dda9a48256">
+        <title>o15_xl_surface_contour</title>
+        <altText>Contour chart</altText>
+      </image>
+    </item>
+    <item id="4bc65e30-f1a2-43d2-91b8-c985187a5e5c">
+      <image file="Art\4bc65e30-f1a2-43d2-91b8-c985187a5e5c\4bc65e30-f1a2-43d2-91b8-c985187a5e5c.gif" metadataAssetGuid="4bc65e30-f1a2-43d2-91b8-c985187a5e5c">
+        <title>mac_chart_area</title>
+        <altText>chart area</altText>
+      </image>
+    </item>
+    <item id="f8d6d8fa-b91c-40c3-984a-ce8e09548a8f">
+      <image file="Art\f8d6d8fa-b91c-40c3-984a-ce8e09548a8f\f8d6d8fa-b91c-40c3-984a-ce8e09548a8f.jpg" metadataAssetGuid="f8d6d8fa-b91c-40c3-984a-ce8e09548a8f">
+        <title>o15_xl_availablecharts_doughnut</title>
+        <altText>Doughnut chart</altText>
+      </image>
+    </item>
+    <item id="6b66e74a-916b-44f7-993a-cf84adac4889">
+      <image file="Art\6b66e74a-916b-44f7-993a-cf84adac4889\6b66e74a-916b-44f7-993a-cf84adac4889.gif" metadataAssetGuid="6b66e74a-916b-44f7-993a-cf84adac4889">
+        <title>mac_chart_radar</title>
+        <altText>chart radar</altText>
+      </image>
+    </item>
+    <item id="66484877-6f26-415b-88eb-d012ad978b31">
+      <image file="Art\66484877-6f26-415b-88eb-d012ad978b31\66484877-6f26-415b-88eb-d012ad978b31.png" metadataAssetGuid="66484877-6f26-415b-88eb-d012ad978b31">
+        <title>o15_xl_custom_comb_chart</title>
+        <altText>Custom combination chart</altText>
+      </image>
+    </item>
+    <item id="d3032b87-48b7-4efb-ac66-d347a697e220">
+      <image file="Art\d3032b87-48b7-4efb-ac66-d347a697e220\d3032b87-48b7-4efb-ac66-d347a697e220.jpg" metadataAssetGuid="d3032b87-48b7-4efb-ac66-d347a697e220">
+        <title>o15_xl_availablecharts_bubble</title>
+        <altText>Bubble chart</altText>
+      </image>
+    </item>
+    <item id="d0207f97-7990-4951-b7cc-d57ec32a05ea">
+      <image file="Art\d0207f97-7990-4951-b7cc-d57ec32a05ea\d0207f97-7990-4951-b7cc-d57ec32a05ea.gif" metadataAssetGuid="d0207f97-7990-4951-b7cc-d57ec32a05ea">
+        <title>mac_chart_column</title>
+        <altText>chart column</altText>
+      </image>
+    </item>
+    <item id="8d878b5d-2eb7-4265-8eea-d8cc8a32dd96">
+      <image file="Art\8d878b5d-2eb7-4265-8eea-d8cc8a32dd96\8d878b5d-2eb7-4265-8eea-d8cc8a32dd96.png" metadataAssetGuid="8d878b5d-2eb7-4265-8eea-d8cc8a32dd96">
+        <title>o15_xl_combo_stacked_clustered_column_chart</title>
+        <altText>Stacked area - clustered column chart</altText>
+      </image>
+    </item>
+    <item id="e73b838d-b62e-4656-bb8b-e43f14a646dc">
+      <image file="Art\e73b838d-b62e-4656-bb8b-e43f14a646dc\e73b838d-b62e-4656-bb8b-e43f14a646dc.png" metadataAssetGuid="e73b838d-b62e-4656-bb8b-e43f14a646dc">
+        <title>XL16WinParetoRecoChart</title>
+        <altText>Pareto chart sub-type in the Histogram available charts</altText>
+      </image>
+    </item>
+    <item id="106901cb-25e4-4be4-8ea2-e64b0dd62e0d">
+      <image file="Art\106901cb-25e4-4be4-8ea2-e64b0dd62e0d\106901cb-25e4-4be4-8ea2-e64b0dd62e0d.jpg" metadataAssetGuid="106901cb-25e4-4be4-8ea2-e64b0dd62e0d">
+        <title>o15_xl_availablecharts_scatter</title>
+        <altText>Scatter chart</altText>
+      </image>
+    </item>
+    <item id="886d1a27-3744-417b-a3e5-e9b9878e5760">
+      <image file="Art\886d1a27-3744-417b-a3e5-e9b9878e5760\886d1a27-3744-417b-a3e5-e9b9878e5760.jpg" metadataAssetGuid="886d1a27-3744-417b-a3e5-e9b9878e5760">
+        <title>o15_xl_availablecharts_area</title>
+        <altText>Area chart</altText>
+      </image>
+    </item>
+    <item id="b6759630-df3c-40ae-b3d5-eec89167256c">
+      <image file="Art\b6759630-df3c-40ae-b3d5-eec89167256c\b6759630-df3c-40ae-b3d5-eec89167256c.png" metadataAssetGuid="b6759630-df3c-40ae-b3d5-eec89167256c">
+        <title>o15_xl_area_3d_area_charts</title>
+        <altText>Area and 3-D area charts</altText>
+      </image>
+    </item>
+    <item id="195257f5-c806-4c2b-885a-f0000b5ebb54">
+      <image file="Art\195257f5-c806-4c2b-885a-f0000b5ebb54\195257f5-c806-4c2b-885a-f0000b5ebb54.gif" metadataAssetGuid="195257f5-c806-4c2b-885a-f0000b5ebb54">
+        <title>mac_chart_bar</title>
+        <altText>chart bar</altText>
+      </image>
+    </item>
+    <item id="fef1636d-3032-4818-b900-f3d233437e28">
+      <image file="Art\fef1636d-3032-4818-b900-f3d233437e28\fef1636d-3032-4818-b900-f3d233437e28.gif" metadataAssetGuid="fef1636d-3032-4818-b900-f3d233437e28">
+        <title>mac_chart_stock</title>
+        <altText>chart stock</altText>
+      </image>
+    </item>
+    <item id="ef6eb027-6f81-4054-aec2-f75c6bfd34bb">
+      <image file="Art\ef6eb027-6f81-4054-aec2-f75c6bfd34bb\ef6eb027-6f81-4054-aec2-f75c6bfd34bb.png" metadataAssetGuid="ef6eb027-6f81-4054-aec2-f75c6bfd34bb">
+        <title>o15_xl_line_charts</title>
+        <altText>Line and line with markers charts</altText>
+      </image>
+    </item>
+    <item id="1efa0894-ad23-4955-8b4e-fbc30b67afea">
+      <image file="Art\1efa0894-ad23-4955-8b4e-fbc30b67afea\1efa0894-ad23-4955-8b4e-fbc30b67afea.png" metadataAssetGuid="1efa0894-ad23-4955-8b4e-fbc30b67afea">
+        <title>o15_xl_100_pct_stacked_area_charts</title>
+        <altText>100% stacked area and 3-D 100% stacked area charts</altText>
+      </image>
+    </item>
+    <item id="affee6b3-c3db-47c1-8a0e-fc621e90fa90">
+      <image file="Art\affee6b3-c3db-47c1-8a0e-fc621e90fa90\affee6b3-c3db-47c1-8a0e-fc621e90fa90.jpg" metadataAssetGuid="affee6b3-c3db-47c1-8a0e-fc621e90fa90">
+        <title>o15_xl_availablecharts_radar</title>
+        <altText>Radar chart</altText>
+      </image>
+    </item>
+    <item id="7e7f26cb-e563-4b73-956d-fd0625472cdf">
+      <image file="Art\7e7f26cb-e563-4b73-956d-fd0625472cdf\7e7f26cb-e563-4b73-956d-fd0625472cdf.png" metadataAssetGuid="7e7f26cb-e563-4b73-956d-fd0625472cdf">
+        <title>XL16WinHistogramChart</title>
+        <altText>Sample histogram</altText>
+      </image>
+    </item>
+  </art>
+</metadata>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata fileAssetGuid="cace0fd8-eed9-4aa2-b3c6-07d39895886c" assetTypeId="CompanionFile">
+  <topic id="cace0fd8-eed9-4aa2-b3c6-07d39895886c" revisionNumber="8" createDate="2014-05-16T21:36:00.000">
+    <title>Word for new users</title>
+  </topic>
+  <attributes>
+    <attribute name="Asset Begin Date">2009-11-06T00:00:00.000</attribute>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn some basic tasks, such as starting and quitting Word, opening and closing documents, formatting text, and using predetermined styles.</attribute>
+    <attribute name="DCSext.Audience">End User</attribute>
+    <attribute name="DCSext.Confidentiality">customer ready</attribute>
+    <attribute name="DCSext.ContentType">Discovery</attribute>
+    <attribute name="DCSext.OperatingSystems">not applied</attribute>
+    <attribute name="DCSext.Product">WORD</attribute>
+    <attribute name="DCSext.ProficiencyLevel">Proficient (200)</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2010</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2013</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2016</attribute>
+    <attribute name="DCSext.RelatedProducts">Word 2019</attribute>
+    <attribute name="DCSext.RelatedProducts">Word for Office 365</attribute>
+    <attribute name="DCSext.Role">not applied</attribute>
+    <attribute name="OCMS Asset ID">HA101631510</attribute>
+    <attribute name="OCMS Version">8.7</attribute>
+    <attribute name="ProjectFileAssetType">DocSchema</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Version Tab</attribute>
+    <attribute name="zztool_createRawhideTopicItems">Yes</attribute>
+    <attribute name="zztool_trackedInRawhide">Yes</attribute>
+    <attribute name="search.operatingSystemid">7478f241-7574-45ef-959c-b8be90099896</attribute>
+    <attribute name="search.operatingSystem">not applied</attribute>
+    <attribute name="search.contenttype">Discovery</attribute>
+    <attribute name="search.audienceType">End User</attribute>
+    <attribute name="Search.OCMSasset">HA101631510</attribute>
+    <attribute name="search.appverid">ZWD140</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">14</attribute>
+    <attribute name="search.appverid">ZWD150</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.appverid">ZWD160</attribute>
+    <attribute name="search.applicationSuite">Word</attribute>
+    <attribute name="search.softwareVersion">16</attribute>
+    <attribute name="search.sku">Word</attribute>
+    <attribute name="search.skuid">ZWD160</attribute>
+    <attribute name="search.appverid">ZWD190</attribute>
+    <attribute name="search.softwareVersion">19</attribute>
+    <attribute name="search.appverid">ZWD900</attribute>
+    <attribute name="search.softwareVersion">90</attribute>
+    <attribute name="search.assetid">cace0fd8-eed9-4aa2-b3c6-07d39895886c</attribute>
+  </attributes>
+  <art>
+    <item id="bd297564-4e3b-4691-b2f3-06329ff2e256">
+      <image file="Art\bd297564-4e3b-4691-b2f3-06329ff2e256\bd297564-4e3b-4691-b2f3-06329ff2e256.jpg" metadataAssetGuid="bd297564-4e3b-4691-b2f3-06329ff2e256">
+        <title>wd14_button_fontsuperscript</title>
+        <altText>Superscript Button</altText>
+      </image>
+    </item>
+    <item id="e471ddd8-e5ae-4a7a-9f99-084e7218c0e0">
+      <image file="Art\e471ddd8-e5ae-4a7a-9f99-084e7218c0e0\e471ddd8-e5ae-4a7a-9f99-084e7218c0e0.jpg" metadataAssetGuid="e471ddd8-e5ae-4a7a-9f99-084e7218c0e0">
+        <title>wd14_button_fontsubscript</title>
+        <altText>Subscript Button</altText>
+      </image>
+    </item>
+    <item id="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+      <image file="Art\MSN_Video_Widget\MSN_Video_Widget.gif" metadataAssetGuid="4873755a-8b1e-497e-bc54-101d1e75d3e7">
+        <title>Please wait while the media loads</title>
+        <altText>Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.</altText>
+      </image>
+    </item>
+    <item id="817e00c0-0788-4f9c-8362-1d0aad718266">
+      <image file="Art\817e00c0-0788-4f9c-8362-1d0aad718266\817e00c0-0788-4f9c-8362-1d0aad718266.gif" metadataAssetGuid="817e00c0-0788-4f9c-8362-1d0aad718266">
+        <title>small_vista_start</title>
+        <altText>Button image</altText>
+      </image>
+    </item>
+    <item id="9aa50225-e313-4068-a73c-3fee6a2c03a5">
+      <image file="Art\9aa50225-e313-4068-a73c-3fee6a2c03a5\9aa50225-e313-4068-a73c-3fee6a2c03a5.jpg" metadataAssetGuid="9aa50225-e313-4068-a73c-3fee6a2c03a5">
+        <title>wd14_button_fontsize</title>
+        <altText>Font Size Button</altText>
+      </image>
+    </item>
+    <item id="f9331f70-22cd-435a-8cb8-44d27e613c31">
+      <image file="Art\f9331f70-22cd-435a-8cb8-44d27e613c31\f9331f70-22cd-435a-8cb8-44d27e613c31.png" metadataAssetGuid="f9331f70-22cd-435a-8cb8-44d27e613c31">
+        <title>WinWordCloseButton</title>
+        <altText>Close</altText>
+      </image>
+    </item>
+    <item id="4e876d78-eba5-4ceb-a84a-4e7f733289d6">
+      <image file="Art\4e876d78-eba5-4ceb-a84a-4e7f733289d6\4e876d78-eba5-4ceb-a84a-4e7f733289d6.png" metadataAssetGuid="4e876d78-eba5-4ceb-a84a-4e7f733289d6">
+        <title>Word2016ui</title>
+        <altText>Word user interface</altText>
+      </image>
+    </item>
+    <item id="74208996-048f-4ec7-be54-4fb1e5f7b18a">
+      <image file="Art\74208996-048f-4ec7-be54-4fb1e5f7b18a\74208996-048f-4ec7-be54-4fb1e5f7b18a.jpg" metadataAssetGuid="74208996-048f-4ec7-be54-4fb1e5f7b18a">
+        <title>wd14_button_fontclearformatting</title>
+        <altText>Clear Formatting Button</altText>
+      </image>
+    </item>
+    <item id="b80be7f8-e354-4f12-84f3-5987d4dacb3f">
+      <image file="Art\b80be7f8-e354-4f12-84f3-5987d4dacb3f\b80be7f8-e354-4f12-84f3-5987d4dacb3f.jpg" metadataAssetGuid="b80be7f8-e354-4f12-84f3-5987d4dacb3f">
+        <title>wd14_ribbon_tabgroupbutton</title>
+        <altText>Word 2010 Ribbon</altText>
+      </image>
+    </item>
+    <item id="65688a39-2a62-4000-8d6a-5d5295a216e8">
+      <image file="Art\65688a39-2a62-4000-8d6a-5d5295a216e8\65688a39-2a62-4000-8d6a-5d5295a216e8.jpg" metadataAssetGuid="65688a39-2a62-4000-8d6a-5d5295a216e8">
+        <title>wd14_button_fontshrink</title>
+        <altText>Shrink Font Button</altText>
+      </image>
+    </item>
+    <item id="9f3e1200-2b41-4225-abbb-6a6218699bfd">
+      <image file="Art\9f3e1200-2b41-4225-abbb-6a6218699bfd\9f3e1200-2b41-4225-abbb-6a6218699bfd.jpg" metadataAssetGuid="9f3e1200-2b41-4225-abbb-6a6218699bfd">
+        <title>wd14_button_fonttexthighlightcolor</title>
+        <altText>Text Highlight Color Button</altText>
+      </image>
+    </item>
+    <item id="32f0401f-f495-46d7-964b-75d1a02ba6ca">
+      <image file="Art\32f0401f-f495-46d7-964b-75d1a02ba6ca\32f0401f-f495-46d7-964b-75d1a02ba6ca.png" metadataAssetGuid="32f0401f-f495-46d7-964b-75d1a02ba6ca">
+        <title>Win10Start</title>
+        <altText>Windows Start button</altText>
+      </image>
+    </item>
+    <item id="e5c77bcb-15cc-45a4-b379-9907fec779ec">
+      <image file="Art\e5c77bcb-15cc-45a4-b379-9907fec779ec\e5c77bcb-15cc-45a4-b379-9907fec779ec.jpg" metadataAssetGuid="e5c77bcb-15cc-45a4-b379-9907fec779ec">
+        <title>wd14_button_fontcolor</title>
+        <altText>Font Color Button</altText>
+      </image>
+    </item>
+    <item id="eb57a24e-0dd6-4de4-ac14-a68ce991ed5e">
+      <image file="Art\eb57a24e-0dd6-4de4-ac14-a68ce991ed5e\eb57a24e-0dd6-4de4-ac14-a68ce991ed5e.jpg" metadataAssetGuid="eb57a24e-0dd6-4de4-ac14-a68ce991ed5e">
+        <title>wd14_button_fontstrikethrough</title>
+        <altText>Strikethrough Button</altText>
+      </image>
+    </item>
+    <item id="5c95a2d1-e208-4a51-946d-b73bebe5bc2e">
+      <image file="Art\5c95a2d1-e208-4a51-946d-b73bebe5bc2e\5c95a2d1-e208-4a51-946d-b73bebe5bc2e.jpg" metadataAssetGuid="5c95a2d1-e208-4a51-946d-b73bebe5bc2e">
+        <title>wd14_button_font</title>
+        <altText>Font Button</altText>
+      </image>
+    </item>
+    <item id="5cb51f26-d500-4c4a-bf41-b8664a09766a">
+      <image file="Art\5cb51f26-d500-4c4a-bf41-b8664a09766a\5cb51f26-d500-4c4a-bf41-b8664a09766a.jpg" metadataAssetGuid="5cb51f26-d500-4c4a-bf41-b8664a09766a">
+        <title>wd14_button_fontbold</title>
+        <altText>Bold Button</altText>
+      </image>
+    </item>
+    <item id="8152f9b0-b073-46e5-b012-bdbc5af50fd6">
+      <image file="Art\8152f9b0-b073-46e5-b012-bdbc5af50fd6\8152f9b0-b073-46e5-b012-bdbc5af50fd6.jpg" metadataAssetGuid="8152f9b0-b073-46e5-b012-bdbc5af50fd6">
+        <title>wd14_button_fontchangecase</title>
+        <altText>Change Case Button</altText>
+      </image>
+    </item>
+    <item id="9a9d042c-507a-4ddb-89fa-c2578e4cce94">
+      <image file="Art\9a9d042c-507a-4ddb-89fa-c2578e4cce94\9a9d042c-507a-4ddb-89fa-c2578e4cce94.jpg" metadataAssetGuid="9a9d042c-507a-4ddb-89fa-c2578e4cce94">
+        <title>wd14_button_fontgrow</title>
+        <altText>Grow Font Button</altText>
+      </image>
+    </item>
+    <item id="a4b705dc-baa6-463e-b86a-c7ddd1c0ac6e">
+      <image file="Art\a4b705dc-baa6-463e-b86a-c7ddd1c0ac6e\a4b705dc-baa6-463e-b86a-c7ddd1c0ac6e.jpg" metadataAssetGuid="a4b705dc-baa6-463e-b86a-c7ddd1c0ac6e">
+        <title>wd14_button_fontunderline</title>
+        <altText>Underline Button</altText>
+      </image>
+    </item>
+    <item id="5b30dae1-12e6-45f4-bb66-dec4306ca561">
+      <image file="Art\5b30dae1-12e6-45f4-bb66-dec4306ca561\5b30dae1-12e6-45f4-bb66-dec4306ca561.jpg" metadataAssetGuid="5b30dae1-12e6-45f4-bb66-dec4306ca561">
+        <title>wd14_button_fonttexteffects</title>
+        <altText>Text Effects Button</altText>
+      </image>
+    </item>
+    <item id="8632e7e8-ceff-4c77-97a9-ee54097aa881">
+      <image file="Art\8632e7e8-ceff-4c77-97a9-ee54097aa881\8632e7e8-ceff-4c77-97a9-ee54097aa881.jpg" metadataAssetGuid="8632e7e8-ceff-4c77-97a9-ee54097aa881">
+        <title>wd14_button_fontitalic</title>
+        <altText>Italic Button</altText>
+      </image>
+    </item>
+    <item id="3e4c0b86-b444-4d7d-b04d-f113879206e9">
+      <image file="Art\3e4c0b86-b444-4d7d-b04d-f113879206e9\3e4c0b86-b444-4d7d-b04d-f113879206e9.jpg" metadataAssetGuid="3e4c0b86-b444-4d7d-b04d-f113879206e9">
+        <title>o14_wd_word_window_elements</title>
+        <altText>Elements of the Word window</altText>
+      </image>
+    </item>
+  </art>
+</metadata>
