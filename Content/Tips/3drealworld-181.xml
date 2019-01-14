@@ -1,0 +1,38 @@
+<tipV2 id="3drealworld" xsi:schemaLocation="http://schemas.microsoft.com/schemas/CXCS/GitPub/MSTips/2018 \\thevoid\public\schema\cxcs\gitpub\msTips.xsd" xmlns="http://schemas.microsoft.com/schemas/CXCS/GitPub/MSTips/2018" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <default reportingName="Put 3D models in your world">
+    <metadata>
+      <platform>
+        <entry value="desktop" />
+      </platform>
+      <release>
+        <entry value="rs4" />
+      </release>
+      <sku>
+        <entry value="all" />
+      </sku>
+      <model>
+        <entry value="all" />
+      </model>
+      <product>
+        <entry value="mixedreality" />
+        <entry value="remix3d" />
+      </product>
+      <environment>
+        <entry value="app" />
+        <entry value="mct" />
+      </environment>
+    </metadata>
+    <title>Put 3D models in your world - en-US peter's test</title>
+    <media>
+      <img src="0d38e8ad-c327-42b8-9827-491585a331b1">
+        <altText>Putting a 3D model into mixed reality</altText>
+      </img>
+    </media>
+    <content>
+      <p>Open Mixed Reality Viewer, select <text style="bold">Remix 3D </text><glyph value="&#xF1D1;" />, and import a 3D model. Select <text style="bold">Mixed reality</text> and tap anywhere on your screen to put your model in the world.</p>
+    </content>
+    <cta href="armodelviewing://view" reportingName="Open Mixed Reality Viewer" tags="CTA=button;product=mixedreality">
+      <text>Open Mixed Reality Viewer</text>
+    </cta>
+  </default>
+</tipV2>
